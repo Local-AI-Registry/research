@@ -20,7 +20,7 @@ SOCIAL = [("LinkedIn", "https://www.linkedin.com/company/local-ai-registry"), ("
 def header(base=""):
     """base = path back to the site root ('' on the hub, '../' on a study page)."""
     home = base or "./"
-    return f'''<div class="sitehead" role="banner"><div class="sh-in">
+    return f'''<div class="sitehead" role="banner"><a class="sh-back" href="https://localairegistry.com"><span aria-hidden="true">←</span> Back to Local AI&nbsp;Registry</a><div class="sh-in">
 <a class="sh-brand" href="{home}" aria-label="Local AI Registry Research home"><img src="{base}local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
 <nav class="sh-nav" aria-label="Research"><a href="{home}#library">Library</a><a href="{base}local-answer-gap/">Latest study</a><a href="{home}#research-team">Team</a></nav>
 <div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="{CLAIM}"><span class="sh-l">Claim your free&nbsp;record</span><span class="sh-s">Claim free&nbsp;record</span></a></div>
@@ -34,7 +34,7 @@ def footer(base=""):
 <p>Local AI Registry helps local businesses get found and described accurately by AI. Its dedicated local AI research team publishes original research here, free to use with&nbsp;credit.</p>
 <p class="sf-addr">9891 Irvine Center Dr, Irvine, CA 92618 · <a href="tel:+12139315633">(213)&nbsp;931-5633</a></p></div>
 <nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="{home}#library">Library</a></li><li><a href="{base}local-answer-gap/">The Local Answer Gap</a></li><li><a href="{home}#research-team">Research team</a></li><li><a href="{base}local-answer-gap/#cite">How to cite</a></li><li><a href="{base}llms.txt">llms.txt</a></li></ul></nav>
-<nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="{CLAIM}">Find and claim your business</a></li><li><a href="https://localairegistry.com/brand">Brand</a></li></ul></nav>
+<nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="https://localairegistry.com/leaderboards">Leaderboards</a></li><li><a href="https://localairegistry.com/discover">Discover</a></li><li><a href="https://localairegistry.com/methodology">Methodology</a></li><li><a href="https://localairegistry.com/pricing">Pricing</a></li><li><a href="{CLAIM}">Find and claim your business</a></li><li><a href="https://localairegistry.com/help">Help</a></li><li><a href="https://localairegistry.com/contact">Contact</a></li></ul></nav>
 <nav class="sf-col" aria-label="Follow Local AI Registry"><h2>Follow</h2><ul>{soc}</ul></nav>
 </div><div class="sf-legal">© 2026 Local AI Registry. Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div></div>'''
 
@@ -49,7 +49,8 @@ CSS = """
 .sh-right{margin-left:auto;display:flex;align-items:center;gap:16px;font-size:14px;font-weight:600}
 .sh-cta{background:var(--blue);color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-weight:700;white-space:nowrap}
 .sh-cta:hover{filter:brightness(1.08)}
-@media (max-width:860px){.sh-nav,.sh-main{display:none}}
+.sh-back{display:none}
+@media (max-width:860px){.sh-nav,.sh-main{display:none}.sh-back{display:block;background:var(--deep,#ECE6D8);border-bottom:1px solid var(--line);padding:7px 16px;font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}.sh-back:hover{color:var(--blue)}}
 .sh-s{display:none}
 @media (max-width:560px){.sh-in{gap:12px}.sh-brand{gap:8px}.sh-brand img{width:132px}.sh-tag{padding-left:8px;font-size:10px}.sh-cta{padding:8px 11px;font-size:13px}.sh-l{display:none}.sh-s{display:inline}}
 @media (max-width:380px){.sh-tag{display:none}}

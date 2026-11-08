@@ -268,7 +268,7 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
 .nojs{{position:absolute;bottom:20px;left:20px}}
 @media (max-width:640px){{
- .hero-map{{height:auto;min-height:calc(100svh - 58px);display:flex;flex-direction:column;background:none;overflow:visible;border-bottom:0}}
+ .hero-map{{height:auto;min-height:calc(100svh - 92px);display:flex;flex-direction:column;background:none;overflow:visible;border-bottom:0}}
  .hero-card{{display:contents}}
  .hero-head{{order:1;padding:16px 16px 12px;gap:8px;position:relative;z-index:5}} .hero-head h1{{font-size:30px}} .hero-head p{{display:none}}
  .mapbox{{order:2;position:relative;inset:auto;flex:1 1 auto;min-height:460px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EEDDB8}}
