@@ -1,0 +1,23 @@
+{
+  "_how_to_add_a_study": [
+    "Copy the block below (from { to }), paste it at the top of the studies list, add a comma after it, and change the values.",
+    "type: Study, Brief, Index, Dataset or Experiment.",
+    "ai_assistants: any of ChatGPT, Claude, Gemini, Google AI Overviews, Google AI Mode, Perplexity, Microsoft Copilot, Meta AI.",
+    "topics: short labels. Reuse existing ones when they fit (for example: Med spas, Plastic surgery, Dispensaries, Eye care, Reviews, Citations, Accuracy, Technical AEO).",
+    "date: year-month-day, like 2026-11-07. data_url is optional; leave it out if there is no download.",
+    "Save (Commit changes). The hub rebuilds itself in about a minute."
+  ],
+  "studies": [
+    {
+      "id": "LAIR-R-2026-001",
+      "title": "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses",
+      "url": "local-answer-gap/",
+      "date": "2026-11-07",
+      "type": "Study",
+      "summary": "News outlets supplied 67.5% of the citations in Google’s AI answers about local businesses; businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store.",
+      "ai_assistants": ["Google AI Overviews"],
+      "topics": ["Local search", "Citations", "Retail chains"],
+      "data_url": "local-answer-gap/data/local-answer-gap-data.csv"
+    }
+  ]
+}

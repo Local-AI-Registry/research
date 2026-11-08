@@ -38,9 +38,6 @@ The report and hub already list Local AI Registry's official profiles from the l
 4. Link to the report from localairegistry.com (nav or footer "Research") and from relevant blog posts, so it gets crawled and passes authority.
 5. Optional: add `https://research.localairegistry.com/local-answer-gap/` to the main site's `llms.txt`.
 
-## Adding a new study
-
-Create a new folder (for example `/next-study/`), add a card to `index.html`, and add the URL and images to `sitemap.xml` and `llms.txt`.
 
 ## Launch checklist (in order)
 
@@ -55,3 +52,17 @@ Create a new folder (for example `/next-study/`), add a card to `index.html`, an
 6. Update the Crunchbase, LinkedIn and YouTube "about" sections to mention the research and link to it.
 7. Distribution, which is what actually earns AI mentions: press release (the Nasdaq/Yahoo Finance channel that covered the launch), LinkedIn post from the company page and Steve, a YouTube explainer, pitches to local-business and SEO publications with the ready-to-quote findings and chart embed codes, and partner and referral sites embedding a chart.
 8. When the report is updated, change `dateModified` in the JSON-LD and the date on the page, then resubmit in Search Console and Bing.
+
+## For Flávia: adding a new study
+
+You only ever edit one file: `studies.json`.
+
+1. Put the new study's page in its own folder, for example `/med-spa-ai-study/` (each study is its own page, like `/local-answer-gap/`).
+2. On GitHub, open `studies.json` and click the pencil (Edit).
+3. Copy the existing study block, from `{` to `}`, paste it at the top of the list, put a comma after it, and change the values. The instructions at the top of the file list the allowed types and AI assistant names.
+4. Click "Commit changes". About a minute later the "Build research hub" automation rebuilds the hub page. If something is wrong (a missing field or a misspelled AI assistant name), the automation fails and the Actions tab says exactly which line to fix.
+5. Add the new page to `sitemap.xml` and `llms.txt`.
+
+Search and filters appear on the hub automatically once there are 10 studies.
+
+The hero map lives in `simulations/quiktox-foot-traffic/`. The hub shows it with `?embed=1`, which hides the map's own title card so the hub headline sits on top.

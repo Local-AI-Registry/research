@@ -1,0 +1,252 @@
+"""Builds the research hub (index.html) from studies.json.
+
+Flávia: you never need to run this by hand. Edit studies.json on GitHub and save;
+the "Build research hub" automation runs this script and publishes the page.
+"""
+import re, json, html, os, sys
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PREVIEW = "--preview" in sys.argv
+rep = open(os.path.join(ROOT, "local-answer-gap/index.html")).read()
+auth = re.search(r'<section id="authors"[^>]*>(.*?)</section>', rep, re.S).group(1)
+paras = re.findall(r'<p>.*?</p>', auth, re.S)
+SITE = "https://research.localairegistry.com/"; R = SITE + "local-answer-gap/"
+SAMEAS = re.search(r'"sameAs": (\[[^\]]*\])', rep).group(1)
+IMG = "local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap"
+e = lambda s: html.escape(s, quote=True)
+DESC = "Original AEO research from Local AI Registry on how ChatGPT, Claude, Gemini, Google AI Overviews and Perplexity find and recommend local businesses."
+ld = {"@context": "https://schema.org", "@graph": [
+  {"@type": "Organization", "@id": "https://localairegistry.com/#organization", "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com",
+   "logo": R + "images/local-ai-registry-logo.png", "sameAs": json.loads(SAMEAS),
+   "address": {"@type": "PostalAddress", "streetAddress": "9891 Irvine Center Dr", "addressLocality": "Irvine", "addressRegion": "CA", "postalCode": "92618", "addressCountry": "US"},
+   "telephone": "+1-213-931-5633", "subOrganization": {"@id": SITE + "#research-team"}},
+  {"@type": "ResearchOrganization", "@id": SITE + "#research-team", "name": "Local AI Registry Research Team", "url": SITE + "#research-team", "parentOrganization": {"@id": "https://localairegistry.com/#organization"},
+   "knowsAbout": ["Answer engine optimization", "Generative engine optimization", "Google AI Overviews", "AI search citations", "Local search"]},
+  {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Local AI Registry Research", "publisher": {"@id": "https://localairegistry.com/#organization"}, "inLanguage": "en-US"},
+  {"@type": "CollectionPage", "@id": SITE + "#page", "url": SITE, "name": "Local AI Registry Research", "description": DESC, "isPartOf": {"@id": SITE + "#website"},
+   "about": [{"@type": "Thing", "name": "Answer engine optimization"}, {"@type": "Thing", "name": "Local search"}],
+   "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Local AI Registry", "item": "https://localairegistry.com/"}, {"@type": "ListItem", "position": 2, "name": "Research", "item": SITE}]},
+   "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": R, "name": "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses"}]}}]}
+
+TYPES = ["Study", "Brief", "Index", "Dataset", "Experiment"]
+ENGINES = ["ChatGPT", "Claude", "Gemini", "Google AI Overviews", "Google AI Mode", "Perplexity", "Microsoft Copilot", "Meta AI"]
+FILTERS_AT = 10   # search and filters appear once there are this many studies
+
+def load_studies():
+    data = json.load(open(os.path.join(ROOT, "studies.json")))
+    out = []
+    for i, x in enumerate(data["studies"]):
+        for k in ["id", "title", "url", "date", "type", "summary", "ai_assistants", "topics"]:
+            if not x.get(k): raise SystemExit(f'studies.json entry {i+1} is missing "{k}"')
+        if x["type"] not in TYPES: raise SystemExit(f'studies.json entry {i+1}: type must be one of {TYPES}')
+        bad = [en for en in x["ai_assistants"] if en not in ENGINES]
+        if bad: raise SystemExit(f'studies.json entry {i+1}: unknown AI assistant {bad}. Use one of {ENGINES}')
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", x["date"]): raise SystemExit(f'studies.json entry {i+1}: date must look like 2026-11-07')
+        y, m, d = x["date"].split("-")
+        out.append(dict(id=x["id"], url=x["url"], title=x["title"], date=x["date"],
+            dlabel=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][int(m)-1] + f" {int(d)}, {y}",
+            type=x["type"], engines=x["ai_assistants"], topics=x["topics"], abstract=x["summary"], data=x.get("data_url") or None, real=True))
+    return out
+REAL = load_studies()
+PH = [("How ChatGPT picks a med spa near you","Study",["ChatGPT"],["Med spas"]),
+ ("Do Google reviews change which business AI recommends?","Study",["ChatGPT","Gemini","Google AI Overviews"],["Reviews"]),
+ ("Plastic surgeons in AI answers: who gets named, and why","Study",["ChatGPT","Claude","Perplexity"],["Plastic surgery"]),
+ ("What AI assistants will and won’t say about dispensaries","Brief",["ChatGPT","Claude","Gemini"],["Cannabis"]),
+ ("Claude vs ChatGPT vs Gemini on “best near me” questions","Study",["Claude","ChatGPT","Gemini"],["Comparison"]),
+ ("Does LocalBusiness schema change AI citations?","Experiment",["Google AI Overviews","Perplexity"],["Technical AEO"]),
+ ("How often AI gets business hours wrong","Study",["ChatGPT","Gemini","Microsoft Copilot"],["Accuracy"]),
+ ("Press coverage and AI visibility: does it stick?","Study",["ChatGPT","Perplexity"],["Press"]),
+ ("Eye surgeons in AI search","Brief",["ChatGPT","Gemini"],["Ophthalmology"]),
+ ("AI Visibility Index: Orange County med spas","Index",["ChatGPT","Claude","Gemini","Perplexity"],["Med spas","Index"]),
+ ("From AI answer to booked visit: what happens next","Study",["ChatGPT"],["Bookings"]),
+ ("Local AI answers by city size","Dataset",["Google AI Overviews"],["Geography"])]
+PLACE = [dict(id="LAIR-R-PLACEHOLDER-%02d" % (i+1), url="#", title=t, date="2026-10-%02d" % (28-i), dlabel="Date TBD", type=ty, engines=en, topics=tp,
+  abstract="Placeholder study for layout review. Not real research; no findings yet.", data=None, n="", real=False) for i,(t,ty,en,tp) in enumerate(PH)]
+
+def row(x):
+    eng = ", ".join(x["engines"]); tops = "".join(f'<li>{e(t)}</li>' for t in x["topics"])
+    attrs = f'data-type="{e(x["type"])}" data-engines="{e("|".join(x["engines"]))}" data-topics="{e("|".join(x["topics"]))}" data-date="{x["date"]}" data-text="{e((x["title"]+" "+x["abstract"]+" "+eng+" "+" ".join(x["topics"])).lower())}"'
+    badge = "" if x["real"] else '<span class="ph">Placeholder</span>'
+    title = f'<a href="{x["url"]}">{e(x["title"])}</a>' if x["real"] else e(x["title"])
+    links = (f'<a href="{x["url"]}">Read</a><a href="{x["url"]}#cite">Cite</a>' + (f'<a href="{x["data"]}">Data (CSV)</a>' if x["data"] else "")) if x["real"] else '<span>Read</span><span>Cite</span><span>Data</span>'
+    return (f'<li class="st{"" if x["real"] else " is-ph"}" {attrs}><div class="st-meta"><span class="st-type">{e(x["type"])}</span><span>{e(x["dlabel"])}</span><span class="st-id">{e(x["id"])}</span>{badge}</div>'
+            f'<h3>{title}</h3><p>{e(x["abstract"])}</p><div class="st-foot"><span class="st-eng">{e(eng)}</span><ul class="tags">{tops}</ul><span class="st-links">{links}</span></div></li>')
+
+def library(items):
+    types = sorted({x["type"] for x in items}); engs = sorted({en for x in items for en in x["engines"]}); tops = sorted({t for x in items for t in x["topics"]})
+    opt = lambda lst: "".join(f'<option value="{e(v)}">{e(v)}</option>' for v in lst)
+    return f'''<section class="lib" id="library" aria-labelledby="libh">
+<div class="lib-head"><div><div class="k">Research library</div><h2 id="libh">Studies, indexes and datasets</h2></div>
+<p class="lib-count" id="count" aria-live="polite">{len(items)} {"study" if len(items)==1 else "studies"}</p></div>
+{'<form class="lib-tools" role="search" onsubmit="return false">' if len(items) >= FILTERS_AT else '<form class="lib-tools" hidden onsubmit="return false">'}
+<label class="srch"><span class="sr">Search the research</span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search studies, topics or AI assistants" autocomplete="off"></label>
+<label><span class="sr">Topic</span><select id="f-topic"><option value="">All topics</option>{opt(tops)}</select></label>
+<label><span class="sr">AI assistant</span><select id="f-eng"><option value="">All AI assistants</option>{opt(engs)}</select></label>
+<label><span class="sr">Type</span><select id="f-type"><option value="">All types</option>{opt(types)}</select></label>
+<label><span class="sr">Sort</span><select id="f-sort"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="az">A to Z</option></select></label>
+</form>
+<ol class="studies" id="studies">{"".join(row(x) for x in items)}</ol>
+<p class="empty" id="empty" hidden>No studies match. Try a different search or clear the filters.</p>
+<div class="more"><button type="button" id="more" hidden>Show more</button></div>
+</section>'''
+
+JS = r'''<script>
+(function(){
+  var f=document.getElementById('sim');
+  function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
+  if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
+  var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
+      ft=document.getElementById('f-topic'), fe=document.getElementById('f-eng'), fy=document.getElementById('f-type'), fs=document.getElementById('f-sort'),
+      count=document.getElementById('count'), empty=document.getElementById('empty'), more=document.getElementById('more'), PAGE=20, shown=PAGE;
+  function apply(reset){
+    if(reset) shown=PAGE;
+    var words=q.value.toLowerCase().trim().split(/\s+/).filter(Boolean), t=ft.value, en=fe.value, ty=fy.value;
+    var hit=rows.filter(function(r){
+      if(t && r.dataset.topics.split('|').indexOf(t)<0) return false;
+      if(en && r.dataset.engines.split('|').indexOf(en)<0) return false;
+      if(ty && r.dataset.type!==ty) return false;
+      return words.every(function(w){return r.dataset.text.indexOf(w)>-1;});
+    });
+    var s=fs.value; hit.sort(function(a,b){ if(s==='az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent);
+      return s==='old' ? a.dataset.date.localeCompare(b.dataset.date) : b.dataset.date.localeCompare(a.dataset.date); });
+    rows.forEach(function(r){r.hidden=true;});
+    hit.forEach(function(r,i){ list.appendChild(r); r.hidden = i>=shown; });
+    count.textContent=hit.length+(hit.length===1?' study':' studies');
+    empty.hidden=hit.length>0; more.hidden=hit.length<=shown;
+  }
+  [q,ft,fe,fy,fs].forEach(function(el){el.addEventListener(el===q?'input':'change',function(){apply(true);});});
+  more.addEventListener('click',function(){shown+=PAGE;apply(false);});
+  apply(true);
+})();
+</script>'''
+
+def build(fb, prev=False):
+    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "simulations/quiktox-foot-traffic/?embed=1"
+    fav = "" if prev else '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
+    return f'''<!doctype html>
+<html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Local AI Registry Research: Local AEO Studies and Data</title>
+<meta name="description" content="{e(DESC)}">
+<link rel="canonical" href="{SITE}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+{fav}<meta name="theme-color" content="#F4F1EA">
+<meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Local AI Registry Research"><meta property="og:title" content="Local AI Registry Research"><meta property="og:description" content="{e(DESC)}"><meta property="og:url" content="{SITE}">
+<meta property="og:image" content="{SITE}{IMG}.png"><meta property="og:image:width" content="2000"><meta property="og:image:height" content="1310"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry">
+<link rel="alternate" type="text/plain" href="{SITE}llms.txt" title="llms.txt">
+<link rel="preload" href="{fb}hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="{fb}cormorant.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{{font-family:'Hanken Grotesk';src:url({fb}hanken-grotesk.woff2) format('woff2');font-weight:400 700;font-display:swap}}
+@font-face{{font-family:'Bricolage Grotesque';src:url({fb}bricolage-grotesque.woff2) format('woff2');font-weight:600 800;font-display:swap}}
+@font-face{{font-family:'Cormorant';src:url({fb}cormorant.woff2) format('woff2');font-weight:500 600;font-display:swap}}
+:root{{--paper:#F4F1EA;--card:#FBF9F4;--deep:#ECE6D6;--ink:#0B1A2E;--muted:#4A5A72;--blue:#1F4FE0;--line:#D8D2C3;--tint:#E6EBFA;--f-head:"Bricolage Grotesque",system-ui,sans-serif;--f-display:"Cormorant",Georgia,serif}}
+*{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 "Hanken Grotesk",system-ui,sans-serif}}
+a{{color:var(--blue)}}p,li{{text-wrap:pretty}}h1,h2,h3{{margin:0;text-wrap:balance}}
+.wrap{{max-width:1040px;margin:0 auto;padding:0 16px}}
+header.top{{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;border-bottom:1px solid var(--line)}}
+header.top img{{display:block;width:190px;height:auto}}
+header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.top nav a{{color:var(--ink);text-decoration:none}}
+@media (max-width:600px){{header.top{{flex-wrap:wrap}} header.top img{{width:160px}} header.top nav{{gap:14px;font-size:13px}} header.top nav a:last-child{{display:none}}}}
+.k{{font:800 12px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}}
+.hero-map{{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:max(560px,calc(100svh - 65px));background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%);overflow:hidden;border-bottom:1px solid var(--line)}}
+.hero-map iframe{{position:absolute;inset:0;width:100%;height:100%;border:0}}
+.hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:470px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
+.hero-card h1{{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}}
+.hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
+.nojs{{position:absolute;bottom:20px;left:20px}}
+@media (max-width:640px){{.hero-card{{left:12px;right:12px;top:12px;max-width:none;padding:14px 16px;gap:8px}} .hero-card h1{{font-size:28px}} .hero-card p:not(.fine){{display:none}} .hero-card .btn{{padding:8px 12px;font-size:14px}}}}
+.intro{{padding:28px 0 16px;display:grid;gap:8px}}
+.intro h1{{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}}
+.mapfig{{margin:0;display:grid;gap:8px}}
+.mapframe{{position:relative;height:clamp(420px,calc(100svh - 250px),760px);border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%)}}
+.mapframe::before{{content:"Loading map";position:absolute;inset:0;display:grid;place-items:center;font:italic 18px var(--f-display);color:#4A2F1B}}
+.mapframe iframe{{position:absolute;inset:0;width:100%;height:100%;border:0}}
+.mapfig figcaption{{font-size:14px;color:var(--muted)}}
+.lede{{font-size:19px;color:var(--ink);max-width:780px;margin:24px 0 0}}
+.ph{{display:inline-block;font:700 11px/1 var(--f-head);letter-spacing:.06em;text-transform:uppercase;border:1.5px dashed var(--muted);color:var(--muted);border-radius:4px;padding:4px 6px;margin-right:6px;vertical-align:1px}}
+.ph.sim{{border-style:solid;border-color:var(--blue);color:var(--blue)}}
+.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}
+.lib{{padding:40px 0 0;display:grid;gap:16px}}
+.lib-head{{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}} .lib-head h2{{font:800 clamp(24px,3vw,30px)/1.2 var(--f-head)}}
+.lib-count{{margin:0;font-size:14px;color:var(--muted)}}
+.lib-tools{{display:grid;grid-template-columns:minmax(0,2.2fr) repeat(4,minmax(0,1fr));gap:8px}}
+@media (max-width:900px){{.lib-tools{{grid-template-columns:repeat(2,minmax(0,1fr))}} .lib-tools .srch{{grid-column:1/-1}}}}
+.lib-tools select,.lib-tools input{{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-height:44px}}
+.srch{{position:relative;display:block}} .srch svg{{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted)}} .srch input{{padding-left:38px}}
+.studies{{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}}
+.st{{padding:16px 0;border-bottom:1px solid var(--line);display:grid;gap:6px}}
+.st-meta{{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted);align-items:center}}
+.st-type{{font:800 11px var(--f-head);letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}} .st-id{{font-variant-numeric:tabular-nums}}
+.st h3{{font:800 19px/1.3 var(--f-head)}} .st h3 a{{color:var(--ink);text-decoration:none}} .st h3 a:hover{{text-decoration:underline}}
+.st p{{margin:0;font-size:15.5px;color:var(--muted);max-width:820px}}
+.st-foot{{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:13px}}
+.st-eng{{color:var(--ink);font-weight:600}}
+.tags{{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}} .tags li{{background:var(--deep);border-radius:999px;padding:2px 9px;font-size:12px}}
+.st-links{{display:flex;gap:12px;margin-left:auto;font-weight:600}}
+.is-ph h3,.is-ph p,.is-ph .st-eng{{color:#8A93A3}} .is-ph .st-links span{{color:#A9AFBA}} .is-ph{{background:repeating-linear-gradient(135deg,transparent 0 10px,rgba(216,210,195,.25) 10px 20px)}}
+.empty{{color:var(--muted)}} .more{{text-align:center}} .more button{{font:inherit;font-weight:700;padding:10px 18px;border-radius:6px;border:1px solid var(--line);background:var(--card);cursor:pointer}}
+.hero{{padding:56px 0 40px;display:grid;gap:16px;max-width:820px}}
+.hero h1{{font:600 clamp(40px,7vw,68px)/1.05 var(--f-display)}}
+.hero p{{font-size:19px;color:var(--muted);max-width:700px;margin:0}}
+.feature{{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:28px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px;align-items:center}}
+@media (max-width:820px){{.feature{{grid-template-columns:minmax(0,1fr)}}}}
+.feature img{{width:100%;height:auto;border-radius:6px;border:1px solid var(--line);display:block}}
+.feature h2{{font:800 clamp(23px,3vw,30px)/1.2 var(--f-head);letter-spacing:-.01em}} .feature h2 a{{color:var(--ink);text-decoration:none}}
+.feature .body{{display:grid;gap:14px}} .feature p{{margin:0;color:var(--muted)}}
+.stats{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}}
+.stats li{{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:13.5px;line-height:1.35;color:var(--muted)}}
+.stats b{{display:block;font:800 26px/1.1 var(--f-head);color:var(--blue);margin-bottom:2px}}
+.cta{{display:flex;flex-wrap:wrap;gap:10px}} .btn{{display:inline-block;padding:10px 16px;border-radius:6px;font-weight:700;font-size:15px;text-decoration:none}}
+.btn.p{{background:var(--blue);color:#fff}} .btn.s{{border:1px solid var(--line);color:var(--ink);background:var(--card)}}
+section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 clamp(24px,3vw,30px)/1.2 var(--f-head)}}
+.grid4{{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px;margin:0;padding:0;list-style:none}}
+.grid4 li{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px}} .grid4 h3{{font:800 17px/1.3 var(--f-head);margin-bottom:6px}} .grid4 p{{margin:0;font-size:15px;color:var(--muted)}}
+.team p{{max-width:780px;margin:0}} .fine{{font-size:13px;color:var(--muted)}}
+.note{{margin-top:48px;background:var(--tint);border-left:3px solid var(--blue);border-radius:4px;padding:18px 20px;display:grid;gap:8px;max-width:820px}}
+.note p{{margin:0}} .note .t{{font:600 23px/1.25 var(--f-display)}}
+footer{{margin-top:56px;padding:24px 0 40px;border-top:1px solid var(--line);font-size:14px;color:var(--muted);display:grid;gap:8px}}
+footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
+</style>
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
+<body><div class="wrap">
+<header class="top"><a href="https://localairegistry.com" aria-label="Local AI Registry home"><img src="local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="190" height="24"></a>
+<nav aria-label="Main"><a href="#library">Library</a><a href="local-answer-gap/">Latest study</a><a href="#research-team">Team</a><a href="https://localairegistry.com">localairegistry.com</a></nav></header>
+<main>
+<section class="hero-map" aria-labelledby="h1">
+<iframe id="sim" title="Interactive map: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="{MAPSRC}" allow="fullscreen"></iframe>
+<noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript>
+<div class="hero-card"><div class="k">Local AI Registry Research</div>
+<h1 id="h1">How AI sends customers through the&nbsp;door</h1>
+<p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
+<div class="cta"><a class="btn p" href="#library">Explore the research</a><a class="btn s" href="local-answer-gap/">Latest study</a></div>
+<p class="fine">Drag, zoom and scrub the week. Real streets around Quiktox in Costa Mesa, California; foot traffic is&nbsp;illustrative.</p></div>
+</section>
+
+{library(REAL + (PLACE if prev else []))}
+
+<section class="blk" aria-labelledby="study"><h2 id="study">What we study</h2>
+<ul class="grid4">
+<li><h3>Where AI gets local facts</h3><p>Which sources AI assistants cite when they answer questions about local&nbsp;businesses.</p></li>
+<li><h3>What AI can read</h3><p>Which pages, listings and formats AI can actually read and verify.</p></li>
+<li><h3>How answers change</h3><p>How wording, timing and the assistant used change who gets recommended.</p></li>
+<li><h3>What owners can do</h3><p>Turning every finding into steps a local business can take, tested on real&nbsp;businesses.</p></li></ul></section>
+
+<section class="blk team" id="research-team" aria-labelledby="t"><h2 id="t">About the Local AI Registry Research Team</h2>
+{chr(10).join(paras).replace('href="https://research.localairegistry.com/local-answer-gap/#references"','href="local-answer-gap/#references"').replace('href="#references"','href="local-answer-gap/#references"')}
+<p>The team also turns its findings into plain-language explainers on the <a href="https://www.youtube.com/@localairegistry">Local AI Registry YouTube channel</a>.</p></section>
+
+<section class="blk" aria-labelledby="use"><h2 id="use">Use our research</h2>
+<p style="margin:0;max-width:780px">All charts and findings are free to use with credit under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Every chart has a ready-made embed code, and the data behind each study is downloadable. Please credit “Local AI Registry” and link to the study.</p></section>
+
+<aside class="note"><div class="k">One last thing</div><p class="t">AI is evolving every day. So is our&nbsp;research.</p>
+<p>The engines change how they find, read and cite local businesses constantly. Local AI Registry’s dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
+</main>
+<footer><div>Local AI Registry · 9891 Irvine Center Dr, Irvine, CA 92618 · (213) 931-5633 · <a href="https://localairegistry.com">localairegistry.com</a></div>
+<div class="soc"><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a><a href="https://www.youtube.com/@localairegistry">YouTube</a><a href="https://x.com/LocalAIRegistry">X</a><a href="https://www.instagram.com/localairegistry/">Instagram</a><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a><a href="https://www.tiktok.com/@localairegistry">TikTok</a><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></div>
+<div>Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="llms.txt">llms.txt</a></div></footer>
+</div>
+{JS}
+</body></html>'''
+out = build("/assets/fonts/")
+assert "\u2014" not in out and "\u2013" not in out
+open(os.path.join(ROOT, "index.html"), "w").write(out)
+if PREVIEW:
+    open(os.path.join(ROOT, "hub-preview.html"), "w").write(build("assets/fonts/", prev=True))
+print(f"Built index.html with {len(REAL)} stud{'y' if len(REAL)==1 else 'ies'}")

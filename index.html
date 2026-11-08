@@ -21,6 +21,13 @@ header.top img{display:block;width:190px;height:auto}
 header.top nav{display:flex;gap:18px;font-size:14px;font-weight:600} header.top nav a{color:var(--ink);text-decoration:none}
 @media (max-width:600px){header.top{flex-wrap:wrap} header.top img{width:160px} header.top nav{gap:14px;font-size:13px} header.top nav a:last-child{display:none}}
 .k{font:800 12px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.hero-map{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:max(560px,calc(100svh - 65px));background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%);overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.hero-card{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:470px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}
+.hero-card h1{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}
+.hero-card p{margin:0;font-size:15.5px;color:var(--muted)} .hero-card .fine{font-size:12px}
+.nojs{position:absolute;bottom:20px;left:20px}
+@media (max-width:640px){.hero-card{left:12px;right:12px;top:12px;max-width:none;padding:14px 16px;gap:8px} .hero-card h1{font-size:28px} .hero-card p:not(.fine){display:none} .hero-card .btn{padding:8px 12px;font-size:14px}}
 .intro{padding:28px 0 16px;display:grid;gap:8px}
 .intro h1{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}
 .mapfig{margin:0;display:grid;gap:8px}
@@ -32,7 +39,7 @@ header.top nav{display:flex;gap:18px;font-size:14px;font-weight:600} header.top 
 .ph{display:inline-block;font:700 11px/1 var(--f-head);letter-spacing:.06em;text-transform:uppercase;border:1.5px dashed var(--muted);color:var(--muted);border-radius:4px;padding:4px 6px;margin-right:6px;vertical-align:1px}
 .ph.sim{border-style:solid;border-color:var(--blue);color:var(--blue)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-.lib{padding:48px 0 0;display:grid;gap:16px}
+.lib{padding:40px 0 0;display:grid;gap:16px}
 .lib-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap} .lib-head h2{font:800 clamp(24px,3vw,30px)/1.2 var(--f-head)}
 .lib-count{margin:0;font-size:14px;color:var(--muted)}
 .lib-tools{display:grid;grid-template-columns:minmax(0,2.2fr) repeat(4,minmax(0,1fr));gap:8px}
@@ -78,19 +85,20 @@ footer .soc{display:flex;flex-wrap:wrap;gap:6px 16px}
 <header class="top"><a href="https://localairegistry.com" aria-label="Local AI Registry home"><img src="local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="190" height="24"></a>
 <nav aria-label="Main"><a href="#library">Library</a><a href="local-answer-gap/">Latest study</a><a href="#research-team">Team</a><a href="https://localairegistry.com">localairegistry.com</a></nav></header>
 <main>
-<div class="intro"><div class="k">Local AI Registry Research</div>
-<h1>How AI finds, reads and recommends local&nbsp;businesses</h1></div>
-<figure class="mapfig">
-<div class="mapframe"><iframe id="sim" title="Simulation: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="simulations/quiktox-foot-traffic/" allow="fullscreen" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<noscript><a href="simulations/quiktox-foot-traffic/">Open the foot traffic simulation</a></noscript></div>
-<figcaption><span class="ph sim">Simulation</span> When AI names a business, people walk in. Real streets around Quiktox in Costa Mesa; the visitors and AI questions are simulated to show the idea. <a href="simulations/quiktox-foot-traffic/">Open full&nbsp;screen</a></figcaption>
-</figure>
-<p class="lede">Original research from Local AI Registry’s dedicated local AI research team on how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot answer questions about local businesses, and what owners should do about&nbsp;it.</p>
+<section class="hero-map" aria-labelledby="h1">
+<iframe id="sim" title="Interactive map: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="simulations/quiktox-foot-traffic/?embed=1" allow="fullscreen"></iframe>
+<noscript><p class="nojs"><a href="simulations/quiktox-foot-traffic/?embed=1">Open the interactive map</a></p></noscript>
+<div class="hero-card"><div class="k">Local AI Registry Research</div>
+<h1 id="h1">How AI sends customers through the&nbsp;door</h1>
+<p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
+<div class="cta"><a class="btn p" href="#library">Explore the research</a><a class="btn s" href="local-answer-gap/">Latest study</a></div>
+<p class="fine">Drag, zoom and scrub the week. Real streets around Quiktox in Costa Mesa, California; foot traffic is&nbsp;illustrative.</p></div>
+</section>
 
 <section class="lib" id="library" aria-labelledby="libh">
 <div class="lib-head"><div><div class="k">Research library</div><h2 id="libh">Studies, indexes and datasets</h2></div>
 <p class="lib-count" id="count" aria-live="polite">1 study</p></div>
-<form class="lib-tools" role="search" onsubmit="return false">
+<form class="lib-tools" hidden onsubmit="return false">
 <label class="srch"><span class="sr">Search the research</span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search studies, topics or AI assistants" autocomplete="off"></label>
 <label><span class="sr">Topic</span><select id="f-topic"><option value="">All topics</option><option value="Citations">Citations</option><option value="Local search">Local search</option><option value="Retail chains">Retail chains</option></select></label>
 <label><span class="sr">AI assistant</span><select id="f-eng"><option value="">All AI assistants</option><option value="Google AI Overviews">Google AI Overviews</option></select></label>
