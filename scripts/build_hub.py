@@ -105,7 +105,7 @@ JS = r'''<script>
   var f=document.getElementById('sim');
   function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
   if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
-  var GKEY=document.getElementById('finder').getAttribute('data-gkey'), tok=null;
+  var GKEY=document.getElementById('finder').getAttribute('data-gkey'), CONTACT=document.getElementById('finder').getAttribute('data-contact'), tok=null;
   var gq=document.getElementById('gq'), go=document.getElementById('gopts'), gs=document.getElementById('gstatus'), items=[], act=-1, timer=null, seq=0;
   function kindOf(p){ var k=(p.osm_key||'')+'='+(p.osm_value||''), n=(p.name||'').toLowerCase();
     if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin clinic/.test(n)) return 'medspa';
@@ -121,10 +121,13 @@ JS = r'''<script>
   function show(){ go.innerHTML='';
     if(state==='busy'){ go.innerHTML='<li class="none">Searching\u2026</li>'; }
     else if(state==='down'){ go.innerHTML='<li class="none">Business search is busy right now. Try again in a moment.</li>'; }
-    else if(!items.length){ go.innerHTML='<li class="none">Not found. Try the business\u2019s street address.</li>'; }
+    else if(!items.length){ go.innerHTML='<li class="none">No match for that name.</li>'; }
     items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
+    if(state!=='busy'){ var cta=document.createElement('li'); cta.className='cta'+(act===items.length?' on':''); cta.setAttribute('role','option'); cta.id='go'+items.length; cta.setAttribute('aria-selected',act===items.length?'true':'false');
+      var a=document.createElement('a'); a.href=CONTACT; a.textContent='Don\u2019t see your business? Contact us \u2192'; cta.appendChild(a);
+      cta.addEventListener('mousedown',function(e){e.preventDefault(); location.href=CONTACT;}); go.appendChild(cta); }
     if(GKEY&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
     go.hidden=false; gq.setAttribute('aria-expanded','true'); }
   function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close();
@@ -193,9 +196,9 @@ JS = r'''<script>
     state='busy'; items=[]; show();
     timer=setTimeout(function(){ var my=++seq; (GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];state='down';show();} }); },250); });
   gq.addEventListener('keydown',function(e){ if(go.hidden) return;
-    if(e.key==='ArrowDown'){act=Math.min(act+1,items.length-1);show();e.preventDefault();}
+    if(e.key==='ArrowDown'){act=Math.min(act+1,items.length);show();e.preventDefault();}
     else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
-    else if(e.key==='Enter'){ if(act>-1){pickIt(act);} e.preventDefault(); }
+    else if(e.key==='Enter'){ if(act===items.length){location.href=CONTACT;} else if(act>-1){pickIt(act);} e.preventDefault(); }
     else if(e.key==='Escape'){close();} });
   gq.addEventListener('blur',function(){setTimeout(close,150);});
   var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
@@ -259,7 +262,7 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .finder input:focus{{outline:2px solid var(--blue);outline-offset:1px}}
 .finder ul{{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(11,26,46,.18);max-height:320px;overflow:auto}}
 .finder li{{padding:9px 10px;border-radius:6px;cursor:pointer;display:grid;gap:1px}} .finder li[aria-selected=true],.finder li:hover{{background:var(--tint)}}
-.finder li b{{font-weight:700;font-size:15px}} .finder li span{{font-size:13px;color:var(--muted)}} .finder li.attr{{cursor:default;font-size:11px;color:var(--muted);text-align:right;padding:4px 10px}} .finder li.none{{cursor:default;color:var(--muted);font-size:14px}}
+.finder li b{{font-weight:700;font-size:15px}} .finder li span{{font-size:13px;color:var(--muted)}} .finder li.attr{{cursor:default;font-size:11px;color:var(--muted);text-align:right;padding:4px 10px}} .finder li.none{{cursor:default;color:var(--muted);font-size:14px}} .finder li.cta{{border-top:1px solid var(--line,#e3e6ee);margin-top:4px;padding-top:10px}} .finder li.cta a{{color:var(--blue,#1f4fd8);font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}} .finder li.cta a:hover,.finder li.cta.on a{{text-decoration:underline}}
 .hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:540px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
 .hero-card h1{{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}}
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
@@ -334,7 +337,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <section class="hero-map" aria-labelledby="h1">
 <div class="mapbox"><iframe id="sim" title="Interactive map: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="{MAPSRC}" allow="fullscreen"></iframe>
 <noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript>
-<div class="finder" id="finder" data-gkey="{chrome.GOOGLE_PLACES_KEY}"><label class="sr" for="gq">Find any business on the map</label>
+<div class="finder" id="finder" data-gkey="{chrome.GOOGLE_PLACES_KEY}" data-contact="{chrome.CONTACT}"><label class="sr" for="gq">Find any business on the map</label>
 <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
 <input id="gq" type="search" placeholder="Search a business or address" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
 <ul id="gopts" role="listbox" hidden></ul></div></div>
