@@ -66,3 +66,24 @@ You only ever edit one file: `studies.json`.
 Search and filters appear on the hub automatically once there are 10 studies.
 
 The hero map lives in `simulations/quiktox-foot-traffic/`. The hub shows it with `?embed=1`, which hides the map's own title card so the hub headline sits on top.
+
+## For Flávia: adding the 1-minute explainer video
+
+Once the video is live on YouTube, add a `video` block to that study in `studies.json` (the example is at the top of the file) and commit. Within about a minute the site:
+
+- adds the video under the study's short answer, as a click-to-play thumbnail (the page stays fast because YouTube only loads when someone presses play),
+- shows the transcript under it (AI tools read text, not video),
+- adds the video's structured data (VideoObject) and links it to the report,
+- adds the video to `sitemap.xml`,
+- adds a "Video (1:04)" link to the study in the research library.
+
+### On YouTube, every time
+
+1. **Title:** a plain question or finding, for example "Why Google's AI rarely cites your business website (1-minute study)".
+2. **Description, first line:** "Read the full study: " followed by the study link. Then 2 or 3 sentences with the main numbers, then "Data and charts: " and the study link again, then "Local AI Registry: https://localairegistry.com".
+3. **Captions:** upload the script as a caption file (Subtitles > Add > Upload file, or "Auto-sync" with the script). Don't rely on auto-captions.
+4. **Chapters:** if the video has sections, list timestamps in the description starting at 0:00.
+5. **Pinned comment:** "Full study, charts and data: " plus the study link.
+6. **Playlist:** add it to a "Local AI Registry Research" playlist.
+7. **Thumbnail:** a custom one with the headline number, readable on a phone.
+8. **Transcript for the site:** copy it from YouTube (More > Show transcript) or use the script, and paste it into `transcript` in `studies.json`.

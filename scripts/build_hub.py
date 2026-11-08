@@ -41,7 +41,7 @@ def load_studies():
         y, m, d = x["date"].split("-")
         out.append(dict(id=x["id"], url=x["url"], title=x["title"], date=x["date"],
             dlabel=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][int(m)-1] + f" {int(d)}, {y}",
-            type=x["type"], engines=x["ai_assistants"], topics=x["topics"], abstract=x["summary"], data=x.get("data_url") or None, real=True))
+            type=x["type"], engines=x["ai_assistants"], topics=x["topics"], abstract=x["summary"], data=x.get("data_url") or None, vlen=(x.get("video") or {}).get("length"), real=True))
     return out
 REAL = load_studies()
 ld = {"@context": "https://schema.org", "@graph": [
@@ -78,7 +78,7 @@ def row(x):
     attrs = f'data-type="{e(x["type"])}" data-engines="{e("|".join(x["engines"]))}" data-topics="{e("|".join(x["topics"]))}" data-date="{x["date"]}" data-text="{e((x["title"]+" "+x["abstract"]+" "+eng+" "+" ".join(x["topics"])).lower())}"'
     badge = "" if x["real"] else '<span class="ph">Placeholder</span>'
     title = f'<a href="{x["url"]}">{e(x["title"])}</a>' if x["real"] else e(x["title"])
-    links = (f'<a href="{x["url"]}">Read</a><a href="{x["url"]}#cite">Cite</a>' + (f'<a href="{x["data"]}">Data (CSV)</a>' if x["data"] else "")) if x["real"] else '<span>Read</span><span>Cite</span><span>Data</span>'
+    links = (f'<a href="{x["url"]}">Read</a><a href="{x["url"]}#cite">Cite</a>' + (f'<a href="{x["data"]}">Data (CSV)</a>' if x["data"] else "") + (f'<a href="{x["url"]}#video">Video ({e(x["vlen"])})</a>' if x.get("vlen") else "")) if x["real"] else '<span>Read</span><span>Cite</span><span>Data</span>'
     return (f'<li class="st{"" if x["real"] else " is-ph"}" {attrs}><div class="st-meta"><span class="st-type">{e(x["type"])}</span><span>{e(x["dlabel"])}</span><span class="st-id">{e(x["id"])}</span>{badge}</div>'
             f'<h3>{title}</h3><p>{e(x["abstract"])}</p><div class="st-foot"><span class="st-eng">{e(eng)}</span><ul class="tags">{tops}</ul><span class="st-links">{links}</span></div></li>')
 

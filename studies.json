@@ -5,6 +5,8 @@
     "ai_assistants: any of ChatGPT, Claude, Gemini, Google AI Overviews, Google AI Mode, Perplexity, Microsoft Copilot, Meta AI.",
     "topics: short labels. Reuse existing ones when they fit (for example: Med spas, Plastic surgery, Dispensaries, Eye care, Reviews, Citations, Accuracy, Technical AEO).",
     "date: year-month-day, like 2026-11-07. data_url is optional; leave it out if there is no download.",
+    "video (optional, add it once the YouTube explainer is live): copy the example below into the study, right after data_url, with a comma before it. youtube = the video's link, length = how long it runs (like 1:04), uploaded = the day it went live on YouTube, transcript = paste YouTube's transcript or your script (put a blank line between paragraphs as \\n\\n). title and description are optional.",
+    "Video example: \"video\": { \"youtube\": \"https://youtu.be/XXXXXXXXXXX\", \"length\": \"1:04\", \"uploaded\": \"2026-11-12\", \"transcript\": \"First paragraph.\\n\\nSecond paragraph.\" }",
     "Save (Commit changes). The hub rebuilds itself in about a minute."
   ],
   "studies": [

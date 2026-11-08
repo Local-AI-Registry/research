@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://research.localairegistry.com/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://research.localairegistry.com/local-answer-gap/</loc><lastmod>2026-11-07</lastmod>
     <image:image><image:loc>https://research.localairegistry.com/local-answer-gap/images/public-ai-search-datasets-local-query-census.png</image:loc><image:title>Only 2 of 39,676 public AI-search research queries ask AI to find a local provider</image:title><image:caption>Across four public AI-search datasets, 239 of 39,676 unique queries (0.6%) concern a physical business, and only 2 ask an AI to find a local service provider.</image:caption></image:image>
