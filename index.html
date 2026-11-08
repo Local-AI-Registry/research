@@ -210,7 +210,11 @@ section.blk{padding:48px 0 0;display:grid;gap:14px} section.blk h2{font:800 clam
     if(/hairdresser|beauty|nail|salon|barber/.test(k+n)) return /beauty/.test(k)&&/spa/.test(n)?'medspa':'salon';
     return 'other'; }
   function close(){ go.hidden=true; gq.setAttribute('aria-expanded','false'); act=-1; }
-  function show(){ go.innerHTML=''; if(!items.length){ go.innerHTML='<li class="none">No matches yet. Try adding the city.</li>'; }
+  var state='done';
+  function show(){ go.innerHTML='';
+    if(state==='busy'){ go.innerHTML='<li class="none">Searching\u2026</li>'; }
+    else if(state==='down'){ go.innerHTML='<li class="none">Business search is busy right now. Try again in a moment.</li>'; }
+    else if(!items.length){ go.innerHTML='<li class="none">No match. Try adding the street or city.</li>'; }
     items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
@@ -242,7 +246,7 @@ section.blk{padding:48px 0 0;display:grid;gap:14px} section.blk h2{font:800 clam
       .then(function(r){return r.json();}).then(function(j){ if(my!==seq) return;
         items=(j.suggestions||[]).filter(function(x){return x.placePrediction;}).slice(0,6).map(function(x){var p=x.placePrediction, sf=p.structuredFormat||{};
           return {gid:p.placeId,name:(sf.mainText||{}).text||p.text.text,area:(sf.secondaryText||{}).text||'',types:p.types||[]}; });
-        act=items.length?0:-1; show(); });
+        state='done'; act=items.length?0:-1; show(); });
   }
   function resolveGoogle(it){
     return fetch('https://places.googleapis.com/v1/places/'+encodeURIComponent(it.gid)+'?sessionToken='+encodeURIComponent(tok||''),
@@ -252,17 +256,34 @@ section.blk{padding:48px 0 0;display:grid;gap:14px} section.blk h2{font:800 clam
         it.lon=p.location.longitude; it.lat=p.location.latitude; it.city=city; it.area=p.formattedAddress||it.area;
         it.kind=gKind([p.primaryType].concat(p.types||[]),it.name); return it; });
   }
+  function tfetch(url,ms){ var c=('AbortController' in window)?new AbortController():null, t=setTimeout(function(){c&&c.abort();},ms||4000);
+    return fetch(url,c?{signal:c.signal}:{}).then(function(r){clearTimeout(t); if(!r.ok) throw new Error('HTTP '+r.status); return r.json();},function(e){clearTimeout(t);throw e;}); }
+  function nomKind(x){ return kindOf({osm_key:x.class,osm_value:x.type,name:x.name||((x.namedetails||{}).name)||''}); }
+  var lastNom=0;
+  function searchNominatim(q,my){
+    var wait=Math.max(0,1100-(Date.now()-lastNom));   /* Nominatim allows at most one request per second */
+    return new Promise(function(res){setTimeout(res,wait);}).then(function(){ if(my!==seq) return null; lastNom=Date.now();
+      return tfetch('https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&namedetails=1&limit=6&countrycodes=us&viewbox=-118.6,34.4,-117.0,33.2&q='+encodeURIComponent(q),5000); })
+      .then(function(j){ if(!j||my!==seq) return null;
+        return j.filter(function(x){return x.name;}).map(function(x){var a=x.address||{}, city=a.city||a.town||a.village||a.suburb||a.county||'';
+          return {name:x.name,lon:+x.lon,lat:+x.lat,kind:nomKind(x),city:city,area:[[a.house_number,a.road].filter(Boolean).join(' '),city,a.state].filter(Boolean).join(', ')}; }); });
+  }
   function searchOSM(q,my){
-    return fetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q)).then(function(r){return r.json();}).then(function(j){
-      if(my!==seq) return;
-      items=(j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
+    return tfetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q),4000).then(function(j){
+      return (j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
         var city=p.city||p.town||p.village||p.district||p.county||'';
         return {name:p.name,lon:x.geometry.coordinates[0],lat:x.geometry.coordinates[1],kind:kindOf(p),city:city,
-          area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; });
-      act=items.length?0:-1; show(); });
+          area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; }); })
+      .catch(function(){ return null; })
+      .then(function(list){ if(my!==seq) return; if(list&&list.length) return list;
+        return searchNominatim(q,my).catch(function(){ return list===null?'down':[]; }); })
+      .then(function(list){ if(my!==seq||list===undefined) return;
+        if(list==='down'){ items=[]; state='down'; } else { items=list||[]; state='done'; }
+        act=items.length?0:-1; show(); });
   }
-  gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<2){close();return;}
-    timer=setTimeout(function(){ var my=++seq; (GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];show();} }); },200); });
+  gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<3){close();return;}
+    state='busy'; items=[]; show();
+    timer=setTimeout(function(){ var my=++seq; (GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];state='down';show();} }); },250); });
   gq.addEventListener('keydown',function(e){ if(go.hidden) return;
     if(e.key==='ArrowDown'){act=Math.min(act+1,items.length-1);show();e.preventDefault();}
     else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
