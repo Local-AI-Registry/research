@@ -10,7 +10,7 @@ CLAIM = "https://localairegistry.com/search"
 # Restrict it in Google Cloud: Application restriction = Websites (research.localairegistry.com/*, proposals.localairegistry.com/*),
 # API restriction = Places API (New). Leave empty to fall back to the free OpenStreetMap search.
 GOOGLE_PLACES_KEY = ""
-CONTACT = "https://localairegistry.com/contact"
+CONTACT = "https://localairegistry.com/signup/business/new"
 SOCIAL = [("LinkedIn", "https://www.linkedin.com/company/local-ai-registry"), ("YouTube", "https://www.youtube.com/@localairegistry"),
           ("X", "https://x.com/LocalAIRegistry"), ("Instagram", "https://www.instagram.com/localairegistry/"),
           ("Facebook", "https://www.facebook.com/profile.php?id=61591432116527"), ("TikTok", "https://www.tiktok.com/@localairegistry"),

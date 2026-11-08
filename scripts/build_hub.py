@@ -126,7 +126,7 @@ JS = r'''<script>
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
     if(state!=='busy'){ var cta=document.createElement('li'); cta.className='cta'+(act===items.length?' on':''); cta.setAttribute('role','option'); cta.id='go'+items.length; cta.setAttribute('aria-selected',act===items.length?'true':'false');
-      var a=document.createElement('a'); a.href=CONTACT; a.textContent='Don\u2019t see your business? Contact us \u2192'; cta.appendChild(a);
+      var a=document.createElement('a'); a.href=CONTACT; a.textContent='Don\u2019t see your business? Add it free \u2192'; cta.appendChild(a);
       cta.addEventListener('mousedown',function(e){e.preventDefault(); location.href=CONTACT;}); go.appendChild(cta); }
     if(GKEY&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
     go.hidden=false; gq.setAttribute('aria-expanded','true'); }

@@ -287,8 +287,8 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
     function pick(a){return a[Math.floor(Math.random()*a.length)];}
     var walkers=[], prints=[], qk=0, qkEl=document.getElementById('qk'), now=0, last=0, nextSpawn=0;
     /* ---- simulated week: minutes since Monday 00:00 ---- */
-    var _n=new Date(), simMin=((_n.getDay()+6)%7)*1440+_n.getHours()*60+_n.getMinutes(), playing=!still, MIN_PER_SEC=12, qkToday=0, lastDay=Math.floor(simMin/1440);
-    var DAYS=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], DATES=['Nov 9','Nov 10','Nov 11','Nov 12','Nov 13','Nov 14','Nov 15'];
+    var simMin=9*60, playing=!still, MIN_PER_SEC=12, qkToday=0, lastDay=0;
+    var DAYS=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
     function bump(h,c,w){return Math.exp(-Math.pow((h-c)/w,2));}
     function streetBusy(m){ // whole block, 0..1, guessed from typical strip-center patterns
       var d=Math.floor(m/1440)%7, h=(m%1440)/60;
