@@ -120,7 +120,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
   var FALLBACK=[-117.9178,33.6431]; // approximate; replaced by a geocode of the address
   /* The business on the map. Quiktox by default; a visitor can search for any business. */
   var QUIKTOX_URL='https://localairegistry.com/biz/ca/costa-mesa/quiktox-costa-mesa-ca';
-  var HOME={name:'Quiktox',c:FALLBACK,url:QUIKTOX_URL,verified:true,area:'Newport Boulevard, Costa Mesa'};
+  var HOME={name:'Quiktox',c:FALLBACK,url:QUIKTOX_URL,verified:true,area:'Newport Boulevard, Costa Mesa',place:'Costa Mesa Courtyards',placeSub:'Newport Boulevard, in the County of Orange'};
   var KINDS={
     medspa:{label:'med spa',q:['Botox near me','Botox open now?','best med spa nearby','lip filler near me','who does Botox on lunch break?','med spa with good injectors']},
     plastic:{label:'plastic surgeon',q:['best plastic surgeon near me','rhinoplasty surgeon nearby','board-certified plastic surgeon','tummy tuck consult near me']},
@@ -137,7 +137,9 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
     return '<a class="tag" target="_top" href="'+HOME.url+'" title="Open '+HOME.name.replace(/"/g,'')+' on Local AI Registry"><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 10 L92 86 L64 86 L50 58 L36 86 L8 86 Z" fill="#1F4FE0"/><path d="M50 10 L61 30 L39 30 Z" fill="#FF5A3C"/></svg><span></span><small>'+(HOME.verified?'Verified record':'See AI record')+' \u2197</small></a><span class="stem"></span><span class="base"></span>';
   }
   function renderPin(){ if(!PIN)return; PIN.innerHTML=pinHTML(); PIN.querySelector('.tag span').textContent=HOME.name;
-    var h=document.querySelector('.cart h1'), pp=document.querySelector('.cart p'); if(h)h.textContent=HOME.name; if(pp)pp.textContent=HOME.area; }
+    var h=document.querySelector('.cart h1'), pp=document.querySelector('.cart p'); var parts=(HOME.area||'').split(',').map(function(x){return x.trim();}).filter(Boolean);
+    var big=HOME.place||HOME.city||parts[parts.length>2?1:parts.length-1]||'', small=HOME.placeSub||(HOME.place?HOME.area:parts.filter(function(x){return x!==big;}).slice(0,2).join(', '));
+    var cart=document.querySelector('.cart'); if(cart)cart.style.display=big?'':'none'; if(h)h.textContent=big; if(pp)pp.textContent=small; }
   function goTo(query,kind){
     if(kind&&KINDS[kind])KIND=kind;
     return fetch('https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=1&countrycodes=us&q='+encodeURIComponent(query))
@@ -145,9 +147,9 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         if(!j||!j[0]) return {ok:false};
         var r=j[0], a=r.address||{}, city=a.city||a.town||a.village||a.suburb||a.county||'', st=a.state||'';
         var nm=(r.name&&r.name.length>1?r.name:query.split(',')[0]).trim();
-        HOME={name:nm,c:[+r.lon,+r.lat],verified:false,area:[a.road,city].filter(Boolean).join(', ')||st,
+        HOME={name:nm,c:[+r.lon,+r.lat],verified:false,city:city,area:[a.road,city].filter(Boolean).join(', ')||st,
           url:'https://localairegistry.com/search?q='+encodeURIComponent(nm+(city?' '+city:''))};
-        if(/quiktox/i.test(nm)){HOME.url=QUIKTOX_URL;HOME.verified=true;}
+        if(/quiktox/i.test(nm)){HOME.url=QUIKTOX_URL;HOME.verified=true;HOME.place='Costa Mesa Courtyards';HOME.placeSub='Newport Boulevard, in the County of Orange';}
         if(MARKER)MARKER.setLngLat(HOME.c); renderPin();
         if(window.__resetWalk)window.__resetWalk();
         if(MAP)MAP.flyTo({center:HOME.c,zoom:18.2,pitch:MAP.getPitch(),bearing:MAP.getBearing(),duration:2400,essential:true});
@@ -156,9 +158,9 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
   }
   function goToPlace(p){
     if(p.kind&&KINDS[p.kind])KIND=p.kind;
-    HOME={name:p.name,c:[+p.lon,+p.lat],verified:false,snapped:true,area:p.area||'',
+    HOME={name:p.name,c:[+p.lon,+p.lat],verified:false,snapped:true,area:p.area||'',city:p.city||'',
       url:'https://localairegistry.com/search?q='+encodeURIComponent(p.name+(p.city?' '+p.city:''))};
-    if(/quiktox/i.test(p.name)){HOME.url=QUIKTOX_URL;HOME.verified=true;}
+    if(/quiktox/i.test(p.name)){HOME.url=QUIKTOX_URL;HOME.verified=true;HOME.place='Costa Mesa Courtyards';HOME.placeSub='Newport Boulevard, in the County of Orange';}
     if(MARKER)MARKER.setLngLat(HOME.c); renderPin();
     if(window.__resetWalk)window.__resetWalk();
     if(MAP)MAP.flyTo({center:HOME.c,zoom:18.2,pitch:MAP.getPitch(),bearing:MAP.getBearing(),duration:2400,essential:true});
@@ -282,7 +284,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
       if(!seen[b])return null; var p=[b];while(p[0]!==a)p.unshift(prev[p[0]]);return p.map(function(k){return nodes[k].c;});}
 
     var NAMES=['Dana','Marco','Mrs. Alvarez','Priya','Tom','Jess','Kenji','Ana','Mr. Reyes','Lola','Sam','Grace','Omar','Nina','Bea','Luis'];
-    var ROLES=['first-time Botox','lunch break','regular','new in town','after the gym','picking up dinner'];
+    var ROLES=['first visit','lunch break','regular','new in town','after the gym','picking up dinner'];
     function pick(a){return a[Math.floor(Math.random()*a.length)];}
     var walkers=[], prints=[], qk=0, qkEl=document.getElementById('qk'), now=0, last=0, nextSpawn=0;
     /* ---- simulated week: minutes since Monday 00:00 ---- */
@@ -348,7 +350,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         for(var i=0;i<30;i++){var nb=Object.keys(nodes[k].adj); if(!nb.length)break; k=pick(nb); pts.push(nodes[k].c);} shop=null;
       } else pts.push(shop.c);
       walkers.push({ai:ai,shop:shop,path:pts,seg:0,t:0,dist:0,lastStep:0,foot:1,speed:ai?40:18,
-        label:why?'Asked '+why.replace('asked ',''):''});
+        label:pick(NAMES)+(why?', '+why:(Math.random()<.4?', '+pick(ROLES):''))});
     }
     function step(w,dt){
       var a=w.path[w.seg], b=w.path[w.seg+1]; if(!b) return false;
@@ -413,7 +415,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         ctx.restore();
       });
       ctx.font='italic 13px "IM Fell English", Georgia, serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
-      walkers.forEach(function(w){ if(!w.c||!w.label)return; var P=map.project(w.c);
+      walkers.forEach(function(w){ if(!w.c)return; var P=map.project(w.c);
         var tw=ctx.measureText(w.label).width, bw=tw+18, bx=P.x-bw/2, by=P.y-28;
         ctx.fillStyle=w.ai?'#FFFFFF':'#F6EBD0'; ctx.strokeStyle=w.ai?BLUE:INK; ctx.lineWidth=1.1;
         ctx.beginPath();ctx.moveTo(bx,by);ctx.lineTo(bx+bw,by);ctx.lineTo(bx+bw-6,by+10);ctx.lineTo(bx+bw,by+20);ctx.lineTo(bx,by+20);ctx.lineTo(bx+6,by+10);ctx.closePath();ctx.fill();ctx.stroke();
