@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiktox Foot Traffic Map</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Hanken+Grotesk:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<style>
+/* Layout: a full-screen real map (OpenStreetMap via OpenFreeMap) restyled as an old parchment map,
+   with a canvas on top where simulated footsteps walk the real streets to real shops. */
+:root{
+  --paper:#EEDDB8; --ink:#4A2F1B; --blue:#1F4FE0; --chrome:#F6EBD0;
+  --f-map:"IM Fell English",Georgia,"Times New Roman",serif;
+  --f-sc:"IM Fell English SC",Georgia,serif;
+  --f-ui:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+html,body{height:100%;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:hidden}
+#map{position:fixed;inset:0}
+#steps{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:2}
+.paper{position:fixed;inset:0;pointer-events:none;z-index:3;mix-blend-mode:multiply;
+  background:
+    radial-gradient(ellipse at center,rgba(0,0,0,0) 55%,rgba(74,47,27,.38) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .15 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");}
+.top{position:fixed;z-index:4;left:0;right:0;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:12px;
+  padding:calc(10px + env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) 0 max(12px,env(safe-area-inset-left,0px));pointer-events:none}
+.cart{pointer-events:auto;background:var(--chrome);border:1.5px solid var(--ink);box-shadow:inset 0 0 0 4px var(--chrome),inset 0 0 0 5px rgba(74,47,27,.6),0 6px 18px rgba(74,47,27,.25);padding:10px 16px 9px;text-align:center;max-width:72vw}
+.cart h1{margin:0;font-family:var(--f-sc);font-weight:400;font-size:clamp(17px,4.6vw,22px);letter-spacing:.08em;line-height:1.1}
+.cart p{margin:3px 0 0;font-family:var(--f-map);font-style:italic;font-size:13px}
+.live{pointer-events:auto;display:inline-flex;align-items:center;gap:6px;background:rgba(246,235,208,.92);border:1px solid rgba(74,47,27,.4);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:600;white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:999px;background:#2E9E62;animation:pulse 1.8s infinite}
+.bottom{position:fixed;z-index:4;left:0;right:0;bottom:0;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px;
+  padding:0 max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));pointer-events:none}
+.panel{pointer-events:auto;background:rgba(246,235,208,.94);border:1px solid rgba(74,47,27,.45);border-radius:10px;padding:8px 12px;font-size:12.5px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.panel b{font-variant-numeric:tabular-nums}
+.leg{display:inline-flex;align-items:center;gap:6px}
+.night{position:fixed;inset:0;pointer-events:none;z-index:3;background:#1B1640;mix-blend-mode:multiply;opacity:0;transition:opacity .6s}
+.time{pointer-events:auto;width:100%;background:rgba(246,235,208,.96);border:1px solid rgba(74,47,27,.45);border-radius:12px;padding:8px 10px 6px;display:flex;flex-direction:column;gap:4px;box-shadow:0 6px 18px rgba(74,47,27,.18)}
+.time-top{display:flex;align-items:center;gap:10px}
+.play{flex:none;width:36px;height:36px;border-radius:999px;border:0;background:var(--ink);color:#F6EBD0;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.when{font-family:var(--f-sc);font-size:17px;letter-spacing:.03em;line-height:1.1}
+.when small{display:block;font-family:var(--f-ui);font-size:11.5px;letter-spacing:0;color:rgba(74,47,27,.8)}
+.qkhour{margin-left:auto;text-align:right;font-size:11.5px;line-height:1.25}
+.qkhour b{font-family:var(--f-sc);font-weight:400;font-size:18px;color:var(--blue)}
+.track{position:relative;height:40px}
+.track svg{position:absolute;inset:0;width:100%;height:28px}
+.track input{position:absolute;left:0;right:0;top:0;width:100%;height:28px;margin:0;opacity:0;cursor:pointer}
+.head{position:absolute;top:-2px;width:2px;height:32px;background:var(--blue);pointer-events:none}
+.head::after{content:"";position:absolute;left:-5px;top:-6px;width:12px;height:12px;border-radius:999px;background:var(--blue);border:2px solid #fff}
+.days{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(7,1fr);font-size:10.5px;color:rgba(74,47,27,.8);text-align:center}
+.credit{pointer-events:auto;font-size:10.5px;background:rgba(246,235,208,.85);border-radius:6px;padding:3px 6px}
+.credit a{color:var(--ink)}
+.pin{display:flex;flex-direction:column;align-items:center;transform:translateY(-6px)}
+.pin .tag{display:inline-flex;align-items:center;gap:6px;background:#FFFFFF;border:1.5px solid var(--blue);border-radius:999px;padding:4px 10px 4px 6px;color:var(--blue);font-family:var(--f-ui);font-weight:700;font-size:12px;white-space:nowrap;box-shadow:0 4px 12px rgba(31,79,224,.25)}
+.pin .tag span{font-family:var(--f-sc);font-weight:400;font-size:15px;color:var(--blue);letter-spacing:.04em}
+.pin .tag small{font-size:10.5px;font-weight:600;opacity:.85}
+.pin .stem{width:2px;height:16px;background:var(--blue)}
+.pin .base{width:12px;height:12px;border-radius:999px;background:var(--blue);border:2.5px solid #FFFFFF;box-shadow:0 0 0 1.5px var(--blue)}
+.maplibregl-ctrl-attrib{display:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,158,98,.5)}70%{box-shadow:0 0 0 7px rgba(46,158,98,0)}100%{box-shadow:0 0 0 0 rgba(46,158,98,0)}}
+@media (prefers-reduced-motion:reduce){.dot{animation:none}}
+</style>
+
+<div id="map" role="img" aria-label="Map of Costa Mesa Courtyards on Newport Boulevard, Costa Mesa, drawn as an old parchment map, with Quiktox marked and footsteps walking to nearby shops."></div>
+<canvas id="steps" aria-hidden="true"></canvas>
+<div class="paper" aria-hidden="true"></div>
+<div class="night" id="night" aria-hidden="true"></div>
+
+<div class="top">
+  <div class="cart"><h1>Costa Mesa Courtyards</h1><p>Newport Boulevard, in the County of Orange</p></div>
+  <span style="display:flex;flex-direction:column;align-items:flex-end;gap:6px"><button type="button" id="view" class="live" style="cursor:pointer;font:inherit;font-size:12px;font-weight:600;color:var(--ink);min-height:36px">Flat map</button></span>
+</div>
+<div class="bottom">
+  <div class="time" role="group" aria-label="A week of foot traffic">
+    <div class="time-top">
+      <button type="button" class="play" id="play" aria-label="Pause"><svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true" id="playIcon"><rect x="2" y="1" width="3.5" height="12" fill="currentColor"/><rect x="8.5" y="1" width="3.5" height="12" fill="currentColor"/></svg></button>
+      <span class="when"><span id="whenDay">Monday, Nov 9</span><small id="whenTime">9:00 AM</small></span>
+      <span class="qkhour">AI named Quiktox<br><b id="aiNamed">0 of 0</b> <span style="font-size:11px">this hour</span><br>Visits today <b id="qkToday" style="font-size:14px">0</b></span>
+    </div>
+    <div class="track"><svg id="hist" viewBox="0 0 168 28" preserveAspectRatio="none" aria-hidden="true"></svg><span class="head" id="head"></span>
+      <label for="scrub" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Day and time</label>
+      <input type="range" id="scrub" min="0" max="10079" step="10" value="540">
+      <div class="days" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div></div>
+  </div>
+  <div class="panel">
+    <span class="leg"><svg width="22" height="14" viewBox="0 0 22 14" aria-hidden="true"><ellipse cx="6" cy="9" rx="2.6" ry="4.2" fill="#4A2F1B" transform="rotate(-15 6 9)"/><ellipse cx="15" cy="5" rx="2.6" ry="4.2" fill="#4A2F1B" transform="rotate(-15 15 5)"/></svg>Customer</span>
+    <span class="leg"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="3" fill="#1F4FE0"/><circle cx="9" cy="9" r="7" fill="none" stroke="#1F4FE0" stroke-width="1.4"/></svg>Someone asked AI</span>
+    <span>Walked into Quiktox: <b id="qk">0</b></span>
+  </div>
+  <span class="credit">Streets and buildings © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, tiles by <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a>.</span>
+</div>
+
+<script>
+(function(){
+  var INK='#4A2F1B', PAPER='#EEDDB8', BLUE='#1F4FE0';
+  var ADDRESS='1815 Newport Blvd, Costa Mesa, CA 92627';
+  var FALLBACK=[-117.9178,33.6431]; // approximate; replaced by a geocode of the address
+  var still=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- restyle OpenFreeMap "liberty" as a parchment map ---------- */
+  function has(id,words){return words.some(function(w){return id.indexOf(w)>-1;});}
+  function parchment(style){
+    style.layers.forEach(function(l){ if(l.type==='fill-extrusion'){ l.minzoom=15; l.paint={
+        'fill-extrusion-color':['interpolate',['linear'],['coalesce',['get','render_height'],7],0,'#F2E3BE',30,'#E9D3A2'],
+        'fill-extrusion-height':['*',['coalesce',['get','render_height'],7],1.15],
+        'fill-extrusion-base':['coalesce',['get','render_min_height'],0],
+        'fill-extrusion-opacity':.96,'fill-extrusion-vertical-gradient':true}; } });
+    style.layers.forEach(function(l){
+      var id=l.id; l.paint=l.paint||{}; l.layout=l.layout||{};
+      if(l.type==='background'){l.paint['background-color']=PAPER;}
+      else if(l.type==='fill'){
+        delete l.paint['fill-pattern'];
+        if(has(id,['water'])){l.paint['fill-color']='#D6C394';l.paint['fill-outline-color']=INK;}
+        else if(has(id,['park','wood','grass','landcover','landuse'])){l.paint['fill-color']='#E6D3A6';l.paint['fill-opacity']=.55;}
+        else if(id==='building'){l.paint={'fill-pattern':'hatch','fill-opacity':1};}
+        else {l.paint['fill-color']='#E9D7AE';l.paint['fill-opacity']=.6;}
+      }
+      else if(l.type==='line'){
+        delete l.paint['line-pattern'];
+        if(has(id,['casing'])){l.paint['line-color']=INK;l.paint['line-opacity']=.85;}
+        else if(has(id,['road','highway','bridge','tunnel','street','motorway','trunk','primary','secondary','tertiary','minor','service','link'])){l.paint['line-color']='#F3E5C0';}
+        else if(has(id,['path','footway','pedestrian','track','steps'])){l.paint['line-color']=INK;l.paint['line-opacity']=.45;l.paint['line-dasharray']=[1,2];}
+        else if(has(id,['water'])){l.paint['line-color']='#B8A06E';}
+        else {l.paint['line-color']=INK;l.paint['line-opacity']=.4;}
+      }
+      else if(l.type==='symbol'){
+        if(l.layout['text-field']){
+          l.layout['text-font']=['Noto Sans Italic'];
+          l.paint['text-color']=INK; l.paint['text-halo-color']=PAPER; l.paint['text-halo-width']=1.6;
+        }
+        if(l.layout['icon-image']){l.paint['icon-opacity']=0;}
+      }
+    });
+    // ink outline around every building
+    var i=style.layers.findIndex(function(l){return l.id==='building';});
+    if(i>-1){
+      var src=style.layers[i];
+      style.layers.splice(i+1,0,{id:'building-ink',type:'line',source:src.source,'source-layer':src['source-layer'],minzoom:src.minzoom||13,
+        paint:{'line-color':INK,'line-width':['interpolate',['linear'],['zoom'],15,.6,19,1.6],'line-opacity':.9}});
+    }
+    return style;
+  }
+  function hatchImage(){
+    var c=document.createElement('canvas'); c.width=c.height=12; var g=c.getContext('2d');
+    g.fillStyle='#F1E2BC'; g.fillRect(0,0,12,12);
+    g.strokeStyle='rgba(74,47,27,.55)'; g.lineWidth=1;
+    g.beginPath(); g.moveTo(-3,15); g.lineTo(15,-3); g.moveTo(-3,3); g.lineTo(3,-3); g.moveTo(9,15); g.lineTo(15,9); g.stroke();
+    return g.getImageData(0,0,12,12);
+  }
+
+  function geocode(){
+    return fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q='+encodeURIComponent(ADDRESS))
+      .then(function(r){return r.json();}).then(function(j){return j&&j[0]?[+j[0].lon,+j[0].lat]:FALLBACK;}).catch(function(){return FALLBACK;});
+  }
+
+  Promise.all([fetch('https://tiles.openfreemap.org/styles/liberty').then(function(r){return r.json();}),geocode()]).then(function(res){
+    var style=parchment(res[0]), center=res[1];
+    var map=new maplibregl.Map({container:'map',style:style,center:center,zoom:18.2,pitch:55,bearing:-35,maxPitch:65,maxZoom:20,minZoom:14,attributionControl:false});
+    map.on('load',function(){ try{ map.setLight({anchor:'map',position:[1.4,210,35],color:'#FFF4DC',intensity:.45}); }catch(e){} });
+    var view3d=true, tb=document.getElementById('view');
+    tb.addEventListener('click',function(){view3d=!view3d; tb.textContent=view3d?'Flat map':'3D view';
+      map.easeTo({pitch:view3d?55:0,bearing:view3d?-35:0,duration:900}); if(map.getLayer('building-3d'))map.setLayoutProperty('building-3d','visibility',view3d?'visible':'none');});
+    map.on('styleimagemissing',function(e){if(e.id==='hatch'&&!map.hasImage('hatch'))map.addImage('hatch',hatchImage());});
+
+    var el=document.createElement('div'); el.className='pin';
+    el.innerHTML='<span class="tag"><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 10 L92 86 L64 86 L50 58 L36 86 L8 86 Z" fill="#1F4FE0"/><path d="M50 10 L61 30 L39 30 Z" fill="#FF5A3C"/></svg><span>Quiktox</span><small>Verified record</small></span><span class="stem"></span><span class="base"></span>';
+    new maplibregl.Marker({element:el,anchor:'bottom'}).setLngLat(center).addTo(map);
+
+    map.once('idle',function(){ startWalking(map,center); });
+  }).catch(function(err){
+    document.getElementById('map').innerHTML='<p style="padding:120px 24px;font-family:Georgia,serif;text-align:center">The map could not load. Please refresh.</p>';
+    console.error(err);
+  });
+
+  /* ---------- footsteps on real streets ---------- */
+  function startWalking(map,home){
+    var cv=document.getElementById('steps'), ctx=cv.getContext('2d'), dpr=1;
+    function size(){dpr=window.devicePixelRatio||1;cv.width=Math.round(innerWidth*dpr);cv.height=Math.round(innerHeight*dpr);cv.style.width=innerWidth+'px';cv.style.height=innerHeight+'px';}
+    addEventListener('resize',size); size();
+
+    var nodes={}, keys=[], shops=[];
+    function key(c){return c[0].toFixed(5)+','+c[1].toFixed(5);}
+    function build(){
+      nodes={}; keys=[];
+      var WALK=['minor','service','tertiary','secondary','primary','path','track','pedestrian','footway','living_street','residential','unclassified'];
+      map.querySourceFeatures('openmaptiles',{sourceLayer:'transportation'}).forEach(function(f){
+        if(WALK.indexOf(f.properties.class)<0) return;
+        var lines=f.geometry.type==='LineString'?[f.geometry.coordinates]:f.geometry.type==='MultiLineString'?f.geometry.coordinates:[];
+        lines.forEach(function(line){
+          for(var i=0;i<line.length;i++){var k=key(line[i]); if(!nodes[k]){nodes[k]={c:line[i],adj:{}};keys.push(k);}
+            if(i>0){var p=key(line[i-1]); if(p!==k){nodes[k].adj[p]=1;nodes[p].adj[k]=1;}}}
+        });
+      });
+      shops=[];
+      map.querySourceFeatures('openmaptiles',{sourceLayer:'poi'}).forEach(function(f){
+        if(f.geometry.type==='Point'&&f.properties.name) shops.push({name:f.properties.name,c:f.geometry.coordinates});
+      });
+      shops.push({name:'Quiktox',c:home,q:true});
+    }
+    function dist(a,b){var dx=(a[0]-b[0])*Math.cos(b[1]*Math.PI/180),dy=a[1]-b[1];return Math.sqrt(dx*dx+dy*dy)*111320;}
+    function nearest(c){var best=null,bd=1e9;keys.forEach(function(k){var d=dist(nodes[k].c,c);if(d<bd){bd=d;best=k;}});return best;}
+    function route(a,b){var prev={},seen={},q=[a];seen[a]=1;
+      while(q.length){var u=q.shift();if(u===b)break;for(var v in nodes[u].adj){if(!seen[v]){seen[v]=1;prev[v]=u;q.push(v);}}}
+      if(!seen[b])return null; var p=[b];while(p[0]!==a)p.unshift(prev[p[0]]);return p.map(function(k){return nodes[k].c;});}
+
+    var NAMES=['Dana','Marco','Mrs. Alvarez','Priya','Tom','Jess','Kenji','Ana','Mr. Reyes','Lola','Sam','Grace','Omar','Nina','Bea','Luis'];
+    var ROLES=['first-time Botox','lunch break','regular','new in town','after the gym','picking up dinner'];
+    function pick(a){return a[Math.floor(Math.random()*a.length)];}
+    var walkers=[], prints=[], qk=0, qkEl=document.getElementById('qk'), now=0, last=0, nextSpawn=0;
+    /* ---- simulated week: minutes since Monday 00:00 ---- */
+    var simMin=9*60, playing=!still, MIN_PER_SEC=12, qkToday=0, lastDay=0;
+    var DAYS=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'], DATES=['Nov 9','Nov 10','Nov 11','Nov 12','Nov 13','Nov 14','Nov 15'];
+    function bump(h,c,w){return Math.exp(-Math.pow((h-c)/w,2));}
+    function streetBusy(m){ // whole block, 0..1, guessed from typical strip-center patterns
+      var d=Math.floor(m/1440)%7, h=(m%1440)/60;
+      var v=.05+.55*bump(h,12.5,1.6)+.65*bump(h,18,2)+.25*bump(h,9,1.5)+.2*bump(h,15,1.5);
+      if(h<6||h>23)v=.02;
+      return Math.min(1,v*(d===5?1.25:d===6?.85:1));
+    }
+    function aiBusy(m){ // people ask AI a little before they show up
+      return Math.min(1,streetBusy(m+50)*.85+.06*bump(((m%1440)/60),22,2));
+    }
+    function quiktoxBusy(m){ // med spa: lunch and after-work weekdays, Saturday late morning, closed Sunday
+      var d=Math.floor(m/1440)%7, h=(m%1440)/60;
+      if(d===6||h<9||h>19.5) return 0;
+      if(d===5) return h>17?0:.9*bump(h,12,2.2);
+      return .85*bump(h,12.3,1.1)+1*bump(h,17.3,1.2)+.25*bump(h,10,1);
+    }
+    var hist=document.getElementById('hist'), head=document.getElementById('head'), scrub=document.getElementById('scrub'),
+        whenDay=document.getElementById('whenDay'), whenTime=document.getElementById('whenTime'), qkTodayEl=document.getElementById('qkToday'),
+        night=document.getElementById('night'), playBtn=document.getElementById('play'), playIcon=document.getElementById('playIcon');
+    (function(){var s='';for(var i=0;i<168;i++){var m=i*60+30,b=streetBusy(m),q=quiktoxBusy(m);
+      s+='<rect x="'+(i+.1)+'" y="'+(28-b*26)+'" width=".8" height="'+(b*26)+'" fill="#4A2F1B" opacity=".28"/>';
+}
+      var pl='';for(var j=0;j<=168*2;j++){var mm=j*30;pl+=(j?' ':'')+(j/2).toFixed(1)+','+(28-aiBusy(mm)*25).toFixed(1);}
+      s+='<polyline points="'+pl+'" fill="none" stroke="#1F4FE0" stroke-width="1.1" vector-effect="non-scaling-stroke"/>';
+      for(var d=1;d<7;d++)s+='<line x1="'+(d*24)+'" x2="'+(d*24)+'" y1="0" y2="28" stroke="#4A2F1B" stroke-width=".4" opacity=".5"/>';
+      hist.innerHTML=s;})();
+    function fmt(m){var h=Math.floor((m%1440)/60),mm=Math.floor(m%60),ap=h<12?'AM':'PM',hh=h%12||12;return hh+':'+(mm<10?'0':'')+mm+' '+ap;}
+    function label(b){return b>.75?'very busy':b>.45?'busy':b>.2?'a little busy':b>.06?'quiet':'closed for the night';}
+    function syncClock(){
+      var d=Math.floor(simMin/1440)%7;
+      if(d!==lastDay){lastDay=d;qkToday=0;qkTodayEl.textContent='0';}
+      whenDay.textContent=DAYS[d]+', '+DATES[d];
+      whenTime.textContent=fmt(simMin)+' · '+label(streetBusy(simMin));
+      head.style.left='calc('+(simMin/10080*100)+'% - 1px)'; scrub.value=Math.round(simMin);
+      var h=(simMin%1440)/60, dark=h<6||h>20.5?.42:h<7.5?(7.5-h)/1.5*.42:h>18.5?(h-18.5)/2*.42:0; night.style.opacity=dark;
+    }
+    scrub.addEventListener('input',function(){simMin=+scrub.value;syncClock();});
+    playBtn.addEventListener('click',function(){playing=!playing;playBtn.setAttribute('aria-label',playing?'Pause':'Play');
+      playIcon.innerHTML=playing?'<rect x="2" y="1" width="3.5" height="12" fill="currentColor"/><rect x="8.5" y="1" width="3.5" height="12" fill="currentColor"/>':'<path d="M3 1 L12 7 L3 13z" fill="currentColor"/>';});
+    syncClock();
+
+    function spawn(target,why){
+      if(keys.length<5) return;
+      var b=map.getBounds(), inView=keys.filter(function(k){return b.contains(nodes[k].c);});
+      if(inView.length<5) return;
+      var ai=false, others=shops.slice(0,-1).length?shops.slice(0,-1):shops;
+      var shop=target||(quiktoxBusy(simMin)>0&&Math.random()<.08?shops[shops.length-1]:pick(others));
+      var start=pick(inView), end=nearest(shop.c), pts=route(start,end);
+      if(!pts||pts.length<2){ // no connected route: wander along the streets
+        pts=[nodes[start].c]; var k=start;
+        for(var i=0;i<30;i++){var nb=Object.keys(nodes[k].adj); if(!nb.length)break; k=pick(nb); pts.push(nodes[k].c);} shop=null;
+      } else pts.push(shop.c);
+      walkers.push({ai:ai,shop:shop,path:pts,seg:0,t:0,dist:0,lastStep:0,foot:1,speed:ai?40:18,
+        label:pick(NAMES)+(why?', '+why:(Math.random()<.4?', '+pick(ROLES):''))});
+    }
+    function step(w,dt){
+      var a=w.path[w.seg], b=w.path[w.seg+1]; if(!b) return false;
+      var L=Math.max(.01,dist(a,b)); w.t+=w.speed*dt/L; w.dist+=w.speed*dt;
+      while(w.t>=1){w.seg++;w.t-=1;a=w.path[w.seg];b=w.path[w.seg+1];if(!b)return false;}
+      w.c=[a[0]+(b[0]-a[0])*w.t,a[1]+(b[1]-a[1])*w.t];
+      var gap=w.ai?6:4.5;
+      if(w.dist-w.lastStep>=gap){w.lastStep=w.dist;w.foot*=-1;prints.push({c:w.c.slice(),a:a,b:b,ai:w.ai,foot:w.foot,born:now});}
+      return true;
+    }
+    var pings=[], hourKey=-1, hourAsked=0, hourNamed=0, aiNamedEl=document.getElementById('aiNamed'), nextAsk=0;
+    var ENGINES=['ChatGPT','Gemini','Perplexity','Claude','Google AI'];
+    var MEDQ=['Botox near me','Botox open now?','best med spa nearby','lip filler Costa Mesa','who does Botox on lunch break?','med spa with good injectors'];
+    var OTHERQ=['coffee near me','lunch spot nearby','pet store open now?','quick dinner nearby','acai near me'];
+    function ask(){
+      var hk=Math.floor(simMin/60); if(hk!==hourKey){hourKey=hk;hourAsked=0;hourNamed=0;}
+      var med=Math.random()<.55, eng=pick(ENGINES);
+      if(med){
+        hourAsked++;
+        var open=quiktoxBusy(simMin)>0, named=open&&Math.random()<.42;
+        if(named){hourNamed++;
+          var q=shops[shops.length-1]; pings.push({c:q.c,born:now,text:eng+': '+pick(MEDQ),hit:true});
+          if(Math.random()<.6) queue.push({at:now+.7+Math.random()*1.3,shop:q,why:'asked '+eng});
+        } else {
+          var b=map.getBounds(), side=Math.floor(Math.random()*4), r=Math.random();
+          var c=side===0?[b.getWest()+(b.getEast()-b.getWest())*r,b.getNorth()]:side===1?[b.getEast(),b.getSouth()+(b.getNorth()-b.getSouth())*r]:side===2?[b.getWest()+(b.getEast()-b.getWest())*r,b.getSouth()]:[b.getWest(),b.getSouth()+(b.getNorth()-b.getSouth())*r];
+          pings.push({c:c,born:now,text:eng+' named another med spa',hit:false,edge:true});
+        }
+        aiNamedEl.textContent=hourNamed+' of '+hourAsked;
+      } else {
+        var others=shops.slice(0,-1); if(!others.length) return; var s=pick(others);
+        pings.push({c:s.c,born:now,text:eng+': '+pick(OTHERQ),hit:true,minor:true});
+        if(Math.random()<.5) queue.push({at:now+.7+Math.random()*1.3,shop:s,why:'asked '+eng});
+      }
+    }
+    function drawPings(){
+      ctx.font='600 11.5px "Hanken Grotesk", Arial, sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+      pings.forEach(function(p){
+        var age=now-p.born, life=3.2; if(age>life)return; var P=map.project(p.c), k=age/life;
+        if(p.edge){P.x=Math.max(70,Math.min(innerWidth-70,P.x));P.y=Math.max(150,Math.min(innerHeight-230,P.y));}
+        ctx.save(); ctx.globalAlpha=Math.min(1,(1-k)*1.6);
+        ctx.strokeStyle=BLUE; ctx.lineWidth=2; ctx.setLineDash(p.hit?[]:[3,3]);
+        ctx.beginPath(); ctx.arc(P.x,P.y,6+k*(p.minor?18:30),0,Math.PI*2); ctx.stroke(); ctx.setLineDash([]);
+        if(!p.minor||age<1.6){ ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.45)'; ctx.beginPath(); ctx.arc(P.x,P.y,4,0,Math.PI*2); ctx.fill();
+          var tw=ctx.measureText(p.text).width, bw=tw+16, bx=Math.max(8,Math.min(innerWidth-8-bw,P.x-bw/2)), by=P.y+12;
+          ctx.fillStyle='#FFFFFF'; ctx.strokeStyle=p.hit?BLUE:'rgba(31,79,224,.5)'; ctx.lineWidth=1.1;
+          ctx.beginPath(); if(ctx.roundRect)ctx.roundRect(bx,by,bw,20,10); else ctx.rect(bx,by,bw,20); ctx.fill(); ctx.stroke();
+          ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.75)'; ctx.fillText(p.text,bx+bw/2,by+10.5); }
+        ctx.restore();
+      });
+    }
+    function draw(){
+      ctx.setTransform(1,0,0,1,0,0); ctx.clearRect(0,0,cv.width,cv.height); ctx.setTransform(dpr,0,0,dpr,0,0);
+      var z=map.getZoom(), s=Math.max(.35,Math.min(.9,.7*Math.pow(2,z-18)));
+      prints.forEach(function(p){
+        var age=now-p.born, al=Math.max(0,.85*(1-age/8)); if(al<=0)return;
+        var P=map.project(p.c), A=map.project(p.a), B=map.project(p.b), ang=Math.atan2(B.y-A.y,B.x-A.x);
+        ctx.save(); ctx.translate(P.x+Math.cos(ang+Math.PI/2)*4*s*p.foot,P.y+Math.sin(ang+Math.PI/2)*4*s*p.foot); ctx.rotate(ang+Math.PI/2); ctx.scale(s,s); ctx.globalAlpha=al;
+        if(p.ai){ctx.fillStyle=BLUE;ctx.beginPath();ctx.arc(0,0,2.6,0,Math.PI*2);ctx.fill();}
+        else{ctx.fillStyle=INK;ctx.scale(p.foot,1);ctx.beginPath();ctx.ellipse(0,-2.2,2.5,3.6,.12,0,Math.PI*2);ctx.fill();ctx.beginPath();ctx.ellipse(.3,3.4,1.8,2,0,0,Math.PI*2);ctx.fill();}
+        ctx.restore();
+      });
+      ctx.font='italic 13px "IM Fell English", Georgia, serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
+      walkers.forEach(function(w){ if(!w.c)return; var P=map.project(w.c);
+        var tw=ctx.measureText(w.label).width, bw=tw+18, bx=P.x-bw/2, by=P.y-28;
+        ctx.fillStyle=w.ai?'#FFFFFF':'#F6EBD0'; ctx.strokeStyle=w.ai?BLUE:INK; ctx.lineWidth=1.1;
+        ctx.beginPath();ctx.moveTo(bx,by);ctx.lineTo(bx+bw,by);ctx.lineTo(bx+bw-6,by+10);ctx.lineTo(bx+bw,by+20);ctx.lineTo(bx,by+20);ctx.lineTo(bx+6,by+10);ctx.closePath();ctx.fill();ctx.stroke();
+        ctx.fillStyle=w.ai?BLUE:INK; ctx.fillText(w.label,bx+bw/2,by+10.5);
+      });
+      drawPings();
+    }
+    var queue=[], prevSim=simMin, simClock=0, speed=1;
+    function frame(t){
+      t/=1000; var dt=Math.min(.05,t-(last||t)); last=t;
+      if(playing){simMin=(simMin+dt*MIN_PER_SEC)%10080;syncClock();}
+      // how fast simulated time moved this frame (dragging the timeline = fast-forward)
+      var moved=Math.abs(simMin-prevSim); if(moved>5040)moved=10080-moved; prevSim=simMin;
+      var want=dt>0?Math.max(1,Math.min(40,moved/(dt*MIN_PER_SEC))):1;
+      speed+= (want-speed)*(want>speed?.5:.08);           // ramp up fast, settle back gently
+      var sdt=dt*speed; simClock+=sdt; now=simClock;
+      var busy=streetBusy(simMin), cap=Math.round((2+busy*14)*(speed>3?2.2:1));
+      for(var n=0;n<6&&now>nextSpawn&&walkers.length<cap&&busy>.03;n++){spawn();nextSpawn=now+(.6+Math.random()*.9)/Math.max(.08,busy);}
+      if(busy<=.03) nextSpawn=now;
+      var ab=aiBusy(simMin);
+      for(var m=0;m<6&&now>nextAsk&&ab>.04;m++){ask();nextAsk=now+(.6+Math.random()*1.2)/Math.max(.1,ab);}
+      if(ab<=.04) nextAsk=now;
+      queue=queue.filter(function(q){ if(now>=q.at){spawn(q.shop,q.why);return false;} return true; });
+      pings=pings.filter(function(p){return now-p.born<3.4;});
+      walkers=walkers.filter(function(w){var ok=step(w,sdt); if(!ok&&w.shop&&w.shop.q){qk++;qkEl.textContent=qk;qkToday++;qkTodayEl.textContent=qkToday;} return ok;});
+      prints=prints.filter(function(p){return now-p.born<8;});
+      draw(); requestAnimationFrame(frame);
+    }
+    build(); map.on('moveend',build);
+    if(still){ for(var i=0;i<6;i++)spawn(); walkers.forEach(function(w){for(var j=0;j<120;j++){now+=.05;step(w,.05);}}); prints.forEach(function(p){p.born=now-2;}); draw(); map.on('move',draw); }
+    else requestAnimationFrame(frame);
+  }
+})();
+</script>
+</html>

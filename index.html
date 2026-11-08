@@ -21,6 +21,36 @@ header.top img{display:block;width:190px;height:auto}
 header.top nav{display:flex;gap:18px;font-size:14px;font-weight:600} header.top nav a{color:var(--ink);text-decoration:none}
 @media (max-width:600px){header.top{flex-wrap:wrap} header.top img{width:160px} header.top nav{gap:14px;font-size:13px} header.top nav a:last-child{display:none}}
 .k{font:800 12px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}
+.intro{padding:28px 0 16px;display:grid;gap:8px}
+.intro h1{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}
+.mapfig{margin:0;display:grid;gap:8px}
+.mapframe{position:relative;height:clamp(420px,calc(100svh - 250px),760px);border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%)}
+.mapframe::before{content:"Loading map";position:absolute;inset:0;display:grid;place-items:center;font:italic 18px var(--f-display);color:#4A2F1B}
+.mapframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapfig figcaption{font-size:14px;color:var(--muted)}
+.lede{font-size:19px;color:var(--ink);max-width:780px;margin:24px 0 0}
+.ph{display:inline-block;font:700 11px/1 var(--f-head);letter-spacing:.06em;text-transform:uppercase;border:1.5px dashed var(--muted);color:var(--muted);border-radius:4px;padding:4px 6px;margin-right:6px;vertical-align:1px}
+.ph.sim{border-style:solid;border-color:var(--blue);color:var(--blue)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.lib{padding:48px 0 0;display:grid;gap:16px}
+.lib-head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap} .lib-head h2{font:800 clamp(24px,3vw,30px)/1.2 var(--f-head)}
+.lib-count{margin:0;font-size:14px;color:var(--muted)}
+.lib-tools{display:grid;grid-template-columns:minmax(0,2.2fr) repeat(4,minmax(0,1fr));gap:8px}
+@media (max-width:900px){.lib-tools{grid-template-columns:repeat(2,minmax(0,1fr))} .lib-tools .srch{grid-column:1/-1}}
+.lib-tools select,.lib-tools input{width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;min-height:44px}
+.srch{position:relative;display:block} .srch svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted)} .srch input{padding-left:38px}
+.studies{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.st{padding:16px 0;border-bottom:1px solid var(--line);display:grid;gap:6px}
+.st-meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--muted);align-items:center}
+.st-type{font:800 11px var(--f-head);letter-spacing:.08em;text-transform:uppercase;color:var(--blue)} .st-id{font-variant-numeric:tabular-nums}
+.st h3{font:800 19px/1.3 var(--f-head)} .st h3 a{color:var(--ink);text-decoration:none} .st h3 a:hover{text-decoration:underline}
+.st p{margin:0;font-size:15.5px;color:var(--muted);max-width:820px}
+.st-foot{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:13px}
+.st-eng{color:var(--ink);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none} .tags li{background:var(--deep);border-radius:999px;padding:2px 9px;font-size:12px}
+.st-links{display:flex;gap:12px;margin-left:auto;font-weight:600}
+.is-ph h3,.is-ph p,.is-ph .st-eng{color:#8A93A3} .is-ph .st-links span{color:#A9AFBA} .is-ph{background:repeating-linear-gradient(135deg,transparent 0 10px,rgba(216,210,195,.25) 10px 20px)}
+.empty{color:var(--muted)} .more{text-align:center} .more button{font:inherit;font-weight:700;padding:10px 18px;border-radius:6px;border:1px solid var(--line);background:var(--card);cursor:pointer}
 .hero{padding:56px 0 40px;display:grid;gap:16px;max-width:820px}
 .hero h1{font:600 clamp(40px,7vw,68px)/1.05 var(--f-display)}
 .hero p{font-size:19px;color:var(--muted);max-width:700px;margin:0}
@@ -46,23 +76,31 @@ footer .soc{display:flex;flex-wrap:wrap;gap:6px 16px}
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://localairegistry.com/#organization", "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com", "logo": "https://research.localairegistry.com/local-answer-gap/images/local-ai-registry-logo.png", "sameAs": ["https://www.linkedin.com/company/local-ai-registry", "https://x.com/LocalAIRegistry", "https://www.instagram.com/localairegistry/", "https://www.facebook.com/profile.php?id=61591432116527", "https://www.tiktok.com/@localairegistry", "https://pinterest.com/localairegistry", "https://www.trustpilot.com/review/localairegistry.com", "https://www.youtube.com/@localairegistry", "https://www.crunchbase.com/organization/local-ai-registry", "https://www.saasworthy.com/product/local-ai-registry"], "address": {"@type": "PostalAddress", "streetAddress": "9891 Irvine Center Dr", "addressLocality": "Irvine", "addressRegion": "CA", "postalCode": "92618", "addressCountry": "US"}, "telephone": "+1-213-931-5633", "subOrganization": {"@id": "https://research.localairegistry.com/#research-team"}}, {"@type": "ResearchOrganization", "@id": "https://research.localairegistry.com/#research-team", "name": "Local AI Registry Research Team", "url": "https://research.localairegistry.com/#research-team", "parentOrganization": {"@id": "https://localairegistry.com/#organization"}, "knowsAbout": ["Answer engine optimization", "Generative engine optimization", "Google AI Overviews", "AI search citations", "Local search"]}, {"@type": "WebSite", "@id": "https://research.localairegistry.com/#website", "url": "https://research.localairegistry.com/", "name": "Local AI Registry Research", "publisher": {"@id": "https://localairegistry.com/#organization"}, "inLanguage": "en-US"}, {"@type": "CollectionPage", "@id": "https://research.localairegistry.com/#page", "url": "https://research.localairegistry.com/", "name": "Local AI Registry Research", "description": "Original AEO research from Local AI Registry on how ChatGPT, Claude, Gemini, Google AI Overviews and Perplexity find and recommend local businesses.", "isPartOf": {"@id": "https://research.localairegistry.com/#website"}, "about": [{"@type": "Thing", "name": "Answer engine optimization"}, {"@type": "Thing", "name": "Local search"}], "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Local AI Registry", "item": "https://localairegistry.com/"}, {"@type": "ListItem", "position": 2, "name": "Research", "item": "https://research.localairegistry.com/"}]}, "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://research.localairegistry.com/local-answer-gap/", "name": "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses"}]}}]}</script></head>
 <body><div class="wrap">
 <header class="top"><a href="https://localairegistry.com" aria-label="Local AI Registry home"><img src="local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="190" height="24"></a>
-<nav aria-label="Main"><a href="local-answer-gap/">Latest study</a><a href="#research-team">Team</a><a href="https://localairegistry.com">localairegistry.com</a></nav></header>
+<nav aria-label="Main"><a href="#library">Library</a><a href="local-answer-gap/">Latest study</a><a href="#research-team">Team</a><a href="https://localairegistry.com">localairegistry.com</a></nav></header>
 <main>
-<div class="hero"><div class="k">Local AI Registry Research</div>
-<h1>How AI finds, reads and recommends local&nbsp;businesses</h1>
-<p>Original research from Local AI Registry’s dedicated local AI research team on how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot answer questions about local businesses, and what owners should do about&nbsp;it.</p></div>
+<div class="intro"><div class="k">Local AI Registry Research</div>
+<h1>How AI finds, reads and recommends local&nbsp;businesses</h1></div>
+<figure class="mapfig">
+<div class="mapframe"><iframe id="sim" title="Simulation: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="simulations/quiktox-foot-traffic/" allow="fullscreen" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<noscript><a href="simulations/quiktox-foot-traffic/">Open the foot traffic simulation</a></noscript></div>
+<figcaption><span class="ph sim">Simulation</span> When AI names a business, people walk in. Real streets around Quiktox in Costa Mesa; the visitors and AI questions are simulated to show the idea. <a href="simulations/quiktox-foot-traffic/">Open full&nbsp;screen</a></figcaption>
+</figure>
+<p class="lede">Original research from Local AI Registry’s dedicated local AI research team on how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot answer questions about local businesses, and what owners should do about&nbsp;it.</p>
 
-<article class="feature" aria-labelledby="f1">
-<a href="local-answer-gap/"><img src="local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png" srcset="local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap-1x.png 1000w, local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png 2000w" sizes="(max-width: 820px) calc(100vw - 82px), 540px" alt="Heatmap of who Google’s AI cites for local business questions, led by news outlets" width="1000" height="655" fetchpriority="high"></a>
-<div class="body"><div class="k">New study · <time datetime="2026-11-07">November 7, 2026</time></div>
-<h2 id="f1"><a href="local-answer-gap/">The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local&nbsp;businesses</a></h2>
-<ul class="stats">
-<li><b>67.5%</b>of local AI citations came from news&nbsp;outlets</li>
-<li><b>6.5%</b>came from businesses’ own&nbsp;websites</li>
-<li><b>83.6%</b>of answers said “check with your local&nbsp;store”</li>
-<li><b>76.4%</b>of local searches showed an AI answer&nbsp;first</li></ul>
-<div class="cta"><a class="btn p" href="local-answer-gap/">Read the report</a><a class="btn s" href="local-answer-gap/data/local-answer-gap-data.csv">Download the data</a></div></div>
-</article>
+<section class="lib" id="library" aria-labelledby="libh">
+<div class="lib-head"><div><div class="k">Research library</div><h2 id="libh">Studies, indexes and datasets</h2></div>
+<p class="lib-count" id="count" aria-live="polite">1 study</p></div>
+<form class="lib-tools" role="search" onsubmit="return false">
+<label class="srch"><span class="sr">Search the research</span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search studies, topics or AI assistants" autocomplete="off"></label>
+<label><span class="sr">Topic</span><select id="f-topic"><option value="">All topics</option><option value="Citations">Citations</option><option value="Local search">Local search</option><option value="Retail chains">Retail chains</option></select></label>
+<label><span class="sr">AI assistant</span><select id="f-eng"><option value="">All AI assistants</option><option value="Google AI Overviews">Google AI Overviews</option></select></label>
+<label><span class="sr">Type</span><select id="f-type"><option value="">All types</option><option value="Study">Study</option></select></label>
+<label><span class="sr">Sort</span><select id="f-sort"><option value="new">Newest first</option><option value="old">Oldest first</option><option value="az">A to Z</option></select></label>
+</form>
+<ol class="studies" id="studies"><li class="st" data-type="Study" data-engines="Google AI Overviews" data-topics="Local search|Citations|Retail chains" data-date="2026-11-07" data-text="the local answer gap: what 7,583 google ai answers reveal about aeo for local businesses news outlets supplied 67.5% of the citations in google’s ai answers about local businesses; businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store. google ai overviews local search citations retail chains"><div class="st-meta"><span class="st-type">Study</span><span>Nov 7, 2026</span><span class="st-id">LAIR-R-2026-001</span></div><h3><a href="local-answer-gap/">The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses</a></h3><p>News outlets supplied 67.5% of the citations in Google’s AI answers about local businesses; businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store.</p><div class="st-foot"><span class="st-eng">Google AI Overviews</span><ul class="tags"><li>Local search</li><li>Citations</li><li>Retail chains</li></ul><span class="st-links"><a href="local-answer-gap/">Read</a><a href="local-answer-gap/#cite">Cite</a><a href="local-answer-gap/data/local-answer-gap-data.csv">Data (CSV)</a></span></div></li></ol>
+<p class="empty" id="empty" hidden>No studies match. Try a different search or clear the filters.</p>
+<div class="more"><button type="button" id="more" hidden>Show more</button></div>
+</section>
 
 <section class="blk" aria-labelledby="study"><h2 id="study">What we study</h2>
 <ul class="grid4">
@@ -85,4 +123,34 @@ footer .soc{display:flex;flex-wrap:wrap;gap:6px 16px}
 <footer><div>Local AI Registry · 9891 Irvine Center Dr, Irvine, CA 92618 · (213) 931-5633 · <a href="https://localairegistry.com">localairegistry.com</a></div>
 <div class="soc"><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a><a href="https://www.youtube.com/@localairegistry">YouTube</a><a href="https://x.com/LocalAIRegistry">X</a><a href="https://www.instagram.com/localairegistry/">Instagram</a><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a><a href="https://www.tiktok.com/@localairegistry">TikTok</a><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></div>
 <div>Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="llms.txt">llms.txt</a></div></footer>
-</div></body></html>
+</div>
+<script>
+(function(){
+  var f=document.getElementById('sim');
+  function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
+  if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
+  var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
+      ft=document.getElementById('f-topic'), fe=document.getElementById('f-eng'), fy=document.getElementById('f-type'), fs=document.getElementById('f-sort'),
+      count=document.getElementById('count'), empty=document.getElementById('empty'), more=document.getElementById('more'), PAGE=20, shown=PAGE;
+  function apply(reset){
+    if(reset) shown=PAGE;
+    var words=q.value.toLowerCase().trim().split(/\s+/).filter(Boolean), t=ft.value, en=fe.value, ty=fy.value;
+    var hit=rows.filter(function(r){
+      if(t && r.dataset.topics.split('|').indexOf(t)<0) return false;
+      if(en && r.dataset.engines.split('|').indexOf(en)<0) return false;
+      if(ty && r.dataset.type!==ty) return false;
+      return words.every(function(w){return r.dataset.text.indexOf(w)>-1;});
+    });
+    var s=fs.value; hit.sort(function(a,b){ if(s==='az') return a.querySelector('h3').textContent.localeCompare(b.querySelector('h3').textContent);
+      return s==='old' ? a.dataset.date.localeCompare(b.dataset.date) : b.dataset.date.localeCompare(a.dataset.date); });
+    rows.forEach(function(r){r.hidden=true;});
+    hit.forEach(function(r,i){ list.appendChild(r); r.hidden = i>=shown; });
+    count.textContent=hit.length+(hit.length===1?' study':' studies');
+    empty.hidden=hit.length>0; more.hidden=hit.length<=shown;
+  }
+  [q,ft,fe,fy,fs].forEach(function(el){el.addEventListener(el===q?'input':'change',function(){apply(true);});});
+  more.addEventListener('click',function(){shown+=PAGE;apply(false);});
+  apply(true);
+})();
+</script>
+</body></html>
