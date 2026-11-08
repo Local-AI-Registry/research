@@ -6,6 +6,10 @@ and                          python scripts/chrome.py     (updates every study p
 import os, re, glob
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLAIM = "https://localairegistry.com/search"
+# Google Places API (New) browser key for the map's business search.
+# Restrict it in Google Cloud: Application restriction = Websites (research.localairegistry.com/*, proposals.localairegistry.com/*),
+# API restriction = Places API (New). Leave empty to fall back to the free OpenStreetMap search.
+GOOGLE_PLACES_KEY = ""
 SOCIAL = [("LinkedIn", "https://www.linkedin.com/company/local-ai-registry"), ("YouTube", "https://www.youtube.com/@localairegistry"),
           ("X", "https://x.com/LocalAIRegistry"), ("Instagram", "https://www.instagram.com/localairegistry/"),
           ("Facebook", "https://www.facebook.com/profile.php?id=61591432116527"), ("TikTok", "https://www.tiktok.com/@localairegistry"),

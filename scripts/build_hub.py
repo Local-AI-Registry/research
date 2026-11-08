@@ -105,6 +105,7 @@ JS = r'''<script>
   var f=document.getElementById('sim');
   function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
   if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
+  var GKEY=document.getElementById('finder').getAttribute('data-gkey'), tok=null;
   var gq=document.getElementById('gq'), go=document.getElementById('gopts'), gs=document.getElementById('gstatus'), items=[], act=-1, timer=null, seq=0;
   function kindOf(p){ var k=(p.osm_key||'')+'='+(p.osm_value||''), n=(p.name||'').toLowerCase();
     if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin clinic/.test(n)) return 'medspa';
@@ -120,21 +121,55 @@ JS = r'''<script>
     items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
+    if(GKEY&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
     go.hidden=false; gq.setAttribute('aria-expanded','true'); }
-  function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close(); if(!f.src) load();
+  function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close();
+    if(it.gid&&it.lat==null){ gs.textContent='Finding '+it.name+'\u2026'; resolveGoogle(it).then(function(){pickIt2(it);}).catch(function(){gs.textContent='Couldn\u2019t load that business. Try another.';}); return; }
+    pickIt2(it); }
+  function pickIt2(it){ if(!f.src) load();
     var msg={type:'lair-goto-place',name:it.name,lon:it.lon,lat:it.lat,kind:it.kind,area:it.area,city:it.city};
     var sendIt=function(){ f.contentWindow&&f.contentWindow.postMessage(msg,location.origin); };
     if(f.contentWindow&&f.src) sendIt(); else f.addEventListener('load',function(){setTimeout(sendIt,1500);},{once:true});
     gs.textContent='Showing '+it.name+(it.area?', '+it.area:'')+'. Click the pin to see its Local AI Registry record.'; }
-  gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<3){close();return;}
-    timer=setTimeout(function(){ var my=++seq;
-      fetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q)).then(function(r){return r.json();}).then(function(j){
-        if(my!==seq) return;
-        items=(j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
-          var city=p.city||p.town||p.village||p.district||p.county||'';
-          return {name:p.name,lon:x.geometry.coordinates[0],lat:x.geometry.coordinates[1],kind:kindOf(p),city:city,
-            area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; });
-        act=items.length?0:-1; show(); }).catch(function(){ items=[]; show(); }); },220); });
+  function newTok(){ tok=(crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random()); }
+  function gKind(types,name){ var t=(types||[]).join(' '), n=(name||'').toLowerCase();
+    if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin/.test(n)||/skin_care_clinic/.test(t)) return 'medspa';
+    if(/plastic surg|cosmetic surg/.test(n)) return 'plastic';
+    if(/dentist|dental/.test(t+' '+n)) return 'dental';
+    if(/cannabis|dispensar|weed/.test(n)) return 'dispensary';
+    if(/optometr|optician|eye|lasik|vision/.test(t+' '+n)) return 'eyecare';
+    if(/restaurant|cafe|bakery|bar\b|meal_|food/.test(t)) return 'restaurant';
+    if(/hair|nail|beauty_salon|barber/.test(t)) return 'salon';
+    if(/spa/.test(t)) return 'medspa';
+    return 'other'; }
+  function searchGoogle(q,my){
+    if(!tok) newTok();
+    return fetch('https://places.googleapis.com/v1/places:autocomplete',{method:'POST',headers:{'Content-Type':'application/json','X-Goog-Api-Key':GKEY},
+      body:JSON.stringify({input:q,sessionToken:tok,includedRegionCodes:['us'],locationBias:{circle:{center:{latitude:33.68,longitude:-117.83},radius:50000}}})})
+      .then(function(r){return r.json();}).then(function(j){ if(my!==seq) return;
+        items=(j.suggestions||[]).filter(function(x){return x.placePrediction;}).slice(0,6).map(function(x){var p=x.placePrediction, sf=p.structuredFormat||{};
+          return {gid:p.placeId,name:(sf.mainText||{}).text||p.text.text,area:(sf.secondaryText||{}).text||'',types:p.types||[]}; });
+        act=items.length?0:-1; show(); });
+  }
+  function resolveGoogle(it){
+    return fetch('https://places.googleapis.com/v1/places/'+encodeURIComponent(it.gid)+'?sessionToken='+encodeURIComponent(tok||''),
+      {headers:{'X-Goog-Api-Key':GKEY,'X-Goog-FieldMask':'id,displayName,location,formattedAddress,primaryType,types,addressComponents'}})
+      .then(function(r){return r.json();}).then(function(p){ tok=null;
+        var city=''; (p.addressComponents||[]).forEach(function(c){ if((c.types||[]).indexOf('locality')>-1) city=c.longText; });
+        it.lon=p.location.longitude; it.lat=p.location.latitude; it.city=city; it.area=p.formattedAddress||it.area;
+        it.kind=gKind([p.primaryType].concat(p.types||[]),it.name); return it; });
+  }
+  function searchOSM(q,my){
+    return fetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q)).then(function(r){return r.json();}).then(function(j){
+      if(my!==seq) return;
+      items=(j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
+        var city=p.city||p.town||p.village||p.district||p.county||'';
+        return {name:p.name,lon:x.geometry.coordinates[0],lat:x.geometry.coordinates[1],kind:kindOf(p),city:city,
+          area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; });
+      act=items.length?0:-1; show(); });
+  }
+  gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<2){close();return;}
+    timer=setTimeout(function(){ var my=++seq; (GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];show();} }); },200); });
   gq.addEventListener('keydown',function(e){ if(go.hidden) return;
     if(e.key==='ArrowDown'){act=Math.min(act+1,items.length-1);show();e.preventDefault();}
     else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
@@ -202,7 +237,7 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .finder input:focus{{outline:2px solid var(--blue);outline-offset:1px}}
 .finder ul{{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(11,26,46,.18);max-height:320px;overflow:auto}}
 .finder li{{padding:9px 10px;border-radius:6px;cursor:pointer;display:grid;gap:1px}} .finder li[aria-selected=true],.finder li:hover{{background:var(--tint)}}
-.finder li b{{font-weight:700;font-size:15px}} .finder li span{{font-size:13px;color:var(--muted)}} .finder li.none{{cursor:default;color:var(--muted);font-size:14px}}
+.finder li b{{font-weight:700;font-size:15px}} .finder li span{{font-size:13px;color:var(--muted)}} .finder li.attr{{cursor:default;font-size:11px;color:var(--muted);text-align:right;padding:4px 10px}} .finder li.none{{cursor:default;color:var(--muted);font-size:14px}}
 .hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:540px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
 .hero-card h1{{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}}
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
@@ -277,7 +312,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <section class="hero-map" aria-labelledby="h1">
 <div class="mapbox"><iframe id="sim" title="Interactive map: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="{MAPSRC}" allow="fullscreen"></iframe>
 <noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript>
-<div class="finder" id="finder"><label class="sr" for="gq">Find any business on the map</label>
+<div class="finder" id="finder" data-gkey="{chrome.GOOGLE_PLACES_KEY}"><label class="sr" for="gq">Find any business on the map</label>
 <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
 <input id="gq" type="search" placeholder="Search any business on the map" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
 <ul id="gopts" role="listbox" hidden></ul></div></div>
