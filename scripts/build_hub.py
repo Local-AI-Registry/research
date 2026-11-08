@@ -4,6 +4,8 @@ Flávia: you never need to run this by hand. Edit studies.json on GitHub and sav
 the "Build research hub" automation runs this script and publishes the page.
 """
 import re, json, html, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import chrome
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PREVIEW = "--preview" in sys.argv
 rep = open(os.path.join(ROOT, "local-answer-gap/index.html")).read()
@@ -193,7 +195,9 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .hero-map{{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:max(560px,calc(100svh - 65px));background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%);overflow:hidden;border-bottom:1px solid var(--line)}}
 .mapbox{{position:absolute;inset:0}} .mapbox iframe{{position:absolute;inset:0;width:100%;height:100%;border:0}}
 .hero-head{{display:grid;gap:10px}}
-.finder{{position:relative}} .finder svg{{position:absolute;left:12px;top:13px;color:var(--muted);pointer-events:none}}
+.finder{{position:absolute;z-index:6;top:16px;right:16px;width:min(380px,calc(100% - 32px))}}
+.btn.big{{font-size:17px;padding:13px 20px;border-radius:10px;box-shadow:0 6px 16px rgba(31,79,224,.28)}}
+@media (min-width:641px) and (max-width:1020px){{.hero-card{{top:84px}}}} .finder svg{{position:absolute;left:12px;top:13px;color:var(--muted);pointer-events:none}}
 .finder input{{width:100%;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px 11px 38px;min-height:46px;box-shadow:0 1px 2px rgba(11,26,46,.06)}}
 .finder input:focus{{outline:2px solid var(--blue);outline-offset:1px}}
 .finder ul{{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(11,26,46,.18);max-height:320px;overflow:auto}}
@@ -208,7 +212,7 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
  .hero-card{{display:contents}}
  .hero-head{{order:1;padding:16px 16px 12px;gap:8px;position:relative;z-index:5}} .hero-head h1{{font-size:30px}} .hero-head p{{display:none}}
  .mapbox{{order:2;position:relative;inset:auto;height:68svh;min-height:440px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EEDDB8}}
- .hero-head .fine{{display:none}}}}
+ .hero-head .fine{{display:none}} .finder{{top:12px;left:12px;right:12px;width:auto}} .btn.big{{font-size:15px;padding:10px 16px}}}}
 .intro{{padding:28px 0 16px;display:grid;gap:8px}}
 .intro h1{{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}}
 .mapfig{{margin:0;display:grid;gap:8px}}
@@ -266,24 +270,21 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 .team p{{max-width:780px;margin:0}} .fine{{font-size:13px;color:var(--muted)}}
 .note{{margin-top:48px;background:var(--tint);border-left:3px solid var(--blue);border-radius:4px;padding:18px 20px;display:grid;gap:8px;max-width:820px}}
 .note p{{margin:0}} .note .t{{font:600 23px/1.25 var(--f-display)}}
-footer{{margin-top:56px;padding:24px 0 40px;border-top:1px solid var(--line);font-size:14px;color:var(--muted);display:grid;gap:8px}}
-footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
-</style>
+{chrome.CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
-<body><div class="wrap">
-<header class="top"><a href="https://localairegistry.com" aria-label="Local AI Registry home"><img src="local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="190" height="24"></a>
-<nav aria-label="Main"><a href="#library">Library</a><a href="local-answer-gap/">Latest study</a><a href="#research-team">Team</a><a href="https://localairegistry.com">localairegistry.com</a></nav></header>
+<body>{chrome.header("")}<div class="wrap">
 <main>
 <section class="hero-map" aria-labelledby="h1">
 <div class="mapbox"><iframe id="sim" title="Interactive map: people asking AI assistants and walking to Quiktox, a med spa on Newport Boulevard in Costa Mesa" data-src="{MAPSRC}" allow="fullscreen"></iframe>
-<noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript></div>
+<noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript>
+<div class="finder" id="finder"><label class="sr" for="gq">Find any business on the map</label>
+<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<input id="gq" type="search" placeholder="Search any business on the map" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
+<ul id="gopts" role="listbox" hidden></ul></div></div>
 <div class="hero-card"><div class="hero-head"><div class="k">Local AI Registry Research</div>
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
 <p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
-<div class="finder" id="finder"><label class="sr" for="gq">Find any business on the map</label>
-<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-<input id="gq" type="search" placeholder="Find any business" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
-<ul id="gopts" role="listbox" hidden></ul></div>
+<div class="cta"><a class="btn p big" href="#library">Explore the research <span aria-hidden="true">↓</span></a></div>
 <p class="fine" id="gstatus" aria-live="polite">Click the pin to see the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div>
 </div>
 </section>
@@ -300,7 +301,7 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <ul class="grid4">
 <li><h3>Where AI gets local facts</h3><p>Which sources AI assistants cite when they answer questions about local&nbsp;businesses.</p></li>
 <li><h3>What AI can read</h3><p>Which pages, listings and formats AI can actually read and verify.</p></li>
-<li><h3>How answers change</h3><p>How wording, timing and the assistant used change who gets recommended.</p></li>
+<li><h3>How answers change</h3><p>How wording, timing and the assistant used change who gets&nbsp;recommended.</p></li>
 <li><h3>What owners can do</h3><p>Turning every finding into steps a local business can take, tested on real&nbsp;businesses.</p></li></ul></section>
 
 <section class="blk team" id="research-team" aria-labelledby="t"><h2 id="t">About the Local AI Registry Research Team</h2>
@@ -316,9 +317,7 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <aside class="note"><div class="k">One last thing</div><p class="t">AI is evolving every day. So is our&nbsp;research.</p>
 <p>The engines change how they find, read and cite local businesses constantly. Local AI Registry’s dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
 </main>
-<footer><div>Local AI Registry · 9891 Irvine Center Dr, Irvine, CA 92618 · (213) 931-5633 · <a href="https://localairegistry.com">localairegistry.com</a></div>
-<div class="soc"><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a><a href="https://www.youtube.com/@localairegistry">YouTube</a><a href="https://x.com/LocalAIRegistry">X</a><a href="https://www.instagram.com/localairegistry/">Instagram</a><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a><a href="https://www.tiktok.com/@localairegistry">TikTok</a><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></div>
-<div>Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. <a href="llms.txt">llms.txt</a></div></footer>
+</div>{chrome.footer("")}<div>
 </div>
 {JS}
 </body></html>'''

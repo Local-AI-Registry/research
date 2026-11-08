@@ -19,7 +19,27 @@
 <meta property="article:published_time" content="2026-11-07"><meta property="article:author" content="Local AI Registry Research Team">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry"><meta name="twitter:title" content="The Local Answer Gap: AEO research on 7,583 Google AI answers">
 <meta name="twitter:description" content="Local AI Registry’s AEO study of 7,583 Google AI answers: news supplied 67.5% of local citations, business sites 6.5%. Charts, data and an AEO playbook."><meta name="twitter:image" content="https://research.localairegistry.com/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png">
-<link rel="preload" href="/assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:'Hanken Grotesk';src:url(/assets/fonts/hanken-grotesk.woff2) format('woff2');font-weight:400 700;font-style:normal;font-display:swap}@font-face{font-family:'Bricolage Grotesque';src:url(/assets/fonts/bricolage-grotesque.woff2) format('woff2');font-weight:600 800;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/assets/fonts/cormorant.woff2) format('woff2');font-weight:500 600;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/assets/fonts/cormorant-italic.woff2) format('woff2');font-weight:500 600;font-style:italic;font-display:swap}</style>
+<link rel="preload" href="/assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:'Hanken Grotesk';src:url(/assets/fonts/hanken-grotesk.woff2) format('woff2');font-weight:400 700;font-style:normal;font-display:swap}@font-face{font-family:'Bricolage Grotesque';src:url(/assets/fonts/bricolage-grotesque.woff2) format('woff2');font-weight:600 800;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/assets/fonts/cormorant.woff2) format('woff2');font-weight:500 600;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/assets/fonts/cormorant-italic.woff2) format('woff2');font-weight:500 600;font-style:italic;font-display:swap}</style><!--chrome-css--><style>
+.sitehead{width:100%;margin:0;background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:30}
+.sh-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:20px}
+.sh-brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
+.sh-brand img{display:block;width:170px;height:auto}
+.sh-tag{font:800 11px/1 var(--f-head,system-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--blue);border-left:1px solid var(--line);padding-left:10px}
+.sh-nav{display:flex;gap:18px;font-size:14px;font-weight:600}
+.sh-nav a,.sh-main{color:var(--ink);text-decoration:none} .sh-nav a:hover,.sh-main:hover{color:var(--blue)}
+.sh-right{margin-left:auto;display:flex;align-items:center;gap:16px;font-size:14px;font-weight:600}
+.sh-cta{background:var(--blue);color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-weight:700;white-space:nowrap}
+.sh-cta:hover{filter:brightness(1.08)}
+@media (max-width:860px){.sh-nav,.sh-main{display:none}}
+@media (max-width:420px){.sh-brand img{width:140px}.sh-tag{display:none}.sh-cta{padding:8px 11px;font-size:13px}}
+.sitefoot{margin-top:64px;border-top:1px solid var(--line);background:var(--deep)}
+.sf-in{max-width:1180px;margin:0 auto;padding:36px 16px 24px;display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:860px){.sf-in{grid-template-columns:repeat(2,minmax(0,1fr))}.sf-brand{grid-column:1/-1}}
+.sf-brand{display:grid;gap:10px;align-content:start} .sf-brand p{margin:0;font-size:14px;color:var(--muted);max-width:420px}
+.sf-col h2{font:800 13px/1.2 var(--f-head,system-ui);letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
+.sf-col ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:14px} .sf-col a,.sf-legal a,.sf-addr a{color:var(--ink)}
+.sf-legal{max-width:1180px;margin:0 auto;padding:14px 16px 28px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+</style><!--/chrome-css-->
 <style>
 /* Layout: one reading column of findings; each finding = claim, chart, how-we-got-it. Charts sit in full-width bands. */
 :root{
@@ -1728,9 +1748,12 @@ table.play td{font-size:14px}
   }
  ]
 }</script>
-</head><body><main class="wrap"><article>
+</head><body><!--chrome-head--><div class="sitehead" role="banner"><div class="sh-in">
+<a class="sh-brand" href="../" aria-label="Local AI Registry Research home"><img src="../local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
+<nav class="sh-nav" aria-label="Research"><a href="../#library">Library</a><a href="../local-answer-gap/">Latest study</a><a href="../#research-team">Team</a></nav>
+<div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="https://localairegistry.com/search">Claim your free&nbsp;record</a></div>
+</div></div><!--/chrome-head--><main class="wrap"><article>
 <header class="hero">
-  <a href="https://localairegistry.com" class="logo-link" aria-label="Local AI Registry home"><img src="images/local-ai-registry-logo.svg" alt="Local AI Registry" width="220" height="27"></a>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="https://localairegistry.com">Local AI Registry</a> › <a href="https://research.localairegistry.com/">Research</a> › The Local Answer Gap</nav>
   <div class="eyebrow">Local AI Registry research · Published <time datetime="2026-11-07">November 7, 2026</time></div>
   <h1>The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses</h1>
@@ -1864,6 +1887,12 @@ table.play td{font-size:14px}
 <aside class="aeo closing"><div class="aeo-k">One last&nbsp;thing</div><p class="aeo-t">AI is evolving every day. So is our&nbsp;playbook.</p>
 <p>The engines change how they find, read and cite local businesses constantly, and what worked last quarter may not work next quarter. At Local AI Registry, our dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
 </article>
-<footer><div>Local AI Registry · 9891 Irvine Center Dr, Irvine, CA 92618 · <a href="https://localairegistry.com">localairegistry.com</a></div>
-<div>Charts and text © 2026 Local AI Registry, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Underlying data: Xu, Iqbal and Montgomery, IMC 2026 (CC BY 4.0),&nbsp;adapted.</div></footer>
-</main></body></html>
+
+</main><!--chrome-foot--><div class="sitefoot" role="contentinfo"><div class="sf-in">
+<div class="sf-brand"><img src="../local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21" loading="lazy">
+<p>Local AI Registry helps local businesses get found and described accurately by AI. Its dedicated local AI research team publishes original research here, free to use with&nbsp;credit.</p>
+<p class="sf-addr">9891 Irvine Center Dr, Irvine, CA 92618 · <a href="tel:+12139315633">(213)&nbsp;931-5633</a></p></div>
+<nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="../#library">Library</a></li><li><a href="../local-answer-gap/">The Local Answer Gap</a></li><li><a href="../#research-team">Research team</a></li><li><a href="../local-answer-gap/#cite">How to cite</a></li><li><a href="../llms.txt">llms.txt</a></li></ul></nav>
+<nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="https://localairegistry.com/search">Find and claim your business</a></li><li><a href="https://localairegistry.com/brand">Brand</a></li></ul></nav>
+<nav class="sf-col" aria-label="Follow Local AI Registry"><h2>Follow</h2><ul><li><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a></li><li><a href="https://www.youtube.com/@localairegistry">YouTube</a></li><li><a href="https://x.com/LocalAIRegistry">X</a></li><li><a href="https://www.instagram.com/localairegistry/">Instagram</a></li><li><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a></li><li><a href="https://www.tiktok.com/@localairegistry">TikTok</a></li><li><a href="https://pinterest.com/localairegistry">Pinterest</a></li><li><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a></li><li><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></li></ul></nav>
+</div><div class="sf-legal">© 2026 Local AI Registry. Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div></div><!--/chrome-foot--></body></html>
