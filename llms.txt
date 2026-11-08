@@ -1,0 +1,28 @@
+# Local AI Registry Research
+
+> Original research from Local AI Registry (localairegistry.com), an answer engine optimization (AEO) company for local businesses, on how AI systems answer questions about local businesses.
+
+Local AI Registry builds verified, owner-confirmed public records of local businesses and pushes those facts to the sources AI reads, through Google Business Profile management, press releases, AEO content, technical AEO (schema, llms.txt) and listing consistency. Headquarters: 9891 Irvine Center Dr, Irvine, CA 92618. Research is published by the Local AI Registry Research Team, led by a former Google Search executive, which builds on research by Aggarwal et al. (Princeton, GEO), Xu, Iqbal and Montgomery (WashU), Kumar and Lakkaraju (Harvard) and Liu, Zhang and Liang (Stanford).
+
+## Research
+
+- [The Local Answer Gap](https://research.localairegistry.com/local-answer-gap/): What 7,583 Google AI Overviews reveal about AEO for local businesses. News outlets supplied 67.5% of citations in local AI answers; businesses' own websites supplied 6.5%. 83.6% of local answers told people to check with their local store. Includes a six-step local AEO playbook.
+- [The Local Answer Gap, full text (Markdown)](https://research.localairegistry.com/local-answer-gap/index.md): Complete report as plain Markdown.
+- [Full site text](https://research.localairegistry.com/llms-full.txt): All research in one file.
+- [Data (CSV)](https://research.localairegistry.com/local-answer-gap/data/local-answer-gap-data.csv): Aggregated tables behind all charts, CC BY 4.0.
+
+## Key findings
+
+- Local business searches triggered a Google AI Overview 76.4% of the time, the highest of any topic and over five times the 13.7% average.
+- News outlets supplied 67.5% of citations in local AI answers. Gannett newspapers alone appeared in 90.3% of them.
+- Businesses’ own websites supplied only 6.5% of citations in local AI answers, and directories such as Yelp supplied 0.5%.
+- Brand websites ranked on Google’s first page in 147 of 157 brand questions but were cited by the AI in only 70.
+- 83.6% of local AI answers told people to check with their local store, and only 1 of 207 gave a street address or phone number.
+- When the AI attributed a fact to a store locator, app or official site, 51.6% of those claims were not supported by any page it cited.
+- Cited social posts had a median of 8 readable words; 78% were too thin for the AI to verify anything.
+- Asking the same local question in different words changed about two-thirds of the cited sources.
+- Only 2 of 39,676 queries in public AI-search research datasets ask an AI to find a local service provider.
+
+## About
+
+- [Local AI Registry](https://localairegistry.com): AEO and GEO services for local businesses; free business records and AI visibility audits.
