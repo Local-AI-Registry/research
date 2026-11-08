@@ -14,6 +14,7 @@ SAMEAS = re.search(r'"sameAs": (\[[^\]]*\])', rep).group(1)
 IMG = "local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap"
 e = lambda s: html.escape(s, quote=True)
 FAQ = [
+ ("How many people use AI to find local businesses?", "Nearly half of consumers now ask AI tools such as ChatGPT, Gemini and Perplexity for local business recommendations, according to BrightLocal’s 2026 research. ChatGPT has more than 900 million weekly users, Google’s AI Mode passed one billion monthly users in May 2026 with queries more than doubling every quarter, and Local AI Registry found that 76.4% of local business searches show a Google AI answer before any link."),
  ("What is Local AI Registry Research?", "Local AI Registry Research is the research program of Local AI Registry, an answer engine optimization (AEO) company for local businesses. Its dedicated local AI research team studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find, read and recommend local businesses, and publishes the findings free at research.localairegistry.com."),
  ("What has Local AI Registry’s research found?", "In The Local Answer Gap, Local AI Registry analyzed 7,583 Google AI Overviews and 98,020 fact-checked claims. News outlets supplied 67.5% of the citations in AI answers about local businesses, businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store."),
  ("Can I use Local AI Registry’s research and charts?", "Yes. All findings and charts are free to use under a CC BY 4.0 license with credit to Local AI Registry and a link to the study. Every chart has a ready-made embed code, and each study’s data can be downloaded."),
@@ -175,6 +176,8 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .nums ul{{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}
 @media (max-width:760px){{.nums ul{{grid-template-columns:repeat(2,minmax(0,1fr))}}}}
 .nums li{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-size:14px;color:var(--muted)}}
+.nums h2{{font:800 clamp(22px,2.6vw,26px)/1.2 var(--f-head)}}
+.nums li{{display:flex;flex-direction:column;gap:2px}} .nums .src{{margin-top:auto;padding-top:6px;font-size:12px;color:var(--muted)}}
 .nums b{{display:block;font:800 clamp(26px,3.4vw,36px)/1.1 var(--f-head);color:var(--blue);font-variant-numeric:tabular-nums}}
 .qa{{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:4px;max-width:780px}} .qa h3{{font:800 17px/1.35 var(--f-head)}} .qa p{{margin:0;color:var(--muted)}}
 .lib{{padding:40px 0 0;display:grid;gap:16px}}
@@ -233,9 +236,11 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <p class="fine">Drag, zoom and scrub the week. Real streets around Quiktox in Costa Mesa, California; foot traffic is&nbsp;illustrative.</p></div>
 </section>
 
-<section class="nums" aria-labelledby="numh"><h2 id="numh" class="sr">Local AI Registry research by the numbers</h2><ul>
-<li><b>55,393</b>Google&nbsp;searches</li><li><b>7,583</b>AI&nbsp;answers</li><li><b>98,020</b>fact-checked&nbsp;claims</li><li><b>1,496</b>cited&nbsp;pages&nbsp;read</li></ul>
-<p class="fine">Local AI Registry’s analysis in <a href="local-answer-gap/">The Local Answer&nbsp;Gap</a>&nbsp;(2026).</p></section>
+<section class="nums" aria-labelledby="numh"><h2 id="numh">Local discovery has moved to&nbsp;AI</h2><ul>
+<li><b>45%</b>of consumers ask AI for local business recommendations<a class="src" href="https://www.brightlocal.com/research/lcrs-ai-trust/">BrightLocal, 2026</a></li>
+<li><b>900M+</b>people use ChatGPT every&nbsp;week<a class="src" href="https://searchengineland.com/chatgpt-900-million-weekly-active-users-470492">OpenAI, 2026</a></li>
+<li><b>1B+</b>monthly users of Google AI Mode, with queries doubling every&nbsp;quarter<a class="src" href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Google, May 2026</a></li>
+<li><b>76.4%</b>of local business searches show an AI answer before any&nbsp;link<a class="src" href="local-answer-gap/">Local AI Registry, 2026</a></li></ul></section>
 
 {library(REAL + (PLACE if prev else []))}
 
