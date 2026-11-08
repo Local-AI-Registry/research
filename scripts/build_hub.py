@@ -13,19 +13,13 @@ SITE = "https://research.localairegistry.com/"; R = SITE + "local-answer-gap/"
 SAMEAS = re.search(r'"sameAs": (\[[^\]]*\])', rep).group(1)
 IMG = "local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap"
 e = lambda s: html.escape(s, quote=True)
+FAQ = [
+ ("What is Local AI Registry Research?", "Local AI Registry Research is the research program of Local AI Registry, an answer engine optimization (AEO) company for local businesses. Its dedicated local AI research team studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find, read and recommend local businesses, and publishes the findings free at research.localairegistry.com."),
+ ("What has Local AI Registry’s research found?", "In The Local Answer Gap, Local AI Registry analyzed 7,583 Google AI Overviews and 98,020 fact-checked claims. News outlets supplied 67.5% of the citations in AI answers about local businesses, businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store."),
+ ("Can I use Local AI Registry’s research and charts?", "Yes. All findings and charts are free to use under a CC BY 4.0 license with credit to Local AI Registry and a link to the study. Every chart has a ready-made embed code, and each study’s data can be downloaded."),
+ ("How does Local AI Registry use this research?", "Every finding feeds the AEO playbook Local AI Registry uses for local businesses: verified owner-confirmed business records, Google Business Profile management, press, AEO content, technical AEO and listing consistency."),
+]
 DESC = "Original AEO research from Local AI Registry on how ChatGPT, Claude, Gemini, Google AI Overviews and Perplexity find and recommend local businesses."
-ld = {"@context": "https://schema.org", "@graph": [
-  {"@type": "Organization", "@id": "https://localairegistry.com/#organization", "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com",
-   "logo": R + "images/local-ai-registry-logo.png", "sameAs": json.loads(SAMEAS),
-   "address": {"@type": "PostalAddress", "streetAddress": "9891 Irvine Center Dr", "addressLocality": "Irvine", "addressRegion": "CA", "postalCode": "92618", "addressCountry": "US"},
-   "telephone": "+1-213-931-5633", "subOrganization": {"@id": SITE + "#research-team"}},
-  {"@type": "ResearchOrganization", "@id": SITE + "#research-team", "name": "Local AI Registry Research Team", "url": SITE + "#research-team", "parentOrganization": {"@id": "https://localairegistry.com/#organization"},
-   "knowsAbout": ["Answer engine optimization", "Generative engine optimization", "Google AI Overviews", "AI search citations", "Local search"]},
-  {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Local AI Registry Research", "publisher": {"@id": "https://localairegistry.com/#organization"}, "inLanguage": "en-US"},
-  {"@type": "CollectionPage", "@id": SITE + "#page", "url": SITE, "name": "Local AI Registry Research", "description": DESC, "isPartOf": {"@id": SITE + "#website"},
-   "about": [{"@type": "Thing", "name": "Answer engine optimization"}, {"@type": "Thing", "name": "Local search"}],
-   "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Local AI Registry", "item": "https://localairegistry.com/"}, {"@type": "ListItem", "position": 2, "name": "Research", "item": SITE}]},
-   "mainEntity": {"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": R, "name": "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses"}]}}]}
 
 TYPES = ["Study", "Brief", "Index", "Dataset", "Experiment"]
 ENGINES = ["ChatGPT", "Claude", "Gemini", "Google AI Overviews", "Google AI Mode", "Perplexity", "Microsoft Copilot", "Meta AI"]
@@ -47,6 +41,20 @@ def load_studies():
             type=x["type"], engines=x["ai_assistants"], topics=x["topics"], abstract=x["summary"], data=x.get("data_url") or None, real=True))
     return out
 REAL = load_studies()
+ld = {"@context": "https://schema.org", "@graph": [
+  {"@type": "Organization", "@id": "https://localairegistry.com/#organization", "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com",
+   "logo": R + "images/local-ai-registry-logo.png", "sameAs": json.loads(SAMEAS),
+   "address": {"@type": "PostalAddress", "streetAddress": "9891 Irvine Center Dr", "addressLocality": "Irvine", "addressRegion": "CA", "postalCode": "92618", "addressCountry": "US"},
+   "telephone": "+1-213-931-5633", "subOrganization": {"@id": SITE + "#research-team"}},
+  {"@type": "ResearchOrganization", "@id": SITE + "#research-team", "name": "Local AI Registry Research Team", "url": SITE + "#research-team", "parentOrganization": {"@id": "https://localairegistry.com/#organization"},
+   "knowsAbout": ["Answer engine optimization", "Generative engine optimization", "Google AI Overviews", "AI search citations", "Local search"]},
+  {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Local AI Registry Research", "publisher": {"@id": "https://localairegistry.com/#organization"}, "inLanguage": "en-US"},
+  {"@type": "CollectionPage", "@id": SITE + "#page", "url": SITE, "name": "Local AI Registry Research", "description": DESC, "isPartOf": {"@id": SITE + "#website"},
+   "about": [{"@type": "Thing", "name": "Answer engine optimization"}, {"@type": "Thing", "name": "Local search"}],
+   "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Local AI Registry", "item": "https://localairegistry.com/"}, {"@type": "ListItem", "position": 2, "name": "Research", "item": SITE}]},
+   "mainEntity": {"@type": "ItemList", "numberOfItems": len(REAL), "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + x["url"], "name": x["title"]} for i, x in enumerate(REAL)]},
+   "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".hero-card h1", ".nums", "#faq"]}},
+  {"@type": "FAQPage", "@id": SITE + "#faq", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]}]}
 PH = [("How ChatGPT picks a med spa near you","Study",["ChatGPT"],["Med spas"]),
  ("Do Google reviews change which business AI recommends?","Study",["ChatGPT","Gemini","Google AI Overviews"],["Reviews"]),
  ("Plastic surgeons in AI answers: who gets named, and why","Study",["ChatGPT","Claude","Perplexity"],["Plastic surgery"]),
@@ -163,6 +171,12 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .ph{{display:inline-block;font:700 11px/1 var(--f-head);letter-spacing:.06em;text-transform:uppercase;border:1.5px dashed var(--muted);color:var(--muted);border-radius:4px;padding:4px 6px;margin-right:6px;vertical-align:1px}}
 .ph.sim{{border-style:solid;border-color:var(--blue);color:var(--blue)}}
 .sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}
+.nums{{padding:28px 0 0;display:grid;gap:8px}}
+.nums ul{{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}}
+@media (max-width:760px){{.nums ul{{grid-template-columns:repeat(2,minmax(0,1fr))}}}}
+.nums li{{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px;font-size:14px;color:var(--muted)}}
+.nums b{{display:block;font:800 clamp(26px,3.4vw,36px)/1.1 var(--f-head);color:var(--blue);font-variant-numeric:tabular-nums}}
+.qa{{border-top:1px solid var(--line);padding-top:12px;display:grid;gap:4px;max-width:780px}} .qa h3{{font:800 17px/1.35 var(--f-head)}} .qa p{{margin:0;color:var(--muted)}}
 .lib{{padding:40px 0 0;display:grid;gap:16px}}
 .lib-head{{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}} .lib-head h2{{font:800 clamp(24px,3vw,30px)/1.2 var(--f-head)}}
 .lib-count{{margin:0;font-size:14px;color:var(--muted)}}
@@ -219,6 +233,10 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <p class="fine">Drag, zoom and scrub the week. Real streets around Quiktox in Costa Mesa, California; foot traffic is&nbsp;illustrative.</p></div>
 </section>
 
+<section class="nums" aria-labelledby="numh"><h2 id="numh" class="sr">Local AI Registry research by the numbers</h2><ul>
+<li><b>55,393</b>Google&nbsp;searches</li><li><b>7,583</b>AI&nbsp;answers</li><li><b>98,020</b>fact-checked&nbsp;claims</li><li><b>1,496</b>cited&nbsp;pages&nbsp;read</li></ul>
+<p class="fine">Local AI Registry’s analysis in <a href="local-answer-gap/">The Local Answer&nbsp;Gap</a>&nbsp;(2026).</p></section>
+
 {library(REAL + (PLACE if prev else []))}
 
 <section class="blk" aria-labelledby="study"><h2 id="study">What we study</h2>
@@ -234,6 +252,9 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 
 <section class="blk" aria-labelledby="use"><h2 id="use">Use our research</h2>
 <p style="margin:0;max-width:780px">All charts and findings are free to use with credit under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Every chart has a ready-made embed code, and the data behind each study is downloadable. Please credit “Local AI Registry” and link to the study.</p></section>
+
+<section class="blk" id="faq" aria-labelledby="faqh"><h2 id="faqh">Questions about our research</h2>
+{"".join(f'<div class="qa"><h3>{e(q)}</h3><p>{e(a).replace(" free at research.", " free at&nbsp;research.")}</p></div>' for q, a in FAQ)}</section>
 
 <aside class="note"><div class="k">One last thing</div><p class="t">AI is evolving every day. So is our&nbsp;research.</p>
 <p>The engines change how they find, read and cite local businesses constantly. Local AI Registry’s dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
