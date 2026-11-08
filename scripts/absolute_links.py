@@ -24,9 +24,10 @@ def page(path):
     rel = os.path.relpath(os.path.dirname(path), ROOT)
     base = BASE if rel == "." else BASE + rel.replace(os.sep, "/") + "/"
     s = open(path, encoding="utf-8").read()
-    s = re.sub(r'\b(href|src|poster)=(["\'])([^"\']*)\2', lambda m: f'{m.group(1)}={m.group(2)}{fix(m.group(3), base)}{m.group(2)}', s)
-    s = re.sub(r'\bsrcset=(["\'])([^"\']*)\1', lambda m: "srcset=" + m.group(1) + ", ".join(
-        " ".join([fix(p.strip().split(" ")[0], base)] + p.strip().split(" ")[1:]) for p in m.group(2).split(",") if p.strip()) + m.group(1), s)
+    for q in ('"', "'"):
+        s = re.sub(r'(?<![\w-])(href|src|poster)=' + q + '([^' + q + '<>]*)' + q, lambda m: f'{m.group(1)}={q}{fix(m.group(2), base)}{q}', s)
+        s = re.sub(r'(?<![\w-])srcset=' + q + '([^' + q + '<>]*)' + q, lambda m: "srcset=" + q + ", ".join(
+            " ".join([fix(p.strip().split(" ")[0], base)] + p.strip().split(" ")[1:]) for p in m.group(1).split(",") if p.strip()) + q, s)
     open(path, "w", encoding="utf-8").write(s)
 
 if __name__ == "__main__":
