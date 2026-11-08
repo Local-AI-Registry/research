@@ -103,6 +103,14 @@ JS = r'''<script>
   var f=document.getElementById('sim');
   function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
   if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
+  var gf=document.getElementById('goto'), gs=document.getElementById('gstatus'), pend=null;
+  function send(){ if(!pend||!f.contentWindow) return; f.contentWindow.postMessage(pend,location.origin); }
+  if(gf) gf.addEventListener('submit',function(ev){ ev.preventDefault();
+    var q=document.getElementById('gq').value.trim(); if(!q) return;
+    pend={type:'lair-goto',q:q,kind:document.getElementById('gk').value}; gs.textContent='Finding '+q+'\u2026';
+    if(!f.src){ load(); f.addEventListener('load',function(){setTimeout(send,1500);},{once:true}); } else send(); });
+  addEventListener('message',function(e){ if(e.origin!==location.origin) return; var d=e.data||{}; if(d.type!=='lair-goto-result') return;
+    gs.textContent = d.ok ? 'Showing '+d.name+(d.area?', '+d.area:'')+'. Click the pin to see its Local AI Registry record.' : 'Couldn\u2019t find that. Try adding the street or city.'; });
   var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
       ft=document.getElementById('f-topic'), fe=document.getElementById('f-eng'), fy=document.getElementById('f-type'), fs=document.getElementById('f-sort'),
       count=document.getElementById('count'), empty=document.getElementById('empty'), more=document.getElementById('more'), PAGE=20, shown=PAGE;
@@ -156,10 +164,14 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .k{{font:800 12px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}}
 .hero-map{{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:max(560px,calc(100svh - 65px));background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%);overflow:hidden;border-bottom:1px solid var(--line)}}
 .hero-map iframe{{position:absolute;inset:0;width:100%;height:100%;border:0}}
-.hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:470px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
+.hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:540px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
 .hero-card h1{{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}}
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
 .nojs{{position:absolute;bottom:20px;left:20px}}
+.goto{{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:6px}}
+.goto input,.goto select{{font:inherit;font-size:14px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;padding:8px 10px;min-height:40px;min-width:0}}
+.goto button{{font:inherit;font-size:14px;font-weight:700;color:#fff;background:var(--ink);border:0;border-radius:6px;padding:8px 12px;min-height:40px;cursor:pointer}}
+@media (max-width:640px){{.goto{{grid-template-columns:minmax(0,1fr) auto}} .goto select{{grid-column:1/2}} .goto button{{grid-row:1/3;grid-column:2}}}}
 @media (max-width:640px){{.hero-card{{left:12px;right:12px;top:12px;max-width:none;padding:14px 16px;gap:8px}} .hero-card h1{{font-size:28px}} .hero-card p:not(.fine){{display:none}} .hero-card .btn{{padding:8px 12px;font-size:14px}}}}
 .intro{{padding:28px 0 16px;display:grid;gap:8px}}
 .intro h1{{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}}
@@ -233,7 +245,11 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
 <p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
 <div class="cta"><a class="btn p" href="#library">Explore the research</a><a class="btn s" href="local-answer-gap/">Latest study</a></div>
-<p class="fine">Drag, zoom and scrub the week. Real streets around Quiktox in Costa Mesa, California; foot traffic is&nbsp;illustrative.</p></div>
+<form class="goto" id="goto" autocomplete="off"><label class="sr" for="gq">Business name and city</label>
+<input id="gq" type="text" placeholder="Any business, city" maxlength="120" required>
+<label class="sr" for="gk">Type of business</label><select id="gk"><option value="medspa">Med spa</option><option value="plastic">Plastic surgeon</option><option value="dental">Dentist</option><option value="dispensary">Dispensary</option><option value="eyecare">Eye care</option><option value="restaurant">Restaurant</option><option value="salon">Salon</option><option value="other">Other</option></select>
+<button type="submit">Show me</button></form>
+<p class="fine" id="gstatus" aria-live="polite">Drag, zoom and scrub the week. Click the pin to open the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div>
 </section>
 
 <section class="nums" aria-labelledby="numh"><h2 id="numh">Local discovery has moved to&nbsp;AI</h2><ul>

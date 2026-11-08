@@ -56,6 +56,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
 .credit{pointer-events:auto;font-size:10.5px;background:rgba(246,235,208,.85);border-radius:6px;padding:3px 6px}
 .credit a{color:var(--ink)}
 .pin{display:flex;flex-direction:column;align-items:center;transform:translateY(-6px)}
+.pin a.tag{text-decoration:none;cursor:pointer;pointer-events:auto}
 .pin .tag{display:inline-flex;align-items:center;gap:6px;background:#FFFFFF;border:1.5px solid var(--blue);border-radius:999px;padding:4px 10px 4px 6px;color:var(--blue);font-family:var(--f-ui);font-weight:700;font-size:12px;white-space:nowrap;box-shadow:0 4px 12px rgba(31,79,224,.25)}
 .pin .tag span{font-family:var(--f-sc);font-weight:400;font-size:15px;color:var(--blue);letter-spacing:.04em}
 .pin .tag small{font-size:10.5px;font-weight:600;opacity:.85}
@@ -104,6 +105,47 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
   var INK='#4A2F1B', PAPER='#EEDDB8', BLUE='#1F4FE0';
   var ADDRESS='1815 Newport Blvd, Costa Mesa, CA 92627';
   var FALLBACK=[-117.9178,33.6431]; // approximate; replaced by a geocode of the address
+  /* The business on the map. Quiktox by default; a visitor can search for any business. */
+  var QUIKTOX_URL='https://localairegistry.com/biz/ca/costa-mesa/quiktox-costa-mesa-ca';
+  var HOME={name:'Quiktox',c:FALLBACK,url:QUIKTOX_URL,verified:true,area:'Newport Boulevard, Costa Mesa'};
+  var KINDS={
+    medspa:{label:'med spa',q:['Botox near me','Botox open now?','best med spa nearby','lip filler near me','who does Botox on lunch break?','med spa with good injectors']},
+    plastic:{label:'plastic surgeon',q:['best plastic surgeon near me','rhinoplasty surgeon nearby','board-certified plastic surgeon','tummy tuck consult near me']},
+    dental:{label:'dentist',q:['dentist open Saturday','emergency dentist near me','teeth whitening nearby','best family dentist near me']},
+    dispensary:{label:'dispensary',q:['dispensary open now','best dispensary near me','dispensary with delivery','pre-rolls near me']},
+    eyecare:{label:'eye doctor',q:['LASIK surgeon near me','eye exam this week','best eye doctor nearby','cataract surgeon near me']},
+    restaurant:{label:'restaurant',q:['lunch spot near me','best tacos nearby','dinner reservation tonight','open late near me']},
+    salon:{label:'salon',q:['haircut near me today','best balayage nearby','nail salon open now','blowout near me']},
+    other:{label:'business',q:['best near me','open now near me','who should I call nearby','top rated near me']}};
+  var KIND='medspa';
+  (function(){ var u=new URLSearchParams(location.search); if(u.get('kind')&&KINDS[u.get('kind')])KIND=u.get('kind'); })();
+  var MARKER=null, PIN=null, MAP=null;
+  function pinHTML(){
+    return '<a class="tag" target="_top" href="'+HOME.url+'" title="Open '+HOME.name.replace(/"/g,'')+' on Local AI Registry"><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 10 L92 86 L64 86 L50 58 L36 86 L8 86 Z" fill="#1F4FE0"/><path d="M50 10 L61 30 L39 30 Z" fill="#FF5A3C"/></svg><span></span><small>'+(HOME.verified?'Verified record':'See AI record')+' \u2197</small></a><span class="stem"></span><span class="base"></span>';
+  }
+  function renderPin(){ if(!PIN)return; PIN.innerHTML=pinHTML(); PIN.querySelector('.tag span').textContent=HOME.name;
+    var h=document.querySelector('.cart h1'), pp=document.querySelector('.cart p'); if(h)h.textContent=HOME.name; if(pp)pp.textContent=HOME.area; }
+  function goTo(query,kind){
+    if(kind&&KINDS[kind])KIND=kind;
+    return fetch('https://nominatim.openstreetmap.org/search?format=json&addressdetails=1&limit=1&countrycodes=us&q='+encodeURIComponent(query))
+      .then(function(r){return r.json();}).then(function(j){
+        if(!j||!j[0]) return {ok:false};
+        var r=j[0], a=r.address||{}, city=a.city||a.town||a.village||a.suburb||a.county||'', st=a.state||'';
+        var nm=(r.name&&r.name.length>1?r.name:query.split(',')[0]).trim();
+        HOME={name:nm,c:[+r.lon,+r.lat],verified:false,area:[a.road,city].filter(Boolean).join(', ')||st,
+          url:'https://localairegistry.com/search?q='+encodeURIComponent(nm+(city?' '+city:''))};
+        if(/quiktox/i.test(nm)){HOME.url=QUIKTOX_URL;HOME.verified=true;}
+        if(MARKER)MARKER.setLngLat(HOME.c); renderPin();
+        if(window.__resetWalk)window.__resetWalk();
+        if(MAP)MAP.flyTo({center:HOME.c,zoom:18.2,pitch:MAP.getPitch(),bearing:MAP.getBearing(),duration:2400,essential:true});
+        return {ok:true,name:nm,area:HOME.area};
+      }).catch(function(){return {ok:false};});
+  }
+  addEventListener('message',function(e){
+    if(e.origin!==location.origin) return;
+    var d=e.data||{}; if(d.type!=='lair-goto'||!d.q) return;
+    goTo(String(d.q).slice(0,120),d.kind).then(function(res){ try{ e.source.postMessage({type:'lair-goto-result',ok:res.ok,name:res.name,area:res.area},e.origin);}catch(x){} });
+  });
   var still=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ---------- restyle OpenFreeMap "liberty" as a parchment map ---------- */
@@ -159,21 +201,21 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
 
   function geocode(){
     return fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q='+encodeURIComponent(ADDRESS))
-      .then(function(r){return r.json();}).then(function(j){return j&&j[0]?[+j[0].lon,+j[0].lat]:FALLBACK;}).catch(function(){return FALLBACK;});
+      .then(function(r){return r.json();}).then(function(j){return j&&j[0]?[+j[0].lon,+j[0].lat]:FALLBACK;}).catch(function(){return FALLBACK;})
+      .then(function(c){HOME.c=c;return c;});
   }
 
   Promise.all([fetch('https://tiles.openfreemap.org/styles/liberty').then(function(r){return r.json();}),geocode()]).then(function(res){
     var style=parchment(res[0]), center=res[1];
-    var map=new maplibregl.Map({container:'map',style:style,center:center,zoom:18.2,pitch:55,bearing:-35,maxPitch:65,maxZoom:20,minZoom:14,attributionControl:false});
+    var map=MAP=new maplibregl.Map({container:'map',style:style,center:center,zoom:18.2,pitch:55,bearing:-35,maxPitch:65,maxZoom:20,minZoom:14,attributionControl:false});
     map.on('load',function(){ try{ map.setLight({anchor:'map',position:[1.4,210,35],color:'#FFF4DC',intensity:.45}); }catch(e){} });
     var view3d=true, tb=document.getElementById('view');
     tb.addEventListener('click',function(){view3d=!view3d; tb.textContent=view3d?'Flat map':'3D view';
       map.easeTo({pitch:view3d?55:0,bearing:view3d?-35:0,duration:900}); if(map.getLayer('building-3d'))map.setLayoutProperty('building-3d','visibility',view3d?'visible':'none');});
     map.on('styleimagemissing',function(e){if(e.id==='hatch'&&!map.hasImage('hatch'))map.addImage('hatch',hatchImage());});
 
-    var el=document.createElement('div'); el.className='pin';
-    el.innerHTML='<span class="tag"><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 10 L92 86 L64 86 L50 58 L36 86 L8 86 Z" fill="#1F4FE0"/><path d="M50 10 L61 30 L39 30 Z" fill="#FF5A3C"/></svg><span>Quiktox</span><small>Verified record</small></span><span class="stem"></span><span class="base"></span>';
-    new maplibregl.Marker({element:el,anchor:'bottom'}).setLngLat(center).addTo(map);
+    var el=PIN=document.createElement('div'); el.className='pin'; renderPin();
+    MARKER=new maplibregl.Marker({element:el,anchor:'bottom'}).setLngLat(center).addTo(map);
 
     map.once('idle',function(){ startWalking(map,center); });
   }).catch(function(err){
@@ -204,7 +246,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
       map.querySourceFeatures('openmaptiles',{sourceLayer:'poi'}).forEach(function(f){
         if(f.geometry.type==='Point'&&f.properties.name) shops.push({name:f.properties.name,c:f.geometry.coordinates});
       });
-      shops.push({name:'Quiktox',c:home,q:true});
+      shops.push({name:HOME.name,c:HOME.c,q:true});
     }
     function dist(a,b){var dx=(a[0]-b[0])*Math.cos(b[1]*Math.PI/180),dy=a[1]-b[1];return Math.sqrt(dx*dx+dy*dy)*111320;}
     function nearest(c){var best=null,bd=1e9;keys.forEach(function(k){var d=dist(nodes[k].c,c);if(d<bd){bd=d;best=k;}});return best;}
@@ -285,7 +327,8 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
     }
     var pings=[], hourKey=-1, hourAsked=0, hourNamed=0, aiNamedEl=document.getElementById('aiNamed'), nextAsk=0;
     var ENGINES=['ChatGPT','Gemini','Perplexity','Claude','Google AI'];
-    var MEDQ=['Botox near me','Botox open now?','best med spa nearby','lip filler Costa Mesa','who does Botox on lunch break?','med spa with good injectors'];
+    window.__resetWalk=function(){walkers.length=0;prints.length=0;pings.length=0;queue.length=0;};
+    var MEDQ_UNUSED=['Botox near me','Botox open now?','best med spa nearby','lip filler Costa Mesa','who does Botox on lunch break?','med spa with good injectors'];
     var OTHERQ=['coffee near me','lunch spot nearby','pet store open now?','quick dinner nearby','acai near me'];
     function ask(){
       var hk=Math.floor(simMin/60); if(hk!==hourKey){hourKey=hk;hourAsked=0;hourNamed=0;}
@@ -294,12 +337,12 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         hourAsked++;
         var open=quiktoxBusy(simMin)>0, named=open&&Math.random()<.42;
         if(named){hourNamed++;
-          var q=shops[shops.length-1]; pings.push({c:q.c,born:now,text:eng+': '+pick(MEDQ),hit:true});
+          var q=shops[shops.length-1]; pings.push({c:q.c,born:now,text:eng+': '+pick(KINDS[KIND].q),hit:true});
           if(Math.random()<.6) queue.push({at:now+.7+Math.random()*1.3,shop:q,why:'asked '+eng});
         } else {
           var b=map.getBounds(), side=Math.floor(Math.random()*4), r=Math.random();
           var c=side===0?[b.getWest()+(b.getEast()-b.getWest())*r,b.getNorth()]:side===1?[b.getEast(),b.getSouth()+(b.getNorth()-b.getSouth())*r]:side===2?[b.getWest()+(b.getEast()-b.getWest())*r,b.getSouth()]:[b.getWest(),b.getSouth()+(b.getNorth()-b.getSouth())*r];
-          pings.push({c:c,born:now,text:eng+' named another med spa',hit:false,edge:true});
+          pings.push({c:c,born:now,text:eng+' named another '+KINDS[KIND].label,hit:false,edge:true});
         }
         aiNamedEl.textContent=hourNamed+' of '+hourAsked;
       } else {
