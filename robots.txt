@@ -19,4 +19,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://research.localairegistry.com/sitemap.xml
+Sitemap: https://localairegistry.com/research/sitemap.xml

@@ -1,4 +1,4 @@
-"""Shared header and footer for every page on research.localairegistry.com.
+"""Shared header and footer for every page on localairegistry.com/research.
 
 Change them here, then run:  python scripts/build_hub.py  (rebuilds the hub)
 and                          python scripts/chrome.py     (updates every study page)
@@ -7,7 +7,7 @@ import os, re, glob
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CLAIM = "https://localairegistry.com/search"
 # Google Places API (New) browser key for the map's business search.
-# Restrict it in Google Cloud: Application restriction = Websites (research.localairegistry.com/*, proposals.localairegistry.com/*),
+# Restrict it in Google Cloud: Application restriction = Websites (localairegistry.com/research/*, proposals.localairegistry.com/*),
 # API restriction = Places API (New). Leave empty to fall back to the free OpenStreetMap search.
 GOOGLE_PLACES_KEY = ""
 CONTACT = "https://localairegistry.com/signup/business/new"

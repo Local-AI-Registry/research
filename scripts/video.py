@@ -83,7 +83,7 @@ def apply():
                     "contentUrl": f"https://www.youtube.com/watch?v={vid}", "embedUrl": f"https://www.youtube.com/embed/{vid}",
                     "url": canon + "#video", "inLanguage": "en-US", "isFamilyFriendly": True,
                     "publisher": {"@id": "https://localairegistry.com/#organization"},
-                    "creator": {"@id": "https://research.localairegistry.com/#research-team"},
+                    "creator": {"@id": "https://localairegistry.com/research/#research-team"},
                     "about": {"@id": canon + "#report"}}
             if v.get("transcript"): node["transcript"] = v["transcript"].strip()
             g.append(node)

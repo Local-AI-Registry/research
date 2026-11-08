@@ -3,17 +3,17 @@ title: "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for 
 author: Local AI Registry Research Team
 publisher: Local AI Registry (https://localairegistry.com)
 date: 2026-11-07
-canonical: https://research.localairegistry.com/local-answer-gap/
+canonical: https://localairegistry.com/research/local-answer-gap/
 license: CC BY 4.0
 ---
 
-[Local AI Registry](https://localairegistry.com) › [Research](https://research.localairegistry.com/) › The Local Answer Gap
+[Local AI Registry](https://localairegistry.com) › [Research](https://localairegistry.com/research/) › The Local Answer Gap
 
 Local AI Registry research · Published November 7, 2026
 
 # The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses
 
-By the [Local AI Registry Research Team](https://research.localairegistry.com/local-answer-gap/#authors)
+By the [Local AI Registry Research Team](https://localairegistry.com/research/local-answer-gap/#authors)
 
 The short answer
 
@@ -43,9 +43,9 @@ Search engine optimization (SEO) gets a business into a list of blue links. Answ
 
 Local AI Registry is a local AEO company. It builds a verified public record for each local business, has the owner confirm it, and pushes those facts to the places AI reads. This study asks a simple question: when AI answers a local question today, where do its facts come from, and what should a local business do about it?
 
-![Illustration comparing a search results page of blue links (SEO) with an AI answer box that cites a few sources (AEO)](https://research.localairegistry.com/local-answer-gap/images/seo-vs-aeo-explained-illustration.png)
+![Illustration comparing a search results page of blue links (SEO) with an AI answer box that cites a few sources (AEO)](https://localairegistry.com/research/local-answer-gap/images/seo-vs-aeo-explained-illustration.png)
 
-**Illustration 1. SEO gets you into the list. AEO gets you into the answer.** Search engine optimization (SEO) earns a place in a list of links. Answer engine optimization (AEO) earns a place inside the AI-written answer that appears before any links. [SVG](https://research.localairegistry.com/local-answer-gap/images/seo-vs-aeo-explained-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/seo-vs-aeo-explained-illustration.png)
+**Illustration 1. SEO gets you into the list. AEO gets you into the answer.** Search engine optimization (SEO) earns a place in a list of links. Answer engine optimization (AEO) earns a place inside the AI-written answer that appears before any links. [SVG](https://localairegistry.com/research/local-answer-gap/images/seo-vs-aeo-explained-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/seo-vs-aeo-explained-illustration.png)
 
 Answer engine optimization (AEO)
 :   Making a business’s facts clear, consistent and machine-readable so AI systems include it accurately in their answers.
@@ -75,9 +75,9 @@ LocalBusiness structured data
 
 Almost no one. Across 39,676 unique queries in four public AI-search research datasets, 239 concern a physical business and only 2 ask an AI to find a local service provider.
 
-![Table of four public AI search datasets: 39,676 unique queries, 239 about physical businesses, 2 asking for a local provider](https://research.localairegistry.com/local-answer-gap/images/public-ai-search-datasets-local-query-census.png)
+![Table of four public AI search datasets: 39,676 unique queries, 239 about physical businesses, 2 asking for a local provider](https://localairegistry.com/research/local-answer-gap/images/public-ai-search-datasets-local-query-census.png)
 
-**Figure 1. Only 2 of 39,676 public AI-search research queries ask AI to find a local provider.** Across four public AI-search datasets, 239 of 39,676 unique queries (0.6%) concern a physical business, and only 2 ask an AI to find a local service provider. [SVG](https://research.localairegistry.com/local-answer-gap/images/public-ai-search-datasets-local-query-census.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/public-ai-search-datasets-local-query-census.png)
+**Figure 1. Only 2 of 39,676 public AI-search research queries ask AI to find a local provider.** Across four public AI-search datasets, 239 of 39,676 unique queries (0.6%) concern a physical business, and only 2 ask an AI to find a local service provider. [SVG](https://localairegistry.com/research/local-answer-gap/images/public-ai-search-datasets-local-query-census.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/public-ai-search-datasets-local-query-census.png)
 
 **Data behind this chart:**
 
@@ -99,9 +99,9 @@ We re-analyzed the raw records released with Measuring Google AI Overviews: Acti
 - **Source groups.** Every cited domain was sorted into owner groups, including Gannett newspapers (31 domains) and TEGNA TV stations (13 domains), using their published lists of owned outlets.
 - **Replication check.** Our extraction found the same 7,583 AI Overviews the paper reports, and our overall unsupported-claim rate (11.03%) matches its published 11.0%.
 
-![Bar chart of local business searches by collection day in March and April 2026, peaking at 185 on April 6](https://research.localairegistry.com/local-answer-gap/images/local-business-searches-by-day-easter-2026.png)
+![Bar chart of local business searches by collection day in March and April 2026, peaking at 185 on April 6](https://localairegistry.com/research/local-answer-gap/images/local-business-searches-by-day-easter-2026.png)
 
-**Figure 2. Local “is it open” searches spiked the day after Easter.** 185 of 271 local searches in the dataset were collected on April 6, 2026, the day after Easter, which is why most local answers in this study are about holiday hours. [SVG](https://research.localairegistry.com/local-answer-gap/images/local-business-searches-by-day-easter-2026.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/local-business-searches-by-day-easter-2026.png)
+**Figure 2. Local “is it open” searches spiked the day after Easter.** 185 of 271 local searches in the dataset were collected on April 6, 2026, the day after Easter, which is why most local answers in this study are about holiday hours. [SVG](https://localairegistry.com/research/local-answer-gap/images/local-business-searches-by-day-easter-2026.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/local-business-searches-by-day-easter-2026.png)
 
 **Data behind this chart:**
 
@@ -130,9 +130,9 @@ We re-analyzed the raw records released with Measuring Google AI Overviews: Acti
 
 More often than any other topic: 76.4% of local business searches showed a Google AI Overview, against 13.7% of all searches.
 
-![Bar chart of AI Overview activation by category: local business 76.4%, science 39.9%, all others lower](https://research.localairegistry.com/local-answer-gap/images/google-ai-overview-activation-by-search-category.png)
+![Bar chart of AI Overview activation by category: local business 76.4%, science 39.9%, all others lower](https://localairegistry.com/research/local-answer-gap/images/google-ai-overview-activation-by-search-category.png)
 
-**Figure 3. Local business searches trigger Google AI Overviews more than any other topic.** 76.4% of local-business searches showed a Google AI Overview, nearly double the next category (science, 39.9%) and over five times the 13.7% average. [SVG](https://research.localairegistry.com/local-answer-gap/images/google-ai-overview-activation-by-search-category.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/google-ai-overview-activation-by-search-category.png)
+**Figure 3. Local business searches trigger Google AI Overviews more than any other topic.** 76.4% of local-business searches showed a Google AI Overview, nearly double the next category (science, 39.9%) and over five times the 13.7% average. [SVG](https://localairegistry.com/research/local-answer-gap/images/google-ai-overview-activation-by-search-category.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/google-ai-overview-activation-by-search-category.png)
 
 **Data behind this chart:**
 
@@ -159,9 +159,9 @@ More often than any other topic: 76.4% of local business searches showed a Googl
 | Climate | 128 | 1735 | 7.4% |
 | Beauty & fashion | 5 | 142 | 3.5% |
 
-![Bar chart: local searches 76.4%, other question searches 64.1%, all searches 13.7% showed an AI Overview](https://research.localairegistry.com/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.png)
+![Bar chart: local searches 76.4%, other question searches 64.1%, all searches 13.7% showed an AI Overview](https://localairegistry.com/research/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.png)
 
-**Figure 4. Local searches got an AI answer 76% of the time, even more often than other questions.** Controlling for phrasing, local searches were still 12 points more likely to get an AI Overview than other question-style searches (76.4% vs 64.1%). [SVG](https://research.localairegistry.com/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.png)
+**Figure 4. Local searches got an AI answer 76% of the time, even more often than other questions.** Controlling for phrasing, local searches were still 12 points more likely to get an AI Overview than other question-style searches (76.4% vs 64.1%). [SVG](https://localairegistry.com/research/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/local-search-ai-overview-rate-vs-question-searches.png)
 
 **Data behind this chart:**
 
@@ -189,13 +189,13 @@ Every business gets a public record on Local AI Registry showing what AI current
 
 From the news, not the business. News outlets supplied 67.5% of citations in local answers; businesses’ own websites supplied 6.5%.
 
-![Diagram: a local question goes to Google’s AI, which pulls mostly from news outlets, then social posts, portals and rarely the store’s own site, and returns an answer that tells you to check your store](https://research.localairegistry.com/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.png)
+![Diagram: a local question goes to Google’s AI, which pulls mostly from news outlets, then social posts, portals and rarely the store’s own site, and returns an answer that tells you to check your store](https://localairegistry.com/research/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.png)
 
-**Illustration 2. How Google’s AI builds an answer about a local business.** For local questions, Google’s AI assembled answers mostly from news coverage (67.5% of citations), rarely from the business itself (6.5%), and usually ended by telling people to check with their local store. [SVG](https://research.localairegistry.com/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.png)
+**Illustration 2. How Google’s AI builds an answer about a local business.** For local questions, Google’s AI assembled answers mostly from news coverage (67.5% of citations), rarely from the business itself (6.5%), and usually ended by telling people to check with their local store. [SVG](https://localairegistry.com/research/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/how-google-ai-builds-a-local-answer-illustration.png)
 
-![Heatmap of cited source types: Gannett newspapers 28.3% of local citations and cited in 90.3% of local answers; business’s own site 6.5%](https://research.localairegistry.com/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png)
+![Heatmap of cited source types: Gannett newspapers 28.3% of local citations and cited in 90.3% of local answers; business’s own site 6.5%](https://localairegistry.com/research/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png)
 
-**Figure 5. Who Google’s AI cites for local business questions vs everything else.** In local answers, Gannett newspapers supplied 28.3% of citations and appeared in 90.3% of answers. Businesses’ own websites supplied 6.5% of citations. [SVG](https://research.localairegistry.com/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png)
+**Figure 5. Who Google’s AI cites for local business questions vs everything else.** In local answers, Gannett newspapers supplied 28.3% of citations and appeared in 90.3% of answers. Businesses’ own websites supplied 6.5% of citations. [SVG](https://localairegistry.com/research/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap.png)
 
 **Data behind this chart:**
 
@@ -209,9 +209,9 @@ From the news, not the business. News outlets supplied 67.5% of citations in loc
 | Social media | 10.2% | 14.1% | 48.3% | 57.0% |
 | Everything else | 7.6% | 53.0% | 39.1% | 97.0% |
 
-![Bar chart of the most cited domains in local AI Overview answers led by today.com, usatoday.com and facebook.com](https://research.localairegistry.com/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.png)
+![Bar chart of the most cited domains in local AI Overview answers led by today.com, usatoday.com and facebook.com](https://localairegistry.com/research/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.png)
 
-**Figure 6. The 18 websites Google’s AI cited most for “is it open” questions.** today.com was cited in 62% of local answers and usatoday.com in 47%. Gannett and TEGNA domains are highlighted; no store’s own site made the top 18. [SVG](https://research.localairegistry.com/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.png)
+**Figure 6. The 18 websites Google’s AI cited most for “is it open” questions.** today.com was cited in 62% of local answers and usatoday.com in 47%. Gannett and TEGNA domains are highlighted; no store’s own site made the top 18. [SVG](https://localairegistry.com/research/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/top-domains-cited-in-google-ai-local-answers.png)
 
 **Data behind this chart:**
 
@@ -238,9 +238,9 @@ From the news, not the business. News outlets supplied 67.5% of citations in loc
 
 USA Today and its network of local papers (IndyStar, Delaware Online, North Jersey, El Paso Times and dozens more) publish “what’s open” roundups every holiday, and TEGNA’s local TV stations do the same. Google’s AI treats those roundups as the record. Directories barely register: Yelp, MapQuest and OpenTable together supplied 8 of 1,497 local citations.
 
-![Bar chart of how over-represented each source type is in local answers: TEGNA 18x, portals 4.1x, Gannett 3.9x, other news 1.8x, own site 1.3x, social 0.7x](https://research.localairegistry.com/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.png)
+![Bar chart of how over-represented each source type is in local answers: TEGNA 18x, portals 4.1x, Gannett 3.9x, other news 1.8x, own site 1.3x, social 0.7x](https://localairegistry.com/research/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.png)
 
-**Figure 7. TEGNA TV stations are 18 times more likely to be cited in local answers than in other answers.** Relative to other topics, local answers lean on TEGNA TV stations 18 times more, AOL/Yahoo/MSN 4.1 times and Gannett 3.9 times. Social media is used less (0.7 times). [SVG](https://research.localairegistry.com/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.png)
+**Figure 7. TEGNA TV stations are 18 times more likely to be cited in local answers than in other answers.** Relative to other topics, local answers lean on TEGNA TV stations 18 times more, AOL/Yahoo/MSN 4.1 times and Gannett 3.9 times. Social media is used less (0.7 times). [SVG](https://localairegistry.com/research/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.png)
 
 **Data behind this chart:**
 
@@ -254,9 +254,9 @@ USA Today and its network of local papers (IndyStar, Delaware Online, North Jers
 | Social media | 10.2% | 14.1% | 0.7× |
 | Everything else | 7.6% | 53.0% | 0.1× |
 
-![Two by two chart of source types by share of local citations and over-representation; Gannett and other news are local gatekeepers, TEGNA a local specialist](https://research.localairegistry.com/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.png)
+![Two by two chart of source types by share of local citations and over-representation; Gannett and other news are local gatekeepers, TEGNA a local specialist](https://localairegistry.com/research/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.png)
 
-**Figure 8. Local gatekeepers: which sources dominate Google AI’s local answers.** Gannett newspapers and other news outlets are local gatekeepers: large shares of local citations and over-represented versus other topics. Business sites sit near the bottom left. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.png)
+**Figure 8. Local gatekeepers: which sources dominate Google AI’s local answers.** Gannett newspapers and other news outlets are local gatekeepers: large shares of local citations and over-represented versus other topics. Business sites sit near the bottom left. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-local-answer-source-2x2-share-vs-lift.png)
 
 **Data behind this chart:**
 
@@ -270,9 +270,9 @@ USA Today and its network of local papers (IndyStar, Delaware Online, North Jers
 | Social media | 10.2% | 0.7× |
 | Everything else | 7.6% | 0.1× |
 
-![Heatmap of source types by local question type; business’s own site 10.9% for brand hours questions and 1.0% for generic what’s open questions](https://research.localairegistry.com/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.png)
+![Heatmap of source types by local question type; business’s own site 10.9% for brand hours questions and 1.0% for generic what’s open questions](https://localairegistry.com/research/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.png)
 
-**Figure 9. The vaguer the local question, the less the business gets cited.** Businesses’ own sites made up 8.8 to 10.9% of citations when a brand was named, but only 1.0% for generic “what’s open” questions, which is how people discover new places. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.png)
+**Figure 9. The vaguer the local question, the less the business gets cited.** Businesses’ own sites made up 8.8 to 10.9% of citations when a brand was named, but only 1.0% for generic “what’s open” questions, which is how people discover new places. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-citation-sources-by-local-question-type-heatmap.png)
 
 **Data behind this chart:**
 
@@ -301,13 +301,13 @@ Press releases and media distribution put a business’s confirmed facts on news
 
 No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI cited them in only 70.
 
-![Illustration of a store website ranking at the top of Google page one while the AI answer next to it cites news sites instead](https://research.localairegistry.com/local-answer-gap/images/ranked-vs-used-by-ai-illustration.png)
+![Illustration of a store website ranking at the top of Google page one while the AI answer next to it cites news sites instead](https://localairegistry.com/research/local-answer-gap/images/ranked-vs-used-by-ai-illustration.png)
 
-**Illustration 3. Ranked first, still skipped: why SEO alone isn’t AEO.** In 147 of 157 brand questions the store’s own site ranked on page one, but the AI cited it in only 70. Ranking and being used by AI are separate outcomes. [SVG](https://research.localairegistry.com/local-answer-gap/images/ranked-vs-used-by-ai-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ranked-vs-used-by-ai-illustration.png)
+**Illustration 3. Ranked first, still skipped: why SEO alone isn’t AEO.** In 147 of 157 brand questions the store’s own site ranked on page one, but the AI cited it in only 70. Ranking and being used by AI are separate outcomes. [SVG](https://localairegistry.com/research/local-answer-gap/images/ranked-vs-used-by-ai-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ranked-vs-used-by-ai-illustration.png)
 
-![Dumbbell chart per brand comparing how often its website ranked on page one versus was cited by the AI Overview](https://research.localairegistry.com/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
+![Dumbbell chart per brand comparing how often its website ranked on page one versus was cited by the AI Overview](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
 
-**Figure 10. Ranked on page one, skipped by the AI: brand websites in local answers.** Brand websites appeared on page one in 147 of 157 brand questions but were cited in 70. Walmart ranked in 11 of 15 answers and was cited once. [SVG](https://research.localairegistry.com/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
+**Figure 10. Ranked on page one, skipped by the AI: brand websites in local answers.** Brand websites appeared on page one in 147 of 157 brand questions but were cited in 70. Walmart ranked in 11 of 15 answers and was cited once. [SVG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
 
 **Data behind this chart:**
 
@@ -328,9 +328,9 @@ No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI 
 | Kroger | 4 | 4 | 4 |
 | Home Depot | 4 | 4 | 4 |
 
-![Two by two of brands by page-one ranking rate and AI citation rate; Walmart, Starbucks and Chipotle are ranked but ignored](https://research.localairegistry.com/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.png)
+![Two by two of brands by page-one ranking rate and AI citation rate; Walmart, Starbucks and Chipotle are ranked but ignored](https://localairegistry.com/research/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.png)
 
-**Figure 11. Ranked and used vs ranked and ignored: a 2x2 of brand websites.** Most brands ranked on page one nearly every time. What split them was use: Publix, Trader Joe’s and Sam’s Club were cited every time; Walmart, Starbucks and Chipotle were ranked but ignored. [SVG](https://research.localairegistry.com/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.png)
+**Figure 11. Ranked and used vs ranked and ignored: a 2x2 of brand websites.** Most brands ranked on page one nearly every time. What split them was use: Publix, Trader Joe’s and Sam’s Club were cited every time; Walmart, Starbucks and Chipotle were ranked but ignored. [SVG](https://localairegistry.com/research/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.png)
 
 **Data behind this chart:**
 
@@ -351,9 +351,9 @@ No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI 
 | Kroger | 100% | 100% |
 | Home Depot | 100% | 100% |
 
-![Heatmap of brands by citation source; Walmart own site cited in 7% of its answers, Publix, Trader Joe’s and Sam’s Club 100%](https://research.localairegistry.com/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.png)
+![Heatmap of brands by citation source; Walmart own site cited in 7% of its answers, Publix, Trader Joe’s and Sam’s Club 100%](https://localairegistry.com/research/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.png)
 
-**Figure 12. Brand by brand: where Google’s AI got each chain’s hours.** Walmart, the most-asked brand, had its own site cited in 7% of its answers. Starbucks and Chipotle were never cited for their own hours; Publix, Trader Joe’s and Sam’s Club were cited every time. [SVG](https://research.localairegistry.com/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.png)
+**Figure 12. Brand by brand: where Google’s AI got each chain’s hours.** Walmart, the most-asked brand, had its own site cited in 7% of its answers. Starbucks and Chipotle were never cited for their own hours; Publix, Trader Joe’s and Sam’s Club were cited every time. [SVG](https://localairegistry.com/research/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/brand-by-source-heatmap-google-ai-overviews-easter-hours.png)
 
 **Data behind this chart:**
 
@@ -375,9 +375,9 @@ No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI 
 
 Walmart, the most-asked brand, ranked on page one in 11 of 15 answers and was cited once. Starbucks and Chipotle were never cited for their own hours. Publix, Trader Joe’s, Sam’s Club, Kroger and Home Depot were cited every time. Ranking still matters: only 4.1% of business-site citations came from outside page one, while the AI went past page one for 48.8% of portal citations and 39.8% of TEGNA citations.
 
-![Bar chart of the share of each source type’s citations that came from outside Google’s first page; business sites 4.1%, portals 48.8%](https://research.localairegistry.com/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.png)
+![Bar chart of the share of each source type’s citations that came from outside Google’s first page; business sites 4.1%, portals 48.8%](https://localairegistry.com/research/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.png)
 
-**Figure 13. The AI goes past page one for news, not for business websites.** Only 4.1% of business-site citations came from outside Google’s first page, versus 48.8% for AOL/Yahoo/MSN and 39.8% for TEGNA stations. A business site has to rank to be used. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.png)
+**Figure 13. The AI goes past page one for news, not for business websites.** Only 4.1% of business-site citations came from outside Google’s first page, versus 48.8% for AOL/Yahoo/MSN and 39.8% for TEGNA stations. A business site has to rank to be used. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-citations-from-outside-google-page-one-by-source.png)
 
 **Data behind this chart:**
 
@@ -407,9 +407,9 @@ Local AI Registry’s AEO content work builds question-and-answer pages, topical
 
 Because it answers local questions with national facts. 83.6% of local answers hedged, and only 1 of 207 named an address.
 
-![Waffle chart of 207 squares, 173 highlighted for answers that hedged with check locally or call ahead](https://research.localairegistry.com/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.png)
+![Waffle chart of 207 squares, 173 highlighted for answers that hedged with check locally or call ahead](https://localairegistry.com/research/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.png)
 
-**Figure 14. 173 of 207 local AI answers told people to check with their local store.** 83.6% of local AI answers sent the reader back to the store (“check your local store,” “call ahead,” “hours may vary”), against 2.6% of other answers. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.png)
+**Figure 14. 173 of 207 local AI answers told people to check with their local store.** 83.6% of local AI answers sent the reader back to the store (“check your local store,” “call ahead,” “hours may vary”), against 2.6% of other answers. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-answers-telling-people-to-check-local-store-waffle.png)
 
 **Data behind this chart:**
 
@@ -418,9 +418,9 @@ Because it answers local questions with national facts. 83.6% of local answers h
 | Local answers | 83.6% |
 | Other answers | 2.6% |
 
-![Grouped bar chart: 83.6% of local answers hedge, 65.7% frame the answer at chain level, 0.5% give an address](https://research.localairegistry.com/local-answer-gap/images/how-ai-answers-local-questions-national-framing.png)
+![Grouped bar chart: 83.6% of local answers hedge, 65.7% frame the answer at chain level, 0.5% give an address](https://localairegistry.com/research/local-answer-gap/images/how-ai-answers-local-questions-national-framing.png)
 
-**Figure 15. AI answers local questions with national facts.** 65.7% of local answers spoke about “all locations” or “most stores” (vs 2.3% of other answers), and 83.6% hedged (vs 2.6%). National facts are the AI’s default for local questions. [SVG](https://research.localairegistry.com/local-answer-gap/images/how-ai-answers-local-questions-national-framing.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/how-ai-answers-local-questions-national-framing.png)
+**Figure 15. AI answers local questions with national facts.** 65.7% of local answers spoke about “all locations” or “most stores” (vs 2.3% of other answers), and 83.6% hedged (vs 2.6%). National facts are the AI’s default for local questions. [SVG](https://localairegistry.com/research/local-answer-gap/images/how-ai-answers-local-questions-national-framing.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/how-ai-answers-local-questions-national-framing.png)
 
 **Data behind this chart:**
 
@@ -430,9 +430,9 @@ Because it answers local questions with national facts. 83.6% of local answers h
 | Answers at chain level | 65.7% | 2.3% |
 | Gives address or phone | 0.5% | 0.8% |
 
-![Waffle chart of 207 squares with a single highlighted square for the one answer that gave an address or phone number](https://research.localairegistry.com/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.png)
+![Waffle chart of 207 squares with a single highlighted square for the one answer that gave an address or phone number](https://localairegistry.com/research/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.png)
 
-**Figure 16. 1 of 207 local AI answers named a street address or phone number.** Only 1 of 207 local AI answers gave a street address or phone number. The AI answered about chains, not places. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.png)
+**Figure 16. 1 of 207 local AI answers named a street address or phone number.** Only 1 of 207 local AI answers gave a street address or phone number. The AI answered about chains, not places. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-local-answers-with-address-or-phone-waffle.png)
 
 **Data behind this chart:**
 
@@ -458,9 +458,9 @@ Owners claim their Local AI Registry record for free and confirm each fact. Loca
 
 Often not. When the AI said “the store locator says,” 51.6% of those claims were not supported by any page it cited.
 
-![Bar chart: 51.6% of local claims quoting a store locator or app were unsupported, vs 6.7% of other local claims](https://research.localairegistry.com/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
+![Bar chart: 51.6% of local claims quoting a store locator or app were unsupported, vs 6.7% of other local claims](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
 
-**Figure 17. When Google’s AI says “the store locator says,” half the time it can’t show it.** 16 of 31 local claims that cited a store locator, app or official site (51.6%) were not supported by any page the AI cited, against 6.7% of other local claims. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
+**Figure 17. When Google’s AI says “the store locator says,” half the time it can’t show it.** 16 of 31 local claims that cited a store locator, app or official site (51.6%) were not supported by any page the AI cited, against 6.7% of other local claims. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
 
 **Data behind this chart:**
 
@@ -472,13 +472,13 @@ Often not. When the AI said “the store locator says,” 51.6% of those claims 
 
 Examples written by the AI and not found in its sources include “The Aldi store locator indicates Easter Sunday: Closed” and “Target Store Locator lists Easter Sunday as closed.” The pattern suggests the AI gets store-level hours from somewhere it does not cite, likely Google’s own business listing data, and attributes them to a locator page it could not read.
 
-![Illustration of three page types: a news article full of readable text, a store locator page made mostly of scripts, and a social post with a photo and a few words](https://research.localairegistry.com/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.png)
+![Illustration of three page types: a news article full of readable text, a store locator page made mostly of scripts, and a social post with a photo and a few words](https://localairegistry.com/research/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.png)
 
-**Illustration 4. What Google’s AI can actually read on a page.** News pages the AI cited had about 500 readable words. Store locator pages were mostly scripts, and the median cited social post had 8 readable words. [SVG](https://research.localairegistry.com/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.png)
+**Illustration 4. What Google’s AI can actually read on a page.** News pages the AI cited had about 500 readable words. Store locator pages were mostly scripts, and the median cited social post had 8 readable words. [SVG](https://localairegistry.com/research/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/what-ai-can-read-on-a-web-page-illustration.png)
 
-![Two by two of source types by how often they were cited and how often their pages had readable text; social is cited but 78% unreadable](https://research.localairegistry.com/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.png)
+![Two by two of source types by how often they were cited and how often their pages had readable text; social is cited but 78% unreadable](https://localairegistry.com/research/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.png)
 
-**Figure 18. Cited vs readable: what Google’s AI could actually read.** News pages were both cited and readable. Social posts were cited in 48% of local answers but 78% were thin (median 8 words). 11% of businesses’ own pages were thin. [SVG](https://research.localairegistry.com/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.png)
+**Figure 18. Cited vs readable: what Google’s AI could actually read.** News pages were both cited and readable. Social posts were cited in 48% of local answers but 78% were thin (median 8 words). 11% of businesses’ own pages were thin. [SVG](https://localairegistry.com/research/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/cited-vs-readable-ai-sources-2x2.png)
 
 **Data behind this chart:**
 
@@ -492,9 +492,9 @@ Examples written by the AI and not found in its sources include “The Aldi stor
 | Social media | 48.3% | 152 | 8 | 78.3% |
 | Everything else | 39.1% | 113 | 569 | 1.8% |
 
-![Bar chart of median readable words on cited pages: portals 639, news about 500, business sites 350, social media 8](https://research.localairegistry.com/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.png)
+![Bar chart of median readable words on cited pages: portals 639, news about 500, business sites 350, social media 8](https://localairegistry.com/research/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.png)
 
-**Figure 19. Social posts the AI cited had a median of 8 readable words.** The median cited social post had 8 readable words. Store locator pages were also thin: Trader Joe’s store search had 97 words and Cracker Barrel’s Easter page 18. [SVG](https://research.localairegistry.com/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.png)
+**Figure 19. Social posts the AI cited had a median of 8 readable words.** The median cited social post had 8 readable words. Store locator pages were also thin: Trader Joe’s store search had 97 words and Cracker Barrel’s Easter page 18. [SVG](https://localairegistry.com/research/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/readable-words-on-ai-cited-pages-by-source.png)
 
 **Data behind this chart:**
 
@@ -524,13 +524,13 @@ Local AI Registry’s technical AEO work makes sites readable to AI crawlers: te
 
 The verdict does; the sources don’t. Different wording of the same question changed about two-thirds of the cited sources.
 
-![Illustration of three phrasings of the same Target question, each citing a different mix of websites, all producing the same closed verdict](https://research.localairegistry.com/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.png)
+![Illustration of three phrasings of the same Target question, each citing a different mix of websites, all producing the same closed verdict](https://localairegistry.com/research/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.png)
 
-**Illustration 5. Different wording, different sources, same answer.** Three ways of asking about Target on Easter returned the same verdict but shared only about a third of their sources. No single publisher owns a local answer. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.png)
+**Illustration 5. Different wording, different sources, same answer.** Three ways of asking about Target on Easter returned the same verdict but shared only about a third of their sources. No single publisher owns a local answer. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-sources-rotate-same-verdict-illustration.png)
 
-![Bar chart of source overlap: 35% shared for the same brand asked in different words on the same day](https://research.localairegistry.com/local-answer-gap/images/ai-answer-source-overlap-by-wording.png)
+![Bar chart of source overlap: 35% shared for the same brand asked in different words on the same day](https://localairegistry.com/research/local-answer-gap/images/ai-answer-source-overlap-by-wording.png)
 
-**Figure 20. Ask the same thing in different words and two-thirds of the sources change.** “Is Target open on Easter” and “Target Easter hours,” asked the same day, shared about 35% of cited sources on average. The verdict stayed the same; the sources rotated. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-answer-source-overlap-by-wording.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-answer-source-overlap-by-wording.png)
+**Figure 20. Ask the same thing in different words and two-thirds of the sources change.** “Is Target open on Easter” and “Target Easter hours,” asked the same day, shared about 35% of cited sources on average. The verdict stayed the same; the sources rotated. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-answer-source-overlap-by-wording.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-answer-source-overlap-by-wording.png)
 
 **Data behind this chart:**
 
@@ -540,9 +540,9 @@ The verdict does; the sources don’t. Different wording of the same question ch
 | Same brand, same day, different wording | 35% | 157 pairs |
 | Other topics, same query repeated | 39% | 3,294 pairs |
 
-![Heatmap of claim verdicts: 87.8% of local claims supported vs 84.5% of other claims](https://research.localairegistry.com/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
+![Heatmap of claim verdicts: 87.8% of local claims supported vs 84.5% of other claims](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
 
-**Figure 21. Local AI answers were more faithful to their sources than average.** 87.8% of 2,253 local claims were supported by the cited pages, versus 84.5% of 95,767 other claims. Faithful to sources is not the same as accurate for your location. [SVG](https://research.localairegistry.com/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
+**Figure 21. Local AI answers were more faithful to their sources than average.** 87.8% of 2,253 local claims were supported by the cited pages, versus 84.5% of 95,767 other claims. Faithful to sources is not the same as accurate for your location. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
 
 **Data behind this chart:**
 
@@ -551,9 +551,9 @@ The verdict does; the sources don’t. Different wording of the same question ch
 | Local answers | 87.84% | 4.88% | 1.91% | 0.89% | 4.48% |
 | Everything else | 84.53% | 4.34% | 1.38% | 2.7% | 7.04% |
 
-![Histogram of sources cited per answer for local and other AI Overviews](https://research.localairegistry.com/local-answer-gap/images/sources-per-ai-overview-answer-distribution.png)
+![Histogram of sources cited per answer for local and other AI Overviews](https://localairegistry.com/research/local-answer-gap/images/sources-per-ai-overview-answer-distribution.png)
 
-**Figure 22. Local AI answers cite fewer sources: 7.2 per answer vs 8.1.** Local AI Overviews cited 7.23 sources on average versus 8.1 for other topics, clustered at 5 to 8 sources. [SVG](https://research.localairegistry.com/local-answer-gap/images/sources-per-ai-overview-answer-distribution.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/sources-per-ai-overview-answer-distribution.png)
+**Figure 22. Local AI answers cite fewer sources: 7.2 per answer vs 8.1.** Local AI Overviews cited 7.23 sources on average versus 8.1 for other topics, clustered at 5 to 8 sources. [SVG](https://localairegistry.com/research/local-answer-gap/images/sources-per-ai-overview-answer-distribution.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/sources-per-ai-overview-answer-distribution.png)
 
 **Data behind this chart:**
 
@@ -576,9 +576,9 @@ The verdict does; the sources don’t. Different wording of the same question ch
 
 Across the 46 chains asked about on Easter, the open-or-closed verdict never contradicted itself; every apparent conflict our tagger flagged turned out, when read by hand, to be phrasing like “Yes, it’s closed.” Local answers were also more faithful to their sources than average (7.3% unsupported claims vs 11.1%). But faithful to sources is not the same as accurate for your location, and the sources rotate.
 
-![Diagram of an owner-confirmed Local AI Registry record feeding the business website, Google Business Profile, directories and press, so AI answers match](https://research.localairegistry.com/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.png)
+![Diagram of an owner-confirmed Local AI Registry record feeding the business website, Google Business Profile, directories and press, so AI answers match](https://localairegistry.com/research/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.png)
 
-**Illustration 6. One confirmed record, pushed everywhere AI looks.** Because AI rotates between sources, a business’s facts need to match on its website, Google Business Profile, directories and press. Local AI Registry starts from one owner-confirmed record. [SVG](https://research.localairegistry.com/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.png)
+**Illustration 6. One confirmed record, pushed everywhere AI looks.** Because AI rotates between sources, a business’s facts need to match on its website, Google Business Profile, directories and press. Local AI Registry starts from one owner-confirmed record. [SVG](https://localairegistry.com/research/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.png)
 
 AEO takeaway
 
@@ -594,9 +594,9 @@ Directory submissions and listing management keep every source in agreement with
 
 ## The local AEO playbook, ranked by what the data supports
 
-![Two by two of source types by business control and share of local AI citations; news is high citation low control, own site is full control low citation](https://research.localairegistry.com/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.png)
+![Two by two of source types by business control and share of local AI citations; news is high citation low control, own site is full control low citation](https://localairegistry.com/research/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.png)
 
-**Figure 23. Local AEO priority map: what AI cites vs what you control.** The sources AI cites most for local answers (news) are the ones businesses control least, and the source they fully control (their site) is cited least. AEO closes that gap from both sides. [SVG](https://research.localairegistry.com/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.svg) · [PNG](https://research.localairegistry.com/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.png)
+**Figure 23. Local AEO priority map: what AI cites vs what you control.** The sources AI cites most for local answers (news) are the ones businesses control least, and the source they fully control (their site) is cited least. AEO closes that gap from both sides. [SVG](https://localairegistry.com/research/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/local-aeo-priority-2x2-control-vs-citation-share.png)
 
 **Data behind this chart:**
 
@@ -725,16 +725,16 @@ Ready-to-quote findings
 - “Brand websites ranked on Google’s first page in 147 of 157 brand questions but were cited by Google’s AI in only 70.” Local AI Registry, The Local Answer Gap (2026)
 
 ```
-Lee, S., et al., Local AI Registry Research Team (2026). The Local Answer Gap: What 7,583 Google AI Answers Reveal About AEO for Local Businesses. Local AI Registry. https://research.localairegistry.com/local-answer-gap/
+Lee, S., et al., Local AI Registry Research Team (2026). The Local Answer Gap: What 7,583 Google AI Answers Reveal About AEO for Local Businesses. Local AI Registry. https://localairegistry.com/research/local-answer-gap/
 ```
 
-Data: our aggregated tables are available as a [CSV download](https://research.localairegistry.com/local-answer-gap/data/local-answer-gap-data.csv). Underlying records: Xu, H., Iqbal, U., and Montgomery, J. M. (2026). [Measuring Google AI Overviews](https://doi.org/10.1145/3777912.3839818). IMC 2026. [Dataset](https://github.com/haofeix/google-aio-characterization), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). We filtered, regrouped and re-analyzed the authors’ records; the findings here are Local AI Registry’s, not the original authors’.
+Data: our aggregated tables are available as a [CSV download](https://localairegistry.com/research/local-answer-gap/data/local-answer-gap-data.csv). Underlying records: Xu, H., Iqbal, U., and Montgomery, J. M. (2026). [Measuring Google AI Overviews](https://doi.org/10.1145/3777912.3839818). IMC 2026. [Dataset](https://github.com/haofeix/google-aio-characterization), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). We filtered, regrouped and re-analyzed the authors’ records; the findings here are Local AI Registry’s, not the original authors’.
 
 ## About the author
 
 **The Local AI Registry Research Team** is Local AI Registry’s dedicated local AI research group, and its people come from some of the biggest names in search, tech and brick-and-mortar business: Google, Microsoft, Spotify, Chase, Mozilla Firefox, Allergan, Galderma, Evolus, Revance, Johnson & Johnson, Bayer, Estée Lauder, Nordstrom, Sephora, Saks Fifth Avenue, Spectrum, BitGo, Republic, NextSeed, Toptal and RxSight. It is led by a former Google Search executive, advised by a Stanford-trained dermatologist and a Northwestern professor who is a past president of the American Society for Laser Medicine and Surgery, and spread across California, Washington, Texas, New York, Florida, Brazil, Nigeria, Poland, India and Singapore. The team works from raw public data, owns and runs a local med spa, and studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find and describe local businesses.
 
-The team is a dedicated follower of the researchers who built modern AI and those who study AI search, including Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Ashish Vaswani, Noam Shazeer, Demis Hassabis, Jeff Dean, Ilya Sutskever, Andrej Karpathy, Dario Amodei, Jared Kaplan, Chris Olah, Fei-Fei Li, Andrew Ng, Percy Liang, Karthik Narasimhan, Ameet Deshpande, Himabindu Lakkaraju, Aounon Kumar, Nelson F. Liu, Umar Iqbal and Jacob M. Montgomery. Their work underpins ChatGPT, Claude and Gemini, and the team studies their papers and tests their ideas against what AI says about local businesses. No affiliation or endorsement implied. See the [references](https://research.localairegistry.com/local-answer-gap/#references).
+The team is a dedicated follower of the researchers who built modern AI and those who study AI search, including Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Ashish Vaswani, Noam Shazeer, Demis Hassabis, Jeff Dean, Ilya Sutskever, Andrej Karpathy, Dario Amodei, Jared Kaplan, Chris Olah, Fei-Fei Li, Andrew Ng, Percy Liang, Karthik Narasimhan, Ameet Deshpande, Himabindu Lakkaraju, Aounon Kumar, Nelson F. Liu, Umar Iqbal and Jacob M. Montgomery. Their work underpins ChatGPT, Claude and Gemini, and the team studies their papers and tests their ideas against what AI says about local businesses. No affiliation or endorsement implied. See the [references](https://localairegistry.com/research/local-answer-gap/#references).
 
 One last thing
 

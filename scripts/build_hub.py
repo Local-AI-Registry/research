@@ -11,13 +11,13 @@ PREVIEW = "--preview" in sys.argv
 rep = open(os.path.join(ROOT, "local-answer-gap/index.html")).read()
 auth = re.search(r'<section id="authors"[^>]*>(.*?)</section>', rep, re.S).group(1)
 paras = re.findall(r'<p>.*?</p>', auth, re.S)
-SITE = "https://research.localairegistry.com/"; R = SITE + "local-answer-gap/"
+SITE = "https://localairegistry.com/research/"; R = SITE + "local-answer-gap/"
 SAMEAS = re.search(r'"sameAs": (\[[^\]]*\])', rep).group(1)
 IMG = "local-answer-gap/images/who-google-ai-cites-for-local-business-questions-heatmap"
 e = lambda s: html.escape(s, quote=True)
 FAQ = [
  ("How many people use AI to find local businesses?", "Nearly half of consumers now ask AI tools such as ChatGPT, Gemini and Perplexity for local business recommendations, according to BrightLocal’s 2026 research. ChatGPT has more than 900 million weekly users, Google’s AI Mode passed one billion monthly users in May 2026 with queries more than doubling every quarter, and Local AI Registry found that 76.4% of local business searches show a Google AI answer before any link."),
- ("What is Local AI Registry Research?", "Local AI Registry Research is the research program of Local AI Registry, an answer engine optimization (AEO) company for local businesses. Its dedicated local AI research team studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find, read and recommend local businesses, and publishes the findings free at research.localairegistry.com."),
+ ("What is Local AI Registry Research?", "Local AI Registry Research is the research program of Local AI Registry, an answer engine optimization (AEO) company for local businesses. Its dedicated local AI research team studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find, read and recommend local businesses, and publishes the findings free at localairegistry.com/research."),
  ("What has Local AI Registry’s research found?", "In The Local Answer Gap, Local AI Registry analyzed 7,583 Google AI Overviews and 98,020 fact-checked claims. News outlets supplied 67.5% of the citations in AI answers about local businesses, businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store."),
  ("Can I use Local AI Registry’s research and charts?", "Yes. All findings and charts are free to use under a CC BY 4.0 license with credit to Local AI Registry and a link to the study. Every chart has a ready-made embed code, and each study’s data can be downloaded."),
  ("How does Local AI Registry use this research?", "Every finding feeds the AEO playbook Local AI Registry uses for local businesses: verified owner-confirmed business records, Google Business Profile management, press, AEO content, technical AEO and listing consistency."),
@@ -228,7 +228,7 @@ JS = r'''<script>
 
 def build(fb, prev=False):
     MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "simulations/quiktox-foot-traffic/?embed=1"
-    fav = "" if prev else '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">'
+    fav = "" if prev else '<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Local AI Registry Research: Local AEO Studies and Data</title>
@@ -365,7 +365,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <li><h3>What owners can do</h3><p>Turning every finding into steps a local business can take, tested on real&nbsp;businesses.</p></li></ul></section>
 
 <section class="blk team" id="research-team" aria-labelledby="t"><h2 id="t">About the Local AI Registry Research Team</h2>
-{chr(10).join(paras).replace('href="https://research.localairegistry.com/local-answer-gap/#references"','href="local-answer-gap/#references"').replace('href="#references"','href="local-answer-gap/#references"')}
+{chr(10).join(paras).replace('href="https://localairegistry.com/research/local-answer-gap/#references"','href="local-answer-gap/#references"').replace('href="#references"','href="local-answer-gap/#references"')}
 <p>The team also turns its findings into plain-language explainers on the <a href="https://www.youtube.com/@localairegistry">Local AI Registry YouTube channel</a>.</p></section>
 
 <section class="blk" aria-labelledby="use"><h2 id="use">Use our research</h2>
@@ -381,7 +381,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 </div>
 {JS}
 </body></html>'''
-out = build("/assets/fonts/")
+out = build("/research/assets/fonts/")
 assert "\u2014" not in out and "\u2013" not in out
 open(os.path.join(ROOT, "index.html"), "w").write(out)
 if PREVIEW:

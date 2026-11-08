@@ -6,11 +6,11 @@ Local AI Registry builds verified, owner-confirmed public records of local busin
 
 ## Research
 
-- [Research hub](https://research.localairegistry.com/): Library of Local AI Registry studies, indexes and datasets on AI search and local businesses.
-- [The Local Answer Gap](https://research.localairegistry.com/local-answer-gap/): What 7,583 Google AI Overviews reveal about AEO for local businesses. News outlets supplied 67.5% of citations in local AI answers; businesses' own websites supplied 6.5%. 83.6% of local answers told people to check with their local store. Includes a six-step local AEO playbook.
-- [The Local Answer Gap, full text (Markdown)](https://research.localairegistry.com/local-answer-gap/index.md): Complete report as plain Markdown.
-- [Full site text](https://research.localairegistry.com/llms-full.txt): All research in one file.
-- [Data (CSV)](https://research.localairegistry.com/local-answer-gap/data/local-answer-gap-data.csv): Aggregated tables behind all charts, CC BY 4.0.
+- [Research hub](https://localairegistry.com/research/): Library of Local AI Registry studies, indexes and datasets on AI search and local businesses.
+- [The Local Answer Gap](https://localairegistry.com/research/local-answer-gap/): What 7,583 Google AI Overviews reveal about AEO for local businesses. News outlets supplied 67.5% of citations in local AI answers; businesses' own websites supplied 6.5%. 83.6% of local answers told people to check with their local store. Includes a six-step local AEO playbook.
+- [The Local Answer Gap, full text (Markdown)](https://localairegistry.com/research/local-answer-gap/index.md): Complete report as plain Markdown.
+- [Full site text](https://localairegistry.com/research/llms-full.txt): All research in one file.
+- [Data (CSV)](https://localairegistry.com/research/local-answer-gap/data/local-answer-gap-data.csv): Aggregated tables behind all charts, CC BY 4.0.
 
 ## Key findings
 

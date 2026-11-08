@@ -1,4 +1,4 @@
-# research.localairegistry.com
+# localairegistry.com/research
 
 Static site for Local AI Registry research. No build step: every file here is served as is.
 
@@ -12,19 +12,24 @@ Static site for Local AI Registry research. No build step: every file here is se
 - `robots.txt`: allows search and AI crawlers
 - `llms.txt`: plain-text summary for AI systems
 - `llms-full.txt` and `local-answer-gap/index.md`: the full report as Markdown for AI crawlers
-- `CNAME`: custom domain for GitHub Pages
 - `.nojekyll`: REQUIRED. Stops GitHub Pages from running Jekyll, which would otherwise convert `index.md` into HTML and overwrite the report page. Make sure this hidden file gets committed.
 - `404.html`: not-found page
 - `favicon.ico`, `favicon.svg`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`: browser and search icons
 - `assets/fonts/`: self-hosted brand fonts (faster than Google Fonts; no third-party request)
 
-## Deploy (GitHub Pages + Hostinger DNS, same as the audit subdomain)
+## Deploy (GitHub Pages, shown at localairegistry.com/research)
 
-1. Create a public repo (for example `localairegistry/research`) and push the contents of this folder to the root of `main`.
-2. Repo Settings > Pages: Source "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. Custom domain: `research.localairegistry.com` (the CNAME file sets this). Tick "Enforce HTTPS" once the certificate is issued.
-4. Hostinger DNS for localairegistry.com: add a CNAME record, name `research`, target `<github-org>.github.io`, TTL default.
-5. Check that https://research.localairegistry.com/local-answer-gap/ loads and all images show.
+The site lives in its own repo and is shown on the main domain by a forwarding rule (a "rewrite") on the main site. Visitors, Google and AI tools only ever see `localairegistry.com/research/...`. Nothing in this repo can change the main site.
+
+1. Create the repo `Local-AI-Registry/research` (the name must be `research`, so GitHub serves it at `/research/`) and push this folder to `main`.
+2. Repo Settings > Pages: Source "Deploy from a branch", branch `main`, folder `/ (root)`. No custom domain. It will be live at `https://local-ai-registry.github.io/research/`.
+3. Main site (developer, one time), for Vercel/Next.js:
+   - Rewrites: `/research` and `/research/:path*` to `https://local-ai-registry.github.io/research/` and `https://local-ai-registry.github.io/research/:path*`.
+   - Redirect `/research` (no trailing slash) to `/research/` so relative links work.
+   - Add `Sitemap: https://localairegistry.com/research/sitemap.xml` to the main `robots.txt`.
+   - Link "Research" in the main site's nav or footer, and link `https://localairegistry.com/research/llms.txt` from the main `llms.txt`.
+   - If the org ever adds its own `local-ai-registry.github.io` site with a custom domain, check that `/research/` still loads (GitHub would otherwise redirect it).
+4. Check that https://localairegistry.com/research/local-answer-gap/ loads and all images show.
 
 ## Official profiles (already added)
 
@@ -32,16 +37,16 @@ The report and hub already list Local AI Registry's official profiles from the l
 
 ## After launch
 
-1. Google Search Console: add the property `research.localairegistry.com`, submit `https://research.localairegistry.com/sitemap.xml`, request indexing for `/local-answer-gap/`.
+1. Google Search Console: add the property `localairegistry.com/research`, submit `https://localairegistry.com/research/sitemap.xml`, request indexing for `/local-answer-gap/`.
 2. Bing Webmaster Tools: submit the same sitemap (Bing feeds ChatGPT search and Copilot).
 3. Validate structured data at https://validator.schema.org and https://search.google.com/test/rich-results.
 4. Link to the report from localairegistry.com (nav or footer "Research") and from relevant blog posts, so it gets crawled and passes authority.
-5. Optional: add `https://research.localairegistry.com/local-answer-gap/` to the main site's `llms.txt`.
+5. Optional: add `https://localairegistry.com/research/local-answer-gap/` to the main site's `llms.txt`.
 
 
 ## Launch checklist (in order)
 
-1. Deploy, then open https://research.localairegistry.com/local-answer-gap/ on a phone and check images, fonts and the favicon.
+1. Deploy, then open https://localairegistry.com/research/local-answer-gap/ on a phone and check images, fonts and the favicon.
 2. Google Search Console: add the property, submit `sitemap.xml`, and use URL Inspection > Request indexing on `/local-answer-gap/`.
 3. Bing Webmaster Tools: import from Search Console, submit the sitemap, and use URL Submission (Bing powers ChatGPT search and Copilot).
 4. Validate: https://search.google.com/test/rich-results and https://validator.schema.org on the live URL. Run PageSpeed Insights on the live URL (it scored 100 on mobile in testing).
