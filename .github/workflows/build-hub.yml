@@ -18,6 +18,7 @@ jobs:
         run: |
           python scripts/build_hub.py
           python scripts/video.py
+          python scripts/absolute_links.py
       - name: Commit the rebuilt hub
         run: |
           if git diff --quiet; then echo "No changes"; exit 0; fi
