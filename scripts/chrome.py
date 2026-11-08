@@ -23,7 +23,7 @@ def header(base=""):
     return f'''<div class="sitehead" role="banner"><div class="sh-in">
 <a class="sh-brand" href="{home}" aria-label="Local AI Registry Research home"><img src="{base}local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
 <nav class="sh-nav" aria-label="Research"><a href="{home}#library">Library</a><a href="{base}local-answer-gap/">Latest study</a><a href="{home}#research-team">Team</a></nav>
-<div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="{CLAIM}">Claim your free&nbsp;record</a></div>
+<div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="{CLAIM}"><span class="sh-l">Claim your free&nbsp;record</span><span class="sh-s">Claim free&nbsp;record</span></a></div>
 </div></div>'''
 
 def footer(base=""):
@@ -50,7 +50,9 @@ CSS = """
 .sh-cta{background:var(--blue);color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-weight:700;white-space:nowrap}
 .sh-cta:hover{filter:brightness(1.08)}
 @media (max-width:860px){.sh-nav,.sh-main{display:none}}
-@media (max-width:420px){.sh-brand img{width:140px}.sh-tag{display:none}.sh-cta{padding:8px 11px;font-size:13px}}
+.sh-s{display:none}
+@media (max-width:560px){.sh-in{gap:12px}.sh-brand{gap:8px}.sh-brand img{width:132px}.sh-tag{padding-left:8px;font-size:10px}.sh-cta{padding:8px 11px;font-size:13px}.sh-l{display:none}.sh-s{display:inline}}
+@media (max-width:380px){.sh-tag{display:none}}
 .sitefoot{margin-top:64px;border-top:1px solid var(--line);background:var(--deep)}
 .sf-in{max-width:1180px;margin:0 auto;padding:36px 16px 24px;display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:28px}
 @media (max-width:860px){.sf-in{grid-template-columns:repeat(2,minmax(0,1fr))}.sf-brand{grid-column:1/-1}}

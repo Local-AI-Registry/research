@@ -258,7 +258,7 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .finder{{position:absolute;z-index:6;top:16px;right:16px;width:min(380px,calc(100% - 32px))}}
 .btn.big{{font-size:17px;padding:13px 20px;border-radius:10px;box-shadow:0 6px 16px rgba(31,79,224,.28)}}
 @media (min-width:641px) and (max-width:1020px){{.hero-card{{top:84px}}}} .finder svg{{position:absolute;left:12px;top:13px;color:var(--muted);pointer-events:none}}
-.finder input{{width:100%;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px 11px 38px;min-height:46px;box-shadow:0 1px 2px rgba(11,26,46,.06)}}
+.finder input{{width:100%;font:inherit;font-size:16px;color:#3B2A1A;background:rgba(246,235,208,.88);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);border:1px solid rgba(74,47,27,.32);border-radius:10px;padding:10px 12px 10px 38px;min-height:44px;box-shadow:none}} .finder input::placeholder{{color:#7A6650}} .finder input:focus{{background:#FBF5E6}} .finder svg{{color:#7A6650!important;z-index:2}}
 .finder input:focus{{outline:2px solid var(--blue);outline-offset:1px}}
 .finder ul{{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(11,26,46,.18);max-height:320px;overflow:auto}}
 .finder li{{padding:9px 10px;border-radius:6px;cursor:pointer;display:grid;gap:1px}} .finder li[aria-selected=true],.finder li:hover{{background:var(--tint)}}
@@ -268,10 +268,10 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
 .nojs{{position:absolute;bottom:20px;left:20px}}
 @media (max-width:640px){{
- .hero-map{{height:auto;display:flex;flex-direction:column;background:none;overflow:visible;border-bottom:0}}
+ .hero-map{{height:auto;min-height:calc(100svh - 58px);display:flex;flex-direction:column;background:none;overflow:visible;border-bottom:0}}
  .hero-card{{display:contents}}
  .hero-head{{order:1;padding:16px 16px 12px;gap:8px;position:relative;z-index:5}} .hero-head h1{{font-size:30px}} .hero-head p{{display:none}}
- .mapbox{{order:2;position:relative;inset:auto;height:68svh;min-height:440px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EEDDB8}}
+ .mapbox{{order:2;position:relative;inset:auto;flex:1 1 auto;min-height:460px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EEDDB8}}
  .hero-head .fine{{display:none}} .finder{{top:12px;left:12px;right:12px;width:auto}} .btn.big{{font-size:15px;padding:10px 16px}}}}
 .intro{{padding:28px 0 16px;display:grid;gap:8px}}
 .intro h1{{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}}
@@ -341,7 +341,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
 <input id="gq" type="search" placeholder="Search a business or address" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
 <ul id="gopts" role="listbox" hidden></ul></div></div>
-<div class="hero-card"><div class="hero-head"><div class="k">Local AI Registry Research</div>
+<div class="hero-card"><div class="hero-head">
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
 <p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
 <div class="cta"><a class="btn p big" href="#library">Explore the research <span aria-hidden="true">↓</span></a></div>
