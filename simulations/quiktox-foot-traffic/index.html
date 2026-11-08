@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>How AI sends customers through the door | Local AI Registry</title>
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex, follow"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Hanken+Grotesk:wght@400;600;700&display=swap">
@@ -225,9 +225,11 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
   }
 
   function geocode(){
+    var KEY='lair-geo:'+ADDRESS, hit=null; try{hit=JSON.parse(localStorage.getItem(KEY)||'null');}catch(x){}
+    if(hit&&hit.length===2){HOME.c=hit; return Promise.resolve(hit);}
     return fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q='+encodeURIComponent(ADDRESS))
       .then(function(r){return r.json();}).then(function(j){return j&&j[0]?[+j[0].lon,+j[0].lat]:FALLBACK;}).catch(function(){return FALLBACK;})
-      .then(function(c){HOME.c=c;return c;});
+      .then(function(c){HOME.c=c; if(c!==FALLBACK){try{localStorage.setItem(KEY,JSON.stringify(c));}catch(x){}} return c;});
   }
 
   Promise.all([fetch('https://tiles.openfreemap.org/styles/liberty').then(function(r){return r.json();}),geocode()]).then(function(res){

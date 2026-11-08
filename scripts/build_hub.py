@@ -228,7 +228,7 @@ JS = r'''<script>
 
 def build(fb, prev=False):
     MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "simulations/quiktox-foot-traffic/?embed=1"
-    fav = "" if prev else '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
+    fav = "" if prev else '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Local AI Registry Research: Local AEO Studies and Data</title>
@@ -236,7 +236,7 @@ def build(fb, prev=False):
 <link rel="canonical" href="{SITE}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 {fav}<meta name="theme-color" content="#F4F1EA">
 <meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Local AI Registry Research"><meta property="og:title" content="Local AI Registry Research"><meta property="og:description" content="{e(DESC)}"><meta property="og:url" content="{SITE}">
-<meta property="og:image" content="{SITE}{IMG}.png"><meta property="og:image:width" content="2000"><meta property="og:image:height" content="1310"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry">
+<meta property="og:image" content="{SITE}og/local-ai-registry-research.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="Local AI Registry Research: How AI sends customers through the door, with a map of a business marked as a verified record"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry"><meta name="twitter:title" content="Local AI Registry Research"><meta name="twitter:description" content="{e(DESC)}"><meta name="twitter:image" content="{SITE}og/local-ai-registry-research.png"><meta name="twitter:image:alt" content="Local AI Registry Research: How AI sends customers through the door">
 <link rel="alternate" type="text/plain" href="{SITE}llms.txt" title="llms.txt">
 <link rel="preload" href="{fb}hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="{fb}cormorant.woff2" as="font" type="font/woff2" crossorigin>
 <style>
