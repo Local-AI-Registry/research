@@ -154,7 +154,17 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         return {ok:true,name:nm,area:HOME.area};
       }).catch(function(){return {ok:false};});
   }
+  function goToPlace(p){
+    if(p.kind&&KINDS[p.kind])KIND=p.kind;
+    HOME={name:p.name,c:[+p.lon,+p.lat],verified:false,snapped:true,area:p.area||'',
+      url:'https://localairegistry.com/search?q='+encodeURIComponent(p.name+(p.city?' '+p.city:''))};
+    if(/quiktox/i.test(p.name)){HOME.url=QUIKTOX_URL;HOME.verified=true;}
+    if(MARKER)MARKER.setLngLat(HOME.c); renderPin();
+    if(window.__resetWalk)window.__resetWalk();
+    if(MAP)MAP.flyTo({center:HOME.c,zoom:18.2,pitch:MAP.getPitch(),bearing:MAP.getBearing(),duration:2400,essential:true});
+  }
   addEventListener('message',function(e){
+    if(e.origin===location.origin&&e.data&&e.data.type==='lair-goto-place'){ goToPlace(e.data); return; }
     if(e.origin!==location.origin) return;
     var d=e.data||{}; if(d.type!=='lair-goto'||!d.q) return;
     goTo(String(d.q).slice(0,120),d.kind).then(function(res){ try{ e.source.postMessage({type:'lair-goto-result',ok:res.ok,name:res.name,area:res.area},e.origin);}catch(x){} });
@@ -257,7 +267,11 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
       });
       shops=[];
       map.querySourceFeatures('openmaptiles',{sourceLayer:'poi'}).forEach(function(f){
-        if(f.geometry.type==='Point'&&f.properties.name) shops.push({name:f.properties.name,c:f.geometry.coordinates});
+        if(f.geometry.type!=='Point'||!f.properties.name) return;
+        if(!HOME.snapped&&f.properties.name.toLowerCase()===HOME.name.toLowerCase()&&dist(f.geometry.coordinates,HOME.c)<400){
+          HOME.c=f.geometry.coordinates; HOME.snapped=true; if(MARKER)MARKER.setLngLat(HOME.c); return; }
+        if(HOME.snapped&&f.properties.name.toLowerCase()===HOME.name.toLowerCase()) return;
+        shops.push({name:f.properties.name,c:f.geometry.coordinates});
       });
       shops.push({name:HOME.name,c:HOME.c,q:true});
     }

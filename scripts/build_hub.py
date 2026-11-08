@@ -103,14 +103,42 @@ JS = r'''<script>
   var f=document.getElementById('sim');
   function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
   if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
-  var gf=document.getElementById('goto'), gs=document.getElementById('gstatus'), pend=null;
-  function send(){ if(!pend||!f.contentWindow) return; f.contentWindow.postMessage(pend,location.origin); }
-  if(gf) gf.addEventListener('submit',function(ev){ ev.preventDefault();
-    var q=document.getElementById('gq').value.trim(); if(!q) return;
-    pend={type:'lair-goto',q:q,kind:document.getElementById('gk').value}; gs.textContent='Finding '+q+'\u2026';
-    if(!f.src){ load(); f.addEventListener('load',function(){setTimeout(send,1500);},{once:true}); } else send(); });
-  addEventListener('message',function(e){ if(e.origin!==location.origin) return; var d=e.data||{}; if(d.type!=='lair-goto-result') return;
-    gs.textContent = d.ok ? 'Showing '+d.name+(d.area?', '+d.area:'')+'. Click the pin to see its Local AI Registry record.' : 'Couldn\u2019t find that. Try adding the street or city.'; });
+  var gq=document.getElementById('gq'), go=document.getElementById('gopts'), gs=document.getElementById('gstatus'), items=[], act=-1, timer=null, seq=0;
+  function kindOf(p){ var k=(p.osm_key||'')+'='+(p.osm_value||''), n=(p.name||'').toLowerCase();
+    if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin clinic/.test(n)) return 'medspa';
+    if(/plastic surg|cosmetic surg/.test(n)) return 'plastic';
+    if(/dentist|dental|orthodont/.test(k+n)) return 'dental';
+    if(/cannabis|dispensar/.test(k+n)) return 'dispensary';
+    if(/optician|optometr|ophthalm|eye|lasik|vision/.test(k+n)) return 'eyecare';
+    if(/restaurant|cafe|fast_food|bar=|pub|bakery|ice_cream/.test(k)) return 'restaurant';
+    if(/hairdresser|beauty|nail|salon|barber/.test(k+n)) return /beauty/.test(k)&&/spa/.test(n)?'medspa':'salon';
+    return 'other'; }
+  function close(){ go.hidden=true; gq.setAttribute('aria-expanded','false'); act=-1; }
+  function show(){ go.innerHTML=''; if(!items.length){ go.innerHTML='<li class="none">No matches yet. Try adding the city.</li>'; }
+    items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
+      var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
+      li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
+    go.hidden=false; gq.setAttribute('aria-expanded','true'); }
+  function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close(); if(!f.src) load();
+    var msg={type:'lair-goto-place',name:it.name,lon:it.lon,lat:it.lat,kind:it.kind,area:it.area,city:it.city};
+    var sendIt=function(){ f.contentWindow&&f.contentWindow.postMessage(msg,location.origin); };
+    if(f.contentWindow&&f.src) sendIt(); else f.addEventListener('load',function(){setTimeout(sendIt,1500);},{once:true});
+    gs.textContent='Showing '+it.name+(it.area?', '+it.area:'')+'. Click the pin to see its Local AI Registry record.'; }
+  gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<3){close();return;}
+    timer=setTimeout(function(){ var my=++seq;
+      fetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q)).then(function(r){return r.json();}).then(function(j){
+        if(my!==seq) return;
+        items=(j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
+          var city=p.city||p.town||p.village||p.district||p.county||'';
+          return {name:p.name,lon:x.geometry.coordinates[0],lat:x.geometry.coordinates[1],kind:kindOf(p),city:city,
+            area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; });
+        act=items.length?0:-1; show(); }).catch(function(){ items=[]; show(); }); },220); });
+  gq.addEventListener('keydown',function(e){ if(go.hidden) return;
+    if(e.key==='ArrowDown'){act=Math.min(act+1,items.length-1);show();e.preventDefault();}
+    else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
+    else if(e.key==='Enter'){ if(act>-1){pickIt(act);} e.preventDefault(); }
+    else if(e.key==='Escape'){close();} });
+  gq.addEventListener('blur',function(){setTimeout(close,150);});
   var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
       ft=document.getElementById('f-topic'), fe=document.getElementById('f-eng'), fy=document.getElementById('f-type'), fs=document.getElementById('f-sort'),
       count=document.getElementById('count'), empty=document.getElementById('empty'), more=document.getElementById('more'), PAGE=20, shown=PAGE;
@@ -164,22 +192,23 @@ header.top nav{{display:flex;gap:18px;font-size:14px;font-weight:600}} header.to
 .k{{font:800 12px var(--f-head);letter-spacing:.1em;text-transform:uppercase;color:var(--blue)}}
 .hero-map{{position:relative;width:100vw;margin-left:calc(50% - 50vw);height:max(560px,calc(100svh - 65px));background:#EEDDB8 radial-gradient(ellipse at center,#F3E6C6 0,#E6D2A6 100%);overflow:hidden;border-bottom:1px solid var(--line)}}
 .mapbox{{position:absolute;inset:0}} .mapbox iframe{{position:absolute;inset:0;width:100%;height:100%;border:0}}
-.hero-head,.hero-tools{{display:grid;gap:10px}}
+.hero-head{{display:grid;gap:10px}}
+.finder{{position:relative}} .finder svg{{position:absolute;left:12px;top:13px;color:var(--muted);pointer-events:none}}
+.finder input{{width:100%;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px 11px 38px;min-height:46px;box-shadow:0 1px 2px rgba(11,26,46,.06)}}
+.finder input:focus{{outline:2px solid var(--blue);outline-offset:1px}}
+.finder ul{{position:absolute;z-index:20;left:0;right:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 28px rgba(11,26,46,.18);max-height:320px;overflow:auto}}
+.finder li{{padding:9px 10px;border-radius:6px;cursor:pointer;display:grid;gap:1px}} .finder li[aria-selected=true],.finder li:hover{{background:var(--tint)}}
+.finder li b{{font-weight:700;font-size:15px}} .finder li span{{font-size:13px;color:var(--muted)}} .finder li.none{{cursor:default;color:var(--muted);font-size:14px}}
 .hero-card{{position:absolute;z-index:2;left:max(16px,calc(50vw - 520px));top:20px;max-width:540px;background:rgba(251,249,244,.96);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:grid;gap:10px;box-shadow:0 10px 30px rgba(11,26,46,.14)}}
 .hero-card h1{{font:600 clamp(30px,3.6vw,44px)/1.05 var(--f-display);text-wrap:balance}}
 .hero-card p{{margin:0;font-size:15.5px;color:var(--muted)}} .hero-card .fine{{font-size:12px}}
 .nojs{{position:absolute;bottom:20px;left:20px}}
-.goto{{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:6px}}
-.goto input,.goto select{{font:inherit;font-size:14px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;padding:8px 10px;min-height:40px;min-width:0}}
-.goto button{{font:inherit;font-size:14px;font-weight:700;color:#fff;background:var(--ink);border:0;border-radius:6px;padding:8px 12px;min-height:40px;cursor:pointer}}
-@media (max-width:640px){{.goto{{grid-template-columns:minmax(0,1fr) auto}} .goto select{{grid-column:1/2}} .goto button{{grid-row:1/3;grid-column:2}}}}
 @media (max-width:640px){{
  .hero-map{{height:auto;display:flex;flex-direction:column;background:none;overflow:visible;border-bottom:0}}
  .hero-card{{display:contents}}
- .hero-head{{order:1;padding:16px 16px 12px;gap:4px}} .hero-head h1{{font-size:30px}} .hero-head p{{display:none}}
+ .hero-head{{order:1;padding:16px 16px 12px;gap:8px;position:relative;z-index:5}} .hero-head h1{{font-size:30px}} .hero-head p{{display:none}}
  .mapbox{{order:2;position:relative;inset:auto;height:68svh;min-height:440px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#EEDDB8}}
- .hero-tools{{order:3;padding:14px 16px 0;gap:10px}}
- .hero-tools .btn{{padding:9px 14px;font-size:14px}}}}
+ .hero-head .fine{{display:none}}}}
 .intro{{padding:28px 0 16px;display:grid;gap:8px}}
 .intro h1{{font:600 clamp(32px,4.6vw,52px)/1.08 var(--f-display)}}
 .mapfig{{margin:0;display:grid;gap:8px}}
@@ -250,13 +279,13 @@ footer .soc{{display:flex;flex-wrap:wrap;gap:6px 16px}}
 <noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript></div>
 <div class="hero-card"><div class="hero-head"><div class="k">Local AI Registry Research</div>
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
-<p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p></div>
-<div class="hero-tools"><div class="cta"><a class="btn p" href="#library">Explore the research</a><a class="btn s" href="local-answer-gap/">Latest study</a></div>
-<form class="goto" id="goto" autocomplete="off"><label class="sr" for="gq">Business name and city</label>
-<input id="gq" type="text" placeholder="Any business, city" maxlength="120" required>
-<label class="sr" for="gk">Type of business</label><select id="gk"><option value="medspa">Med spa</option><option value="plastic">Plastic surgeon</option><option value="dental">Dentist</option><option value="dispensary">Dispensary</option><option value="eyecare">Eye care</option><option value="restaurant">Restaurant</option><option value="salon">Salon</option><option value="other">Other</option></select>
-<button type="submit">Show me</button></form>
-<p class="fine" id="gstatus" aria-live="polite">Drag, zoom and scrub the week. Click the pin to open the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div></div>
+<p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
+<div class="finder" id="finder"><label class="sr" for="gq">Find any business on the map</label>
+<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<input id="gq" type="search" placeholder="Find any business" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
+<ul id="gopts" role="listbox" hidden></ul></div>
+<p class="fine" id="gstatus" aria-live="polite">Click the pin to see the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div>
+</div>
 </section>
 
 <section class="nums" aria-labelledby="numh"><h2 id="numh">Local discovery has moved to&nbsp;AI</h2><ul>
