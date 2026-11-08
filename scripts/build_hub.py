@@ -230,7 +230,7 @@ def build(fb, prev=False):
     MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "simulations/quiktox-foot-traffic/?embed=1"
     fav = "" if prev else '<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">'
     return f'''<!doctype html>
-<html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Local AI Registry Research: Local AEO Studies and Data</title>
 <meta name="description" content="{e(DESC)}">
 <link rel="canonical" href="{SITE}"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
