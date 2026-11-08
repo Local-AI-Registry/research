@@ -121,7 +121,7 @@ JS = r'''<script>
   function show(){ go.innerHTML='';
     if(state==='busy'){ go.innerHTML='<li class="none">Searching\u2026</li>'; }
     else if(state==='down'){ go.innerHTML='<li class="none">Business search is busy right now. Try again in a moment.</li>'; }
-    else if(!items.length){ go.innerHTML='<li class="none">No match. Try adding the street or city.</li>'; }
+    else if(!items.length){ go.innerHTML='<li class="none">Not found. Try the business\u2019s street address.</li>'; }
     items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
@@ -170,14 +170,15 @@ JS = r'''<script>
   function searchNominatim(q,my){
     var wait=Math.max(0,1100-(Date.now()-lastNom));   /* Nominatim allows at most one request per second */
     return new Promise(function(res){setTimeout(res,wait);}).then(function(){ if(my!==seq) return null; lastNom=Date.now();
-      return tfetch('https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&namedetails=1&limit=6&countrycodes=us&viewbox=-118.6,34.4,-117.0,33.2&q='+encodeURIComponent(q),5000); })
+      return tfetch('https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&namedetails=1&limit=6&countrycodes=us&q='+encodeURIComponent(q),5000); })
       .then(function(j){ if(!j||my!==seq) return null;
-        return j.filter(function(x){return x.name;}).map(function(x){var a=x.address||{}, city=a.city||a.town||a.village||a.suburb||a.county||'';
-          return {name:x.name,lon:+x.lon,lat:+x.lat,kind:nomKind(x),city:city,area:[[a.house_number,a.road].filter(Boolean).join(' '),city,a.state].filter(Boolean).join(', ')}; }); });
+        return j.map(function(x){var a=x.address||{}, city=a.city||a.town||a.village||a.suburb||a.county||'';
+          var nm=x.name||[a.house_number,a.road].filter(Boolean).join(' ')||(x.display_name||'').split(',')[0];
+          return {name:nm,lon:+x.lon,lat:+x.lat,kind:nomKind(x),city:city,area:[[a.house_number,a.road].filter(Boolean).join(' '),city,a.state].filter(Boolean).join(', ')}; }); });
   }
   function searchOSM(q,my){
-    return tfetch('https://photon.komoot.io/api/?limit=8&lang=en&lat=33.68&lon=-117.83&q='+encodeURIComponent(q),4000).then(function(j){
-      return (j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&p.name;}).slice(0,6).map(function(x){var p=x.properties;
+    return tfetch('https://photon.komoot.io/api/?limit=8&lang=en&q='+encodeURIComponent(q),4000).then(function(j){
+      return (j.features||[]).filter(function(x){var p=x.properties||{};return p.countrycode==='US'&&(p.name||p.street);}).slice(0,6).map(function(x){var p=x.properties; if(!p.name) p.name=[p.housenumber,p.street].filter(Boolean).join(' ');
         var city=p.city||p.town||p.village||p.district||p.county||'';
         return {name:p.name,lon:x.geometry.coordinates[0],lat:x.geometry.coordinates[1],kind:kindOf(p),city:city,
           area:[[p.housenumber,p.street].filter(Boolean).join(' '),city,p.state].filter(Boolean).join(', ')}; }); })
@@ -335,7 +336,7 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <noscript><p class="nojs"><a href="{MAPSRC}">Open the interactive map</a></p></noscript>
 <div class="finder" id="finder" data-gkey="{chrome.GOOGLE_PLACES_KEY}"><label class="sr" for="gq">Find any business on the map</label>
 <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-<input id="gq" type="search" placeholder="Search any business on the map" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
+<input id="gq" type="search" placeholder="Search a business or address" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
 <ul id="gopts" role="listbox" hidden></ul></div></div>
 <div class="hero-card"><div class="hero-head"><div class="k">Local AI Registry Research</div>
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
