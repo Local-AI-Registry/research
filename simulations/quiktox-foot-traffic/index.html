@@ -415,8 +415,12 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
         ctx.restore();
       });
       ctx.font='italic 13px "IM Fell English", Georgia, serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
-      walkers.forEach(function(w){ if(!w.c)return; var P=map.project(w.c);
+      var cr=ctx.canvas.getBoundingClientRect(), taken=[];
+      var tg=PIN&&PIN.querySelector('.tag'); if(tg){var r=tg.getBoundingClientRect(); taken.push([r.left-cr.left-6,r.top-cr.top-6,r.right-cr.left+6,r.bottom-cr.top+6]);}
+      function hits(b){for(var i=0;i<taken.length;i++){var t=taken[i]; if(b[0]<t[2]&&b[2]>t[0]&&b[1]<t[3]&&b[3]>t[1])return true;}return false;}
+      walkers.forEach(function(w){ if(!w.c||!w.label)return; var P=map.project(w.c);
         var tw=ctx.measureText(w.label).width, bw=tw+18, bx=P.x-bw/2, by=P.y-28;
+        var box=[bx,by,bx+bw,by+20]; if(hits(box))return; taken.push(box);
         ctx.fillStyle=w.ai?'#FFFFFF':'#F6EBD0'; ctx.strokeStyle=w.ai?BLUE:INK; ctx.lineWidth=1.1;
         ctx.beginPath();ctx.moveTo(bx,by);ctx.lineTo(bx+bw,by);ctx.lineTo(bx+bw-6,by+10);ctx.lineTo(bx+bw,by+20);ctx.lineTo(bx,by+20);ctx.lineTo(bx+6,by+10);ctx.closePath();ctx.fill();ctx.stroke();
         ctx.fillStyle=w.ai?BLUE:INK; ctx.fillText(w.label,bx+bw/2,by+10.5);
