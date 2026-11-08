@@ -394,17 +394,20 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
     function drawPings(){
       ctx.font='600 11.5px "Hanken Grotesk", Arial, sans-serif'; ctx.textAlign='center'; ctx.textBaseline='middle';
       pings.forEach(function(p){
-        var age=now-p.born, life=3.2; if(age>life)return; var P=map.project(p.c), k=age/life;
+        if(p.dead)return;
+        var age=now-p.born, life=p.minor?1.8:3.2; if(age>life)return; var P=map.project(p.c), k=age/life;
         if(p.edge){P.x=Math.max(70,Math.min(innerWidth-70,P.x));P.y=Math.max(150,Math.min(innerHeight-230,P.y));}
+        var tw=ctx.measureText(p.text).width, bw=tw+16, bx=Math.max(8,Math.min(innerWidth-8-bw,P.x-bw/2)), by=P.y+12;
+        var pb=[bx,by,bx+bw,by+20];
+        if(hitsT(pb)){ if(!p.shown){p.dead=true;} return; }
+        p.shown=true; taken.push(pb);
         ctx.save(); ctx.globalAlpha=Math.min(1,(1-k)*1.6);
         ctx.strokeStyle=BLUE; ctx.lineWidth=2; ctx.setLineDash(p.hit?[]:[3,3]);
         ctx.beginPath(); ctx.arc(P.x,P.y,6+k*(p.minor?18:30),0,Math.PI*2); ctx.stroke(); ctx.setLineDash([]);
-        if(!p.minor||age<1.6){ ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.45)'; ctx.beginPath(); ctx.arc(P.x,P.y,4,0,Math.PI*2); ctx.fill();
-          var tw=ctx.measureText(p.text).width, bw=tw+16, bx=Math.max(8,Math.min(innerWidth-8-bw,P.x-bw/2)), by=P.y+12;
-          var pb=[bx,by,bx+bw,by+20]; if(hitsT(pb)){ctx.restore();return;} taken.push(pb);
-          ctx.fillStyle='#FFFFFF'; ctx.strokeStyle=p.hit?BLUE:'rgba(31,79,224,.5)'; ctx.lineWidth=1.1;
-          ctx.beginPath(); if(ctx.roundRect)ctx.roundRect(bx,by,bw,20,10); else ctx.rect(bx,by,bw,20); ctx.fill(); ctx.stroke();
-          ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.75)'; ctx.fillText(p.text,bx+bw/2,by+10.5); }
+        ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.45)'; ctx.beginPath(); ctx.arc(P.x,P.y,4,0,Math.PI*2); ctx.fill();
+        ctx.fillStyle='#FFFFFF'; ctx.strokeStyle=p.hit?BLUE:'rgba(31,79,224,.5)'; ctx.lineWidth=1.1;
+        ctx.beginPath(); if(ctx.roundRect)ctx.roundRect(bx,by,bw,20,10); else ctx.rect(bx,by,bw,20); ctx.fill(); ctx.stroke();
+        ctx.fillStyle=p.hit?BLUE:'rgba(31,79,224,.75)'; ctx.fillText(p.text,bx+bw/2,by+10.5);
         ctx.restore();
       });
     }
