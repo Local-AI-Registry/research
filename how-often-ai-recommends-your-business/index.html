@@ -1,0 +1,1420 @@
+<!doctype html>
+<html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>How Often AI Recommends Your Business | Local AI Registry</title>
+<meta name="description" content="Local AI Registry reviews 14 sources: ask AI the same thing twice and Gemini’s sources overlap by only 0.46. How to measure how often AI recommends you.">
+<link rel="canonical" href="https://localairegistry.com/research/how-often-ai-recommends-your-business">
+<link rel="alternate" type="text/markdown" href="https://localairegistry.com/research/how-often-ai-recommends-your-business/index.md" title="Markdown version">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Local AI Registry Research Team">
+<meta property="og:type" content="article"><meta property="og:locale" content="en_US">
+<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">
+<meta name="theme-color" content="#F4F1EA"><meta property="og:site_name" content="Local AI Registry Research">
+<meta property="og:title" content="How Often AI Recommends Your Business: one answer is not a ranking">
+<meta property="og:description" content="Local AI Registry reviews 14 sources: ask AI the same thing twice and Gemini’s sources overlap by only 0.46. How to measure how often AI recommends you.">
+<meta property="og:url" content="https://localairegistry.com/research/how-often-ai-recommends-your-business">
+<meta property="og:image" content="https://localairegistry.com/research/how-often-ai-recommends-your-business/images/share.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="How Often AI Recommends Your Business: Gemini’s sources overlapped by only 0.46 when asked the same query twice">
+<meta property="article:published_time" content="2026-11-10"><meta property="article:author" content="Local AI Registry Research Team">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry"><meta name="twitter:title" content="How Often AI Recommends Your Business: one answer is not a ranking">
+<meta name="twitter:description" content="Local AI Registry reviews 14 sources: ask AI the same thing twice and Gemini’s sources overlap by only 0.46. How to measure how often AI recommends you."><meta name="twitter:image" content="https://localairegistry.com/research/how-often-ai-recommends-your-business/images/share.png"><meta name="twitter:image:alt" content="How Often AI Recommends Your Business: Gemini’s sources overlapped by only 0.46 when asked the same query twice">
+<link rel="preload" href="/research/assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/research/assets/fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:'Hanken Grotesk';src:url(/research/assets/fonts/hanken-grotesk.woff2) format('woff2');font-weight:400 700;font-style:normal;font-display:swap}@font-face{font-family:'Bricolage Grotesque';src:url(/research/assets/fonts/bricolage-grotesque.woff2) format('woff2');font-weight:600 800;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/research/assets/fonts/cormorant.woff2) format('woff2');font-weight:500 600;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/research/assets/fonts/cormorant-italic.woff2) format('woff2');font-weight:500 600;font-style:italic;font-display:swap}</style><!--chrome-css--><style>
+.sitehead{width:100%;margin:0;background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:30}
+.sh-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:20px}
+.sh-brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
+.sh-brand img{display:block;width:170px;height:auto}
+.sh-tag{font:800 11px/1 var(--f-head,system-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--blue);border-left:1px solid var(--line);padding-left:10px}
+.sh-nav{display:flex;gap:18px;font-size:14px;font-weight:600}
+.sh-nav a,.sh-main{color:var(--ink);text-decoration:none} .sh-nav a:hover,.sh-main:hover{color:var(--blue)}
+.sh-right{margin-left:auto;display:flex;align-items:center;gap:16px;font-size:14px;font-weight:600}
+.sh-cta{background:var(--blue);color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-weight:700;white-space:nowrap}
+.sh-cta:hover{filter:brightness(1.08)}
+.sh-back{display:none}
+@media (max-width:860px){.sh-nav,.sh-main{display:none}.sh-back{display:block;background:var(--deep,#ECE6D8);border-bottom:1px solid var(--line);padding:7px 16px;font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}.sh-back:hover{color:var(--blue)}}
+.sh-s{display:none}
+@media (max-width:560px){.sh-in{gap:12px}.sh-brand{gap:8px}.sh-brand img{width:132px}.sh-tag{padding-left:8px;font-size:10px}.sh-cta{padding:8px 11px;font-size:13px}.sh-l{display:none}.sh-s{display:inline}}
+@media (max-width:380px){.sh-tag{display:none}}
+.sitefoot{margin-top:64px;border-top:1px solid var(--line);background:var(--deep)}
+.sf-in{max-width:1180px;margin:0 auto;padding:36px 16px 24px;display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:860px){.sf-in{grid-template-columns:repeat(2,minmax(0,1fr))}.sf-brand{grid-column:1/-1}}
+.sf-brand{display:grid;gap:10px;align-content:start} .sf-brand p{margin:0;font-size:14px;color:var(--muted);max-width:420px}
+.sf-col h2{font:800 13px/1.2 var(--f-head,system-ui);letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
+.sf-col ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:14px} .sf-col a,.sf-legal a,.sf-addr a{color:var(--ink)}
+.sf-legal{max-width:1180px;margin:0 auto;padding:14px 16px 28px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+</style><!--/chrome-css-->
+<style>
+/* Layout: one reading column of findings; each finding = claim, chart, how-we-got-it. Charts sit in full-width bands. */
+:root{
+  --blue:#1F4FE0; --blue-ink:#1F4FE0; --coral:#FF5A3C; --ink:#0B1A2E; --ink-soft:#4a5a72;
+  --paper:#F4F1EA; --paper-deep:#ECE6D6; --card:#FBF9F4; --line:#d8d2c3; --tint:#E7EDFC; --good:#1f8a4c;
+  --bg:var(--paper); --fg:var(--ink); --muted:var(--ink-soft); --heat-txt:#ffffff;
+  --f-display:"Cormorant", Georgia, "Times New Roman", serif;
+  --f-head:"Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif;
+  --f-body:"Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:17px;line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:0 64px}
+.wrap{max-width:980px;margin:0 auto}
+.col{max-width:680px}
+p{margin:0;text-wrap:pretty}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:var(--blue-ink)}
+header{padding-block:28px 40px;border-bottom:1px solid var(--line);display:grid;gap:28px}
+.logo{color:var(--fg);width:200px;height:auto;display:block}
+.eyebrow{font-family:var(--f-head);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-ink)}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--blue-ink)}
+.lede{font-size:19px;color:var(--muted);max-width:640px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:600}
+section{padding-block:56px 8px;display:grid;gap:22px}
+.fnum{font-family:var(--f-head);font-weight:800;font-size:13px;letter-spacing:.1em;color:var(--blue-ink);text-transform:uppercase}
+h2{font-family:var(--f-head);font-weight:700;font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-.01em}
+h3{font-family:var(--f-head);font-weight:700;font-size:18px}
+.claim{font-family:var(--f-display);font-size:clamp(22px,3vw,27px);line-height:1.3;font-weight:500}
+.claim strong{font-weight:600;color:var(--blue-ink)}
+.body{display:grid;gap:14px;max-width:680px}
+.chart{align-content:start;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:20px;display:grid;gap:12px;min-width:0}
+.chart h3{font-size:16px}
+.chart .sub{font-size:14px;color:var(--muted)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.how{font-size:14px;color:var(--muted);border-left:2px solid var(--line);padding-left:14px;max-width:680px}
+.how b{color:var(--fg);font-weight:600}
+.two{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+svg text{font-family:var(--f-body);fill:var(--fg)}
+svg .mut{fill:var(--muted)}
+svg .hd{font-family:var(--f-head);font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-head);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n{text-align:right;white-space:nowrap}
+.flag{color:var(--coral);font-weight:600}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;background:var(--tint);color:var(--blue-ink);white-space:nowrap}
+.pill.sell{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.big{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
+.big div{display:grid;gap:4px}
+.big b{font-family:var(--f-display);font-size:44px;line-height:1;font-weight:600;color:var(--blue-ink);font-variant-numeric:tabular-nums}
+.big span{font-size:14px;color:var(--muted)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:4px;max-width:260px;z-index:20}
+ol.concl{margin:0;padding-left:22px;display:grid;gap:12px;max-width:680px}
+ol.concl li::marker{font-family:var(--f-head);font-weight:800;color:var(--blue-ink)}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:10px}
+footer ul{margin:0;padding-left:18px;display:grid;gap:4px}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media (max-width:520px){ body{font-size:16px} .chart{padding:14px} }
+
+.hero{padding-block:24px 36px;border-bottom:1px solid var(--line);display:grid;gap:18px}
+.logo-link img{display:block;width:200px;height:auto}
+.crumbs{font-size:13px;color:var(--muted)} .crumbs a{color:var(--muted)}
+.byline{color:var(--muted);font-size:15px}
+.tldr{background:var(--tint);border-left:3px solid var(--blue);padding:16px 20px;border-radius:4px;max-width:760px;display:grid;gap:8px}
+.tldr p{font-size:18px}
+ul.meta{list-style:none;padding:0;margin:0}
+h2{scroll-margin-top:16px}
+section{max-width:860px}
+section > p,section > ul,section > dl{max-width:700px}
+.kf{display:grid;gap:10px;max-width:760px;padding-left:22px;margin:0}
+.kf li{font-size:17px}
+.kf li::marker{font-family:var(--f-head);font-weight:800;color:var(--blue-ink)}
+.toc ol{columns:2;column-gap:28px;padding-left:20px;font-size:15px;margin:8px 0 0}
+.toc{border:1px solid var(--line);border-radius:6px;padding:16px 20px;margin-top:40px;background:var(--card)}
+.toc h2{font-size:18px}
+@media (max-width:600px){.toc ol{columns:1}}
+.fig{margin:8px 0;display:grid;grid-template-columns:minmax(0,1fr);gap:8px;max-width:860px}
+.fig > *{min-width:0} .scroll{overflow-x:auto;max-width:100%}
+.fig img{width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#FBF9F4}
+.fig figcaption{font-size:14.5px;color:var(--muted);line-height:1.5;max-width:760px}
+.fig figcaption b{color:var(--fg)}
+.dl{white-space:nowrap;margin-left:4px}
+details{font-size:14px} summary{cursor:pointer;color:var(--blue-ink);font-weight:600}
+details table{margin-top:8px}
+.terms{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:8px 18px;font-size:15px;border-top:1px solid var(--line);padding-top:14px}
+.terms dt{font-weight:700} .terms dd{margin:0;color:var(--muted)}
+@media (max-width:600px){.terms{grid-template-columns:1fr}.terms dd{margin-bottom:6px}}
+.aeo{background:var(--tint);border-left:3px solid var(--blue);border-radius:4px;padding:18px 20px;display:grid;gap:10px;max-width:820px}
+.aeo-k{font-family:var(--f-head);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-ink)}
+.aeo-t{font-family:var(--f-display);font-size:23px;line-height:1.25;font-weight:600;text-wrap:balance}
+.aeo-cols{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.aeo-cols h3{font-family:var(--f-head);font-size:13px;margin:0 0 4px}
+.aeo-cols p{font-size:15px}
+.closing{margin-top:56px}
+.qa{display:grid;gap:6px;max-width:720px;border-top:1px solid var(--line);padding-top:14px}
+.qa h3{font-size:18px}
+.svc{display:grid;gap:8px}
+section > *{min-width:0}
+pre.cite{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px;font-size:14px;max-width:760px}
+.author{border-top:1px solid var(--line);max-width:900px}
+.byline{text-wrap:pretty;max-width:680px}
+.lead{font-size:18px}
+.alumni{display:grid;gap:10px;border:1px solid var(--line);background:var(--card);border-radius:6px;padding:16px 18px}
+.alumni ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px}
+.alumni li{font-family:var(--f-head);font-weight:800;font-size:clamp(17px,2.4vw,22px);letter-spacing:-.01em;color:var(--fg)}
+.diff{display:grid;gap:10px;max-width:760px}
+.team{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))}
+.member{border:1px solid var(--line);border-radius:6px;padding:14px 16px;background:var(--card);display:grid;gap:4px;align-content:start}
+#steve-lee{grid-column:1/-1}
+#steve-lee p{max-width:680px}
+.m-n{font-family:var(--f-head);font-weight:800;font-size:18px}
+.m-t{font-size:13px;color:var(--blue-ink);font-weight:600}
+.member p{font-size:14.5px;color:var(--muted);margin-top:4px}
+.scholars{display:grid;gap:8px;font-size:15px;max-width:760px}
+.refs{display:grid;gap:8px;font-size:15px;max-width:760px;overflow-wrap:anywhere}
+.fine{font-size:13px;color:var(--muted)}
+details.embed summary{font-size:13px;color:var(--muted);font-weight:500}
+details.embed textarea{width:100%;font:12px/1.4 ui-monospace,monospace;margin-top:6px;border:1px solid var(--line);border-radius:4px;padding:8px;background:var(--card);color:var(--fg);resize:vertical}
+.quotes{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:16px 18px;display:grid;gap:8px;max-width:760px}
+.quotes .src{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+p,li,figcaption,dd,.aeo-t{text-wrap:pretty}
+td,th{text-wrap:balance}
+.quotes ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:15px}
+table.play td{font-size:14px}
+.ref{font-family:var(--f-head);font-size:11px;font-weight:800;vertical-align:super;line-height:0;margin-left:2px;text-decoration:none;color:var(--muted)}
+.ref:hover{color:var(--blue-ink)}
+ol.principles{list-style:none;counter-reset:p;padding:0;margin:0;display:grid;gap:0;max-width:700px}
+ol.principles li{counter-increment:p;position:relative;padding:12px 0 12px 44px;border-top:1px solid var(--line)}
+ol.principles li:last-child{border-bottom:1px solid var(--line)}
+ol.principles li::before{content:counter(p);position:absolute;left:0;top:10px;font-family:var(--f-display);font-weight:600;font-size:28px;line-height:1;color:var(--blue-ink)}
+.fig .fig-m{display:none}
+@media (max-width:640px){.fig .fig-d{display:none}.fig .fig-m{display:block}}
+.refs li{scroll-margin-top:16px}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://localairegistry.com/#organization",
+   "name": "Local AI Registry",
+   "alternateName": [
+    "LAIR",
+    "localairegistry.com"
+   ],
+   "url": "https://localairegistry.com",
+   "sameAs": [
+    "https://www.linkedin.com/company/local-ai-registry",
+    "https://x.com/LocalAIRegistry",
+    "https://www.instagram.com/localairegistry/",
+    "https://www.facebook.com/profile.php?id=61591432116527",
+    "https://www.tiktok.com/@localairegistry",
+    "https://pinterest.com/localairegistry",
+    "https://www.trustpilot.com/review/localairegistry.com",
+    "https://www.youtube.com/@localairegistry",
+    "https://www.crunchbase.com/organization/local-ai-registry",
+    "https://www.saasworthy.com/product/local-ai-registry"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-213-931-5633",
+    "contactType": "sales",
+    "areaServed": "US",
+    "availableLanguage": [
+     "English"
+    ]
+   },
+   "subOrganization": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://localairegistry.com/research/local-answer-gap/images/local-ai-registry-logo.png"
+   },
+   "description": "Local AI Registry is an answer engine optimization (AEO) company for local businesses. It builds verified, owner-confirmed public records of local businesses and pushes those facts to the sources AI systems read.",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9891 Irvine Center Dr",
+    "addressLocality": "Irvine",
+    "addressRegion": "CA",
+    "postalCode": "92618",
+    "addressCountry": "US"
+   },
+   "telephone": "+1-213-931-5633",
+   "founder": {
+    "@id": "https://localairegistry.com/#steve-lee"
+   },
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "Search engine optimization",
+    "Local search",
+    "Google AI Overviews",
+    "Google Business Profile",
+    "LocalBusiness structured data",
+    "AI search visibility"
+   ],
+   "areaServed": "US",
+   "slogan": "Be the name AI says."
+  },
+  {
+   "@type": "ResearchOrganization",
+   "@id": "https://localairegistry.com/research#research-team",
+   "name": "Local AI Registry Research Team",
+   "url": "https://localairegistry.com/research/local-answer-gap#authors",
+   "parentOrganization": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "description": "Local AI Registry’s dedicated local AI research team, studying how AI systems find, read and describe local businesses.",
+   "member": [
+    {
+     "@id": "https://localairegistry.com/#steve-lee"
+    }
+   ],
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "Google AI Overviews",
+    "AI search citations",
+    "Local search",
+    "Local SEO"
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://localairegistry.com/#steve-lee",
+   "name": "Steve Lee",
+   "jobTitle": "Chief Executive Officer",
+   "worksFor": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "memberOf": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "url": "https://localairegistry.com",
+   "alumniOf": [
+    {
+     "@type": "Organization",
+     "name": "Google",
+     "sameAs": "https://en.wikipedia.org/wiki/Google"
+    },
+    {
+     "@type": "Organization",
+     "name": "Microsoft",
+     "sameAs": "https://en.wikipedia.org/wiki/Microsoft"
+    },
+    {
+     "@type": "Organization",
+     "name": "Spotify",
+     "sameAs": "https://en.wikipedia.org/wiki/Spotify"
+    },
+    {
+     "@type": "Organization",
+     "name": "JPMorgan Chase",
+     "sameAs": "https://en.wikipedia.org/wiki/JPMorgan_Chase"
+    },
+    {
+     "@type": "Organization",
+     "name": "Evolus",
+     "sameAs": "https://en.wikipedia.org/wiki/Evolus"
+    },
+    {
+     "@type": "Organization",
+     "name": "Revance",
+     "sameAs": "https://en.wikipedia.org/wiki/Revance_Therapeutics"
+    },
+    {
+     "@type": "Organization",
+     "name": "Razorfish",
+     "sameAs": "https://en.wikipedia.org/wiki/Razorfish"
+    }
+   ],
+   "description": "CEO of Local AI Registry; former Google executive in Search and former Microsoft executive with more than 20 years in digital.",
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Local search",
+    "Google Search",
+    "AI search"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://localairegistry.com/research#website",
+   "url": "https://localairegistry.com/research",
+   "name": "Local AI Registry Research",
+   "publisher": {
+    "@id": "https://localairegistry.com/#organization"
+   }
+  },
+  {
+   "@type": "Service",
+   "@id": "https://localairegistry.com/#aeo-service",
+   "name": "Answer engine optimization (AEO) for local businesses",
+   "serviceType": "Answer engine optimization",
+   "provider": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Local and brick-and-mortar businesses"
+   },
+   "description": "Local AEO and GEO services that get local businesses described accurately in AI answers from Google AI Overviews, ChatGPT, Claude, Gemini, Perplexity and Microsoft Copilot.",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Local AEO services",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Free business record"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "AI visibility audit"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Google Business Profile management"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Press releases and media"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "AEO content"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Technical AEO and schema"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Listing consistency"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#breadcrumbs",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Local AI Registry",
+     "item": "https://localairegistry.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Research",
+     "item": "https://localairegistry.com/research"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "How Often AI Recommends Your Business",
+     "item": "https://localairegistry.com/research/how-often-ai-recommends-your-business"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#webpage",
+   "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business",
+   "name": "How Often AI Recommends Your Business",
+   "isPartOf": {
+    "@id": "https://localairegistry.com/research#website"
+   },
+   "breadcrumb": {
+    "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#breadcrumbs"
+   },
+   "mainEntity": {
+    "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#report"
+   },
+   "primaryImageOfPage": {
+    "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-recommendations-change-when-same-query-is-repeated"
+   },
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "#summary",
+     "#key-findings"
+    ]
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": [
+    "Article",
+    "Report"
+   ],
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#report",
+   "articleSection": "Research",
+   "genre": "Research brief",
+   "identifier": "LAIR-R-2026-002",
+   "headline": "How Often AI Recommends Your Business: A Better Measure of Local Visibility",
+   "alternativeHeadline": "A Local AI Registry research brief on why AI visibility is a frequency, not a rank",
+   "abstract": "AI assistants such as ChatGPT, Gemini, Claude and Perplexity build a new list of local businesses every time they are asked, so one answer cannot show where a business stands. In research reviewed by Local AI Registry, the same query asked twice shared 0.78 of its sources on Google Search but only 0.46 on Gemini, and in a census of Bali venues Claude’s repeated local picks overlapped by 0.22. AI visibility is best measured as how often a business is named under stated conditions, across many answers.",
+   "description": "AI assistants such as ChatGPT, Gemini, Claude and Perplexity build a new list of local businesses every time they are asked, so one answer cannot show where a business stands. In research reviewed by Local AI Registry, the same query asked twice shared 0.78 of its sources on Google Search but only 0.46 on Gemini, and in a census of Bali venues Claude’s repeated local picks overlapped by 0.22. AI visibility is best measured as how often a business is named under stated conditions, across many answers.",
+   "datePublished": "2026-11-10",
+   "dateModified": "2026-11-10",
+   "author": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "creditText": "Local AI Registry Research Team",
+   "publisher": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "inLanguage": "en-US",
+   "mainEntityOfPage": {
+    "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#webpage"
+   },
+   "image": [
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-recommendations-change-when-same-query-is-repeated"
+    },
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#four-conditions-that-change-which-business-ai-recommends"
+    },
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-visibility-confidence-interval-by-number-of-answers"
+    }
+   ],
+   "isAccessibleForFree": true,
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "keywords": [
+    "AI visibility",
+    "how often AI recommends my business",
+    "ChatGPT recommendations",
+    "Gemini",
+    "Claude",
+    "Perplexity",
+    "Google AI Overviews",
+    "answer engine optimization",
+    "AEO",
+    "generative engine optimization",
+    "GEO",
+    "local SEO",
+    "AI search",
+    "local business",
+    "algorithm audit",
+    "Local AI Registry"
+   ],
+   "about": [
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-ai-visibility"
+    },
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-recommendation-frequency"
+    },
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-aeo"
+    },
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-geo"
+    },
+    {
+     "@type": "Thing",
+     "name": "Local search"
+    }
+   ],
+   "mentions": [
+    {
+     "@type": "SoftwareApplication",
+     "name": "ChatGPT",
+     "sameAs": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Gemini",
+     "sameAs": "https://en.wikipedia.org/wiki/Gemini_(chatbot)"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Claude",
+     "sameAs": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Perplexity",
+     "sameAs": "https://en.wikipedia.org/wiki/Perplexity_AI"
+    },
+    {
+     "@type": "Organization",
+     "name": "OpenAI",
+     "sameAs": "https://en.wikipedia.org/wiki/OpenAI"
+    },
+    {
+     "@type": "Organization",
+     "name": "Google",
+     "sameAs": "https://en.wikipedia.org/wiki/Google"
+    },
+    {
+     "@type": "Thing",
+     "name": "Google AI Overviews"
+    },
+    {
+     "@type": "Organization",
+     "name": "Yelp",
+     "sameAs": "https://en.wikipedia.org/wiki/Yelp"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Google Maps",
+     "sameAs": "https://en.wikipedia.org/wiki/Google_Maps"
+    },
+    {
+     "@type": "Organization",
+     "name": "BrightLocal"
+    },
+    {
+     "@type": "Organization",
+     "name": "8ight.AI"
+    },
+    {
+     "@type": "Organization",
+     "name": "Norly"
+    },
+    {
+     "@type": "Thing",
+     "name": "Search engine optimization",
+     "sameAs": "https://en.wikipedia.org/wiki/Search_engine_optimization"
+    },
+    {
+     "@type": "Thing",
+     "name": "Jaccard index",
+     "sameAs": "https://en.wikipedia.org/wiki/Jaccard_index"
+    },
+    {
+     "@type": "Thing",
+     "name": "Confidence interval",
+     "sameAs": "https://en.wikipedia.org/wiki/Confidence_interval"
+    }
+   ],
+   "citation": [
+    {
+     "@type": "Report",
+     "name": "Local consumer review survey 2026",
+     "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "R. Murphy"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "BrightLocal"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Location, location, location: The impact of geolocation on web search personalization",
+     "url": "https://doi.org/10.1145/2815675.2815714",
+     "datePublished": "2015",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "Chloe Kliman-Silver"
+      },
+      {
+       "@type": "Person",
+       "name": "Aniko Hannák"
+      },
+      {
+       "@type": "Person",
+       "name": "David Lazer"
+      },
+      {
+       "@type": "Person",
+       "name": "Christo Wilson"
+      },
+      {
+       "@type": "Person",
+       "name": "Alan Mislove"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the 2015 Internet Measurement Conference"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "How generative AI disrupts search: An empirical study of Google Search, Gemini, and AI Overviews",
+     "url": "https://doi.org/10.1145/3805712.3809667",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "R. Grossman"
+      },
+      {
+       "@type": "Person",
+       "name": "S. Liu"
+      },
+      {
+       "@type": "Person",
+       "name": "M. K. Chen"
+      },
+      {
+       "@type": "Person",
+       "name": "M. Smith"
+      },
+      {
+       "@type": "Person",
+       "name": "C. Borcea"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Chen"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Invisible to the machine: Auditing AI restaurant, café, and bar recommendation against a complete market census",
+     "url": "https://arxiv.org/abs/2608.07069",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "V. Pitenin"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint 2608.07069"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Understanding AI provider recommendations in local service markets",
+     "url": "https://arxiv.org/abs/2609.18341",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "H. Ibrahim"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Zaki"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint 2609.18341"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "3 stars on Yelp, 4 stars on Google Maps: A cross-platform examination of restaurant ratings",
+     "url": "https://par.nsf.gov/biblio/10208785",
+     "datePublished": "2020",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "Hanlin Li"
+      },
+      {
+       "@type": "Person",
+       "name": "Brent Hecht"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the ACM on Human-Computer Interaction (CSCW)"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Prompt engineering experiment on ChatGPT’s ability to recommend orthopedic surgeons",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/42378890/",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "M. R. Haupt"
+      },
+      {
+       "@type": "Person",
+       "name": "D. Massillon"
+      },
+      {
+       "@type": "Person",
+       "name": "L. Yang"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Chen"
+      },
+      {
+       "@type": "Person",
+       "name": "A. Natarajan"
+      },
+      {
+       "@type": "Person",
+       "name": "S. R. Ward"
+      },
+      {
+       "@type": "Person",
+       "name": "T. K. Mackey"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "International Journal of Medical Informatics"
+     }
+    },
+    {
+     "@type": "Report",
+     "name": "What 200k local AI searches tell us about what businesses get recommended, and why your website matters",
+     "url": "https://www.brightlocal.com/research/local-ai-visibility-study/",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "M. Hawkes"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "BrightLocal"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Accuracy and bias in artificial intelligence chatbot recommendations for oculoplastic surgeons",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11069401/",
+     "datePublished": "2024",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "A. O. Parikh"
+      },
+      {
+       "@type": "Person",
+       "name": "M. C. Oca"
+      },
+      {
+       "@type": "Person",
+       "name": "J. R. Conger"
+      },
+      {
+       "@type": "Person",
+       "name": "A. McCoy"
+      },
+      {
+       "@type": "Person",
+       "name": "J. Chang"
+      },
+      {
+       "@type": "Person",
+       "name": "S. Zhang-Nunes"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Cureus"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "“Global is good, local is bad?”: Understanding brand bias in LLMs",
+     "url": "https://aclanthology.org/2024.emnlp-main.707/",
+     "datePublished": "2024",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "M. Kamruzzaman"
+      },
+      {
+       "@type": "Person",
+       "name": "H. M. Nguyen"
+      },
+      {
+       "@type": "Person",
+       "name": "G. L. Kim"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+     }
+    },
+    {
+     "@type": "Report",
+     "name": "Ask an AI for a roofer (Study 01)",
+     "url": "https://8ight.ai/research/how-ai-recommends-local-businesses/",
+     "datePublished": "2026",
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "8ight.AI"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Evaluating verifiability in generative search engines",
+     "url": "https://aclanthology.org/2023.findings-emnlp.467",
+     "datePublished": "2023",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "Nelson F. Liu"
+      },
+      {
+       "@type": "Person",
+       "name": "Tianyi Zhang"
+      },
+      {
+       "@type": "Person",
+       "name": "Percy Liang"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Findings of the Association for Computational Linguistics: EMNLP 2023"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "GEO: Generative engine optimization",
+     "url": "https://arxiv.org/abs/2311.09735",
+     "datePublished": "2024",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "Pranjal Aggarwal"
+      },
+      {
+       "@type": "Person",
+       "name": "Vishvak Murahari"
+      },
+      {
+       "@type": "Person",
+       "name": "Tanmay Rajpurohit"
+      },
+      {
+       "@type": "Person",
+       "name": "Ashwin Kalyan"
+      },
+      {
+       "@type": "Person",
+       "name": "Karthik Narasimhan"
+      },
+      {
+       "@type": "Person",
+       "name": "Ameet Deshpande"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Auditing algorithms: Understanding algorithmic systems from the outside in",
+     "url": "https://doi.org/10.1561/1100000083",
+     "datePublished": "2021",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "D. Metaxa"
+      },
+      {
+       "@type": "Person",
+       "name": "J. S. Park"
+      },
+      {
+       "@type": "Person",
+       "name": "R. E. Robertson"
+      },
+      {
+       "@type": "Person",
+       "name": "K. Karahalios"
+      },
+      {
+       "@type": "Person",
+       "name": "C. Wilson"
+      },
+      {
+       "@type": "Person",
+       "name": "J. Hancock"
+      },
+      {
+       "@type": "Person",
+       "name": "C. Sandvig"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Foundations and Trends in Human-Computer Interaction"
+     }
+    }
+   ],
+   "isBasedOn": [
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Location, location, location: The impact of geolocation on web search personalization",
+     "url": "https://doi.org/10.1145/2815675.2815714"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "How generative AI disrupts search: An empirical study of Google Search, Gemini, and AI Overviews",
+     "url": "https://doi.org/10.1145/3805712.3809667"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Invisible to the machine: Auditing AI restaurant, café, and bar recommendation against a complete market census",
+     "url": "https://arxiv.org/abs/2608.07069"
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Understanding AI provider recommendations in local service markets",
+     "url": "https://arxiv.org/abs/2609.18341"
+    }
+   ],
+   "hasPart": [
+    {
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#dataset"
+    }
+   ]
+  },
+  {
+   "@type": "Dataset",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#dataset",
+   "name": "How Often AI Recommends Your Business: values behind the charts",
+   "description": "The values behind the three charts in Local AI Registry’s research brief How Often AI Recommends Your Business: source and recommendation overlap between repeated AI answers, four conditions that change AI recommendations, and illustrative 95% confidence intervals for AI visibility by number of answers. Values are as published in the cited sources, except the illustrative calculation.",
+   "creator": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "isAccessibleForFree": true,
+   "variableMeasured": [
+    "Overlap between repeated AI answers (Jaccard similarity)",
+    "Share of AI-named doctors matching a real clinician",
+    "Share of specialists recommended by wording",
+    "95% confidence interval by number of answers"
+   ],
+   "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://localairegistry.com/research/how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv"
+   }
+  },
+  {
+   "@type": "HowTo",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#principles",
+   "name": "How to measure how often AI recommends a local business",
+   "description": "Five principles from Local AI Registry’s research brief for measuring a business’s visibility in ChatGPT, Gemini, Claude and Perplexity recommendations as a rate.",
+   "step": [
+    {
+     "@type": "HowToStep",
+     "position": 1,
+     "name": "Report a rate, with its conditions",
+     "text": "The core quantity is the share of answers that name a business under a stated set of systems, configurations, locations, phrasings and dates. A rate reported without its conditions cannot be compared with another.",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business#measure"
+    },
+    {
+     "@type": "HowToStep",
+     "position": 2,
+     "name": "Collect enough answers to support the claim",
+     "text": "One answer records only whether a business was named on that occasion; it cannot distinguish a business named in nine answers out of ten from one named in one out of ten. Under fixed conditions, a business observed in 40% of answers has a 95% confidence interval of roughly 17% to 69% after ten answers and 31% to 50% after one hundred.",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business#measure"
+    },
+    {
+     "@type": "HowToStep",
+     "position": 3,
+     "name": "Separate inclusion from order",
+     "text": "Whether a business is named and where it appears when named respond to different factors and should be reported separately.",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business#measure"
+    },
+    {
+     "@type": "HowToStep",
+     "position": 4,
+     "name": "Verify what is counted",
+     "text": "A mention should count only when the business exists, operates in the location asked about and offers the service requested.",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business#measure"
+    },
+    {
+     "@type": "HowToStep",
+     "position": 5,
+     "name": "Distinguish noise from change",
+     "text": "A shift between two periods is meaningful only when it exceeds the variation seen within a period under the same protocol, the test the Bali census applied.",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business#measure"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does ChatGPT recommend the same businesses every time?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. AI assistants compose a new answer for every request. When ChatGPT was asked the same local question twice, a median of 39 minutes apart, a median of 29% of the businesses named in either answer were named in both, according to 8ight.AI data reviewed by Local AI Registry. In a census of Bali venues, repeated runs of the same query overlapped by 0.22 for Claude and 0.45 for Gemini."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I know if AI recommends my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ask the same customer questions many times, under the same conditions, and count the share of answers that name your business. One answer only shows whether you were named that one time. Local AI Registry’s free business record and AI visibility audit show what ChatGPT, Gemini, Claude and Perplexity say about a business today."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How many AI answers do I need to measure my AI visibility?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "More than one, and usually many. Local AI Registry calculated that a business named in 40% of answers has a 95% confidence interval of roughly 17% to 69% after 10 answers and 31% to 50% after 100 answers, assuming the conditions stay the same."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why does AI recommend different businesses in different places?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Place changes the answer. Without web search, the share of real doctors an AI model named fell from 16.3% in the largest third of US metro areas to 9.5% in the smallest (Ibrahim and Zaki, 2026, preprint). Within one town, BrightLocal found that only 3.5% of the businesses ChatGPT named appeared at every point tested."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does web search change which businesses AI recommends?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. In an audit of the 100 largest US metro areas, only 10.8% of doctors named by an AI model without web search matched a real clinician in the queried city; with web search on, the same model reached 63.9% (Ibrahim and Zaki, 2026, preprint)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does the wording of a question change who AI recommends?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. In a peer-reviewed study of chatbot recommendations in the 20 largest US cities, 74.7% of the people recommended for “an oculoplastic surgeon” were oculoplastic specialists, compared with 46.6% for “a doctor who does eyelid lifts” (Parikh et al., 2024)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I trust the sources an AI answer cites?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Only partly. In a peer-reviewed audit of four generative search engines, only 51.5% of generated sentences were fully supported by their citations, and only 74.5% of citations supported the sentence they were attached to (Liu, Zhang and Liang, 2023). Citations show which sources are prominent, not what caused the answer."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can AEO guarantee that ChatGPT recommends my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. No intervention studied to date guarantees a recommendation. The foundational paper on generative engine optimization found that content changes raised visibility by up to 40% on its benchmark, with effects that varied by domain. That shows visibility responds to content, not that a particular change will bring recommendations or customers to a particular business."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the difference between AEO and GEO?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Generative engine optimization (GEO) and answer engine optimization (AEO) describe the same goal: being cited and described correctly in AI-generated answers. GEO is the term used in academic research; AEO is more common in marketing."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get my business recommended by ChatGPT, Claude or Gemini?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AI assistants name businesses whose facts they can find, read and confirm. Keep your name, location, services and prices clear and identical on your website, Google Business Profile and listings, and judge your visibility across many answers rather than one. Local AI Registry, a free AEO directory for local businesses, gives every business a free, owner-confirmed record at localairegistry.com/search as a starting point."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is Local AI Registry?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Local AI Registry (localairegistry.com) is an answer engine optimization (AEO) company and free AEO directory for local businesses, headquartered in Irvine, California. It keeps a verified, owner-confirmed public record of each business so that ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews can find and describe it accurately, and its research team publishes studies on how AI answers local questions."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "DefinedTermSet",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms",
+   "name": "AI visibility measurement terms",
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-ai-visibility",
+     "name": "AI visibility",
+     "description": "How often, how prominently and how accurately a business is named in AI answers, measured as a rate across many answers to the same question.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-recommendation-frequency",
+     "name": "Recommendation frequency",
+     "description": "The share of AI answers that name a business under a stated set of systems, configurations, locations, phrasings and dates.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-aeo",
+     "name": "Answer engine optimization (AEO)",
+     "description": "Making a business’s facts clear, consistent and machine-readable so AI systems include it accurately in their answers.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-geo",
+     "name": "Generative engine optimization (GEO)",
+     "description": "The academic term for optimizing content to be cited by generative AI search engines; used interchangeably with AEO.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-jaccard",
+     "name": "Overlap (Jaccard similarity)",
+     "description": "What two runs returned in both, divided by what they returned in either. 1 means identical results; 0 means nothing in common.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-confidence-interval",
+     "name": "Confidence interval",
+     "description": "The range that likely contains the true rate. A 95% interval only becomes narrow after many answers have been collected.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-web-search",
+     "name": "Web search (grounding)",
+     "description": "When an AI assistant searches the web during a request instead of answering only from what its model learned in training.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-algorithm-audit",
+     "name": "Algorithm audit",
+     "description": "A way to study a system that cannot be inspected directly, by querying it repeatedly and recording what it returns.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#term-preprint",
+     "name": "Preprint",
+     "description": "A research paper shared publicly before peer review.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#terms"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-recommendations-change-when-same-query-is-repeated",
+   "contentUrl": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png",
+   "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png",
+   "name": "Ask the same question twice and Gemini's sources overlap by only 0.46, versus 0.78 for Google Search",
+   "caption": "When the same query was run twice, the sources Google Search drew on overlapped by 0.78, Google AI Overviews by 0.66 and Gemini by 0.46 (Grossman et al., SIGIR 2026). In a separate preprint census of Bali venues, the local businesses named overlapped by 0.45 for Gemini down to 0.22 for Claude (Pitenin, 2026). Compare bars within a panel, not across panels.",
+   "description": "Split bars showing the overlap between two runs of the same query (returned in both runs divided by returned in either). Panel A, peer-reviewed (Grossman et al., SIGIR 2026), sources retrieved for general queries: Google Search 0.78, Google AI Overviews 0.66, Gemini 0.46. Panel B, preprint (Pitenin 2026, vendor-funded), local venues recommended in Bali: Gemini 0.45, Perplexity 0.40, OpenAI 0.29, Claude 0.22. The panels are separate studies and are not directly comparable.",
+   "width": 1440,
+   "height": 1752,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/how-often-ai-recommends-your-business#cite"
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#four-conditions-that-change-which-business-ai-recommends",
+   "contentUrl": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png",
+   "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png",
+   "name": "Four conditions change which business AI recommends: real local doctors named rose from 10.8% to 63.9% with web search on",
+   "caption": "System and configuration, place, wording and time each changed AI recommendations in published research. Each mini-chart comes from a different study and metric, so read each one on its own, not across quadrants. Findings selected and grouped by Local AI Registry.",
+   "description": "A two-by-two grid, one quadrant per condition, each with two sourced findings shown as mini-charts. System and configuration: doctors matching a real clinician, web search off 10.8% vs on 63.9% (Ibrahim and Zaki, preprint); AI Overviews and Gemini source overlap 0.07 for near-me queries (Grossman et al.). Place: real doctors named without search, largest third of metros 16.3% vs smallest 9.5% (Ibrahim and Zaki); 3.5% of businesses ChatGPT named appeared at every point tested in a town (BrightLocal). Wording and context: oculoplastic specialists 74.7% for 'an oculoplastic surgeon' vs 46.6% for 'a doctor who does eyelid lifts' (Parikh et al.); ChatGPT declined to recommend an orthopedic surgeon in 52.8% of responses (Haupt et al.). Time: overlap with answers two weeks later 0.375 (Pitenin, preprint); median 29% of businesses named in both of two ChatGPT answers about 39 minutes apart (8ight.AI). Values are not comparable across findings.",
+   "width": 1440,
+   "height": 2156,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/how-often-ai-recommends-your-business#cite"
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-visibility-confidence-interval-by-number-of-answers",
+   "contentUrl": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png",
+   "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png",
+   "name": "A business named in 40% of AI answers has a 95% range of 17% to 69% after 10 answers and 31% to 50% after 100",
+   "caption": "Illustrative calculation by Local AI Registry (95% Wilson score intervals, assuming independent answers under fixed conditions), not study data. The range narrows only as answers accumulate.",
+   "description": "Illustrative calculation, not study data. A funnel-shaped band shows the 95% confidence interval for a business observed in 40% of answers, narrowing as the number of answers grows from 5 to 200 on a log scale: 5 answers 12% to 77%; 10 answers 17% to 69%; 20 answers 22% to 61%; 50 answers 28% to 54%; 100 answers 31% to 50%; 200 answers 33% to 47%. A single answer records only named or not named.",
+   "width": 1440,
+   "height": 1494,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/how-often-ai-recommends-your-business#cite"
+  }
+ ]
+}</script>
+</head><body><!--chrome-head--><div class="sitehead" role="banner"><a class="sh-back" href="https://localairegistry.com"><span aria-hidden="true">←</span> Back to Local AI&nbsp;Registry</a><div class="sh-in">
+<a class="sh-brand" href="/research" aria-label="Local AI Registry Research home"><img src="/research/local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
+<nav class="sh-nav" aria-label="Research"><a href="/research#library">Library</a><a href="/research/how-often-ai-recommends-your-business">Latest study</a><a href="/research#research-team">Team</a></nav>
+<div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="https://localairegistry.com/search"><span class="sh-l">Claim your free&nbsp;record</span><span class="sh-s">Claim free&nbsp;record</span></a></div>
+</div></div><!--/chrome-head--><main class="wrap"><article>
+<header class="hero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="https://localairegistry.com">Local AI Registry</a> › <a href="https://localairegistry.com/research">Research</a> › How Often AI Recommends Your Business</nav>
+  <div class="eyebrow">Local AI Registry research brief · Published <time datetime="2026-11-10">November 10, 2026</time></div>
+  <h1>How Often AI Recommends Your Business: A Better Measure of Local Visibility</h1>
+  <p class="byline">By the <a href="#authors" rel="author">Local AI Registry Research&nbsp;Team</a></p>
+  <div class="tldr" id="summary"><div class="aeo-k">The short&nbsp;answer</div>
+  <p>AI assistants such as ChatGPT, Gemini, Claude and Perplexity build a new list of local businesses every time they are asked, so one answer cannot show where a business stands. In research reviewed by Local AI Registry, the same query asked twice shared 0.78 of its sources on Google Search but only 0.46 on Gemini, and in a census of Bali venues Claude’s repeated local picks overlapped by 0.22. AI visibility is best measured as how often a business is named under stated conditions, across many&nbsp;answers.</p></div>
+  <ul class="meta"><li><b>14</b> studies and reports&nbsp;reviewed</li><li><b>4</b> conditions that change the&nbsp;answer</li><li><b>5</b> principles for measuring AI&nbsp;visibility</li><li><b>3</b> original charts</li></ul>
+</header>
+<section id="key-findings"><h2>Key findings</h2><ol class="kf"><li>In research reviewed by Local AI Registry, the same query run twice shared 0.78 of its sources on Google Search, 0.66 on Google AI Overviews and 0.46 on Gemini (Grossman et al., SIGIR&nbsp;2026).</li><li>In a preprint census of cafés, restaurants and bars in Bali reviewed by Local AI Registry, the overlap between repeated runs of the same query ranged from 0.45 for Gemini to 0.22 for&nbsp;Claude.</li><li>When ChatGPT was asked the same local question twice, a median of 39 minutes apart, a median of 29% of the businesses named in either answer were named in both, according to 8ight.AI data reviewed by Local AI&nbsp;Registry.</li><li>Only 10.8% of doctors named by an AI model without web search matched a real clinician in the queried city, versus 63.9% with web search on, in a preprint audit of the 100 largest US metro areas reviewed by Local AI&nbsp;Registry.</li><li>Wording changes who AI recommends: 74.7% of the people recommended for “an oculoplastic surgeon” were oculoplastic specialists, versus 46.6% for “a doctor who does eyelid lifts,” in a peer-reviewed study reviewed by Local AI&nbsp;Registry.</li><li>ChatGPT declined to recommend an orthopedic surgeon in 52.8% of 40,500 persona-based requests, and stated income, insurance status and location were the strongest predictors of a recommendation, according to research reviewed by Local AI&nbsp;Registry.</li><li>Only 3.5% of the businesses ChatGPT named in localized searches appeared at every point tested across a town, according to BrightLocal’s 2026 analysis reviewed by Local AI&nbsp;Registry.</li><li>In the Bali census reviewed by Local AI Registry, 85.6% of venues were never recommended by any of the four AI systems, and being named was associated with documentation such as a website, more reviews, listed prices and mentions elsewhere on the&nbsp;web.</li><li>Local AI Registry calculated that a business named in 40% of AI answers has a 95% confidence interval of roughly 17% to 69% after 10 answers and 31% to 50% after 100, so one answer cannot measure AI&nbsp;visibility.</li></ol></section>
+<nav class="toc" aria-label="Contents"><h2>Contents</h2><ol><li><a href="#what-is-ai-visibility">What is AI&nbsp;visibility?</a></li><li><a href="#repeat">Does AI recommend the same businesses every&nbsp;time?</a></li><li><a href="#conditions">What changes who AI&nbsp;recommends?</a></li><li><a href="#evidence">What can the research&nbsp;prove?</a></li><li><a href="#measure">How to measure AI&nbsp;visibility</a></li><li><a href="#meaning">What this means for local&nbsp;businesses</a></li><li><a href="#aeo-services">Who provides local AEO&nbsp;services?</a></li><li><a href="#faq">FAQ</a></li><li><a href="#limits">Limits</a></li><li><a href="#references">References</a></li><li><a href="#cite">How to cite this&nbsp;research</a></li><li><a href="#authors">About the&nbsp;author</a></li></ol></nav>
+<section id="what-is-ai-visibility"><h2>What is AI visibility, and why can’t one answer measure it?</h2>
+<p class="claim">Visibility in AI-generated local recommendations is best measured as how often a business is named under stated conditions. A single answer is a genuine observation, but on its own it cannot reliably estimate that&nbsp;frequency.</p>
+<p>Consumers are adopting generative assistants for local decisions at speed. In BrightLocal’s 2026 survey of 1,002 US consumers, 45% reported using ChatGPT or another generative AI tool to find local businesses, up from 6% a year earlier.<a class="ref" href="#ref-1" aria-label="Reference 1">1</a> As the behavior has spread, so has an informal method of judging it. An owner, marketer or analyst asks an assistant for the best provider in a category and city, and reads the reply as a verdict on where a business&nbsp;stands.</p>
+<p>That reading carries over an assumption from conventional search, where a page of results could reasonably be treated as a ranking. A generative assistant does not return a stored list. It composes an answer at the moment of the request, from whatever it retrieves and infers under that request’s particular conditions. The research reviewed here points to a different unit of&nbsp;analysis.</p>
+<h3>Terms used in this brief</h3><dl class="terms"><dt>AI visibility</dt><dd>How often, how prominently and how accurately a business is named in AI answers, measured as a rate across many answers to the same&nbsp;question.</dd><dt>Recommendation frequency</dt><dd>The share of AI answers that name a business under a stated set of systems, configurations, locations, phrasings and&nbsp;dates.</dd><dt>Answer engine optimization (AEO)</dt><dd>Making a business’s facts clear, consistent and machine-readable so AI systems include it accurately in their&nbsp;answers.</dd><dt>Generative engine optimization (GEO)</dt><dd>The academic term for optimizing content to be cited by generative AI search engines; used interchangeably with&nbsp;AEO.</dd><dt>Overlap (Jaccard similarity)</dt><dd>What two runs returned in both, divided by what they returned in either. 1 means identical results; 0 means nothing in&nbsp;common.</dd><dt>Confidence interval</dt><dd>The range that likely contains the true rate. A 95% interval only becomes narrow after many answers have been&nbsp;collected.</dd><dt>Web search (grounding)</dt><dd>When an AI assistant searches the web during a request instead of answering only from what its model learned in&nbsp;training.</dd><dt>Algorithm audit</dt><dd>A way to study a system that cannot be inspected directly, by querying it repeatedly and recording what it&nbsp;returns.</dd><dt>Preprint</dt><dd>A research paper shared publicly before peer&nbsp;review.</dd></dl></section>
+<section id="repeat"><h2>Does AI recommend the same businesses every time you ask?</h2>
+<p class="claim">No. When the same query was run twice, Gemini’s sources overlapped by only 0.46, and in a census of Bali venues, Claude’s repeated local recommendations overlapped by just&nbsp;0.22.</p>
+<p>Variation in search results is not new. In a 2015 measurement study of Google Search, Kliman-Silver and colleagues found that 18% to 34% of results for local queries changed with the searcher’s location, and that local queries were also the noisiest category when repeated from the same place at the same time.<a class="ref" href="#ref-2" aria-label="Reference 2">2</a> Generative systems add another layer of variability, because the answer is written rather than&nbsp;retrieved.</p>
+<p>The clearest controlled comparison is a study presented at ACM SIGIR 2026 that examined Google Search, Google’s AI Overviews and Gemini on more than 11,000 real user queries.<a class="ref" href="#ref-3" aria-label="Reference 3">3</a> When the same query was run twice, the overlap between the sources each system drew on, measured by Jaccard similarity, was 0.78 for conventional Search, 0.66 for AI Overviews and 0.46 for Gemini. Minor edits to a query, such as expanding a contraction or adding a question mark, reduced the rank-weighted similarity of AI Overview sources by 29%, compared with 14% for conventional&nbsp;Search.</p>
+<p>Audits of local recommendations show the same pattern in the businesses named. A pre-registered census of every café, restaurant and bar in two Bali submarkets, conducted by a company that sells AI-visibility tools, collected 2,208 answers from four assistants over seven days.<a class="ref" href="#ref-4" aria-label="Reference 4">4</a> Overlap between repeated runs of the same query ranged from 0.22 for Claude to 0.45 for Gemini. The study’s most consequential finding concerns time. When the queries were repeated two weeks later, overlap with the original answers (0.375) was comparable to overlap between reruns within the same period, and the author attributes most of the variation to sampling rather than&nbsp;drift.</p>
+<figure id="ai-recommendations-change-when-same-query-is-repeated" class="fig"><img src="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png" class="fig-d" srcset="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated-1x.png 720w, /research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png 1440w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="720" height="876" alt="Split bars showing the overlap between two runs of the same query (returned in both runs divided by returned in either). Panel A, peer-reviewed (Grossman et al., SIGIR 2026), sources retrieved for general queries: Google Search 0.78, Google AI Overviews 0.66, Gemini 0.46. Panel B, preprint (Pitenin 2026, vendor-funded), local venues recommended in Bali: Gemini 0.45, Perplexity 0.40, OpenAI 0.29, Claude 0.22. The panels are separate studies and are not directly comparable." loading="lazy" decoding="async"><img src="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated-mobile.png" class="fig-m" width="360" height="1357" alt="Split bars showing the overlap between two runs of the same query (returned in both runs divided by returned in either). Panel A, peer-reviewed (Grossman et al., SIGIR 2026), sources retrieved for general queries: Google Search 0.78, Google AI Overviews 0.66, Gemini 0.46. Panel B, preprint (Pitenin 2026, vendor-funded), local venues recommended in Bali: Gemini 0.45, Perplexity 0.40, OpenAI 0.29, Claude 0.22. The panels are separate studies and are not directly comparable." loading="lazy" decoding="async"><figcaption><b>Figure 1. Ask the same question twice and Gemini&#x27;s sources overlap by only 0.46, versus 0.78 for Google Search.</b> When the same query was run twice, the sources Google Search drew on overlapped by 0.78, Google AI Overviews by 0.66 and Gemini by 0.46 (Grossman et al., SIGIR 2026). In a separate preprint census of Bali venues, the local businesses named overlapped by 0.45 for Gemini down to 0.22 for Claude (Pitenin, 2026). Compare bars within a panel, not across panels. <span class="dl"><a href="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.svg">SVG</a> · <a href="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png">PNG</a> · <a href="/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated-mobile.svg">Phone SVG</a></span></figcaption><details><summary>Data behind this chart</summary><div class="scroll"><table><thead><tr><th>Panel</th><th>System</th><th>Overlap between two runs (returned in both ÷ returned in either)</th></tr></thead><tbody><tr><td>A: sources, general queries</td><td>Google Search</td><td>0.78</td></tr><tr><td>A: sources, general queries</td><td>Google AI Overviews</td><td>0.66</td></tr><tr><td>A: sources, general queries</td><td>Gemini</td><td>0.46</td></tr><tr><td>B: venues recommended, Bali</td><td>Gemini</td><td>0.45</td></tr><tr><td>B: venues recommended, Bali</td><td>Perplexity</td><td>0.40</td></tr><tr><td>B: venues recommended, Bali</td><td>OpenAI</td><td>0.29</td></tr><tr><td>B: venues recommended, Bali</td><td>Claude</td><td>0.22</td></tr></tbody></table></div></details><details class="embed"><summary>Embed this figure</summary><textarea readonly rows="4" aria-label="Embed code for Ask the same question twice and Gemini&#x27;s sources overlap by only 0.46, versus 0.78 for Google Search" onclick="this.select()">&lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-recommendations-change-when-same-query-is-repeated&quot;&gt;&lt;img src=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-recommendations-change-when-same-query-is-repeated.png&quot; alt=&quot;Split bars showing the overlap between two runs of the same query (returned in both runs divided by returned in either). Panel A, peer-reviewed (Grossman et al., SIGIR 2026), sources retrieved for general queries: Google Search 0.78, Google AI Overviews 0.66, Gemini 0.46. Panel B, preprint (Pitenin 2026, vendor-funded), local venues recommended in Bali: Gemini 0.45, Perplexity 0.40, OpenAI 0.29, Claude 0.22. The panels are separate studies and are not directly comparable.&quot; width=&quot;800&quot;&gt;&lt;/a&gt;&lt;p&gt;Source: &lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business&quot;&gt;How Often AI Recommends Your Business&lt;/a&gt;, Local AI Registry Research Team.&lt;/p&gt;</textarea></details></figure>
+<p>The distinction matters for measurement. If answers drifted steadily, the most recent answer would be an imperfect but current reading. If answers instead scatter around a relatively stable underlying tendency, as this evidence suggests, the tendency is the quantity worth estimating. Each answer is one observation of it, and only an accumulation of observations can show how strong it&nbsp;is.</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">One AI answer is a snapshot, not a&nbsp;ranking.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Do not judge your AI visibility from one screenshot. Ask the same customer questions several times, on more than one assistant, and count how often your business is&nbsp;named.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry’s AI visibility audit shows how a business appears in AI answers today, where answers are wrong, and what competitors are cited&nbsp;for.</p></div></div></aside>
+</section>
+<section id="conditions"><h2>What changes which business AI recommends?</h2>
+<p class="claim">Four conditions: the AI system and its settings, the place, the wording of the request, and time. With web search on, 63.9% of the doctors an AI model named matched a real clinician in the queried city, versus 10.8% with it&nbsp;off.</p>
+<p>There is no single frequency. A business can be named often under some conditions and rarely under others. The literature identifies four sets of conditions that change the answer, and a credible measurement has to state which of them it holds&nbsp;fixed.</p>
+<figure id="four-conditions-that-change-which-business-ai-recommends" class="fig"><img src="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png" class="fig-d" srcset="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends-1x.png 720w, /research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png 1440w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="720" height="1078" alt="A two-by-two grid, one quadrant per condition, each with two sourced findings shown as mini-charts. System and configuration: doctors matching a real clinician, web search off 10.8% vs on 63.9% (Ibrahim and Zaki, preprint); AI Overviews and Gemini source overlap 0.07 for near-me queries (Grossman et al.). Place: real doctors named without search, largest third of metros 16.3% vs smallest 9.5% (Ibrahim and Zaki); 3.5% of businesses ChatGPT named appeared at every point tested in a town (BrightLocal). Wording and context: oculoplastic specialists 74.7% for &#x27;an oculoplastic surgeon&#x27; vs 46.6% for &#x27;a doctor who does eyelid lifts&#x27; (Parikh et al.); ChatGPT declined to recommend an orthopedic surgeon in 52.8% of responses (Haupt et al.). Time: overlap with answers two weeks later 0.375 (Pitenin, preprint); median 29% of businesses named in both of two ChatGPT answers about 39 minutes apart (8ight.AI). Values are not comparable across findings." loading="lazy" decoding="async"><img src="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends-mobile.png" class="fig-m" width="360" height="2032" alt="A two-by-two grid, one quadrant per condition, each with two sourced findings shown as mini-charts. System and configuration: doctors matching a real clinician, web search off 10.8% vs on 63.9% (Ibrahim and Zaki, preprint); AI Overviews and Gemini source overlap 0.07 for near-me queries (Grossman et al.). Place: real doctors named without search, largest third of metros 16.3% vs smallest 9.5% (Ibrahim and Zaki); 3.5% of businesses ChatGPT named appeared at every point tested in a town (BrightLocal). Wording and context: oculoplastic specialists 74.7% for &#x27;an oculoplastic surgeon&#x27; vs 46.6% for &#x27;a doctor who does eyelid lifts&#x27; (Parikh et al.); ChatGPT declined to recommend an orthopedic surgeon in 52.8% of responses (Haupt et al.). Time: overlap with answers two weeks later 0.375 (Pitenin, preprint); median 29% of businesses named in both of two ChatGPT answers about 39 minutes apart (8ight.AI). Values are not comparable across findings." loading="lazy" decoding="async"><figcaption><b>Figure 2. Four conditions change which business AI recommends: real local doctors named rose from 10.8% to 63.9% with web search on.</b> System and configuration, place, wording and time each changed AI recommendations in published research. Each mini-chart comes from a different study and metric, so read each one on its own, not across quadrants. Findings selected and grouped by Local AI Registry. <span class="dl"><a href="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.svg">SVG</a> · <a href="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png">PNG</a> · <a href="/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends-mobile.svg">Phone SVG</a></span></figcaption><details><summary>Data behind this chart</summary><div class="scroll"><table><thead><tr><th>Condition</th><th>Finding</th><th>Value</th><th>Source</th></tr></thead><tbody><tr><td>System and configuration</td><td>Doctors matching a real clinician in the queried city, web search off vs on (same model)</td><td>10.8% vs 63.9%</td><td>Ibrahim &amp; Zaki, 2026 (preprint)</td></tr><tr><td>System and configuration</td><td>Sources shared by AI Overviews and Gemini, “near me” queries (overlap)</td><td>0.07</td><td>Grossman et al., 2026</td></tr><tr><td>Place</td><td>Real doctors named without web search, largest vs smallest third of US metro areas</td><td>16.3% vs 9.5%</td><td>Ibrahim &amp; Zaki, 2026 (preprint)</td></tr><tr><td>Place</td><td>Businesses ChatGPT named that appeared at every point tested across a town</td><td>3.5%</td><td>BrightLocal, 2026 (industry)</td></tr><tr><td>Wording and context</td><td>Oculoplastic specialists recommended: “an oculoplastic surgeon” vs “a doctor who does eyelid lifts”</td><td>74.7% vs 46.6%</td><td>Parikh et al., 2024</td></tr><tr><td>Wording and context</td><td>ChatGPT responses declining to recommend an orthopedic surgeon</td><td>52.8%</td><td>Haupt et al., 2026</td></tr><tr><td>Time</td><td>Overlap with answers collected two weeks later</td><td>0.375</td><td>Pitenin, 2026 (preprint)</td></tr><tr><td>Time</td><td>Businesses named in either of two ChatGPT answers about 39 minutes apart that appeared in both (median)</td><td>29%</td><td>8ight.AI, 2026 (industry)</td></tr></tbody></table></div></details><details class="embed"><summary>Embed this figure</summary><textarea readonly rows="4" aria-label="Embed code for Four conditions change which business AI recommends: real local doctors named rose from 10.8% to 63.9% with web search on" onclick="this.select()">&lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business#four-conditions-that-change-which-business-ai-recommends&quot;&gt;&lt;img src=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business/images/four-conditions-that-change-which-business-ai-recommends.png&quot; alt=&quot;A two-by-two grid, one quadrant per condition, each with two sourced findings shown as mini-charts. System and configuration: doctors matching a real clinician, web search off 10.8% vs on 63.9% (Ibrahim and Zaki, preprint); AI Overviews and Gemini source overlap 0.07 for near-me queries (Grossman et al.). Place: real doctors named without search, largest third of metros 16.3% vs smallest 9.5% (Ibrahim and Zaki); 3.5% of businesses ChatGPT named appeared at every point tested in a town (BrightLocal). Wording and context: oculoplastic specialists 74.7% for &#x27;an oculoplastic surgeon&#x27; vs 46.6% for &#x27;a doctor who does eyelid lifts&#x27; (Parikh et al.); ChatGPT declined to recommend an orthopedic surgeon in 52.8% of responses (Haupt et al.). Time: overlap with answers two weeks later 0.375 (Pitenin, preprint); median 29% of businesses named in both of two ChatGPT answers about 39 minutes apart (8ight.AI). Values are not comparable across findings.&quot; width=&quot;800&quot;&gt;&lt;/a&gt;&lt;p&gt;Source: &lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business&quot;&gt;How Often AI Recommends Your Business&lt;/a&gt;, Local AI Registry Research Team.&lt;/p&gt;</textarea></details></figure>
+<p><strong>System and configuration.</strong> The assistant, the model behind it and whether it searches the web during the request all change the outcome. In an audit of provider recommendations across the 100 largest US metropolitan areas, Ibrahim and Zaki found that only 10.8% of doctors named by a proprietary model without web search matched a real clinician in the queried city; with search enabled, the same model reached 63.9%.<a class="ref" href="#ref-5" aria-label="Reference 5">5</a> Systems also draw on different evidence. For “near me” queries in the SIGIR study, the overlap between sources used by AI Overviews and Gemini was 0.07.<a class="ref" href="#ref-3" aria-label="Reference 3">3</a> Disagreement between platforms predates generative AI: Li and Hecht found that Google Maps ratings averaged about 0.7 stars higher than Yelp ratings for the same restaurants, and that the two platforms’ top-ten lists for a metropolitan area overlapped&nbsp;little.<a class="ref" href="#ref-6" aria-label="Reference 6">6</a></p>
+<p><strong>Place.</strong> Location operates at more than one scale. Between cities, Ibrahim and Zaki found that without search the share of real doctors named fell from 16.3% in the largest third of metropolitan areas to 9.5% in the smallest, a gradient that largely disappeared once search was enabled.<a class="ref" href="#ref-5" aria-label="Reference 5">5</a> Haupt and colleagues found ChatGPT more likely to recommend an orthopedic surgeon for prompts set in New York City and Chicago than in Phoenix and Houston.<a class="ref" href="#ref-7" aria-label="Reference 7">7</a> Within a single town, BrightLocal’s 2026 analysis of localized searches found that only 3.5% of the businesses ChatGPT named appeared at every point tested across the area.<a class="ref" href="#ref-8" aria-label="Reference 8">8</a> Location effects are not uniform, however. For a stratified sample of general queries, the SIGIR study found that moving AI Overview requests from Newark to Austin reduced source similarity by only 0.01 to 0.02 relative to repeated runs from the same place.<a class="ref" href="#ref-3" aria-label="Reference 3">3</a> How much place matters appears to depend on the system and the kind of&nbsp;question.</p>
+<p><strong>Wording and context.</strong> The words in a request, and what it reveals about the person asking, change who is named. In a peer-reviewed study of chatbot recommendations for oculoplastic surgeons in the 20 largest US cities, 74.7% of the individuals recommended in response to “an oculoplastic surgeon” were oculoplastic specialists, compared with 46.6% for “a doctor who does eyelid lifts.”<a class="ref" href="#ref-9" aria-label="Reference 9">9</a> Haupt and colleagues submitted 40,500 persona-based requests for orthopedic surgeons to ChatGPT. It declined to recommend anyone in 52.8% of responses, and stated income, insurance status and location were the strongest predictors of whether a recommendation was given.<a class="ref" href="#ref-7" aria-label="Reference 7">7</a> Research on brand recommendations points the same way: language models recommended luxury gifts disproportionately to people from high-income&nbsp;countries.<a class="ref" href="#ref-10" aria-label="Reference 10">10</a></p>
+<p><strong>Time.</strong> Repetition alone changes answers, as both the SIGIR study and the Bali census show, and it does so over short intervals. 8ight.AI’s 2026 study of local trades found that when ChatGPT was asked the same question twice, a median of 39 minutes apart, a median of 29% of the businesses named in either answer were named in both.<a class="ref" href="#ref-11" aria-label="Reference 11">11</a> Over longer periods the systems themselves change, as model versions, retrieval sources and defaults are updated, which is why studies such as Parikh’s describe their findings as a record of a single point in&nbsp;time.<a class="ref" href="#ref-9" aria-label="Reference 9">9</a></p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">State the conditions, or the number means&nbsp;nothing.</p><div class="aeo-cols"><div><h3>What to do</h3><p>When you check what AI says about your business, write down the assistant, whether it searched the web, the city, the exact wording and the date, and keep them the same when you check&nbsp;again.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry keeps an owner-confirmed public record of each business, so assistants that search the web find the same verified facts every time they&nbsp;look.</p></div></div></aside>
+</section>
+<section id="evidence"><h2>What can AI visibility research prove, and what can’t it?</h2>
+<p class="claim">It can show how often, and under which conditions, a business is named. It cannot show why. Only 51.5% of sentences written by generative search engines were fully supported by their citations, and 38.3% of ChatGPT’s surgeon suggestions in one study were excluded on&nbsp;review.</p>
+<p>Three limits shape what any measurement of AI visibility can&nbsp;claim.</p>
+<p>The first is that being named and being named first appear to be different outcomes. In the Bali census, 85.6% of venues were never recommended by any of the four systems. Inclusion was associated with documentation, including having a website, more reviews, listed prices and mentions elsewhere on the web, while star rating was associated only with whether a venue was named first.<a class="ref" href="#ref-4" aria-label="Reference 4">4</a> These are associations from one hospitality market, reported by a vendor-funded study, but they caution against collapsing inclusion and order into a single&nbsp;rank.</p>
+<p>The second is that the sources an assistant displays are imperfect evidence of what produced its answer. In a peer-reviewed audit of four generative search engines, Liu, Zhang and Liang found that only 51.5% of generated sentences were fully supported by their citations, and only 74.5% of citations supported the sentence to which they were attached.<a class="ref" href="#ref-12" aria-label="Reference 12">12</a> Citation patterns can indicate which sources are prominent in a category. They cannot establish&nbsp;cause.</p>
+<p>The third is that a name in an answer is not necessarily a correct name. In the 2023 oculoplastic study, 38.3% of ChatGPT’s suggestions were excluded on review; across the three chatbots studied, the most common reasons were a provider practicing in a different city or not existing at all.<a class="ref" href="#ref-9" aria-label="Reference 9">9</a> In the orthopedic study, 44.6% of recommended surgeons in a coded subset were valid.<a class="ref" href="#ref-7" aria-label="Reference 7">7</a> Counting mentions without verifying them can overstate visibility, and in healthcare the cost of that error falls on patients as well as&nbsp;practices.</p>
+<p>Underlying all three is a broader point: visibility is partly defined by the instrument that measures it. The foundational paper on generative engine optimization (GEO), the research term for what practitioners call answer engine optimization (AEO), measured visibility with explicitly defined impression metrics and reported that content changes raised it by up to 40% on its benchmark, with effects that varied by domain.<a class="ref" href="#ref-13" aria-label="Reference 13">13</a> Findings of this kind show that visibility in generative answers responds to content. They do not show that a particular change will produce recommendations, or customers, for a particular&nbsp;business.</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">Being named is not the same as being named&nbsp;correctly.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Check that AI answers that name you have the right city, services and details, and fix the sources AI reads when they do&nbsp;not.</p></div><div><h3>How Local AI Registry does it</h3><p>Owners claim their Local AI Registry record for free and confirm each fact, which gives AI a verified source for the business’s name, location and&nbsp;services.</p></div></div></aside>
+</section>
+<section id="measure"><h2>How should a business measure how often AI recommends it?</h2>
+<p class="claim">Count across many answers under fixed conditions. A business named in 40% of answers has a 95% range of roughly 17% to 69% after 10 answers and 31% to 50% after&nbsp;100.</p>
+<p>If visibility is a frequency to be estimated, its measurement belongs to the tradition of the algorithm audit, which studies a system that cannot be inspected directly by querying it repeatedly and recording what it returns.<a class="ref" href="#ref-14" aria-label="Reference 14">14</a> Read together, the evidence above suggests five principles for applying that method to local&nbsp;recommendations.</p>
+<h3>Five principles for measuring AI visibility</h3><ol class="principles"><li><strong>Report a rate, with its conditions.</strong> The core quantity is the share of answers that name a business under a stated set of systems, configurations, locations, phrasings and dates. A rate reported without its conditions cannot be compared with&nbsp;another.</li><li><strong>Collect enough answers to support the claim.</strong> One answer records only whether a business was named on that occasion; it cannot distinguish a business named in nine answers out of ten from one named in one out of ten. Under fixed conditions, a business observed in 40% of answers has a 95% confidence interval of roughly 17% to 69% after ten answers and 31% to 50% after one&nbsp;hundred.</li><li><strong>Separate inclusion from order.</strong> Whether a business is named and where it appears when named respond to different factors and should be reported&nbsp;separately.</li><li><strong>Verify what is counted.</strong> A mention should count only when the business exists, operates in the location asked about and offers the service&nbsp;requested.</li><li><strong>Distinguish noise from change.</strong> A shift between two periods is meaningful only when it exceeds the variation seen within a period under the same protocol, the test the Bali census&nbsp;applied.</li></ol>
+<figure id="ai-visibility-confidence-interval-by-number-of-answers" class="fig"><img src="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png" class="fig-d" srcset="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers-1x.png 720w, /research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png 1440w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="720" height="747" alt="Illustrative calculation, not study data. A funnel-shaped band shows the 95% confidence interval for a business observed in 40% of answers, narrowing as the number of answers grows from 5 to 200 on a log scale: 5 answers 12% to 77%; 10 answers 17% to 69%; 20 answers 22% to 61%; 50 answers 28% to 54%; 100 answers 31% to 50%; 200 answers 33% to 47%. A single answer records only named or not named." loading="lazy" decoding="async"><img src="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers-mobile.png" class="fig-m" width="360" height="903" alt="Illustrative calculation, not study data. A funnel-shaped band shows the 95% confidence interval for a business observed in 40% of answers, narrowing as the number of answers grows from 5 to 200 on a log scale: 5 answers 12% to 77%; 10 answers 17% to 69%; 20 answers 22% to 61%; 50 answers 28% to 54%; 100 answers 31% to 50%; 200 answers 33% to 47%. A single answer records only named or not named." loading="lazy" decoding="async"><figcaption><b>Figure 3. A business named in 40% of AI answers has a 95% range of 17% to 69% after 10 answers and 31% to 50% after 100.</b> Illustrative calculation by Local AI Registry (95% Wilson score intervals, assuming independent answers under fixed conditions), not study data. The range narrows only as answers accumulate. <span class="dl"><a href="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.svg">SVG</a> · <a href="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png">PNG</a> · <a href="/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers-mobile.svg">Phone SVG</a></span></figcaption><details><summary>Data behind this chart</summary><div class="scroll"><table><thead><tr><th>Answers collected</th><th>95% interval for an observed 40% rate</th></tr></thead><tbody><tr><td>5</td><td>12% to 77%</td></tr><tr><td>10</td><td>17% to 69%</td></tr><tr><td>20</td><td>22% to 61%</td></tr><tr><td>50</td><td>28% to 54%</td></tr><tr><td>100</td><td>31% to 50%</td></tr><tr><td>200</td><td>33% to 47%</td></tr></tbody></table></div></details><details class="embed"><summary>Embed this figure</summary><textarea readonly rows="4" aria-label="Embed code for A business named in 40% of AI answers has a 95% range of 17% to 69% after 10 answers and 31% to 50% after 100" onclick="this.select()">&lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business#ai-visibility-confidence-interval-by-number-of-answers&quot;&gt;&lt;img src=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business/images/ai-visibility-confidence-interval-by-number-of-answers.png&quot; alt=&quot;Illustrative calculation, not study data. A funnel-shaped band shows the 95% confidence interval for a business observed in 40% of answers, narrowing as the number of answers grows from 5 to 200 on a log scale: 5 answers 12% to 77%; 10 answers 17% to 69%; 20 answers 22% to 61%; 50 answers 28% to 54%; 100 answers 31% to 50%; 200 answers 33% to 47%. A single answer records only named or not named.&quot; width=&quot;800&quot;&gt;&lt;/a&gt;&lt;p&gt;Source: &lt;a href=&quot;https://localairegistry.com/research/how-often-ai-recommends-your-business&quot;&gt;How Often AI Recommends Your Business&lt;/a&gt;, Local AI Registry Research Team.&lt;/p&gt;</textarea></details></figure>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">Measure a rate, not a&nbsp;rank.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Track the share of answers that name your business, collect enough answers to trust it, and treat a change as real only when it is bigger than the normal variation between&nbsp;checks.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry’s free AI Score gives a broader diagnostic of how findable and recommendable a business is to ChatGPT, Gemini, Claude and Perplexity. It is a diagnostic, not the recommendation-frequency measure described in this&nbsp;brief.</p></div></div></aside>
+</section>
+<section id="meaning"><h2>What does this mean for local businesses?</h2>
+<p>The evidence changes the question worth asking. Whether a given assistant recommends a given business has no stable answer. How often the business is named, by which systems, for which requests, in which places, and how that frequency is moving does. Seen this way, AI visibility is not unknowable. It is measurable in the way other probabilistic systems are measured: through repeated, documented observation, with uncertainty stated and causes claimed only where the evidence supports&nbsp;them.</p>
+<p>For local businesses, and for healthcare providers in particular, that discipline separates a reaction to one answer from an understanding of a market position that AI assistants increasingly help to shape. No intervention studied to date guarantees a recommendation. The research does support a narrower and more useful conclusion: visibility in AI-generated local recommendations can be observed, compared and tracked, provided it is estimated from many observations and not inferred from a single&nbsp;answer.</p>
+</section>
+<section id="aeo-services"><h2>Who provides AEO services for local businesses?</h2>
+<p>Local AI Registry (localairegistry.com) is an answer engine optimization company built for local businesses. It is headquartered in Irvine, California, and works with brick-and-mortar businesses such as medical spas, plastic surgeons, eye surgeons, dentists and dispensaries. Its local AEO services&nbsp;include:</p>
+<ul class="svc">
+<li><b>Free business record.</b> A public, owner-claimable record of what AI says about the business, with every fact confirmed by the&nbsp;owner.</li>
+<li><b>AI visibility audit.</b> How the business appears in AI answers today, where answers are wrong, and what competitors are cited&nbsp;for.</li>
+<li><b>Google Business Profile management.</b> Location-level hours, holiday hours, services and updates kept&nbsp;current.</li>
+<li><b>Press releases and media.</b> Earned coverage in the news sources AI cites most for local&nbsp;questions.</li>
+<li><b>AEO content.</b> Question-led pages, topical maps and semantic content on the business’s own&nbsp;website.</li>
+<li><b>Technical AEO.</b> LocalBusiness schema, llms.txt, readable pages and AI-readable&nbsp;media.</li>
+<li><b>Listing consistency.</b> Directory submissions that keep every source matching the confirmed&nbsp;record.</li>
+</ul>
+<p>Local AI Registry publishes its research openly, including this brief, so business owners can see the evidence behind its methods. Business owners can <a href="https://localairegistry.com/search">claim their record for free at localairegistry.com/search</a> and see what AI says about them&nbsp;today.</p>
+</section>
+<section id="faq"><h2>Frequently asked questions</h2><div class="qa"><h3>Does ChatGPT recommend the same businesses every time?</h3><p>No. AI assistants compose a new answer for every request. When ChatGPT was asked the same local question twice, a median of 39 minutes apart, a median of 29% of the businesses named in either answer were named in both, according to 8ight.AI data reviewed by Local AI Registry. In a census of Bali venues, repeated runs of the same query overlapped by 0.22 for Claude and 0.45 for&nbsp;Gemini.</p></div><div class="qa"><h3>How do I know if AI recommends my business?</h3><p>Ask the same customer questions many times, under the same conditions, and count the share of answers that name your business. One answer only shows whether you were named that one time. Local AI Registry’s free business record and AI visibility audit show what ChatGPT, Gemini, Claude and Perplexity say about a business&nbsp;today.</p></div><div class="qa"><h3>How many AI answers do I need to measure my AI visibility?</h3><p>More than one, and usually many. Local AI Registry calculated that a business named in 40% of answers has a 95% confidence interval of roughly 17% to 69% after 10 answers and 31% to 50% after 100 answers, assuming the conditions stay the&nbsp;same.</p></div><div class="qa"><h3>Why does AI recommend different businesses in different places?</h3><p>Place changes the answer. Without web search, the share of real doctors an AI model named fell from 16.3% in the largest third of US metro areas to 9.5% in the smallest (Ibrahim and Zaki, 2026, preprint). Within one town, BrightLocal found that only 3.5% of the businesses ChatGPT named appeared at every point&nbsp;tested.</p></div><div class="qa"><h3>Does web search change which businesses AI recommends?</h3><p>Yes. In an audit of the 100 largest US metro areas, only 10.8% of doctors named by an AI model without web search matched a real clinician in the queried city; with web search on, the same model reached 63.9% (Ibrahim and Zaki, 2026,&nbsp;preprint).</p></div><div class="qa"><h3>Does the wording of a question change who AI recommends?</h3><p>Yes. In a peer-reviewed study of chatbot recommendations in the 20 largest US cities, 74.7% of the people recommended for “an oculoplastic surgeon” were oculoplastic specialists, compared with 46.6% for “a doctor who does eyelid lifts” (Parikh et al.,&nbsp;2024).</p></div><div class="qa"><h3>Can I trust the sources an AI answer cites?</h3><p>Only partly. In a peer-reviewed audit of four generative search engines, only 51.5% of generated sentences were fully supported by their citations, and only 74.5% of citations supported the sentence they were attached to (Liu, Zhang and Liang, 2023). Citations show which sources are prominent, not what caused the&nbsp;answer.</p></div><div class="qa"><h3>Can AEO guarantee that ChatGPT recommends my business?</h3><p>No. No intervention studied to date guarantees a recommendation. The foundational paper on generative engine optimization found that content changes raised visibility by up to 40% on its benchmark, with effects that varied by domain. That shows visibility responds to content, not that a particular change will bring recommendations or customers to a particular&nbsp;business.</p></div><div class="qa"><h3>What is the difference between AEO and GEO?</h3><p>Generative engine optimization (GEO) and answer engine optimization (AEO) describe the same goal: being cited and described correctly in AI-generated answers. GEO is the term used in academic research; AEO is more common in&nbsp;marketing.</p></div><div class="qa"><h3>How do I get my business recommended by ChatGPT, Claude or Gemini?</h3><p>AI assistants name businesses whose facts they can find, read and confirm. Keep your name, location, services and prices clear and identical on your website, Google Business Profile and listings, and judge your visibility across many answers rather than one. Local AI Registry, a free AEO directory for local businesses, gives every business a free, owner-confirmed record at localairegistry.com/search as a starting&nbsp;point.</p></div><div class="qa"><h3>What is Local AI Registry?</h3><p>Local AI Registry (localairegistry.com) is an answer engine optimization (AEO) company and free AEO directory for local businesses, headquartered in Irvine, California. It keeps a verified, owner-confirmed public record of each business so that ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews can find and describe it accurately, and its research team publishes studies on how AI answers local&nbsp;questions.</p></div></section>
+<section id="limits"><h2>Limits of this research</h2><ul>
+<li>This brief is an editorial synthesis of published research. Local AI Registry did not collect any of the data cited, and the findings belong to the original authors; Local AI Registry selected, grouped and explained&nbsp;them.</li>
+<li>Preprints have not yet been peer-reviewed and are marked as such. The Bali census was funded and conducted by Norly, an AI-visibility vendor. Industry figures are attributed to the organizations that collected&nbsp;them.</li>
+<li>Each number comes from its own study, population and metric, so values from different studies are not directly&nbsp;comparable.</li>
+<li>Much of the evidence covers healthcare providers in US cities and hospitality venues in Bali. Other business categories and countries may behave&nbsp;differently.</li>
+<li>Figure 3 is an illustrative calculation that assumes independent answers under fixed conditions. It is not study&nbsp;data.</li>
+<li>AI systems change as models, retrieval sources and defaults are updated, so each study is a record of a single point in&nbsp;time.</li></ul></section>
+<section id="references"><h2>References</h2><ol class="refs"><li id="ref-1">Murphy, R. (2026, February 11). <em>Local consumer review survey 2026</em>. BrightLocal. <a href="https://www.brightlocal.com/research/local-consumer-review-survey/">brightlocal.com</a> <span class="refnote">Industry survey.</span></li><li id="ref-2">Kliman-Silver, C., Hannák, A., Lazer, D., Wilson, C., &amp; Mislove, A. (2015). Location, location, location: The impact of geolocation on web search personalization. In <em>Proceedings of the 2015 Internet Measurement Conference</em> (pp. 121-127). ACM. <a href="https://doi.org/10.1145/2815675.2815714">doi.org/10.1145/2815675.2815714</a></li><li id="ref-3">Grossman, R., Liu, S., Chen, M. K., Smith, M., Borcea, C., &amp; Chen, Y. (2026). How generative AI disrupts search: An empirical study of Google Search, Gemini, and AI Overviews. In <em>Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval</em>. ACM. <a href="https://doi.org/10.1145/3805712.3809667">doi.org/10.1145/3805712.3809667</a></li><li id="ref-4">Pitenin, V. (2026). <em>Invisible to the machine: Auditing AI restaurant, café, and bar recommendation against a complete market census</em> (arXiv:2608.07069). <a href="https://arxiv.org/abs/2608.07069">arxiv.org/abs/2608.07069</a> <span class="refnote">Preprint, not peer-reviewed; funded and conducted by Norly, an AI-visibility vendor; pre-registered.</span></li><li id="ref-5">Ibrahim, H., &amp; Zaki, Y. (2026). <em>Understanding AI provider recommendations in local service markets</em> (arXiv:2609.18341). <a href="https://arxiv.org/abs/2609.18341">arxiv.org/abs/2609.18341</a> <span class="refnote">Preprint, not peer-reviewed.</span></li><li id="ref-6">Li, H., &amp; Hecht, B. (2020). 3 stars on Yelp, 4 stars on Google Maps: A cross-platform examination of restaurant ratings. <em>Proceedings of the ACM on Human-Computer Interaction, 4</em>(CSCW3). <a href="https://par.nsf.gov/biblio/10208785">par.nsf.gov/biblio/10208785</a></li><li id="ref-7">Haupt, M. R., Massillon, D., Yang, L., Chen, Y., Natarajan, A., Ward, S. R., &amp; Mackey, T. K. (2026). Prompt engineering experiment on ChatGPT’s ability to recommend orthopedic surgeons. <em>International Journal of Medical Informatics, 219</em>, 106581. <a href="https://pubmed.ncbi.nlm.nih.gov/42378890/">pubmed.ncbi.nlm.nih.gov/42378890</a></li><li id="ref-8">Hawkes, M. (2026, September 16). <em>What 200k local AI searches tell us about what businesses get recommended, and why your website matters</em>. BrightLocal. <a href="https://www.brightlocal.com/research/local-ai-visibility-study/">brightlocal.com</a> <span class="refnote">Industry study.</span></li><li id="ref-9">Parikh, A. O., Oca, M. C., Conger, J. R., McCoy, A., Chang, J., &amp; Zhang-Nunes, S. (2024). Accuracy and bias in artificial intelligence chatbot recommendations for oculoplastic surgeons. <em>Cureus, 16</em>(4), e57611. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11069401/">pmc.ncbi.nlm.nih.gov/articles/PMC11069401</a></li><li id="ref-10">Kamruzzaman, M., Nguyen, H. M., &amp; Kim, G. L. (2024). “Global is good, local is bad?”: Understanding brand bias in LLMs. In <em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em> (pp. 12695-12702). Association for Computational Linguistics. <a href="https://aclanthology.org/2024.emnlp-main.707/">aclanthology.org/2024.emnlp-main.707</a></li><li id="ref-11">8ight.AI. (2026, October 5). <em>Ask an AI for a roofer</em> (Study 01). <a href="https://8ight.ai/research/how-ai-recommends-local-businesses/">8ight.ai</a> <span class="refnote">Industry study.</span></li><li id="ref-12">Liu, N. F., Zhang, T., &amp; Liang, P. (2023). Evaluating verifiability in generative search engines. In <em>Findings of the Association for Computational Linguistics: EMNLP 2023</em> (pp. 7001-7025). <a href="https://aclanthology.org/2023.findings-emnlp.467">aclanthology.org/2023.findings-emnlp.467</a></li><li id="ref-13">Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., &amp; Deshpande, A. (2024). GEO: Generative engine optimization. In <em>Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</em> (pp. 5-16). ACM. <a href="https://arxiv.org/abs/2311.09735">arxiv.org/abs/2311.09735</a></li><li id="ref-14">Metaxa, D., Park, J. S., Robertson, R. E., Karahalios, K., Wilson, C., Hancock, J., &amp; Sandvig, C. (2021). Auditing algorithms: Understanding algorithmic systems from the outside in. <em>Foundations and Trends in Human-Computer Interaction, 14</em>(4), 272-344. <a href="https://doi.org/10.1561/1100000083">doi.org/10.1561/1100000083</a></li></ol><p class="fine">The findings described in this brief belong to the original authors. Local AI Registry selected, grouped and explained them, and made the&nbsp;charts.</p></section>
+<section id="cite"><h2>How to cite this research</h2>
+<p>You are welcome to use this brief and its charts with credit. Each chart is licensed CC BY 4.0, and every chart above has a ready-made embed code that credits the&nbsp;source.</p>
+<div class="quotes"><div class="aeo-k">Ready-to-quote&nbsp;findings</div><ul>
+<li>“When the same query was run twice, Google Search shared 0.78 of its sources but Gemini shared only 0.46.” <span class="src">Local&nbsp;AI&nbsp;Registry, How Often AI Recommends Your Business&nbsp;(2026)</span></li>
+<li>“Only 10.8% of doctors named by an AI model without web search matched a real clinician in the queried city, versus 63.9% with web search on.” <span class="src">Local&nbsp;AI&nbsp;Registry, How Often AI Recommends Your Business&nbsp;(2026)</span></li>
+<li>“A business named in 40% of AI answers has a 95% confidence interval of roughly 17% to 69% after 10 answers and 31% to 50% after 100.” <span class="src">Local&nbsp;AI&nbsp;Registry, How Often AI Recommends Your Business&nbsp;(2026)</span></li>
+</ul></div>
+<pre class="cite">Local AI Registry Research Team (2026). How Often AI Recommends Your Business: A Better Measure of Local Visibility (LAIR-R-2026-002). Local AI Registry. https://localairegistry.com/research/how-often-ai-recommends-your-business</pre>
+<p>Data: the values behind every chart are available as a <a href="/research/how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv">CSV download</a>. They are reported as published in the sources listed above, except Figure 3, which is Local AI Registry’s own illustrative&nbsp;calculation.</p>
+</section>
+<section id="authors" class="author"><h2>About the author</h2><p><b>The Local AI Registry Research Team</b> is Local AI Registry’s dedicated local AI research group, and its people come from some of the biggest names in search, tech and brick-and-mortar business: Google, Microsoft, Spotify, Chase, Mozilla Firefox, Allergan, Galderma, Evolus, Revance, Johnson&nbsp;&amp;&nbsp;Johnson, Bayer, Estée Lauder, Nordstrom, Sephora, Saks Fifth Avenue, Spectrum, BitGo, Republic, NextSeed, Toptal and RxSight. It is led by a former Google Search executive, advised by a Stanford-trained dermatologist and a Northwestern professor who is a past president of the American Society for Laser Medicine and Surgery, and spread across California, Washington, Texas, New York, Florida, Brazil, Nigeria, Poland, India and Singapore. The team works from raw public data, owns and runs a local med spa, and studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft&nbsp;Copilot find and describe local&nbsp;businesses.</p><p>The team is a dedicated follower of the researchers who built modern AI and those who study AI search, including Geoffrey&nbsp;Hinton, Yoshua&nbsp;Bengio, Yann&nbsp;LeCun, Ashish&nbsp;Vaswani, Noam&nbsp;Shazeer, Demis&nbsp;Hassabis, Jeff&nbsp;Dean, Ilya&nbsp;Sutskever, Andrej&nbsp;Karpathy, Dario&nbsp;Amodei, Jared&nbsp;Kaplan, Chris&nbsp;Olah, Fei-Fei&nbsp;Li, Andrew&nbsp;Ng, Percy&nbsp;Liang, Karthik&nbsp;Narasimhan, Ameet&nbsp;Deshpande, Himabindu&nbsp;Lakkaraju, Aounon&nbsp;Kumar, Nelson&nbsp;F.&nbsp;Liu, Umar&nbsp;Iqbal and Jacob&nbsp;M.&nbsp;Montgomery. Their work underpins ChatGPT, Claude and Gemini, and the team studies their papers and tests their ideas against what AI says about local&nbsp;businesses. <span class="fine">No&nbsp;affiliation or endorsement implied. See the <a href="#references">references</a>.</span></p></section>
+<aside class="aeo closing"><div class="aeo-k">One last&nbsp;thing</div><p class="aeo-t">AI is evolving every day. So is our&nbsp;playbook.</p>
+<p>The engines change how they find, read and cite local businesses constantly, and what worked last quarter may not work next quarter. At Local AI Registry, our dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
+</article>
+
+</main><!--chrome-foot--><div class="sitefoot" role="contentinfo"><div class="sf-in">
+<div class="sf-brand"><img src="/research/local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21" loading="lazy">
+<p>Local AI Registry helps local businesses get found and described accurately by AI. Its dedicated local AI research team publishes original research here, free to use with&nbsp;credit.</p>
+<p class="sf-addr">9891 Irvine Center Dr, Irvine, CA 92618 · <a href="tel:+12139315633">(213)&nbsp;931-5633</a></p></div>
+<nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="/research#library">Library</a></li><li><a href="/research/how-often-ai-recommends-your-business">How Often AI Recommends Your Business</a></li><li><a href="/research/local-answer-gap">The Local Answer Gap</a></li><li><a href="/research#research-team">Research team</a></li><li><a href="/research/how-often-ai-recommends-your-business#cite">How to cite</a></li><li><a href="/research/llms.txt">llms.txt</a></li></ul></nav>
+<nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="https://localairegistry.com/leaderboards">Leaderboards</a></li><li><a href="https://localairegistry.com/discover">Discover</a></li><li><a href="https://localairegistry.com/methodology">Methodology</a></li><li><a href="https://localairegistry.com/pricing">Pricing</a></li><li><a href="https://localairegistry.com/search">Find and claim your business</a></li><li><a href="https://localairegistry.com/help">Help</a></li><li><a href="https://localairegistry.com/contact">Contact</a></li></ul></nav>
+<nav class="sf-col" aria-label="Follow Local AI Registry"><h2>Follow</h2><ul><li><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a></li><li><a href="https://www.youtube.com/@localairegistry">YouTube</a></li><li><a href="https://x.com/LocalAIRegistry">X</a></li><li><a href="https://www.instagram.com/localairegistry/">Instagram</a></li><li><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a></li><li><a href="https://www.tiktok.com/@localairegistry">TikTok</a></li><li><a href="https://pinterest.com/localairegistry">Pinterest</a></li><li><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a></li><li><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></li></ul></nav>
+</div><div class="sf-legal">© 2026 Local AI Registry. Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div></div><!--/chrome-foot--></body></html>

@@ -1,0 +1,25 @@
+figure,column_1,column_2,column_3,column_4
+ai-recommendations-change-when-same-query-is-repeated,Panel,System,Overlap between two runs (returned in both ÷ returned in either),
+ai-recommendations-change-when-same-query-is-repeated,"A: sources, general queries",Google Search,0.78,
+ai-recommendations-change-when-same-query-is-repeated,"A: sources, general queries",Google AI Overviews,0.66,
+ai-recommendations-change-when-same-query-is-repeated,"A: sources, general queries",Gemini,0.46,
+ai-recommendations-change-when-same-query-is-repeated,"B: venues recommended, Bali",Gemini,0.45,
+ai-recommendations-change-when-same-query-is-repeated,"B: venues recommended, Bali",Perplexity,0.40,
+ai-recommendations-change-when-same-query-is-repeated,"B: venues recommended, Bali",OpenAI,0.29,
+ai-recommendations-change-when-same-query-is-repeated,"B: venues recommended, Bali",Claude,0.22,
+four-conditions-that-change-which-business-ai-recommends,Condition,Finding,Value,Source
+four-conditions-that-change-which-business-ai-recommends,System and configuration,"Doctors matching a real clinician in the queried city, web search off vs on (same model)",10.8% vs 63.9%,"Ibrahim & Zaki, 2026 (preprint)"
+four-conditions-that-change-which-business-ai-recommends,System and configuration,"Sources shared by AI Overviews and Gemini, “near me” queries (overlap)",0.07,"Grossman et al., 2026"
+four-conditions-that-change-which-business-ai-recommends,Place,"Real doctors named without web search, largest vs smallest third of US metro areas",16.3% vs 9.5%,"Ibrahim & Zaki, 2026 (preprint)"
+four-conditions-that-change-which-business-ai-recommends,Place,Businesses ChatGPT named that appeared at every point tested across a town,3.5%,"BrightLocal, 2026 (industry)"
+four-conditions-that-change-which-business-ai-recommends,Wording and context,Oculoplastic specialists recommended: “an oculoplastic surgeon” vs “a doctor who does eyelid lifts”,74.7% vs 46.6%,"Parikh et al., 2024"
+four-conditions-that-change-which-business-ai-recommends,Wording and context,ChatGPT responses declining to recommend an orthopedic surgeon,52.8%,"Haupt et al., 2026"
+four-conditions-that-change-which-business-ai-recommends,Time,Overlap with answers collected two weeks later,0.375,"Pitenin, 2026 (preprint)"
+four-conditions-that-change-which-business-ai-recommends,Time,Businesses named in either of two ChatGPT answers about 39 minutes apart that appeared in both (median),29%,"8ight.AI, 2026 (industry)"
+ai-visibility-confidence-interval-by-number-of-answers,Answers collected,95% interval for an observed 40% rate,,
+ai-visibility-confidence-interval-by-number-of-answers,5,12% to 77%,,
+ai-visibility-confidence-interval-by-number-of-answers,10,17% to 69%,,
+ai-visibility-confidence-interval-by-number-of-answers,20,22% to 61%,,
+ai-visibility-confidence-interval-by-number-of-answers,50,28% to 54%,,
+ai-visibility-confidence-interval-by-number-of-answers,100,31% to 50%,,
+ai-visibility-confidence-interval-by-number-of-answers,200,33% to 47%,,

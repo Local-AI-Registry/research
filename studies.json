@@ -11,6 +11,18 @@
   ],
   "studies": [
     {
+      "id": "LAIR-R-2026-002",
+      "title": "How Often AI Recommends Your Business: A Better Measure of Local Visibility",
+      "short_title": "How Often AI Recommends Your Business",
+      "url": "how-often-ai-recommends-your-business/",
+      "date": "2026-11-10",
+      "type": "Brief",
+      "summary": "Asked the same query twice, Gemini’s sources overlapped by only 0.46 and a median of 29% of the businesses ChatGPT named appeared in both answers, so AI visibility is best measured as how often a business is named across many answers.",
+      "ai_assistants": ["ChatGPT", "Gemini", "Claude", "Perplexity", "Google AI Overviews"],
+      "topics": ["AI visibility", "Accuracy", "Local search", "Healthcare"],
+      "data_url": "how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv"
+    },
+    {
       "id": "LAIR-R-2026-001",
       "title": "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses",
       "url": "local-answer-gap/",
