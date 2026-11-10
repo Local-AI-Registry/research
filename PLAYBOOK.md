@@ -46,7 +46,18 @@ Test each idea:
 
 We only use data that is public and allows reuse. We never invent data and never copy numbers from a chart in someone else's article.
 
-Where to look:
+**Aim for thin areas.** Almost nobody studies how AI answers questions about local businesses: our census found only 2 of 39,676
+queries in public AI-search research datasets ask an AI to find a local provider. That gap is our advantage. The usual move is to take
+raw data from AI-search and AI-visibility research that other people already collected, and carve out the local slice they never analyzed.
+
+Raw datasets we have already used (all CC BY 4.0; check each one for new releases first):
+- IMC 2026 Google AI Overviews dataset (Xu, Iqbal and Montgomery): https://github.com/haofeix/google-aio-characterization (used for The Local Answer Gap)
+- Organikpi's AI search datasets, 13 studies (ChatGPT, Gemini, Copilot, AI Mode citations, recommendations, fan-out queries): https://github.com/danishashko/ai-search-datasets
+- Cited.io's monthly AI search citations dataset (ChatGPT, AI Overviews, AI Mode, Gemini, Copilot, Claude): https://github.com/Cited-io/ai-search-citations-dataset
+
+Combining several of these is often where the new finding is (the census chart came from counting across all of them).
+
+Where else to look:
 - Academic papers that publish their data: search arXiv, ACL Anthology, ACM (IMC, WWW, SIGIR, KDD), with words like
   "dataset", "AI Overviews", "generative search", "LLM search citations", "answer engine", "local search".
   The paper usually links a GitHub, Zenodo, OSF or Hugging Face page with the raw files.
@@ -286,5 +297,12 @@ Write it to `work/<study-folder>/youtube.md` and show it in chat. Only use numbe
 6. **Thumbnail text**: 5 words or fewer, with the number. Same colors as the share image.
 7. **Captions**: tell her to upload the script as a transcript (YouTube Studio, Subtitles, Add, Upload file, "Without timing") so every name is spelled right.
 
-When the video is live, she sends you the link, length, date and transcript. Add the `video` block to studies.json (format in `CLAUDE.md`), run the check and push.
+When the video is live, she sends you the link, length, date and transcript. Add the `video` block to studies.json (format in `CLAUDE.md`)
+with the **same title, description and chapters** you wrote for YouTube, run the check and push. Chapters become "key moments" in Google
+(Clip schema) and clickable times under the video on the study page.
+
+Then confirm everything links both ways:
+- YouTube description line 1 and the pinned comment link to the study. The study page shows the video, its chapters and transcript.
+- The study's schema has the VideoObject (with the chapters), connected to the Report. The video is in sitemap.xml and llms.txt (automatic).
+- The hub library card shows the video link (automatic).
 The video then appears on the study page with its transcript, VideoObject schema and a video sitemap entry, and llms.txt lists it.

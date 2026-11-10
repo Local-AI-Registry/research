@@ -38,8 +38,9 @@ The tools it uses are in `kit/` (use them, do not change them). Keep raw data an
 ## Content rules
 - Never invent numbers, quotes, sources or dates. Every number in a summary must come from the study itself.
 - Video block format (add after `data_url`):
-  `"video": { "youtube": "https://youtu.be/XXXXXXXXXXX", "length": "1:04", "uploaded": "2026-11-12", "transcript": "First paragraph.\n\nSecond paragraph." }`
+  `"video": { "youtube": "https://youtu.be/XXXXXXXXXXX", "length": "1:04", "uploaded": "2026-11-12", "title": "Same title as on YouTube", "description": "Same first sentences as on YouTube", "chapters": [{"time": "0:00", "name": "First chapter"}, {"time": "0:20", "name": "Second chapter"}], "transcript": "First paragraph.\n\nSecond paragraph." }`
   `length` is minutes:seconds, `uploaded` is the date it went live on YouTube, and the transcript is YouTube's transcript or the script.
+  `title`, `description` and `chapters` are optional but always use them; they must match YouTube (PLAYBOOK.md Step 11).
 - Writing style: plain language, no em dashes, no hype words.
 - Every study page ends with a note that AI changes every day and that the Local AI Registry research team keeps testing the best approach.
 - Light mode only. No dark mode.

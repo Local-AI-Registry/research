@@ -17,6 +17,23 @@ def yt_id(u):
     if not m: raise SystemExit(f'video.youtube "{u}" is not a YouTube link')
     return m.group(1)
 
+def secs(t):
+    m = re.match(r"^(?:(\d+):)?(\d+):([0-5]\d)$", t or "")
+    if not m: raise SystemExit(f'chapter time "{t}" must look like 0:15')
+    return int(m.group(1) or 0) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+
+def chapters(v, vid, canon):
+    """Optional "chapters": [{"time": "0:00", "name": "..."}] -> Clip schema (Google key moments) + links under the video."""
+    ch = v.get("chapters") or []
+    if not ch: return [], ""
+    total = secs("0:" + v["length"]) if v["length"].count(":") == 1 else secs(v["length"])
+    starts = [secs(c["time"]) for c in ch]
+    if starts[0] != 0 or starts != sorted(starts): raise SystemExit("video.chapters must start at 0:00 and go in order")
+    clips = [{"@type": "Clip", "name": c["name"], "startOffset": a, "endOffset": (starts[i + 1] if i + 1 < len(starts) else total),
+              "url": f"https://www.youtube.com/watch?v={vid}&t={a}s"} for i, (c, a) in enumerate(zip(ch, starts))]
+    links = "".join(f'<li><a href="https://www.youtube.com/watch?v={vid}&amp;t={a}s" rel="noopener">{e(c["time"])}</a> {e(c["name"])}</li>' for c, a in zip(ch, starts))
+    return clips, f'<ol class="vid-ch" aria-label="Chapters">{links}</ol>'
+
 def iso(d):
     m = re.match(r"^(\d+):([0-5]\d)$", d or "")
     if not m: raise SystemExit(f'video.length "{d}" must look like 1:04')
@@ -32,12 +49,13 @@ CSS = """<style>
 .vid-play:hover .vid-btn,.vid-play:focus-visible .vid-btn{transform:translate(-50%,-50%) scale(1.08)}
 .vid-len{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.75);color:#fff;font:700 13px system-ui;padding:3px 8px;border-radius:6px}
 .vid-cap{font-size:15px;color:var(--muted,#555);margin:10px 0 0}.vid-cap a{font-weight:600}
+.vid-ch{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:6px 18px;font-size:15px}.vid-ch a{font-weight:700;font-variant-numeric:tabular-nums}
 .vid details{margin-top:10px}.vid summary{cursor:pointer;font-weight:700;color:var(--blue,#1f4fd8)}.vid details p{margin:10px 0 0;line-height:1.6}
 </style>"""
 
 JS = """<script>document.querySelectorAll('.vid-play').forEach(function(b){b.addEventListener('click',function(){var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.id+'?autoplay=1&rel=0&modestbranding=1';f.title=b.dataset.title;f.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';f.allowFullscreen=true;b.replaceWith(f);});});</script>"""
 
-def block(v, vid, study):
+def block(v, vid, study, chlinks=""):
     title = v.get("title") or study["title"]
     watch = f"https://www.youtube.com/watch?v={vid}"
     thumb = v.get("thumbnail") or f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
@@ -51,7 +69,7 @@ def block(v, vid, study):
             f'<span class="vid-len">{e(v["length"])}</span></button>'
             f'<noscript><a href="{watch}">Watch on YouTube</a></noscript></div>'
             f'<p class="vid-cap">{e(v.get("description") or "A one-minute, plain-language walkthrough of the findings.")} '
-            f'<a href="{watch}" rel="noopener">Watch on&nbsp;YouTube</a></p>'
+            f'<a href="{watch}" rel="noopener">Watch on&nbsp;YouTube</a></p>' + chlinks
             + (f'<details><summary>Read the transcript</summary>{paras}</details>' if paras else "")
             + f'</section>{JS}<!--/video-->')
 
@@ -86,12 +104,14 @@ def apply():
                     "creator": {"@id": "https://localairegistry.com/research#research-team"},
                     "about": {"@id": canon + "#report"}}
             if v.get("transcript"): node["transcript"] = v["transcript"].strip()
+            clips, chlinks = chapters(v, vid, canon)
+            if clips: node["hasPart"] = clips
             g.append(node)
             for n in g:
                 if n.get("@id") == canon + "#report": n["video"] = {"@id": canon + "#video"}
             # place the video under the short answer + stats, at the end of the article header
             i = s.find('id="summary"'); j = s.find("</header>", i)
-            s = s[:j] + block(v, vid, st) + s[j:]
+            s = s[:j] + block(v, vid, st, chlinks) + s[j:]
             vx = (f"\n    <video:video><video:thumbnail_loc>{e(thumb)}</video:thumbnail_loc><video:title>{e(title)}</video:title>"
                   f"<video:description>{e(desc)}</video:description><video:player_loc>https://www.youtube.com/embed/{vid}</video:player_loc>"
                   f"<video:duration>{int(v['length'].split(':')[0])*60+int(v['length'].split(':')[1])}</video:duration>"
