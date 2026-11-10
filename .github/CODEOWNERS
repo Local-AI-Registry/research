@@ -1,0 +1,16 @@
+# Changes to these need Steve's approval before they can go live.
+# Studies (studies.json and each study's folder) are not listed, so Flávia can publish those herself.
+/.github/        @SEO-Platform-X
+/scripts/        @SEO-Platform-X
+/simulations/    @SEO-Platform-X
+/assets/         @SEO-Platform-X
+/og/             @SEO-Platform-X
+/index.html      @SEO-Platform-X
+/404.html        @SEO-Platform-X
+/robots.txt      @SEO-Platform-X
+/sitemap.xml     @SEO-Platform-X
+/llms.txt        @SEO-Platform-X
+/llms-full.txt   @SEO-Platform-X
+/site.webmanifest @SEO-Platform-X
+/CLAUDE.md       @SEO-Platform-X
+/README.md       @SEO-Platform-X

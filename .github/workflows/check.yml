@@ -1,0 +1,22 @@
+name: Check
+# Runs on every proposed change. A red X means the change would break the site.
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build the site and check it
+        run: |
+          python scripts/build_hub.py
+          python scripts/chrome.py
+          python scripts/video.py
+          python scripts/absolute_links.py
+          python scripts/check.py
