@@ -38,6 +38,8 @@ jobs:
           python scripts/video.py
           python scripts/absolute_links.py
           python scripts/check.py
+      - name: Leave the study kit and notes out of the public site
+        run: rm -rf kit work PLAYBOOK.md CLAUDE.md README.md
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

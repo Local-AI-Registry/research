@@ -9,7 +9,7 @@ import os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRANCH = "origin/studies"
-PROTECTED = {".github", "scripts", "simulations", "assets", "og", ".git"}
+PROTECTED = {".github", "scripts", "simulations", "assets", "og", ".git", "kit", "work"}
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 OK_EXT = {".html", ".md", ".csv", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif", ".pdf", ".json", ".txt"}
 

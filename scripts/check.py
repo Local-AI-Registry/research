@@ -4,7 +4,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 errors = []
 pages = []
 for d, _, fs in os.walk(ROOT):
-    if "/.git" in d: continue
+    rel_d = os.path.relpath(d, ROOT).split(os.sep)[0]
+    if "/.git" in d or rel_d in ("kit", "work", "node_modules"): continue
     pages += [os.path.join(d, f) for f in fs if f.endswith(".html")]
 for p in pages:
     s = open(p, encoding="utf-8").read(); rel = os.path.relpath(p, ROOT)

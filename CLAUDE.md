@@ -3,6 +3,10 @@
 This repo is the research section of Local AI Registry, shown at https://localairegistry.com/research/.
 You are usually helping Flávia (growth marketing) add or update studies and their explainer videos.
 
+**Making a new study? Read `PLAYBOOK.md` first and follow it step by step.** It is the exact method behind The Local Answer Gap:
+raw public data, original findings, SVG charts (heatmaps, 2x2s, waffles), flat illustrations, PNGs, the page, schema and AEO.
+The tools it uses are in `kit/` (use them, do not change them). Keep raw data and your analysis scripts in `work/<study-folder>/`; never commit `work/`.
+
 ## How publishing works (read this first)
 - Push your work to the **`studies`** branch. Commit and push directly; no pull request needed.
 - The live site only ever takes two things from `studies`: `studies.json` and study folders (a lowercase-with-dashes folder such as `local-answer-gap/`). Everything else on that branch is ignored when publishing.
@@ -11,10 +15,10 @@ You are usually helping Flávia (growth marketing) add or update studies and the
 
 ## What you may change
 - `studies.json` (the list of studies, including each study's optional `video` block).
-- A study's own folder: its `index.html`, `index.md`, `images/` and `data/`.
+- A study's own folder: its `index.html`, `index.md`, `images/` (charts, illustrations and `share.png`) and `data/`.
 
 ## What you must not change
-- Anything in `scripts/`, `.github/`, `simulations/`, `assets/`, `og/`, or the root files (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`, `CLAUDE.md`, `README.md`).
+- Anything in `scripts/`, `kit/`, `.github/`, `simulations/`, `assets/`, `og/`, or the root files (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`, `CLAUDE.md`, `README.md`, `PLAYBOOK.md`).
   These are built automatically or need Steve's approval. If a task seems to need them, stop and say so.
 - Never edit the root `index.html` by hand. It is rebuilt from `studies.json`.
 
@@ -27,7 +31,8 @@ You are usually helping Flávia (growth marketing) add or update studies and the
 
 ## The study template
 - A new study copies the structure of `local-answer-gap/index.html`: same head tags, the short answer box (`id="summary"`), the Report structured data, the header and footer markers (`<!--chrome-head-->`, `<!--chrome-foot-->`), and the closing note. The check rejects a page that is missing any of these.
-- The canonical address must be `https://localairegistry.com/research<folder>/`.
+- The canonical address must be `https://localairegistry.com/research/<folder>` (no slash at the end).
+- The share image is `<folder>/images/share.png`, made with `kit/share_card.py` (the root `og/` folder is Steve's).
 - Add the study to `studies.json` with `url` set to `<folder>/`.
 
 ## Content rules

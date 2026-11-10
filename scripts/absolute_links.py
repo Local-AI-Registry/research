@@ -43,8 +43,8 @@ def text_file(path):
 
 if __name__ == "__main__":
     for d, _, fs in os.walk(ROOT):
-        if ".git" in d or "simulations" in d: continue
+        if ".git" in d or "simulations" in d or os.path.relpath(d, ROOT).split(os.sep)[0] in ("kit", "work", "node_modules"): continue
         for f in fs:
             if f.endswith(".html"): page(os.path.join(d, f))
-            elif f.endswith((".xml", ".txt", ".md", ".webmanifest")): text_file(os.path.join(d, f))
+            elif f.endswith((".xml", ".txt", ".md", ".webmanifest")) and f not in ("PLAYBOOK.md", "CLAUDE.md", "README.md"): text_file(os.path.join(d, f))
     print("links made absolute")
