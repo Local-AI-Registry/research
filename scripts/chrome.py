@@ -11,6 +11,17 @@ CLAIM = "https://localairegistry.com/search"
 # API restriction = Places API (New). Leave empty to fall back to the free OpenStreetMap search.
 GOOGLE_PLACES_KEY = ""
 CONTACT = "https://localairegistry.com/signup/business/new"
+def _studies():
+    """Study folders and short names, newest first, from studies.json (so new studies show in the header and footer)."""
+    import json
+    try: data = json.load(open(os.path.join(ROOT, "studies.json")))["studies"]
+    except Exception: return []
+    out = [(st["url"].strip("/").split("/")[-1], st.get("short_title") or st["title"].split(":")[0], st.get("date", ""))
+           for st in data if st.get("url") and not st["url"].startswith("http") and os.path.exists(os.path.join(ROOT, st["url"].strip("/"), "index.html"))]
+    return sorted(out, key=lambda x: x[2], reverse=True)
+STUDIES = _studies()
+LATEST = STUDIES[0][0] if STUDIES else "local-answer-gap"
+
 SOCIAL = [("LinkedIn", "https://www.linkedin.com/company/local-ai-registry"), ("YouTube", "https://www.youtube.com/@localairegistry"),
           ("X", "https://x.com/LocalAIRegistry"), ("Instagram", "https://www.instagram.com/localairegistry/"),
           ("Facebook", "https://www.facebook.com/profile.php?id=61591432116527"), ("TikTok", "https://www.tiktok.com/@localairegistry"),
@@ -22,7 +33,7 @@ def header(base=""):
     home = base or "./"
     return f'''<div class="sitehead" role="banner"><a class="sh-back" href="https://localairegistry.com"><span aria-hidden="true">←</span> Back to Local AI&nbsp;Registry</a><div class="sh-in">
 <a class="sh-brand" href="{home}" aria-label="Local AI Registry Research home"><img src="{base}local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
-<nav class="sh-nav" aria-label="Research"><a href="{home}#library">Library</a><a href="{base}local-answer-gap/">Latest study</a><a href="{home}#research-team">Team</a></nav>
+<nav class="sh-nav" aria-label="Research"><a href="{home}#library">Library</a><a href="{base}{LATEST}/">Latest study</a><a href="{home}#research-team">Team</a></nav>
 <div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="{CLAIM}"><span class="sh-l">Claim your free&nbsp;record</span><span class="sh-s">Claim free&nbsp;record</span></a></div>
 </div></div>'''
 
@@ -33,7 +44,7 @@ def footer(base=""):
 <div class="sf-brand"><img src="{base}local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21" loading="lazy">
 <p>Local AI Registry helps local businesses get found and described accurately by AI. Its dedicated local AI research team publishes original research here, free to use with&nbsp;credit.</p>
 <p class="sf-addr">9891 Irvine Center Dr, Irvine, CA 92618 · <a href="tel:+12139315633">(213)&nbsp;931-5633</a></p></div>
-<nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="{home}#library">Library</a></li><li><a href="{base}local-answer-gap/">The Local Answer Gap</a></li><li><a href="{home}#research-team">Research team</a></li><li><a href="{base}local-answer-gap/#cite">How to cite</a></li><li><a href="{base}llms.txt">llms.txt</a></li></ul></nav>
+<nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="{home}#library">Library</a></li>{"".join(f'<li><a href="{base}{sl}/">{nm}</a></li>' for sl, nm, _ in STUDIES[:4])}<li><a href="{home}#research-team">Research team</a></li><li><a href="{base}{LATEST}/#cite">How to cite</a></li><li><a href="{base}llms.txt">llms.txt</a></li></ul></nav>
 <nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="https://localairegistry.com/leaderboards">Leaderboards</a></li><li><a href="https://localairegistry.com/discover">Discover</a></li><li><a href="https://localairegistry.com/methodology">Methodology</a></li><li><a href="https://localairegistry.com/pricing">Pricing</a></li><li><a href="{CLAIM}">Find and claim your business</a></li><li><a href="https://localairegistry.com/help">Help</a></li><li><a href="https://localairegistry.com/contact">Contact</a></li></ul></nav>
 <nav class="sf-col" aria-label="Follow Local AI Registry"><h2>Follow</h2><ul>{soc}</ul></nav>
 </div><div class="sf-legal">© 2026 Local AI Registry. Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div></div>'''

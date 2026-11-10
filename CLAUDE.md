@@ -25,8 +25,8 @@ The tools it uses are in `kit/` (use them, do not change them). Keep raw data an
 ## How to work
 1. Work on the `studies` branch (`git checkout studies`). Never push to `main` (it is locked).
 2. Before finishing, run the build and the check, and fix anything they report:
-   `python scripts/build_hub.py && python scripts/chrome.py && python scripts/video.py && python scripts/absolute_links.py && python scripts/check.py`
-3. Only commit `studies.json` and the study folder you worked on. Discard any other files the build changed (`git checkout -- index.html sitemap.xml`).
+   `python scripts/build_hub.py && python scripts/site_files.py && python scripts/chrome.py && python scripts/video.py && python scripts/absolute_links.py && python scripts/check.py`
+3. Only commit `studies.json` and the study folder you worked on. Discard any other files the build changed (`git checkout -- index.html sitemap.xml llms.txt llms-full.txt`).
 4. Write commit messages in plain words (for example "Add study: How ChatGPT picks dentists").
 
 ## The study template

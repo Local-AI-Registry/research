@@ -1,5 +1,5 @@
 """Fail loudly if the built site is broken. Run after the build scripts."""
-import os, re, json, sys
+import os, re, json, sys, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 errors = []
 pages = []
@@ -38,9 +38,33 @@ for st in data["studies"]:
         "the closing note that AI evolves every day": "AI is evolving every day",
         "page description": '<meta name="description"',
         "share image": '<meta property="og:image"',
+        # SEO and AEO: every study carries the same structure as The Local Answer Gap (see PLAYBOOK.md, steps 7 to 9)
+        "key findings list (id=\"key-findings\")": 'id="key-findings"',
+        "link to the Markdown copy": 'rel="alternate" type="text/markdown"',
+        "Open Graph title": '<meta property="og:title"',
+        "share image description": '<meta property="og:image:alt"',
+        "X (Twitter) card": '<meta name="twitter:card"',
+        "published date": '<meta property="article:published_time"',
+        "FAQ schema": '"FAQPage"',
+        "glossary schema (DefinedTermSet)": '"DefinedTermSet"',
+        "dataset schema": '"Dataset"',
+        "chart image schema (ImageObject)": '"ImageObject"',
+        "breadcrumb schema": '"BreadcrumbList"',
+        "speakable summary": '"speakable"',
+        "how-to-cite section": 'id="cite"',
     }
     for label, needle in need.items():
         if needle not in s: errors.append(f"{slug}/index.html is missing {label} (copy the structure of local-answer-gap/index.html)")
+    if not os.path.exists(os.path.join(ROOT, slug, "index.md")): errors.append(f"{slug}/index.md is missing (the Markdown copy of the page for AI tools)")
+    t = re.search(r"<title>(.*?)</title>", s, re.S)
+    if t and len(html.unescape(t.group(1))) > 65: errors.append(f"{slug}: page title is {len(html.unescape(t.group(1)))} characters; keep it under 65")
+    d = re.search(r'<meta name="description" content="([^"]*)"', s)
+    if d and len(html.unescape(d.group(1))) > 165: errors.append(f"{slug}: meta description is {len(html.unescape(d.group(1)))} characters; keep it under 165")
+    for img in re.findall(r"<img\b[^>]*>", s):
+        if " alt=" not in img: errors.append(f"{slug}: an image has no alt text: {img[:90]}")
+        elif not (" width=" in img and " height=" in img): errors.append(f"{slug}: an image has no width and height: {img[:90]}")
+    og = re.search(r'<meta property="og:image" content="https://localairegistry.com/research/([^"]+)"', s)
+    if og and not os.path.exists(os.path.join(ROOT, og.group(1))): errors.append(f"{slug}: the share image {og.group(1)} does not exist")
     if "prefers-color-scheme: dark" in s: errors.append(f"{slug}/index.html has a dark mode; the site is light mode only")
     if "\u2014" in s or "—" in re.sub(r"<script.*?</script>", "", s, flags=re.S): errors.append(f"{slug}/index.html contains an em dash")
 

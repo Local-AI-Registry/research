@@ -34,6 +34,7 @@ jobs:
         run: |
           python scripts/merge_studies.py
           python scripts/build_hub.py
+          python scripts/site_files.py
           python scripts/chrome.py
           python scripts/video.py
           python scripts/absolute_links.py
