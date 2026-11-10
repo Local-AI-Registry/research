@@ -3,9 +3,15 @@
 This repo is the research section of Local AI Registry, shown at https://localairegistry.com/research/.
 You are usually helping Flávia (growth marketing) add or update studies and their explainer videos.
 
+## How publishing works (read this first)
+- Push your work to the **`studies`** branch. Commit and push directly; no pull request needed.
+- The live site only ever takes two things from `studies`: `studies.json` and study folders (a lowercase-with-dashes folder such as `local-answer-gap/`). Everything else on that branch is ignored when publishing.
+- The hub page, header, footer, map, design and scripts come only from `main`, which only Steve can change. Do not try to change them.
+- After you push, the "Study change" check runs. A red X means the study breaks the template; the live site keeps the last good version until it's fixed. A green check means it will be live within a few minutes.
+
 ## What you may change
 - `studies.json` (the list of studies, including each study's optional `video` block).
-- A study's own folder (for example `local-answer-gap/`) when adding a new study or fixing its content.
+- A study's own folder: its `index.html`, `index.md`, `images/` and `data/`.
 
 ## What you must not change
 - Anything in `scripts/`, `.github/`, `simulations/`, `assets/`, `og/`, or the root files (`index.html`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`, `CLAUDE.md`, `README.md`).
@@ -13,11 +19,16 @@ You are usually helping Flávia (growth marketing) add or update studies and the
 - Never edit the root `index.html` by hand. It is rebuilt from `studies.json`.
 
 ## How to work
-1. Always work on a new branch and open a pull request. Never push to `main`.
+1. Work on the `studies` branch (`git checkout studies`). Never push to `main` (it is locked).
 2. Before finishing, run the build and the check, and fix anything they report:
    `python scripts/build_hub.py && python scripts/chrome.py && python scripts/video.py && python scripts/absolute_links.py && python scripts/check.py`
-3. Do not commit the files the build changes (`index.html`, `sitemap.xml`, study pages). The site rebuilds itself when the pull request is merged. Only commit `studies.json` and the study folder you worked on.
-4. In the pull request description, say in plain words what changed.
+3. Only commit `studies.json` and the study folder you worked on. Discard any other files the build changed (`git checkout -- index.html sitemap.xml`).
+4. Write commit messages in plain words (for example "Add study: How ChatGPT picks dentists").
+
+## The study template
+- A new study copies the structure of `local-answer-gap/index.html`: same head tags, the short answer box (`id="summary"`), the Report structured data, the header and footer markers (`<!--chrome-head-->`, `<!--chrome-foot-->`), and the closing note. The check rejects a page that is missing any of these.
+- The canonical address must be `https://localairegistry.com/research/<folder>/`.
+- Add the study to `studies.json` with `url` set to `<folder>/`.
 
 ## Content rules
 - Never invent numbers, quotes, sources or dates. Every number in a summary must come from the study itself.

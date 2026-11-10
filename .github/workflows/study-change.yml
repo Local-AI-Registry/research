@@ -1,0 +1,27 @@
+name: Study change
+# Runs whenever something is pushed to the studies branch, and shows a red X if the
+# new study would break the site. The site itself is published by "Publish the research site".
+on:
+  push:
+    branches: [studies]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git fetch --depth 1 origin studies:refs/remotes/origin/studies
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check the new study against the template
+        run: |
+          python scripts/merge_studies.py
+          python scripts/build_hub.py
+          python scripts/chrome.py
+          python scripts/video.py
+          python scripts/absolute_links.py
+          python scripts/check.py

@@ -1,9 +1,15 @@
 name: Publish the research site
-# Every change that lands on main is rebuilt and published to GitHub Pages.
-# Nothing is committed back to main, so main stays exactly what people approved.
+# Publishes the site. Runs from main only (main is admin-only), so the hub, design and
+# scripts always come from main. Studies are pulled in from the `studies` branch, where
+# Flávia pushes freely. Nothing is committed back to any branch.
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Study change"]
+    types: [completed]
+  schedule:
+    - cron: "17 * * * *"
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,11 +23,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Get the latest studies
+        run: git fetch --depth 1 origin studies:refs/remotes/origin/studies || echo "no studies branch yet"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Build and check
         run: |
+          python scripts/merge_studies.py
           python scripts/build_hub.py
           python scripts/chrome.py
           python scripts/video.py
