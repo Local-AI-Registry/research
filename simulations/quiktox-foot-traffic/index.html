@@ -159,7 +159,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
   function goToPlace(p){
     if(p.kind&&KINDS[p.kind])KIND=p.kind;
     HOME={name:p.name,c:[+p.lon,+p.lat],verified:false,snapped:true,area:p.area||'',city:p.city||'',
-      url:'https://localairegistry.com/search?q='+encodeURIComponent(p.name+(p.city?' '+p.city:''))};
+      url:(/^https:\/\/(www\.)?localairegistry\.com\//.test(p.url||'')?p.url:'https://localairegistry.com/search?q='+encodeURIComponent(p.name+(p.city?' '+p.city:'')))};
     if(/quiktox/i.test(p.name)){HOME.url=QUIKTOX_URL;HOME.verified=true;HOME.place='Costa Mesa Courtyards';HOME.placeSub='Newport Boulevard, in the County of Orange';}
     if(MARKER)MARKER.setLngLat(HOME.c); renderPin();
     if(window.__resetWalk)window.__resetWalk();

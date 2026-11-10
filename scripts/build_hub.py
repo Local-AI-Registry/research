@@ -128,19 +128,20 @@ JS = r'''<script>
     if(state!=='busy'){ var cta=document.createElement('li'); cta.className='cta'+(act===items.length?' on':''); cta.setAttribute('role','option'); cta.id='go'+items.length; cta.setAttribute('aria-selected',act===items.length?'true':'false');
       var a=document.createElement('a'); a.href=CONTACT; a.textContent='Don\u2019t see your business? Add it free \u2192'; cta.appendChild(a);
       cta.addEventListener('mousedown',function(e){e.preventDefault(); location.href=CONTACT;}); go.appendChild(cta); }
-    if(GKEY&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
+    if((GKEY||(REG&&google))&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
     go.hidden=false; gq.setAttribute('aria-expanded','true'); }
   function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close();
+    if(it.src&&it.lat==null){ gs.textContent='Finding '+it.name+'\u2026'; locate(it).then(function(){pickIt2(it);}).catch(function(){gs.textContent='Couldn\u2019t place that business on the map. Try another.';}); return; }
     if(it.gid&&it.lat==null){ gs.textContent='Finding '+it.name+'\u2026'; resolveGoogle(it).then(function(){pickIt2(it);}).catch(function(){gs.textContent='Couldn\u2019t load that business. Try another.';}); return; }
     pickIt2(it); }
   function pickIt2(it){ if(!f.src) load();
-    var msg={type:'lair-goto-place',name:it.name,lon:it.lon,lat:it.lat,kind:it.kind,area:it.area,city:it.city};
+    var msg={type:'lair-goto-place',name:it.name,lon:it.lon,lat:it.lat,kind:it.kind,area:it.area,city:it.city,url:it.url||''};
     var sendIt=function(){ f.contentWindow&&f.contentWindow.postMessage(msg,location.origin); };
     if(f.contentWindow&&f.src) sendIt(); else f.addEventListener('load',function(){setTimeout(sendIt,1500);},{once:true});
     gs.textContent='Showing '+it.name+(it.area?', '+it.area:'')+'. Click the pin to see its Local AI Registry record.'; }
   function newTok(){ tok=(crypto.randomUUID?crypto.randomUUID():String(Date.now())+Math.random()); }
   function gKind(types,name){ var t=(types||[]).join(' '), n=(name||'').toLowerCase();
-    if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin/.test(n)||/skin_care_clinic/.test(t)) return 'medspa';
+    if(/med ?spa|medspa|medical spa|aesthetic|botox|injector|laser|skin/.test(n)||/skin_care_clinic/.test(t)) return 'medspa';
     if(/plastic surg|cosmetic surg/.test(n)) return 'plastic';
     if(/dentist|dental/.test(t+' '+n)) return 'dental';
     if(/cannabis|dispensar|weed/.test(n)) return 'dispensary';
@@ -166,6 +167,28 @@ JS = r'''<script>
         it.lon=p.location.longitude; it.lat=p.location.latitude; it.city=city; it.area=p.formattedAddress||it.area;
         it.kind=gKind([p.primaryType].concat(p.types||[]),it.name); return it; });
   }
+  /* On localairegistry.com the hub searches the registry itself (every business we hold, then Google Places for the rest).
+     Same origin only: on any other address the browser blocks it, so the free OpenStreetMap search below takes over. */
+  var REG=/(^|\.)localairegistry\.com$/.test(location.hostname);
+  function searchRegistry(q,my){
+    return tfetch('/api/business/search/suggest?q='+encodeURIComponent(q),5000).then(function(j){ if(my!==seq) return;
+      var rows=(j&&j.suggestions)||[];
+      items=rows.slice(0,6).map(function(r){ return {name:r.name,area:r.subtitle||'',city:r.city||'',src:r.source,
+        lat:(typeof r.lat==='number'?r.lat:null),lon:(typeof r.lng==='number'?r.lng:null),
+        url:location.origin+r.href,kind:gKind([],r.name+' '+(r.category||''))}; });
+      google=items.some(function(it){return it.src==='places';});
+      state='done'; act=items.length?0:-1; show(); });
+  }
+  /* A pick without coordinates (a Google suggestion, or a registry row never located): find it with the free address search. */
+  function locate(it){
+    var tries=[it.name+(it.area?', '+it.area:''), it.area].filter(Boolean);
+    function next(){ var q=tries.shift(); if(!q) return Promise.reject(new Error('not found'));
+      return tfetch('https://photon.komoot.io/api/?limit=1&lang=en&q='+encodeURIComponent(q),4000).then(function(j){
+        var x=(j.features||[])[0]; if(!x) return next(); var p=x.properties||{};
+        it.lon=x.geometry.coordinates[0]; it.lat=x.geometry.coordinates[1]; it.city=it.city||p.city||p.town||p.village||p.county||''; return it; }, next); }
+    return next();
+  }
+  var google=false;
   function tfetch(url,ms){ var c=('AbortController' in window)?new AbortController():null, t=setTimeout(function(){c&&c.abort();},ms||4000);
     return fetch(url,c?{signal:c.signal}:{}).then(function(r){clearTimeout(t); if(!r.ok) throw new Error('HTTP '+r.status); return r.json();},function(e){clearTimeout(t);throw e;}); }
   function nomKind(x){ return kindOf({osm_key:x.class,osm_value:x.type,name:x.name||((x.namedetails||{}).name)||''}); }
@@ -194,7 +217,7 @@ JS = r'''<script>
   }
   gq.addEventListener('input',function(){ clearTimeout(timer); var q=gq.value.trim(); if(q.length<3){close();return;}
     state='busy'; items=[]; show();
-    timer=setTimeout(function(){ var my=++seq; (GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];state='down';show();} }); },250); });
+    timer=setTimeout(function(){ var my=++seq; google=false; (REG?searchRegistry(q,my).catch(function(){ return searchOSM(q,my); }):GKEY?searchGoogle(q,my):searchOSM(q,my)).catch(function(){ if(my===seq){items=[];state='down';show();} }); },250); });
   gq.addEventListener('keydown',function(e){ if(go.hidden) return;
     if(e.key==='ArrowDown'){act=Math.min(act+1,items.length);show();e.preventDefault();}
     else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
