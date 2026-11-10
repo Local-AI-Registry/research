@@ -272,14 +272,14 @@ Commit only the study folder and studies.json to the `studies` branch, with a pl
 
 ## Step 11. The YouTube package (after the study is live)
 
-Flávia makes a one-minute explainer for every study. You write everything for it, optimized for search and AI, ending with a clear next step to Local AI Registry.
+Flávia makes a one-minute explainer for every study. You write everything for it, optimized for search and AI, always linking back to the complete study, plus the contact page and the free claim page.
 Write it to `work/<study-folder>/youtube.md` and show it in chat. Only use numbers from `findings.json`. Never promise anything Local AI Registry does not do today.
 
 1. **Script (about 60 seconds, about 150 spoken words).**
    0 to 5 s: the hook, the headline finding as a question with its number ("Does ranking on Google get you into Google's AI answers?").
    5 to 45 s: three findings in plain words, each with its number. Say the names out loud (Google AI Overviews, ChatGPT, the brands), because YouTube and AI read the transcript.
    45 to 52 s: one thing a business owner should do.
-   52 to 60 s: the next step: "Read the full study at localairegistry.com/research. And see if your business is in Local AI Registry. Adding it is free."
+   52 to 60 s: the next step: "Read the full research at localairegistry.com/research. Want to start showing up in AI answers? Claim your free page on Local AI Registry."
 2. **Title** (under 70 characters): the question people search plus the number. Example: "Where does Google's AI get facts about local businesses? 67.5% from news sites".
 3. **Description**:
    - Line 1: the study's full link.
@@ -287,13 +287,14 @@ Write it to `work/<study-folder>/youtube.md` and show it in chat. Only use numbe
    - 3 to 5 key findings, each one full sentence that names Local AI Registry (copy them from the page's key findings).
    - Chapters: `0:00` plus a time and a short question for each part of the script (at least 3 chapters, the first at 0:00).
    - "What to do": one sentence.
-   - The next step, with these real links:
-     "Is your business showing up in AI answers? Add it to Local AI Registry free: https://localairegistry.com/signup/business/new"
-     "Want help getting into AI answers? https://localairegistry.com/pricing"
+   - The links block, exactly these three and no others (in this order):
+     "Read the full research: <the study's full link>" (the complete study page; this link is what passes SEO and AEO value back to the research)
+     "Questions? Contact us: https://localairegistry.com/contact"
+     "Want to start ranking in AI answers? Claim your free page on Local AI Registry: https://localairegistry.com/search"
    - Data credit: the dataset's name, authors and license, and the CSV link.
    - 3 hashtags at the end, for example #AEO #LocalSEO #AISearch.
 4. **Tags**: 10 to 15 search phrases (the study topic, "AEO", "answer engine optimization", "AI search", the AI products and the business types it covers).
-5. **Pinned comment**: the most surprising number in one line, the study link, and the free sign-up link.
+5. **Pinned comment**: the most surprising number in one line, then "Read the full research:" with the study link, then "Claim your free page:" https://localairegistry.com/search
 6. **Thumbnail text**: 5 words or fewer, with the number. Same colors as the share image.
 7. **Captions**: tell her to upload the script as a transcript (YouTube Studio, Subtitles, Add, Upload file, "Without timing") so every name is spelled right.
 
