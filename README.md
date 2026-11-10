@@ -29,7 +29,7 @@ The site lives in its own repo and is shown on the main domain by a forwarding r
    - Add `Sitemap: https://localairegistry.com/research/sitemap.xml` to the main `robots.txt`.
    - Link "Research" in the main site's nav or footer, and link `https://localairegistry.com/research/llms.txt` from the main `llms.txt`.
    - If the org ever adds its own `local-ai-registry.github.io` site with a custom domain, check that `/research/` still loads (GitHub would otherwise redirect it).
-4. Check that https://localairegistry.com/research/local-answer-gap/ loads and all images show.
+4. Check that https://localairegistry.com/research/local-answer-gap loads and all images show.
 
 ## Official profiles (already added)
 
@@ -46,7 +46,7 @@ The report and hub already list Local AI Registry's official profiles from the l
 
 ## Launch checklist (in order)
 
-1. Deploy, then open https://localairegistry.com/research/local-answer-gap/ on a phone and check images, fonts and the favicon.
+1. Deploy, then open https://localairegistry.com/research/local-answer-gap on a phone and check images, fonts and the favicon.
 2. Google Search Console: add the property, submit `sitemap.xml`, and use URL Inspection > Request indexing on `/local-answer-gap/`.
 3. Bing Webmaster Tools: import from Search Console, submit the sitemap, and use URL Submission (Bing powers ChatGPT search and Copilot).
 4. Validate: https://search.google.com/test/rich-results and https://validator.schema.org on the live URL. Run PageSpeed Insights on the live URL (it scored 100 on mobile in testing).

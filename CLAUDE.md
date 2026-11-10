@@ -27,7 +27,7 @@ You are usually helping Flávia (growth marketing) add or update studies and the
 
 ## The study template
 - A new study copies the structure of `local-answer-gap/index.html`: same head tags, the short answer box (`id="summary"`), the Report structured data, the header and footer markers (`<!--chrome-head-->`, `<!--chrome-foot-->`), and the closing note. The check rejects a page that is missing any of these.
-- The canonical address must be `https://localairegistry.com/research/<folder>/`.
+- The canonical address must be `https://localairegistry.com/research<folder>/`.
 - Add the study to `studies.json` with `url` set to `<folder>/`.
 
 ## Content rules

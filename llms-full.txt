@@ -3,17 +3,17 @@ title: "The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for 
 author: Local AI Registry Research Team
 publisher: Local AI Registry (https://localairegistry.com)
 date: 2026-11-07
-canonical: https://localairegistry.com/research/local-answer-gap/
+canonical: https://localairegistry.com/research/local-answer-gap
 license: CC BY 4.0
 ---
 
-[Local AI Registry](https://localairegistry.com) › [Research](https://localairegistry.com/research/) › The Local Answer Gap
+[Local AI Registry](https://localairegistry.com) › [Research](https://localairegistry.com/research) › The Local Answer Gap
 
 Local AI Registry research · Published November 7, 2026
 
 # The Local Answer Gap: what 7,583 Google AI answers reveal about AEO for local businesses
 
-By the [Local AI Registry Research Team](https://localairegistry.com/research/local-answer-gap/#authors)
+By the [Local AI Registry Research Team](https://localairegistry.com/research/local-answer-gap#authors)
 
 The short answer
 
@@ -725,7 +725,7 @@ Ready-to-quote findings
 - “Brand websites ranked on Google’s first page in 147 of 157 brand questions but were cited by Google’s AI in only 70.” Local AI Registry, The Local Answer Gap (2026)
 
 ```
-Lee, S., et al., Local AI Registry Research Team (2026). The Local Answer Gap: What 7,583 Google AI Answers Reveal About AEO for Local Businesses. Local AI Registry. https://localairegistry.com/research/local-answer-gap/
+Lee, S., et al., Local AI Registry Research Team (2026). The Local Answer Gap: What 7,583 Google AI Answers Reveal About AEO for Local Businesses. Local AI Registry. https://localairegistry.com/research/local-answer-gap
 ```
 
 Data: our aggregated tables are available as a [CSV download](https://localairegistry.com/research/local-answer-gap/data/local-answer-gap-data.csv). Underlying records: Xu, H., Iqbal, U., and Montgomery, J. M. (2026). [Measuring Google AI Overviews](https://doi.org/10.1145/3777912.3839818). IMC 2026. [Dataset](https://github.com/haofeix/google-aio-characterization), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). We filtered, regrouped and re-analyzed the authors’ records; the findings here are Local AI Registry’s, not the original authors’.
@@ -734,7 +734,7 @@ Data: our aggregated tables are available as a [CSV download](https://localaireg
 
 **The Local AI Registry Research Team** is Local AI Registry’s dedicated local AI research group, and its people come from some of the biggest names in search, tech and brick-and-mortar business: Google, Microsoft, Spotify, Chase, Mozilla Firefox, Allergan, Galderma, Evolus, Revance, Johnson & Johnson, Bayer, Estée Lauder, Nordstrom, Sephora, Saks Fifth Avenue, Spectrum, BitGo, Republic, NextSeed, Toptal and RxSight. It is led by a former Google Search executive, advised by a Stanford-trained dermatologist and a Northwestern professor who is a past president of the American Society for Laser Medicine and Surgery, and spread across California, Washington, Texas, New York, Florida, Brazil, Nigeria, Poland, India and Singapore. The team works from raw public data, owns and runs a local med spa, and studies how ChatGPT, Claude, Gemini, Google AI Overviews, Perplexity and Microsoft Copilot find and describe local businesses.
 
-The team is a dedicated follower of the researchers who built modern AI and those who study AI search, including Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Ashish Vaswani, Noam Shazeer, Demis Hassabis, Jeff Dean, Ilya Sutskever, Andrej Karpathy, Dario Amodei, Jared Kaplan, Chris Olah, Fei-Fei Li, Andrew Ng, Percy Liang, Karthik Narasimhan, Ameet Deshpande, Himabindu Lakkaraju, Aounon Kumar, Nelson F. Liu, Umar Iqbal and Jacob M. Montgomery. Their work underpins ChatGPT, Claude and Gemini, and the team studies their papers and tests their ideas against what AI says about local businesses. No affiliation or endorsement implied. See the [references](https://localairegistry.com/research/local-answer-gap/#references).
+The team is a dedicated follower of the researchers who built modern AI and those who study AI search, including Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Ashish Vaswani, Noam Shazeer, Demis Hassabis, Jeff Dean, Ilya Sutskever, Andrej Karpathy, Dario Amodei, Jared Kaplan, Chris Olah, Fei-Fei Li, Andrew Ng, Percy Liang, Karthik Narasimhan, Ameet Deshpande, Himabindu Lakkaraju, Aounon Kumar, Nelson F. Liu, Umar Iqbal and Jacob M. Montgomery. Their work underpins ChatGPT, Claude and Gemini, and the team studies their papers and tests their ideas against what AI says about local businesses. No affiliation or endorsement implied. See the [references](https://localairegistry.com/research/local-answer-gap#references).
 
 One last thing
 

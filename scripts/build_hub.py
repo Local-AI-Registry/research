@@ -227,7 +227,7 @@ JS = r'''<script>
 </script>'''
 
 def build(fb, prev=False):
-    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "/research/simulations/quiktox-foot-traffic/?embed=1"
+    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "/research/simulations/quiktox-foot-traffic?embed=1"
     fav = "" if prev else '<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">

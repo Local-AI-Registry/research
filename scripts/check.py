@@ -11,9 +11,9 @@ for p in pages:
     for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>', s, re.S):
         try: json.loads(b)
         except Exception as e: errors.append(f"{rel}: structured data is not valid JSON ({e})")
-    for u in re.findall(r'(?:href|src)="(/research/[^"#?]*)', s):
-        path = os.path.join(ROOT, u[len("/research/"):])
-        if u.endswith("/"): path = os.path.join(path, "index.html")
+    for u in re.findall(r'(?:href|src)="(/research(?:/[^"#?]*)?)', s):
+        path = os.path.join(ROOT, u[len("/research"):].lstrip("/"))
+        if not os.path.splitext(path)[1]: path = os.path.join(path, "index.html")
         if not os.path.exists(path): errors.append(f"{rel}: link to {u} points to a file that does not exist")
 for f in ["index.html", "sitemap.xml", "llms.txt", "studies.json", "404.html"]:
     if not os.path.exists(os.path.join(ROOT, f)): errors.append(f"missing {f}")
@@ -28,7 +28,7 @@ for st in data["studies"]:
         errors.append(f'{st.get("id")}: no page at {slug}/index.html'); continue
     s = open(page_path, encoding="utf-8").read()
     need = {
-        "canonical address": f'<link rel="canonical" href="https://localairegistry.com/research/{slug}/">',
+        "canonical address": f'<link rel="canonical" href="https://localairegistry.com/research/{slug}">',
         "site header": "<!--chrome-head-->",
         "site footer": "<!--chrome-foot-->",
         "structured data": 'application/ld+json',
