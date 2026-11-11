@@ -42,7 +42,7 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
  .sky{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#FBF3DF;border:1px solid #D8C49A;flex:none}
 .nightbadge{position:fixed;z-index:6;top:72px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:8px;background:rgba(27,22,64,.88);color:#F4E9CF;font:600 13px/1 system-ui,sans-serif;padding:8px 14px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,.25);opacity:0;transition:opacity .6s;pointer-events:none}
 .nightbadge.on{opacity:1}
-.embed .nightbadge{top:72px;left:auto;right:16px;transform:none}
+.embed .nightbadge{top:150px;left:50%;right:auto;transform:translateX(-50%)}
 @media (max-width:640px){.nightbadge{top:auto;bottom:calc(env(safe-area-inset-bottom) + 250px)} .embed .nightbadge{top:auto;right:auto;left:50%;transform:translateX(-50%);bottom:250px}}
 .night{position:fixed;inset:0;pointer-events:none;z-index:3;background:#1B1640;mix-blend-mode:multiply;opacity:0;transition:opacity .6s}
 .time{pointer-events:auto;width:100%;background:rgba(246,235,208,.96);border:1px solid rgba(74,47,27,.45);border-radius:12px;padding:8px 10px 6px;display:flex;flex-direction:column;gap:4px;box-shadow:0 6px 18px rgba(74,47,27,.18)}
@@ -115,6 +115,11 @@ body{background:var(--paper);color:var(--ink);font-family:var(--f-ui);overflow:h
 <script>
 (function(){
   if(/[?&]embed=1/.test(location.search)){document.documentElement.classList.add('embed');}
+  /* On a wide embed the night label sits just under the place card, centered on it, so it never covers the card or the search box. */
+  (function(){ var cart=document.querySelector('.cart'), nb=document.getElementById('nightbadge');
+    function place(){ if(!document.documentElement.classList.contains('embed')||innerWidth<=640||!cart){ nb.style.top=nb.style.left=''; return; }
+      var r=cart.getBoundingClientRect(); nb.style.top=Math.round(r.bottom+10)+'px'; nb.style.left=Math.round(r.left+r.width/2)+'px'; }
+    addEventListener('resize',place); if(window.ResizeObserver) new ResizeObserver(place).observe(cart); setTimeout(place,0); })();
   var INK='#4A2F1B', PAPER='#EEDDB8', BLUE='#1F4FE0';
   var ADDRESS='1815 Newport Blvd, Costa Mesa, CA 92627';
   var FALLBACK=[-117.9178,33.6431]; // approximate; replaced by a geocode of the address
