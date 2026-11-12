@@ -20,7 +20,19 @@
       "summary": "Asked the same query twice, Gemini’s sources overlapped by only 0.46 and a median of 29% of the businesses ChatGPT named appeared in both answers, so AI visibility is best measured as how often a business is named across many answers.",
       "ai_assistants": ["ChatGPT", "Gemini", "Claude", "Perplexity", "Google AI Overviews"],
       "topics": ["AI visibility", "Accuracy", "Local search", "Healthcare"],
-      "data_url": "how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv"
+      "data_url": "how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv",
+      "video": {
+        "youtube": "https://youtu.be/g0Q8h4WKVw8",
+        "length": "1:04",
+        "uploaded": "2026-11-12",
+        "chapters": [
+          { "time": "0:00", "name": "Ask AI twice, get a different list" },
+          { "time": "0:17", "name": "What a 2026 study found" },
+          { "time": "0:29", "name": "How often are you recommended?" },
+          { "time": "0:43", "name": "Why a few answers can mislead" }
+        ],
+        "transcript": "Ask an AI assistant, “Who’s the best dentist near me?”, and you get a short list. Ask again later, from across town, or in other words, and the list can change. Each answer is written fresh. So one answer is a single observation, not a fixed ranking.\n\nIn one 2026 study, when ChatGPT got the same local question twice, about forty minutes apart, only around three in ten businesses appeared in both answers.\n\nSo the better question is: how often are you recommended? Ask the same questions across assistants, places and days, and a pattern appears. One business shows up in most answers. Another, only now and then.\n\nA handful of answers can still mislead. A clear picture takes many observations, gathered the same way over time. Recommendations matter. That’s why they deserve a better measure.\n\nLocal AI Registry. Be the name AI says."
+      }
     },
     {
       "id": "LAIR-R-2026-001",
