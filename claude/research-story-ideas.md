@@ -372,4 +372,98 @@ Google Trends and listing counts are cents each; eight ChatGPT scraper calls mak
 
 Miami picks reuse round 1 pulls. Client check: none of the businesses ChatGPT named in round 2 is a Local AI Registry client.
 
+
+---
+
+# Round 3: dating and AI
+
+Pulled November 13, 2026 (Pacific), which is November 14, 03:39 to 03:42 UTC.
+
+## Recheck of Round 2 Test A: "hinge" also means door hinges. HELD, AND GOT STRONGER.
+
+Plain "hinge" includes hardware searches. Re-run with "hinge app" (Google Trends, past 12 months, by state, Wyoming excluded as before, n = 50):
+
+| Pair | Pearson r | Spearman |
+|---|---|---|
+| Hinge app vs Botox | 0.67 (p under 0.001) | 0.70 |
+| Hinge app vs Botox, also without DC | 0.65 | |
+| Hinge app vs lip filler | 0.17 (p = 0.24) | 0.18 |
+
+Use "hinge app" numbers in any pitch. The Tinder and pizza results from Round 2 stand.
+
+## Test D: "Swipe first, book second." KILLED.
+
+Hypothesis: when Hinge searches rise, "date night restaurant" and "romantic restaurant" searches follow a week or two later. Data: Google Trends weekly, United States, November 2021 to November 2026 (260 weeks). Method: week-over-week changes, Valentine's season (late January through February 24) removed, correlation at lags of minus 4 to plus 4 weeks.
+
+| Pair | Same week | Hinge leads by 1 week | 2 weeks | 3 weeks | 4 weeks |
+|---|---|---|---|---|---|
+| Hinge app vs date night restaurant | 0.14 | -0.03 | 0.07 | -0.07 | 0.04 |
+| Hinge app vs romantic restaurant | 0.18 | 0.03 | 0.05 | -0.10 | 0.11 |
+| Tinder vs date night | 0.07 | 0.05 | -0.01 | -0.01 | 0.07 |
+
+- No lead at any lag. Small same-week movement only. Killed.
+- The raw lines look correlated (r = 0.70 for Hinge app vs date night restaurant) only because both drift up over time. That is not a story.
+- No cuffing season for the apps either: average monthly "hinge app" interest in 2022 to 2024 ranged only from 35.0 (April) to 39.4 (February). Restaurants do spike: "romantic restaurant" averaged 37.6 in February vs about 20 most months.
+- **Data warning for anyone using Trends lines:** "hinge app," "date night restaurant" and "romantic restaurant" all jumped in the same weeks (July 27 to August 2, 2025, and again November 2 to 8, 2025). Three unrelated terms moving together suggests a Google Trends data change, not behavior. Don't build a story on a trend line that crosses those weeks without checking.
+
+## Test E: "Ask ChatGPT for a first-date restaurant three times." HELD.
+
+Prompt: "What's the best restaurant for a first date in [city]?" Three runs each, ChatGPT (via DataForSEO's ChatGPT scraper), United States. One LA run failed with a connection error and was re-run once.
+
+**New York City**
+
+| Run | ChatGPT's #1 | Full list as named |
+|---|---|---|
+| 1 | St. Mazie | St. Mazie, Sami & Susu, One if by Land, Two if by Sea, Do Not Disturb, Le Coucou |
+| 2 | Claud | Claud, St. Mazie, C as in Charlie, Wildair |
+| 3 | Lei | Lei, Bungalow, C as in Charlie, Do Not Disturb |
+
+- 13 slots, 10 different restaurants. A different #1 every time. No restaurant appeared in all three runs.
+- Run 3's #1, Lei, showed 1 Google review (3.0 stars) on ChatGPT's own map card.
+
+**Los Angeles**
+
+| Run | ChatGPT's #1 | Full list as named |
+|---|---|---|
+| 1 | Xuntos | Xuntos, Bar Etoile, The Little Door, Briciola, Bestia |
+| 2 | Bestia | Bestia, Wilde's, The Little Door, DAMA, Cara Restaurant |
+| 3 | Xuntos | Xuntos, The Little Door, Bacari Silverlake, Bestia, Girl & the Goat |
+
+- 15 slots, 10 different restaurants. The Little Door and Bestia appeared all three times; #1 was Xuntos twice, Bestia once. LA was steadier than New York.
+
+**The keeper: a data study became ChatGPT's answer.** In NYC run 1, ChatGPT picked St. Mazie as #1 and said a 2026 first-date ranking highlighted it, citing Food & Wine (September 10, 2026) and the New York Post (September 19, 2026). Per the snippets ChatGPT attached, both articles covered a report from matchmaking service Tawkify that ranked St. Mazie as New York's best first-date spot, based on an analysis of more than 38,000 Google reviews. St. Mazie appeared in 2 of 3 NYC runs. ChatGPT's map card lists St. Mazie as a "Live music venue" with 4.1 stars.
+
+That is the exact path this research program is betting on: a company publishes original local data, the press covers it, and within weeks AI repeats it as the answer.
+
+Other sources ChatGPT leaned on: the MICHELIN Guide's first-date list and The Infatuation's date-night guide were cited in all three NYC runs; Eater LA, OpenTable and The Infatuation in LA.
+
+**Pitch 1 (G1): "We asked ChatGPT for a first-date spot in New York three times. It picked three different restaurants."** Ten different restaurants across three identical questions on November 13, 2026, and a different #1 every time, including one whose map card showed a single Google review. In Los Angeles the answers were steadier: two restaurants made every list. Beat: food, dating, tech.
+
+**Pitch 2 (G2, and for our own playbook): "How a matchmaker's spreadsheet became ChatGPT's #1 first-date pick."** A September 2026 report from Tawkify, built on Google reviews and picked up by Food & Wine and the New York Post, was cited by ChatGPT as the reason for its top New York first-date recommendation two months later. A case study of how original data reaches AI answers. Beat: tech, marketing, media. Before pitching: confirm the Tawkify report details from the original articles, not just ChatGPT's snippets.
+
+**Chart:** For each city, a three-column grid (Run 1, 2, 3) with a row per restaurant and a dot where it was named. NYC: scattered dots, no full row. LA: two full rows. Below, a small flow diagram: Tawkify report (Sept 2026) to Food & Wine and NY Post to ChatGPT's #1 pick (Nov 13, 2026).
+
+**[How often does AI name you?](https://audit.localairegistry.com/home/look-up/)**
+
+Client check: none of the restaurants named is a Local AI Registry client.
+
+## Round 3 pull log (all November 14, 2026 UTC)
+
+| Pull | DataForSEO task ID |
+|---|---|
+| Trends map: hinge app | 11140339-1230-0173-0000-96b1e4ea3878 |
+| Trends weekly 5y: hinge app, tinder, romantic restaurant, date night | 11140339-1230-0173-0000-10a4c6188209 |
+| Trends weekly 5y: hinge app | 11140340-1230-0173-0000-346fa4f8aef5 |
+| Trends weekly 5y: romantic restaurant | 11140340-1230-0173-0000-ed4470466fbe |
+| Trends weekly 5y: date night restaurant | 11140340-1230-0173-0000-217e0f0a6071 |
+| Trends weekly 5y: hinge app, date night restaurant, romantic restaurant (used for lag test) | 11140340-1230-0173-0000-501b8457dc15 |
+| ChatGPT NYC first date, run 1 | 11140341-1230-0629-0000-2274fceb24b6 |
+| ChatGPT NYC first date, run 2 | 11140341-1230-0629-0000-cfe95cd80734 |
+| ChatGPT NYC first date, run 3 | 11140341-1230-0629-0000-59b17d86e0de |
+| ChatGPT LA first date, run 1 | 11140341-1230-0629-0000-04333d83ab13 |
+| ChatGPT LA first date, run 2 | 11140341-1230-0629-0000-7786d4d5f247 |
+| ChatGPT LA first date, run 3 | 11140342-1230-0629-0000-c975883741e2 |
+
+Raw Trends files and analysis scripts are in claude/round3/. Spend: costs not reported by the tool; estimated under $1 at DataForSEO list rates.
+
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
