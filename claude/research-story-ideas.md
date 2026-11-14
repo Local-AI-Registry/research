@@ -613,3 +613,14 @@ AI is changing every day. Local AI Registry's dedicated local AI research team k
 
 ### Round 6 add-on: drinks vs beauty, by state (task ending 5bb31498236e)
 Held: tequila vs med spa near me rank 0.60 (r 0.54, p 0.0001; top five states average 49, bottom five 28). Wine vs botox near me rank 0.50 (r 0.47, p 0.0007). Also notable but not carded: wine vs plastic surgeon 0.43, rose wine vs Botox 0.44, tequila vs lip filler 0.31. Total pairings tested in round 6: 64. State-level only; a person-level claim ("wine drinkers get Botox") needs a survey.
+
+## Round 7: Thanksgiving and beauty (Nov 14, 2026)
+
+Held (added to the press sheet):
+- Nail Salon Wednesday: "nail salon near me" on the day before Thanksgiving vs the Wednesdays a week either side: 2024 92 vs 49/49 (1.9x), 2025 89 vs 56/46 (1.7x). Tasks ending 045e2baee361, 8fc39eddd975.
+- Stretchy pants on Thanksgiving Day: 2024 27 vs about 4 (about 6x), 2025 41 vs 4 (about 10x). Tummy tuck flat. Tasks ending 045e2baee361, 0b351839d741.
+- State maps: Tofurky vs botox near me rank 0.53 (p 0.0003, 42 states with data); green bean casserole vs Botox -0.46 (p 0.0003) and vs plastic surgeon -0.54 (p 0.0001); Friendsgiving vs Botox 0.41 (weaker). Tasks ending 4e7f45f5ad11, 1cd987f2e777. Map pairings tested across round 6 and 7: 104.
+
+Killed: how to cook a turkey, stuffing, pumpkin pie, deep-fried turkey, sweet potato casserole, pecan pie, Black Friday vs beauty maps (weak or none); turkey neck surgery, neck lift, double chin around Thanksgiving (no spike; task ending 255a64b0ef42); lymphatic drainage bump the week before Thanksgiving (2025 only, not 2024); Black Friday "botox deals" (too little volume; task ending 532f5a4ca3cc).
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
