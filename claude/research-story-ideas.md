@@ -610,3 +610,6 @@ All likely reflect urban/coastal vs rural differences, which the cards say.
 Tasks ending dd7e10a188da, cc0d5d618ad2, 281cc8450ae2 (maps), b54d1585ad4a (Botox map), b5ba0e9d11c7, 2000e32acde1, f840fa7f8851, 12216cd352c5 (weekly). Scripts: claude/round6/.
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+### Round 6 add-on: drinks vs beauty, by state (task ending 5bb31498236e)
+Held: tequila vs med spa near me rank 0.60 (r 0.54, p 0.0001; top five states average 49, bottom five 28). Wine vs botox near me rank 0.50 (r 0.47, p 0.0007). Also notable but not carded: wine vs plastic surgeon 0.43, rose wine vs Botox 0.44, tequila vs lip filler 0.31. Total pairings tested in round 6: 64. State-level only; a person-level claim ("wine drinkers get Botox") needs a survey.
