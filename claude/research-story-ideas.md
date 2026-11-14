@@ -258,4 +258,118 @@ Google searches for "LASIK FSA" hit 1,900 in March 2026 and 1,600 in November 20
 | Google volume, FSA and wedding terms | keywords_data google_ads search_volume | 11140005-1230-0367-0000-64f2cb72b1cd |
 | AI volume, FSA and wedding terms | ai_optimization keyword_data search_volume | 11140005-1230-0619-0000-8317b7f6fca0 |
 
+
+---
+
+# Round 2: the weird ones (OkTrends style)
+
+Pulled November 13, 2026 (Pacific), which is November 14, 01:13 to 01:20 UTC. Three tests chosen from the "juicier" list. One held, one died and turned up something better, one died.
+
+## Test A: "Hinge states are Botox states. Tinder states aren't." HELD.
+
+Google Trends, past 12 months, interest by US state (50 states plus DC), one pull per term. Wyoming scored 100 on four of the five terms, which looks like a small-sample artifact, so results are shown without it (n=50). Correlations computed in Python (scripts saved in claude/round2/).
+
+| Pair | Pearson r | p | Spearman |
+|---|---|---|---|
+| Hinge vs Botox | 0.53 | under 0.001 | 0.50 |
+| Tinder vs Botox | -0.17 | 0.23 | -0.13 |
+| Hinge vs lip filler | -0.10 | 0.51 | -0.09 |
+| Tinder vs lip filler | -0.14 | 0.35 | -0.06 |
+| Pizza vs Botox (placebo) | 0.06 | 0.66 | 0.10 |
+
+- The surprise is the split. Hinge, the "designed to be deleted" relationship app, tracks Botox closely. Tinder does not track it at all. Neither app tracks lip filler.
+- Top Hinge states included DC, Massachusetts, Colorado, Utah and Washington. Top Botox states included New York, New Jersey, Florida, California, Colorado and DC.
+- Honest caveat: this is correlation across states, not people. The likely shared factor is that both skew urban, college-educated and higher income. Say "where people search Hinge, they also search Botox," never "Hinge users get Botox."
+- Kill note: Wyoming in, every pair looks correlated. Wyoming out, only Hinge and Botox survive. We report the version without the outlier and say so.
+
+**Pitch (G1):** Across the 50 states, the places that search Google most for Hinge are also the places that search most for Botox (r = 0.53). Tinder shows no link at all, and pizza, our placebo, shows nothing. The data can't say whether it's dating, money or city life, but the split between the two apps is the story. Beat: lifestyle, tech, local news (state rankings).
+
+**Chart:** A scatter of 50 states, Hinge index on x and Botox index on y, with a trend line and the top states labeled. Beside it, a smaller ghosted scatter of Tinder vs Botox with no trend. Caption: "Same dating, different faces."
+
+**[How often does AI name you?](https://audit.localairegistry.com/home/look-up/)**
+
+## Test B: "ChatGPT's alphabet problem." KILLED. Found something better.
+
+Baseline: 50,711 US Google Maps listings in the "Medical spa" category (DataForSEO business listings, total counts by first letter). AI sample: 48 unique med spas ChatGPT named for "What is the best med spa in [city]?" across Miami (3 runs), Los Angeles, New York, Chicago, Houston, Dallas, Atlanta, Denver and Seattle (1 run each).
+
+| First letter | Share of ChatGPT picks | Share of all US med spas |
+|---|---|---|
+| A to C | 10.4% (5) | 22.0% |
+| D to L | 31.2% (15) | 30.4% |
+| M to R | 27.1% (13) | 22.6% |
+| S to Z | 27.1% (13) | 24.3% |
+
+- No A-name advantage. If anything A to C names were under-picked, but not significantly (p = 0.055). Killed. "Name your med spa Aardvark" is not true.
+
+**What the same pulls did show (these are the keepers):**
+
+1. **ChatGPT's #1 pick, and the numbers it quoted vs its own map card.** In 3 of the 8 new cities, the review count ChatGPT quoted in text for its top pick was 15 to 64 times higher than the count on the map card it showed in the same answer.
+
+| City | ChatGPT's #1 pick (as named) | What the text said | What its own map card said |
+|---|---|---|---|
+| Houston | PurA Medical Aesthetics | "Reported 5.0 rating with approximately 890 reviews" | 3.9 stars, 14 reviews |
+| Atlanta | MetroDerm & Center for Plastic Surgery | 4.8 from about 4,388 reviews "in a November 2026 directory ranking" | 3.2 stars, 71 reviews, category "Dermatologist" |
+| Denver | The Luxe Room - South Denver | "Directory ranking: 5.0/5, 1,369 reviews. Local business listing has a different rating." | 4.7 stars, 89 reviews |
+
+   In LA and New York the quoted numbers matched the map card. In Chicago, Dallas and Seattle the text gave no numbers. The quoted figures came from third-party "best of" directories ChatGPT cited, not from Google.
+
+2. **Tiny businesses make the list.** 8 of the 48 picks had fewer than 20 reviews on ChatGPT's own map card (1, 5, 6, 8, 11, 14, 18 and 19 reviews).
+
+3. **"Lux" names are over-picked.** 3 of 48 picks (6.3%) had "Lux" in the name, in three different cities, versus 654 of 50,711 US med spas (1.3%): about 4.8 times their share (one-sided p = 0.024). Only 3 hits, so treat it as an early signal and re-test at 20+ cities before publishing.
+
+4. **Chains travel.** SkinSpirit was named in Los Angeles, New York and Dallas; 4Ever Young in Miami and Atlanta.
+
+**Pitch (G1, G2):** We asked ChatGPT for the best med spa in eight US cities on November 13, 2026. In three of them, its top pick came with review numbers far larger than the ones on the map card in the same answer: about 890 reviews quoted against 14 on the card in Houston, about 4,388 against 71 in Atlanta. The big numbers traced to "best of" directory sites. For patients, the lesson is to check the card, not the paragraph. For businesses, it shows AI is reading directory pages about you, whether or not they match your Google profile. Beat: tech, consumer, health. Before pitching: re-run with Chrome screenshots of each answer, and lead with the AI behavior, not the businesses.
+
+**Chart:** Three paired bars, one per city: "reviews ChatGPT quoted" (tall) next to "reviews on ChatGPT's own map card" (short), on a log scale, with the ratio labeled (64x, 62x, 15x).
+
+**[How often does AI name you?](https://audit.localairegistry.com/home/look-up/)**
+
+## Test C: "Your team lost Sunday. Monday you searched for a dispensary." KILLED.
+
+Google Trends daily "dispensary" index, September 1 to November 12, 2026, for four legal states with one NFL team each: Colorado (Broncos), Michigan (Lions), Illinois (Bears), Massachusetts (Patriots). Results for 35 regular-season games from NFL.com team schedule pages (fetched November 13, 2026). Each day-after value was divided by that state's average for the same weekday.
+
+| Day after a... | Games | Dispensary interest vs normal for that weekday |
+|---|---|---|
+| Loss | 10 | 1.01x |
+| Win | 24 | 0.98x |
+
+- Difference about 3 percent, not significant (Mann-Whitney p = 0.35). Killed. These teams won a lot this season (only 10 losses), so a full-season re-run in January could revisit it, but nothing here supports a story.
+- Side note worth a look: "dispensary" interest hit its 100 peak on September 9 in Washington, Colorado, Michigan and Massachusetts at once. Cause unknown; worth a news search before anyone uses it.
+
+## Round 2 spend
+
+Google Trends and listing counts are cents each; eight ChatGPT scraper calls make up most of it. The tool output did not report costs for these endpoints; estimated under $2 at DataForSEO list rates. Confirm in DataForSEO billing.
+
+## Round 2 pull log (all November 14, 2026 UTC)
+
+| Pull | DataForSEO task ID |
+|---|---|
+| Trends map: hinge | 11140113-1230-0173-0000-b0a5a87a590f |
+| Trends map: lip filler | 11140113-1230-0173-0000-da6a16738387 |
+| Trends map: tinder | 11140113-1230-0173-0000-95b2a670dec7 |
+| Trends map: botox | 11140113-1230-0173-0000-61aa85e28161 |
+| Trends map: pizza (placebo) | 11140113-1230-0173-0000-9ee85e106fd8 |
+| Listings: US medical spa total (50,711) | 11140114-1230-0544-0000-20e98ee024f0 |
+| Listings: A to C (11,140) | 11140114-1230-0544-0000-d0e7ea9f9349 |
+| Listings: D to L (15,415) | 11140114-1230-0544-0000-bc4cb9083ac5 |
+| Listings: M to R (11,472) | 11140114-1230-0544-0000-f174ca4f5392 |
+| Listings: S to Z (12,312) | 11140114-1230-0544-0000-b15b3132af99 |
+| Listings: "lux" in name (654) | 11140117-1230-0544-0000-afab5b5e007a |
+| ChatGPT: Los Angeles med spa | 11140114-1230-0629-0000-4f1b0ab21f3d |
+| ChatGPT: New York City med spa | 11140114-1230-0629-0000-0fd3fd0e9671 |
+| ChatGPT: Chicago med spa | 11140114-1230-0629-0000-9e071d958867 |
+| ChatGPT: Houston med spa | 11140114-1230-0629-0000-9aabd8720246 |
+| ChatGPT: Dallas med spa | 11140115-1230-0629-0000-99ba83a2913c |
+| ChatGPT: Atlanta med spa | 11140115-1230-0629-0000-eafb859dbb79 |
+| ChatGPT: Denver med spa | 11140115-1230-0629-0000-b3057d98d4d2 |
+| ChatGPT: Seattle med spa | 11140115-1230-0629-0000-1844e19f85fe |
+| Trends daily: Washington | 11140113-1230-0173-0000-91433a4a6605 |
+| Trends daily: Colorado | 11140118-1230-0173-0000-1f8ea3446a2c |
+| Trends daily: Michigan | 11140118-1230-0173-0000-229b66f2c338 |
+| Trends daily: Illinois | 11140118-1230-0173-0000-3ce0048c20ee |
+| Trends daily: Massachusetts | 11140118-1230-0173-0000-ef4aacea5a68 |
+
+Miami picks reuse round 1 pulls. Client check: none of the businesses ChatGPT named in round 2 is a Local AI Registry client.
+
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
