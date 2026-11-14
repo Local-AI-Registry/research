@@ -624,3 +624,6 @@ Held (added to the press sheet):
 Killed: how to cook a turkey, stuffing, pumpkin pie, deep-fried turkey, sweet potato casserole, pecan pie, Black Friday vs beauty maps (weak or none); turkey neck surgery, neck lift, double chin around Thanksgiving (no spike; task ending 255a64b0ef42); lymphatic drainage bump the week before Thanksgiving (2025 only, not 2024); Black Friday "botox deals" (too little volume; task ending 532f5a4ca3cc).
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 8: holiday gifts and beauty (Nov 14, 2026)
+Held: spa gift card searches peak on Christmas Eve or Christmas Day (2024: Dec 24 98, Dec 25 100; 2025: Dec 24 100, Dec 25 80), about 4x early-December levels (Dec 1-5 average 21 in 2024, 27 in 2025), up 50-75% in the final two days. Massage gift card also peaks Dec 24 both years. Perfume gift set searches run high all December from Black Friday (2024 top day Dec 14, 87; still 82 on Dec 24). Weekly 2021-2025: spa gift card's top week is the week before Christmas every year. Botox, med spa and facial gift card searches too small to measure. Tasks ending 8af4f9416b46, 0b71922d79cd, 088189d07fe2, 732e3ca1934f.
