@@ -1,0 +1,7601 @@
+{
+  "id": "11141841-1230-0544-0000-585e0e16c991",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 2250,
+  "items": [
+    {
+      "type": "business_listing",
+      "title": "Laser & Skin Surgery Center of New York",
+      "category": "Skin care clinic",
+      "category_ids": [
+        "skin_care_clinic",
+        "medical_clinic",
+        "medical_spa",
+        "plastic_surgery_clinic",
+        "tattoo_removal_service"
+      ],
+      "additional_categories": [
+        "Medical clinic",
+        "Medical spa",
+        "Plastic surgery clinic",
+        "Tattoo removal service"
+      ],
+      "cid": "18318926302645399099",
+      "feature_id": "0x89c259058f5decb3:0xfe39e66a17bd2e3b",
+      "address": "317 E 34th St, New York, NY 10016",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "317 E 34th St",
+        "city": "New York",
+        "zip": "10016",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJs-xdjwVZwokROy69F2rmOf4",
+      "phone": "+1212-686-7306",
+      "url": "https://www.laserskinsurgery.com/contact/new-york-city/?utm_source=seo_gmb&utm_medium=gmb&utm_campaign=home_page",
+      "domain": "www.laserskinsurgery.com",
+      "logo": "https://lh6.googleusercontent.com/-HwBT7mSDmk4/AAAAAAAAAAI/AAAAAAAAAAA/xCAN0xRaFtQ/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFHN1MEY5xOhuoa5bQOIX0fD0z6hsGxH0C_3TDUO3B42OM_JLFYNXwCXSguhdpdAcEqN8P4epY9zUZgLiEaZowZeXzl3NYBKs6ZwT-BBFiByJGWn4oHqjPLjqVnMLgp8mwzWtJ=w408-h306-k-no",
+      "total_photos": 9,
+      "snippet": "317 E 34th St, New York, NY 10016",
+      "latitude": 40.745,
+      "longitude": -73.975,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "mohs surgery": 88,
+        "efficient staff": 160,
+        "bedside manner": 70,
+        "plastic surgeon": 31,
+        "wait time": 68,
+        "caring staff": 292,
+        "thoroughness": 116,
+        "laser treatment": 27,
+        "punctuality": 42,
+        "efficiency": 120
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 4400
+      },
+      "rating_distribution": {
+        "1": 61,
+        "2": 25,
+        "3": 35,
+        "4": 122,
+        "5": 4157
+      },
+      "people_also_search": [
+        {
+          "cid": "3368687120992494707",
+          "feature_id": "0x0:0x2ebffb16a630e473",
+          "title": "NY MOHS LASER DERMATOLOGY",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "1720047368669704480",
+          "feature_id": "0x0:0x17ded5f7f6673120",
+          "title": "Ny Mohs Laser Dermatology",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "2639529314924096527",
+          "feature_id": "0x0:0x24a17ded5647ec0f",
+          "title": "Madison Skin Laser Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3,
+            "votes_count": 2
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 96
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12126867306",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=18318926302645399099&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 05:38:03 +00:00",
+      "first_seen": "2024-07-14 18:45:21 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        },
+        {
+          "category": "All Services",
+          "title": "Mohs Surgery"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "The Dermatology Specialists - Downtown Brooklyn",
+      "description": "The Dermatology Specialists (TDS) is NYC's largest dermatology group with 25+ locations across New York City, Brooklyn, Queens, Bronx and Long Island. Our offices are open 7 days a week until 7pm and we accept most health insurance plans.\nWe combine the sophistication of cutting-edge medicine with the careful attention and intimacy of a down-to-earth, neighborhood doctor. Patients experience personalized care that reflects the TDS philosophy of bringing authenticity and comfort into traditionally clinical medical spaces.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_clinic",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical clinic",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "17827294725960431742",
+      "feature_id": "0x89c25a4587f4e853:0xf7674619a710f87e",
+      "address": "440 Atlantic Ave, Brooklyn, NY 11217",
+      "address_info": {
+        "borough": "Boerum Hill",
+        "address": "440 Atlantic Ave",
+        "city": "Brooklyn",
+        "zip": "11217",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJU-j0h0VawokRfvgQpxlGZ_c",
+      "phone": "+1718-797-5504",
+      "url": "https://www.thedermspecs.com/locations/downtown-brooklyn/",
+      "domain": "www.thedermspecs.com",
+      "logo": "https://lh6.googleusercontent.com/-PIuLgyDma5w/AAAAAAAAAAI/AAAAAAAAAAA/veJNMf7-DBY/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmi4cSPwK4rKzAe66BuG5cxyBciNnB04FbwQ_y28jnem1NyhzbFu2TtwrCxEvO0tqw3z7hp-erWReFL1ygIK3PwRr2kEqdfIKi0WP7vkkHVRBRKd9avaDTYcExO_AyFsfUgs-_EzA=w408-h306-k-no",
+      "total_photos": 24,
+      "snippet": "440 Atlantic Ave, Brooklyn, NY 11217",
+      "latitude": 40.686,
+      "longitude": -73.984,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "wait time": 169,
+        "insurance coverage": 71,
+        "kind staff": 137,
+        "friendly staff": 487,
+        "front desk staff": 183,
+        "cleanliness": 69,
+        "attentive dermatologist": 8,
+        "eczema treatment": 7,
+        "skin tag removal": 4,
+        "informative doctor": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 2518
+      },
+      "rating_distribution": {
+        "1": 247,
+        "2": 61,
+        "3": 59,
+        "4": 165,
+        "5": 1986
+      },
+      "people_also_search": [
+        {
+          "cid": "18051650955636486294",
+          "feature_id": "0x0:0xfa8458e7040db096",
+          "title": "SINY Dermatology - Park Slope",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 918
+          }
+        },
+        {
+          "cid": "293152572358461103",
+          "feature_id": "0x0:0x4117cb61c6b06af",
+          "title": "Schweiger Dermatology Group - Brooklyn Heights",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.3,
+            "votes_count": 255
+          }
+        },
+        {
+          "cid": "5313818155017162253",
+          "feature_id": "0x0:0x49be79754ad1ce0d",
+          "title": "Park Slope Dermatology & Medi Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 113
+          }
+        },
+        {
+          "cid": "18315545253375729756",
+          "feature_id": "0x0:0xfe2de35e370d605c",
+          "title": "Sourab Choudhury, DO",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.3,
+            "votes_count": 26
+          }
+        },
+        {
+          "cid": "2702805152205979635",
+          "feature_id": "0x0:0x25824af742553ff3",
+          "title": "The Dermatology Specialists - South Street Seaport",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.3,
+            "votes_count": 776
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 31
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 25
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 18
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 28
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 31
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+17187975504",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=17827294725960431742&hl=en&gl=US",
+      "last_updated_time": "2026-09-21 00:31:42 +00:00",
+      "first_seen": "2024-07-26 17:05:22 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "General Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "The Dermatology Specialists - Greenwich Village",
+      "description": "The Dermatology Specialists (TDS) is NYC's largest dermatology group with 25+ locations across New York City, Brooklyn, Queens, Bronx and Long Island. Our offices are open 7 days a week until 7pm and we accept most health insurance plans.\nWe combine the sophistication of cutting-edge medicine with the careful attention and intimacy of a down-to-earth, neighborhood doctor. Patients experience personalized care that reflects the TDS philosophy of bringing authenticity and comfort into traditionally clinical medical spaces.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_clinic",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical clinic",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "4102195856834745040",
+      "feature_id": "0x89c259918dd9887d:0x38eded65bdb6d2d0",
+      "address": "214 Sullivan St, New York, NY 10012",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "214 Sullivan St",
+        "city": "New York",
+        "zip": "10012",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJfYjZjZFZwokR0NK2vWXt7Tg",
+      "phone": "+1212-385-3700",
+      "url": "https://www.thedermspecs.com/locations/greenwich-village/",
+      "domain": "www.thedermspecs.com",
+      "logo": "https://lh6.googleusercontent.com/-6LMFQ6kkNLo/AAAAAAAAAAI/AAAAAAAAAAA/qhcZm2SWwGw/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmok-rUGCB6wfqHS2H6aQIOdNS8AvR6ykETLrbdwHfLQRKzKCbnG_SchkgKBxy8SOKRhaz6b9kolitSO_1b6_J6OD7B-lT8JTlYvRDcFEj13k6PN1G6oFk560cd7vv3_yTFy50=w408-h499-k-no",
+      "total_photos": 97,
+      "snippet": "214 Sullivan St, New York, NY 10012",
+      "latitude": 40.729,
+      "longitude": -74,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "mohs surgery": 22,
+        "wait time": 93,
+        "insurance coverage": 64,
+        "cyst removal": 11,
+        "kind staff": 124,
+        "friendly staff": 398,
+        "bedside manner": 22,
+        "alopecia treatment": 3,
+        "appointment scheduling": 29,
+        "quick procedure": 11
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 1760
+      },
+      "rating_distribution": {
+        "1": 221,
+        "2": 44,
+        "3": 29,
+        "4": 45,
+        "5": 1421
+      },
+      "people_also_search": [
+        {
+          "cid": "13785551459479776180",
+          "feature_id": "0x0:0xbf501e036f28ebb4",
+          "title": "The Dermatology Specialists - Union Square",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 566
+          }
+        },
+        {
+          "cid": "4631044899617625332",
+          "feature_id": "0x0:0x4044c6ccc497d4f4",
+          "title": "SINY Dermatology & Cosmetic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 400
+          }
+        },
+        {
+          "cid": "16883541968806091990",
+          "feature_id": "0x0:0xea4e63f7c1161cd6",
+          "title": "Washington Square Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1107
+          }
+        },
+        {
+          "cid": "9841477511643735428",
+          "feature_id": "0x0:0x8893f3a78a852584",
+          "title": "Spring Street Dermatology - SOHO",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 1249
+          }
+        },
+        {
+          "cid": "17109750295526848903",
+          "feature_id": "0x0:0xed720b3e10833987",
+          "title": "New York Dermatology Group",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 476
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 19
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 23
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 92
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 23
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 19
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 15
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 15
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 19
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 19
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 23
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "thedermspecs.com",
+          "url": "https://www.thedermspecs.com/services/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12123853700",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=4102195856834745040&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 21:31:53 +00:00",
+      "first_seen": "2024-07-30 03:31:34 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "General Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Schweiger Dermatology & Allergy - Verona",
+      "description": "Schweiger Dermatology & Allergy provides care from dermatology providers and dermatologists in Verona, NJ, for concerns like acne, eczema, rosacea and routine skin checks. Our Verona dermatologists and dermatology providers work with patients on both everyday skin concerns and long-term skin health, taking the time to understand each patient’s goals and concerns. The office also provides allergy testing and treatment for seasonal, environmental and food allergies, helping patients manage symptoms that affect the skin, sinuses and overall comfort. The office also offers cosmetic dermatology treatments including Botox, dermal fillers and laser procedures, along with skin cancer screenings and treatment. Adults, teens and children visit the pr",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "cosmetic_surgeon",
+        "laser_hair_removal_service",
+        "medical_spa",
+        "pediatric_dermatologist",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Laser hair removal service",
+        "Medical spa",
+        "Pediatric dermatologist",
+        "Skin care clinic"
+      ],
+      "cid": "2683590686049664857",
+      "feature_id": "0x89c3aaa878038e65:0x253e0782bc897f59",
+      "address": "60 Pompton Ave, Verona, NJ 07044",
+      "address_info": {
+        "address": "60 Pompton Ave",
+        "city": "Verona",
+        "zip": "07044",
+        "region": "New Jersey",
+        "country_code": "US"
+      },
+      "place_id": "ChIJZY4DeKiqw4kRWX-JvIIHPiU",
+      "phone": "+1973-434-1400",
+      "url": "https://www.schweigerderm.com/location/new-jersey/verona/",
+      "domain": "www.schweigerderm.com",
+      "logo": "https://lh3.googleusercontent.com/-UTtvtc9k5VI/AAAAAAAAAAI/AAAAAAAAAAA/UTZdxbYO0aE/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm14yAy7g_R-PR5yS_1ez12HFp-b3h4_pKOxGyiR5p6CGGrvMwQ7MrzX9l8yEIHZ1U01d6p4wrTrM-luxfmrWbset2bi39JHO7bKl_MuMaf3QEBS_0ZxvY4LdsBA9DfTIRX86s8=w408-h408-k-no",
+      "total_photos": 19,
+      "snippet": "60 Pompton Ave, Verona, NJ 07044",
+      "latitude": 40.828,
+      "longitude": -74.23,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "dr brown": 44,
+        "pleasant staff": 116,
+        "wait time": 131,
+        "friendly staff": 367,
+        "appointment availability": 37,
+        "knowledgeable practitioner": 6,
+        "thorough doctor": 13,
+        "laser hair removal": 4,
+        "addressed concerns": 12,
+        "rash treatment": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 1752
+      },
+      "rating_distribution": {
+        "1": 181,
+        "2": 41,
+        "3": 49,
+        "4": 114,
+        "5": 1367
+      },
+      "people_also_search": [
+        {
+          "cid": "9593442303457793140",
+          "feature_id": "0x0:0x8522c0f25ece9474",
+          "title": "Justin Brown, MD",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 232
+          }
+        },
+        {
+          "cid": "6537801286199654920",
+          "feature_id": "0x0:0x5abaefa18c05ba08",
+          "title": "Geria Dermatology - Verona",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 378
+          }
+        },
+        {
+          "cid": "5859041522304472451",
+          "feature_id": "0x0:0x514f7f38d538d583",
+          "title": "MDCS Dermatology: Medical Dermatology and Cosmetic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 873
+          }
+        },
+        {
+          "cid": "14721218426142362501",
+          "feature_id": "0x0:0xcc4c462987268b85",
+          "title": "Dr. Marcelo G. Horenstein, MD",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 19,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 18,
+                  "minute": 30
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 18,
+                  "minute": 30
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 18,
+                  "minute": 30
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 13
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 21
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 9
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 5
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 28
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 18
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 91
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 91
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 20
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 29
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 23
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 13
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 14
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 11
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 12
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 13
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 13
+            },
+            {
+              "time": {
+                "hour": 13
+              }
+            },
+            {
+              "time": {
+                "hour": 14
+              }
+            },
+            {
+              "time": {
+                "hour": 15
+              }
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+19734341400",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=2683590686049664857&hl=en&gl=US",
+      "last_updated_time": "2026-09-19 00:37:15 +00:00",
+      "first_seen": "2024-07-24 01:13:28 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Allergy Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Allergy Testing"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Asthma"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Food Allergy"
+        },
+        {
+          "category": "All Services",
+          "title": "Pediatric Allergy Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "The Dermatology Specialists - East bronx",
+      "description": "The Dermatology Specialists (TDS) is NYC's largest dermatology group with 25+ locations across New York City, Brooklyn, Queens, Bronx and Long Island. Our offices are open 7 days a week until 7pm and we accept most health insurance plans.\nWe combine the sophistication of cutting-edge medicine with the careful attention and intimacy of a down-to-earth, neighborhood doctor. Patients experience personalized care that reflects the TDS philosophy of bringing authenticity and comfort into traditionally clinical medical spaces.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_clinic",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical clinic",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "12214691665093144132",
+      "feature_id": "0x89c2f5b29a296cc3:0xa9834d5a6acd2e44",
+      "address": "2151 White Plains Rd, Bronx, NY 10462",
+      "address_info": {
+        "borough": "East Bronx",
+        "address": "2151 White Plains Rd",
+        "city": "Bronx",
+        "zip": "10462",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJw2wpmrL1wokRRC7NalpNg6k",
+      "phone": "+1212-385-3700",
+      "url": "https://www.thedermspecs.com/locations/east-bronx/",
+      "domain": "www.thedermspecs.com",
+      "logo": "https://lh6.googleusercontent.com/-uhvqtPPBNDo/AAAAAAAAAAI/AAAAAAAAAAA/pxBwPmmUNuw/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlbBnNB7hGnSFmDHxjkEGIAUBXMD4ji2C9WpemiVrIVDcNrm7O2S8RmQ0ASgtKhWm_LNlc-ullG-EdQWxoLspr3TyY-Wzf7ydi4VKr65Jjq71aZqOBD6esFvK1_B4_fQhAnwqr8IA=w408-h306-k-no",
+      "total_photos": 42,
+      "snippet": "2151 White Plains Rd, Bronx, NY 10462",
+      "latitude": 40.855,
+      "longitude": -73.868,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "friendly staff": 498,
+        "wait time": 74,
+        "kind staff": 123,
+        "cleanliness": 94,
+        "quick appointments": 17,
+        "keloid treatment": 5,
+        "comfortable atmosphere": 60,
+        "front desk staff": 83,
+        "clean office": 48,
+        "cyst removal": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 1653
+      },
+      "rating_distribution": {
+        "1": 79,
+        "2": 12,
+        "3": 17,
+        "4": 65,
+        "5": 1480
+      },
+      "people_also_search": [
+        {
+          "cid": "10447827397605718391",
+          "feature_id": "0x0:0x90fe23a9c4e1f977",
+          "title": "Schweiger Dermatology Group - Throggs Neck",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1039
+          }
+        },
+        {
+          "cid": "5276321948968590218",
+          "feature_id": "0x0:0x493942db80de9b8a",
+          "title": "Advanced Dermatology P.C. | Parkchester",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 328
+          }
+        },
+        {
+          "cid": "221748577006029595",
+          "feature_id": "0x0:0x313cf27e9e48b1b",
+          "title": "Metro Dermatology - Concourse Plaza",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 652
+          }
+        },
+        {
+          "cid": "7276590725622621470",
+          "feature_id": "0x0:0x64fba4b640a3651e",
+          "title": "Fordham Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.3,
+            "votes_count": 182
+          }
+        },
+        {
+          "cid": "925683692451728416",
+          "feature_id": "0x0:0xcd8b069eef50c20",
+          "title": "West Derm Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.4,
+            "votes_count": 100
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 31
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12123853700",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12214691665093144132&hl=en&gl=US",
+      "last_updated_time": "2026-09-22 10:50:07 +00:00",
+      "first_seen": "2026-09-22 10:50:07 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "General Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Peachy Manhattan West",
+      "description": "At Manhattan West, we’re pairing New York convenience with Peachy’s unmatched focus on preventative wrinkle care. Our studio features an entire service range centered on diminishing and preventing fine lines. You can find us within Manhattan West’s inner courtyard, accessible using the 33rd Street walkway between 9th and 10th Ave.",
+      "category": "Skin care clinic",
+      "category_ids": [
+        "skin_care_clinic",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Medical spa"
+      ],
+      "cid": "15914623435717525234",
+      "feature_id": "0x89c259f965ed6dd3:0xdcdc19b20c0cbef2",
+      "address": "442 W 33rd St Ste 103, New York, NY 10001",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "442 W 33rd St Ste 103",
+        "city": "New York",
+        "zip": "10001",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ023tZflZwokR8r4MDLIZ3Nw",
+      "phone": "+1917-694-8621",
+      "url": "https://peachystudio.com/pages/manhattan-west-botox?y_source=1_MzAwNzcyNTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "domain": "peachystudio.com",
+      "logo": "https://lh4.googleusercontent.com/-oRRTmmEmbho/AAAAAAAAAAI/AAAAAAAAAAA/-TyEMrgzhWU/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/grass-cs/AABkmLfDESyEITMSrce8RKgOKdcoQZut3ALldaaJFCJ7ry5nzUvyg7YMrRkLo8sLta6UycU8y8LHrvztki5SMBaZVXRtc4BmoyPqba7bn0ag2pJVMUMWZpdIQ7dsqmh9moczoreTAhpZRA=w408-h611-k-no",
+      "total_photos": 67,
+      "snippet": "442 W 33rd St Ste 103, New York, NY 10001",
+      "latitude": 40.753,
+      "longitude": -73.998,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "botox": 137,
+        "injector": 47,
+        "friendly staff": 535,
+        "kind staff": 103,
+        "wrinkle treatment": 9,
+        "clean studio": 14,
+        "painless experience": 23,
+        "easy process": 42,
+        "painless injections": 5,
+        "affordability": 15
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1633
+      },
+      "rating_distribution": {
+        "1": 15,
+        "2": 2,
+        "3": 0,
+        "4": 10,
+        "5": 1606
+      },
+      "people_also_search": [
+        {
+          "cid": "10136347723408365880",
+          "feature_id": "0x0:0x8cab8a8cbd985938",
+          "title": "Peachy Grand Central",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1296
+          }
+        },
+        {
+          "cid": "8761594936767310687",
+          "feature_id": "0x0:0x7997702c8fe06b5f",
+          "title": "Peachy Skin Concept",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "12558395388674423593",
+          "feature_id": "0x0:0xae4862119ad7bb29",
+          "title": "Peachy Brows NYC",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "14124518538037050738",
+          "feature_id": "0x0:0xc4045ec6831e3d72",
+          "title": "Fayced Aesthetics NYC",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 466
+          }
+        },
+        {
+          "cid": "15995632765176072553",
+          "feature_id": "0x0:0xddfbe7405deb4969",
+          "title": "Midtown Microneedling",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 11
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+19176948621",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=15914623435717525234&hl=en&gl=US",
+      "last_updated_time": "2026-10-08 02:24:17 +00:00",
+      "first_seen": "2024-07-30 13:30:17 +00:00",
+      "services": [
+        {
+          "category": "Skin Care Clinic",
+          "title": "Botox"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Wrinkle Treatment"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Eye Crafters Optical",
+      "description": "Helping patients lead healthy and fulfilling lives\n\nFrom children to the elderly, patients love the caring, knowledgeable optometry team at Eyecrafters Optical in Downtown Brooklyn. We have extensive experience providing highly advanced, compassionate vision care for their patients. Our Optometrists specializing in Family Practice Optometry, glasses, contacts, dry eyes, glaucoma, Lasik, low vision and a long list of subspecialties. The optometrists at Eyecrafters Optical are eager to evaluate your vision and eye health, as well as discuss the different types of eyeglasses and contact lens options to best suit your needs and desired look. We Offer a comprehensive range of services to protect patients’ eye health.",
+      "category": "Eye care center",
+      "category_ids": [
+        "eye_care_center",
+        "contact_lenses_supplier",
+        "doctor",
+        "medical_clinic",
+        "medical_office",
+        "medical_spa",
+        "optical_wholesaler",
+        "optician",
+        "optometrist"
+      ],
+      "additional_categories": [
+        "Contact lenses supplier",
+        "Doctor",
+        "Medical clinic",
+        "Medical office",
+        "Medical spa",
+        "Optical wholesaler",
+        "Optician",
+        "Optometrist"
+      ],
+      "cid": "167518650724737053",
+      "feature_id": "0x89c25a4bb5ace495:0x253255345b3601d",
+      "address": "340 Jay St #1, Brooklyn, NY 11201",
+      "address_info": {
+        "borough": "Downtown Brooklyn",
+        "address": "340 Jay St #1",
+        "city": "Brooklyn",
+        "zip": "11201",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJleSstUtawokRHWCzRVMlUwI",
+      "phone": "+1718-858-5000",
+      "url": "https://www.eyecraftersny.com/",
+      "domain": "www.eyecraftersny.com",
+      "logo": "https://lh3.googleusercontent.com/-3dW5UU4MBm0/AAAAAAAAAAI/AAAAAAAAAAA/zDLkPlXJs_E/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkC83tZedzAnjauIPAmfID4gpAV9MA730huPokyhhbrontZhkz1NPBcoNtJuA8OUTeahJR_jS6Hmzcc6wbUCzOB-E1yIuh_T-Q6oiOxgTkZS2u33kZukq_w_56j4rAj6U282i0=w426-h240-k-no",
+      "total_photos": 86,
+      "snippet": "340 Jay St #1, Brooklyn, NY 11201",
+      "latitude": 40.694,
+      "longitude": -73.987,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "frame selection": 67,
+        "friendly staff": 770,
+        "eye exam": 89,
+        "kind staff": 154,
+        "fast turnaround": 9,
+        "comfortable atmosphere": 57,
+        "informative doctor": 8,
+        "designer frames": 9,
+        "lens replacement": 3,
+        "glasses adjustment": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1546
+      },
+      "rating_distribution": {
+        "1": 20,
+        "2": 10,
+        "3": 5,
+        "4": 33,
+        "5": 1478
+      },
+      "people_also_search": [
+        {
+          "cid": "5191400454335673773",
+          "feature_id": "0x0:0x480b8f353f7ab5ad",
+          "title": "Elite eye care",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.8,
+            "votes_count": 92
+          }
+        },
+        {
+          "cid": "7368104553423466665",
+          "feature_id": "0x0:0x6640c40daebe70a9",
+          "title": "Clear Vision Optical",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 11
+          }
+        },
+        {
+          "cid": "5497620926779749924",
+          "feature_id": "0x0:0x4c4b791af275f624",
+          "title": "Fulton Vision Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 106
+          }
+        },
+        {
+          "cid": "13740646714973439153",
+          "feature_id": "0x0:0xbeb09562de2144b1",
+          "title": "LensCrafters",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 671
+          }
+        },
+        {
+          "cid": "6601575810647751977",
+          "feature_id": "0x0:0x5b9d82391f787d29",
+          "title": "Downtown Eyecare",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 223
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+17188585000",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=167518650724737053&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 08:41:15 +00:00",
+      "first_seen": "2024-07-26 06:38:23 +00:00",
+      "services": [
+        {
+          "category": "Eye Care Center",
+          "title": "IPL - Intense Pulsed Light"
+        },
+        {
+          "category": "Eye Care Center",
+          "title": "Dry Eye Treatment"
+        },
+        {
+          "category": "Eye Care Center",
+          "title": "Rosacea treatment"
+        },
+        {
+          "category": "Eye Care Center",
+          "title": "Stye Treatment"
+        },
+        {
+          "category": "Eye Care Center",
+          "title": "DMV Vision Test"
+        },
+        {
+          "category": "Eye Care Center",
+          "title": "Glasses Repair"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Rosacea Treatment"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Bared Monkey Laser Spa",
+      "description": "Bared Monkey is dedicated to offering superior and affordable Laser Hair Removal,\nCoolsculpting, Tattoo Removals, Skin Treatments, Spider Vein Removal services.\nBased on powerful laser technology, the laser ensures deeper penetration, and faster treatment sessions minimize the risk of side effects, and optimize the results. Let Bared Monkey give you that healthy, smooth, and silky skin. Give us a call today or visit our Penn Station center today!",
+      "category": "Laser hair removal service",
+      "category_ids": [
+        "laser_hair_removal_service",
+        "medical_spa",
+        "skin_care_clinic",
+        "tattoo_removal_service"
+      ],
+      "additional_categories": [
+        "Medical spa",
+        "Skin care clinic",
+        "Tattoo removal service"
+      ],
+      "cid": "5383495995161255970",
+      "feature_id": "0x89c259a8669e3a97:0x4ab60515a9532022",
+      "address": "38 W 32nd St #1500, New York, NY 10001",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "38 W 32nd St #1500",
+        "city": "New York",
+        "zip": "10001",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJlzqeZqhZwokRIiBTqRUFtko",
+      "phone": "+1212-256-9777",
+      "url": "https://www.baredmonkey.com/",
+      "domain": "www.baredmonkey.com",
+      "logo": "https://lh4.googleusercontent.com/-N2OYuNPbdQg/AAAAAAAAAAI/AAAAAAAAAAA/hCwS2aOIOMg/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGp6mCNAPxHqrrf61b_kt3OrFL5xao9B8yLj4WYkONRlnHN-PbGN5WAGXPGhYCeKiFoxiayx195u0UqirLwhs5iSqubRfDY46ayBROqmvJO4TvlMekdnAb3qemrhEKGYKj11VR=w408-h271-k-no",
+      "total_photos": 70,
+      "snippet": "38 W 32nd St #1500, New York, NY 10001",
+      "latitude": 40.748,
+      "longitude": -73.987,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_street_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_parking"
+          ]
+        }
+      },
+      "place_topics": {
+        "affordability": 57,
+        "clean facility": 62,
+        "kind staff": 143,
+        "smooth process": 25,
+        "wait time": 20,
+        "efficient staff": 39,
+        "painless experience": 19,
+        "quick appointments": 12,
+        "comfortable sessions": 15,
+        "gentle technician": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1532
+      },
+      "rating_distribution": {
+        "1": 21,
+        "2": 8,
+        "3": 2,
+        "4": 44,
+        "5": 1457
+      },
+      "people_also_search": [
+        {
+          "cid": "1810561686685669956",
+          "feature_id": "0x0:0x19206842e2d4da44",
+          "title": "Bared Monkey Laser Spa - Grand Central",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 392
+          }
+        },
+        {
+          "cid": "17190869240081631109",
+          "feature_id": "0x0:0xee923c7e23414785",
+          "title": "Laser Bar & Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 734
+          }
+        },
+        {
+          "cid": "18406769649103866587",
+          "feature_id": "0x0:0xff71fb78fd470adb",
+          "title": "Satori Laser",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 642
+          }
+        },
+        {
+          "cid": "5225184419037000044",
+          "feature_id": "0x0:0x4883958b7e9b316c",
+          "title": "Laser By Monica / Laser Hair Removal NYC",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 121
+          }
+        },
+        {
+          "cid": "12134227110103396966",
+          "feature_id": "0x0:0xa8656f4449a0b266",
+          "title": "BARE & PURE",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 73
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 20
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "baredmonkey.com",
+          "url": "https://baredmonkey.com/services/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12122569777",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=5383495995161255970&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 22:02:05 +00:00",
+      "first_seen": "2024-07-14 14:28:25 +00:00",
+      "services": [
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "Hydrafacial MD® Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 233,
+            "currency": "USD",
+            "displayed_price": "From $233.00"
+          }
+        },
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "Consultation - Specialty Skin Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "From $40.00"
+          }
+        },
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "Chemial Peels- PCA SKIN Peels",
+          "snippet": "-",
+          "price": {
+            "current": 333,
+            "currency": "USD",
+            "displayed_price": "From $333.00"
+          }
+        },
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "AviClear™ Laser Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 2000,
+            "currency": "USD",
+            "displayed_price": "From $2,000.00"
+          }
+        },
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "Chemical Peels- VI Peels",
+          "snippet": "-",
+          "price": {
+            "current": 500,
+            "currency": "USD",
+            "displayed_price": "From $500.00"
+          }
+        },
+        {
+          "category": "Acne/Pigmentation Treatment",
+          "title": "Hollywood Spectra™ Q-Switch Laser Toning/Acne Peel",
+          "snippet": "-",
+          "price": {
+            "current": 330,
+            "currency": "USD",
+            "displayed_price": "From $330.00"
+          }
+        },
+        {
+          "category": "Body Contouring Treatment",
+          "title": "EmSculpt Treatment (Two Paddle)",
+          "snippet": "-",
+          "price": {
+            "current": 600,
+            "currency": "USD",
+            "displayed_price": "From $600.00"
+          }
+        },
+        {
+          "category": "Body Contouring Treatment",
+          "title": "Consultation - Body Contouring",
+          "snippet": "-",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "From $40.00"
+          }
+        },
+        {
+          "category": "Body Contouring Treatment",
+          "title": "EmSculpt Treatment (One Paddle)",
+          "snippet": "-",
+          "price": {
+            "current": 333,
+            "currency": "USD",
+            "displayed_price": "From $333.00"
+          }
+        },
+        {
+          "category": "Body Contouring Treatment",
+          "title": "Emsculpt Neo Treatment (One Paddle)",
+          "snippet": "-",
+          "price": {
+            "current": 500,
+            "currency": "USD",
+            "displayed_price": "From $500.00"
+          }
+        },
+        {
+          "category": "Body Contouring Treatment",
+          "title": "Emsculpt Neo Treatment (Two Paddle)",
+          "snippet": "-",
+          "price": {
+            "current": 933,
+            "currency": "USD",
+            "displayed_price": "From $933.00"
+          }
+        },
+        {
+          "category": "Depigmentation/Skin rejuvenation Treatment",
+          "title": "x- Picosure Pro® Laser - Skin Revitalization (without numbing)",
+          "snippet": "-",
+          "price": {
+            "current": 665,
+            "currency": "USD",
+            "displayed_price": "From $665.00"
+          }
+        },
+        {
+          "category": "Depigmentation/Skin rejuvenation Treatment",
+          "title": "Picoway® Laser - Skin Revitalization",
+          "snippet": "-",
+          "price": {
+            "current": 665,
+            "currency": "USD",
+            "displayed_price": "From $665.00"
+          }
+        },
+        {
+          "category": "Depigmentation/Skin rejuvenation Treatment",
+          "title": "Lumenis® M22™ IPL (Photofacial) Treatment (No numbing)",
+          "snippet": "-",
+          "price": {
+            "current": 333,
+            "currency": "USD",
+            "displayed_price": "From $333.00"
+          }
+        },
+        {
+          "category": "Depigmentation/Skin rejuvenation Treatment",
+          "title": "x- Picoway® Laser - Skin Revitalization (without numbing)",
+          "snippet": "-",
+          "price": {
+            "current": 665,
+            "currency": "USD",
+            "displayed_price": "From $665.00"
+          }
+        },
+        {
+          "category": "Depigmentation/Skin rejuvenation Treatment",
+          "title": "Picosure Pro® Laser - Skin Revitalization",
+          "snippet": "-",
+          "price": {
+            "current": 665,
+            "currency": "USD",
+            "displayed_price": "From $665.00"
+          }
+        },
+        {
+          "category": "Member Exclusive Benefits",
+          "title": "Complimentary session (expired February 28th, 2025)",
+          "snippet": "-",
+          "price": {
+            "current": 65,
+            "currency": "USD",
+            "displayed_price": "From $65.00"
+          }
+        },
+        {
+          "category": "Skin Rejuvenation/Anti-Aging",
+          "title": "Lumenis® ResurFX™ Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 530,
+            "currency": "USD",
+            "displayed_price": "From $530.00"
+          }
+        },
+        {
+          "category": "Skin Rejuvenation/Anti-Aging",
+          "title": "Secret™ RF Micro-Needling Treatment (Face & Neck)",
+          "snippet": "-",
+          "price": {
+            "current": 1026,
+            "currency": "USD",
+            "displayed_price": "From $1,026.00"
+          }
+        },
+        {
+          "category": "Skin Rejuvenation/Anti-Aging",
+          "title": "Secret™ RF Micro-Needling Treatment (Face)",
+          "snippet": "-",
+          "price": {
+            "current": 733,
+            "currency": "USD",
+            "displayed_price": "From $733.00"
+          }
+        },
+        {
+          "category": "Skin Rejuvenation/Anti-Aging",
+          "title": "LaseMD Ultra™ Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 530,
+            "currency": "USD",
+            "displayed_price": "From $530.00"
+          }
+        },
+        {
+          "category": "Spider Vein Removal Treatment",
+          "title": "Spider Vein Removal (50 pulses)",
+          "snippet": "-",
+          "price": {
+            "current": 180,
+            "currency": "USD",
+            "displayed_price": "From $180.00"
+          }
+        },
+        {
+          "category": "Spider Vein Removal Treatment",
+          "title": "Consultation - Spider Vein Removal",
+          "snippet": "-",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "From $40.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 36-50 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 427,
+            "currency": "USD",
+            "displayed_price": "From $427.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 26-35 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 347,
+            "currency": "USD",
+            "displayed_price": "From $347.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 80 and up square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 950,
+            "currency": "USD",
+            "displayed_price": "From $950.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 16-25 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 293,
+            "currency": "USD",
+            "displayed_price": "From $293.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 66-75 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 867,
+            "currency": "USD",
+            "displayed_price": "From $867.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Consultation - Tattoo Removal Treatment",
+          "snippet": "-",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "From $40.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 51-65 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 600,
+            "currency": "USD",
+            "displayed_price": "From $600.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (Eyebrows Tattoo)",
+          "snippet": "-",
+          "price": {
+            "current": 240,
+            "currency": "USD",
+            "displayed_price": "From $240.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 9-15 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 240,
+            "currency": "USD",
+            "displayed_price": "From $240.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 5-8 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 160,
+            "currency": "USD",
+            "displayed_price": "From $160.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE: 1-2 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 100,
+            "currency": "USD",
+            "displayed_price": "From $100.00"
+          }
+        },
+        {
+          "category": "Tattoo Removal Treatment",
+          "title": "Tattoo Removal Treatment (SIZE- 3-4 square inches)",
+          "snippet": "-",
+          "price": {
+            "current": 120,
+            "currency": "USD",
+            "displayed_price": "From $120.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "The Dermatology Specialists - Upper East Side",
+      "description": "The Dermatology Specialists (TDS) is NYC's largest dermatology group with 25+ locations across New York City, Brooklyn, Queens, Bronx and Long Island. Our offices are open 7 days a week until 7pm and we accept most health insurance plans.\nWe combine the sophistication of cutting-edge medicine with the careful attention and intimacy of a down-to-earth, neighborhood doctor. Patients experience personalized care that reflects the TDS philosophy of bringing authenticity and comfort into traditionally clinical medical spaces.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_clinic",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical clinic",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "7228205277863599270",
+      "feature_id": "0x89c259a40351f327:0x644fbe674ea9dca6",
+      "address": "1425 2nd Ave, New York, NY 10021",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "1425 2nd Ave",
+        "city": "New York",
+        "zip": "10021",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJJ_NRA6RZwokRptypTme-T2Q",
+      "phone": "+1212-385-3700",
+      "url": "https://www.thedermspecs.com/locations/upper-east-side/",
+      "domain": "www.thedermspecs.com",
+      "logo": "https://lh6.googleusercontent.com/-oE-iVJlMazk/AAAAAAAAAAI/AAAAAAAAAAA/rFH02p766FU/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnIh5n91FsVg2q0N6FI5eqIpHFkiNzIFXg2qbWKkCx3797zoHLlQnVPmvefF8uQx-7th9kMZgJ2axAdXCyTxoAVbm65r3j-aYtQGOfpSs_gXefG5n8Kzpjr78OUdZ_GnypAgEY4=w408-h272-k-no",
+      "total_photos": 30,
+      "snippet": "1425 2nd Ave, New York, NY 10021",
+      "latitude": 40.77,
+      "longitude": -73.958,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "wait time": 93,
+        "kind staff": 111,
+        "friendly staff": 378,
+        "cyst removal": 5,
+        "appointment scheduling": 31,
+        "treatment plan": 18,
+        "skin tag removal": 4,
+        "bedside manner": 16,
+        "attentive listening": 10,
+        "comfortable atmosphere": 37
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 1528
+      },
+      "rating_distribution": {
+        "1": 139,
+        "2": 27,
+        "3": 23,
+        "4": 57,
+        "5": 1282
+      },
+      "people_also_search": [
+        {
+          "cid": "4102195856834745040",
+          "feature_id": "0x0:0x38eded65bdb6d2d0",
+          "title": "The Dermatology Specialists - Greenwich Village",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 1766
+          }
+        },
+        {
+          "cid": "13557450947261999881",
+          "feature_id": "0x0:0xbc25bdce5b55ab09",
+          "title": "SINY Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 655
+          }
+        },
+        {
+          "cid": "4713539607008629796",
+          "feature_id": "0x0:0x4169db4c967bd424",
+          "title": "Schweiger Dermatology & Allergy - Upper East Side",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.1,
+            "votes_count": 187
+          }
+        },
+        {
+          "cid": "17109750295526848903",
+          "feature_id": "0x0:0xed720b3e10833987",
+          "title": "New York Dermatology Group",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 477
+          }
+        },
+        {
+          "cid": "13227467928906521210",
+          "feature_id": "0x0:0xb79167ffcc585a7a",
+          "title": "Spring Street Dermatology - Uptown",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1183
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 97
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 32
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12123853700",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=7228205277863599270&hl=en&gl=US",
+      "last_updated_time": "2026-09-24 09:51:28 +00:00",
+      "first_seen": "2024-07-31 16:37:31 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "General Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Peachy West SoHo",
+      "description": "Peachy West SoHo was our very first studio. This is where it all began. We offer our full range of botox treatments including our wrinkle prevention treatment, masseter treatment, and botox facial treatment.",
+      "category": "Skin care clinic",
+      "category_ids": [
+        "skin_care_clinic",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Medical spa"
+      ],
+      "cid": "5568656425173382558",
+      "feature_id": "0x89c259d1baa7f5e7:0x4d47d783c2a7f59e",
+      "address": "281 Hudson St, New York, NY 10013",
+      "address_info": {
+        "borough": "Manhattan",
+        "address": "281 Hudson St",
+        "city": "New York",
+        "zip": "10013",
+        "region": "New York",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ5_WnutFZwokRnvWnwoPXR00",
+      "phone": "+1917-694-8620",
+      "url": "https://peachystudio.com/pages/west-soho?y_source=1_MjYyMjMxMzMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "domain": "peachystudio.com",
+      "logo": "https://lh3.googleusercontent.com/-OxiZh-ATDfw/AAAAAAAAAAI/AAAAAAAAAAA/qL8Bdb4xIQk/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloBuFC8xdIAFfweU5L5KNuVHafKIoECHqU5YLTaYvIueAL7cTUkxL6UH9mc2ClU9xROxFfIiDayIG6zLrs0f_c-QE3tZipG4o2ehEpzhmOMqrT4zseK4l15enb_MOewsXDw6YD=w408-h272-k-no",
+      "total_photos": 60,
+      "snippet": "281 Hudson St, New York, NY 10013",
+      "latitude": 40.725,
+      "longitude": -74.008,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "clean studio": 10,
+        "wrinkle prevention": 16,
+        "injector": 19,
+        "friendly staff": 433,
+        "injections": 29,
+        "kind staff": 60,
+        "dose adjustment": 7,
+        "knowledgeable provider": 16,
+        "flat fee": 24,
+        "thoroughness": 33
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1525
+      },
+      "rating_distribution": {
+        "1": 23,
+        "2": 9,
+        "3": 5,
+        "4": 11,
+        "5": 1477
+      },
+      "people_also_search": [
+        {
+          "cid": "10136347723408365880",
+          "feature_id": "0x0:0x8cab8a8cbd985938",
+          "title": "Peachy Grand Central",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1299
+          }
+        },
+        {
+          "cid": "7695909744990685218",
+          "feature_id": "0x0:0x6acd5d236da30822",
+          "title": "Tribeca Medspa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 342
+          }
+        },
+        {
+          "cid": "8761594936767310687",
+          "feature_id": "0x0:0x7997702c8fe06b5f",
+          "title": "Peachy Skin Concept",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "14802231830832309713",
+          "feature_id": "0x0:0xcd6c176cafbd65d1",
+          "title": "JECT",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1383
+          }
+        },
+        {
+          "cid": "12558395388674423593",
+          "feature_id": "0x0:0xae4862119ad7bb29",
+          "title": "Peachy Brows NYC",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+19176948620",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=5568656425173382558&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 16:33:39 +00:00",
+      "first_seen": "2024-07-25 06:52:36 +00:00",
+      "services": [
+        {
+          "category": "Skin Care Clinic",
+          "title": "Botox"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Botox + Retinoids"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Botox®, Xeomin"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Bug Bites"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Crows Feet"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Dysport®"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Facial Wrinkles"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Forehead Wrinkles"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Glabella wrinkles"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Natural Facial"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Personalized Treatment Plan"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Physician Consultation"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Skin Resurfacing"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Sun Spots"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Sunscreen"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Topical Retinoids"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Treat Facial"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Wrinkle Consultation"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Wrinkle Relaxer"
+        }
+      ]
+    }
+  ]
+}

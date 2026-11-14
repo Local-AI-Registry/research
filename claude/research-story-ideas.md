@@ -303,6 +303,8 @@ Baseline: 50,711 US Google Maps listings in the "Medical spa" category (DataForS
 
 **What the same pulls did show (these are the keepers):**
 
+> **CORRECTION, November 14, 2026 (see Round 4):** the Google Maps listings at these same addresses show about 4,450 reviews for MetroDerm and 1,458 for The Luxe Room, close to what ChatGPT's text said. In those cases ChatGPT's map card was the outlier, not the text. Do not pitch this as "ChatGPT inflated the numbers." Houston is still unverified. The corrected story is in Round 4.
+
 1. **ChatGPT's #1 pick, and the numbers it quoted vs its own map card.** In 3 of the 8 new cities, the review count ChatGPT quoted in text for its top pick was 15 to 64 times higher than the count on the map card it showed in the same answer.
 
 | City | ChatGPT's #1 pick (as named) | What the text said | What its own map card said |
@@ -319,7 +321,7 @@ Baseline: 50,711 US Google Maps listings in the "Medical spa" category (DataForS
 
 4. **Chains travel.** SkinSpirit was named in Los Angeles, New York and Dallas; 4Ever Young in Miami and Atlanta.
 
-**Pitch (G1, G2):** We asked ChatGPT for the best med spa in eight US cities on November 13, 2026. In three of them, its top pick came with review numbers far larger than the ones on the map card in the same answer: about 890 reviews quoted against 14 on the card in Houston, about 4,388 against 71 in Atlanta. The big numbers traced to "best of" directory sites. For patients, the lesson is to check the card, not the paragraph. For businesses, it shows AI is reading directory pages about you, whether or not they match your Google profile. Beat: tech, consumer, health. Before pitching: re-run with Chrome screenshots of each answer, and lead with the AI behavior, not the businesses.
+**Pitch (WITHDRAWN, replaced by Round 4 Test F):** We asked ChatGPT for the best med spa in eight US cities on November 13, 2026. In three of them, its top pick came with review numbers far larger than the ones on the map card in the same answer: about 890 reviews quoted against 14 on the card in Houston, about 4,388 against 71 in Atlanta. The big numbers traced to "best of" directory sites. For patients, the lesson is to check the card, not the paragraph. For businesses, it shows AI is reading directory pages about you, whether or not they match your Google profile. Beat: tech, consumer, health. Before pitching: re-run with Chrome screenshots of each answer, and lead with the AI behavior, not the businesses.
 
 **Chart:** Three paired bars, one per city: "reviews ChatGPT quoted" (tall) next to "reviews on ChatGPT's own map card" (short), on a log scale, with the ratio labeled (64x, 62x, 15x).
 
@@ -465,5 +467,107 @@ Client check: none of the restaurants named is a Local AI Registry client.
 | ChatGPT LA first date, run 3 | 11140342-1230-0629-0000-c975883741e2 |
 
 Raw Trends files and analysis scripts are in claude/round3/. Spend: costs not reported by the tool; estimated under $1 at DataForSEO list rates.
+
+
+---
+
+# Round 4: reviews vs AI, and "the morning after"
+
+Pulled November 14, 2026 (Pacific), 18:41 to 18:43 UTC.
+
+## Test F: Do reviews get you into ChatGPT? Mostly no, and ChatGPT's map cards don't show your Google reviews.
+
+Method: for each of the 9 med spa cities from Round 2, the 10 businesses with the most Google reviews within 30 km of downtown among listings tagged "Medical spa" on Google Maps (DataForSEO business listings, sorted by review count; listing snapshots dated September 11 to October 8, 2026). Compared with the 48 med spas ChatGPT named on November 13.
+
+| City | Med spa listings in radius | ChatGPT picks in the city's 10 most-reviewed |
+|---|---|---|
+| Miami | 1,356 | 2 of 10 picks (LUX MedSpa Brickell, KC Medical Aesthetics) |
+| Los Angeles | 1,616 | 0 of 5 |
+| New York | 2,250 | 0 of 5 |
+| Chicago | 634 | 1 of 4 (SpaDerma; New Image Works is in the top 10 but at a different location than ChatGPT named) |
+| Houston | 903 | 0 of 5 |
+| Dallas | 765 | 0 of 5 |
+| Atlanta | 637 | 2 of 4 (MetroDerm, 4Ever Young Midtown) |
+| Denver | 854 | 1 of 5 (The Luxe Room) |
+| Seattle | 435 | 0 of 5 |
+
+- 6 of ChatGPT's 48 picks were among their city's 10 most-reviewed listings. In 5 of 9 cities, none were.
+- Caveat: the "Medical spa" tag on Google Maps also catches dermatology and plastic surgery practices. Counting only listings whose main category is "Medical spa," ChatGPT named 3 of the 36 most-reviewed. Either way, high review counts did not predict being named.
+
+**The bigger find: ChatGPT's map cards show different review counts than the Google listing at the same address.**
+
+| Business (as ChatGPT named it) | Reviews on ChatGPT's map card (Nov 13) | Google Maps listing, same address (Sept to Oct 2026 snapshot) |
+|---|---|---|
+| LUX MedSpa Brickell, Miami | 72 (4.9 stars) | 2,330 (5.0) |
+| MetroDerm & Center for Plastic Surgery, Atlanta | 71 (3.2) | 4,450 (4.8) |
+| 4Ever Young Med Spa, Atlanta Midtown | 25 (4.9) | 1,384 (5.0) |
+| The Luxe Room, South Denver | 89 (4.7) | 1,458 (5.0) |
+| SpaDerma, Clybourn Ave, Chicago | 509 (4.4) | 912 (4.9) |
+| KC Medical Aesthetics, Miami | 989 (5.0) | 964 (5.0) |
+
+- In 5 of the 6 businesses we could match, ChatGPT's card showed far fewer reviews than Google, as low as 1 in 62. Only KC Medical Aesthetics matched.
+- Reviews don't fall that far in a few weeks, so the card is almost certainly drawing on a different source or listing than the main Google profile. Which source is unknown.
+- This corrects Round 2: in Atlanta and Denver, ChatGPT's quoted text was close to Google, and its own map card was the outlier.
+- **Before pitching: verify in a real browser.** Screenshot each business's Google Maps profile and a fresh ChatGPT answer showing its card, on the same day.
+
+**Pitch (G2, G1): "Your 2,000 Google reviews may show up as 72 in ChatGPT."** On November 13, 2026, ChatGPT recommended med spas in nine cities. When we compared its map cards with Google Maps listings at the same addresses, five of six showed a fraction of the reviews: one Atlanta practice with about 4,450 Google reviews appeared with 71 and a 3.2-star rating. And only 6 of the 48 businesses ChatGPT named were among their city's 10 most-reviewed. For businesses, the lesson is that piling up Google reviews alone doesn't decide what AI shows people; what AI reads about you elsewhere does. Beat: business, tech, small business.
+
+**Chart:** Paired horizontal bars per business: Google review count (long) vs ChatGPT map card count (short), with the ratio labeled. A second panel: nine city tiles, each showing how many of ChatGPT's picks were in the city's top 10 by reviews (mostly zeros).
+
+**[How often does AI name you?](https://audit.localairegistry.com/home/look-up/)**
+
+- Restaurants: KILLED for method. The 10 most-reviewed "restaurant" listings in New York and Los Angeles are dominated by shopping malls, Katz's, In-N-Out and tourist attractions, so the comparison says nothing about date-night picks.
+
+Client check: none of these businesses is a Local AI Registry client.
+
+## Test G: "The morning after." ONE HELD, FIVE KILLED.
+
+Google Trends, United States, weekly, November 2021 to November 2026. For each event, the event week is compared with the average of the surrounding weeks (two to four weeks before and after). A pattern counts only if it shows up every year.
+
+| Search | Event | 2022 | 2023 | 2024 | 2025 | 2026 | Verdict |
+|---|---|---|---|---|---|---|---|
+| hangover iv | New Year's week | 1.29x | 1.17x | 1.32x | 1.50x | 1.62x | **HELD** |
+| hangover iv | Day after Halloween | 1.11x | 1.05x | 1.27x | 1.17x | | Weak (up every year, small) |
+| hangover iv | St. Patrick's Day | 1.02x | 1.09x | 1.17x | 1.00x | 0.55x | Killed |
+| hangover iv | Super Bowl Monday | 1.46x | 1.02x | 1.40x | 0.83x | 0.71x | Killed |
+| emergency dentist | Day after Halloween | 1.02x | 1.02x | 1.00x | 0.57x | | Killed |
+| plumber | Thanksgiving week | 0.85x | 0.89x | 0.92x | 0.98x | | Killed (searches go down) |
+| urgent care | July 5 | 1.09x | 1.03x | 1.03x | 1.05x | 1.04x | Killed (too small) |
+| divorce lawyer | Second week of January | 1.11x | 1.04x | 1.00x | 1.01x | 1.06x | Killed |
+
+(Thanksgiving 2025 is the most recent Thanksgiving in the data; "2022" in that row means Thanksgiving 2022, and so on.)
+
+- **Holds:** "hangover iv" searches rise every New Year's week, and the bump has grown: 1.29x in 2022 to 1.62x in 2026. "iv hydration" also rose every New Year's week (1.06x to 1.22x). As a check, "plumber" did not (0.85x to 1.14x).
+- **Funny miss:** plumbers call the day after Thanksgiving "Brown Friday," but national "plumber" searches actually dip that week, every year. People may call instead of search.
+- Caveats: weekly data blurs single days; New Year's week is a holiday week, so health searches shift generally ("urgent care" also rose that week, 1.09x to 2.35x, with the 2.35x in the January 2022 COVID wave).
+
+**Pitch (G1): "New Year's hangovers now come with an IV."** Searches for hangover IVs jump every New Year's week, and the jump keeps growing: 29 percent above the surrounding weeks in 2022, 62 percent in 2026. St. Patrick's Day and the Super Bowl, despite their reputations, show no consistent bump. Beat: health, lifestyle, business (med spas and IV bars). Timely angle: run it the week before New Year's.
+
+**Chart:** Five small line charts (one per year) of weekly "hangover iv" interest from mid-December to mid-January, each peaking at New Year's week, with the bump height labeled (1.29x to 1.62x). Beside it, a "myth vs data" strip: St. Patrick's, Super Bowl, Brown Friday, all flat.
+
+**[How often does AI name you?](https://audit.localairegistry.com/home/look-up/)**
+
+## Round 4 pull log (all November 14, 2026 UTC)
+
+| Pull | DataForSEO task ID |
+|---|---|
+| Listings, med spa top 10 by reviews: Houston | 11141841-1230-0544-0000-d1d0bc8d4537 |
+| Los Angeles | 11141841-1230-0544-0000-c92628b4bcff |
+| New York | 11141841-1230-0544-0000-585e0e16c991 |
+| Chicago | 11141841-1230-0544-0000-fc9500a07256 |
+| Dallas | 11141841-1230-0544-0000-60cb148c0aa5 |
+| Atlanta | 11141842-1230-0544-0000-2c791bfcfc7d |
+| Denver | 11141842-1230-0544-0000-6d4b21a9a71c |
+| Seattle | 11141842-1230-0544-0000-f320547a80d6 |
+| Miami | 11141842-1230-0544-0000-7876685db102 |
+| Listings, restaurant top 10: New York | 11141842-1230-0544-0000-ad96dd5d0c51 |
+| Listings, restaurant top 10: Los Angeles | 11141842-1230-0544-0000-ad13a0698a76 |
+| Trends weekly 5y: hangover iv, iv hydration, iv therapy near me | 11141842-1230-0173-0000-668811c2a888 |
+| Trends weekly 5y: emergency dentist, broken tooth, cracked tooth | 11141842-1230-0173-0000-2dafd3f58588 |
+| Trends weekly 5y: plumber, clogged drain, garbage disposal repair | 11141842-1230-0173-0000-ead2cfa27b93 |
+| Trends weekly 5y: urgent care, burn treatment, firework burn | 11141842-1230-0173-0000-fae7ccb1e6df |
+| Trends weekly 5y: divorce lawyer, divorce attorney, how to file for divorce | 11141842-1230-0173-0000-a0dc4d216ddf |
+
+Raw files and the analysis script are in claude/round4/. Spend not reported by the tool; estimated under $2 at DataForSEO list rates.
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.

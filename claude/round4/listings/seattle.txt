@@ -1,0 +1,3613 @@
+{
+  "id": "11141842-1230-0544-0000-f320547a80d6",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 435,
+  "items": [
+    {
+      "type": "business_listing",
+      "title": "Allure Esthetic - Dr. Javad Sajan - Plastic Surgeon in Seattle",
+      "description": "At Allure, we believe in treating our clients like the individuals they are. We know that your reasons for seeking out plastic surgery in Seattle are entirely yours, and extend far beyond simply fixing a superficial flaw so that it's technically attractive. We understand that by enhancing your looks, you hope to transform your life, boost your self-esteem and align your outward appearance with your inner identity – and we are fully committed to helping you achieve these goals.",
+      "category": "Plastic surgeon",
+      "category_ids": [
+        "plastic_surgeon",
+        "cosmetic_surgeon",
+        "medical_spa",
+        "plastic_surgery_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Medical spa",
+        "Plastic surgery clinic"
+      ],
+      "cid": "4301255592508336283",
+      "feature_id": "0x54905cd38490184b:0x3bb1212c1f9f289b",
+      "address": "600 Broadway Unit 320, Seattle, WA 98122",
+      "address_info": {
+        "borough": "Downtown Seattle",
+        "address": "600 Broadway Unit 320",
+        "city": "Seattle",
+        "zip": "98122",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJSxiQhNNckFQRmyifHywhsTs",
+      "phone": "+1206-209-0988",
+      "url": "https://www.allureesthetic.com/?utm_source=Google+Map&utm_medium=Organic&utm_id=GBP+Allure",
+      "domain": "www.allureesthetic.com",
+      "logo": "https://lh4.googleusercontent.com/-uOAkXb9vN7w/AAAAAAAAAAI/AAAAAAAAAAA/0opwL6jEZKg/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmUs54xRLeeIp-v8xjWriiVLXjJ_iBRCV763PFsjcwSwjblNGQZohHY4B2T_kGHdYmDnRU-w0ontYiO4A0RblyTX1__0umy_X49siXODi3Xp0qcsGXBDH_jC6hXvQV_ayZMOTcT=w408-h272-k-no",
+      "total_photos": 82,
+      "snippet": "600 Broadway Unit 320, Seattle, WA 98122",
+      "latitude": 47.608,
+      "longitude": -122.32,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card"
+          ]
+        }
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1116
+      },
+      "rating_distribution": {
+        "1": 42,
+        "2": 6,
+        "3": 5,
+        "4": 4,
+        "5": 1059
+      },
+      "people_also_search": [
+        {
+          "cid": "17744570077077862925",
+          "feature_id": "0x0:0xf641607868407a0d",
+          "title": "Seattle Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 293
+          }
+        },
+        {
+          "cid": "215438672889588619",
+          "feature_id": "0x0:0x2fd6454e0772b8b",
+          "title": "Premier Cosmetic Surgery & Medispa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 74
+          }
+        },
+        {
+          "cid": "15648212573822306898",
+          "feature_id": "0x0:0xd9299e6d987aca52",
+          "title": "Sound Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 106
+          }
+        },
+        {
+          "cid": "15730273304944002259",
+          "feature_id": "0x0:0xda4d283a70ff44d3",
+          "title": "Shahram Salemy, MD",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 96
+          }
+        },
+        {
+          "cid": "11801354503147052290",
+          "feature_id": "0x0:0xa3c6d564f4895d02",
+          "title": "The Seattle Facial Plastic Surgery Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 63
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12062090988",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "+12067434940",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+12063864300",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "contactus@allureesthetic.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "rsingh@csmcorp.net",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "bfentress@esa.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=4301255592508336283&hl=en&gl=US",
+      "last_updated_time": "2026-10-08 09:06:31 +00:00",
+      "first_seen": "2024-07-22 19:31:34 +00:00",
+      "services": [
+        {
+          "category": "Plastic Surgeon",
+          "title": "Arm Lift",
+          "snippet": "An arm lift, also known as a brachioplasty, helps eliminate fat in the underarm region. Fatty tissue that collects in the underarm region can create a “flappy” appearance in the arms. Dr. Sajan uses an arm lift to remove this fat and contours the arms for a sleek shape."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "BOTOX",
+          "snippet": "Botox is a standard aesthetic treatment with anti-aging benefits, cosmetic enhancements, and medical uses. Through Botox injections, you can prevent or eliminate wrinkles, achieve your cosmetic goals, prevent signs of aging, and find solutions to certain medical conditions."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "BOTOX for Hyperhidrosis",
+          "snippet": "Botox for hyperhidrosis helps patients who experience excessive sweating in certain areas of their body. Botox injections can prevent excessive sweating through its neuromodulator properties that temporarily block the sweat glands and alleviate excessive sweating."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Body Contouring",
+          "snippet": "Body contouring is a surgical procedure that can help transgender patients achieve different body shapes. For MTF patients, body contouring can provide a more feminine figure. For FTM patients, body contouring can provide a more masculine shape."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Body Lift",
+          "snippet": "Dr. Sajan can perform a body lift on patients who wish to regain their shape in their lower body. A lower body lift improves the shape of your mid to lower body, especially after changes that can come from pregnancy or weight loss. It can reshape the tissue for more flattering proportions."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Brazilian Butt Lift",
+          "snippet": "A Brazilian Butt Lift, or BBL, adds shape and structure to the buttocks through liposuction. Fat is harvested from other body areas, like the stomach or thighs, and injected into the buttocks. A BBL can create striking dimensions for every patient."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Augmentation",
+          "snippet": "There are differences in the appearance of each implant type and what they consist of. Saline implants are filled with saline water, while silicone and gummy bear implants are filled with silicone gel. Gummy bear implants are made of a firmer gel.",
+          "price": {
+            "current": 4995,
+            "currency": "USD",
+            "displayed_price": "$4,995.00"
+          }
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Lift",
+          "snippet": "A breast lift can restructure the tissue and help lift breasts that have begun to sag due to age, weight loss, or pregnancy. Dr. Sajan can get rid of excess skin and tissue and relocate the breasts to a higher location on the chest for a lifted perky appearance."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Revision",
+          "snippet": "A breast revision is a cosmetic surgery that is performed when breast implants need to be replaced. Breast implants typically need to be replaced every ten years or so, as it’s better to get them replaced before complications arise. Breast revision can also help when issues arise with breast implant"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Butt Implants",
+          "snippet": "Butt implants or a non-surgical BBL creates a rounder, larger buttocks through fillers. Sculptra is a filler that can fill out the buttocks and eliminate any appearance of cellulite or any other irregularities. Butt implants can provide a smoother, rounder buttocks."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Ear Surgery",
+          "snippet": "Ear surgery, or otoplasty, is used to pin back the ears for patients who struggle with ears that stick out on the side of their head. This surgery helps provide a slimmer, pinned-back aesthetic for the ears and can help alleviate insecurity around the protrusion of the ears."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Eyebrow Hair Transplant",
+          "snippet": "Eyebrow hair transplant is a permanent, surgical solution to overly thin eyebrows or hair loss. You can receive a customized eyebrow restoration through follicle unit transplantation that shapes and fills the brows. This procedure can create the perfect eyebrows for patients."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "FTM Top Surgery",
+          "snippet": "FTM top surgery is used for transgender men who wish to eliminate the appearance of breasts. Dr. Sajan’s FTM top surgery involves a three-dimensional chest reconstruction that provides a male structure to the chest muscles. It’s a procedure that helps alleviate gender dysphoria."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Facial Fat Transfer",
+          "snippet": "Facial fat transfer is a minimally invasive surgery that uses liposuction from other body areas and is injected into facial areas like the lips, cheeks, around the eyes, or in lines around the mouth or nose. It can help create bigger lips, create contour, or eliminate wrinkles."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Facial Feminization",
+          "snippet": "Facial feminization is a series of facial surgeries Dr. Sajan can perform to help transgender women achieve feminine features. Dr. Sajan can customize the surgery to fit each patient’s unique features and overall goals. This is a massive step in the transitioning process."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Facial Fillers",
+          "snippet": "Facial fillers are cosmetic injections that can have many benefits for the face. Dermal fillers are an excellent solution for those who want more contour in their cheeks, smoother skin, and a younger appearance. They provide a refreshed, beautiful aesthetic to the face."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Fat Transfer",
+          "snippet": "Fat transfer is a fat-harvesting surgery that uses liposuction to harvest fat from other areas of the body and inject it into areas that need plumping. Dr. Sajan can inject the fat into areas like the face, buttocks, breasts, or hands for a volumizing and wrinkle-fighting effect."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Gummy Bear Implants",
+          "snippet": "Gummy Bear Implants are the newest type of breast implant that provides more advanced technology for breast augmentation. These implants are made from a firm silicone gel that can be shaped like natural breast tissue. They provide natural-looking results that have less risk."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "High Definition Liposuction",
+          "snippet": "High-definition liposuction is an advanced form of lipo that can help create well-defined muscles in certain areas. It removes fat from the abdomen, arms, or other body areas to create a muscular, sculpted appearance."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Instalift",
+          "snippet": "An Instalift is a minimally invasive procedure that allows patients to achieve a facelift without full surgery. Instalift uses small bidirectional cones to lift areas of the face like the jaw, jowls, nasolabial folds, marionette lines, and lower cheeks."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Inverted Nipple Correction",
+          "snippet": "Those who struggle with inverted nipples can undergo inverted nipple correction to achieve natural, normal nipples. Dr. Sajan works with varying degrees of nipple inversion and can reverse them to where they project outward and have no complications."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Juvederm Voluma",
+          "snippet": "Juvederm Voluma is a cosmetic filler that can help restore a youthful appearance or enhance your natural features. Juvederm Voluma can fill in hollow spaces, plump the lips, or smooth out fine lines. It’s a great filler that can last for over two years."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Kybella",
+          "snippet": "Kybella is a cosmetic injection that dissolves acute fat in specific areas. It’s mainly used to reduce the double-chin appearance and create a well-defined jawline. Kybella dissolves a double chin through a series of injections and can create the ideal aesthetic for patients."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Laser Skin Resurfacing",
+          "snippet": "Laser skin resurfacing is a non-surgical treatment that helps the skin's texture and appearance by eliminating layers of skin that hold damage, wrinkles, and uneven texture. It creates beautiful, healthy skin and can eliminate signs of aging."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Liposuction",
+          "snippet": "Liposuction is a surgical method that can change the shape of your body and give you stunning proportions. Liposuction eliminates fat in the stomach, back, buttocks, thighs, arms, and back. It suctions out the fat and creates a fresh shape."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Microneedling",
+          "snippet": "Microneedling is a cosmetic treatment that can help stimulate collagen in the face and create rejuvenated results. Tiny needles are used to stimulate collagen, which is essential in fighting the aging process. Microneedling is a natural way to look and feel younger."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Mommy Makeover",
+          "snippet": "A mommy makeover is a unique surgical procedure tailored to every patient. It helps mothers regain their pre-pregnancy body by combining procedures like a tummy tuck, breast augmentation, breast lift, and more. A mommy makeover can help create better proportions and a stunning figure."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Neck Lift",
+          "snippet": "A neck lift can be an instrumental part of facial rejuvenation. It can work with a facelift or stand-alone as a surgical procedure that helps create a lifted appearance to the neck. It can eliminate wrinkles and sagging skin around the neck and jawline."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Neograft",
+          "snippet": "Neografting is a surgical procedure used for those who struggle with hair loss. Dr. Sajan performs neografting with an FDA-approved machine that harvests and plants individual hair grafts for a complete transformation. It’s an advanced, less-invasive solution for hair loss."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Nipple & Areola Reduction",
+          "snippet": "Nipple and areola reduction is a surgical procedure that can help patients who struggle with nipples that have excess tissue or have begun to sag. It reduces the size, puffiness, and hanging skin from the areola for a small, symmetrical structure."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Non-Surgical Zombie Brazilian Butt Lift",
+          "snippet": "During a non-surgical zombie Brazilian butt lift, Dr. Sajan will use dermal fillers to tighten, lift, and add volume to the buttocks. He can transform your rear and give you the shape, structure, and appearance you desire."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Oxygen Facial",
+          "snippet": "An oxygen facial is a new and revolutionary facial that creates stunning results. It works by infusing your skin with oxygen and can help treat deep acne and create a brighter, more beautiful texture. It’s excellent for clearing bacteria and redness from the face."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "PRP Hair Treatment",
+          "snippet": "PRP hair treatment is a less invasive, natural method of hair restoration. By extracting blood cells and spinning them through a centrifuge, platelet-rich plasma is reinjected into the patient's head to help regenerate hair growth."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Pectoral Implants",
+          "snippet": "Pectoral implants are often used on men who want a more muscular chest or have had breast cancer and need a chest revision surgery. Pectoral implants provide incredible shape and definition to chest and can create the ideal muscular structure men seek."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Restylane",
+          "snippet": "Restylane is a newer dermal filler that is hyaluronic acid-based and filler that restores the plump, full skin sometimes lost in youth. It helps fill in hollow areas, smooth wrinkles, and restore symmetry. It can help you feel confident and carefree again."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Reverse Abdominoplasty",
+          "snippet": "A reverse abdominoplasty is perfect for patients who struggle with excess skin and fat in their upper abdomen. While most abdominoplasty surgeries target the lower stomach, a reverse abdominoplasty reshapes the upper abdomen for a sculpted appearance."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Revision Rhinoplasty",
+          "snippet": "A revision rhinoplasty is used for those who have undergone a rhinoplasty that may not have healed correctly or want to improve their nasal structure further. It’s used when the healing process is unsuccessful or for complications during a first rhinoplasty."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Sculptra",
+          "snippet": "Sculptra is a cosmetic filler that provides a natural stimulation to the body's ability to produce collagen. It can create a vibrant and young appearance to the face, eliminate signs of aging, and create beautiful contours in the facial structure."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Silicone Implant Rupture",
+          "snippet": "Silicone implant rupture can occur if the implants are older or have been under significant strain. While silicone implant rupture is rare, it can be fixed with a breast implant revision. Dr. Sajan can remove your old implants and replace them to avoid complications."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Skeletal Contouring",
+          "snippet": "Skeletal contouring is a surgical procedure to create new bone structures in the face. It can help slim down areas like the jaw, nose, or orbital bones for a beautifully defined contour or be a part of a facial feminization process."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Smartlipo",
+          "snippet": "Smartlipo is a less invasive form of liposuction that provides stunning reshaping in certain areas. It’s a laser-assisted liposuction that removes difficult fatty deposits from stubborn areas. It can create stunning dimensions and help you achieve your dream body."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Transaxillary Breast Augmentation",
+          "snippet": "Transaxillary breast augmentation uses an incision placed inside the armpit to provide a well-hidden scar. It works best for patients who are getting smaller implants or saline implants, as the area is small. It provides great support and beautiful results."
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Bellevue Ear Nose & Throat",
+      "description": "We are a premiere group of Ear, Nose, and Throat (ENT) doctors with locations in Bellevue and Issaquah, WA specializing in the diagnosis and treatment (both medical and surgical) of general ear, nose, and throat conditions, as well as conditions requiring more specialty-focused care. Bellevue ENT employs cutting edge technology and up-to-date techniques to provide surgical services such as sinus surgery, ear surgery, sleep surgery, thyroid surgery, vocal surgery, and pediatric surgery.\n\nWhether coming over from Seattle or Kirkland, or traveling afar from Spokane to Olympia, we are proud that many patients near and far have entrusted their care with us. We strive to meet the needs of individual patients with the best possible care.",
+      "category": "Medical clinic",
+      "category_ids": [
+        "medical_clinic",
+        "allergist",
+        "hearing_aid_store",
+        "medical_spa",
+        "otolaryngology_clinic",
+        "plastic_surgeon",
+        "surgeon",
+        "surgical_center"
+      ],
+      "additional_categories": [
+        "Allergist",
+        "Hearing aid store",
+        "Medical spa",
+        "Otolaryngology clinic",
+        "Plastic surgeon",
+        "Surgeon",
+        "Surgical center"
+      ],
+      "cid": "12136273259999158084",
+      "feature_id": "0x54906f9c7f1dba6f:0xa86cb43aaf525f44",
+      "address": "510 8th Ave NE #310, Issaquah, WA 98029",
+      "address_info": {
+        "borough": "Issaquah Highlands",
+        "address": "510 8th Ave NE #310",
+        "city": "Issaquah",
+        "zip": "98029",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJb7odf5xvkFQRRF9Srzq0bKg",
+      "phone": "+1425-454-3938",
+      "url": "https://bellevueent.com/",
+      "domain": "bellevueent.com",
+      "logo": "https://lh5.googleusercontent.com/-0Y7Wq_ZQxAk/AAAAAAAAAAI/AAAAAAAAAAA/I7yfT0EJU4E/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmb1wOLYuJ7W_16D-rNZZ3MpmVHRdSK-rZge5ZNeZSdtBdXRmwzw4TyHkf0DUJh0dNxNrQ26R3kQR0BTfW9rUlwqSjaBiCSt0xVfg6IER9sDPObkIYrVObh7E-OZsCdiy1JoggBAA=w426-h240-k-no",
+      "total_photos": 10,
+      "snippet": "510 8th Ave NE #310, Issaquah, WA 98029",
+      "latitude": 47.537,
+      "longitude": -122.02,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "stitch removal": 11,
+        "ear wax removal": 9,
+        "hearing aids": 12,
+        "audiologist": 8,
+        "friendly staff": 132,
+        "kind staff": 60,
+        "clear explanations": 30,
+        "appointment scheduling": 15,
+        "deviated septum": 3,
+        "thoroughness": 31
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 959
+      },
+      "rating_distribution": {
+        "1": 34,
+        "2": 10,
+        "3": 12,
+        "4": 22,
+        "5": 881
+      },
+      "people_also_search": [
+        {
+          "cid": "1604058037889820012",
+          "feature_id": "0x0:0x1642c2496b88656c",
+          "title": "Proliance Eastside ENT - Bellevue Clinic",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.6,
+            "votes_count": 29
+          }
+        },
+        {
+          "cid": "6184371465254131909",
+          "feature_id": "0x0:0x55d34d14d988d8c5",
+          "title": "Bellevue Pediatric Ear Nose & Throat clinic",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "14796494710988639948",
+          "feature_id": "0x0:0xcd57b58b616c8ecc",
+          "title": "Modern Nose Clinic",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 102
+          }
+        },
+        {
+          "cid": "6553425568816198554",
+          "feature_id": "0x0:0x5af271d55340739a",
+          "title": "Proliance ENT",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "6351144966626985317",
+          "feature_id": "0x0:0x5823ccb284cfc565",
+          "title": "Anh Quoc Truong, M.D.",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 294
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "bellevueent.com",
+          "url": "http://bellevueent.com/about-us/physicians/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14254543938",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "+14252781810",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+14252781805",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12136273259999158084&hl=en&gl=US",
+      "last_updated_time": "2026-09-21 03:51:57 +00:00",
+      "first_seen": "2024-07-26 21:28:29 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Green Lake Oral + Facial Surgery",
+      "description": "Getting to know you is at the heart of what we do at Green Lake Oral and Facial Surgery. Since the day we opened, we've established our practice as one centered around relationships, trust, and open communication.\n\nOur oral surgeons are board-certified and at the top of their field, specializing in a comprehensive list of oral and maxillofacial procedures, including dental implants, reconstructive surgery after trauma, and facial cosmetic services. Through a dynamic merging of digital technologies and high-end surgical care, our highly trained and skilled surgeons and our caring staff consistently deliver outstanding results.",
+      "category": "Oral surgeon",
+      "category_ids": [
+        "oral_surgeon",
+        "cosmetic_dentist",
+        "cosmetic_surgeon",
+        "dental_implants_provider",
+        "emergency_dental_service",
+        "medical_spa",
+        "oral_maxillofacial_surgeon"
+      ],
+      "additional_categories": [
+        "Cosmetic dentist",
+        "Cosmetic surgeon",
+        "Dental implants provider",
+        "Emergency dental service",
+        "Medical spa",
+        "Oral and maxillofacial surgeon"
+      ],
+      "cid": "13191766986997217554",
+      "feature_id": "0x549014112ca553a1:0xb712922e83b1b912",
+      "address": "7900 East Green Lake Dr N #302, Seattle, WA 98103",
+      "address_info": {
+        "borough": "Green Lake",
+        "address": "7900 East Green Lake Dr N #302",
+        "city": "Seattle",
+        "zip": "98103",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJoVOlLBEUkFQRErmxgy6SErc",
+      "phone": "+1206-641-7212",
+      "url": "https://greenlakefacialsurgery.com/",
+      "domain": "greenlakefacialsurgery.com",
+      "logo": "https://lh6.googleusercontent.com/-Pgx_e7WQbmg/AAAAAAAAAAI/AAAAAAAAAAA/LtdbX-CdSdA/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHBm_XwSl9iGLwKML3x1y5nF_YGuEYuCwMRsH2GAgVu3TJjntKI_Hf89zivnjAufw-FnYBHS9psCd3UjolywlARVsWkQr7WU3Rimb4NzPY9DhxGoNA_y-5tCS9I6Al94AH-RFc3Q=w408-h272-k-no",
+      "total_photos": 57,
+      "snippet": "7900 East Green Lake Dr N #302, Seattle, WA 98103",
+      "latitude": 47.686,
+      "longitude": -122.337,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_check",
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_garage_free",
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_onsite_parking",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "accessibility": [
+            "has_hearing_loop"
+          ]
+        }
+      },
+      "place_topics": {
+        "wisdom teeth removal": 109,
+        "tooth extraction": 85,
+        "friendly staff": 242,
+        "botox treatments": 10,
+        "kind staff": 101,
+        "implant": 25,
+        "smooth procedure": 23,
+        "quick procedure": 21,
+        "bone graft": 4,
+        "anxiety management": 11
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 927
+      },
+      "rating_distribution": {
+        "1": 18,
+        "2": 7,
+        "3": 9,
+        "4": 24,
+        "5": 869
+      },
+      "people_also_search": [
+        {
+          "cid": "8132390882580335981",
+          "feature_id": "0x0:0x70dc0e6ba2d38d6d",
+          "title": "Advanced Dental Implants & Oral Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 357
+          }
+        },
+        {
+          "cid": "5265063734503634511",
+          "feature_id": "0x0:0x491143922ee1764f",
+          "title": "Seattle Oral & Maxillofacial Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 255
+          }
+        },
+        {
+          "cid": "4580997251954888454",
+          "feature_id": "0x0:0x3f92f8babfcfcf06",
+          "title": "University Oral and Maxillofacial Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 95
+          }
+        },
+        {
+          "cid": "12763452291256182592",
+          "feature_id": "0x0:0xb120e43c37f86740",
+          "title": "Northwest Center for Oral and Facial Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 223
+          }
+        },
+        {
+          "cid": "9989742629246928121",
+          "feature_id": "0x0:0x8aa2b1fe4dd704f9",
+          "title": "Puget Sound Oral Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 70
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 15
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12066417212",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=13191766986997217554&hl=en&gl=US",
+      "last_updated_time": "2026-09-18 21:38:07 +00:00",
+      "first_seen": "2026-09-18 21:38:07 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Frontier Dermatology",
+      "description": "Frontier Dermatology, the largest physician-owned dermatology practice in the Pacific Northwest, provides medical and cosmetic services across 35 convenient locations in Washington and Oregon. With over 120 leading providers, including board-certified dermatologists and cosmetic professionals, we offer local access to innovative and effective treatments. Renowned for our highly skilled team and cutting-edge research, Frontier Dermatology is a leader in delivering quality dermatological care and proven patient outcomes.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical spa"
+      ],
+      "cid": "9360311916840775553",
+      "feature_id": "0x54901abc60903b81:0x81e6821866266f81",
+      "address": "21701 76th Ave W, Edmonds, WA 98026",
+      "address_info": {
+        "address": "21701 76th Ave W",
+        "city": "Edmonds",
+        "zip": "98026",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJgTuQYLwakFQRgW8mZhiC5oE",
+      "phone": "+1206-525-1168",
+      "url": "https://www.frontierdermatology.com/our-locations/edmonds",
+      "domain": "www.frontierdermatology.com",
+      "logo": "https://lh6.googleusercontent.com/-8s-dkv92yZE/AAAAAAAAAAI/AAAAAAAAAAA/87FSgfXrvxM/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnr3VHwOEQ5Q-bk8JmnPVh-QIwV02-YIQ9rJsID6O76vpEC6TXqqQKpwyxbAQwpRHtGtUEkwuqSogMJECpyr0fxVth-b258pg3Bcxcefjp0OYTmDeatLwbNhIZq0I8oI4uUHka1=w408-h306-k-no",
+      "total_photos": 8,
+      "snippet": "21701 76th Ave W, Edmonds, WA 98026",
+      "latitude": 47.802,
+      "longitude": -122.335,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_lot_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "skin cancer screening": 16,
+        "kind staff": 68,
+        "mohs surgery": 6,
+        "friendly staff": 223,
+        "efficient staff": 33,
+        "biopsy": 13,
+        "cherry angioma removal": 2,
+        "wait time": 23,
+        "thorough doctor": 11,
+        "full body check": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 842
+      },
+      "rating_distribution": {
+        "1": 25,
+        "2": 3,
+        "3": 3,
+        "4": 28,
+        "5": 783
+      },
+      "people_also_search": [
+        {
+          "cid": "5341362663603893752",
+          "feature_id": "0x0:0x4a20550af4a4f5f8",
+          "title": "Frontier Dermatology (Mill Creek)",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 1120
+          }
+        },
+        {
+          "cid": "6730469340016200281",
+          "feature_id": "0x0:0x5d676e348752ca59",
+          "title": "Frontier Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 506
+          }
+        },
+        {
+          "cid": "6206270256433554706",
+          "feature_id": "0x0:0x562119ea7ecb6512",
+          "title": "Frontier Dermatology Aesthetics (Mill Creek)",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 395
+          }
+        },
+        {
+          "cid": "11164935231942347689",
+          "feature_id": "0x0:0x9af1d170682acba9",
+          "title": "Modern Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 2669
+          }
+        },
+        {
+          "cid": "15709960646843266419",
+          "feature_id": "0x0:0xda04fdf92e757573",
+          "title": "Advanced Dermatology and Laser Institute of Seattle",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 195
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12065251168",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=9360311916840775553&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 05:25:53 +00:00",
+      "first_seen": "2026-09-11 05:25:53 +00:00",
+      "services": [
+        {
+          "category": "Medical Services",
+          "title": "Medical Appointment",
+          "snippet": "Schedule your appointment online"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Tukwila",
+      "description": "Ideal Image is North America's #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in Tukwila offers treatments such as Laser Hair Removal in Tukwila, WA, Botox® in Tukwila, WA, CoolSculpting® in Tukwila, WA, Xeomin in Tukwila, WA, Fillers in Tukwila, WA, and Chemical Peels in Tukwila, WA. Our clinic also offers Microneedling in Tukwila, WA, Ultherapy in Tukwila, WA, IPL Photofacial in Tukwila, WA, and CoolTone® in Tukwila, WA. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "13761327515589319676",
+      "feature_id": "0x54905cc586cfab7f:0xbefa0e76fc829bfc",
+      "address": "17100 Southcenter Pkwy #144, Tukwila, WA 98188",
+      "address_info": {
+        "borough": "Southcenter",
+        "address": "17100 Southcenter Pkwy #144",
+        "city": "Tukwila",
+        "zip": "98188",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJf6vPhsVckFQR_JuC_HYO-r4",
+      "phone": "+1206-426-9902",
+      "url": "https://www.idealimage.com/locations/washington/seattle-tukwila?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh4.googleusercontent.com/-toPiTaEY_9o/AAAAAAAAAAI/AAAAAAAAAAA/dnW0BNrjtw4/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipM7KWDe7eMYgPLNERlvGzMaq-YsV5Q3Q44n_Ho_=w426-h240-k-no",
+      "total_photos": 24,
+      "snippet": "17100 Southcenter Pkwy #144, Tukwila, WA 98188",
+      "latitude": 47.45,
+      "longitude": -122.261,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "nurse": 30,
+        "call": 26,
+        "sales": 25,
+        "contract": 24,
+        "technician": 17,
+        "financial": 15,
+        "email": 15,
+        "consultant": 15,
+        "consultation": 8,
+        "bikini": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.2,
+        "votes_count": 745
+      },
+      "rating_distribution": {
+        "1": 115,
+        "2": 19,
+        "3": 15,
+        "4": 32,
+        "5": 564
+      },
+      "people_also_search": [
+        {
+          "cid": "11392712441051646572",
+          "feature_id": "0x0:0x9e1b0b9a9d0e8a6c",
+          "title": "La Belle Vie MedSpa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 97
+          }
+        },
+        {
+          "cid": "15274678557402691395",
+          "feature_id": "0x0:0xd3fa8f3820437743",
+          "title": "Southcenter Electrolysis by Linda Cowin",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.7,
+            "votes_count": 3
+          }
+        },
+        {
+          "cid": "17673190278489364693",
+          "feature_id": "0x0:0xf543c8ebf53ed8d5",
+          "title": "Rani Beauty Clinic",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 45
+          }
+        },
+        {
+          "cid": "1890739121317917201",
+          "feature_id": "0x0:0x1a3d41369916b211",
+          "title": "The Permanent Hair Removal Clinic - Electrolysis for all! - 27-Years in Business",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 77
+          }
+        },
+        {
+          "cid": "3516741042377005328",
+          "feature_id": "0x0:0x30cdf95875eb1910",
+          "title": "Hush Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 175
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12064269902",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=13761327515589319676&hl=en&gl=US",
+      "last_updated_time": "2026-02-02 18:20:19 +00:00",
+      "first_seen": "2026-02-02 18:20:19 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Northgate",
+      "description": "Ideal Image is North America's #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in Northgate offers treatments such as Laser Hair Removal in Northgate, WA, Botox® in Northgate, WA, CoolSculpting® in Northgate, WA, Xeomin in Northgate, WA, Fillers in Northgate, WA, and Chemical Peels in Northgate, WA. Our clinic also offers Microneedling in Northgate, WA, Ultherapy in Northgate, WA, IPL Photofacial in Northgate, WA, and CoolTone® in Northgate, WA. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "114916914006361279",
+      "feature_id": "0x549013fe4a4df3ed:0x19844530e0884bf",
+      "address": "317 NE Thornton Pl Suite 10A & 10B, Seattle, WA 98125",
+      "address_info": {
+        "borough": "Maple Leaf",
+        "address": "317 NE Thornton Pl Suite 10A & 10B",
+        "city": "Seattle",
+        "zip": "98125",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ7fNNSv4TkFQRv4QIDlNEmAE",
+      "phone": "+1206-690-9402",
+      "url": "https://www.idealimage.com/locations/washington/seattle-northgate?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh4.googleusercontent.com/-rosQ5PK5NO0/AAAAAAAAAAI/AAAAAAAAAAA/LOypN7mmZL8/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipP9mcGYHA0UzLGDMIPlzv6JAeMglfcfGDkRrb-o=w426-h240-k-no",
+      "total_photos": 29,
+      "snippet": "317 NE Thornton Pl Suite 10A & 10B, Seattle, WA 98125",
+      "latitude": 47.702,
+      "longitude": -122.325,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "laser hair removal": 76,
+        "pay": 29,
+        "technician": 21,
+        "contract": 21,
+        "job": 20,
+        "sales": 18,
+        "conversation": 18,
+        "comfortable": 15,
+        "nurse": 8,
+        "ice pack": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 705
+      },
+      "rating_distribution": {
+        "1": 91,
+        "2": 14,
+        "3": 7,
+        "4": 29,
+        "5": 564
+      },
+      "people_also_search": [
+        {
+          "cid": "10793212934874828558",
+          "feature_id": "0x0:0x95c931fab85d8f0e",
+          "title": "Aesthetic Laser Center of Seattle",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 97
+          }
+        },
+        {
+          "cid": "9635263088357762327",
+          "feature_id": "0x0:0x85b754baa2ff6517",
+          "title": "Elegante Electrolysis",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 17
+          }
+        },
+        {
+          "cid": "12832725781150798083",
+          "feature_id": "0x0:0xb217001b757d9103",
+          "title": "LaserAway Seattle",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 435
+          }
+        },
+        {
+          "cid": "5840562150094177481",
+          "feature_id": "0x0:0x510dd854b4f484c9",
+          "title": "Sadowski Aesthetics & Laser",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 128
+          }
+        },
+        {
+          "cid": "16895203289685147593",
+          "feature_id": "0x0:0xea77d1e099b1bfc9",
+          "title": "NuMe Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 166
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12066909402",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=114916914006361279&hl=en&gl=US",
+      "last_updated_time": "2026-01-27 03:25:02 +00:00",
+      "first_seen": "2024-07-27 19:49:18 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Naficy Plastic Surgery & Rejuvenation Center",
+      "description": "For the past 20 years, Naficy Plastic Surgery & Rejuvenation Center has been the Pacific Northwest’s top location for non-surgical treatments including Botox, CoolSculpting, Fraxel, Ultherapy, Thermage, and Fillers (such as Juvederm, Restylane, and Voluma) gaining national recognition as one of the top 10 sites for cosmetic injections, such as Botox and Juvederm. Unlike many \"Medi-Spas\" which operate out of retail shopping centers, and often without on-site medical supervision, at Naficy Plastic Surgery & Rejuvenation Center there is a board-certified physician and surgeon present on site at all times to ensure your safety.",
+      "category": "Plastic surgery clinic",
+      "category_ids": [
+        "plastic_surgery_clinic",
+        "cosmetic_surgeon",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "1295633855488934795",
+      "feature_id": "0x54906c8c9c3f3329:0x11fb04208363438b",
+      "address": "1110 112th Ave NE #150, Bellevue, WA 98004",
+      "address_info": {
+        "borough": "Northwest Bellevue",
+        "address": "1110 112th Ave NE #150",
+        "city": "Bellevue",
+        "zip": "98004",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJKTM_nIxskFQRi0NjgyAE-xE",
+      "phone": "+1425-450-0880",
+      "url": "http://www.seattleface.com/",
+      "domain": "www.seattleface.com",
+      "logo": "https://lh5.googleusercontent.com/-vCnVJoIxPrE/AAAAAAAAAAI/AAAAAAAAAAA/PBTIuD9Ku0M/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlbplK9qtAEbRuzZUB7lU7RfqUJJHx6pYUfRSAYJJ-hTyjQQxwza2OVmaXo9la41jVgTXHsuFIMWnWDlAPVWHf-rPMhK_f1D9U5aqQi8tzZ0tXBbO4VoB-wzu4Jf47LyNMFvE9LvA=w412-h240-k-no",
+      "total_photos": 40,
+      "snippet": "1110 112th Ave NE #150, Bellevue, WA 98004",
+      "latitude": 47.62,
+      "longitude": -122.191,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_onsite_parking"
+          ]
+        }
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 703
+      },
+      "rating_distribution": {
+        "1": 38,
+        "2": 7,
+        "3": 1,
+        "4": 2,
+        "5": 655
+      },
+      "people_also_search": [
+        {
+          "cid": "2698986063811692330",
+          "feature_id": "0x0:0x2574b9867339c72a",
+          "title": "Newvue Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 143
+          }
+        },
+        {
+          "cid": "14518544211712100495",
+          "feature_id": "0x0:0xc97c3b09bae7488f",
+          "title": "NewSkin MedSpa | Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 161
+          }
+        },
+        {
+          "cid": "2623474396813199732",
+          "feature_id": "0x0:0x246874106b620974",
+          "title": "Athēnix | Advanced Plastic Surgery & Aesthetic Centers",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.2,
+            "votes_count": 201
+          }
+        },
+        {
+          "cid": "14435915690959375401",
+          "feature_id": "0x0:0xc856acd60f1f0c29",
+          "title": "Pacific Sound Plastic Surgery | Kristopher M. Day, MD, FACS",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 173
+          }
+        },
+        {
+          "cid": "7227885502727450146",
+          "feature_id": "0x0:0x644e9b91db43ee22",
+          "title": "Northwest Center For Aesthetic Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "seattleface.com",
+          "url": "https://www.seattleface.com/patient-resources/schedule-your-visit"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "4254500880",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+14254500880",
+          "source": "google_business"
+        },
+        {
+          "type": "mail",
+          "value": "information@seattleface.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "sms",
+          "value": "+14254500880",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=1295633855488934795&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 19:42:01 +00:00",
+      "first_seen": "2024-08-01 00:53:43 +00:00",
+      "services": [
+        {
+          "category": "Cosmetic Surgery",
+          "title": "Consult Dr. Hurvitz - Face, Neck, Eyelids, Body, Breast",
+          "snippet": "Consult Dr. Hurvitz - Face, Neck, Eyelids, Body, Breast",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "From $150.00"
+          }
+        },
+        {
+          "category": "Cosmetic Surgery",
+          "title": "Consult Dr. Naficy - Face, Neck, Eyelids, Nose",
+          "snippet": "Consult Dr. Naficy - Face, Neck, Eyelids, Nose",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "From $150.00"
+          }
+        },
+        {
+          "category": "Cosmetic Surgery",
+          "title": "Consult Dr. Sires - Eyelids",
+          "snippet": "Consult Dr. Sires - Eyelids",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "From $150.00"
+          }
+        },
+        {
+          "category": "Injector Services",
+          "title": "Consult - Injector Services - by Phone",
+          "snippet": "Consult - Injector Services - by Phone",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injector Services",
+          "title": "Consult - Injector Services - in Person",
+          "snippet": "Consult - Injector Services - in Person",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injector Services",
+          "title": "Treatment - Injector Services",
+          "snippet": "For our established patients, Injector Services includes Botox, Dysport, facial volumizers (fillers), Sculptra, PRP, PRF, PDGF, and many additional options you can discuss with our expert team",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Lasers & Skin Rejuvenation",
+          "title": "Consult - Laser & Skin Services - by Phone",
+          "snippet": "Consult - Laser & Skin Services - by Phone",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Lasers & Skin Rejuvenation",
+          "title": "Consult - Laser & Skin Services - in Person",
+          "snippet": "Consult - Laser & Skin Services - in Person",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "MJ Brow & Skin",
+      "description": "A day spa with permanent makeup, skin care, lifting, tinting, waxing and training.",
+      "category": "Skin care clinic",
+      "category_ids": [
+        "skin_care_clinic",
+        "beauty_product_supplier",
+        "eyelash_salon",
+        "facial_spa",
+        "medical_spa",
+        "waxing_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Beauty product supplier",
+        "Eyelash salon",
+        "Facial spa",
+        "Medical spa",
+        "Waxing hair removal service"
+      ],
+      "cid": "1615956661637524132",
+      "feature_id": "0x5490112807d801cd:0x166d0805a554aaa4",
+      "address": "19122 Beardslee Blvd Ste 103, Bothell, WA 98011",
+      "address_info": {
+        "address": "19122 Beardslee Blvd Ste 103",
+        "city": "Bothell",
+        "zip": "98011",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJzQHYBygRkFQRpKpUpQUIbRY",
+      "phone": "+1425-877-1032",
+      "url": "http://mjbrowandskin.com/",
+      "domain": "mjbrowandskin.com",
+      "logo": "https://lh6.googleusercontent.com/-dXlgQATtnvs/AAAAAAAAAAI/AAAAAAAAAAA/uYqZsKwgdgY/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnODoZNYDZ69DDnwyKwPr-bJIIRc56G4VB8d_Uvi0FLcMAH0vB5cKJWFbXWz-2jf9LUUW2Y9javDV9H7cXFBDFISt3bXxgk-vP_rdXd-br5hguZtY2xBaViLkSqVmksXSAnMmMiIiu97gs5=w408-h505-k-no",
+      "total_photos": 28,
+      "snippet": "19122 Beardslee Blvd Ste 103, Bothell, WA 98011",
+      "latitude": 47.767,
+      "longitude": -122.191,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "eyebrow waxing": 43,
+        "microneedling": 58,
+        "lash lift": 32,
+        "brow tint": 26,
+        "microblading": 25,
+        "brow lamination": 20,
+        "brow shaping": 16,
+        "permanent eyeliner": 17,
+        "lash extensions": 13,
+        "combo brows": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 625
+      },
+      "rating_distribution": {
+        "1": 8,
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 614
+      },
+      "people_also_search": [
+        {
+          "cid": "12544143909372408727",
+          "feature_id": "0x0:0xae15c06c8185b397",
+          "title": "Brow and Beauty Bar (inside phenix suites)",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 82
+          }
+        },
+        {
+          "cid": "9434568111401223295",
+          "feature_id": "0x0:0x82ee51b5f94c447f",
+          "title": "LashLuv Beauty Bar",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 101
+          }
+        },
+        {
+          "cid": "2631025249437456169",
+          "feature_id": "0x0:0x248347864bcd9729",
+          "title": "The Lash Lounge",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 319
+          }
+        },
+        {
+          "cid": "2867990381433639351",
+          "feature_id": "0x0:0x27cd260e8096d1b7",
+          "title": "Lush Brow Boutique",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 14
+          }
+        },
+        {
+          "cid": "12792980005435427710",
+          "feature_id": "0x0:0xb189cb88eaa74b7e",
+          "title": "Glow Skincare & Wax",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 42
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14258771032",
+          "source": "google_business"
+        },
+        {
+          "type": "mail",
+          "value": "mj@mjbrowandskin.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "info@mysite.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=1615956661637524132&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 22:43:01 +00:00",
+      "first_seen": "2024-08-04 09:35:46 +00:00",
+      "services": [
+        {
+          "category": "Skin Care Clinic",
+          "title": "Eye Liners",
+          "snippet": "Permanent eye liner is created with a rich pigment applied right above the lash line to create a perfectly customized look. Price includes two sessions. 2nd Touch-Up Free."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Lash Lifting & Tinting"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Micro Needling",
+          "snippet": "Microneedling is also known as Collagen Induction Therapy. It is the latest revolutionary technique. It has the amazing ability to naturally stimulate healing reactions under the skin, assisting in the regeneration of collagen and elastin."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "BB Glow Nano Needling+Semi Permanent Foundation"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Organic Skin Care"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Permanent Makeup Artist"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Permanent Makeup: Microblading, Ombré, Combo brows, Eyeliner, lash line enhancement, lip line and blush, scalp micropigm"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Re Touch"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Scalp Micro Pigmentation"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Scalp Microneedling"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Waxing"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Korean skincare"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Micropigmentation"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Lip liner and shading"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "PMU training"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Permanent makeup training"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Facial Bothell- Anti aging, Acne, Brighting facials, Glo2Facial, TShape2 Facial, Dermaplaning facial"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Dermaplane"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Facial Wax Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brow Wax Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Lash lift Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brow Lamination Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Tint Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brazilian Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Chemical Peel Bothell"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Aesthetic Services"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Chemical Peels"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Microneedling Face & Neck",
+          "snippet": "Rejuran tone up booster Epidermal growth factor (EGF 100ppm) booster VAMP(Vitamin, Amino acid, Minerals, PDRN) booster Ginseng exosome booster"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Skin Tag Remover"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brazilian"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brazilian maintenance"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Brow wax"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Medical grade full body Red Light Therapy"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "New Wave Weight Loss"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "TShape2- Face Lifting & Body Contouring"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Lash Extensions-Mega, Volume, Hybrid, Classic,"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Glo2Facial"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "TShape2 Facial"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Dermaplaning Facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Acne facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Acne treatments"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Anti-aging facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Basic facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Deep cleansing facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Dermaplaning"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "European facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Facial lymphatic drainage"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Facial massage"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Glycolic peels"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Microcurrent facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Pigmentation problem treatments"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Salicylic peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Full body Red Light Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Weight Loss"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Lash extensions"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Lash lift & tint"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Classic lash extensions"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Volume lash extensions"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Mega lash extensions"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Hybrid lash extensions"
+        },
+        {
+          "category": "Eyelash salon",
+          "title": "Brow lamination"
+        },
+        {
+          "category": "Beauty Product Supplier",
+          "title": "Organic skin care"
+        },
+        {
+          "category": "Beauty Product Supplier",
+          "title": "Eminence Organic Skin Care"
+        },
+        {
+          "category": "Beauty Product Supplier",
+          "title": "European skin care"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "VADARA Med Spa - Mill Creek",
+      "description": "VADARA Medical Spa – Mill Creek | Botox, Fillers, Laser & Skincare\n\nExperience luxury and cutting-edge aesthetics at VADARA Medical Spa in Mill Creek. Our expert medical professionals specialize in Botox, Dermal Fillers, Laser Treatments (IPL, CO2, Hair Removal, Ablative Lasers, RF Microneedling), and medical-grade skincare including microneedling, facials, chemical peels, and PRF injections. We also offer wellness services like weight loss programs, peptides, supplements, and trigger point injections for total body rejuvenation. Enhance your beauty and confidence with customized treatments. Book your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "eyelash_salon",
+        "facial_spa",
+        "hair_removal_service",
+        "skin_care_clinic",
+        "spa",
+        "weight_loss_service"
+      ],
+      "additional_categories": [
+        "Eyelash salon",
+        "Facial spa",
+        "Hair removal service",
+        "Skin care clinic",
+        "Spa",
+        "Weight loss service"
+      ],
+      "cid": "3711771953065398936",
+      "feature_id": "0x5490072e3af4e503:0x3382dcecedb89298",
+      "address": "15224 Main St #300, Mill Creek, WA 98012",
+      "address_info": {
+        "address": "15224 Main St #300",
+        "city": "Mill Creek",
+        "zip": "98012",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJA-X0Oi4HkFQRmJK47ezcgjM",
+      "phone": "+1425-299-9379",
+      "url": "http://vadaraspa.com/",
+      "domain": "vadaraspa.com",
+      "logo": "https://lh5.googleusercontent.com/-zI_6mjA5kWc/AAAAAAAAAAI/AAAAAAAAAAA/X-63V0XHCcg/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnpt8tFt6knIynekr2ihiLrRdsBuRaR0ZXY0A6tdmj9H2jnUt-8BDwto_SfldM_L8EJ8PQ_mYKMT-d0LTTluW7B_m2i1RTfzLOAi3VVSseBTwRuIy0jbUN8wyaSVlLjQwtVFz9d=w426-h240-k-no",
+      "total_photos": 726,
+      "snippet": "15224 Main St #300, Mill Creek, WA 98012",
+      "latitude": 47.859,
+      "longitude": -122.221,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "lip filler": 33,
+        "injector": 29,
+        "gentle injections": 6,
+        "friendly front desk": 10,
+        "skin treatments": 8,
+        "forehead injections": 2,
+        "lip flip": 7,
+        "brow lift": 2,
+        "spotless": 6,
+        "no pressure sales": 4
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 607
+      },
+      "rating_distribution": {
+        "1": 6,
+        "2": 1,
+        "3": 0,
+        "4": 2,
+        "5": 598
+      },
+      "people_also_search": [
+        {
+          "cid": "13684047056340670398",
+          "feature_id": "0x0:0xbde7804beaea57be",
+          "title": "Sound Aesthetics & Spa, LLC",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 33
+          }
+        },
+        {
+          "cid": "6206270256433554706",
+          "feature_id": "0x0:0x562119ea7ecb6512",
+          "title": "Frontier Dermatology Aesthetics (Mill Creek)",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 395
+          }
+        },
+        {
+          "cid": "3219493532121168013",
+          "feature_id": "0x0:0x2cadf04f52bff88d",
+          "title": "Mill Creek Skin & Laser Center - MedSpa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 281
+          }
+        },
+        {
+          "cid": "991692693979394358",
+          "feature_id": "0x0:0xdc333403efdf136",
+          "title": "Universal Glow",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 24
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "vadaraspa.com",
+          "url": "https://vadaraspa.com/pricing-1"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14252999379",
+          "source": "google_business"
+        },
+        {
+          "type": "mail",
+          "value": "vadara@vadaraspa.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=3711771953065398936&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 20:05:15 +00:00",
+      "first_seen": "2024-08-04 13:22:39 +00:00",
+      "services": [
+        {
+          "category": "Our services",
+          "title": "Botox (and similar Brands)",
+          "snippet": "Erase fine lines and wrinkles with Botox, Dysport, Letybo or Xeomin  Price $14 per unit"
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Aesthetic Treatments (All injectable services i.e. Botox, Filler, etc.) (In-Person Only)",
+          "snippet": "If you do not want a service at this time but would like to discuss service options"
+        },
+        {
+          "category": "Our services",
+          "title": "Botox Migraine Injections"
+        },
+        {
+          "category": "Our services",
+          "title": "Botox Pain Injections",
+          "snippet": "Target chronic pain and tension with Botox injections designed for therapeutic relief.  Common areas treated include: Plantar Fasciitis – ease foot pain and improve mobility. Trapezius & Neck Tension – relieve tightness and discomfort in the shoulders and neck. Joints – address localized pain for improved function and comfort.  These treatments work by relaxing specific muscles and reducing nerve-related pain, helping you move more comfortably and feel better day to day."
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Weight Loss (Virtual)",
+          "snippet": "VIRTUAL APPOINTMENT. Meet one of our medical practitioners to learn about our weight loss program. This consultation costs $100 and this fee will be applied to your first month's membership fee.",
+          "price": {
+            "current": 100,
+            "currency": "USD",
+            "displayed_price": "$100.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Chemical Peel (BioRePeel)",
+          "snippet": "This is a no-downtime chemical peel that exfoliates, hydrates and stimulates collagen. No peeling afterwards, just the glow. Enjoy on its own or ADD ON to a microneedling treatment for even better results",
+          "price": {
+            "current": 300,
+            "currency": "USD",
+            "displayed_price": "$300.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Functional Medicine",
+          "price": {
+            "current": 250,
+            "currency": "USD",
+            "displayed_price": "$250.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Hormone Blood Draw (MANDATORY)",
+          "snippet": "A blood draw MUST be booked 7 days prior to a hormone consultation for new and existing clients."
+        },
+        {
+          "category": "Our services",
+          "title": "Weight Loss Check In (Virtual)"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- YAG (Spider veins, cherry angiomas)",
+          "snippet": "This laser is intended for superficial veins, angiomas and telangiectasia on the face, neck, and chest. It is not intended for varicose veins. Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (LASER YAG)"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Extensions: 1 Hour Fill",
+          "snippet": "This is an hour long fill and is recommended if it has been 2 weeks or less since your last fill or full set. Classic, Hybrid, Volume or custom lashes. Price ranges from $70-$100"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Extensions: Full Set",
+          "snippet": "Lashes are applied to each natural lash creating a customized look. Please also book this if it has been longer than 4 weeks since last fill. Classic, Hybrid, Volume or Custom lash styles available. Price ranges from $150-$200"
+        },
+        {
+          "category": "Our services",
+          "title": "Weight Loss Check In (In-Person)"
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Wellness (Virtual) (All Peptides: Methylene Blue, NAD+, Sermorelin etc.)"
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Wellness (In-person) (All Peptides: Methylene Blue, NAD+, Sermorelin etc.)"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Tint",
+          "snippet": "A semi-permanent dye applied to the natural lashes to make them appear darker, fuller and more defined.",
+          "price": {
+            "current": 30,
+            "currency": "USD",
+            "displayed_price": "$30.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Facial- Medical Grade (1 hour duration)",
+          "snippet": "Our Medical Grade Spa Facials are meticulously designed to rejuvenate, restore, and revitalize your skin, using advanced techniques and cutting-edge products. Each facial includes a double cleanse, dermaplaning, extractions (if needed), a light chemical peel, light massage (shoulders, neck and scalp) and medical grade finishing products.",
+          "price": {
+            "current": 225,
+            "currency": "USD",
+            "displayed_price": "$225.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Facial-Exfoliate and Hydrate (1 hour duration)",
+          "snippet": "Reveal smoother, softer and more radiant skin with this results driven treatment that pairs gentle exfoliation with deep hydration. Choose between professional dermaplaning or a physical exfoliation to remove dull, dead skin cells and improve product absorption. Each exfoliate and hydrate facial includes a double cleanse, dermaplaning or physical exfoliation, light massage (shoulders, neck and scalp) and medical grade finishing products.",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "$150.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Functional Medicine Check in"
+        },
+        {
+          "category": "Our services",
+          "title": "PDGF Injections Full Face",
+          "snippet": "PDGF is a highly concentrated bioactive protein that stimulates cell growth, accelerates tissue repair, and enhances collagen production. Unlike PRF or PRP, which rely on your own blood to extract growth factors, PDGF is lab-purified and far more potent in its ability to regenerate and repair the skin at a cellular level. This powerful treatment boosts fibroblast activity, leading to increased collagen and elastin production, which is essential for youthful, firm, and healthy skin.",
+          "price": {
+            "current": 1999,
+            "currency": "USD",
+            "displayed_price": "$1,999.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Functional Medicine Follow up"
+        },
+        {
+          "category": "Our services",
+          "title": "PDGF Injections Scalp",
+          "snippet": "PDGF stimulates dormant hair follicles, improves scalp circulation, and enhances hair regrowth more effectively than traditional PRP treatments. Best for thinning hair, hair loss, male and female pattern baldness, strengthening and thickening existing hair",
+          "price": {
+            "current": 1500,
+            "currency": "USD",
+            "displayed_price": "$1,500.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Weight Loss (In-Person)",
+          "snippet": "IN PERSON APPOINTMENT. Meet one of our medical practitioners to learn about our weight loss program. This consultation costs $100 and this fee will be applied to your first month's membership fee."
+        },
+        {
+          "category": "Our services",
+          "title": "Advanced Bio-Cellular IV Treatment"
+        },
+        {
+          "category": "Our services",
+          "title": "Hormone Therapy Follow up (Virtual)"
+        },
+        {
+          "category": "Our services",
+          "title": "IV Therapy",
+          "snippet": "IV therapy delivers hydration, vitamins, minerals, and antioxidants directly into the bloodstream for fast absorption and noticeable results. Ideal for boosting energy, supporting immunity, enhancing recovery, and improving overall wellness.  Options include: • Myers’ Cocktail • Hangover Cocktail • Glutathione Drip"
+        },
+        {
+          "category": "Our services",
+          "title": "Ultrasound Guided Dissolving",
+          "snippet": "A safe, precise treatment that uses advanced ultrasound imaging to locate and dissolve unwanted dermal filler with Hylenex (hyaluronidase)."
+        },
+        {
+          "category": "Our services",
+          "title": "Advanced Bio-Cellular Full Face Treatment"
+        },
+        {
+          "category": "Our services",
+          "title": "Advanced Bio-Cellular Treatment (single area)"
+        },
+        {
+          "category": "Our services",
+          "title": "Advanced Bio-Cellular Scalp Treatment"
+        },
+        {
+          "category": "Our services",
+          "title": "IV Therapy Add-On",
+          "snippet": "Enhance your IV therapy with targeted add-ons to customize your treatment and maximize results.  Available Add-Ons: • B-12 • Zofran • Toradol • Glutathione"
+        },
+        {
+          "category": "Our services",
+          "title": "Hormone Therapy Follow up (in person)"
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation- Hormone Therapy (virtual)",
+          "snippet": "A blood draw MUST be booked 7 days prior to a hormone consultation for new and existing clients. Service is bookable in square as \"Hormone Blood Draw\".",
+          "price": {
+            "current": 200,
+            "currency": "USD",
+            "displayed_price": "$200.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation- Hormone Therapy (In-Person)",
+          "snippet": "A blood draw MUST be booked 7 days prior to a hormone consultation for new and existing clients. Service is bookable in square as \"Hormone Blood Draw\".",
+          "price": {
+            "current": 200,
+            "currency": "USD",
+            "displayed_price": "$200.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Radiesse Refresher/Targeted Area Treatment",
+          "price": {
+            "current": 900,
+            "currency": "USD",
+            "displayed_price": "$900.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Lift",
+          "snippet": "A semi-permanent treatment that enhances the natural lashes by lifting and curling them, creating a more open-eyed and lifted appearance",
+          "price": {
+            "current": 90,
+            "currency": "USD",
+            "displayed_price": "$90.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- CO2 Hand Rejuvenation/Resurfacing",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (LASER CO2 HAND RESURFACING)"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- CO2 Laser Resurfacing (Gentle: Coolpeel/Micropeel)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. A More gentle CO2 resurfacing. Expect 1-2 days of downtime.  All appointments come with a complimentary consultation. Please only book this service if you are positive you want a laser treatment. Otherwise, start with a complimentary consultation.  **There may be an additional charge if eye shields are necessary for your treatment**"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Extension Removal",
+          "price": {
+            "current": 40,
+            "currency": "USD",
+            "displayed_price": "$40.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- CO2 Laser Resurfacing (Aggressive or Medium Strength)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. Our most aggressive resurfacing laser. Expect 7 days of downtime. Choose Aggressive or Medium at your appointment.  Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  **There may be an additional charge if eye shields are necessary for your treatment**"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Erbium Laser Resurfacing (Gentle Strength)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. This is an aggressive resurfacing laser but only requires 2-3 days of downtime.  Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!   **There may be an additional charge if eye shields are necessary for your treatment**"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Erbium Laser Resurfacing (Aggressive or Medium)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. Our second most aggressive resurfacing laser. Expect 5-7 days of downtime. Choose between aggressive or medium strength at your appointment.  Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!   **There may be an additional charge if eye shields are necessary for your treatment**"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Extensions: 30 Minute Fill",
+          "snippet": "This is a 30 min appointment and is recommended if it has been 1 week or less since your last fill or full set. Price ranges from $50-$60"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Hair Removal Small Area ( i.e. upper lip) (Regular)",
+          "snippet": "Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (LASER HAIR REMOVAL SMALL AREA)"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- IPL Laser Treatment (any area)",
+          "snippet": "Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  Please specify in booking note if this is for multiple areas."
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Tattoo Removal (Consultation Required)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. <20cm square area A complimentary consultation is required prior to booking this laser treatment.  (LASER TATTOO REMOVAL)"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Hair Removal Medium Area (i.e. half arms) (Regular)",
+          "snippet": "Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (LASER HAIR REMOVAL MEDIUM AREA)"
+        },
+        {
+          "category": "Our services",
+          "title": "Laser- Hair Removal Large Area (i.e. Full Bikini) (Regular)",
+          "snippet": "Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (LASER HAIR REMOVAL LARGE AREA)"
+        },
+        {
+          "category": "Our services",
+          "title": "Lash Lift + Tint",
+          "price": {
+            "current": 115,
+            "currency": "USD",
+            "displayed_price": "$115.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Microneedling (face OR neck)",
+          "snippet": "Microneedling, also known as collagen induction therapy, creates controlled micro-injuries to the skin. At Vadara, we provide a medical grade microneedling service (penetrates deeper) for ultimate results and collagen production. This stimulate the body’s natural wound-healing process. As the skin heals from these micro-wounds, new collagen is created and scar tissue is broken up. The result is a smoother, tighter skin tone with a decreased appearance of wrinkles and many more benefits. Package of 3 for $900"
+        },
+        {
+          "category": "Our services",
+          "title": "Microneedling with Growth Factors",
+          "snippet": "Microneedling with growth factors boosts collagen production while speeding up healing and reducing downtime. This treatment further improves skin texture, tone, fine lines, and scarring while promoting faster recovery and healthier, more radiant skin.  Growth Factor Options: • PRF • PDGF • Human BioCells • PDRN"
+        },
+        {
+          "category": "Our services",
+          "title": "Chemical Peel",
+          "price": {
+            "current": 400,
+            "currency": "USD",
+            "displayed_price": "$400.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Microneedling: Add on Décolleté",
+          "price": {
+            "current": 175,
+            "currency": "USD",
+            "displayed_price": "$175.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "PRF Injections (Scalp) for Hair Loss",
+          "snippet": "Inject PRF in the scalp to stimulate hair growth",
+          "price": {
+            "current": 1000,
+            "currency": "USD",
+            "displayed_price": "$1,000.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "PDGF Injections (single area)",
+          "snippet": "ex. neck, under-eyes, etc.."
+        },
+        {
+          "category": "Our services",
+          "title": "Filler and Botox",
+          "snippet": "Book if you want Dermal Filler and Botox at the same appointment"
+        },
+        {
+          "category": "Our services",
+          "title": "PRF Injections (single area)",
+          "snippet": "ex. neck, under-eyes, etc..",
+          "price": {
+            "current": 550,
+            "currency": "USD",
+            "displayed_price": "$550.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Botox 2 Week Followup",
+          "snippet": "Book this service if you need a few more units from your last appointment"
+        },
+        {
+          "category": "Our services",
+          "title": "Kybella",
+          "snippet": "Dissolve under chin fat (double chin)",
+          "price": {
+            "current": 1300,
+            "currency": "USD",
+            "displayed_price": "$1,300.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Lip Filler"
+        },
+        {
+          "category": "Our services",
+          "title": "Radiesse Treatment",
+          "snippet": "Select this option for full face, neck or chest Radiesse treatment.",
+          "price": {
+            "current": 1700,
+            "currency": "USD",
+            "displayed_price": "$1,700.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Dermal Filler (more than one location on face)",
+          "snippet": "Choose this service if interested in fillers for more than one area of the face."
+        },
+        {
+          "category": "Our services",
+          "title": "Lip Flip",
+          "snippet": "Add subtle height to your lips with a lip flip",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "$150.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Sculptra® CHEST, FACE or NECK Treatment (single area)"
+        },
+        {
+          "category": "Our services",
+          "title": "Dermal Filler (1 area of face)",
+          "snippet": "Choose this service if you want dermal filler in one location (ie cheeks, jaw, chin, tear troughs, lips, etc.)"
+        },
+        {
+          "category": "Our services",
+          "title": "PRF Full Face Rejuvenation",
+          "snippet": "This treatment is ideal for those looking for a natural alternative to fillers and traditional facelift procedures. It delivers a subtle yet noticeable lift, tighter skin, and a reduction in the signs of aging without the need for synthetic substances or surgery.",
+          "price": {
+            "current": 1500,
+            "currency": "USD",
+            "displayed_price": "$1,500.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Sculptra® NECK & CHEST (Décolleté) treatment"
+        },
+        {
+          "category": "Our services",
+          "title": "Sculptra BOOTY LIFT or HIP DIPS (single area)",
+          "snippet": "Starts at $4400"
+        },
+        {
+          "category": "Our services",
+          "title": "Radio Frequency Microneedling RFMN (face or body)",
+          "snippet": "If you are having trouble finding an appointment, please give us a call at 425-299-9379. Book this only if you are committed to getting the service, if unsure, please book a Laser Consultation instead. Thank you!  (RADIO FREQUENCY MICRONEEDLING)"
+        },
+        {
+          "category": "Our services",
+          "title": "Vaginal Wellness Shot",
+          "snippet": "This treatment is a cutting-edge regenerative therapy designed to enhance vaginal health and clitoral sensitivity. This non-surgical procedure uses Platelet-Rich Fibrin (PRF), a natural concentrate from your own blood, or other variations of growth factors to rejuvenate the intimate areas, boost sexual wellness, and improve overall comfort."
+        },
+        {
+          "category": "Our services",
+          "title": "Skincare Routine & Treatment Building",
+          "snippet": "A personalized, 30-minute consultation with one of our estheticians to assess your skin and build a customized at-home routine. Includes product recommendations, treatment suggestions, and simple education tailored to your skin goals. Receive 10% off when you purchase 2 or more skincare products."
+        },
+        {
+          "category": "Our services",
+          "title": "Nano Renew Eye Therapy With PRF",
+          "snippet": "Indulge in our exclusive Nano Renew Eye Therapy with PRF. This treatment is designed to rejuvenate and revitalize your delicate eye area. Harnessing the power of PRF technology, this treatment offers remarkable anti-aging benefits, leaving your skin looking radiant and youthful. This treatment includes nano needling with PRF along with PRF under eye injections. Pairing these together results in the ultimate under eye renewal."
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation- All Laser Services & Radiofrequency Microneedling (In-Person Only)"
+        },
+        {
+          "category": "Our services",
+          "title": "Dissolver",
+          "snippet": "This service costs $300/vial of hylenex.",
+          "price": {
+            "current": 300,
+            "currency": "USD",
+            "displayed_price": "$300.00"
+          }
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation Pain Services (Trigger Point Injections, TMJ Pain Relief, Plantar Fasciitis Treatments.) (In-Person Only)"
+        },
+        {
+          "category": "Our services",
+          "title": "Consultation- Joint Injection",
+          "snippet": "(MUST BE BOOKED PRIOR TO THE JOINT INJECTION APPOINTMENT) This is a required $150 ultrasound assessment appointment. Please  bring any previous imaging from past appointments if you have them. Your $150 deposit will apply towards the service cost.",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "$150.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Natural Rejuvenation MedSpa",
+      "description": "We rejuvenate by capitalizing on the body's ability to heal and repair using cutting edge technology like Infini Rfmicroneedling with PRF for wrinkles, sagging, hair restoration, scars; PDO Threadlift, best nonsurgical facelift with Tornado or Barb Threads, LaseMD Glo Therapy for melasma, hyperpigmentation and age spots; Joule HALO laser,TritonLaserHairRemoval, Morpheus8, Bodytite, Facetite Accutite, Ultherapy Prime ,Body contouring modalities like cryolipolysis fat freezing, High Intense Focused Ultrasound, Body Lipolysis Injections, Radio Frequency, Lipo Laser , Body FX, cellulite reduction and skin tightening, mini fx for double chin reduction and smaller fat pockets, forma plus for skin tightening and Thermiva for vaginal rejuvenation",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Skin care clinic"
+      ],
+      "cid": "12006406980622923120",
+      "feature_id": "0x54906ce81856517d:0xa69f538944ccb570",
+      "address": "2320 130th Ave NE Building E, Suite 120, Bellevue, WA 98005",
+      "address_info": {
+        "borough": "Bridle Trails",
+        "address": "2320 130th Ave NE Building E, Suite 120",
+        "city": "Bellevue",
+        "zip": "98005",
+        "region": "Washington",
+        "country_code": "US"
+      },
+      "place_id": "ChIJfVFWGOhskFQRcLXMRIlTn6Y",
+      "phone": "+1425-281-4325",
+      "url": "https://www.naturalrejuvenationmedspa.com/",
+      "domain": "www.naturalrejuvenationmedspa.com",
+      "logo": "https://lh6.googleusercontent.com/-phDNLJasvaI/AAAAAAAAAAI/AAAAAAAAAAA/CCtVHm2nw4Q/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmICSKUIg7aNL1X0C0398jvwFqJDQfUAJosSfJOUW9OVFrxUldhwOfowYReX_ifaKhS1lyBTWe89x4J_KJ3cYuvApPGKzjq52nOgBxicnrIumZgwsDY7XaoMKtmBob5ihxBSf6gkA=w427-h240-k-no",
+      "total_photos": 221,
+      "snippet": "2320 130th Ave NE Building E, Suite 120, Bellevue, WA 98005",
+      "latitude": 47.631,
+      "longitude": -122.165,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_asian",
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_check",
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_onsite_parking"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "microdermabrasion": 53,
+        "laser lipo": 18,
+        "double chin reduction": 13,
+        "ultrasonic cavitation": 12,
+        "skin tightening": 13,
+        "acne scars": 10,
+        "hyperpigmentation treatment": 7,
+        "knowledgeable owner": 11,
+        "total skin repair": 3,
+        "bodyfx": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 586
+      },
+      "rating_distribution": {
+        "1": 19,
+        "2": 1,
+        "3": 1,
+        "4": 18,
+        "5": 547
+      },
+      "people_also_search": [
+        {
+          "cid": "597367552068051415",
+          "feature_id": "0x0:0x84a469fa55c61d7",
+          "title": "Dermajuvenate Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1
+          }
+        },
+        {
+          "cid": "15896103120877811777",
+          "feature_id": "0x0:0xdc9a4d9138e67841",
+          "title": "Lévy Aesthetics Medical Spa, Salon & Spa at Bay Club",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 568
+          }
+        },
+        {
+          "cid": "8563913768517905630",
+          "feature_id": "0x0:0x76d92232eb962cde",
+          "title": "Skinnovate",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 23
+          }
+        },
+        {
+          "cid": "17099338968264463541",
+          "feature_id": "0x0:0xed4d0e320965d4b5",
+          "title": "Serenity Rejuvenation Center - Bellevue Medical Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 384
+          }
+        },
+        {
+          "cid": "110274037556416117",
+          "feature_id": "0x0:0x187c5a7247f8e75",
+          "title": "Muse Medspa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 192
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "naturalrejuvenationmedspa.com",
+          "url": "https://naturalrejuvenationmedspa.com/services/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "4252814325",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+14252814325",
+          "source": "google_business"
+        },
+        {
+          "type": "mail",
+          "value": "info@naturalrejuvenationmedspa.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12006406980622923120&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 21:43:05 +00:00",
+      "first_seen": "2024-07-25 08:48:31 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring",
+          "snippet": "Body sculpting is a noninvasive treatment that slims down, tones and defines the body."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic surgery"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cryotherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermaplaning"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "EmSculpt treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal",
+          "snippet": "Triton offers high powered hair removal. The world’s first multi-wavelength workstation, the Triton is the only hair removal option that combines the three most popular wavelengths in one platform, using Fusion Technology, to address up to skin type VI."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Liposuction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Massage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider vein treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ultherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vampire facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vitalize Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "ACCUFIT™ Muscle Activation",
+          "snippet": "The accuracy and control of targeted muscle activation treatments is intelligently designed to deliver direct muscle activation for an improved aesthetic appearance. Precisely controlled energy flows through the selected muscle triggering a variety of responses depending on the chosen treatment mode"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Accufit"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Acne Scar Smoothing",
+          "snippet": "LaseMD fractional laser treatments rapidly resurface your skin, improving texture and enhancing brightness without surgery. A resurfacing treatment with LaseMD can remove years of damage to leave you with glowing, revitalized skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Acne Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Anti-aging Facials, Acne Management, (LED)Light Emitting Diode treatment, Ultrasonic Scrubber"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BODYtite",
+          "snippet": "BODYtite is a minimally invasive device for body contouring delivering fat coagulation results previously only achieved through excisional procedures. Exceptional skin, tissue, and collagen remodeling to improve skin appearance and reduce irregularities."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Belly Lift",
+          "snippet": "A thread lift procedure is performed by using very thin threads or sutures in the skin to lift and firm as a cosmetic rejuvenation alternative to surgery."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Biologic & Microneedling Hair Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body Contouring & Fat Reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body FX for Fat Removal, Body Contouring with Fat Freezing, lipo laser, cavitation, body peels, hifu, radio frequency"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body FX, Mini FX, Forma Plus"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BodyFX Face and Body Contouring",
+          "snippet": "BodyFX uses radio-frequency energy to apply heat to the skin and underlying fat. Then, the vacuum and controlled energy pulses work synergistically to provide beautiful body shaping results."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Breast Lift",
+          "snippet": "Threadlifting is a minimally invasive procedure, designed to lift and tighten the breast tissue to reduce the visible signs of aging without surgery."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Brow Lift",
+          "snippet": "PDO brow lift procedure is a minimally invasive alternative to facelift surgery. Threadlifts tighten your skin by inserting medical-grade thread material into your face and then pulling your skin up by tightening the thread."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Carbon Laser Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CryoProbe Lesion Removal",
+          "snippet": "Permanent removal of small to large benign skin lesions, painlessly and in a single treatment session. Surrounding skin tissue is left undamaged. No special preparation, anesthetic or after-treatment needed."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cryolipolysis Fat Freezing",
+          "snippet": "Cryolipolysis, commonly referred to as fat freezing, is a nonsurgical fat reduction procedure that uses cold temperature to reduce fat deposits in certain areas of the body. The procedure is designed to reduce localized fat deposits or bulges that do not respond to diet and exercise."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Diamond Peel Microdermabrasion with Massage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Electrocauterization Lesion Removal",
+          "snippet": "Electrocauterization is a routine surgical procedure. In treatment of a tumor or wart, all abnormal tissue growth will be removed. The heat from the probe sterilizes the site and there’s typically no need for stitches."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Epidermal Redness Repair",
+          "snippet": "LaseMD is a gentle laser that rejuvenates skin, reducing pigment and fine lines to give it a brighter tone and improved texture. Reveal softer, clearer skin with LaseMD for anti-aging, age spots, sun spots, freckles, pigment reduction, actinic keratosis, décolleté care and mild/moderate sun damage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "FACEtite",
+          "snippet": "FACEtite is a minimally invasive, radiofrequency treatment for contouring skin and tissue, as well as coagulating fat, on the face and neck, including eyebrows, eyes, mouth and jawline, in a single session."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facelift",
+          "snippet": "PDO facelift procedure is a minimally invasive alternative to surgery. Threadlifts tighten your skin by inserting medical-grade thread material into your face and then pulling your skin up by tightening the thread."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facelift and Dermal Repair",
+          "snippet": "RF Microneedling to reduce wrinkles, scarring, and sagging skin. Collagen induction with stem cell therapy and 3-dimensional volumizing wrinkle reduction using mechanical handheld RF Microneedle device."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facial Treatments and Peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Forma Plus Skin Tightening",
+          "snippet": "InMode’s body treatments provide contouring solutions to tone and remodel all areas of your body. The treatments use radiofrequency energy to coagulate fat, tone muscles, remodel skin and address cellulite and imperfections such as vascular lesions, spider veins, port wine stains, and leg veins."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Freckles and Sun Spot Reduction",
+          "snippet": "LaseMD is a gentle laser that rejuvenates skin, reducing pigment and fine lines to give it a brighter tone and improved texture. Reveal softer, clearer skin with LaseMD for anti-aging, age spots, sun spots, freckles, pigment reduction, actinic keratosis, décolleté care and mild/moderate sun damage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hair Growth Treatments",
+          "snippet": "Treatments stimulate cellular activity in your hair follicles to minimize further hair loss and help promote regrowth. Hair therapy is meant for men and women with all lengths of hair who are noticing thinning or hair loss."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hair Loss Mesotherapy",
+          "snippet": "Hair Mesotherapy is a technique involving injections being administered directly into the scalp. Platelet-Rich Plasma (PRP) can be injected at the level of the hair follicles to promote hair growth and prevent hair loss."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hair Removal Treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Halo corrective solution, LaseMD glow",
+          "snippet": "HALO™ is a Hybrid Fractional Laser that delivers non-ablative + ablative wavelengths to a targeted treatment area. Through HALO®’s process of “dermal remodeling,” pigmented lesions can be removed for an enhanced skin smoothness."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HiFEM Sculpting and Toning",
+          "snippet": "HiFem fat loss and development of muscles uses High Intensity Focused Electro-Magnetic Energy to sculpt and tone. Non-invasive electrical stimulation of the musculature to induce supramaximal contractions in the treatment zone."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HiFU Fat Reduction and Skin Tightening",
+          "snippet": "High intense focused ultrasound (HIFU) fat reduction offers a unique non-invasive method of damaging fat cells through ultrasonic, radio frequency energy, which are then removed naturally through the body’s lymphatic system."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Infini RF Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "KeraLase Thinning Hair Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "LaseMD, INFINI RFmicroneedling with PRP"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Lipo Body Contouring",
+          "snippet": "Noninvasive laser lipo, and it relies on laser energy instead of incisions to slim the body quickly and with minimal effort on the part of the patient."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip Plumping",
+          "snippet": "Lip threading is a nonsurgical procedure which uses small dissolvable threads to smooth out fine lines around your mouth and boost collagen production, which may reduce wrinkling in the future."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "MiniFX Face and Body Contouring",
+          "snippet": "Tightens and tones dimpled skin in the chin, neck, arms and more. Best treatment for reducing double chin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Mole, Wart and Skin Tag Removal",
+          "snippet": "Skin lesions are bumps such as moles, cysts, warts or skin tags. Most are benign (non-cancerous), but they can be painful, unsightly or restrict movement; you may want to have them removed. Most skin lesions do not cause serious problems, but you may want to have them removed for practical or cosmet"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Morpheus8 for skin remodelling",
+          "snippet": "Morpheus8 is a minimally invasive Subdermal Adipose Remodeling Device (SARD) that delivers customizable full body fractional treatments, designed to remodel collagen and coagulate adipose tissue."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Non-Surgical Brazilian Butt Lift",
+          "snippet": "Non-surgical butt lift is a treatment that lifts and tones the butt. Our treatment is different because we use AccuFit + HIFEM to achieve the best results. This combination of treatments work together to stimulate muscle cells in order to grow the butt."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PDO Threadlift"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PDO Threadlifts"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Pigmentation Correction",
+          "snippet": "LaseMD is a gentle laser that rejuvenates skin, reducing pigment and fine lines to give it a brighter tone and improved texture. Reveal softer, clearer skin with LaseMD for anti-aging, age spots, sun spots, freckles, pigment reduction, actinic keratosis, décolleté care and mild/moderate sun damage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Platelet-Rich Plasma Treatments",
+          "snippet": "Platelet-rich plasma (PRP) injections are based on your own healing blood and target signs of aging. Plasma is the liquid part of your blood that’s mostly made of water and protein. It lets red and white blood cells and platelets move through your bloodstream. Platelets are a type of blood cell that"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Radio Frequency Skin Tightening",
+          "snippet": "Radio frequency skin tightening is a non-ablative procedure that helps to stimulate collagen and elastin to contract and tighten skin fibers. It’s a gentle and non-invasive approach that stimulates the body’s own natural processes without the use of toxins or needles."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Redness and Rosacea Correction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Scar Modification"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Scar and Angioma Modification"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Resurfacing"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "SkinPen Precision Microneedling",
+          "snippet": "When it comes to beautiful skin, the smallest things can make the biggest difference. In as few as three treatments, SkinPen Precision can improve your complexion, improve the appearance of wrinkles on the neck, and improve the appearance of acne scars."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skinmedica Peels®",
+          "snippet": "Professional grade, deep chemical peels that aggressively treat sun damage, melasma, acne scarring and fine wrinkles in as little as just one application."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider Vein Removal",
+          "snippet": "A new generation of laser technology that transforms your skin in minutes with no downtime. Remove spider veins, the thin red lines or weblike networks of blood vessels that appear on your legs and feet."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Stretch Mark Treatment",
+          "snippet": "RF Microneedling to reduce wrinkles, scarring, and sagging skin. Collagen induction with stem cell therapy and 3-dimensional volumizing wrinkle reduction using mechanical handheld RF Microneedle device."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Therapeutic Massage"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "ThermiVa Women's Wellness®"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Thermiva For Vulvovaginal Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Total Skin Repair",
+          "snippet": "We offer custom packages which can include Microdermabrasion, Peels, HIFU, and Lasers, perfectly tailored to your skin concerns."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Triton Hair Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Triton Laser Hair Removal",
+          "snippet": "Triton offers high powered hair removal. The world’s first multi-wavelength workstation, the Triton is the only hair removal option that combines the three most popular wavelengths in one platform, using Fusion Technology, to address up to skin type VI."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ultrasonic Cavitation Cellulite Removal",
+          "snippet": "This simple procedure relies on sound waves to flush fat from the body instead of intensive surgery. It is a new, non-surgical and non-invasive fat removal procedure."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vaginal Tightening Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vbeam Candela for Port Wine and Vascular Issues"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wrinkle Reduction",
+          "snippet": "RF Microneedling to reduce wrinkles, scarring, and sagging skin. Collagen induction with stem cell therapy and 3-dimensional volumizing wrinkle reduction using mechanical handheld RF Microneedle device."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wrinkle Reduction and Skin Tightening",
+          "snippet": "LaseMD is a gentle laser that rejuvenates skin, reducing pigment and fine lines to give it a brighter tone and improved texture. Reveal softer, clearer skin with LaseMD for anti-aging, age spots, sun spots, freckles, pigment reduction, actinic keratosis, décolleté care and mild/moderate sun damage"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Natural Rejuvenation Program"
+        }
+      ]
+    }
+  ]
+}

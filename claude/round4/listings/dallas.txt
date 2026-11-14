@@ -1,0 +1,4949 @@
+{
+  "id": "11141841-1230-0544-0000-60cb148c0aa5",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 765,
+  "items": [
+    {
+      "type": "business_listing",
+      "title": "Kalós & Muse Nails - Cafe - MedSpa",
+      "description": "Discover a 13,000 sq ft urban sanctuary that offers a luxurious Nails Boutique, a revitalizing Medspa, and the delightful Muse Café. Step away from the daily grind and immerse yourself in a holistic, multi-sensory journey crafted for your ultimate relaxation and self-care.",
+      "category": "Nail salon",
+      "category_ids": [
+        "nail_salon",
+        "cafe",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Cafe",
+        "Medical spa"
+      ],
+      "cid": "7302895876340335662",
+      "feature_id": "0x864c218a1706d22f:0x6559191b6cee442e",
+      "address": "101 S Coit Rd Ste 20, Richardson, TX 75080",
+      "address_info": {
+        "address": "101 S Coit Rd Ste 20",
+        "city": "Richardson",
+        "zip": "75080",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJL9IGF4ohTIYRLkTubBsZWWU",
+      "phone": "+1972-848-5319",
+      "url": "http://www.kalosmuse.com/?utm_campaign=gmb",
+      "domain": "www.kalosmuse.com",
+      "logo": "https://lh5.googleusercontent.com/-qHnMZVCgzWk/AAAAAAAAAAI/AAAAAAAAAAA/yM5lhLcA85c/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/grass-cs/ACvplmP7Xg8Un2y9vF5man2BlNbHgQLqI2KMC28q1WTgMCxj2QH3NjrvXsAGkPYylO0ox8yTzZx-AxNkPW8YYM_PRB8IxWZQZVGNro5UAM57y_J5FYAqTaAYpXcCDIz5mflw-Ge_L8kB=w408-h480-k-no",
+      "total_photos": 1287,
+      "snippet": "101 S Coit Rd Ste 20, Richardson, TX 75080",
+      "latitude": 32.95,
+      "longitude": -96.767,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "serves_alcohol"
+          ],
+          "amenities": [
+            "has_restroom",
+            "has_wi_fi"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "recommends_appointment",
+            "accepts_walk_ins"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "children": [
+            "welcomes_children"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "boba": 66,
+        "gel x nails": 19,
+        "builder gel": 21,
+        "aloe vera pedicure": 9,
+        "kind staff": 128,
+        "foot massage": 13,
+        "complimentary drinks": 31,
+        "dip nails": 9,
+        "nail tech": 144,
+        "wedding nails": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1702
+      },
+      "rating_distribution": {
+        "1": 56,
+        "2": 19,
+        "3": 16,
+        "4": 26,
+        "5": 1585
+      },
+      "people_also_search": [
+        {
+          "cid": "12984846460537115611",
+          "feature_id": "0x0:0xb433710f274d93db",
+          "title": "Ooh La La Nail Bar",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 368
+          }
+        },
+        {
+          "cid": "17778829168128014359",
+          "feature_id": "0x0:0xf6bb16eea09fb817",
+          "title": "Karla X Cass Co.",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 5
+          }
+        },
+        {
+          "cid": "10418964558976600725",
+          "feature_id": "0x0:0x90979910792f4a95",
+          "title": "CANDLE NAIL SPA RICHARDSON",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 1108
+          }
+        },
+        {
+          "cid": "10429244662586812059",
+          "feature_id": "0x0:0x90bc1ec39d20269b",
+          "title": "nunu.da.artist",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 89
+          }
+        },
+        {
+          "cid": "8701449976539590880",
+          "feature_id": "0x0:0x78c1c2a6c27930e0",
+          "title": "HER Nail Bar",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 383
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 11
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              }
+            },
+            {
+              "time": {
+                "hour": 10
+              }
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 49
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 28
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 49
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 31
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 96
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "kalosmuse.com",
+          "url": "https://www.kalosmuse.com/menu"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+19723647009",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+19728485319",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=7302895876340335662&hl=en&gl=US",
+      "last_updated_time": "2026-09-24 15:50:40 +00:00",
+      "first_seen": "2026-09-24 15:50:40 +00:00",
+      "services": [
+        {
+          "category": "Nail Salon",
+          "title": "Acrylic nails"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Brazilian waxing"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Callus removal"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Dip powder"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Exfoliation"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Eyelash extensions"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Facial treatments"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "French manicures"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Gel manicures"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Hand & foot massages"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Kids' manicures"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Men's manicures"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail art"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail cut & filing"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail decals"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail designs"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail extensions"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail painting"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail polish changes"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Nail repair"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Pedicure"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Polish removal"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Sculpted nails"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Spa services"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Stiletto nails"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Synthetic nail removal"
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Waxing"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Dallas Center for Dermatology and Aesthetics",
+      "description": "Welcome to the Dallas Center for Dermatology and Aesthetics\n\nOur office is located on the third floor of the Preston Sherry Plaza building just ½ mile from the intersection of Northwest Highway and the Dallas North Tollway. Dallas/Fort Worth International Airport is just a short 15 to 20-minute drive away.\n\nWe welcome your questions and comments. Just use our online contact form or give our friendly office staff a call at (214) 225-0538.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Medical spa"
+      ],
+      "cid": "8087128818866469827",
+      "feature_id": "0x864c3cc489ff765f:0x703b40d0355c3bc3",
+      "address": "8201 Preston Rd #350, Dallas, TX 75225",
+      "address_info": {
+        "borough": "Park Cities",
+        "address": "8201 Preston Rd #350",
+        "city": "Dallas",
+        "zip": "75225",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJX3b_icQ8TIYRwztcNdBAO3A",
+      "phone": "+1214-631-7546",
+      "url": "https://www.dallascosmeticderm.com/?utm_source=google&utm_medium=local&utm_campaign=dallas-drstetler-website",
+      "domain": "www.dallascosmeticderm.com",
+      "logo": "https://lh4.googleusercontent.com/-E41yijlFwpQ/AAAAAAAAAAI/AAAAAAAAAAA/-U-5opjVU6A/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDdfdA2vMnqbvkgQuf7qTNNgxDg26RkOgrE7zi_LXjacQFfQZIux0EVGIwmBvGWh7z4YdWMM3XyAAKB8O-sSHf_Scy80oymJZF7O6qF1WVJ8Xc_29NtJ7n5mrrH4Vf7dj5hwedlx5TOy4=w408-h272-k-no",
+      "total_photos": 31,
+      "snippet": "8201 Preston Rd #350, Dallas, TX 75225",
+      "latitude": 32.863,
+      "longitude": -96.805,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_garage_paid",
+            "has_parking_lot_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "cosmetic treatments": 34,
+        "friendly staff": 338,
+        "caring staff": 115,
+        "botox": 14,
+        "fraxel": 9,
+        "wait time": 35,
+        "microneedling": 3,
+        "cyst removal": 3,
+        "natural look": 8,
+        "thoroughness": 50
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1364
+      },
+      "rating_distribution": {
+        "1": 28,
+        "2": 9,
+        "3": 7,
+        "4": 14,
+        "5": 1306
+      },
+      "people_also_search": [
+        {
+          "cid": "18268500943339098930",
+          "feature_id": "0x0:0xfd86c0d13a9d9332",
+          "title": "Dermatology Center of Dallas",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 636
+          }
+        },
+        {
+          "cid": "13016710027604826431",
+          "feature_id": "0x0:0xb4a4a4cdfba6993f",
+          "title": "North Dallas Dermatology Associates",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 1900
+          }
+        },
+        {
+          "cid": "16611257142107153299",
+          "feature_id": "0x0:0xe6870a5c4bf7a393",
+          "title": "Dallas Associated Dermatologists",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 2395
+          }
+        },
+        {
+          "cid": "6731704341971688903",
+          "feature_id": "0x0:0x5d6bd16ed42d5dc7",
+          "title": "Revival Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 415
+          }
+        },
+        {
+          "cid": "8756638672592340197",
+          "feature_id": "0x0:0x7985d47a625084e5",
+          "title": "U.S. Dermatology Partners Dallas Uptown",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1932
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 20,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 20,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "dallascosmeticderm.com",
+          "url": "https://www.dallascosmeticderm.com/?utm_source=google&utm_medium=local&utm_campaign=dallas-drstetler-menu"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12146317546",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=8087128818866469827&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 17:34:45 +00:00",
+      "first_seen": "2024-07-05 11:18:39 +00:00",
+      "services": [
+        {
+          "category": "Dermatologist",
+          "title": "Acne Treatment",
+          "snippet": "Acne treatment is a service that helps people manage and prevent acne, a common skin condition that affects people of all ages."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Various Skin Condition Treatment",
+          "snippet": "Various skin condition treatments are available to help people manage and prevent a variety of skin conditions, such as acne, eczema, and psoriasis."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Skin Cancer Treatment",
+          "snippet": "Skin cancer treatment is a service that helps people manage and prevent skin cancer, a type of cancer that develops in the skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Fraxel® Skin Resurfacing",
+          "snippet": "Fraxel addresses skin issues—fine lines, wrinkles, scarring, pigmentation, sun-induced redness, and some skin laxity—with minimal recovery time, setting it apart from other methods."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting®",
+          "snippet": "CoolSculpting® is a non-invasive body contouring treatment that utilizes controlled cooling to freeze and eliminate stubborn fat cells without surgery or downtime. This innovative procedure targets specific areas, such as the abdomen and flanks, effectively toning and reducing bulges."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Liquid Facelift",
+          "snippet": "A liquid facelift, employing nonsurgical treatments, offers a highly customizable solution for addressing cosmetic signs of aging on the face."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "SkinCeuticals®",
+          "snippet": "SkinCeuticals presents a range of vitamin-C formulations—topical serums with antioxidant properties that combat free radicals, thwart future aging signs, and restore skin elasticity and firmness. Additionally, SkinCeuticals provides a comprehensive line of sun protection suitable for all skin types."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CO2 Laser Resurfacing",
+          "snippet": "UltraPulse CO2 lasers effectively eliminate wrinkles, sun damage, and pigment irregularities while softening expression lines and scars—precision designed for optimal results."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal",
+          "snippet": "Laser hair removal is a non-invasive procedure that uses concentrated light to remove unwanted hair. The laser energy is absorbed by the pigment in the hair follicles, disabling the hair growth. This treatment offers long-term hair reduction and can be performed on various body areas."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HydraFacial",
+          "snippet": "HydraFacial is a gentle, non-invasive treatment that cleanses, exfoliates, and hydrates the skin. Using advanced vortex technology, HydraFacial delivers immediate, radiant results, addressing various skin concerns such as fine lines, congested pores, and uneven texture, leaving your skin refreshed"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring",
+          "snippet": "Body contouring services sculpt and shape the body to enhance appearance. Utilizing non-invasive and surgical techniques, such as liposuction and skin tightening, we customize treatments to target specific areas and provide natural-looking results."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Clear + Brilliant® Permea",
+          "snippet": "Clear + Brilliant's Perméa handpiece employs low-power laser energy, targeting millions of microscopic treatment zones in your skin. This stimulates the replacement of damaged cells with rejuvenated, healthy tissue, promoting a youthful appearance."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments",
+          "snippet": "Rediscover your natural, refreshed look with BOTOX treatments. FDA-approved to soften facial lines without surgery, our board-certified dermatologists excel at producing outstanding results. Experience a refreshed appearance without added downtime at Dallas Center for Dermatology and Aesthetics."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments",
+          "snippet": "JUVÉDERM treatments, a non-invasive solution for achieving youthful, natural-looking results. Using hyaluronic acid dermal fillers, JUVÉDERM smooths lines and adds volume, addressing wrinkles and enhancing facial contours."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "ZO® Skin Health",
+          "snippet": "Created by esteemed dermatologist Dr. Zein Obagi, ZO Skin Health products tackle skincare concerns at the cellular level, surpassing over-the-counter alternatives. These medical-grade solutions effectively address conditions like acne, scars, pigmentation, skin laxity, and deep wrinkles."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facials",
+          "snippet": "Revitalize your skin with rejuvenating facials, enhancing texture, diminishing age-related concerns, or simply achieving a radiant, healthy glow."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider vein treatments",
+          "snippet": "Spider vein treatments are non-invasive procedures designed to reduce or eliminate the appearance of spider veins, commonly found on the legs and face. Techniques such as sclerotherapy or laser therapy are often used to target and diminish these visible veins, promoting smoother and clearer skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels",
+          "snippet": "Revitalize your skin with medical grade chemical peels at Dallas Center for Dermatology and Aesthetics. Our expert dermatologists match each patient with personalized peels to address specific skin types, minimizing downtime and improving common skin conditions."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "KYBELLA® Chin Sculpting",
+          "snippet": "KYBELLA, derived from a natural body-produced chemical that aids fat absorption, is a safe and effective solution for contouring the area below the chin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "EMTONE™",
+          "snippet": "EMTONE, a groundbreaking treatment, utilizes thermal and mechanical energy to comprehensively address cellulite's multiple contributing factors. Achieving up to a 93% visible reduction without anesthesia, needles, or downtime, it can treat various body areas like buttocks, thighs, arms, and abdomen."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "SkinMedica®",
+          "snippet": "SkinMedica products, containing natural growth factors, antioxidants, matrix proteins, and soluble collagens, restore what time takes away. This system enhances elasticity, reduces wrinkle depth, and improves skin texture without causing surface burning, peeling, or irritation."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Neocutis",
+          "snippet": "Neocutis products feature PSP®, an exclusive blend of Human Growth Factors, Cytokines, and Interleukins clinically proven for skincare rejuvenation. Each product addresses visible signs of aging and soothes stressed, irritated skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "EltaMD®",
+          "snippet": "EltaMD's sun care line offers a diverse range of products catering to every skin type and unique need. Their skincare line prioritizes safe, effective care with deep, gentle cleansing and intense moisturization for all skin types, especially the most sensitive."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Nutrafol",
+          "snippet": "Nutrafol addresses thinning hair in both genders with gender-specific formulations. These supplements combine essential vitamins and minerals to target genetic and lifestyle factors causing hair thinning, resulting from decades of dedicated research, promoting strength and thickness from within."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Pigment & Tattoo Removal",
+          "snippet": "VersaPulse laser, utilizing red light, is absorbed by pigment-containing cells in brown skin lesions. Its versatility extends to effectively treating all tattoo pigments."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Fillers",
+          "snippet": "Dermal fillers enhance lips and diminish wrinkles around the mouth, eyes, and forehead—an approach embraced by many women."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Thermage®",
+          "snippet": "Thermage uses radiofrequency energy to tighten skin, cooling surface layers while safely heating deeper collagen fibers. This process induces collagen contraction and promotes the production of new collagen for skin tightening."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment",
+          "snippet": "Experience the benefits of Dysport, a popular non-surgical treatment that effectively reduces the appearance of fine lines and wrinkles. Administered by our skilled professionals, Dysport injections provide natural-looking results, helping you achieve a refreshed and rejuvenated appearance"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "EmSculpt treatments",
+          "snippet": "EmSculpt is an innovative non-invasive procedure that builds muscle and reduces fat, sculpting and toning the body. Using high-intensity focused electromagnetic technology, EmSculpt provides effective results, enhancing muscle definition and creating a more contoured physique."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Revision Skincare®",
+          "snippet": "With a 30-year legacy, Revision Skincare® offers physicians clinically-proven, high-performing skincare. Formulated with pure, efficacious ingredients, the collection targets solutions for enhancing skin appearance and reducing signs of aging."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting treatments",
+          "snippet": "CoolSculpting is a non-invasive body contouring treatment that utilizes advanced cooling technology to target and eliminate stubborn fat cells, allowing clients to achieve their desired body shape without any downtime or surgery."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial",
+          "snippet": "IPL photofacial is a non-invasive treatment that effectively targets skin discoloration, sun damage, and signs of aging. Utilizing intense pulsed light technology, IPL photofacial promotes clearer, more radiant skin, addressing various skin concerns and revealing a refreshed, youthful complexion."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling",
+          "snippet": "Microneedling is a non-invasive cosmetic procedure that involves the use of fine needles to create tiny, invisible punctures in the skin's surface. This stimulates the body's natural collagen and elastin production, resulting in improved skin texture and firmness."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "RevitaLash®",
+          "snippet": "RevitaLash Advanced combines proven cosmetic ingredients, potent peptides, and soothing botanicals in a proprietary blend. This formula beautifies and nourishes eyelashes, promoting increased length and thickness."
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Total Med Solutions - Dallas Walnut Hill",
+      "description": "The team at Total Med Solutions knows that when people feel good about themselves, they’re happier, more self-confident and enjoy a greater quality of life. Since 2011, Total Med Solutions has helped 90,000+ patients gain the benefits of looking and feeling their best through an array of medical services. This goal has allowed us to become DFW’s Largest Medical Spa with 7 convenient locations: Allen, Dallas Lemmon Ave., Dallas Walnut, Flower Mound, Hurst, Plano, and Southlake.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "obstetrics_gynecology_clinic",
+        "weight_loss_service"
+      ],
+      "additional_categories": [
+        "Women's health clinic",
+        "Weight loss service"
+      ],
+      "cid": "18310775968720773017",
+      "feature_id": "0x864e9fe8825c55f5:0xfe1cf1ba995c5f99",
+      "address": "5445 La Sierra Dr #305, Dallas, TX 75231",
+      "address_info": {
+        "borough": "Vickery Meadow",
+        "address": "5445 La Sierra Dr #305",
+        "city": "Dallas",
+        "zip": "75231",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ9VVcguifToYRmV9cmbrxHP4",
+      "phone": "+1214-396-6365",
+      "url": "https://totalmedsolutions.com/",
+      "domain": "totalmedsolutions.com",
+      "logo": "https://lh4.googleusercontent.com/-dIA2tFfItCc/AAAAAAAAAAI/AAAAAAAAAAA/-d7XWrrzE_Q/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlefYtNuGcOJgEVj_eGMozmRADywFRJOnnX4wKFFO4x_fNQwXHbB9uKlHWOy7LnwKnR10b7N56D58wt39ZW9H-CubXYa4HOnGOwZpXAKhqpn16-X4lAAjcJG2xApVOkeOdzKtB-7tfjHDDG=w408-h306-k-no",
+      "total_photos": 44,
+      "snippet": "5445 La Sierra Dr #305, Dallas, TX 75231",
+      "latitude": 32.885,
+      "longitude": -96.768,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_check",
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "injector": 29,
+        "injections": 40,
+        "nurse practitioner": 6,
+        "early appointment": 7,
+        "wait time": 8,
+        "punctuality": 4,
+        "on schedule": 5,
+        "gentle procedures": 2,
+        "no bruising": 2,
+        "no pressure sales": 2
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1262
+      },
+      "rating_distribution": {
+        "1": 35,
+        "2": 6,
+        "3": 7,
+        "4": 28,
+        "5": 1186
+      },
+      "people_also_search": [
+        {
+          "cid": "17359004326669180691",
+          "feature_id": "0x0:0xf0e792769195df13",
+          "title": "MyFitMed",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 34
+          }
+        },
+        {
+          "cid": "8938037365098005203",
+          "feature_id": "0x0:0x7c0a49a0b7d5c2d3",
+          "title": "Taylor'd Wellness & Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 16
+          }
+        },
+        {
+          "cid": "17742983891599517600",
+          "feature_id": "0x0:0xf63bbdd7d24467a0",
+          "title": "Elevate Medical Spa and Cosmetic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 19
+          }
+        },
+        {
+          "cid": "5693568227454719307",
+          "feature_id": "0x0:0x4f039e2315e3954b",
+          "title": "Dallas Medical Skin Solutions",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.2,
+            "votes_count": 5
+          }
+        },
+        {
+          "cid": "10043350206867419139",
+          "feature_id": "0x0:0x8b6125cd1b2db003",
+          "title": "BaroSolutions Health Optimization Clinics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.1,
+            "votes_count": 25
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17,
+                  "minute": 30
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 39
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 25
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 32
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 39
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 32
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 39
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12143966365",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "+12149879200",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+18003658295",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+18179854746",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+18179854244",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "info@totalmedsolutions.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "jobs@totalmedsolutions.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=18310775968720773017&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 21:16:50 +00:00",
+      "first_seen": "2024-07-30 02:29:40 +00:00",
+      "services": [
+        {
+          "category": "Aesthetics",
+          "title": "Chemical Peel/Skin Treatments",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "Dermaplaining Treatment",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "DiamondGlow",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "Hydrafacial Treatment",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "IPL PhotoFacial – Front or Back Neck, Hands, Shoulder caps, Ears/Toes/Fingers",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "IPL PhotoFacial – Full Face, Neck or Shoulders, Decollete, Upper/Lower Arms",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "IPL PhotoFacial – Upper/Lower Legs or Back, Full Chest or Arms",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "Microdermabrasion Treatment",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "SkinPen Microneedling Treatment - Face",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Aesthetics",
+          "title": "ZO  Mini Facial",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Free Medical Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Kick Start Weight Loss Program",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Vitamin B12 / NAD+/ Glutathione Injection Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Vitamin Mic Lipo-B (FatBurner) Injection Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Wegovy Semaglutide GLP Weight Loss Injections – Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Clinical Weight Loss Program",
+          "title": "Wegovy Semaglutide GLP Weight Loss Injections – Follow-up",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Botox/Dysport Cosmetic Injections",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Juvederm/Restylane Injectable Derma Fillers",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Kybella Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "PDO Thread Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Plasma IQ Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Sculptra Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Cosmetic Injectables",
+          "title": "Sculptra Procedure",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Hair Transplant",
+          "title": "Free Eyebrow/Facial Hair Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Hair Transplant",
+          "title": "Free Hair Grafting Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Bio-Identical Hormone Replacement Therapy - Female Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Bio-Identical Hormone Replacement Therapy Pellet- Female Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Erectile Dysfunction New Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Free Medical Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Peptide Therapy Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Medical- Hormone Therapy & Peptides",
+          "title": "Testosterone Replacement Therapy - Male New Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "PRP/Stem Cell",
+          "title": "Free Medical Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "PRP/Stem Cell",
+          "title": "PRP Hair Restoration Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "PRP/Stem Cell",
+          "title": "Regenerative Cell Therapy Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Chronic Joint or Pain Consultations",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Hair Restoration Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Male Testosterone and E.D. Treatments",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Peptide Therapies",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Prescription Refills",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Prescription Weight Loss Programs",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Virtual Visit / Telehealth",
+          "title": "Womens Hormone Therapy",
+          "snippet": "Scheduled with a provider of your choice"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Renew Beauty Med Spa",
+      "description": "Celebrating 18 years as Dallas’s premier aesthetic destination, Renew Beauty Medspa is proudly recognized as the city's top medical spa. Located inside NorthPark Center, we have earned 1,000 5-star Google reviews from clients and skincare enthusiasts who trust us for elite, non-surgical facial rejuvenation and body contouring. Our expert team specializes in customized Botox®, dermal fillers, advanced laser skin resurfacing, HydraFacials, and medical-grade skincare. We combine medical expertise with a luxury wellness experience to deliver safe, stunning, and natural-looking results. Discover why Dallas has trusted us with its beauty and confidence for nearly two decades. Book your personalized consultation today.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "beauty_salon",
+        "facial_spa",
+        "skin_care_clinic",
+        "spa",
+        "wellness_program"
+      ],
+      "additional_categories": [
+        "Beauty salon",
+        "Facial spa",
+        "Skin care clinic",
+        "Spa",
+        "Wellness program"
+      ],
+      "cid": "10268626181558183151",
+      "feature_id": "0x864e9fbefb38286f:0x8e817d1b4b0d24ef",
+      "address": "8687 N. Central Expwy, NorthPark Ctr #2220, Dallas, TX 75225",
+      "address_info": {
+        "borough": "North Dallas",
+        "address": "8687 N. Central Expwy, NorthPark Ctr #2220",
+        "city": "Dallas",
+        "zip": "75225",
+        "region": "TX",
+        "country_code": "US"
+      },
+      "place_id": "ChIJbyg4-76fToYR7yQNSxt9gY4",
+      "phone": "+1214-369-1600",
+      "url": "https://www.renewbeautymedspa.com/",
+      "domain": "www.renewbeautymedspa.com",
+      "logo": "https://lh3.googleusercontent.com/-AnptuLz1bjc/AAAAAAAAAAI/AAAAAAAAAAA/Vb-vr6S1mfI/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmI5XFjuBiZUw87HQ8_r234eJn7uGfHyAFCmNg3prWFYsv_k5PdU6SZJl6FKZOEIBrr6pJ_9cnKpEqMgvpgimDGj1BZ7Bk2o_RSO7ZQvuxXEHWeCBhx3J7ocm_3hJ0Q8nd8EmQHyQ=w408-h272-k-no",
+      "total_photos": 33,
+      "snippet": "8687 N. Central Expwy, NorthPark Ctr #2220, Dallas, TX 75225",
+      "latitude": 32.869,
+      "longitude": -96.775,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "injector": 22,
+        "lip flip": 11,
+        "esthetician": 17,
+        "hydrafacial": 27,
+        "no bruising": 6,
+        "gentle injections": 3,
+        "baby smooth skin": 2,
+        "skin care": 47,
+        "chemical peel": 3,
+        "no overselling": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 1093
+      },
+      "rating_distribution": {
+        "1": 61,
+        "2": 13,
+        "3": 10,
+        "4": 21,
+        "5": 988
+      },
+      "people_also_search": [
+        {
+          "cid": "11781540912772725012",
+          "feature_id": "0x0:0xa3807109f48cb914",
+          "title": "Spa Nordstrom - NorthPark Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4,
+            "votes_count": 49
+          }
+        },
+        {
+          "cid": "5985538187627569450",
+          "feature_id": "0x0:0x5310e744d713a12a",
+          "title": "Renew U Esthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 19
+          }
+        },
+        {
+          "cid": "11189907147395096330",
+          "feature_id": "0x0:0x9b4a89438e16df0a",
+          "title": "Renew Wellness Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 15
+          }
+        },
+        {
+          "cid": "6904534790620058526",
+          "feature_id": "0x0:0x5fd1d5cf6e3c139e",
+          "title": "Mara's Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 639
+          }
+        },
+        {
+          "cid": "3296940558304223702",
+          "feature_id": "0x0:0x2dc115f8474d21d6",
+          "title": "Unicorn MedSpa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 308
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 12
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "renewbeautymedspa.com",
+          "url": "https://renewbeautymedspa.com/services/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12149498010",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+12143691600",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "2144338871",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "contact@renewbeautymedspa.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "shop@renewbeautymedspa.com",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "info@renewbeautymedsp.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=10268626181558183151&hl=en&gl=US",
+      "last_updated_time": "2026-09-12 11:12:07 +00:00",
+      "first_seen": "2024-07-14 17:55:41 +00:00",
+      "services": [
+        {
+          "category": "Body Tightening",
+          "title": "Emsculpt Neo",
+          "snippet": "Emsculpt NEO is an advanced body contouring treatment that combines high-intensity electromagnetic (HIFEM) technology with radiofrequency (RF) energy. It simultaneously targets muscle building and fat reduction, providing enhanced body sculpting and toning.",
+          "price": {
+            "current": 1000,
+            "currency": "USD",
+            "displayed_price": "From $1,000.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Wrinkle Relaxer",
+          "snippet": "Botox®, Dysport®, Xeomin®. Reduce frown and forehead lines, fine lines, and crow's feet and prevent future wrinkles from forming.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Kenalog Acne Treatment",
+          "snippet": "Cystic acne is impossible to conceal. If you need a blemish gone, stat, trade the topicals for a Kenalog® injection.\n\nIt is the quickest way to treat cystic acne on the face or body.",
+          "price": {
+            "current": 50,
+            "currency": "USD",
+            "displayed_price": "From $50.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Fillers",
+          "snippet": "Improve age-related volume loss, deep wrinkles, fine lines, and sagging skin on your face and hands. Visibly plump and sculpt your skin for natural-looking results.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Lip Flip",
+          "snippet": "Lip Flip",
+          "price": {
+            "current": 89,
+            "currency": "USD",
+            "displayed_price": "From $89.00"
+          }
+        },
+        {
+          "category": "Laser & Light",
+          "title": "Laser Hair Removal",
+          "snippet": "Rid unwanted hair with laser hair removal which targets the growth follicle for long last results.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Skin",
+          "title": "Glow Hydrafacial Express",
+          "snippet": "30 minutes to your best skin! Infuse your skin with hyaluronic acid and a nourishing blend of antioxidants, peptides, and moisturizing serums. Improve fine lines and wrinkles and minimize pores for lasting results.",
+          "price": {
+            "current": 199,
+            "currency": "USD",
+            "displayed_price": "From $199.00"
+          }
+        },
+        {
+          "category": "Skin",
+          "title": "Hydrafacial",
+          "snippet": "Infuse your skin with hyaluronic acid and a nourishing blend of antioxidants, peptides, and moisturizing serums. Improve fine lines and wrinkles and minimize pores for lasting results.",
+          "price": {
+            "current": 250,
+            "currency": "USD",
+            "displayed_price": "From $250.00"
+          }
+        },
+        {
+          "category": "Wellness & Weight loss",
+          "title": "Vitamin Shots",
+          "snippet": "Inject wellness into your life. Our vitamin shots are a quick and effective way to boost energy, focus, metabolism, and immunity. The shots are highly concentrated so you are receiving a week's worth of vitamin goodness to lift spirits and boost your immune system.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Wellness & Weight loss",
+          "title": "Weightloss Injections",
+          "snippet": "Weight loss therapy with GLP-1 medications like semaglutide and tirzepatide helps regulate appetite, improve metabolism, and support long-term weight management. These treatments work by mimicking natural hormones to promote fullness and stabilize blood sugar levels for effective, sustainable results.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "UPKEEP Med Spa",
+      "description": "UPKEEP is a full-service, woman-owned med spa built on service, respect, and genuine care. We offer high-quality treatments including laser hair removal, tattoo removal, microneedling, lip injections, facials, and more. Our passion comes from helping clients feel confident and comfortable in their own skin. From the moment you walk in, you’ll experience a welcoming environment, exceptional customer service, and open communication every step of the way. Contact us today for a free consultation or visit our website to book an appointment.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "facial_spa",
+        "laser_hair_removal_service",
+        "skin_care_clinic",
+        "tattoo_removal_service"
+      ],
+      "additional_categories": [
+        "Facial spa",
+        "Laser hair removal service",
+        "Skin care clinic",
+        "Tattoo removal service"
+      ],
+      "cid": "4093030702215940580",
+      "feature_id": "0x864e9f159ddd1f01:0x38cd5dbce45949e4",
+      "address": "5207 Bonita Ave, Dallas, TX 75206",
+      "address_info": {
+        "borough": "Vickery Place",
+        "address": "5207 Bonita Ave",
+        "city": "Dallas",
+        "zip": "75206",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJAR_dnRWfToYR5ElZ5LxdzTg",
+      "phone": "+1833-875-3377",
+      "url": "https://www.upkeepmedspa.com/",
+      "domain": "www.upkeepmedspa.com",
+      "logo": "https://lh3.googleusercontent.com/-BKnOm3sLQUs/AAAAAAAAAAI/AAAAAAAAAAA/yo2PZYu6lHc/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk1ZT1F31QmqiMsHxj3Gtpj8DUZHWNfaMeRUHtY5pbyi3Jo8YyO37CdPkObgiqJC7jsJzjc5hoEduaiyAnxSqXXwKm-qtE0lbvPp9Oeylmc5qG5d3TCqdvDYdVs4bSWW6ZKyUHZ=w408-h544-k-no",
+      "total_photos": 302,
+      "snippet": "5207 Bonita Ave, Dallas, TX 75206",
+      "latitude": 32.818,
+      "longitude": -96.782,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "lip filler": 383,
+        "injector": 163,
+        "minimal bruising": 27,
+        "chin filler": 10,
+        "plump lips": 8,
+        "nurse injector": 8,
+        "gentle injector": 8,
+        "painless procedure": 18,
+        "personalized consultation": 6,
+        "smooth process": 27
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 964
+      },
+      "rating_distribution": {
+        "1": 18,
+        "2": 6,
+        "3": 0,
+        "4": 1,
+        "5": 939
+      },
+      "people_also_search": [
+        {
+          "cid": "12646948861006986293",
+          "feature_id": "0x0:0xaf82fcfb90da3c35",
+          "title": "It's A Secret Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 610
+          }
+        },
+        {
+          "cid": "16070954963715449279",
+          "feature_id": "0x0:0xdf078064558f61bf",
+          "title": "Omni Sculpt MD",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 501
+          }
+        },
+        {
+          "cid": "7132532312568833041",
+          "feature_id": "0x0:0x62fbd85937a92411",
+          "title": "SkinSpaMED",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 421
+          }
+        },
+        {
+          "cid": "9566184955351873018",
+          "feature_id": "0x0:0x84c1ea88776f35fa",
+          "title": "NakedMD Med Spa Dallas",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 800
+          }
+        },
+        {
+          "cid": "9208891978301529615",
+          "feature_id": "0x0:0x7fcc8e76a59b5e0f",
+          "title": "Rejuve Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 334
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 20
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "upkeepmedspa.com",
+          "url": "https://www.upkeepmedspa.com/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+18338753377",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "+14699531774",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+19173595510",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+19176757771",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+13474639674",
+          "source": "backlinks"
+        },
+        {
+          "type": "mail",
+          "value": "Info@Upkeepmedspa.com",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=4093030702215940580&hl=en&gl=US",
+      "last_updated_time": "2026-09-22 18:00:07 +00:00",
+      "first_seen": "2024-07-29 08:46:52 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermaplaning"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HydraFacial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vampire facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Hair Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hydrafacial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body Contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Kybella"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cheek Injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Micro Needling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Radio Frequency Micro Needling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical Peel"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Arm hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Back hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Bikini hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Chest hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Cosmetic dermatology"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Eyebrow hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Facial hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Female body hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Intimate area hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Laser therapy"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Leg hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Lip hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Male body hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Neck hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Stomach hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Underarm hair removal"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "North Texas Plastic Surgery",
+      "description": "Founded by board-certified, Harvard-trained plastic surgeon Sacha Obaid, M.D., the team at North Texas Plastic Surgery in Plano specializes in breast augmentation, liposuction, mommy makeovers, tummy tucks, Brazilian butt lifts, rhinoplasty, facial plastic surgery, nonsurgical med spa treatments, and more — serving patients in the North Texas area.\n\nOur goal is simple: deliver exceptional results through the most advanced technology and innovative techniques available today. Our patient-focused surgeons and staff are committed to optimal results, with safety as the top priority.\n\nReach out today to learn how we can help you achieve your aesthetic goals.",
+      "category": "Plastic surgeon",
+      "category_ids": [
+        "plastic_surgeon",
+        "cosmetic_surgeon",
+        "medical_spa",
+        "plastic_surgery_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Medical spa",
+        "Plastic surgery clinic"
+      ],
+      "cid": "17354355402984838927",
+      "feature_id": "0x864c2390a1b35dfb:0xf0d70e4aaccad70f",
+      "address": "5412 W Plano Pkwy #101, Plano, TX 75093",
+      "address_info": {
+        "address": "5412 W Plano Pkwy #101",
+        "city": "Plano",
+        "zip": "75093",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ-12zoZAjTIYRD9fKrEoO1_A",
+      "phone": "+1214-272-8533",
+      "url": "https://www.northtexasplasticsurgery.com/plano-plastic-surgery/?utm_source=GBP&utm_medium=GBP&utm_campaign=GBP_Plano&utm_id=GBP_Plano",
+      "domain": "www.northtexasplasticsurgery.com",
+      "logo": "https://lh5.googleusercontent.com/-8dn6JmQ1Wik/AAAAAAAAAAI/AAAAAAAAAAA/GwxAxtLcwgw/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8_Ny6AvxtmkUhioXQfuJQ6y1dFgDCnm9fJKk4zPew3ryiSs__zsKInxQwwOJNymgtoWWbsRdl0NU9nsB4Mi93ECceIgNfVOb3bYWU5pFAt9cbsZueQ30pztr1hTuCdTIEvm-2-fW0g1x0=w408-h272-k-no",
+      "total_photos": 70,
+      "snippet": "5412 W Plano Pkwy #101, Plano, TX 75093",
+      "latitude": 33.016,
+      "longitude": -96.81,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_check",
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_onsite_parking"
+          ]
+        }
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 823
+      },
+      "rating_distribution": {
+        "1": 11,
+        "2": 4,
+        "3": 2,
+        "4": 12,
+        "5": 794
+      },
+      "people_also_search": [
+        {
+          "cid": "14944392472883453342",
+          "feature_id": "0x0:0xcf6525c67a3d5d9e",
+          "title": "North Texas Facial Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 27
+          }
+        },
+        {
+          "cid": "2008540456191091039",
+          "feature_id": "0x0:0x1bdfc4e73845615f",
+          "title": "Plano Plastic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 169
+          }
+        },
+        {
+          "cid": "5981114927605928654",
+          "feature_id": "0x0:0x530130565cbcd2ce",
+          "title": "Premier Plastic Surgery Center Tx",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 6
+          }
+        },
+        {
+          "cid": "8103211756760434005",
+          "feature_id": "0x0:0x70746428fd798555",
+          "title": "Roberts Cosmetic Surgery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 205
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "monday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "friday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "close": {
+                  "hour": 24
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "northtexasplasticsurgery.com",
+          "url": "https://www.northtexasplasticsurgery.com/procedures/?utm_source=GBP&utm_medium=GBP&utm_campaign=GBP_Plano&utm_id=GBP_Plano"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12142728533",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=17354355402984838927&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 06:27:58 +00:00",
+      "first_seen": "2024-07-25 10:25:18 +00:00",
+      "services": [
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Augmentation",
+          "snippet": "With a breast augmentation designed to enhance the size or shape of your breasts, Dr. Sacha Obaid of North Texas Plastic Surgery can provide you with the look you desire. Learn more during a free consultation today."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Lift",
+          "snippet": "A breast lift, or mastopexy, can help remove excess skin and tighten up surrounding tissue to give you a younger, perkier look. If you’re interested in a breast lift or have questions about breast surgery, please contact North Texas Plastic Surgery."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast Reduction",
+          "snippet": "Very large breasts can be a cosmetic concern for many women. Large breasts can cause significant back and neck pain. If you are experiencing any of these symptoms, there is help available. Schedule a free consultation with North Texas Plastic Surgery."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Liposuction",
+          "snippet": "Liposuction is a body-sculpting surgical procedure that reshapes targeted areas of the body. This procedure improves your shape and proportions by removing localized pockets of fat in various parts of the body."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Tummy Tuck",
+          "snippet": "The tummy tuck procedure offered by Dr. Sacha Obaid at North Texas Plastic Surgery removes excess tissue and tightens your abdominal muscles, improving your figure and helping to restore your confidence."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Brazilian Butt Lift",
+          "snippet": "If you want to feel great about how your butt looks, North Texas Plastic Surgery is the place to go. Our surgeon's skill and experience in performing the butt lift procedure has helped many women in the Dallas and Fort Worth areas feel confident about their butts again!"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Mommy Makeover",
+          "snippet": "If you’re unhappy with the way your body has changed after having children, there’s something you can do about it. Schedule a free consultation at North Texas Plastic Surgery to discuss having a mommy makeover."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Arm Lift",
+          "snippet": "The arm lift operation is tailored to each individual and their problem areas. Dr. Sacha Obaid specializes in treating saggy arms with an arm lift. They have helped many men and women in the Dallas/Fort Worth area feel more confident in the appearance of their arms."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Thigh Lift",
+          "snippet": "Sagging skin on the thigh can be removed by performing a thigh lift. At North Texas Plastic Surgery, our board-certified plastic surgeon will be happy to answer all of your questions in the comfort and privacy of our offices in Dallas, Plano, and Southlake."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Weight Loss Body Lift",
+          "snippet": "When you visit us to discuss your post-weight loss makeover, our plastic surgeon will listen to you and find out which areas are most concerning in your life. We will then design a custom surgical plan that will begin with your most distressing areas and end with less distressing areas."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Vaginal Rejuvenation",
+          "snippet": "The most common reason a woman chooses vaginal rejuvenation surgery is to treat labia minora excess. The labia minora is not the only area that can be treated with vaginal rejuvenation surgery, however. Your plastic surgeon will listen to you and find the treatment that is best for you."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Facelift",
+          "snippet": "At North Texas Plastic Surgery, our Harvard-trained, board-certified plastic surgeon Dr. Sacha Obaid, has extensive experience providing facelifts to those who wish to improve the appearance of their face. This restorative surgery helps to achieve a smoother and more youthful complexion."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Rhinoplasty",
+          "snippet": "If you’re dissatisfied with how your nose looks, a rhinoplasty is a great option. It’s the only way to truly change the appearance of your nose, and because the nose is such a central feature, this single operation can alter and improve the look of your whole face."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Brow Lift",
+          "snippet": "During your free consultation at our office in Southlake or Plano, our plastic surgeon will discuss all of the brow lift options with you. He will then design the operation that is perfect for YOU!"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Eyelid Surgery",
+          "snippet": "Eyelid reshaping is a relatively small surgery that can be done on outpatient basis. Unless you have other surgeries performed at the same time, you will be able to go home the same day with little discomfort and just a few eye drops to help keep your eyes moist and comfortable."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Chin Reshaping",
+          "snippet": "Dr. Obaid will meet one on one with you at our Southlake or Plano office. He will discuss your concerns and goals and examine your chin. Afterwards he will explain the chin reshaping operation to you in detail. He will design a customized operation to fit your chin and your concerns."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Otoplasty",
+          "snippet": "Otoplasty is a procedure with minimal pain. You can go home the same day and you will feel comfortable enough to resume daily activities and work within 3-5 days. Dr. Obaid will perform otoplasty on children in the Dallas/Fort Worth area as young as 5 years of age."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Pediatric Surgery/Cleft Palate",
+          "snippet": "Dr. Obaid typically performs cleft palate repair between nine and 12 months of age. The timing of the repair is designed to have the surgery completed before the onset of speech while at the same time allowing your baby the maximum amount of time to grow healthy and strong prior to the operation."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Hair Restoration",
+          "snippet": "North Texas Plastic Surgery offers the most advanced hair restoration technology available today: the ARTAS iX robotic hair restoration system. This FDA-cleared technology delivers permanent and natural-looking hair restoration with minimal downtime."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Gynecomastia Correction",
+          "snippet": "At North Texas Plastic Surgery, we understand the frustration that can come from this condition and work with men to produce satisfactory results so that they can feel good about how they look. If you’re an adult male who wants to learn more about our treatment for gynecomastia, contact us today."
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Body Contouring"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Avéli Cellulite Treatment"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "BodyTite and FaceTite"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "BBL"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Rib Remodeling"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Breast implants"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "facial surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "buccal fat pad removal"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "ear surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "male plastic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "plastic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "cosmetic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "ARTAS iX Robotic Hair Restoration"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Brotox"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Daddy do-over"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "male breast reduction"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Gynecomastia"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Arm Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Brazilian Butt Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Breast Augmentation"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Breast Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Breast Reduction"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Brow Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Chin Reshaping"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Eyelid Surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Facelift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Gynecomastia Correction"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Hair Restoration"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Liposuction"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Mommy Makeover"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Otoplasty"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Pediatric Surgery/Cleft Palate"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Rhinoplasty"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Thigh Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Tummy Tuck"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Vaginal Rejuvenation"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Weight Loss Body Lift"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Body Contouring"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Avéli Cellulite Treatment"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano BodyTite and FaceTite"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano BBL"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Rib Remodeling"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Breast surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Breast implants"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano facial surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano buccal fat pad removal"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano ear surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano male plastic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano plastic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano cosmetic surgery"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano ARTAS iX Robotic Hair Restoration"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Brotox"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Daddy do-over"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano male breast reduction"
+        },
+        {
+          "category": "Plastic Surgeon",
+          "title": "Plano Gynecomastia"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BBL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermaplaning"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HydraFacial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Liposuction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling",
+          "snippet": "If you’re looking to address signs of aging or wish to correct discoloration and other skin blemishes, we can use advanced technology to help your skin look great. If you’re interested in learning more about microneedling with and without PRP and how it can help you, please contact us today."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider vein treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ultherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vampire facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vitalize Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Coolsculpting",
+          "snippet": "Most people have that frustrating bit of fat that diet and exercise can’t remove. Liposuction was once the only way to remove this kind of fat, but now there’s CoolSculpting®. It's a non-invasive option that’s fast and simple."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox",
+          "snippet": "BOTOX® is a cosmetic treatment that reduces the appearance of wrinkles and deep lines, like those that appear in between the brows and around the eyes. It’s a popular treatment for women and men who want more youthful, refreshed, and vibrant appearances."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Xeomin",
+          "snippet": "Vertical lines between the eyebrows are a common sign of aging and can make you appear as if you are upset or worried even when you are not. If your face isn’t sending the message you want due to frown lines, Xeomin® may be a good option to smooth out this unwanted feature."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport",
+          "snippet": "Frown lines plague many men and women and can settle in as early as your 20s. Dysport® is an injectable treatment that addresses these glabellar lines found between your eyebrows without making you appear frozen."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Jeuveau",
+          "snippet": "Jeuveau™ is a new, FDA-approved injectable that addresses glabellar lines found between the eyebrows, known as “frown lines.” These moderate to severe wrinkles are a frustrating part of the aging process, but Jeuveau™ can temporarily improve the appearance of these lines."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Juvederm",
+          "snippet": "JUVÉDERM® is a dermal filler that can make you look younger after a cosmetic procedure that takes just 30 to 45 minutes to complete."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Restylane",
+          "snippet": "One of the earliest signs of aging is a deepening of the cheek folds that run from the corner of your nose to the corner of your lips. Restylane is an injectable filler that literally fills the skin in these wrinkles causing a smoother, natural, and younger appearance to your face."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra",
+          "snippet": "Sculptra® is a dermal filler that can add significant volume to the face. Using the active ingredient poly-L-lactic acid, Sculptra works to increase the body’s natural production of collagen, allowing the treatment areas to gradually become fuller, softer, and more youthful in appearance."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Kybella",
+          "snippet": "Finally, there is a new, simple, and completely non-invasive solution to the age-old double-chin problem: KYBELLA™, an innovative, injectable treatment that can improve and even eliminate your double chin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical Peels",
+          "snippet": "Signs of aging and other skin conditions can cause frustration and embarrassment. A chemical facial peel is a great way to achieve beautiful, healthy skin without major lifestyle disruptions."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Treatments",
+          "snippet": "Whether your goal is to remove the signs of aging, prevent problems or simply maintain your skin’s youthful beauty, the laser skin resurfacing treatments offered at North Texas Plastic Surgery can help you."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP",
+          "snippet": "PRP, or Platelet-Rich Plasma, is an emerging treatment that can effectively stimulate hair growth. If you struggle with noticeable hair loss or thinning, please contact North Texas Plastic Surgery in Dallas today."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sclerotherapy",
+          "snippet": "Varicose veins are twisted and swollen veins that are typically visible underneath the skin. At North Texas Plastic Surgery, we offer sclerotherapy with Asclera for the treatment of uncomplicated spider veins (<1mm in diameter) and small varicose veins (1-3mm in diameter)."
+        },
+        {
+          "category": "Cosmetic surgeon",
+          "title": "cosmetic surgeon"
+        },
+        {
+          "category": "Cosmetic surgeon",
+          "title": "Plano cosmetic surgeon"
+        },
+        {
+          "category": "Plastic Surgery Clinic",
+          "title": "Plano plastic surgery clinic"
+        },
+        {
+          "category": "Plastic Surgery Clinic",
+          "title": "plastic surgery clinic"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Couture Dentistry",
+      "description": "Couture Dentistry is a premier cosmetic dentist in Plano, TX, offering comprehensive services in one convenient location, emergency care, implants, cosmetic dentistry, and oral surgery. Led by Dr. Nelson and Dr. Naz, we combine technology with customized care. We stand out by offering complete care in one office, while most focus on just one area. We’re known for managing complex cases with precision and artistry. Patients especially love our quick, expert care, even in urgent cases, and our compassionate, professional team that puts every patient at ease. Our goal is to be the go-to destination for comprehensive, high-end dental solutions. Discover the Couture Dentistry difference, schedule a consultation today!",
+      "category": "Cosmetic dentist",
+      "category_ids": [
+        "cosmetic_dentist",
+        "dental_implants_periodontist",
+        "dentist",
+        "denture_care_center",
+        "emergency_dental_service",
+        "medical_spa",
+        "oral_surgeon"
+      ],
+      "additional_categories": [
+        "Dental implants periodontist",
+        "Dentist",
+        "Denture care center",
+        "Emergency dental service",
+        "Medical spa",
+        "Oral surgeon"
+      ],
+      "cid": "18327244136863955190",
+      "feature_id": "0x864c237bba5f24cd:0xfe577370c9a2f8f6",
+      "address": "5904 Chapel Hill Blvd Ste 200, Plano, TX 75093",
+      "address_info": {
+        "address": "5904 Chapel Hill Blvd Ste 200",
+        "city": "Plano",
+        "zip": "75093",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJzSRfunsjTIYR9viiyXBzV_4",
+      "phone": "+1214-919-7040",
+      "url": "https://couturedentist.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "domain": "couturedentist.com",
+      "logo": "https://lh3.googleusercontent.com/-WUgEV5TyvU8/AAAAAAAAAAI/AAAAAAAAAAA/VaSot077y9o/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkJMbYqzOYbueLalNEThnVwMu6bBlIcdAexx0VmcV82KQZbFn_pWno_NfH5GfYUPq-qaKxpWgtJgn297U7Drrbtol1AQ-wOlAP71jbBhqN3aCm6W1kgEVlzS6wiG78pUAhXHss=w408-h510-k-no",
+      "total_photos": 352,
+      "snippet": "5904 Chapel Hill Blvd Ste 200, Plano, TX 75093",
+      "latitude": 33.034,
+      "longitude": -96.828,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_cosmetic_dentistry",
+            "offers_pediatric_care"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "welcoming staff": 81,
+        "hygienist": 56,
+        "chipped tooth repair": 5,
+        "friendly staff": 258,
+        "gentle dentist": 18,
+        "gentle cleaning": 7,
+        "front office staff": 26,
+        "smile transformation": 3,
+        "treatment plan": 8,
+        "efficient staff": 18
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 797
+      },
+      "rating_distribution": {
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 7,
+        "5": 784
+      },
+      "people_also_search": [
+        {
+          "cid": "6807536419099307720",
+          "feature_id": "0x0:0x5e793a4e27f2eec8",
+          "title": "Plano Dental Excellence",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 348
+          }
+        },
+        {
+          "cid": "6238213887771525095",
+          "feature_id": "0x0:0x5692967abd87bfe7",
+          "title": "Countryman General and Cosmetic Dentistry",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 437
+          }
+        },
+        {
+          "cid": "4439255238814476183",
+          "feature_id": "0x0:0x3d9b671e98d42797",
+          "title": "Dental Resort",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 283
+          }
+        },
+        {
+          "cid": "8182795818816101919",
+          "feature_id": "0x0:0x718f21716215de1f",
+          "title": "Tru Plano Dental",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 213
+          }
+        },
+        {
+          "cid": "2879361919086137946",
+          "feature_id": "0x0:0x27f58c68eeea925a",
+          "title": "Kirk Kooker, DDS",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 49
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 14
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "couturedentist.com",
+          "url": "https://couturedentist.com/treatments/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+12149197040",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=18327244136863955190&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 22:41:07 +00:00",
+      "first_seen": "2026-09-13 22:41:07 +00:00",
+      "services": [
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Teeth whitening",
+          "snippet": "Brighten your smile with professional Teeth Whitening at Couture Dentistry. Our safe, non-invasive whitening treatments deliver dazzling, long-lasting results. Shine with confidence—schedule your whitening session for a radiant glow today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Implants",
+          "snippet": "Replace missing teeth permanently with Dental Implants at Couture Dentistry. Our durable implants restore strength, comfort, and beauty with natural precision. Smile with confidence again—book your dental implant consultation today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Full Mouth Reconstruction",
+          "snippet": "Restore full function and beauty with Full Mouth Reconstruction at Couture Dentistry. Our advanced restorative procedures rebuild your smile for lasting comfort and aesthetics. Reclaim your confidence—schedule your personalized consultation today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Complete Smile Makeover",
+          "snippet": "Transform your smile with a Complete Smile Makeover at Couture Dentistry. Combining artistry and precision, we enhance brightness, balance, and symmetry for a radiant look. Revitalize your confidence—book your comprehensive smile session today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Bonding",
+          "snippet": "Perfect your smile with Dental Bonding at Couture Dentistry. Correct chips, cracks, and discoloration for a smooth, natural finish in one easy visit. Experience quick cosmetic perfection—schedule your bonding appointment today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Veneers",
+          "snippet": "Achieve a flawless, photo-ready smile with Veneers at Couture Dentistry. We craft thin, durable shells that conceal imperfections while maintaining natural brilliance. Enhance your confidence—book your custom veneer consultation now!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Cosmetic Gum Contouring",
+          "snippet": "Balance your smile beautifully with Cosmetic Gum Contouring at Couture Dentistry. We reshape uneven gum lines for a harmonious, confident look that enhances every tooth. Refine your smile’s shape—schedule your contouring consultation today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Braces",
+          "snippet": "Straighten your teeth perfectly with Braces from Couture Dentistry. Our advanced orthodontic options align your bite and boost your smile’s beauty. Upgrade your confidence—schedule your braces consultation with our experts today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Invisalign",
+          "snippet": "Transform your smile discreetly with Invisalign at Couture Dentistry. Clear, comfortable aligners gently move your teeth for a naturally aligned look. Smile your way to confidence—schedule your Invisalign consultation today!"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Cosmetic Dentistry",
+          "snippet": "Enhance your smile with advanced cosmetic treatments, including veneers, whitening, and bonding. Our customized solutions restore confidence by improving tooth shape, color, and alignment for a flawless appearance."
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Health Care"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Hygienist"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Procedures"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Dental Work"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "General Dentistry"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "General Dentists"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Oral Surgery"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Porcelain Veneers"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Restorative Dental"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Root Canal Treatment"
+        },
+        {
+          "category": "Cosmetic Dentist",
+          "title": "Traditional Implant"
+        },
+        {
+          "category": "Dentist",
+          "title": "Preventive Dentistry",
+          "snippet": "Maintain long-term oral health through routine exams, cleanings, and patient education that help prevent cavities, gum disease, and other dental concerns."
+        },
+        {
+          "category": "Dentist",
+          "title": "Teeth Cleaning",
+          "snippet": "Keep your smile radiant and healthy with Teeth Cleaning at Couture Dentistry. Our gentle hygienists remove plaque and buildup to prevent decay and gum disease. Maintain your oral wellness—book your professional cleaning appointment today!"
+        },
+        {
+          "category": "Dentist",
+          "title": "TMJ Treatment",
+          "snippet": "Find lasting relief with TMJ Treatment at Couture Dentistry. Our specialists identify causes of jaw pain and create personalized solutions for comfort and balance. Ease discomfort and restore harmony—schedule your TMJ consultation today!"
+        },
+        {
+          "category": "Dentist",
+          "title": "Dental Crowns",
+          "snippet": "Protect and enhance your smile with Dental Crowns at Couture Dentistry. Our custom-made crowns restore shape, strength, and beauty for lasting confidence. Renew your smile’s brilliance—book your dental crown consultation today!"
+        },
+        {
+          "category": "Dentist",
+          "title": "Tooth-Colored Fillings",
+          "snippet": "Restore beauty and strength with Tooth-Colored Fillings at Couture Dentistry. Our seamless, natural-looking composites protect and enhance your teeth. Preserve your smile’s health—book your aesthetic filling appointment today!"
+        },
+        {
+          "category": "Dentist",
+          "title": "Dental Bridges",
+          "snippet": "Replace missing teeth beautifully with Dental Bridges at Couture Dentistry. Our custom bridges restore bite alignment, balance, and a natural appearance. Rebuild your confident smile—book your bridge consultation today!"
+        },
+        {
+          "category": "Dentist",
+          "title": "Root Canal",
+          "snippet": "Save your natural tooth with Root Canal Therapy at Couture Dentistry. Our gentle, precise approach removes infection, relieves pain, and restores oral health. Experience lasting relief—schedule your root canal consultation today!"
+        },
+        {
+          "category": "Emergency Dental Service",
+          "title": "Emergency Dentistry",
+          "snippet": "Prompt, compassionate care for dental emergencies such as severe pain, broken teeth, or infections. We provide immediate relief and effective treatment when you need it most."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments",
+          "snippet": "Botox® at Couture Dentistry offers a non-surgical solution to prevent and reduce wrinkles, restoring a natural, youthful appearance. FDA-approved and safe, Botox smooths fine lines in areas like the forehead, frown lines, and crow’s feet."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal fillers",
+          "snippet": "Couture Dentistry offers dermal fillers to restore facial volume, enhance contours, and smooth wrinkles. Using options like JUVÉDERM® and Bellafill®, fillers help rejuvenate areas such as cheeks, lips, and jawline for a natural look."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PDO threads",
+          "snippet": "PDO threads are a non-surgical treatment using dissolvable threads to lift and contour the skin, enhancing collagen production for a more youthful appearance. With results lasting up to 24 months, this treatment effectively targets areas like the jawline, neck, and cheeks."
+        },
+        {
+          "category": "Oral Surgeon",
+          "title": "Wisdom Tooth Removal",
+          "snippet": "Gentle and efficient removal of impacted or problematic wisdom teeth to prevent pain, infection, and misalignment, ensuring a smooth healing process."
+        },
+        {
+          "category": "Oral Surgeon",
+          "title": "Bone Grafting",
+          "snippet": "Strengthen your smile’s foundation with Bone Grafting at Couture Dentistry. This advanced treatment restores bone density for lasting oral health. Rebuild your confidence and support—book your bone grafting consultation today!"
+        },
+        {
+          "category": "Oral Surgeon",
+          "title": "Oral Cancer Screening",
+          "snippet": "Protect your health with Oral Cancer Screening at Couture Dentistry. Our advanced screening detects early signs for timely treatment and peace of mind. Stay proactive about your wellness—book your oral cancer screening today!"
+        },
+        {
+          "category": "Denture Care Center",
+          "title": "Dentures & Partials",
+          "snippet": "Restore your smile and chewing comfort with custom dentures and partials designed for a natural fit, improved function, and confidence in your daily life."
+        },
+        {
+          "category": "Denture Care Center",
+          "title": "Dentures",
+          "snippet": "Restore comfort and confidence with Dentures at Couture Dentistry. Our custom-fit designs look natural and feel secure, giving you a beautiful, functional smile. Experience lasting comfort—schedule your personalized denture consultation today!"
+        },
+        {
+          "category": "Denture Care Center",
+          "title": "All-On-Four Prosthetics",
+          "snippet": "Rediscover full confidence with All-On-Four Prosthetics at Couture Dentistry. This innovative solution restores your entire smile with stability and beauty. Reimagine your bite and comfort—book your All-On-Four consultation today!"
+        },
+        {
+          "category": "Dental Implants Periodontist",
+          "title": "Periodontal Care",
+          "snippet": "Protect your gums and preserve your smile with Periodontal Care at Couture Dentistry. Our experts treat gum disease effectively to prevent tooth loss and restore oral health. Revitalize your gums—book your periodontal care appointment today!"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "McGuiness Dermatology",
+      "description": "At McGuiness Dermatology & Plastic Surgery, we proudly serve communities across North Texas with a range of dermatology, aesthetic, plastic surgery, and wellness services.\n\nOur practice has built a reputation for excellence through personalized care, advanced treatment options, and a commitment to patient wellness.\n\nOur location specializes in dermatology care. For patients interested in plastic surgery, our surgical process ensures personalized consultations, detailed planning, and state-of-the-art procedures performed in our in-office surgical suite in Plano.\n\nAt McGuiness Dermatology, we believe in treating the whole person, addressing underlying causes of skin concerns, and integrating wellness therapies to support long-term results.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "cosmetic_surgeon",
+        "hair_removal_service",
+        "laser_hair_removal_service",
+        "medical_spa",
+        "plastic_surgeon",
+        "plastic_surgery_clinic",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Hair removal service",
+        "Laser hair removal service",
+        "Medical spa",
+        "Plastic surgeon",
+        "Plastic surgery clinic",
+        "Skin care clinic"
+      ],
+      "cid": "224566407354692347",
+      "feature_id": "0x864c1f398361d6d7:0x31dd1f52adcb2fb",
+      "address": "1920 N Collins Blvd, Richardson, TX 75080",
+      "address_info": {
+        "address": "1920 N Collins Blvd",
+        "city": "Richardson",
+        "zip": "75080",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJ19ZhgzkfTIYR-7LcKvXRHQM",
+      "phone": "+1972-316-4555",
+      "url": "https://mcguinessdermatology.com/",
+      "domain": "mcguinessdermatology.com",
+      "logo": "https://lh6.googleusercontent.com/-DbpZR7zfsYs/AAAAAAAAAAI/AAAAAAAAAAA/gDiKlh8FlaQ/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QgLXIKShvVS7brsuuSucp4A5ixrXd78YEgBW0SF5mTDsXLsdB2LKDCTDGLacyltDuOSmORCcRSpL54GR9a-dfbHK9j6JDr0I4UAigujXHZoLh8dgfQXGgYYJZLfDfZJD3v3aqATA=w413-h240-k-no",
+      "total_photos": 30,
+      "snippet": "1920 N Collins Blvd, Richardson, TX 75080",
+      "latitude": 32.974,
+      "longitude": -96.723,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "personable doctor": 18,
+        "hair loss treatment": 7,
+        "helpful office staff": 6,
+        "informative doctor": 6,
+        "unrushed visit": 4,
+        "full body scan": 2,
+        "treatment plan": 11,
+        "kind staff": 34,
+        "wait time": 18,
+        "friendly staff": 121
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 731
+      },
+      "rating_distribution": {
+        "1": 12,
+        "2": 3,
+        "3": 4,
+        "4": 27,
+        "5": 685
+      },
+      "people_also_search": [
+        {
+          "cid": "8307840559757174564",
+          "feature_id": "0x0:0x734b60f8e6e8a724",
+          "title": "Michael McGuiness, MD",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "6745193522768459346",
+          "feature_id": "0x0:0x5d9bbdc579e13652",
+          "title": "K Dermatology & Wellness Institute | Dr. Angie Koriakos | Richardson Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 823
+          }
+        },
+        {
+          "cid": "11732311289604257228",
+          "feature_id": "0x0:0xa2d18af51b2ab5cc",
+          "title": "U.S. Dermatology Partners Richardson",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1119
+          }
+        },
+        {
+          "cid": "10472163664148355503",
+          "feature_id": "0x0:0x9154995e5f50d9af",
+          "title": "Arborshade Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 161
+          }
+        },
+        {
+          "cid": "4753987909794722878",
+          "feature_id": "0x0:0x41f98ed0f5d0f43e",
+          "title": "Dermatology Specialists, PA",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.4,
+            "votes_count": 63
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+19723164555",
+          "source": "google_business"
+        },
+        {
+          "type": "telephone",
+          "value": "8444878399",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=224566407354692347&hl=en&gl=US",
+      "last_updated_time": "2026-09-26 17:57:58 +00:00",
+      "first_seen": "2024-08-05 02:03:38 +00:00",
+      "services": [
+        {
+          "category": "Dermatologist",
+          "title": "Acne treatments",
+          "snippet": "Our acne treatments help clear your skin and eliminate acne. Contact a skin specialist and get rid of acne with no downtime."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Botox",
+          "snippet": "Patients choose Botox to relax facial muscles and reduce dynamic wrinkles. Experience smoother skin with Botox."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Excisions",
+          "snippet": "Improve your skin’s health with lesion removal. Dr. Natalie Barton helps patients achieve their aesthetic goals with personalized excision procedures."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Scar revision",
+          "snippet": "Improve your look by revising scars. Dr. Natalie Barton helps patients achieve their aesthetic goals with scar revision procedures."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Skin checks",
+          "snippet": "Catch skin cancer early with our skin cancer screening. We address your skin’s health concerns with skin checks."
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image West Village",
+      "description": "Ideal Image is North America's #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in West Village offers treatments such as Laser Hair Removal in West Village, TX, Botox® in West Village, TX, CoolSculpting® in West Village, TX, Xeomin in West Village, TX, Fillers in West Village, TX, and Chemical Peels in West Village, TX. Our clinic also offers Microneedling in West Village, TX, Ultherapy in West Village, TX, IPL Photofacial in West Village, TX, and CoolTone® in West Village, TX. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "8175837702982373626",
+      "feature_id": "0x864e9ed447671db7:0x71766912cb8290fa",
+      "address": "3839 McKinney Ave #110, Dallas, TX 75204",
+      "address_info": {
+        "borough": "Cityplace",
+        "address": "3839 McKinney Ave #110",
+        "city": "Dallas",
+        "zip": "75204",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJtx1nR9SeToYR-pCCyxJpdnE",
+      "phone": "+1469-784-9932",
+      "url": "https://www.idealimage.com/locations/texas/dallas-west-village?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh5.googleusercontent.com/-y_F2394yO8w/AAAAAAAAAAI/AAAAAAAAAAA/QDcyN6IHBjw/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipOEfJf00cPZ3rEwfOMLOTOyofueZJzbQcv3bVNk=w426-h240-k-no",
+      "total_photos": 16,
+      "snippet": "3839 McKinney Ave #110, Dallas, TX 75204",
+      "latitude": 32.81,
+      "longitude": -96.796,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card"
+          ]
+        }
+      },
+      "place_topics": {
+        "laser hair removal": 67,
+        "desk": 28,
+        "pay": 22,
+        "nurse": 16,
+        "sales": 10,
+        "contract": 9,
+        "laser treatment": 9,
+        "consultant": 7,
+        "loan": 5,
+        "competitive": 5
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 723
+      },
+      "rating_distribution": {
+        "1": 73,
+        "2": 16,
+        "3": 7,
+        "4": 22,
+        "5": 605
+      },
+      "people_also_search": [
+        {
+          "cid": "9728299976708709630",
+          "feature_id": "0x0:0x8701dd493c29dcfe",
+          "title": "Ultimate Image MedSpa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 469
+          }
+        },
+        {
+          "cid": "14783760793562211663",
+          "feature_id": "0x0:0xcd2a781d309f654f",
+          "title": "SEV Laser",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 778
+          }
+        },
+        {
+          "cid": "12318304919289055181",
+          "feature_id": "0x0:0xaaf3690f152bc7cd",
+          "title": "Milan Laser Hair Removal",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 372
+          }
+        },
+        {
+          "cid": "1510057762009484179",
+          "feature_id": "0x0:0x14f4cd88aee58b93",
+          "title": "LaserAway Dallas",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 566
+          }
+        },
+        {
+          "cid": "16313460758616897978",
+          "feature_id": "0x0:0xe2650e20a6a279ba",
+          "title": "Olysis Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 150
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14697849932",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=8175837702982373626&hl=en&gl=US",
+      "last_updated_time": "2026-01-24 03:56:45 +00:00",
+      "first_seen": "2024-07-23 05:32:52 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Garland",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "2002675889432529336",
+      "feature_id": "0x864c1cf98203d071:0x1bcaef1c5ddd89b8",
+      "address": "4430 Lavon Dr #364, Garland, TX 75040",
+      "address_info": {
+        "address": "4430 Lavon Dr #364",
+        "city": "Garland",
+        "zip": "75040",
+        "region": "Texas",
+        "country_code": "US"
+      },
+      "place_id": "ChIJcdADgvkcTIYRuIndXRzvyhs",
+      "phone": "+1469-331-6553",
+      "url": "https://www.idealimage.com/locations/texas/dallas-garland?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh3.googleusercontent.com/-uO3Uv3rLZPc/AAAAAAAAAAI/AAAAAAAAAAA/K2IMmU_zPCI/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipNXtape5fq0rMbeuJulTEtF5b8NYKR4BcUomA_E=w426-h240-k-no",
+      "total_photos": 28,
+      "snippet": "4430 Lavon Dr #364, Garland, TX 75040",
+      "latitude": 32.957,
+      "longitude": -96.615,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "laser hair removal": 40,
+        "pay": 21,
+        "call": 19,
+        "nurse": 17,
+        "job": 17,
+        "technician": 13,
+        "front desk": 11,
+        "contract": 11,
+        "email": 7,
+        "number": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 660
+      },
+      "rating_distribution": {
+        "1": 71,
+        "2": 11,
+        "3": 14,
+        "4": 18,
+        "5": 546
+      },
+      "people_also_search": [
+        {
+          "cid": "595511639009796651",
+          "feature_id": "0x0:0x843aeae36ca222b",
+          "title": "Golden Diamond Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 40
+          }
+        },
+        {
+          "cid": "13850991242889475000",
+          "feature_id": "0x0:0xc0389b26537933b8",
+          "title": "Looks Rx Medical Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 188
+          }
+        },
+        {
+          "cid": "9728299976708709630",
+          "feature_id": "0x0:0x8701dd493c29dcfe",
+          "title": "Ultimate Image MedSpa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 469
+          }
+        },
+        {
+          "cid": "4000869593297200439",
+          "feature_id": "0x0:0x3785f1b295242537",
+          "title": "D Art Of Beauty",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 7
+          }
+        },
+        {
+          "cid": "17685778657477574391",
+          "feature_id": "0x0:0xf57081fc5722bef7",
+          "title": "LaserAway Rockwall",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 220
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14693316553",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=2002675889432529336&hl=en&gl=US",
+      "last_updated_time": "2026-01-25 03:19:42 +00:00",
+      "first_seen": "2026-01-25 03:19:42 +00:00"
+    }
+  ]
+}

@@ -1,0 +1,5632 @@
+{
+  "id": "11141842-1230-0544-0000-2c791bfcfc7d",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 637,
+  "items": [
+    {
+      "type": "business_listing",
+      "title": "MetroDerm & Center for Plastic Surgery - Sandy Springs",
+      "description": "Welcome to MetroDerm’s flagship location, where excellence in Dermatology meets world-class expertise. Nestled in the heart of Atlanta, our clinic stands as a beacon of exceptional and leading-edge Dermatological care, Mohs skin cancer surgery, Plastic Surgery, and Cosmetic Dermatology. Offering an unparalleled array of Dermatology, skin care, and surgery services that redefine the standards of Dermatological care in Atlanta.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "medical_spa",
+        "plastic_surgeon"
+      ],
+      "additional_categories": [
+        "Medical spa",
+        "Plastic surgeon"
+      ],
+      "cid": "7049488340043253451",
+      "feature_id": "0x88f50ecc1dbd4123:0x61d4d04ba48946cb",
+      "address": "875 Johnson Ferry Rd NE 180 300, Atlanta, GA 30342",
+      "address_info": {
+        "borough": "Perimeter Center",
+        "address": "875 Johnson Ferry Rd NE 180 300",
+        "city": "Atlanta",
+        "zip": "30342",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJI0G9HcwO9YgRy0aJpEvQ1GE",
+      "phone": "+1404-257-9933",
+      "url": "https://metroderm.org/our-team/amy-kim-md/",
+      "domain": "metroderm.org",
+      "logo": "https://lh4.googleusercontent.com/-jmMluY1jPzk/AAAAAAAAAAI/AAAAAAAAAAA/T34hhZlZMK4/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm4XzXF-QSMmG2YGNOrAQFwWHdPe7nrXT-oTfv9Ve-smfdpT2nlX1z85KsXDWBkpJOTmgUYKvyLNcD0VBiqhtpd1xkUKgzUgoHf7qW__G6QfS4SrtcbJkQkO8XVP9ahlNpNPs8A=w408-h271-k-no",
+      "total_photos": 28,
+      "snippet": "875 Johnson Ferry Rd NE 180 300, Atlanta, GA 30342",
+      "latitude": 33.906,
+      "longitude": -84.359,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_onsite_parking"
+          ]
+        }
+      },
+      "place_topics": {
+        "mohs surgery": 63,
+        "thorough doctor": 76,
+        "caring staff": 340,
+        "friendly staff": 883,
+        "wait time": 129,
+        "thoroughness": 237,
+        "bedside manner": 77,
+        "quick visit": 29,
+        "punctuality": 63,
+        "skin tag removal": 9
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 4450
+      },
+      "rating_distribution": {
+        "1": 82,
+        "2": 46,
+        "3": 58,
+        "4": 159,
+        "5": 4105
+      },
+      "people_also_search": [
+        {
+          "cid": "4249488100776842845",
+          "feature_id": "0x0:0x3af936e9b40d965d",
+          "title": "Metroderm ACCR",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "2164668184919682738",
+          "feature_id": "0x0:0x1e0a723ecaba2eb2",
+          "title": "MetroDerm - Hiram",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 4391
+          }
+        },
+        {
+          "cid": "6194236870902644276",
+          "feature_id": "0x0:0x55f6599d98c77e34",
+          "title": "AdvancedMD Aesthetics of Atlanta: Maki Rheaume, MD",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 73
+          }
+        },
+        {
+          "cid": "1524490929303333218",
+          "feature_id": "0x0:0x1528146c506e2962",
+          "title": "Amy Kim",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "6794149280776997469",
+          "feature_id": "0x0:0x5e49aac61fb04a5d",
+          "title": "Robinson H Keith MD",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 92
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 98
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 96
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 27
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 85
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 39
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 21
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 17
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14042579933",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=7049488340043253451&hl=en&gl=US",
+      "last_updated_time": "2026-09-16 09:33:49 +00:00",
+      "first_seen": "2024-07-14 08:51:30 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Charette Cosmetics Medical Spa - Atlanta",
+      "description": "Charette Cosmetics is a leading medical aesthetics clinic offering cutting-edge, non-surgical treatments to help you look and feel your best. Our services include BOTOX®, custom facials, advanced laser treatments, RF and traditional microneedling, dermal fillers, chemical peels, hair restoration, intimate wellness, body contouring, skin resurfacing, and vitamin therapies. Trusted by celebrities and professionals nationwide, we combine luxury care with medical-grade technology to deliver visible, lasting results. Whether you’re targeting fine lines, skin texture, stubborn fat, or hair loss, our expert team personalizes every treatment plan to your goals.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "day_spa",
+        "facial_spa",
+        "laser_hair_removal_service",
+        "skin_care_clinic",
+        "spa",
+        "tattoo_removal_service",
+        "weight_loss_service",
+        "wellness_program"
+      ],
+      "additional_categories": [
+        "Day spa",
+        "Facial spa",
+        "Laser hair removal service",
+        "Skin care clinic",
+        "Spa",
+        "Tattoo removal service",
+        "Weight loss service",
+        "Wellness program"
+      ],
+      "cid": "5164915005311048185",
+      "feature_id": "0x88f50f010328cbcd:0x47ad76d51aa659f9",
+      "address": "201 Allen Rd NE Ste 302, Atlanta, GA 30328",
+      "address_info": {
+        "address": "201 Allen Rd NE Ste 302",
+        "city": "Atlanta",
+        "zip": "30328",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJzcsoAwEP9YgR-VmmGtV2rUc",
+      "phone": "+1404-430-4378",
+      "url": "https://charettecosmetics.com/atlanta/?utm_source=google&utm_medium=organic&utm_campaign=GBPAtlanta",
+      "domain": "charettecosmetics.com",
+      "logo": "https://lh4.googleusercontent.com/-0gYigYvQc90/AAAAAAAAAAI/AAAAAAAAAAA/5FLpV04KM-k/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/grass-cs/ACvplmPz17H1mmhzrYrWiI1DXjaH-giRAs6vTBsEbXb3YikhlL_37GWwBeA5bKgW6zkQ9924T7HcD4Y2WyrlBQiyEicm4hR7uJvMOrPl6PwSRelqgxHyX1evr6_EbABeEkHfjIQJaDtRWJ1mBmQ=w408-h271-k-no",
+      "total_photos": 156,
+      "snippet": "201 Allen Rd NE Ste 302, Atlanta, GA 30328",
+      "latitude": 33.913,
+      "longitude": -84.381,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_garage_free",
+            "has_parking_lot_free",
+            "has_onsite_parking"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "chemical peel": 201,
+        "level 1 peel": 30,
+        "hyperpigmentation": 38,
+        "melanx peel": 25,
+        "diamond glow facial": 17,
+        "signature facial": 14,
+        "pico laser": 8,
+        "esthetician": 41,
+        "pigmentation pack": 8,
+        "aftercare instructions": 16
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 2642
+      },
+      "rating_distribution": {
+        "1": 59,
+        "2": 8,
+        "3": 11,
+        "4": 23,
+        "5": 2541
+      },
+      "people_also_search": [
+        {
+          "cid": "414650013172154144",
+          "feature_id": "0x0:0x5c121fd753cbf20",
+          "title": "LUX Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 194
+          }
+        },
+        {
+          "cid": "16814165467147800220",
+          "feature_id": "0x0:0xe957ea6837fc0e9c",
+          "title": "CULT Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 314
+          }
+        },
+        {
+          "cid": "5574969956683417025",
+          "feature_id": "0x0:0x4d5e45a35d9705c1",
+          "title": "Radiance Medspa Atlanta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 207
+          }
+        },
+        {
+          "cid": "15269795080017444450",
+          "feature_id": "0x0:0xd3e935b8f1727e62",
+          "title": "ELLEMES Medical Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 465
+          }
+        },
+        {
+          "cid": "116280817558675868",
+          "feature_id": "0x0:0x19d1cc998c6e19c",
+          "title": "Artisan Beauté - Buckhead",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 440
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "charettecosmetics.com",
+          "url": "https://charettecosmetics.com/treatments/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14044304378",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=5164915005311048185&hl=en&gl=US",
+      "last_updated_time": "2026-10-08 08:47:33 +00:00",
+      "first_seen": "2026-10-08 08:47:33 +00:00",
+      "services": [
+        {
+          "category": "Botox",
+          "title": "Botox In-Office Consultation with Same Day Treatment",
+          "snippet": "Units begin at $12/unit\r\n\r\nSit down with our elite injectors are who are highly trained in advanced techniques & facial assessments. We offer the most popular neuromodulators on the market to prevent fine lines in your forehead, crows feet, and angry 11 lines. This treatment is great for the prevention of aging and also is an anti-aging solution to excessive movement in our facial muscles to restore a youthful aesthetic.\r\n\r\n **THIS DEPOSIT WILL GO TOWARD IN-OFFICE TREATMENT**",
+          "price": {
+            "current": 50,
+            "currency": "USD",
+            "displayed_price": "From $50.00"
+          }
+        },
+        {
+          "category": "Chemical Peels",
+          "title": "Level 2 Chemical Peel - FACE (MelanX)",
+          "snippet": "MelanX is our powerful, scientifically-designed treatment for eliminating dark spots, acne scarring, sun spots, hyperpigmentation, melasma, fine lines & wrinkles. This kit comes with a 25 day post-care skincare regimen including a prescription-strength brightening cream, retinol serum, a soothing balm, and cleanser. Please keep in mind that you must wear a red mask for 12 hours, so plan time accordingly. Discontinue use of skincare actives at least 5 days prior to your treatment.",
+          "price": {
+            "current": 999,
+            "currency": "USD",
+            "displayed_price": "From $999.00"
+          }
+        },
+        {
+          "category": "Chemical Peels",
+          "title": "Level 1 Chemical Peel - FACE",
+          "snippet": "The Chemical Peel Level I is a gentle yet powerful medical-grade chemical peel for the treatment of acne and acne scarring, fine lines and wrinkles, age and sun spots, hyperpigmentation, melasma, rosacea, enlarged pores, oil balancing, and overall skin health. This kit comes with a 7-day aftercare needed to heal from the peel.",
+          "price": {
+            "current": 400,
+            "currency": "USD",
+            "displayed_price": "From $400.00"
+          }
+        },
+        {
+          "category": "Consultations",
+          "title": "In-Office Consultation with Same Day Treatment - Aesthetician",
+          "snippet": "Don't know what treatment is best for you? Schedule this in-office consultation with one of our elite aestheticians, who are experienced and knowledgeable about all things skin. They will provide a treatment plan and recommend products that best fit your skin conditions to get you results. All services offered in the office can be done with same-day treatment and consultation.\r\n\r\n **THIS $100 DEPOSIT WILL GO TOWARD IN OFFICE TREATMENTS ONLY**",
+          "price": {
+            "current": 100,
+            "currency": "USD",
+            "displayed_price": "From $100.00"
+          }
+        },
+        {
+          "category": "Consultations",
+          "title": "Virtual Consultation - Aesthetician",
+          "snippet": "Have questions about your skin but can't come into the office?  Schedule this virtual consultation with our elite aestheticians via zoom to ask any questions and recommendations for your skin conditions!\r\n\r\n **THIS $100 DEPOSIT WILL GO TOWARD IN-OFFICE TREATMENTS ONLY**",
+          "price": {
+            "current": 100,
+            "currency": "USD",
+            "displayed_price": "From $100.00"
+          }
+        },
+        {
+          "category": "Facials & Dermaplaning",
+          "title": "Diamond Glow Facial",
+          "snippet": "3 IN 1 FACIAL: Extract impurities, exfoliate dead skin, and deeply hydrates for a refreshed glow.",
+          "price": {
+            "current": 250,
+            "currency": "USD",
+            "displayed_price": "From $250.00"
+          }
+        },
+        {
+          "category": "Facials & Dermaplaning",
+          "title": "Signature Facial Deluxe",
+          "snippet": "This facial comes with 7 different treatments including: Double Cleanse, Dermaplaning, Light Chemical Peel, SkinWave or DiamondGlow, Hydro Jelly Mask, oxygen facial, serums. A facial is one to take care of the skin by hydrating your complexion, promoting clear and bright skin, and helping your skin look more youthful.",
+          "price": {
+            "current": 350,
+            "currency": "USD",
+            "displayed_price": "From $350.00"
+          }
+        },
+        {
+          "category": "Laser Resurfacing",
+          "title": "CO2 LV1 Laser Resurfacing",
+          "snippet": "CO2 Fractionated laser treatment addresses various skin concerns using fractionated technology delivering micro-ablative channels of injury to the skin’s tissue in a unique pattern preserving untreated skin between the selected treatment spots. The CO2 laser energy will stimulate collagen production while generating new cell turnover, improving your skin’s tone and texture.",
+          "price": {
+            "current": 999,
+            "currency": "USD",
+            "displayed_price": "From $999.00"
+          }
+        },
+        {
+          "category": "Laser Resurfacing",
+          "title": "PICO Laser",
+          "snippet": "Pico laser resurfacing for the face - moderate downtime.",
+          "price": {
+            "current": 850,
+            "currency": "USD",
+            "displayed_price": "From $850.00"
+          }
+        },
+        {
+          "category": "Microneedling",
+          "title": "Microneedling (Full Face)",
+          "snippet": "Microneedling is used to treat and improve conditions like acne scarring, fine lines and wrinkles, loose skin, skin texture, pore size, brown spots, stretch marks, and pigment issues. It's also called skin needling, Collagen Induction Therapy (CIT), and Percutaneous Collagen Induction (PCI).",
+          "price": {
+            "current": 400,
+            "currency": "USD",
+            "displayed_price": "From $400.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Dermatology Consultants, P.C.",
+      "description": "At Dermatology Consultants, our goal is to consistently deliver excellent patient care for the entire family. This is evident by our long standing reputation in the medical community over the past 85 years. Our award winning, board-certified dermatologists utilize cutting-edge technology, products and procedures to provide the highest level of care to our patients. Dermatology Consultants is recognized as leaders in their field, participating in research studies, teaching at medical schools, serving on faculty boards, training other providers in medical and cosmetic procedures, and authoring articles for medical journals in the field of dermatology.\nConvenient locations available in Atlanta, Covington, and our NEWEST in Decatur, Georgia.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "cosmetics_store",
+        "laser_hair_removal_service",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetics store",
+        "Laser hair removal service",
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "3075503841369169676",
+      "feature_id": "0x88f505a93e8aa781:0x2aae6272f2289f0c",
+      "address": "3280 Howell Mill Rd NW Ste 101, Atlanta, GA 30327",
+      "address_info": {
+        "borough": "Buckhead",
+        "address": "3280 Howell Mill Rd NW Ste 101",
+        "city": "Atlanta",
+        "zip": "30327",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJgaeKPqkF9YgRDJ8o8nJirio",
+      "phone": "+1404-351-7546",
+      "url": "https://www.dermatologyconsultants.org/",
+      "domain": "www.dermatologyconsultants.org",
+      "logo": "https://lh5.googleusercontent.com/-1rjTYDZKTY8/AAAAAAAAAAI/AAAAAAAAAAA/7EsVl0mDHUU/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWluu51l_g95I19llIgiXXR2_7GzcyxLhoyHwstt-JwEoeBxjli8EHHJ9mYeL6Ocpbn2qDl9b_ij9vS6I52z06Aeh9yoyNElFAP6NqTjbkcCOYjsjPXxB8BV7XWyuQ897T8NRWOg=w408-h306-k-no",
+      "total_photos": 232,
+      "snippet": "3280 Howell Mill Rd NW Ste 101, Atlanta, GA 30327",
+      "latitude": 33.843,
+      "longitude": -84.429,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "efficient staff": 173,
+        "wait time": 83,
+        "friendly staff": 530,
+        "thoroughness": 93,
+        "thorough doctor": 20,
+        "bedside manner": 26,
+        "skin tag removal": 4,
+        "punctuality": 25,
+        "same day appointment": 3,
+        "hydrafacial": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 2130
+      },
+      "rating_distribution": {
+        "1": 90,
+        "2": 29,
+        "3": 35,
+        "4": 58,
+        "5": 1918
+      },
+      "people_also_search": [
+        {
+          "cid": "7128352443066913197",
+          "feature_id": "0x0:0x62ecfec782ca91ad",
+          "title": "Peachtree Dermatology Associates",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1963
+          }
+        },
+        {
+          "cid": "18151715478732516904",
+          "feature_id": "0x0:0xfbe7d90e55cfae28",
+          "title": "Georgia Dermatology Partners - Brookhaven",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 821
+          }
+        },
+        {
+          "cid": "7421437937145033582",
+          "feature_id": "0x0:0x66fe3e7bbe23336e",
+          "title": "Georgia Skin Specialists",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 329
+          }
+        },
+        {
+          "cid": "2129506425811632360",
+          "feature_id": "0x0:0x1d8d86cfc96a00e8",
+          "title": "Olansky Dermatology & Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 7381
+          }
+        },
+        {
+          "cid": "14398824460040053889",
+          "feature_id": "0x0:0xc7d2e68ee3e4a481",
+          "title": "Dermatology Affiliates (Midtown)",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 972
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 97
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 32
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 31
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 24
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 28
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 24
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 17
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14043517546",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=3075503841369169676&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 14:04:03 +00:00",
+      "first_seen": "2024-07-15 03:06:49 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Forefront Dermatology",
+      "description": "Forefront Dermatology in Atlanta has board-certified dermatologists that diagnose and treat all types skin conditions. We accept most major insurance carriers but not all of their products. We recommend you confirm your in-network status of your health plan with your insurance carrier. If you do not see your carrier, please contact our office at (404) 459-9177.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "medical_spa"
+      ],
+      "additional_categories": [
+        "Medical spa"
+      ],
+      "cid": "4697434461935702065",
+      "feature_id": "0x88f50932e33fda97:0x4130a3c14b5b1031",
+      "address": "5505 Peachtree Dunwoody Rd NE Suite 412, Atlanta, GA 30342",
+      "address_info": {
+        "address": "5505 Peachtree Dunwoody Rd NE Suite 412",
+        "city": "Atlanta",
+        "zip": "30342",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJl9o_4zIJ9YgRMRBbS8GjMEE",
+      "phone": "+1404-459-9177",
+      "url": "https://forefrontdermatology.com/location/atlanta-ga-30342/",
+      "domain": "forefrontdermatology.com",
+      "logo": "https://lh5.googleusercontent.com/-ixDvxTeKB9s/AAAAAAAAAAI/AAAAAAAAAAA/yZmcADrBrOU/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhG5mfLKMvDA35DS_zqhOfd38wsEGuCmvT4p_8wqj5FasneRWL5lsSuF_T-7F5wkiQKfTmbSCtfkDW27uW7nE-Hy21VYkPUUUkyF1uTQwlG7-tfESGtUDI2Slzk2xCBMto8pEMZPCV4p-b=w408-h544-k-no",
+      "total_photos": 16,
+      "snippet": "5505 Peachtree Dunwoody Rd NE Suite 412, Atlanta, GA 30342",
+      "latitude": 33.904,
+      "longitude": -84.352,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "dr cox": 83,
+        "dr burns": 75,
+        "wait time": 75,
+        "friendly staff": 334,
+        "thoroughness": 101,
+        "caring staff": 118,
+        "bedside manner": 20,
+        "psoriasis treatment": 3,
+        "quick visit": 7,
+        "punctuality": 17
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1893
+      },
+      "rating_distribution": {
+        "1": 46,
+        "2": 13,
+        "3": 18,
+        "4": 68,
+        "5": 1748
+      },
+      "people_also_search": [
+        {
+          "cid": "2870358613309178444",
+          "feature_id": "0x0:0x27d58ff37446c24c",
+          "title": "Dermatology Associates of Atlanta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.1,
+            "votes_count": 390
+          }
+        },
+        {
+          "cid": "4289146451570008031",
+          "feature_id": "0x0:0x3b861bf90b751fdf",
+          "title": "Atlanta Center For Dermatologic Diseases",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 1047
+          }
+        },
+        {
+          "cid": "18151715478732516904",
+          "feature_id": "0x0:0xfbe7d90e55cfae28",
+          "title": "Georgia Dermatology Partners - Brookhaven",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 821
+          }
+        },
+        {
+          "cid": "3449336906389008025",
+          "feature_id": "0x0:0x2fde81a417f62e99",
+          "title": "Medical Dermatology Specialists, P.C.",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.4,
+            "votes_count": 556
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 11,
+                  "minute": 30
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 34
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 24
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 12
+              }
+            },
+            {
+              "time": {
+                "hour": 13
+              }
+            },
+            {
+              "time": {
+                "hour": 14
+              }
+            },
+            {
+              "time": {
+                "hour": 15
+              }
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14044599177",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=4697434461935702065&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 13:44:07 +00:00",
+      "first_seen": "2024-08-03 18:44:27 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Anti-Aging Treatment"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "General Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Buckhead",
+      "description": "Ideal Image is North America's #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in Atlanta offers treatments such as Laser Hair Removal in Atlanta, GA, Botox® in Atlanta, GA, CoolSculpting® in Atlanta, GA, Xeomin in Atlanta, GA, Fillers in Atlanta, GA, and Chemical Peels in Atlanta, GA. Our clinic also offers Microneedling in Atlanta, GA, Ultherapy in Atlanta, GA, IPL Photofacial in Atlanta, GA, and CoolTone® in Atlanta, GA. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "12103349709972205978",
+      "feature_id": "0x88f5058e7ed1e263:0xa7f7bc6f5738719a",
+      "address": "3050 Peachtree Rd NW Suite P- 5, Atlanta, GA 30305",
+      "address_info": {
+        "borough": "Buckhead",
+        "address": "3050 Peachtree Rd NW Suite P- 5",
+        "city": "Atlanta",
+        "zip": "30305",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJY-LRfo4F9YgRmnE4V2-896c",
+      "phone": "+1404-689-0774",
+      "url": "https://www.idealimage.com/locations/georgia/atlanta-buckhead?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh3.googleusercontent.com/-IeSqwgR0nF0/AAAAAAAAAAI/AAAAAAAAAAA/ulfc6kKixPs/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipMvu8YoPxgscxStCm2AynamnozIvQJSXrRVQw1w=w426-h240-k-no",
+      "total_photos": 37,
+      "snippet": "3050 Peachtree Rd NW Suite P- 5, Atlanta, GA 30305",
+      "latitude": 33.839,
+      "longitude": -84.381,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "call": 84,
+        "nurse": 39,
+        "contract": 35,
+        "voicemail": 25,
+        "front desk": 24,
+        "shave": 11,
+        "financial": 10,
+        "march": 8,
+        "frustration": 7,
+        "calendar": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.4,
+        "votes_count": 1847
+      },
+      "rating_distribution": {
+        "1": 206,
+        "2": 43,
+        "3": 35,
+        "4": 52,
+        "5": 1511
+      },
+      "people_also_search": [
+        {
+          "cid": "11578369566226477427",
+          "feature_id": "0x0:0xa0aea1c6911f7173",
+          "title": "dermani MEDSPA® Buckhead",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 403
+          }
+        },
+        {
+          "cid": "253491893596733644",
+          "feature_id": "0x0:0x3849588bf4640cc",
+          "title": "LaserAway Atlanta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 355
+          }
+        },
+        {
+          "cid": "13177738051722658552",
+          "feature_id": "0x0:0xb6e0baf07c13c2f8",
+          "title": "Unlimited Laser",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "4636608662785075361",
+          "feature_id": "0x0:0x40588b0353cda8a1",
+          "title": "Milan Laser Hair Removal",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 298
+          }
+        },
+        {
+          "cid": "15735487883982528763",
+          "feature_id": "0x0:0xda5faedc3c3de0fb",
+          "title": "SEV Laser",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 448
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14046890774",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12103349709972205978&hl=en&gl=US",
+      "last_updated_time": "2026-01-18 16:34:35 +00:00",
+      "first_seen": "2024-07-14 13:30:33 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "Natural Body Spa + Med Spa | Morningside",
+      "description": "Natural Body Spa + Med Spa in Morningside offers a full range of spa and med spa services. Our classic spa menu includes massages, mani-pedis, facials, and more! Natural Body's medical spa offers cosmetic injectables like Botox, Dysport and dermal filler. We also offer microneedling, laser hair removal, and IPL Photofacials and other advanced skin care treatments. Book an appointment today or treat someone to a much deserved spa gift card! Discover for yourself why Natural Body Spa + Med Spa was voted Best Spa in Atlanta.",
+      "category": "Day spa",
+      "category_ids": [
+        "day_spa",
+        "facial_spa",
+        "laser_hair_removal_service",
+        "massage_spa",
+        "massage_therapist",
+        "medical_spa",
+        "nail_salon",
+        "skin_care_clinic",
+        "spa"
+      ],
+      "additional_categories": [
+        "Facial spa",
+        "Laser hair removal service",
+        "Massage spa",
+        "Massage therapist",
+        "Medical spa",
+        "Nail salon",
+        "Skin care clinic",
+        "Spa"
+      ],
+      "cid": "13354326514057653200",
+      "feature_id": "0x88f50682f1251f2d:0xb9541935d4fcabd0",
+      "address": "1402 N Highland Ave NE Ste 1, Atlanta, GA 30306",
+      "address_info": {
+        "borough": "Morningside-Lenox Park",
+        "address": "1402 N Highland Ave NE Ste 1",
+        "city": "Atlanta",
+        "zip": "30306",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJLR8l8YIG9YgR0Kv81DUZVLk",
+      "phone": "+1404-872-1039",
+      "url": "https://www.naturalbody.com/spa-locations/georgia-morningside",
+      "domain": "www.naturalbody.com",
+      "logo": "https://lh6.googleusercontent.com/-vWEjzRQNUjw/AAAAAAAAAAI/AAAAAAAAAAA/0Ib4Ce_h2WA/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmr5njpQG8HGMx9yYb-4j6VCkJ8McArWLMp24tC2CSwc2SbdFyYl8QljypYQRNQ9yp12s86eWb9CgZ_EFkIsvaL3R5n5CKEs8XKWXQ8prGrZW6SLi0wNNebDx5_lCcKZdXPEyLZ=w408-h306-k-no",
+      "total_photos": 169,
+      "snippet": "1402 N Highland Ave NE Ste 1, Atlanta, GA 30306",
+      "latitude": 33.793,
+      "longitude": -84.353,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments"
+          ],
+          "payments": [
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_onsite_parking"
+          ]
+        }
+      },
+      "place_topics": {
+        "deep tissue massage": 49,
+        "botox": 12,
+        "massage therapist": 53,
+        "hydrafacial": 6,
+        "pedicure": 39,
+        "dermaplaning": 7,
+        "signature facial": 4,
+        "laser hair removal": 4,
+        "neck and shoulder massage": 3,
+        "welcoming staff": 52
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1541
+      },
+      "rating_distribution": {
+        "1": 32,
+        "2": 15,
+        "3": 21,
+        "4": 39,
+        "5": 1434
+      },
+      "people_also_search": [
+        {
+          "cid": "10554927655087332026",
+          "feature_id": "0x0:0x927aa2c7a76d5aba",
+          "title": "LumiVita Buckhead",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 619
+          }
+        },
+        {
+          "cid": "11041260681808170623",
+          "feature_id": "0x0:0x993a70174ba9ce7f",
+          "title": "Boutique Day Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 313
+          }
+        },
+        {
+          "cid": "7917465736553855379",
+          "feature_id": "0x0:0x6de07d238c9e7993",
+          "title": "Buckhead Grand Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 631
+          }
+        },
+        {
+          "cid": "16310769427864210730",
+          "feature_id": "0x0:0xe25b7e606125cd2a",
+          "title": "The Spa at Four Seasons Atlanta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 138
+          }
+        },
+        {
+          "cid": "8208564477307495560",
+          "feature_id": "0x0:0x71eaade6b9cda488",
+          "title": "Rebalance Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.2,
+            "votes_count": 333
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "temporarily_closed"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "naturalbody.com",
+          "url": "https://www.naturalbody.com/"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14048721039",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=13354326514057653200&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 06:20:58 +00:00",
+      "first_seen": "2026-09-11 06:20:58 +00:00",
+      "services": [
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Facial hair removal"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Armpit/Underarm Laser Hair Removal",
+          "snippet": "Visit Natural Body for professional armpit laser hair removal in Atlanta. Quick and comfortable, laser hair removal is the ultimate solution for men and women who want to get rid of unwanted hair on all parts of the body."
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Bikini + Brazilian Laser Hair Removal",
+          "snippet": "Natural Body’s bikini laser hair removal treatments are safe, fast, and effective for all skin types and tones — including medium to dark complexions. Get the smooth and soft skin you’ve always wanted today!"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Facial Laser Hair Removal",
+          "snippet": "Laser hair removal is effective for body hair and facial hair, except for around the eyes. The most common facial treatment areas are: Full Face, Lips, Cheeks, Chin, and Ears"
+        },
+        {
+          "category": "Laser Hair Removal Service",
+          "title": "Laser Hair Removal at the Spa",
+          "snippet": "Visit Natural Body for professional laser hair removal in Atlanta. Laser hair removal can be performed on all parts of the body including the cheeks, lips, legs, arms, underarms, chest, stomach, and back, as well as more sensitive areas like the bikini."
+        },
+        {
+          "category": "Day Spa",
+          "title": "Manicure",
+          "snippet": "Soften and smooth your cuticles, and shape and finish your nails with a buffed or polished surface. Achieve healthy, strong, aesthetically pleasing nails that look true to life. Add a French manicure with paraffin to a Natural Body manicure for a more hydrating result.",
+          "price": {
+            "current": 33,
+            "currency": "USD",
+            "displayed_price": "From $33.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Pedicure",
+          "snippet": "Restore the nails of your feet to their most nourished and hydrated, with a cleansing therapeutic foot soak. Exfoliate rough skin, smooth cuticles and shape nails during a refreshing treatment. Choose from natural, buffed, or polished nail finish, or add a French pedicure with paraffin.",
+          "price": {
+            "current": 55,
+            "currency": "USD",
+            "displayed_price": "From $55.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Group Booking"
+        },
+        {
+          "category": "Day Spa",
+          "title": "Group Bookings",
+          "snippet": "Kick back, relax, and celebrate a special occasion with a group of your friends, family, or co-workers. Our group spa party experiences are the perfect blend of high-touch service and pampering in a tranquil, relaxing space. A dedicated Group Coordinator will ensure your spa gathering is exceptional"
+        },
+        {
+          "category": "Day Spa",
+          "title": "Holiday Spa Packages",
+          "snippet": "‘Tis the season to treat yourself and others! Our spa holiday packages are here to bring warmth and relaxation during the chilly winter months. Our exclusive holiday treatments include award-winning facials, massages, and body therapies to leave you glowing and refreshed.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Men's Spa Packages",
+          "snippet": "Maximize your down time with our Modern Man Massage Package. Built for deep relief and total reset, this targeted package includes a 60-minute deep tissue massage to release muscle tension, enhanced by a mini hot stone treatment, and a refreshing peppermint foot reflexology session, and more.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Mother's Day Spa Packages",
+          "snippet": "We’ve put together a special Mother’s Day spa menu to pamper moms and maternal figures this Mother’s Day season. A perfect escape from the every day, we’ve combined our Natural Body Massage and Facial services to create one-of-a-kind Mother's Day spa packages as unique as she is.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Oil Treatment"
+        },
+        {
+          "category": "Day Spa",
+          "title": "Spa Packages",
+          "snippet": "Searching for “best spa packages in Morningside?” Natural Body’s award-winning spa treatments are carefully crafted into spa packages to deliver luxe combinations of our most popular spa services at a special price. Our signature treatment bundles make for the perfect spa day package in Morningside.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Day Spa",
+          "title": "Valentine’s Day Spa Packages",
+          "snippet": "Celebrate yourself and the ones you love with a relaxing Valentine's Day spa escape at Natural Body. All of our carefully curated Valentine's Day spa treatments can be customized to ensure your special someone feels loved and nurtured during this heartfelt season.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Spa",
+          "title": "Facials",
+          "snippet": "Experience a facial customized to match your skin type and designed to create your desired aesthetic outcome. Whether your skin is oily and acneic, dully and dry, a combination, or healthy, you can relax as our team of estheticians help rejuvenate and nourish your skin to uncover a more radiant you.",
+          "price": {
+            "current": 85,
+            "currency": "USD",
+            "displayed_price": "From $85.00"
+          }
+        },
+        {
+          "category": "Spa",
+          "title": "Massage",
+          "snippet": "Rejuvenate your mind-body connection with a therapeutic and customized massage at Natural Body Spa + Med Spa. Massage therapy alleviates pain, stress and anxiety by increasing blood circulation and creating balance in the body for improved overall health and quality of life.",
+          "price": {
+            "current": 75,
+            "currency": "USD",
+            "displayed_price": "From $75.00"
+          }
+        },
+        {
+          "category": "Spa",
+          "title": "Spa Gift Certificates",
+          "snippet": "Giving the gift of wellness is a genuine act of nurturing and kindness. Natural Body Spa & SkinReMEDI gift cards are perfect for someone special during holidays, birthdays, anniversaries or just because. Gift cards can be purchased online and any one our locations"
+        },
+        {
+          "category": "Spa",
+          "title": "Waxing & Tinting",
+          "snippet": "Waxing and tinting at Natural Body Spa include face, back and bikini area for a smooth and clean appearance. Eyelash and brow tinting freshen and enhance your look.",
+          "price": {
+            "current": 15,
+            "currency": "USD",
+            "displayed_price": "From $15.00"
+          }
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Gel Polish Manicure",
+          "snippet": "Products are fruit and flower-infused, in a service that exfoliates, revitalizes, renews and protects! You’ll LOVE how soft and youthful your hands appear. Gel Polish will keep your nails looking flawless.",
+          "price": {
+            "current": 55,
+            "currency": "USD",
+            "displayed_price": "$55.00"
+          }
+        },
+        {
+          "category": "Nail Salon",
+          "title": "Mani-Pedi Combos",
+          "snippet": "Enjoy an aromatherapy soak, exfoliating scrub, and a moisturizing lower leg and foot massage, before your nail shaping and polish is applied.",
+          "price": {
+            "current": 80,
+            "currency": "USD",
+            "displayed_price": "$80.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "CBD Massage",
+          "snippet": "Enjoy hemp-derived CBD oil with pain-relieving, anti-inflammatory properties, as well as cannabidiol from arnica, menthol, hemp and camphor.",
+          "price": {
+            "current": 150,
+            "currency": "USD",
+            "displayed_price": "From $150.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Couples Massage",
+          "snippet": "Bond with a loved one during a Natural Body Togetherness Massage for two, in a private room.",
+          "price": {
+            "current": 270,
+            "currency": "USD",
+            "displayed_price": "From $270.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Deep Tissue Massage",
+          "snippet": "Take anywhere from 30-90 minutes, specifically designed to loosen up the muscles of those that work and play-hard. We focus on deep-pressure therapy with attention to the specific muscle groups that cramp your style. We’ll have you back up and running in no time.",
+          "price": {
+            "current": 90,
+            "currency": "USD",
+            "displayed_price": "From $90.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Deluxe Hot Stone Massage",
+          "snippet": "Combines warm basalt stones with your choice of Swedish or Deep Tissue pressure to melt away stress. A calming lavender oil scalp massage completes the experience, leaving you blissed out from head to toe.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "From $195.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Lavender Scalp Massage",
+          "snippet": "This deeply relaxing scalp massage is one of our most popular upgrades for massage!",
+          "price": {
+            "current": 25,
+            "currency": "USD",
+            "displayed_price": "$25.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Natural Body Signature Massage",
+          "snippet": "Our most popular massage! A 75 minute fusion of Swedish + Deep Tissue massage with a Hot Herbal Steam Towel Treatment and a Lavender Scalp Treatment.",
+          "price": {
+            "current": 170,
+            "currency": "USD",
+            "displayed_price": "From $170.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Pregnancy Massage",
+          "snippet": "The perfect massage for clients past their first trimester. Relax in the hands of a massage therapist specifically trained in pregnancy massage. An excellent baby shower gift for the mother-to-be. Visit our For Pregnancy page for more details.",
+          "price": {
+            "current": 110,
+            "currency": "USD",
+            "displayed_price": "From $110.00"
+          }
+        },
+        {
+          "category": "Massage spa",
+          "title": "Swedish Massage",
+          "snippet": "Available from 30-90 minutes, this customizable massage uses flowing strokes and personalized pressure to ease tension, improve circulation, and restore balance. Whether you need quick relief or full-body relaxation, each session is tailored to what your body needs most.",
+          "price": {
+            "current": 75,
+            "currency": "USD",
+            "displayed_price": "From $75.00"
+          }
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox Injections",
+          "snippet": "Botox® treatments are quick and effective way to prevent and reduce the appearance of wrinkles and smooth out fine lines to restore a more youthful look administered by one of Natural Body's expert medical providers to deliver natural and long-lasting results. $12.50/unit"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting Body Contouring",
+          "snippet": "CoolSculpting is a groundbreaking technology that permanently destroys fat cells by exposing that fatty tissue layer (adipose tissue) to cold temperatures. During your treatment, your body sculpting specialist applies the system’s applicators to your targeted area."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Filler",
+          "snippet": "Facial fillers, sometimes called dermal fillers, are injectable substances that are placed strategically into parts of the face that have sunken, hallowed, lined or creased due to aging or are used to enhance contours in the cheek, chin, jaw, and more."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport Injections",
+          "snippet": "Ready to smooth out those moderate to severe forehead lines and wrinkles? Relax them with Dysport injections at Natural Body. Fast and minimally invasive, Dysport delivers natural, noticeable results within a few days."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip Filler",
+          "snippet": "Natural Body offers FDA-approved hyaluronic acid (HA) filler products, specifically recommended for lip injections, at our med spas in Atlanta. Your medical injector will create a treatment plan that helps you achieve your ideal shape and plumpness level for an incredibly natural-looking pout."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Med Spa Specials",
+          "snippet": "Get the natural results you’re looking for with amazing discounts on our most popular med spa treatments. Schedule your specially-priced treatment at Natural Body. Have questions? Request a complimentary consultation with our medical staff."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microblading + Cosmetic Tattooing",
+          "snippet": "Microblading and cosmetic tattooing are techniques that employs semi-permanent tattoos as a means of producing designs that resemble makeup on the skin of the face and eyes."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra",
+          "snippet": "Sculptra is an FDA-approved facial and body injectable that helps restore fullness caused by aging. It gradually replaces lost collagen—the protein in the body used to form a framework to support cell and tissue—for results that can last more than two years."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skinvive by Juvéderm",
+          "snippet": "Enhance your natural glow without changing your natural look! SKINVIVE™ by JUVÉDERM® is the first and only FDA-approved hyaluronic acid (HA) microdroplet injectable in the US to improve skin smoothness of the cheeks."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Tattoo Removal",
+          "snippet": "The Q Switched laser available on our multiplatform Spectrum laser device has been determined as a gold standard for tattoo removal."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vein Removal",
+          "snippet": "Treat visible vessels, broken capillaries, spider veins and vascular lesions using laser energy. The laser delivers energy to the skin, which is absorbed by blood vessels, scars, port wine stains, hemangiomas, and other vascular lesions."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Chemical peels",
+          "snippet": "SkinMedica Peels address the visible skin imperfections that result from skin aging and sun exposure, such as fine lines and wrinkles, uneven skin tone and texture."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Dermaplaning",
+          "snippet": "Get rid of that peach fuzz on your face and get luminous, glowing skin with Dermaplaning. A medical-grade scalpel will be used to gently scrape across the surface of your skin to remove dead skin and vellus hairs on the face, and lightly exfoliate the skin’s surface."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Glo2Facial Oxygen Facial",
+          "snippet": "Glo2Facial combines advanced technology and active, natural ingredients to activate your body’s natural superpowers: Oxfoliate™ with O2 bubbles, amplified with the LUX lite ultrasound experience, and detoxes with a lymphatic massage to deliver immediate, and long-lasting results."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Hydrafacial",
+          "snippet": "Hydrafacials are a popular facial treatment that cleanses, exfoliates, peels, extracts and hydrates your skin — leaving it healthier & glowing. Natural Body Spa + Med Spa offers a 30-minute Signature Hydrafacial, 45-minute Deluxe Hydrafacial, and 60-minute Platinum Hydrafacial in Atlanta.",
+          "price": {
+            "current": 199,
+            "currency": "USD",
+            "displayed_price": "From $199.00"
+          }
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "IPL Photofacial",
+          "snippet": "A Photofacial, or laser skin rejuvenation, is a state-of-the-art skin treatment that stimulates the production of collagen to improve the effects of sun damage, rosacea, fine lines, large pores, and more. With little to no recovery time, IPL Photofacials are safe and effective."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Microneedling",
+          "snippet": "An innovative skin rejuvenation treatment, microneedling by SkinPen is a form of Collagen Induction Therapy that significantly improves the appearance of sun damage, fine lines, wrinkles, acne scars, and stretch marks with little downtime."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Morpheus8 RF Microneedling",
+          "snippet": "Boost collagen and tighten the skin on your neck, face and chest with Morpheus8 RF Microneedling. This FDA-approved treatment targets the deep layers of the skin to reduce wrinkles, build collagen, and eliminate unwanted fat with minimal downtime. Request a complimentary med spa consult."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Skin Resurfacing",
+          "snippet": "Erbium skin resurfacing for the face, neck, chest helps eliminate surface pigmentation, mild scarring, improves skin elasticity, and minimize mild to moderate fine lines and wrinkles."
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Skin treatments",
+          "snippet": "At Natural Body, we offer a wide range of med spa treatments specifically designed to improve your skin’s appearance. Hydrafacial, Microneedling, RF Microneedling, IPL Photofacial, Chemical Peels, and more."
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Custom Fit Men's Facial",
+          "snippet": "Designed for men’s unique skin needs, this deep-cleansing facial combines purifying steam, exfoliating scrubs, and high-performance serums to clear clogged pores, combat breakouts, and treat ingrown hairs — Plus, a relaxing neck and shoulder massage!",
+          "price": {
+            "current": 130,
+            "currency": "USD",
+            "displayed_price": "$130.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Deep Pore Detox Facial",
+          "snippet": "An effective acne-eliminating and deep cleansing facial for men, women and teens designed to give your skin a deep cleanse. Includes combo of steam, salicylic cleansers, exfoliation, extra extraction time, and a variety of serums to dissolve sebum, and blue LED light therapy.",
+          "price": {
+            "current": 175,
+            "currency": "USD",
+            "displayed_price": "$175.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Express Dermaplaning Facial",
+          "snippet": "This express facial features gentle dermaplaning to remove dead skin cells and peach fuzz, leaving your skin ultra-smooth, radiant, and makeup-ready. Perfect for a quick refresh with major glow—no steam or extractions needed.",
+          "price": {
+            "current": 135,
+            "currency": "USD",
+            "displayed_price": "$135.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Natural Body Express Facial",
+          "snippet": "Pressed for time? This express facial delivers a fresh dose of hydration, glow-boosting nutrients, and radiant results—all in just 30 minutes. It’s your shortcut to healthy, happy skin.",
+          "price": {
+            "current": 85,
+            "currency": "USD",
+            "displayed_price": "$85.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Organic Custom Facial",
+          "snippet": "Your skin’s perfect match—using all organic skincare, this treatment includes dual cleansing, warm steam, exfoliation, a custom mask, extractions, hydration, sun protection, and a relaxing arm, neck, and shoulder massage, all tailored to your individual needs.",
+          "price": {
+            "current": 130,
+            "currency": "USD",
+            "displayed_price": "$130.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Organic Custom Facial + Dermaplaning",
+          "snippet": "Your smooth skin reset! Sweep away dull skin and reveal a fresh, radiant glow with this custom organic facial plus gentle dermaplaning. Experience silky-soft skin and a revitalized complexion—perfect for a deep refresh and skincare supercharge. Plus, it creates the ideal clean canvas for your favori",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "$195.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Timeless Radiance Anti-Aging Facial",
+          "snippet": "Turn back time with this age-defying facial designed to firm, deeply hydrate your skin. Featuring exfoliation, a custom organic peel and mask, this treatment targets fine lines, dullness, and lost elasticity—revealing a smoother, brighter, and more youthful-looking glow.",
+          "price": {
+            "current": 165,
+            "currency": "USD",
+            "displayed_price": "$165.00"
+          }
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Ultimate Glow Facial",
+          "snippet": "Our most popular facial! It includes all the benefits of a custom facial plus a custom peel, organic lip and eye treatment, and an extended arm, neck, and shoulder massage! The perfect facial if you’re looking for skin rejuvenation and a blissful spa experience.",
+          "price": {
+            "current": 195,
+            "currency": "USD",
+            "displayed_price": "$195.00"
+          }
+        },
+        {
+          "category": "Massage Therapist",
+          "title": "Licensed Massage Therapists",
+          "snippet": "Natural Body hires only the best, most skilled Licensed Massage Therapists in Atlanta. Voted \"best day spa\" in Atlanta and Gwinnett, Natural Body Spa provides award-winning massage treatments in Atlanta."
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Toco Hills",
+      "description": "Ideal Image is North America’s #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in Atlanta offers treatments such as Laser Hair Removal in Toco Hills, GA, Botox® in Toco Hills, GA, CoolSculpting® in Toco Hills, GA, Xeomin in Toco Hills, GA, Fillers in Toco Hills, GA, and Chemical Peels in Toco Hills, GA. Our clinic also offers Microneedling in Toco Hills, GA, Ultherapy in Toco Hills, GA, IPL Photofacial in Toco Hills, GA, and CoolTone® in Toco Hills, GA. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "11850286523784321654",
+      "feature_id": "0x88f50958ed29683f:0xa474acced0c35a76",
+      "address": "2927 N Druid Hills Rd, Atlanta, GA 30329",
+      "address_info": {
+        "borough": "Toco Hills",
+        "address": "2927 N Druid Hills Rd",
+        "city": "Atlanta",
+        "zip": "30329",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJP2gp7VgJ9YgRdlrD0M6sdKQ",
+      "phone": "+1678-539-9998",
+      "url": "https://www.idealimage.com/locations/georgia/toco-hills?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh6.googleusercontent.com/-jw0-yHBxeOU/AAAAAAAAAAI/AAAAAAAAAAA/Gw-g1gVOlZM/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipNpIzRAhVX2D8MMZw_a30rlQEVsmFetu0J-zaJf=w426-h240-k-no",
+      "total_photos": 28,
+      "snippet": "2927 N Druid Hills Rd, Atlanta, GA 30329",
+      "latitude": 33.815,
+      "longitude": -84.312,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        }
+      },
+      "place_topics": {
+        "laser hair removal": 92,
+        "technician": 28,
+        "receptionist": 27,
+        "nurse": 23,
+        "front desk": 18,
+        "contract": 10,
+        "underarm": 9,
+        "job": 8,
+        "bikini": 7,
+        "perimeter": 5
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 1420
+      },
+      "rating_distribution": {
+        "1": 88,
+        "2": 19,
+        "3": 18,
+        "4": 41,
+        "5": 1254
+      },
+      "people_also_search": [
+        {
+          "cid": "4636608662785075361",
+          "feature_id": "0x0:0x40588b0353cda8a1",
+          "title": "Milan Laser Hair Removal",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 298
+          }
+        },
+        {
+          "cid": "253491893596733644",
+          "feature_id": "0x0:0x3849588bf4640cc",
+          "title": "LaserAway Atlanta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 355
+          }
+        },
+        {
+          "cid": "16719734872502226808",
+          "feature_id": "0x0:0xe8086e481634cf78",
+          "title": "Atlanta Laser Lofts",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 20
+          }
+        },
+        {
+          "cid": "9754543686243307211",
+          "feature_id": "0x0:0x875f19cd048fcecb",
+          "title": "Harlem Zen",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 336
+          }
+        },
+        {
+          "cid": "11578369566226477427",
+          "feature_id": "0x0:0xa0aea1c6911f7173",
+          "title": "dermani MEDSPA® Buckhead",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 403
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+16785399998",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=11850286523784321654&hl=en&gl=US",
+      "last_updated_time": "2026-01-18 22:26:07 +00:00",
+      "first_seen": "2024-07-24 02:09:14 +00:00"
+    },
+    {
+      "type": "business_listing",
+      "title": "4Ever Young Med Spa & Wellness Center - Atlanta Midtown",
+      "description": "4Ever Young Med Spa & Wellness Center - Atlanta Midtown in Atlanta, GA combines advanced aesthetics with personalized wellness to help you look, feel, and perform at your best. Our experienced team offers Botox, Dysport, Hydrafacial, microneedling, chemical peels, and dermal fillers including Juvederm and Restylane, along with comprehensive wellness services such as Hormone Replacement Therapy (HRT), Testosterone Replacement Therapy (TRT), peptide therapy, IV vitamin therapy, medical weight loss, and menopause support. Whether you're looking to refresh your appearance, optimize your hormones, improve energy, or invest in long-term wellness, our customized treatment plans are designed around your unique goals.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "skin_care_clinic",
+        "wellness_center"
+      ],
+      "additional_categories": [
+        "Skin care clinic",
+        "Wellness center"
+      ],
+      "cid": "10842294206096819802",
+      "feature_id": "0x88f505836684796d:0x96779122b0ad465a",
+      "address": "1080 W Peachtree St NW Unit 5, Atlanta, GA 30309",
+      "address_info": {
+        "borough": "Midtown Atlanta",
+        "address": "1080 W Peachtree St NW Unit 5",
+        "city": "Atlanta",
+        "zip": "30309",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJbXmEZoMF9YgRWkatsCKRd5Y",
+      "phone": "+1470-943-4448",
+      "url": "https://4everyoungantiaging.com/atlanta-midtown/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-atlanta-midtown&y_source=1_MjA2MTUzMTA1My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "domain": "4everyoungantiaging.com",
+      "logo": "https://lh3.googleusercontent.com/-OQWJ-2ZWa0E/AAAAAAAAAAI/AAAAAAAAAAA/5zFvK52KPL0/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/grass-cs/ACvplmMwkT9PklPOrPKnIEA62FOgKhXYtd4frj7pgWKNNU336bx8cLqvy8_3VD32zm1kWR4P5pQaqLiMV3epvZn-jpGxhLlhWCB5SEl2nr4Brkk4yrh8STwBwaVRO7SPgZezLKExOOC83XRMDc5h=w426-h240-k-no",
+      "total_photos": 337,
+      "snippet": "1080 W Peachtree St NW Unit 5, Atlanta, GA 30309",
+      "latitude": 33.785,
+      "longitude": -84.388,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_black_owned"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_garage_free",
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_onsite_parking",
+            "has_parking_garage_paid",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "hrt": 49,
+        "iv therapy": 153,
+        "testosterone therapy": 16,
+        "custom facial": 16,
+        "mini facial": 12,
+        "body composition test": 7,
+        "peptides": 41,
+        "b12 shot": 6,
+        "aesthetic treatments": 13,
+        "hydrafacial": 41
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1384
+      },
+      "rating_distribution": {
+        "1": 5,
+        "2": 1,
+        "3": 4,
+        "4": 13,
+        "5": 1361
+      },
+      "people_also_search": [
+        {
+          "cid": "14446869018954641310",
+          "feature_id": "0x0:0xc87d96d477632f9e",
+          "title": "BLUE Med Center & Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 414
+          }
+        },
+        {
+          "cid": "4244200734714535544",
+          "feature_id": "0x0:0x3ae66e14dc1c9e78",
+          "title": "AYA Medical Spa Colony Square - Midtown",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 213
+          }
+        },
+        {
+          "cid": "14764903731708730514",
+          "feature_id": "0x0:0xcce779b757569c92",
+          "title": "Forever Young LLC",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 7
+          }
+        },
+        {
+          "cid": "6473139333463358929",
+          "feature_id": "0x0:0x59d535ed78b13dd1",
+          "title": "Inspire Wellness & Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 50
+          }
+        },
+        {
+          "cid": "6119519338958147949",
+          "feature_id": "0x0:0x54ece66a8abbd16d",
+          "title": "SkynBar",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 292
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 12
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 10
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 15
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "4everyoung.zenoti.com",
+          "url": "https://4everyoung.zenoti.com/webstoreNew/services/62b796ba-a24f-4715-aa6d-ca01a6b5dd62?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-menu-atlanta-midtown&y_source=1_MjA2MTUzMTA1My03MTUtbG9jYXRpb24ubWVudV91cmw%3D"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14709434448",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=10842294206096819802&hl=en&gl=US",
+      "last_updated_time": "2026-10-08 09:24:07 +00:00",
+      "first_seen": "2026-10-08 09:24:07 +00:00",
+      "services": [
+        {
+          "category": "HRT & Peptide",
+          "title": "Hormone & Peptide Therapy Consult",
+          "snippet": "Get a tailored plan to restore balance, optimize wellness, and improve vitality with our hormone and peptide therapy options.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "HRT & Peptide",
+          "title": "Blood Draw - Hormone & Peptide Therapy",
+          "snippet": "Quick and convenient blood draw to evaluate your hormone levels for a personalized wellness plan.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Tox Appointment",
+          "snippet": "Relax wrinkles and refresh your appearance with precision toxin treatments tailored to your needs.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Injectables",
+          "title": "Filler Appointment",
+          "snippet": "Restore volume, contour, and smoothness with expertly placed dermal fillers for a refreshed, natural look.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Laser",
+          "title": "Laser Hair Removal Treatment",
+          "snippet": "Laser treatment that reduces unwanted hair by targeting hair follicles, providing a non-invasive, long-lasting solution for smoother skin across multiple body areas.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Skin",
+          "title": "SkinPen (Microneedling) - Face",
+          "snippet": "Enhance your skins natural repair process with SkinPen microneedling, targeting fine lines, scars, and texture.",
+          "price": {
+            "current": 299,
+            "currency": "USD",
+            "displayed_price": "From $299.00"
+          }
+        },
+        {
+          "category": "Skin",
+          "title": "4Ever Custom Facial - 60 Minutes",
+          "snippet": "Enjoy a completely personalized facial designed to rejuvenate and address your skins unique needs.",
+          "price": {
+            "current": 149,
+            "currency": "USD",
+            "displayed_price": "From $149.00"
+          }
+        },
+        {
+          "category": "Skin",
+          "title": "HydraFacial - Signature Express",
+          "snippet": "HydraFacial - Signature Express",
+          "price": {
+            "current": 209,
+            "currency": "USD",
+            "displayed_price": "From $209.00"
+          }
+        },
+        {
+          "category": "Vitamin Therapy",
+          "title": "Vitamin Shot",
+          "snippet": "A fast, targeted vitamin injection that delivers essential nutrients for energy, immunity, and overall wellness—quick, effective, and no downtime.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        },
+        {
+          "category": "Vitamin Therapy",
+          "title": "IV Vitamin Drip",
+          "snippet": "Replenish and revitalize with a customized IV vitamin drip packed with nutrients to boost energy and wellness.",
+          "price": {
+            "current": 0,
+            "currency": "USD",
+            "displayed_price": "From $0.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Natural Body Spa + Med Spa | Smyrna",
+      "description": "Natural Body Spa + Med Spa in Smyrna, GA offers award-winning day spa and medical treatments in the upscale Ivy Walk community. From relaxing massages and rejuvenating facials or Hydrafacials to flawless mani-pedis, every treatment is tailored to your needs. Our expert med spa team specializes in aesthetic services, including Botox, dermal fillers, microneedling, IPL Photofacials, laser hair removal, and more. Conveniently situated near Vinings and Cumberland, Natural Body Spa + Med Spa in Smyrna is your destination for luxury wellness. Book your appointment today! Natural Body Spa gift cards are the perfect way to celebrate any occasion – birthdays, anniversaries, Valentine's Day, holidays, and more.",
+      "category": "Day spa",
+      "category_ids": [
+        "day_spa",
+        "facial_spa",
+        "laser_hair_removal_service",
+        "massage_spa",
+        "massage_therapist",
+        "medical_spa",
+        "nail_salon",
+        "skin_care_clinic",
+        "spa"
+      ],
+      "additional_categories": [
+        "Facial spa",
+        "Laser hair removal service",
+        "Massage spa",
+        "Massage therapist",
+        "Medical spa",
+        "Nail salon",
+        "Skin care clinic",
+        "Spa"
+      ],
+      "cid": "10900222831003825679",
+      "feature_id": "0x88f51a770652905b:0x97455ee9b695f60f",
+      "address": "1675 Cumberland Pkwy SE #410, Smyrna, GA 30080",
+      "address_info": {
+        "borough": "Cumberland",
+        "address": "1675 Cumberland Pkwy SE #410",
+        "city": "Smyrna",
+        "zip": "30080",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJW5BSBnca9YgRD_aVtuleRZc",
+      "phone": "+1770-437-0780",
+      "url": "https://www.naturalbody.com/spa-locations/georgia-smyrna",
+      "domain": "www.naturalbody.com",
+      "logo": "https://lh3.googleusercontent.com/-EE4BijmaOJc/AAAAAAAAAAI/AAAAAAAAAAA/p6nZori9nnY/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnUDCluEV6RFOQVLoENu39ePIviEIU4wBD-rgfqI0T1shEwh5Ah6Il8ZnwhJ5F-5Q8HVA4JbIuxkH6AhMaYHpdiK-ZycyCPoKM0y_deYelPUTTelgkpND2uATUqZILuyGsaY1s=w426-h240-k-no",
+      "total_photos": 230,
+      "snippet": "1675 Cumberland Pkwy SE #410, Smyrna, GA 30080",
+      "latitude": 33.85,
+      "longitude": -84.492,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_onsite_parking"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "massage therapist": 71,
+        "deep tissue massage": 37,
+        "body scrub": 8,
+        "signature facial": 4,
+        "couples massage": 8,
+        "cbd massage": 3,
+        "prenatal massage": 4,
+        "neck pain relief": 5,
+        "brow wax": 3,
+        "welcoming staff": 48
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.7,
+        "votes_count": 1330
+      },
+      "rating_distribution": {
+        "1": 28,
+        "2": 25,
+        "3": 32,
+        "4": 103,
+        "5": 1142
+      },
+      "people_also_search": [
+        {
+          "cid": "14475765727676931221",
+          "feature_id": "0x0:0xc8e4403bc1f51c95",
+          "title": "Natural Body Spa | Marietta",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1078
+          }
+        },
+        {
+          "cid": "15391801452858519530",
+          "feature_id": "0x0:0xd59aa9df42f92fea",
+          "title": "Noir Pearl Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 136
+          }
+        },
+        {
+          "cid": "9795548146263116223",
+          "feature_id": "0x0:0x87f0c723d63fc9bf",
+          "title": "Vinings Med Spa • Skincare • Massage • Body Treatments",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 40
+          }
+        },
+        {
+          "cid": "17306653077800692837",
+          "feature_id": "0x0:0xf02d9547993b2c65",
+          "title": "Hand & Stone Massage and Facial Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 451
+          }
+        },
+        {
+          "cid": "16287125125247027505",
+          "feature_id": "0x0:0xe2077e022eb04931",
+          "title": "Thai Herbal Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 76
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 21
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 29
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 41
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 49
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 49
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 49
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 45
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 88
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 56
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 38
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 19
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 20
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "naturalbody.com",
+          "url": "https://www.naturalbody.com/day-spa"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+17704370780",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=10900222831003825679&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 22:44:05 +00:00",
+      "first_seen": "2024-07-10 21:35:24 +00:00",
+      "services": [
+        {
+          "category": "BOTOX/DYSPORT",
+          "title": "DYSPORT Service",
+          "snippet": "Save up to $1,050 on a Series of Dysport!\nSave $120 on a bundle of 300 units of Dysport\nSave $500 on a bundle of 600 units of Dysport\nSave $1,050 on a bundle of 900 units of Dysport"
+        },
+        {
+          "category": "BOTOX/DYSPORT",
+          "title": "BOTOX Service",
+          "snippet": "✨ New Botox Patient Special ✨ Save $135! Get your first Botox treatment of 35 units or more and receive 10 additional free units! *All units must be used same day."
+        },
+        {
+          "category": "CHEMICAL PEELS",
+          "title": "VI Peel",
+          "snippet": "Great for first time peelers, sensitive skin, and rough skin textures, VI Peels combine powerful ingredients in gentle, effective formulas that smooth texture, brighten skin, and boost clarity."
+        },
+        {
+          "category": "CHEMICAL PEELS",
+          "title": "Level 1 SkinMedica Illuminize Peel",
+          "snippet": "Please review the pre-treatment instructions sent to your preferred contact to ensure there you meet the requirements for your treatment. Pre-treatment instructions can also be found in the services tab on our home page."
+        },
+        {
+          "category": "DERMAL FILLERS",
+          "title": "Filler-Face",
+          "snippet": "✨ Facial Filler Specials ✨ Save up to $400 on our multi-syringe filler packages for cheeck, jawline, chin, and more! Restore volume to lift, smooth, and plump areas of the face including the cheeks, lips, chin and jawline. All fillers are performed by a Natural Body Spa Aesthetic Injector who provide a thorough consultation to help you meet your goals."
+        },
+        {
+          "category": "DERMAL FILLERS",
+          "title": "Filler-Lips",
+          "snippet": "✨ Lip Filler Special ✨ Save $100 on Juvederm & Restylane Lip Filler. Add volume to your lips with Juvederm & Restylane Fillers. All fillers are performed by a Natural Body Spa Aesthetic Injector who provide a thorough consultation to help you meet your goals."
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Organic Blueberry Detox Peel*",
+          "snippet": "**Pregnancy Safe** This fruit-powered peel blends antioxidant-rich berries and pineapple to cleanse pores, smooth texture, and refine skin for a radiant, youthful glow with visibly reduced pore size."
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Organic Eye Treatment*",
+          "snippet": "Refresh and revive tired eyes with this targeted treatment using potent organic botanicals to brighten, firm, and smooth the delicate eye area—leaving you looking well-rested and radiant."
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Peel Combo 2:Cherry Enzyme+Arctic Berry"
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Organic Mangosteen Lactic Acid Peel*",
+          "snippet": "**Pregnancy Safe** Gently lifts away dullness, clears pores, and leaves your skin feeling baby-soft and seriously refreshed. Powered by lactic acid and self-neutralizing magic, it’s the glow-up your skin’s been craving—no sting, just smooth."
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Organic Salicylic Peel",
+          "snippet": "Say goodbye to breakouts! This concentrated peel is is powered by salicylic acid to deep-clean pores and sweep away congestion—without the sting. Perfect for all skin types, it leaves your skin looking fresh, smooth, and totally rejuvenated."
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "LED Light Therapy (Red & Blue)",
+          "snippet": "Bask in the healing power of Celluma LED light therapy! This glow-boosting add-on helps calm inflammation, fight acne-causing bacteria, and stimulate collagen for smoother, clearer, more radiant skin"
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Extra Extractions*",
+          "snippet": "Sometimes your skin just needs a little extra TLC. This add-on targets stubborn clogged pores to clear out impurities and smooth your complexion. Think of it as a deep clean courtesy of your NB Esthi bestie!"
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Peel Combo 1:Cherry Enzyme+Blueb/mangost"
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Dermaplaning*",
+          "snippet": "Say goodbye to peach fuzz and hello to silky-smooth skin! This gentle exfoliating treatment removes dead skin cells and fine facial hair, leaving your complexion ultra-soft and glowing. Plus, it creates the perfect clean canvas for your favorite skincare to soak in deeply—boosting your skin’s health and glow like never before!"
+        },
+        {
+          "category": "FACIAL ADD ONS",
+          "title": "Organic Lip Treatment*",
+          "snippet": "Treat your lips to a naturally effective three-step treatment. Gentle fruit enzymes refine the lip area, followed by an extra rich masque that deeply hydrates. Finish with a delicious minty non-petroleum based balm that stimulates lip-plumping collagen."
+        },
+        {
+          "category": "FACIALS",
+          "title": "Express Dermaplaning Facial-30min",
+          "snippet": "This express facial features gentle cleanse, organic serums, moisturizer, UV protection, and dermaplaning. Perfect for a quick refresh with major glow—no steam or extractions needed."
+        },
+        {
+          "category": "FACIALS",
+          "title": "_Ultimate Glow Facial-90Min",
+          "snippet": "Our most popular facial! It Includes all the benefits of a custom facial plus a custom peel, organic lip and eye treatment, and an extended arm, neck, and shoulder massage! The perfect facial if you’re looking for serious rejuvenation and a blissful spa experience."
+        },
+        {
+          "category": "FACIALS",
+          "title": "Organic Custom Facial + Dermaplaning",
+          "snippet": "Sweep away dull skin and reveal a fresh, radiant glow with this custom organic facial plus gentle dermaplaning. Experience silky-soft skin and a revitalized complexion—perfect for a deep refresh and skincare supercharge. Plus, it creates the ideal clean canvas for your favorite products to soak in deeply, boosting your skin’s health and glow like never before!"
+        },
+        {
+          "category": "FACIALS",
+          "title": "Teen Spirit Facial",
+          "snippet": "Treat your teen (ages 13–17) to a custom organic facial with Éminence Organic products designed to clean, balance and rejuvenate young skin."
+        },
+        {
+          "category": "FACIALS",
+          "title": "Timeless Radiance Anti-Aging Facial",
+          "snippet": "Turn back time with this age-defying facial designed to firm, deeply hydrate your skin. Featuring exfoliation, a custom organic peel and mask, this treatment targets fine lines, dullness, and lost elasticity—revealing a smoother, brighter, and more youthful-looking glow."
+        },
+        {
+          "category": "FACIALS",
+          "title": "Custom Fit Men's Facial",
+          "snippet": "Designed for men’s unique skin needs, this deep-cleansing facial combines purifying steam, exfoliating scrubs, and high-performance serums to clear clogged pores, combat breakouts, and treat ingrown hairs — Plus, a relaxing neck and shoulder massage!"
+        },
+        {
+          "category": "FACIALS",
+          "title": "Deep Pore Detox Facial",
+          "snippet": "An effective acne-eliminating and deep cleansing facial for men, women and teens designed to give your skin a deep cleanse. Includes combo of steam, salicylic cleansers, exfoliation, extra extraction time, and a variety of serums to dissolve sebum, and blue LED light therapy."
+        },
+        {
+          "category": "FACIALS",
+          "title": "_Organic Custom Facial",
+          "snippet": "Your skin’s perfect match—using all organic skincare, this treatment includes dual cleansing, warm steam, exfoliation, a custom mask, extractions, hydration, sun protection, and a relaxing arm, neck, and shoulder massage, all tailored to your individual needs."
+        },
+        {
+          "category": "GLO2 FACIAL",
+          "title": "Glo2 Brightening Facial",
+          "snippet": "Glo2Facial combines advanced technology and active, natural ingredients to activate your body’s natural superpowers: Oxfoliate™ with O2 bubbles, amplified with the LUX lite ultrasound experience, and detoxes with a lymphatic massage to deliver immediate, and long-lasting results."
+        },
+        {
+          "category": "HYDRAFACIAL",
+          "title": "45min Deluxe Hydrafacial",
+          "snippet": "The Deluxe Hydrafacial combines a targeted booster serum with LED light therapy to tackle breakouts, dullness, fine lines, and more. Think clearer, smoother, glowier skin—no downtime, just big results and happy skin vibes."
+        },
+        {
+          "category": "HYDRAFACIAL",
+          "title": "45min Deluxe Hydrafacial - Restorative",
+          "snippet": "Helps smooth the appearance of fine lines and wrinkles and enhances skin elasticity. Cannot be performed during pregnancy."
+        },
+        {
+          "category": "HYDRAFACIAL",
+          "title": "30min Signature HydraFacial",
+          "snippet": "The signature Hydrafacial treatment deeply cleanses, exfoliates, extracts, and hydrates with powerful super serums packed with antioxidants, peptides, and hyaluronic acid—leaving your skin refreshed, nourished, and glowing with no downtime."
+        },
+        {
+          "category": "HYDRAFACIAL",
+          "title": "60min Platinum Hydrafacial",
+          "snippet": "The ultimate HydraFacial experience. Begin with the detoxification process of facial lymphatic drainage, followed by all the essentials of the Signature HydraFacial while addressing specific concerns through a personalized HydraFacial booster and LED light therapy. Cannot be performed during pregnancy."
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "Lip Treatment (Perk)",
+          "snippet": "Plump, smooth, and hydrate your lips with this gentle exfoliating and revitalizing lip treatment. It’s the perfect pre-event glow-up—or anytime your pout needs a little extra love."
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "HF Neck-Add On",
+          "snippet": "This targeted neck treatment delivers all the skin-smoothing, hydrating benefits of Hydrafacial to your neck—helping to firm, plump, and reduce the appearance of fine lines for a more youthful, lifted, and radiant look."
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "Eye Treatment (Perk)",
+          "snippet": "Say goodbye to tired eyes! This refreshing Hydrafacial eye treatment hydrates, brightens, and de-puffs with a cooling boost that leaves you looking wide awake and radiant. It’s like a power nap for your under-eyes!"
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "HF Lymphatic Drainage-Add On",
+          "snippet": "Give your skin a fresh start with this relaxing lymphatic drainage add-on. It helps reduce puffiness, flush out toxins, and boost circulation for a naturally sculpted, refreshed look. Hello, post-facial glow!"
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "Custom Booster + LED Light Therapy",
+          "snippet": "Elevate your Hydrafacial with a targeted booster serum tailored to your skin’s unique needs—whether it's brightening, calming, or firming—followed by soothing LED light therapy to enhance results, reduce redness, and promote a radiant glow."
+        },
+        {
+          "category": "HYDRAFACIAL ADD ONS",
+          "title": "HF Neck & Decolette-Add On",
+          "snippet": "Your glow deserves to go beyond your face! This focused treatment targets the delicate chest area to smooth, hydrate, and brighten—giving your skin a refreshed, youthful look from top to heart."
+        },
+        {
+          "category": "IPL PHOTOFACIAL",
+          "title": "IPL - Face+Neck+Dec"
+        },
+        {
+          "category": "IPL PHOTOFACIAL",
+          "title": "IPL - Face",
+          "snippet": "Avoid direct exposure to the sun and tanning beds 4 weeks prior and discontinue the use of exfoliating creams 1 week prior to the entire treatment. If the you have a history of herpes outbreaks in the areas being treated, a prescribed medication from your physician is recommended for 1 week prior to the treatment prior to help prevent an outbreak."
+        },
+        {
+          "category": "IPL PHOTOFACIAL",
+          "title": "IPL - Face+Neck"
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Half Arm",
+          "snippet": "Laser Hair Removal - Half Arm"
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Brazilian",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Feet",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Chest",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Underarms",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Bikini",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Chin",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Half Legs",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "LASER HAIR REMOVAL",
+          "title": "Laser Hair Removal-Upper Lip",
+          "snippet": "Don't pluck, tan, moisturize or shave (day of) prior to treatment.  Need hair slightly visible for treatment.  Shave 24 hours prior to the appt."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Deep Tissue Upgrade.",
+          "snippet": "Add firm, targeted pressure to any massage to help release chronic tension and tight muscles."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Express Hand Reflexology",
+          "snippet": "A quick dose of hand heaven that relieves tension and feels like a mini escape in your massage with no additional time added."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Arnica Upgrade*",
+          "snippet": "Add Arnica to help calm inflammation and ease sore, overworked muscles."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Mini Hot Stone Treatment",
+          "snippet": "Warm basalt river stones are used on the neck, shoulders, and upper back to deliver soothing heat that helps relax muscles and release tension.— Adds 15 Minutes"
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Full Body Dry Brush Treatment*",
+          "snippet": "Helps boost circulation and leaves you glowing (plus, you get to keep the brush!). This service is blended into your massage and does not add additional time."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Lavender Scalp Treatment*",
+          "snippet": "Let your stress drift away on the calming scent of lavender as firm, soothing strokes gently massage your scalp, helping tension melt and your mind drift into a peaceful retreat. - Adds 15mins"
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Custom Comfort-15 Extra Min Of Massage*",
+          "snippet": "Add a little extra muscle-melting magic to your relaxing massage."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Warm Sugar Foot And Calf Scrub*",
+          "snippet": "Smooth, scrub, and soften—this sweet treat leaves your feet and calves silky and revived.- Adds 15mins"
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "CBD Upgrade*",
+          "snippet": "Melt away tension with CBD to support deep relaxation, or  and ease sore, overworked muscles."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Hot Herbal Towel Treatment",
+          "snippet": "Warm, aromatic towels are applied to the neck and shoulders to soften tension and soothe the senses during your massage with no additional time added."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Cupping Upgrade*",
+          "snippet": "An ancient tension-releasing technique with a modern edge— upgrade for next-level relief."
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Warm Sugar Back And Shoulder Scrub*",
+          "snippet": "Enjoy a warm shoulder and back scrub to help you feel smooth and serene. - Adds 15mins"
+        },
+        {
+          "category": "MASSAGE ADD ONS",
+          "title": "Express Peppermint Foot Reflexology*",
+          "snippet": "A refreshing, feel-good foot revival that restores tired feet and targets key pressure points, expertly incorporated into your massage with no additional time added."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "CBD Massage-60min",
+          "snippet": "A full-body massage enhanced with therapeutic CBD oil to promote deep muscle relief, reduce stress, and leave you in a blissfully calm state from head to toe."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Pregnancy Massage-60min",
+          "snippet": "*Available to expecting mom's past their first trimester. Our most popular option— gentle, intentional pressure eases muscle strain, supports circulation, and brings comfort where your changing body needs it most."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Swedish Massage-60min",
+          "snippet": "A luxurious, full-body massage using long, flowing strokes with personalized pressure to relax the body, ease tension, and enhance circulation and flexibility."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "_Natural Body Signature Massage-75min",
+          "snippet": "Our most popular massage! A fusion of Swedish+ Deep Tissue massage with a Hot Herbal Steam Towel Treatment and a Lavender Scalp Treatment."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Pregnancy Massage-90min",
+          "snippet": "*Available to expecting mom's past their first trimester. Total body TLC for two—Long, flowing strokes ease physical tension and emotional fatigue, creating space to relax, restore, and connect with your growing baby."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "_Natural Body Signature Massage-90min",
+          "snippet": "A deeply relaxing Swedish+ Deep Tissue massage with a Hot Herbal Steam Towel Treatment and a Lavender Scalp Treatment."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Couples Massage-90min",
+          "snippet": "This booking is for one guest. Please make sure to book for yourself and the guest joining you when booking online."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "CBD Massage-90min",
+          "snippet": "A full-body escape that includes CBD massage oil that helps unlock the most stubborn tension while guiding your nervous system into full relaxation mode."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Deep Tissue Massage-75min",
+          "snippet": "This extended session is ideal for those who want the full-body benefits of deep tissue with extra time to focus on chronic tension zones."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Couples Massage-60min",
+          "snippet": "This booking is for one guest. Please make sure to book for yourself and the guest joining you when booking online."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Deluxe Hot Stone Massage-90min",
+          "snippet": "Melt under warm basalt stones with your choice of Swedish or Deep Tissue pressure to melt away stress. A calming lavender oil scalp massage completes the experience, leaving you blissed out from head to toe."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "CBD Massage-75min",
+          "snippet": "A perfect fusion of recovery and relaxation. This elevated experience allows extra time for deeper work on high-tension areas while soaking in the anti-inflammatory and stress-relieving benefits CBD massage oil."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Deep Tissue Massage-90min",
+          "snippet": "Ready to go all in? This ultimate deep tissue session gives your therapist time to release deep-seated tension throughout the body."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Deep Tissue Massage-60min",
+          "snippet": "Focused and therapeutic, this massage works below the surface to break up knots, release tightness, and ease pain held deep within the muscles."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Couples Massage-75min",
+          "snippet": "This booking is for one guest. Please make sure to book for yourself and the guest joining you when booking online."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Pregnancy Massage-75min",
+          "snippet": "*Available to expecting mom's past their first trimester. More time for the areas that need it most—hips, back, feet, shoulders, and more. This session gives space for full-body nurturing with extra attention to your top tension zones."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Swedish Massage-90min",
+          "snippet": "The ultimate in full-body restoration. This extended session offers deep relaxation and detailed attention from head to toe—ideal for guests wanting to fully reset, release deeper tension, and melt into pure massage bliss."
+        },
+        {
+          "category": "MASSAGES",
+          "title": "Swedish Massage-75min",
+          "snippet": "The sweet spot for total relaxation. This 75-minute massage allows extra time to fully unwind while still giving focused attention to areas that need it most. With flowing, therapeutic strokes and personalized pressure, it’s the perfect blend of full-body relief and targeted care."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Tox/Filler Consultation",
+          "snippet": "At Natural Body Med Spa, your comfort and safety are at the heart of everything we do.\nOur expert medical team offers a complimentary 15-minute consultation to get to know you and your unique needs. We’ll carefully review your health history, medications, and any potential contraindications to ensure every treatment is safe and suitable—then design a personalized plan that supports your wellness goals and helps you feel your best."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Laser Hair Removal Consultation",
+          "snippet": "Discover the benefits of long lasting hair removal and package savings with a Natural Body Spa Certified Laser Practitioner."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Med Spa Consultation"
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Chemical Peel Consultation",
+          "snippet": "Book to learn more about Chemical Peels and series savings with a Natural Body Spa expert practitioner."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Microneedling Consultation",
+          "snippet": "Schedule to learn more about Microneedling treatments and savings of up to $258 with a treatment series with a Natural Body Spa licensed estheticians."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "IPL Photofacial Consultation",
+          "snippet": "Book to learn more about IPL Photofacial treatments and savings of up to $293 with a treatment series with a Natural Body Spa expert medical practitioners."
+        },
+        {
+          "category": "MED SPA CONSULTATION",
+          "title": "Skin Resurfacing Consultation",
+          "snippet": "Book to learn more about Laser Skin Resurfacing treatments and savings of up to $405 with a treatment series with a Natural Body Spa expert medical practitioners."
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "Microneedling Face + Neck + Dec"
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "Microneedling Face+Neck+PRP"
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "Microneedling Face + Neck"
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "Microneedling Face+PRP"
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "Microneedling Face",
+          "snippet": "The SkinPen® microneedling treatment helps your skin heal from the deepest layers, so all of those scars, wrinkles, and pigmented spots can become a thing of your past."
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "RF Microneedling Face",
+          "snippet": "The Pixel8 RF microneedling treatment helps your skin heal from the deepest layers, so all of those scars, wrinkles, and pigmented spots can become a thing of your past."
+        },
+        {
+          "category": "MICRONEEDLING",
+          "title": "RF Microneedling Face+Neck",
+          "snippet": "The Pixel8 RF microneedling treatment helps your skin heal from the deepest layers, so all of those scars, wrinkles, and pigmented spots can become a thing of your past."
+        },
+        {
+          "category": "NAIL ADD ONS",
+          "title": "Foot Massage Upgrade"
+        },
+        {
+          "category": "NAIL ADD ONS",
+          "title": "French Polish Add-On"
+        },
+        {
+          "category": "NAIL ADD ONS",
+          "title": "Dazzle Dry Add On"
+        },
+        {
+          "category": "NAILS",
+          "title": "Gel Manicure",
+          "snippet": "Get a flawless, long-lasting finish with our Gel Manicure! Includes nail shaping, cuticle care, buffing, and long lasting gel polish of your choice."
+        },
+        {
+          "category": "NAILS",
+          "title": "Soft Gel Tips"
+        },
+        {
+          "category": "NAILS",
+          "title": "Signature Pedicure",
+          "snippet": "Unwind while your feet enjoy hot steam towels, and a soothing foot and calf massage during our Signature Pedicure. Plus a warm neck pillow for maximum relaxation."
+        },
+        {
+          "category": "NAILS",
+          "title": "Signature Manicure",
+          "snippet": "Perfect for keeping your nails neat, hydrated, and perfectly polished. Includes nail shaping, cuticle care, buffing, and long lasting polish of your choice."
+        },
+        {
+          "category": "NAILS",
+          "title": "Paraffin Add On"
+        },
+        {
+          "category": "NAILS",
+          "title": "Premiere Mani-Pedi",
+          "snippet": "A luxe mani pedi experience to help your feel propperly polished! The Premiere mani + pedi is a luxe nail treatment that includes a yummy botanical foot mask to help you feel soft and smooth!"
+        },
+        {
+          "category": "NAILS",
+          "title": "Signature Mani-Pedi",
+          "snippet": "Show some love to your pretty hands and feet with a combination of our Signature Manicure + Pedicure. Our most popular nail treatment!"
+        },
+        {
+          "category": "NAILS",
+          "title": "Gel Pedicure",
+          "snippet": "This long-lasting Pedi delivers durable, glossy nails  hot steam towels, and a soothing foot and calf massage.  Plus a warm neck pillow for your shoulders!"
+        },
+        {
+          "category": "NAILS",
+          "title": "Gel Polish Removal*",
+          "snippet": "Time for a fresh start? Our gel removal gets the job done quickly and safely. We recommend pairing it with our Signature Manicure for a little extra TLC and a healthy, happy nail refresh."
+        },
+        {
+          "category": "NAILS",
+          "title": "Premiere Pedicure",
+          "snippet": "Properly polished! Includes all of the goodness in our signature pedicure plus a hydrating botanical OPI mask for your calves and feet! Plus a warm neck pillow to melt away shoulder stress."
+        },
+        {
+          "category": "NAILS",
+          "title": "Gel Polish Removal",
+          "snippet": "Time for a fresh start? Our gel removal gets the job done quickly and safely. We recommend pairing it with our Signature Manicure for a little extra TLC and a healthy, happy nail refresh."
+        },
+        {
+          "category": "NAILS",
+          "title": "Gel Mani-Pedi",
+          "snippet": "Shiny, chip-free, and totally unstoppable—our Gel Mani + Pedi keeps your hands and feet looking flawless for days on end. Enjoy expert shaping, cuticle care, and a glossy gel finish that’s as durable as it is dazzling."
+        },
+        {
+          "category": "NAILS",
+          "title": "Premiere Manicure",
+          "snippet": "A client favorite! Includes hot steam towels and a calming hand massage, this treatment includes a nourishing OPI hand lotion application for silky smooth, healthy hands."
+        },
+        {
+          "category": "SKIN RESURFACING",
+          "title": "Erbium Resurfacing Laser-Face+Neck",
+          "snippet": "Avoid direct exposure to the sun, tanning beds 4 weeks prior to treatment, and avoid exfoliants or retinol for 2 weeks prior to treatment."
+        },
+        {
+          "category": "SKIN RESURFACING",
+          "title": "Erbium Resurfacing Laser-Face",
+          "snippet": "Avoid direct exposure to the sun, tanning beds 4 weeks prior to treatment, and avoid exfoliants or retinol for 2 weeks prior to treatment."
+        },
+        {
+          "category": "SKIN RESURFACING",
+          "title": "Erbium Resurfacing Laser-Face+Neck+Dec",
+          "snippet": "Avoid direct exposure to the sun, tanning beds 4 weeks prior to treatment, and avoid exfoliants or retinol for 2 weeks prior to treatment."
+        },
+        {
+          "category": "SPA PACKAGES",
+          "title": "Summer Organic Facial Package",
+          "snippet": "Refresh your summer skin with our Summer Organic Facial Package! This facial package features a nourishing organic ingredients, custom peel, hydrating eye treatment and more!"
+        },
+        {
+          "category": "SPA PACKAGES",
+          "title": "Pampered Mama Pregnancy Package",
+          "snippet": "*Available to expecting mom's past their first trimester. A nurturing 90-minute spa escape made just for expecting mamas. Enjoy gentle dry brushing, a calming lavender scalp treatment, warm sugar scrubs, and hot herbal steam towels to melt away tension. The perfect baby shower gift or a well-deserved treat for any mama-to-be."
+        },
+        {
+          "category": "SPA PACKAGES",
+          "title": "Summer Escape Massage Package",
+          "snippet": "A luxe head-to-toe retreat that blends soothing strokes of Swedish massage with the targeted relief of Deep Tissue techniques, plus a nourishing sugar scrub and a lavender scalp treatment that leaves you feel soothed and silky smooth."
+        },
+        {
+          "category": "SPA PACKAGES",
+          "title": "Modern Man Massage Package",
+          "snippet": "Built for deep relief and total reset, this targeted package includes a 60-minute deep tissue massage to release muscle tension, enhanced by a mini hot stone treatment with CBD or arnica, and a refreshing peppermint foot reflexology session, a 15-minute scalp treatment, and our signature hot herbal steam towel for the full-body ref\n\n· Mini Hot Stone Treatment w/ Arnica\n· Express Peppermint Foot Reflexology \n· Hot Herbal Steam Towel Treatment\n· 15min Peppermint Scalp Treatment\n· Served w/ hot tea"
+        },
+        {
+          "category": "TINTING",
+          "title": "Lash Tint"
+        },
+        {
+          "category": "TINTING",
+          "title": "Brow Tint"
+        },
+        {
+          "category": "WAXING",
+          "title": "Brow & Lip Wax",
+          "snippet": "Brow and lip wax."
+        },
+        {
+          "category": "WAXING",
+          "title": "Brow Wax",
+          "snippet": "Quick, gentle brow waxing to define and refresh your beautiful brows."
+        },
+        {
+          "category": "WAXING",
+          "title": "Full Legs Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Underarms Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Lower Legs Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Brow Shaping"
+        },
+        {
+          "category": "WAXING",
+          "title": "Bikini Wax",
+          "snippet": "This service is available for female clients. If booking for a male, please contact the spa directly."
+        },
+        {
+          "category": "WAXING",
+          "title": "Eyebrow Tweeze"
+        },
+        {
+          "category": "WAXING",
+          "title": "Partial Back Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Full Back Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Lip Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Full Face Wax",
+          "snippet": "Includes brow, lip, chin, face sides"
+        },
+        {
+          "category": "WAXING",
+          "title": "Chin Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Upper Legs Wax"
+        },
+        {
+          "category": "WAXING",
+          "title": "Bikini Wax (Heavy)",
+          "snippet": "The heavy bikini waxing service goes a step further than the basic Bikini Wax by removing hair just inside the underwear line. Heavy Bikini Waxing is available for females. If scheduling for a male please reach out to the spa directly."
+        },
+        {
+          "category": "WAXING",
+          "title": "Brazilian Wax"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Ideal Image Marietta - East Cobb",
+      "description": "Ideal Image is North America's #1 aesthetics brand, dedicated to making personal aesthetics and wellness more affordable, accessible, and effective than ever before. Our Med Spa in Marietta offers treatments such as Laser Hair Removal in Marietta, GA, Botox® in Marietta, GA, CoolSculpting® in Marietta, GA, Xeomin in Marietta, GA, Fillers in Marietta, GA, and Chemical Peels in Marietta, GA. Our clinic also offers Microneedling in Marietta, GA, Ultherapy in Marietta, GA, IPL Photofacial in Marietta, GA, and CoolTone® in Marietta, GA. At Ideal Image, we believe 'Confidence Changes Everything,' and our team of medical experts is here to deliver real results. Schedule your appointment today!",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "laser_hair_removal_service"
+      ],
+      "additional_categories": [
+        "Laser hair removal service"
+      ],
+      "cid": "15354910215416657424",
+      "feature_id": "0x88f50da1839ae275:0xd517997cb3ed3610",
+      "address": "1100 Johnson Ferry Rd Unit 325, Marietta, GA 30068",
+      "address_info": {
+        "address": "1100 Johnson Ferry Rd Unit 325",
+        "city": "Marietta",
+        "zip": "30068",
+        "region": "Georgia",
+        "country_code": "US"
+      },
+      "place_id": "ChIJdeKag6EN9YgREDbts3yZF9U",
+      "phone": "+1470-822-0886",
+      "url": "https://www.idealimage.com/locations/georgia/marietta-east-cobb?utm_medium=yext&utm_source=extnet",
+      "domain": "www.idealimage.com",
+      "logo": "https://lh3.googleusercontent.com/-Vum0FeX8q6c/AAAAAAAAAAI/AAAAAAAAAAA/X_O68iV7AJ4/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/p/AF1QipPt-yIhknGfbB1oyvd41nvWi3z1PxtL4l2WoZUx=w426-h240-k-no",
+      "total_photos": 20,
+      "snippet": "1100 Johnson Ferry Rd Unit 325, Marietta, GA 30068",
+      "latitude": 33.977,
+      "longitude": -84.414,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_onsite_parking"
+          ]
+        }
+      },
+      "place_topics": {
+        "laser hair removal": 70,
+        "nurse": 52,
+        "contract": 26,
+        "technician": 23,
+        "sales": 16,
+        "jasmine": 14,
+        "ultherapy": 13,
+        "email": 13,
+        "laser treatment": 10,
+        "scam": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 1221
+      },
+      "rating_distribution": {
+        "1": 104,
+        "2": 15,
+        "3": 12,
+        "4": 26,
+        "5": 1064
+      },
+      "people_also_search": [
+        {
+          "cid": "5209651149711783802",
+          "feature_id": "0x0:0x484c661e6646b77a",
+          "title": "dermani MEDSPA East Cobb",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 165
+          }
+        },
+        {
+          "cid": "4486484325245708583",
+          "feature_id": "0x0:0x3e4331b930a0e927",
+          "title": "Laser Logic",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.1,
+            "votes_count": 61
+          }
+        },
+        {
+          "cid": "10633974082711975686",
+          "feature_id": "0x0:0x9393771646c1f706",
+          "title": "Amerejuve MedSpa Marietta, GA - Laser Hair Removal, CoolSculpting, Botox & Facials",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 123
+          }
+        },
+        {
+          "cid": "14645761041884710285",
+          "feature_id": "0x0:0xcb4032122ecb058d",
+          "title": "Skinsations Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 353
+          }
+        },
+        {
+          "cid": "9451193499052706118",
+          "feature_id": "0x0:0x83296269ae848946",
+          "title": "Electrolysis & Skin Clinique",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 7
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "current_status": "closed_forever"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "idealimage.com",
+          "url": "https://www.idealimage.com/services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+14708220886",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=15354910215416657424&hl=en&gl=US",
+      "last_updated_time": "2026-02-02 09:17:24 +00:00",
+      "first_seen": "2026-02-02 09:17:24 +00:00"
+    }
+  ]
+}

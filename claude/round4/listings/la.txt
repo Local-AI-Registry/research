@@ -1,0 +1,6393 @@
+{
+  "id": "11141841-1230-0544-0000-c92628b4bcff",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "total_count": 1616,
+  "items": [
+    {
+      "type": "business_listing",
+      "title": "Next Health in West Hollywood",
+      "description": "Next Health is a health optimization and longevity center serving West Hollywood & Los Angeles that offers Therapeutic Plasma Exchange, NAD & IV Therapy, Sauna, Infrared LED, EBOO Ozone Therapy, Hormone Optimization, and much more.\nWe have developed the world's first Health Optimization & Longevity Medical Centers, where we champion modern proactive healthcare by giving you access to cutting-edge technology and advanced wellness programs, overseen by medical professionals in a vibrant atmosphere.\nWe believe health is not the absence of disease. Health is the abundance of vitality.\nOur mission is to empower people to achieve optimal vitality and longevity through our personalized data-driven approach to health optimization.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa"
+      ],
+      "cid": "11108749604693374149",
+      "feature_id": "0x80c2bec1be21cc25:0x9a2a34e8a68274c5",
+      "address": "8570 Sunset Blvd Ste 6.1A, West Hollywood, CA 90069",
+      "address_info": {
+        "borough": "Sunset Strip",
+        "address": "8570 Sunset Blvd Ste 6.1A",
+        "city": "West Hollywood",
+        "zip": "90069",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJJcwhvsG-woARxXSCpug0Kpo",
+      "phone": "+1310-620-8372",
+      "url": "https://www.next-health.com/pages/locations-west-hollywood",
+      "domain": "www.next-health.com",
+      "logo": "https://lh6.googleusercontent.com/-ROf5v5u5WmQ/AAAAAAAAAAI/AAAAAAAAAAA/c57zWHNqjA0/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnpWEp6P6HMHZqS-orohWrqsRowr1k47U8C9HNfk2GEP5HdWGw6Hivu1Yh-GhXRDlqIF8goNKf73D55JWFqSoVDU23Y5fIgyrT9xwGNKtEhRKd9GSiNvNuQ7PV_lxjG02WyyxHo=w408-h306-k-no",
+      "total_photos": 364,
+      "snippet": "8570 Sunset Blvd Ste 6.1A, West Hollywood, CA 90069",
+      "latitude": 34.093,
+      "longitude": -118.378,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "has_sauna",
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "cryotherapy": 224,
+        "vitamin shots": 90,
+        "hyperbaric oxygen chamber": 28,
+        "massage chairs": 27,
+        "infrared sauna": 19,
+        "red light therapy": 8,
+        "clean facility": 51,
+        "modern space": 22,
+        "b12 shot": 5,
+        "baseline test": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 2303
+      },
+      "rating_distribution": {
+        "1": 11,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 2287
+      },
+      "people_also_search": [
+        {
+          "cid": "14786512894740856194",
+          "feature_id": "0x0:0xcd343f22adc2fd82",
+          "title": "Cryohealthcare",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 270
+          }
+        },
+        {
+          "cid": "12797971100747572583",
+          "feature_id": "0x0:0xb19b86e8d9c62567",
+          "title": "Wellness Center for Healing Los Angeles",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 28
+          }
+        },
+        {
+          "cid": "17671820681482367238",
+          "feature_id": "0x0:0xf53eeb47ce287106",
+          "title": "Nenergy Boost",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 40
+          }
+        },
+        {
+          "cid": "3634306275866055069",
+          "feature_id": "0x0:0x326fa64d71f8119d",
+          "title": "Dr Refresh",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 203
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "open"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "sunday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 26
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 73
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "next-health.com",
+          "url": "https://www.next-health.com/pages/nexthealthshop"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+13106208372",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=11108749604693374149&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 16:55:48 +00:00",
+      "first_seen": "2024-06-21 12:49:43 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cryotherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider vein treatments"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Schweiger Dermatology Group - Torrance Beach Cities",
+      "description": "Schweiger Dermatology Group provides care from dermatology providers and dermatologists in Torrance Beach Cities, CA, for concerns like acne, eczema, rosacea and routine skin checks. Our Torrance Beach Cities dermatologists and dermatology providers work with patients on both everyday skin concerns and long-term skin health, taking the time to understand each patient’s goals and concerns. The office also offers cosmetic dermatology treatments including Botox, dermal fillers and laser procedures, along with skin cancer screenings and treatment. Adults, teens and children visit the practice for straightforward dermatology care close to home.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "doctor",
+        "medical_center",
+        "medical_clinic",
+        "medical_spa",
+        "pediatric_dermatologist",
+        "plastic_surgery_clinic",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Doctor",
+        "Medical Center",
+        "Medical clinic",
+        "Medical spa",
+        "Pediatric dermatologist",
+        "Plastic surgery clinic",
+        "Skin care clinic"
+      ],
+      "cid": "1283292944340800960",
+      "feature_id": "0x80c2b4cdf6bec0a7:0x11cf2c223a32d5c0",
+      "address": "4201 Torrance Blvd #640, Torrance, CA 90503",
+      "address_info": {
+        "address": "4201 Torrance Blvd #640",
+        "city": "Torrance",
+        "zip": "90503",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJp8C-9s20woARwNUyOiIszxE",
+      "phone": "+1310-543-4444",
+      "url": "https://www.schweigerderm.com/location/california/torrance-beach-cities/",
+      "domain": "www.schweigerderm.com",
+      "logo": "https://lh4.googleusercontent.com/-mm7iOWM4JBI/AAAAAAAAAAI/AAAAAAAAAAA/qdHgiNBhu_Y/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmBo00R1Z782ilhPT9v5exabbI4h5lvopxdNjK-7n7c4j1KeSp-IeBNzlg6UZUAzy0FfGXEveFebtb5G2qX_fPcBmM-Uah0yBUK9JRKBnFxkTOB0Tf5ISwzd3KoFCIL_x5ZR0MK=w408-h544-k-no",
+      "total_photos": 7,
+      "snippet": "4201 Torrance Blvd #640, Torrance, CA 90503",
+      "latitude": 33.838,
+      "longitude": -118.359,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "wait time": 106,
+        "friendly staff": 603,
+        "caring staff": 149,
+        "efficient staff": 63,
+        "thoroughness": 82,
+        "bedside manner": 21,
+        "mole removal": 7,
+        "skin tag removal": 4,
+        "quick visit": 11,
+        "appointment availability": 22
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 2217
+      },
+      "rating_distribution": {
+        "1": 36,
+        "2": 17,
+        "3": 28,
+        "4": 71,
+        "5": 2065
+      },
+      "people_also_search": [
+        {
+          "cid": "929715234399567817",
+          "feature_id": "0x0:0xce7031470a7bfc9",
+          "title": "Coast Dermatology Medical Associates",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 1201
+          }
+        },
+        {
+          "cid": "15756338185485749560",
+          "feature_id": "0x0:0xdaa9c2195acd0d38",
+          "title": "Good Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 82
+          }
+        },
+        {
+          "cid": "4628726343261415572",
+          "feature_id": "0x0:0x403c8a15cc96e894",
+          "title": "Golden State Dermatology - Torrance, Lomita Blvd",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 118
+          }
+        },
+        {
+          "cid": "1946514924462879722",
+          "feature_id": "0x0:0x1b036902be9b33ea",
+          "title": "Ivy Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.9,
+            "votes_count": 61
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 7,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 15
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 25
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 46
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 96
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 90
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 71
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 24
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 44
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 85
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 85
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 61
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 30
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 47
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 65
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              },
+              "popular_index": 20
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 57
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 48
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 36
+            },
+            {
+              "time": {
+                "hour": 15
+              }
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+13105434444",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=1283292944340800960&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 21:55:57 +00:00",
+      "first_seen": "2024-07-19 21:22:22 +00:00",
+      "services": [
+        {
+          "category": "All Services",
+          "title": "Acne"
+        },
+        {
+          "category": "All Services",
+          "title": "Annual Skin Screening"
+        },
+        {
+          "category": "All Services",
+          "title": "Dermatology Consultation"
+        },
+        {
+          "category": "All Services",
+          "title": "Rash"
+        },
+        {
+          "category": "All Services",
+          "title": "Skin Problem"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Skin and Cancer Institute - Los Angeles (Westwood)",
+      "description": "Experience the height of skincare at the Skin and Cancer Institute in Los Angeles. Discover a range of services tailored to nurture your skin's health and beauty. We offer full-body skin cancer screenings, ensuring your peace of mind. Bid farewell to skin worries with mole and cyst removal, and experience relief with our diverse skin therapies, adept at addressing rashes, eczema, psoriasis, and various skin conditions.\n\nWhen it comes to skin cancer, trust our MOHS surgery experts for unparalleled care, saving lives one procedure at a time. And for those seeking transformative change, our esteemed plastic surgery options await you.\n\nSchedule an appointment with the best Los Angeles dermatologist to benefit from our specialized treatments!",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "cosmetic_surgeon",
+        "medical_spa",
+        "pediatric_dermatologist",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Cosmetic surgeon",
+        "Medical spa",
+        "Pediatric dermatologist",
+        "Skin care clinic"
+      ],
+      "cid": "12146236083413464230",
+      "feature_id": "0x80c2bb9d236c710b:0xa890195d45e434a6",
+      "address": "10884 Santa Monica Blvd 3rd floor, Los Angeles, CA 90025",
+      "address_info": {
+        "borough": "West Los Angeles",
+        "address": "10884 Santa Monica Blvd 3rd floor",
+        "city": "Los Angeles",
+        "zip": "90025",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJC3FsI527woARpjTkRV0ZkKg",
+      "phone": "+1310-446-4400",
+      "url": "https://skinandcancerinstitute.com/location/westwood/",
+      "domain": "skinandcancerinstitute.com",
+      "logo": "https://lh5.googleusercontent.com/-oL3oRT4_9Q8/AAAAAAAAAAI/AAAAAAAAAAA/sZ8MoeGd_z8/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkjK3bHRl4BcEf1moa_9_FYlgU_LiSb9BTKL9yDSLv4_wzXGoJQTbnT1xEN-4g3YRLnHAzTtjT3SvI4tNNxon8zPzXhjxbirVICoPLGnTBPc3lZt0T081luLP1XJcTBVvjYz7GL=w408-h272-k-no",
+      "total_photos": 96,
+      "snippet": "10884 Santa Monica Blvd 3rd floor, Los Angeles, CA 90025",
+      "latitude": 34.049,
+      "longitude": -118.437,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid",
+            "has_parking_street_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "short wait time": 48,
+        "microdermabrasion": 10,
+        "kind staff": 149,
+        "friendly staff": 507,
+        "chemical peel": 8,
+        "skin cancer screening": 11,
+        "thoroughness": 21,
+        "mole removal": 10,
+        "psoriasis treatment": 4,
+        "informative doctor": 7
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 1814
+      },
+      "rating_distribution": {
+        "1": 123,
+        "2": 23,
+        "3": 20,
+        "4": 77,
+        "5": 1571
+      },
+      "people_also_search": [
+        {
+          "cid": "14608807950715737412",
+          "feature_id": "0x0:0xcabce96e2e505544",
+          "title": "Los Angeles Skin Cancer Institute",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1
+          }
+        },
+        {
+          "cid": "16505625992431035733",
+          "feature_id": "0x0:0xe50fc363ba4e6555",
+          "title": "Cedars-Sinai Dermatology - West Los Angeles",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 2.8,
+            "votes_count": 5
+          }
+        },
+        {
+          "cid": "3329539618876826036",
+          "feature_id": "0x0:0x2e34e6a488be21b4",
+          "title": "Dermatology Institute & Skin Care Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 301
+          }
+        },
+        {
+          "cid": "5795942038036507531",
+          "feature_id": "0x0:0x506f52934beb6b8b",
+          "title": "UCLA Cosmetic Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 3.4,
+            "votes_count": 5
+          }
+        },
+        {
+          "cid": "16392279661652429674",
+          "feature_id": "0x0:0xe37d138093a74b6a",
+          "title": "Schweiger Dermatology Group - DTLA",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 656
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+13104464400",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12146236083413464230&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 12:36:12 +00:00",
+      "first_seen": "2026-09-13 12:36:12 +00:00",
+      "services": [
+        {
+          "category": "Appointment",
+          "title": "Medical - Full Body Exam - In Office",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Medical - New Patient - In Office",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Medical - Returning Patient - In Office",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Medical - Returning Patient - Telehealth",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Cosmetic - Botox",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Cosmetic - Chemical Peel",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Cosmetic - Cosmetic Consultation",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Cosmetic - Diamond Glow",
+          "snippet": "Scheduled with a provider of your choice"
+        },
+        {
+          "category": "Appointment",
+          "title": "Cosmetic - Microdermabrasion",
+          "snippet": "Scheduled with a provider of your choice"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "NakedMD Med Spa Downey",
+      "description": "NakedMD Downey is Southeast LA's destination for affordable, physician-guided neurotoxin, filler, and facial treatments. We're at the corner of Downey Ave and Florence Ave, the large brown and green building, same lot as Optum.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "facial_spa",
+        "health_and_beauty_shop",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Facial spa",
+        "Health and beauty shop",
+        "Skin care clinic"
+      ],
+      "cid": "12601139289293259768",
+      "feature_id": "0x80c2cdf0f1883211:0xaee03d6b7f8b03f8",
+      "address": "8301 Florence Ave #104, Downey, CA 90240",
+      "address_info": {
+        "address": "8301 Florence Ave #104",
+        "city": "Downey",
+        "zip": "90240",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJETKI8fDNwoAR-AOLf2s94K4",
+      "phone": "+1562-200-0628",
+      "url": "https://www.nakedmd.com/pages/locations-downey",
+      "domain": "www.nakedmd.com",
+      "logo": "https://lh6.googleusercontent.com/-4n3QlXB2o5E/AAAAAAAAAAI/AAAAAAAAAAA/HsKmAD9ZAcM/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QGsjSZ4_ia2xOSEBV18DP9cN_oWHVkk9Gc_s73RsCUutjJTKvJ0I5FBwyJhT7mRMG1pwGeD8nKKNIZ_jmNq01dqWlAqYXoxPyfEg4vn74ccyzi4o23GXDllZZTbKo9D07bf6Q1=w408-h602-k-no",
+      "total_photos": 362,
+      "snippet": "8301 Florence Ave #104, Downey, CA 90240",
+      "latitude": 33.952,
+      "longitude": -118.125,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "gentle injector": 54,
+        "lip flip": 61,
+        "lip filler": 204,
+        "minimalist facial": 9,
+        "sweet injector": 9,
+        "artist injector": 8,
+        "naked glow": 11,
+        "salt facial": 7,
+        "informative injector": 7,
+        "chin filler": 8
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1767
+      },
+      "rating_distribution": {
+        "1": 40,
+        "2": 7,
+        "3": 11,
+        "4": 25,
+        "5": 1684
+      },
+      "people_also_search": [
+        {
+          "cid": "6462160072725788132",
+          "feature_id": "0x0:0x59ae3459208875e4",
+          "title": "Skin Care and Body Sculpting",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 64
+          }
+        },
+        {
+          "cid": "17086448293530090597",
+          "feature_id": "0x0:0xed1f4231f0f0bc65",
+          "title": "Younger World | Downey",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 224
+          }
+        },
+        {
+          "cid": "2809996317736793298",
+          "feature_id": "0x0:0x26ff1cc352db74d2",
+          "title": "True Bella Medical Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 139
+          }
+        },
+        {
+          "cid": "3356527532678775886",
+          "feature_id": "0x0:0x2e94c801e023044e",
+          "title": "The Skin Queen Facial Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 26
+          }
+        },
+        {
+          "cid": "9972630419876601247",
+          "feature_id": "0x0:0x8a65e68794ffdd9f",
+          "title": "Nouvé Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.3,
+            "votes_count": 6
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 94
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 96
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 84
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 92
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 93
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 18
+              },
+              "popular_index": 53
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 91
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "saturday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              }
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 64
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 58
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 51
+            },
+            {
+              "time": {
+                "hour": 17
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "nakedmd.com",
+          "url": "https://www.nakedmd.com/collections/offers"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+15622000628",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12601139289293259768&hl=en&gl=US",
+      "last_updated_time": "2026-09-29 15:07:25 +00:00",
+      "first_seen": "2024-06-07 18:53:47 +00:00",
+      "services": [
+        {
+          "category": "Retail Products",
+          "title": "ZO Complexion Clarifying Serum",
+          "snippet": "-",
+          "price": {
+            "current": 110,
+            "currency": "USD",
+            "displayed_price": "From $110.00"
+          }
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Laser Skin Care Center",
+      "description": "Laser Skin Care Center offers medical and cosmetic dermatology to address your skin concerns. We aim to provide holistic dermatologic care with the highest standards so you can look the way you feel.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa"
+      ],
+      "cid": "10317101782021290004",
+      "feature_id": "0x80dd339bf03bd5ab:0x8f2db5688cedb814",
+      "address": "3828 Schaufele Ave #300, Long Beach, CA 90808",
+      "address_info": {
+        "address": "3828 Schaufele Ave #300",
+        "city": "Long Beach",
+        "zip": "90808",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJq9U78Jsz3YARFLjtjGi1LY8",
+      "phone": "+1562-997-1144",
+      "url": "https://www.lasercarespecialists.com/",
+      "domain": "www.lasercarespecialists.com",
+      "logo": "https://lh6.googleusercontent.com/-b2w641pglJU/AAAAAAAAAAI/AAAAAAAAAAA/Jikz-gxTU30/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnps5qO31XSsKQ-cef3jw3rZhRTeMRx7oIz-ZXicvTpcb_YWu-GIKoryeeMmT-IsKXBmoZFqkduKBCl2RH1ldeS8k9ateIqE8G0eF0rU6CvGxMV8RQrZfBoaJx8wJLNT-4msCU4=w426-h240-k-no",
+      "total_photos": 48,
+      "snippet": "3828 Schaufele Ave #300, Long Beach, CA 90808",
+      "latitude": 33.828,
+      "longitude": -118.147,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "dermatologist": 55,
+        "skin cancer removal": 29,
+        "wait time": 73,
+        "efficient staff": 103,
+        "melanoma detection": 10,
+        "biopsy": 14,
+        "appointment scheduling": 26,
+        "punctuality": 19,
+        "cyst removal": 5,
+        "skin issues": 12
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.8,
+        "votes_count": 1601
+      },
+      "rating_distribution": {
+        "1": 46,
+        "2": 16,
+        "3": 32,
+        "4": 73,
+        "5": 1434
+      },
+      "people_also_search": [
+        {
+          "cid": "16794078809810834005",
+          "feature_id": "0x0:0xe9108db2dcb09255",
+          "title": "Comprehensive Dermatology of Long Beach",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 641
+          }
+        },
+        {
+          "cid": "6559201204058039923",
+          "feature_id": "0x0:0x5b06f6be3231a673",
+          "title": "LBC Laser MD",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.5,
+            "votes_count": 31
+          }
+        },
+        {
+          "cid": "10137985390004604411",
+          "feature_id": "0x0:0x8cb15bffb5530dfb",
+          "title": "Long Beach Laser Center",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "12573715723320024942",
+          "feature_id": "0x0:0xae7ecfd4fb3bdf6e",
+          "title": "SEV Laser",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 481
+          }
+        },
+        {
+          "cid": "5605028344776072995",
+          "feature_id": "0x0:0x4dc90f95365f9f23",
+          "title": "Aesthetic Laser Care",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 93
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 59
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 67
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 91
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 94
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 91
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 94
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 97
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 94
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 89
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 78
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 37
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 35
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 32
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 27
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 21
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 16
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 21
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "5629971144",
+          "source": "backlinks"
+        },
+        {
+          "type": "telephone",
+          "value": "+15629971144",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=10317101782021290004&hl=en&gl=US",
+      "last_updated_time": "2026-09-12 03:53:51 +00:00",
+      "first_seen": "2024-07-25 07:21:03 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "IPL photo facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ultherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Acne Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Alexandrite Laser"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Anti Aging Treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body Shaping"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox And Dermal Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox Injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical Peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Collagen Induction Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Comprehensive Skin Care"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Compression Hose"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Dermatologists"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Dermatology Services"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Procedures"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Skin Care"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Specials"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cosmetic Treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Crows Feet"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermatology Treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Earlobe Repair"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Eyebrow"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Face & Neck"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facial Rejuvenation"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facial Waxing"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Fat Reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Fraxel Dual"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hair Loss"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hair Restoration"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ingrown Hair"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Injectable Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Jessner Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Juvederm Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Kybella For Double Chin"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Skin Care Center"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Leg Veins"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Light Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lower Leg"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Medical Cosmetic"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Medical Dermatology"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling Treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Mohs Micrographic Surgery"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Mole & Wart"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Prp Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Pumpkin Peel Facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Restylane Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Revision Skincare"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sclerotherapy For Varicose Veins"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Care Lines"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Care Package"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Disorders"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Rejuvenation"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Standard Excision"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Surgical Excision"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Surgical Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Tattoo Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Telehealth Visits"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Telemedicine Visit"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wart Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wound Care"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Zo 3 Step Peel"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Next Health Century City Westfield Mall",
+      "description": "Next Health is a health spa serving Century City & Los Angeles that offers Cryotherapy, IV Therapy, Infrared Sauna, Infrared LED, NAD+ Therapy, Exosomes, Ozone Therapy, Hormone Optimization, and much more. We have developed the world's first Health Optimization Centers, where we champion modern proactive healthcare by giving you access to cutting-edge technology and advanced wellness programs, overseen by medical professionals in a vibrant atmosphere. We take health to the next level. We believe health is not the absence of disease. Health is the abundance of vitality. Our mission is to empower people to achieve optimal vitality and longevity through our personalized data-driven approach to health optimization.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "alternative_medicine_practitioner",
+        "health_spa",
+        "medical_center",
+        "naturopathic_practitioner",
+        "wellness_center"
+      ],
+      "additional_categories": [
+        "Alternative medicine practitioner",
+        "Health spa",
+        "Medical Center",
+        "Naturopathic practitioner",
+        "Wellness center"
+      ],
+      "cid": "11557558365355243200",
+      "feature_id": "0x80c2bb8c8c000001:0xa064b21945d7f6c0",
+      "address": "10250 Santa Monica Blvd Ste 1440, Los Angeles, CA 90067",
+      "address_info": {
+        "borough": "Century City",
+        "address": "10250 Santa Monica Blvd Ste 1440",
+        "city": "Los Angeles",
+        "zip": "90067",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJAQAAjIy7woARwPbXRRmyZKA",
+      "phone": "+1310-620-8372",
+      "url": "https://www.next-health.com/pages/locations-century-city",
+      "domain": "www.next-health.com",
+      "logo": "https://lh5.googleusercontent.com/-yZlavQgsTAk/AAAAAAAAAAI/AAAAAAAAAAA/Zt_m10rJV9I/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHXy28DwBNSOwHqHjV5SIuugc2IkUjk13vevKA6F6ecb4g9_6OUv32i4Ip4RTQnxRBMI322VGTvBua147hpVtGAv6ZuxqpkiYCC8e_iWnEU0M_631WgIicFWxcVKyqzm8ivF4=w408-h271-k-no",
+      "total_photos": 178,
+      "snippet": "10250 Santa Monica Blvd Ste 1440, Los Angeles, CA 90067",
+      "latitude": 34.058,
+      "longitude": -118.418,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "has_sauna",
+            "offers_skincare"
+          ],
+          "amenities": [
+            "has_restroom_unisex",
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "cryotherapy": 221,
+        "vitamin shots": 76,
+        "infrared sauna": 25,
+        "massage chairs": 17,
+        "red light therapy": 11,
+        "clean facility": 47,
+        "food sensitivity test": 4,
+        "immunity boost": 7,
+        "b12 shot": 4,
+        "bio hacking": 3
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1494
+      },
+      "rating_distribution": {
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 4,
+        "5": 1484
+      },
+      "people_also_search": [
+        {
+          "cid": "8666855332729070084",
+          "feature_id": "0x0:0x7846db0193042204",
+          "title": "Skin EX Century City",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        },
+        {
+          "cid": "3641254760343541012",
+          "feature_id": "0x0:0x328855e98efa1514",
+          "title": "Fairmont Spa Century Plaza",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 27
+          }
+        },
+        {
+          "cid": "17041611869182764873",
+          "feature_id": "0x0:0xec7ff7b466b82749",
+          "title": "Health & Vitality Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 63
+          }
+        },
+        {
+          "cid": "11237114909101673502",
+          "feature_id": "0x0:0x9bf2407919404c1e",
+          "title": "Posture Lab LA",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 57
+          }
+        },
+        {
+          "cid": "1736662635489489584",
+          "feature_id": "0x0:0x1819dd773b0b72b0",
+          "title": "Elevate Wellness",
+          "rating": {
+            "rating_type": "Max5"
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 11
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+13106208372",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=11557558365355243200&hl=en&gl=US",
+      "last_updated_time": "2026-09-17 10:26:50 +00:00",
+      "first_seen": "2024-07-21 02:52:46 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cryotherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Botox"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Hair Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Resurfacing"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP Hair Restoration"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Morpheus"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microlaser Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Tightening"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Care"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Anti-Aging Program"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Voluma Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Restylane Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Radiesse Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Juvederm Filler"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra Filler"
+        },
+        {
+          "category": "Health Spa",
+          "title": "IV Therapy",
+          "snippet": "IV Therapy Century City, IV Therapy Los Angeles. IV Lounge.",
+          "price": {
+            "current": 189,
+            "currency": "USD",
+            "displayed_price": "From $189.00"
+          }
+        },
+        {
+          "category": "Health Spa",
+          "title": "IV Drips"
+        },
+        {
+          "category": "Health Spa",
+          "title": "NAD Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Ozone Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "10 Pass Ozone Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Glutathione"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Vitamin Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "B12 Injections"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Vitamin Shots"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Vitamin D Shots"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Hydration Drips"
+        },
+        {
+          "category": "Health Spa",
+          "title": "High Dose Glutathione"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Hormone Replacement Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Hormone Optimization Program"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Bio-Identical Hormone Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Pellet Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Testosterone Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Female Hormone Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Gut Health IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Weight Loss IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Weight Loss Program"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Peptide Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Thymosin Alpha 1 Peptide"
+        },
+        {
+          "category": "Health Spa",
+          "title": "BPC 157 Peptide"
+        },
+        {
+          "category": "Health Spa",
+          "title": "CJC Ipamorelin Peptide"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Whole Body Cryotherapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Infrared Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Infrared LED Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Infrared Sauna Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "InBody Scan"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Super Immune IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Immunity Peptide"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Biotin Shots"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Longevity IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Muscle IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Glamour IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Hangover IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Detox IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Energy Plus IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Stress IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Brain IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Biomarker Testing"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Food Sensitivity Test"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Micronutrient Test"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Thyroid Test"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Hormone Test"
+        },
+        {
+          "category": "Health Spa",
+          "title": "Genetic Test"
+        },
+        {
+          "category": "Health Spa",
+          "title": "NAD IV Therapy"
+        },
+        {
+          "category": "Health Spa",
+          "title": "NAD IV Drip"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Glow Aesthetic Center Med Spa",
+      "description": "Glow Aesthetic Center is part tranquil spa, part medical aesthetics studio. Established in 1983, the center is a trusted beauty destination for those residing in Encino, San Fernando valley and beyond. A calming color palette, candles and comfy couches invite guests to relax upon entering—but it’s our spa’s skilled staff that leave patients feeling completely at ease. Led by Homan Siman, M.D., the aestheticians and medical professionals here have decades of experience, ensuring that their patients are in expert hands. Botox Dysport Neurotoxin Dermal Filler Morpheus8 Juvederm Restylane Kybella Facials Acne Treatment Microneedling PRP Hair Vampire Facial Sculptra Non-Surgical Butt Lift Vein Removal Spider Vein Platelet Rich Plasma",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "dermatologist",
+        "facial_spa",
+        "hair_removal_service",
+        "health_spa",
+        "laser_hair_removal_service",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Dermatologist",
+        "Facial spa",
+        "Hair removal service",
+        "Health spa",
+        "Laser hair removal service",
+        "Skin care clinic"
+      ],
+      "cid": "8622324272338082974",
+      "feature_id": "0x80c298367102b533:0x77a8a63e1ef09c9e",
+      "address": "17200 Ventura Blvd #302, Encino, CA 91316",
+      "address_info": {
+        "borough": "Encino",
+        "address": "17200 Ventura Blvd #302",
+        "city": "Encino",
+        "zip": "91316",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJM7UCcTaYwoARnpzwHj6mqHc",
+      "phone": "+1818-905-8815",
+      "url": "https://glowmedspaencino.com/locations/encino-ca/?utm_source=google&utm_medium=organic&utm_campaign=encino-gmb-listing",
+      "domain": "glowmedspaencino.com",
+      "logo": "https://lh5.googleusercontent.com/-t5vGvX2aN18/AAAAAAAAAAI/AAAAAAAAAAA/XatnGy-3r5c/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmv6kbxY_xziYJHI8PihphtMrGoFKSiMy5gFlBbmMcIjbaBc0wUSby33_3odbDFVzzwxXwYhzBRMupMXs_eLu1DKTsHfWUskBbP59ctDjKYrkHr3bwpoau4rBgKmsJwGrqR5vc5=w408-h510-k-no",
+      "total_photos": 412,
+      "snippet": "17200 Ventura Blvd #302, Encino, CA 91316",
+      "latitude": 34.16,
+      "longitude": -118.508,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "from_the_business": [
+            "is_owned_by_women"
+          ],
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom",
+            "has_wheelchair_accessible_seating"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_check",
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_onsite_parking",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "cosmelan peel": 8,
+        "painless treatment": 13,
+        "under eye fillers": 4,
+        "clean facility": 38,
+        "virtual consultation": 4,
+        "hydrafacial": 39,
+        "no pressure": 14,
+        "injector": 17,
+        "chin filler": 3,
+        "friendly team": 17
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1470
+      },
+      "rating_distribution": {
+        "1": 6,
+        "2": 3,
+        "3": 0,
+        "4": 9,
+        "5": 1452
+      },
+      "people_also_search": [
+        {
+          "cid": "2847357303725167330",
+          "feature_id": "0x0:0x2783d861bd2712e2",
+          "title": "Lumina Aesthetics & Wellness",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 2
+          }
+        },
+        {
+          "cid": "1631562610151541025",
+          "feature_id": "0x0:0x16a4798caee44921",
+          "title": "Alex Eshaghian Medical Corp.",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 237
+          }
+        },
+        {
+          "cid": "13790091990569173673",
+          "feature_id": "0x0:0xbf603f9a35d5c2a9",
+          "title": "Glo European Skin",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 1
+          }
+        },
+        {
+          "cid": "8510412656966701341",
+          "feature_id": "0x0:0x761b0f38ae7d111d",
+          "title": "OMG Medical Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 10
+          }
+        },
+        {
+          "cid": "3980100118456273164",
+          "feature_id": "0x0:0x373c27f86313890c",
+          "title": "On The Glow",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 139
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "glowmedspaencino.com",
+          "url": "https://glowmedspaencino.com/encino-med-spa-services/?utm_source=google&utm_medium=organic&utm_campaign=encino-gmb-services"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+18189058815",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=8622324272338082974&hl=en&gl=US",
+      "last_updated_time": "2026-09-11 09:12:12 +00:00",
+      "first_seen": "2026-09-11 09:12:12 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermaplaning"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HydraFacial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser hair removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider vein treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vampire facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vitalize Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Non-Surgical Butt Lift"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP Injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Spider Vein Removal"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "IV & Hydration"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sex Enhancement"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Hydradermabrasion/HydraFacial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Hydrafacial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Acne Facial"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Semaglutide"
+        },
+        {
+          "category": "Facial Spa",
+          "title": "Weight Loss Injections"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Scar Removal"
+        },
+        {
+          "category": "Skin Care Clinic",
+          "title": "Facials"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Next Health Studio City",
+      "description": "Next Health is a health spa serving Studio City & Los Angeles that offers Cryotherapy, Infrared Therapy, Hyperbaric Oxygen Chamber, InBody Scanning, IV Therapy, NAD+ Therapy, Hormone Optimization, Ozone Therapy, and much more.\nWe have developed the world's first Health Optimization Centers, where we champion modern proactive healthcare by giving you access to cutting-edge technology and advanced wellness programs, overseen by medical professionals in a vibrant atmosphere.\nWe take health to the next level.\nWe believe health is not the absence of disease. Health is the abundance of vitality.\nOur mission is to empower people to achieve optimal vitality and longevity through our personalized data-driven approach to health optimization.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "alternative_medicine_practitioner",
+        "health_spa",
+        "medical_clinic",
+        "naturopathic_practitioner",
+        "wellness_center"
+      ],
+      "additional_categories": [
+        "Alternative medicine practitioner",
+        "Health spa",
+        "Medical clinic",
+        "Naturopathic practitioner",
+        "Wellness center"
+      ],
+      "cid": "11689394092202508526",
+      "feature_id": "0x80c2bd5e3f336029:0xa23911fe6947c0ee",
+      "address": "12833 Ventura Blvd #161, Studio City, CA 91604",
+      "address_info": {
+        "borough": "Studio City",
+        "address": "12833 Ventura Blvd #161",
+        "city": "Studio City",
+        "zip": "91604",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJKWAzP169woAR7sBHaf4ROaI",
+      "phone": "+1310-620-8372",
+      "url": "https://www.next-health.com/location/studio-city",
+      "domain": "www.next-health.com",
+      "logo": "https://lh6.googleusercontent.com/-yGiNK-PuHmc/AAAAAAAAAAI/AAAAAAAAAAA/2IBgWUxVlfY/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkwGKzNZvHaNeLT0nHQIPXN3D5PqsV2lHTsSqP-geNPQgDRB8VLICt5pw9AvXVJMfCOH7kwD19X34WSlsYFRBB1uMqURwr_VwQ9jydFH9xv1vG4pQrb94dYom5qVSb5uje9MrM-dA=w408-h544-k-no",
+      "total_photos": 159,
+      "snippet": "12833 Ventura Blvd #161, Studio City, CA 91604",
+      "latitude": 34.146,
+      "longitude": -118.413,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "vitamin shots": 55,
+        "hyperbaric oxygen chamber": 38,
+        "red light therapy": 21,
+        "massage chair": 16,
+        "ozone therapy": 6,
+        "clean facility": 39,
+        "infrared therapy": 3,
+        "seamless process": 8,
+        "inflammation reduction": 5,
+        "modern facility": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 1440
+      },
+      "rating_distribution": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1437
+      },
+      "people_also_search": [
+        {
+          "cid": "17759222582945215092",
+          "feature_id": "0x0:0xf6756ed8c78b7274",
+          "title": "Renu Med Lounge STUDIO CITY",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.8,
+            "votes_count": 70
+          }
+        },
+        {
+          "cid": "14838302471188752315",
+          "feature_id": "0x0:0xcdec3d7b1901a7bb",
+          "title": "One Body Medicine",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 65
+          }
+        },
+        {
+          "cid": "4397003613403368743",
+          "feature_id": "0x0:0x3d054b7d75044d27",
+          "title": "Flow State Cryo & Recovery",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 191
+          }
+        },
+        {
+          "cid": "11283229684927334609",
+          "feature_id": "0x0:0x9c96159e093c88d1",
+          "title": "Hydration Room - Studio City",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 88
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "sunday": [
+              {
+                "open": {
+                  "hour": 11
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+13106208372",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=11689394092202508526&hl=en&gl=US",
+      "last_updated_time": "2026-09-13 10:18:54 +00:00",
+      "first_seen": "2026-09-13 10:18:54 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "IV therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP facial"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cellulite reduction"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Tech Services"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hormone Optimization"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Cryotherapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Body contouring"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Biomarker Testing"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Morpheus8"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vitamin Shots"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Infrared Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Aesthetic Services"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "NAD+ Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wrinkle Relaxers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Hyperbaric Oxygen Chamber"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Services"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "InBody Scanning"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Ozone Therapy"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Tightening"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vitalize Peel"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Volumizing Fillers"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Wellness Lab Tests"
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "Comprehensive Dermatology Center of Pasadena",
+      "description": "Comprehensive Dermatology Center of Pasadena is your one-stop shop for healthy, beautiful skin! From Board-Certified Dermatologists to the services of a registered laser nurse and certified aesthetician, we treat all your skin’s needs right here under one roof, in your neighborhood. We are specialists in cutting-edge dermatological medicine, including Mohs surgery and acne treatment. Our advanced laser services offer the finest in noninvasive cosmetic and rejuvenation treatment. With Saturday hours, an on-site dispensary, and complimentary cosmetic consultation, we are truly your COMPREHENSIVE CENTER for DERMATOLOGY, here in the heart of PASADENA.",
+      "category": "Dermatologist",
+      "category_ids": [
+        "dermatologist",
+        "medical_spa",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Medical spa",
+        "Skin care clinic"
+      ],
+      "cid": "13119624552795249631",
+      "feature_id": "0x80c2c37c4cf8c533:0xb61245051fda9bdf",
+      "address": "625 S Fair Oaks Ave Unit 200, Pasadena, CA 91105",
+      "address_info": {
+        "borough": "South Arroyo",
+        "address": "625 S Fair Oaks Ave Unit 200",
+        "city": "Pasadena",
+        "zip": "91105",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJM8X4THzDwoAR35vaHwVFErY",
+      "phone": "+1626-793-7790",
+      "url": "http://compdermcenter.com/",
+      "domain": "compdermcenter.com",
+      "logo": "https://lh5.googleusercontent.com/-MzW_DlBomsE/AAAAAAAAAAI/AAAAAAAAAAA/KKv46txCZzA/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnD6NSd28Ac0fl3AHpgkrabLzW_OVi_IXmdMXG-yG_IfRhSYuVZmv5klWJ96hxuwNfUzwDm0s_AOr6qE8_hFOGgKMIDSCSsKq3AAWmTylSgKh-myLWr0oZgwsgdk6kgTvMLEgoc=w408-h271-k-no",
+      "total_photos": 11,
+      "snippet": "625 S Fair Oaks Ave Unit 200, Pasadena, CA 91105",
+      "latitude": 34.135,
+      "longitude": -118.151,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "amenities": [
+            "has_restroom"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_paid"
+          ]
+        }
+      },
+      "place_topics": {
+        "efficient staff": 86,
+        "thorough doctor": 19,
+        "wait time": 35,
+        "friendly staff": 213,
+        "no upsell": 4,
+        "biopsy": 11,
+        "efficiency": 71,
+        "full body check": 3,
+        "punctuality": 18,
+        "fillers": 9
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1070
+      },
+      "rating_distribution": {
+        "1": 22,
+        "2": 4,
+        "3": 4,
+        "4": 35,
+        "5": 1005
+      },
+      "people_also_search": [
+        {
+          "cid": "10887246352818653855",
+          "feature_id": "0x0:0x971744dff1ec4a9f",
+          "title": "Skin & Beauty Center-Pasadena",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 1142
+          }
+        },
+        {
+          "cid": "5828010151873744283",
+          "feature_id": "0x0:0x50e1405ae1ce0d9b",
+          "title": "Yuli Wang",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.9,
+            "votes_count": 448
+          }
+        },
+        {
+          "cid": "8448982999832518801",
+          "feature_id": "0x0:0x7540d1461254e091",
+          "title": "California Dermatology and Mohs Surgery Specialists",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 778
+          }
+        },
+        {
+          "cid": "7297091905041480247",
+          "feature_id": "0x0:0x65447a6d0d603a37",
+          "title": "Center For Advanced Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 110
+          }
+        },
+        {
+          "cid": "6935255709000729514",
+          "feature_id": "0x0:0x603efa52a17d03aa",
+          "title": "Pasadena Premier Dermatology",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 252
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16,
+                  "minute": 30
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 8,
+                  "minute": 30
+                },
+                "close": {
+                  "hour": 16
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "popular_times": {
+        "popular_times_by_days": {
+          "monday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 43
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 74
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 60
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 42
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "tuesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 62
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 87
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 100
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 95
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 86
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 75
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 63
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 39
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "wednesday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 50
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 82
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 81
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 79
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "thursday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 33
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 54
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 77
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 76
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 72
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 69
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 55
+            },
+            {
+              "time": {
+                "hour": 16
+              },
+              "popular_index": 40
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ],
+          "friday": [
+            {
+              "time": {
+                "hour": 6
+              }
+            },
+            {
+              "time": {
+                "hour": 7
+              }
+            },
+            {
+              "time": {
+                "hour": 8
+              },
+              "popular_index": 52
+            },
+            {
+              "time": {
+                "hour": 9
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 10
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 11
+              },
+              "popular_index": 68
+            },
+            {
+              "time": {
+                "hour": 12
+              },
+              "popular_index": 70
+            },
+            {
+              "time": {
+                "hour": 13
+              },
+              "popular_index": 80
+            },
+            {
+              "time": {
+                "hour": 14
+              },
+              "popular_index": 83
+            },
+            {
+              "time": {
+                "hour": 15
+              },
+              "popular_index": 66
+            },
+            {
+              "time": {
+                "hour": 16
+              }
+            },
+            {
+              "time": {
+                "hour": 17
+              }
+            },
+            {
+              "time": {
+                "hour": 18
+              }
+            },
+            {
+              "time": {
+                "hour": 19
+              }
+            },
+            {
+              "time": {
+                "hour": 20
+              }
+            },
+            {
+              "time": {
+                "hour": 21
+              }
+            },
+            {
+              "time": {
+                "hour": 22
+              }
+            },
+            {
+              "time": {
+                "hour": 23
+              }
+            }
+          ]
+        }
+      },
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+16267937790",
+          "source": "backlinks"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=13119624552795249631&hl=en&gl=US",
+      "last_updated_time": "2026-09-12 03:05:00 +00:00",
+      "first_seen": "2024-06-10 01:39:18 +00:00",
+      "services": [
+        {
+          "category": "Dermatologist",
+          "title": "CoolSculpting",
+          "snippet": "Coolsculpting is the world’s number one non-invasive fat-reduction procedure. This FDA-cleared technology freezes and destroys fat cells without harming the surrounding tissues."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "EmSculpt Neo",
+          "snippet": "This groundbreaking treatment combines radiofrequency with high-intensity electromagnetic energies for fat reduction and muscle growth."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Chemical Peels",
+          "snippet": "Our spa services offer three levels of professional peels, scientifically formulated to address all your skin care needs."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Injectables",
+          "snippet": "Cosmetic injectables are a category of medical treatments designed to enhance or rejuvenate the appearance of the skin, reduce the signs of aging, and address various cosmetic concerns."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Skin Rejuvenation",
+          "snippet": "Skin rejuvenation refers to a set of cosmetic treatments and procedures designed to improve the appearance and vitality of the skin, reducing signs of aging, sun damage, and other imperfections."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Leg Vein Treatments",
+          "snippet": "Laser vein removal is an easy, fast, and effective way to treat superficial veins."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "NovaThreads",
+          "snippet": "NovaThreads, an innovative facial rejuvenation procedure, gives patients instant lifting without general anesthesia, sutures, or surgical risk. The treatment is especially effective in the jaw and neck area, which is notoriously challenging to treat with dermal fillers and neuromodulators."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Spa Services",
+          "snippet": "From expert skin care to deluxe treatments, our spa services offer you a chance to attain flawless, breathtaking skin."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Latisse®",
+          "snippet": "Latisse®™ is the first and only FDA approved treatment for growing fuller, longer, and darker eyelashes. Latisse® solution is a prescription treatment for hypotrichosis used to grow eyelashes, making them longer, thicker, and darker."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "PRP",
+          "snippet": "Based on clinical studies, PRP can be a highly effective treatment for hair loss. It often works better than other hair restoration treatments to improve hair thickness, growth, and strength."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Mole, Skin Tag, Lipoma, And Cyst Removal",
+          "snippet": "Benign skin lesions like moles, skin tags, lipomas, and cysts are medically harmless, but can still be a cosmetic issue in visible areas. At Comprehensive Dermatology Center of Pasadena, our dermatologists are skilled in removing these problems to reduce irritation and deliver attractive skin."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Acne",
+          "snippet": "Our acne treatment plans are highly customized based on each individual, as no single treatment is effective for all patients. The regimens are based on your skin type, your age, and the severity of your acne."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Eczema",
+          "snippet": "At Comprehensive Dermatology Center of Pasadena, our goal in treating your eczema is to relieve itching and prevent scratching, which can lead to a worsening of the condition and to infection."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Photodynamic Therapy",
+          "snippet": "We combine Ameluz gel (a porphyrin precursor) with red light photodynamic therapy, and this interaction creates a chemical reaction that destroys cells and creates smoother, blemish-free skin."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Psoriasis",
+          "snippet": "Comprehensive Dermatology Center of Pasadena specializes in the diagnosis and treatment of psoriasis. We can help you find a psoriasis treatment that works for you and fits your lifestyle."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Rosacea",
+          "snippet": "Rosacea cannot be cured, but it can be controlled. There are many treatment choices for rosacea depending on the severity and extent of your symptoms. Some treatments include: oral medication, topical cream, lasers, antibiotic pills, and more."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Mohs Surgery",
+          "snippet": "Mohs or skin cancer surgery carefully eliminates skin cancer lesions and removes as little healthy tissue as possible. Our goal at Comprehensive Dermatology Center in Pasadena is to treat melanomas, basal cell carcinomas, squamous, and other less common tumors associated with skin cancer."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Skin Cancer",
+          "snippet": "Treatment for skin cancer depends on the type and stage of your disease, the size and place of growth, and your general health and medical history. In most cases, the aim of treatment is to remove or destroy the cancer completely."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Rhinophyma Surgery",
+          "snippet": "For severe rhinophyma, surgery may be necessary to remove thick skin and recontour the nose. Unlike rhinoplasty (a nose job), rhinophyma surgery does not alter the nose’s fundamental structure."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Nail Biopsy And Surgery",
+          "snippet": "A nail avulsion removes the hard part of your nail (nail plate) from your finger or toe, it may also treat nail issues like redness, oozing, swelling, discomfort, infection, or odor caused by cancer treatment."
+        },
+        {
+          "category": "Dermatologist",
+          "title": "Earlobe Repair",
+          "snippet": "If you have damaged earlobes because of an accident or injury, or if you previously stretched your earlobes with gauges and now dislike the gaping holes, you are an excellent candidate for earlobe repair surgery."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments",
+          "snippet": "Botox® Cosmetic is a treatment for temporarily smoothing moderate to severe facial wrinkles around the eyes, brows, mouth, and cheeks. It belongs to a class of drugs called neurotoxins and is used on wrinkles caused by muscle contractions, also known as “dynamic wrinkles.”"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chemical peels",
+          "snippet": "Chemical peels are cosmetic treatments used to improve the appearance and texture of the skin by removing damaged outer layers. They involve the application of a chemical solution to the skin, which causes controlled exfoliation and peeling."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "CoolSculpting treatments",
+          "snippet": "CoolSculpting is a non-surgical cosmetic procedure that is designed to reduce localized areas of stubborn fat by freezing and destroying fat cells. CoolSculpting is typically used for body contouring and is an alternative to more invasive procedures like liposuction."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dysport treatment",
+          "snippet": "Dysport is a brand name for a prescription medication that contains botulinum toxin type A. It is similar in function to Botox, another popular brand of botulinum toxin. Dysport is used for cosmetic purposes to reduce the appearance of wrinkles and fine lines, particularly in the facial area."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "JUVÉDERM treatments",
+          "snippet": "Dermal fillers like Juvederm are composed of hyaluronic acid, a substance naturally found in the skin. They are designed to add volume, smooth out wrinkles and fine lines, and restore a youthful appearance to the face."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sculptra treatments",
+          "snippet": "Sculptra, also known as Sculptra Aesthetic, is a brand of injectable dermal filler. Unlike many other dermal fillers that use hyaluronic acid, Sculptra's active ingredient is poly-L-lactic acid (PLLA). Sculptra is primarily used for facial rejuvenation and addressing age-related volume loss."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Fillers",
+          "snippet": "Dermal fillers, also known as facial fillers or soft tissue fillers, are non-surgical cosmetic treatments used to enhance facial features, reduce the signs of aging, and improve skin texture."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Restalyne",
+          "snippet": "Restylane is a brand of dermal filler commonly used in cosmetic procedures to enhance and rejuvenate the appearance of the skin. It is part of the hyaluronic acid-based dermal filler family."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "RHA Fillers",
+          "snippet": "RHA fillers, or Resilient Hyaluronic Acid fillers, are a relatively new type of hyaluronic acid-based dermal filler designed to provide a more natural and dynamic result when used for facial rejuvenation."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "FotoFacial",
+          "snippet": "A FotoFacial, also known as a photofacial or photorejuvenation, is a non-invasive cosmetic procedure that uses intense pulsed light (IPL) or broadband light (BBL) technology to rejuvenate and improve the appearance of the skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Rejuvenation",
+          "snippet": "Laser rejuvenation, also known as laser skin resurfacing or laser therapy, is a non-invasive or minimally invasive cosmetic procedure that uses laser technology to improve the appearance and texture of the skin. It is often used to address various skin concerns, including wrinkles, and more."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser Vein Removal",
+          "snippet": "Laser vein removal, also known as laser vein therapy or laser vein treatment, is a non-invasive or minimally invasive procedure used to reduce or eliminate the appearance of unwanted veins on the skin's surface."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Latisse",
+          "snippet": "Latisse is primarily used to enhance the growth of eyelashes, making them longer, thicker, and darker."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "HydraLift",
+          "snippet": "Hydralift is a proprietary offering from the Comprehensive Dermatology Center of Pasadena that combines a HydraFacial and strategically placed injectable hyaluronic acid facial fillers and/or PDO threads to give you an instant mid-face lift without invasive surgery."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Kybella",
+          "snippet": "Kybella is a brand name for a prescription medication called deoxycholic acid, which is used for non-surgical treatment of submental fullness, commonly referred to as a \"double chin.\""
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Skin Rejuvenation",
+          "snippet": "Skin rejuvenation refers to a range of cosmetic treatments and procedures aimed at improving the overall appearance, texture, and health of the skin. These treatments are used to address various skin concerns, including signs of aging, sun damage, acne scars, and uneven skin tone."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Laser services",
+          "snippet": "Laser services encompass a broad range of medical and cosmetic procedures that utilize laser technology for various purposes, including medical treatments, aesthetics, and surgical procedures."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Non-invasive skin tightening",
+          "snippet": "Non-invasive skin tightening refers to cosmetic procedures that use various technologies to firm and tighten the skin without the need for surgery. These treatments are typically used to reduce sagging skin, wrinkles, and fine lines and to improve the overall texture and appearance of the skin."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Sclerotherapy",
+          "snippet": "Sclerotherapy is a medical procedure used to treat varicose veins and spider veins. These conditions involve the enlargement and visible appearance of veins, usually in the legs. Sclerotherapy is a minimally invasive and effective way to reduce the appearance of these veins."
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRP for Facial Rejuvenation",
+          "snippet": "PRP, or Platelet-Rich Plasma, is a cosmetic procedure used for facial rejuvenation. It's a non-surgical and minimally invasive treatment that utilizes the patient's own blood to stimulate collagen production and improve the texture and appearance of the skin."
+        }
+      ]
+    },
+    {
+      "type": "business_listing",
+      "title": "NakedMD Med Spa Glendale",
+      "description": "NakedMD Glendale is the Foothills' destination for affordable, physician-guided neurotoxin, filler, and skin treatments. Park in the structure across from Central Medical Plaza on Central Ave — 4th floor, turn right to Suite 470.",
+      "category": "Medical spa",
+      "category_ids": [
+        "medical_spa",
+        "facial_spa",
+        "health_and_beauty_shop",
+        "skin_care_clinic"
+      ],
+      "additional_categories": [
+        "Facial spa",
+        "Health and beauty shop",
+        "Skin care clinic"
+      ],
+      "cid": "12735982793229824654",
+      "feature_id": "0x80c2c1bba4551e27:0xb0bf4cdf4ff3728e",
+      "address": "1510 S Central Ave #470, Glendale, CA 91204",
+      "address_info": {
+        "borough": "Tropico",
+        "address": "1510 S Central Ave #470",
+        "city": "Glendale",
+        "zip": "91204",
+        "region": "California",
+        "country_code": "US"
+      },
+      "place_id": "ChIJJx5VpLvBwoARjnLzT99Mv7A",
+      "phone": "+1818-476-7881",
+      "url": "https://www.nakedmd.com/pages/locations-glendale-ca",
+      "domain": "www.nakedmd.com",
+      "logo": "https://lh5.googleusercontent.com/-egB5pP_F29c/AAAAAAAAAAI/AAAAAAAAAAA/RcW17KjOT6c/s44-p-k-no-ns-nd/photo.jpg",
+      "main_image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEDAkceRDIKz2b-eGXH6YuVGPHaLT72Pa3odTQPa2LsKROZVpGCN5n9M49WS92clACG4QjROZn34UuJDcu3t9ogz3VggpjPPzmM28QZ_xVli9bSeZwRRu6p_JwIHZ7RexivsOr8Q=w408-h602-k-no",
+      "total_photos": 333,
+      "snippet": "1510 S Central Ave #470, Glendale, CA 91204",
+      "latitude": 34.127,
+      "longitude": -118.257,
+      "is_claimed": true,
+      "attributes": {
+        "available_attributes": {
+          "service_options": [
+            "has_onsite_services"
+          ],
+          "accessibility": [
+            "has_wheelchair_accessible_entrance",
+            "has_wheelchair_accessible_parking",
+            "has_wheelchair_accessible_restroom"
+          ],
+          "offerings": [
+            "offers_skincare"
+          ],
+          "amenities": [
+            "offers_membership",
+            "has_online_scheduling",
+            "has_restroom"
+          ],
+          "crowd": [
+            "welcomes_lgbtq",
+            "is_transgender_safespace"
+          ],
+          "planning": [
+            "requires_appointments",
+            "recommends_appointment"
+          ],
+          "payments": [
+            "pay_credit_card",
+            "pay_debit_card",
+            "pay_mobile_nfc"
+          ],
+          "parking": [
+            "has_parking_lot_free",
+            "has_parking_street_free",
+            "has_parking_lot_paid"
+          ]
+        },
+        "unavailable_attributes": {
+          "amenities": [
+            "has_restaurant"
+          ]
+        }
+      },
+      "place_topics": {
+        "injector": 193,
+        "gentle injector": 20,
+        "lip filler": 183,
+        "nakedmd": 17,
+        "free facial": 8,
+        "salt facial": 7,
+        "brow lift": 7,
+        "kind injector": 6,
+        "naked glow": 6,
+        "forehead tox": 6
+      },
+      "rating": {
+        "rating_type": "Max5",
+        "value": 4.9,
+        "votes_count": 1065
+      },
+      "rating_distribution": {
+        "1": 13,
+        "2": 4,
+        "3": 3,
+        "4": 4,
+        "5": 1041
+      },
+      "people_also_search": [
+        {
+          "cid": "14782274964094868105",
+          "feature_id": "0x0:0xcd2530c28f065a89",
+          "title": "7Q Spa Laser & Aesthetics Center",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.6,
+            "votes_count": 440
+          }
+        },
+        {
+          "cid": "13089848273498121217",
+          "feature_id": "0x0:0xb5a87ba6d99da401",
+          "title": "DEA Med Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 25
+          }
+        },
+        {
+          "cid": "898693757963226243",
+          "feature_id": "0x0:0xc78cd361d424c83",
+          "title": "The Cure Medical Aesthetics",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 283
+          }
+        },
+        {
+          "cid": "16900575385653812908",
+          "feature_id": "0x0:0xea8ae7c5299b1eac",
+          "title": "Soma Medical Spa",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 5,
+            "votes_count": 168
+          }
+        },
+        {
+          "cid": "10989266530073487333",
+          "feature_id": "0x0:0x9881b7af7b1ea7e5",
+          "title": "The Skin Agency",
+          "rating": {
+            "rating_type": "Max5",
+            "value": 4.7,
+            "votes_count": 152
+          }
+        }
+      ],
+      "work_time": {
+        "work_hours": {
+          "timetable": {
+            "monday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 19
+                }
+              }
+            ],
+            "tuesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "wednesday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "thursday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 17
+                }
+              }
+            ],
+            "friday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ],
+            "saturday": [
+              {
+                "open": {
+                  "hour": 9
+                },
+                "close": {
+                  "hour": 18
+                }
+              }
+            ]
+          },
+          "current_status": "close"
+        }
+      },
+      "local_business_links": [
+        {
+          "type": "menu",
+          "title": "nakedmd.com",
+          "url": "https://www.nakedmd.com/collections/offers"
+        }
+      ],
+      "contact_info": [
+        {
+          "type": "telephone",
+          "value": "+18184767881",
+          "source": "google_business"
+        }
+      ],
+      "check_url": "https://www.google.com/maps?cid=12735982793229824654&hl=en&gl=US",
+      "last_updated_time": "2026-09-26 13:17:05 +00:00",
+      "first_seen": "2026-09-26 13:17:05 +00:00",
+      "services": [
+        {
+          "category": "Medical Spa",
+          "title": "B-12 injections",
+          "snippet": "Boost your energy levels, fight fatigue, improve mood, and increase metabolism with B-12 injections at NakedMD in Glendale. This quick 5-minute treatment also contributes to healthy hair, skin, and nails, making it a perfect add-on to any other service. Book your appointment today"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "BOTOX treatments",
+          "snippet": "Achieve a smoother, more youthful appearance with BOTOX treatments at NakedMD in Glendale. Our expert injectors target fine lines and wrinkles to provide a refreshed look. BOTOX can also help with excessive sweating and migraines. Book your appointment today and rediscover your natural beauty!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermaplaning",
+          "snippet": "Experience radiant, smooth skin with dermaplaning at NakedMD in Glendale. This 30-minute procedure exfoliates your skin and removes facial hair, known as “peach fuzz.” Dermaplaning enhances skincare product absorption, improves skin texture, and allows for smoother makeup application. Book today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Lip fillers",
+          "snippet": "Enhance your lips at NakedMD in Glendale with our expert lip filler treatments. Achieve volume, symmetry, and hydration while reducing fine lines. Our Artist Injectors tailor each treatment to your needs, ensuring optimal results. Maintain your look with treatments every 6-12 months. Book today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Microneedling",
+          "snippet": "Microneedling at NakedMD in Glendale rejuvenates your skin by stimulating collagen and elastin production. This minimally invasive procedure helps reduce wrinkles, acne scars, and uneven skin texture. Experience smoother, firmer skin with our Microneedling. Book your session today for radiant skin!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Vampire facial",
+          "snippet": "Discover the transformative benefits of the Vampire Facial at NakedMD in Glendale. Using your own blood's platelet-rich fibrin (PRF), this non-invasive procedure enhances skin texture and tone. Stimulate collagen and elastin production naturally for smoother, more youthful skin. Book today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Chin Filler",
+          "snippet": "Achieve your ideal chin profile with Chin Filler treatments at NakedMD in Glendale. Our expert injectors personalize each session to ensure symmetry and natural-looking results. Using hyaluronic acid fillers, we enhance chin contours for a sculpted appearance that lasts up to 18 months. Book now!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Jawline Filler",
+          "snippet": "Achieve a sculpted lower face with Jawline Filler at NakedMD in Glendale. Enhance volume for a defined jawline and sharper facial angles. Our expert injectors recommend an average of 4 syringes for optimal results, with optional Neurotoxin injections to the masseters for a slimmer V-shape. Book now!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "TOX Treatment",
+          "snippet": "Experience rejuvenation with TOX Treatment at NakedMD in Glendale. Our skilled team offers precise injections to relax facial muscles, smoothing wrinkles and enhancing your natural beauty. Discover personalized care and transformative results. Book your appointment today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Masseter TOX",
+          "snippet": "Transform your jawline with Masseter TOX at NakedMD in Glendale. This treatment reshapes your face by injecting neurotoxin into the masseter muscles, reducing a square jaw and easing TMJ symptoms. Ideal with jawline or chin filler for a balanced profile and relief from jaw tension. Book today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Facial Treatment",
+          "snippet": "Revitalize your skin with our Facial Treatment at NakedMD in Glendale. Whether it's hydration, anti-aging, or acne control, our tailored treatments enhance your natural glow. Experience expert care and lasting results. Book your session today and discover radiant, healthy skin!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "PRF (Platelet Rich Fibrin) injection",
+          "snippet": "PRF injections at NakedMD in Glendale harness the power of platelet-rich fibrin, derived from your own blood, to rejuvenate skin naturally. By stimulating collagen, improving circulation, and enhancing elasticity, PRF reduces dark circles, fine lines, and wrinkles. Schedule your consultation today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Med Spa",
+          "snippet": "Discover affordable Med Spa treatments at NakedMD in Glendale! We offer TOX treatment, fillers, PRF injections, and neurotoxins to enhance your natural beauty. Our expert team provides personalized care for stunning results. Book your appointment today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Non Surgical BBL (Brazilian Butt Lift)",
+          "snippet": "Experience a natural-looking solution with our Non Surgical BBL (Brazilian Butt Lift) at NakedMD in Glendale. This treatment enhances buttock volume for a youthful appearance, stimulates collagen, and offers immediate results with long-term benefits. Book your appointment today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Nose Fillers",
+          "snippet": "Transform your profile with nose fillers at NakedMD in Glendale. Enhance contours, balance proportions, and refine the nasal bridge for a harmonious look. Our skilled injectors personalize each treatment to achieve natural results. Book your appointment today!"
+        },
+        {
+          "category": "Medical Spa",
+          "title": "Dermal Fillers Jawline",
+          "snippet": "Enhance your jawline with dermal fillers jawline at NakedMD in Glendale. Our expert injectors sculpt and define the jawline, creating a more balanced and attractive facial profile. Achieve a sharper, more contoured look with personalized treatments tailored to your aesthetic goals. Book today!"
+        }
+      ]
+    }
+  ]
+}
