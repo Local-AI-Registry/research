@@ -571,3 +571,20 @@ Google Trends, United States, weekly, November 2021 to November 2026. For each e
 Raw files and the analysis script are in claude/round4/. Spend not reported by the tool; estimated under $2 at DataForSEO list rates.
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 5: beauty, tattoos, weed and liquor (Nov 14, 2026)
+
+Steve asked for more beauty stories and fun, unexpected pairings like alcohol and weed. All pulls are DataForSEO Google Trends, US, on Nov 14, 2026. Scripts and data: claude/round5/.
+
+### Held (added to the press sheet as round two)
+1. **Friday the 13th is tattoo day.** On all six Friday the 13ths checked (Sep 13 2024, Dec 13 2024, Jun 13 2025, Feb 13 2026, Mar 13 2026, Nov 13 2026), "tattoo near me" ran 2.25x to 3.23x the mean of the nearby Fridays. Nov 13, 2026 was 3.03x. "Piercing near me" rose about 1.7x to 1.8x on the two dates checked. Botox, hair salon and nail salon stayed flat. Tasks ending f6130b869df7, 7798641c79c1, 4fb6deec0f46, a2e775e9ea52, 679c60e15ddb, 086bd429973c. Next one: Aug 13, 2027.
+2. **Thanksgiving is liquor store day, and it rivals 4/20 for dispensaries.** Thanksgiving Day was the top "liquor store near me" day from mid-November through April in both 2024-25 and 2025-26 (100 each time; Christmas 76 and 78; New Year's Eve 41 both years, so 2.4x). For dispensaries, Thanksgiving, Christmas and 4/20 scored 37, 37 and 26 (2025-26) and 32, 33 and 32 (2024-25). In weekly data for 2022 to 2025, Thanksgiving week (1.27x to 1.43x) and Christmas week (1.40x to 1.71x) lifted dispensary searches more than 4/20 week (1.09x to 1.27x) every year. Likely reason: people checking holiday hours. Industry coverage still calls 4/20 the top sales day. Tasks ending 09dbbe869df6, f0982bfeeaa5, 639586aa40f0.
+3. **January hits liquor harder than weed (check before pitching).** January (from the 8th) vs Oct 1 to Nov 14: liquor 0.78, 0.82, 0.79, 0.81, 0.87 for 2022 to 2026; dispensary 0.80, 1.04, 0.84, 0.91, 1.00. Legalization growth may flatter the dispensary side. Task ending 639586aa40f0.
+4. **4/20 munchies myth check (one year only).** 4/20/2026 (a Monday): dispensary 29 vs 17 and 14 on the Mondays around it; pizza 53 vs 45 and 48; ice cream 16 vs 16 and 17; donuts and wings flat. An Apr 22 dispensary spike (59) came in the same week as federal rescheduling news; cause not confirmed. Task ending c0dc8ee00637.
+
+### Killed
+- No Shave November vs barber and waxing (no link). Hangover vs facial and Botox (r 0.11). Sunburn vs chemical peel (r -0.07; dermatologist 0.27). Margarita vs spray tan (seasonal only, no week-to-week link). Valentine's nail salon (didn't repeat in 2025). State maps: dispensary vs Botox (r 0.10), liquor vs Botox (0.17), Ozempic vs liquor (0.01), Ozempic vs lip filler (0.35, weak).
+
+No LAIR clients appear in this round (search data only, no businesses named).
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
