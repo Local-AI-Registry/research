@@ -588,3 +588,25 @@ Steve asked for more beauty stories and fun, unexpected pairings like alcohol an
 No LAIR clients appear in this round (search data only, no businesses named).
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 6: TV shows and hobbies vs beauty searches (Nov 14, 2026)
+
+Steve asked for "questionable correlation vs causation" beauty stories (examples: The Notebook vs plastic surgeons, Gilmore Girls vs med spas) and to drop the two myth-buster cards (breakup bangs, 4/20 munchies). Both were removed from the press sheet.
+
+Method: Google Trends via DataForSEO, US state maps, past 12 months, each term scaled to its own top state. Wyoming and DC excluded (Wyoming scores at or near 100 on many low-volume terms). Rank correlation across 49 states. 44 pairings tested; with that many, a result needs p below about 0.001 to stand.
+
+### Held (added to the press sheet as round three)
+- Real Housewives vs botox near me: rank correlation 0.56 (Pearson 0.50 with Rhode Island also excluded, p 0.0003). Top five states average 29 on Botox, bottom five 21.
+- Love Island vs botox near me: 0.50 (Pearson 0.52, p 0.0001). Top five 29, bottom five 20.
+- Pickleball vs botox near me: 0.51 (Pearson 0.45, p 0.001). Top five 31, bottom five 23. Hawaii is the outlier.
+- Hallmark movies vs med spa near me: -0.42 (Pearson -0.30, p 0.036). Weaker; tagged "Check before pitching".
+All likely reflect urban/coastal vs rural differences, which the cards say.
+
+### Killed
+- The Notebook vs plastic surgeon near me: state 0.02 to 0.08; weekly r -0.07, no lag effect up to 4 weeks.
+- Gilmore Girls vs med spa near me: state 0.07; weekly r 0.02.
+- Bridgerton, golf, true crime, pumpkin spice latte, country music vs Botox, lip filler, med spa and plastic surgeon: no strong pairs. Love Island vs lip filler weekly r 0.06.
+
+Tasks ending dd7e10a188da, cc0d5d618ad2, 281cc8450ae2 (maps), b54d1585ad4a (Botox map), b5ba0e9d11c7, 2000e32acde1, f840fa7f8851, 12216cd352c5 (weekly). Scripts: claude/round6/.
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
