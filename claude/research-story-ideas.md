@@ -730,3 +730,17 @@ Five-year Google Trends, him and her phrases pulled together on the same scale, 
 Posts 1 to 3 use Google Ads monthly volumes (Nov 2025 to Oct 2026); posts 4 to 8 use five-year Trends lines; post 9 keeps the day-of-week bars.
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 16: Search Affinity Lab (time + place + people), 2026-11-15
+
+Aneesh's idea: run several independent tests on each pair. 17 beauty searches x 40 everyday searches = 680 pairs. Data and scripts in `claude/round16/`.
+- Time: five-year monthly r of 0.50 or higher, seasonal (trend-removed) r of 0.40 or higher, and beating the controls (mattress, Costco).
+- Place: Spearman across 49 states of 0.35 or higher, p < 0.01 (solo state maps, past 5 years).
+- People: DataForSEO Trends demography (US, past 12 months). Age-mix overlap of at least 85% (1 minus total variation distance over 5 age bands) and female share within 10 points. A first version that only compared average age was too loose: it passed liposuction ~ boba even though their age mixes differ.
+Results: 2 pairs pass all three (nose job ~ tarot; Botox ~ wedding dress), 49 pass two, 372 pass none. Of the 14 viral posts: 1 passes 3/3 (nose job ~ tarot), 4 pass 2/3 (hair salon ~ pizza, microneedling ~ engagement ring, liposuction ~ boba, tummy tuck ~ sushi), and 9 pass only the time test.
+Best place + people pairs (marketing-useful): Botox ~ Pilates (states 0.67, age overlap 0.97), microneedling ~ Pilates (0.70), Botox ~ engagement ring (0.47), facelift ~ Tesla (0.80), nose job ~ sushi (0.74), laser hair removal ~ Love Island (0.73).
+Limits: no race or ethnicity in search data (not inferred); demography is from DataForSEO's panel and rough for small terms ("botox near me" was too noisy, so plain "botox" was used); about 7 chance state matches are expected out of 680 at p < 0.01.
+
+Page: https://proposals.localairegistry.com/lab/search-affinity/
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
