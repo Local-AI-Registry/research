@@ -711,3 +711,15 @@ These are almost all just "both peak in summer," which is the point of the joke.
 Page: https://proposals.localairegistry.com/social/correlation-not-causation/
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 14: Correlation, Not Causation v2 (five-year look-alike curves), 2026-11-15
+
+Pulled 95 terms (19 pulls, past 5 years, weekly), turned into monthly averages, Dec 2021 to Oct 2026. 59 terms had enough resolution to use. Scored 680 beauty x everything pairs in two ways: raw monthly correlation, and correlation after removing the 12-month trend (this catches shared seasonal wiggles). A pair counts only if it beats the same beauty term against the control searches (mattress, Costco) on both scores. Data and scripts in `claude/round14/`.
+
+Used (raw five-year r): lip filler ~ Pilates 0.94; microneedling ~ Monster Energy 0.92; nail salon near me ~ boba near me 0.90; hair salon near me ~ pizza near me 0.85; microneedling ~ engagement ring 0.83; Brazilian wax ~ ice cream near me 0.81; breast augmentation ~ wedding dress 0.76; Brazilian wax ~ White Claw 0.76; liposuction ~ boba near me 0.75; Botox near me ~ astrology 0.71; tummy tuck ~ sushi near me 0.70; eyebrow threading ~ Chick-fil-A 0.69; liposuction ~ Bumble 0.64; nose job ~ tarot 0.60.
+Failed: Botox near me ~ pizza near me over five years (0.24). Teeth whitening ~ engagement ring and laser hair removal ~ wedding dress look great but do no better than the controls.
+Most of these are a shared rise since 2025 plus summer seasons. The series is a joke on purpose.
+
+Combined page (all 50 posts: these 14, the 28 dating correlations, the 8 Before the Date): https://proposals.localairegistry.com/social/correlation-not-causation/
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
