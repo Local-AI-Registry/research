@@ -627,3 +627,7 @@ AI is changing every day. Local AI Registry's dedicated local AI research team k
 
 ## Round 8: holiday gifts and beauty (Nov 14, 2026)
 Held: spa gift card searches peak on Christmas Eve or Christmas Day (2024: Dec 24 98, Dec 25 100; 2025: Dec 24 100, Dec 25 80), about 4x early-December levels (Dec 1-5 average 21 in 2024, 27 in 2025), up 50-75% in the final two days. Massage gift card also peaks Dec 24 both years. Perfume gift set searches run high all December from Black Friday (2024 top day Dec 14, 87; still 82 on Dec 24). Weekly 2021-2025: spa gift card's top week is the week before Christmas every year. Botox, med spa and facial gift card searches too small to measure. Tasks ending 8af4f9416b46, 0b71922d79cd, 088189d07fe2, 732e3ca1934f.
+Round 8 add-on (tasks ending a869d28f442a, 3d4b619cd88d; 5y screens f78f5f294c86, c0194e33ad89, a15342cd7a7e):
+- Gift calendar, both 2024 and 2025: silk pillowcase (74, 79) and hair dryer brush (72, 73) top week = Black Friday week; perfume sampler top week Dec 15-21 2024 (56) / Dec 14-20 2025 (50); red light therapy top week = week after Christmas (Dec 29 2024: 53; Dec 28 2025: 100), gua sha same (15, 15).
+- Year over year at Black Friday week: LED face mask 100 vs 42 (2.4x), red light therapy 72 vs 37 (about 2x); silk pillowcase 79 vs 74, hair dryer brush 73 vs 72 (flat).
+- Mixed or too small: lip oil, body mist, ice roller, jade roller, skincare fridge, scalp massager, beef tallow skincare, snail mucin, lip liner. This fall vs last fall mostly flat in the 5y screen.
