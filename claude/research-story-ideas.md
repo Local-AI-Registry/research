@@ -634,3 +634,11 @@ Round 8 add-on (tasks ending a869d28f442a, 3d4b619cd88d; 5y screens f78f5f294c86
 Round 8 add-on 2 (gift recipients):
 - Last-minute by recipient (daily Trends, tasks ending eaaf056496a4, fec6e5396b65): Dec 22-24 avg vs Dec 1-7 avg: gift for wife 1.63 (2025) / 1.63 (2024); gift for mom 1.62 / 1.61; gift for girlfriend 1.54 / 1.22; gift for husband 1.06 / 1.06; gift for boyfriend 1.03 / 1.08. Christmas Eve wife vs husband: 63 vs 26 (2025), 56 vs 20 (2024).
 - Who gets what (Google Ads US volume, Dec 2025; tasks ending 5079cf22537d, eed5cd691641, bb31d059dc07): gifts for mom 550,000, wife 135,000, girlfriend 90,500, husband 90,500, boyfriend 110,000. Spa day for mom 27,100 (4.9 per 100), wife 3,600 (2.7), girlfriend 1,300 (1.4), husband 30, boyfriend 10. Jewelry for girlfriend 6,600 (7.3), mom 12,100 (2.2), wife 2,900 (2.1). Lingerie for wife 2,400 (1.8), girlfriend 480 (0.5). Perfume for mom 2,900, girlfriend 260, wife 210. Spa gift card for X phrasings returned no volume.
+
+## Round 9: controversial and relationship pairings (Nov 14, 2026)
+- Condoms vs liposuction by state: rank 0.50 (p 0.0002). Holds.
+- Vasectomy vs liposuction by state: -0.44 (p 0.002); vs Botox -0.31. Holds, weaker.
+- Plan B vs Botox by state: -0.03 (no link). Plan B vs lip filler 0.35, vs lipo 0.34 (weak). Plan B and vasectomy weekly searches both peaked the week of June 26, 2022 (the Dobbs ruling week); political, not used.
+- Bachelorette party vs beauty: no link. "Is he cheating" vs divorce lawyer weekly 0.75 but only shared trend (week-to-week 0.10).
+- Relationship timing (divorce lawyer, couples therapy, engagement ring, wedding dress, Hinge, dating app vs facelift, breast augmentation, teeth whitening, lip filler, Botox, tummy tuck, lash extensions): level correlations 0.5-0.86, but control terms (printer ink, mattress, plumber near me, oil change) correlate with the same terms up to 0.85, because nearly everything stepped up in 2025-2026 (Google data change). Week-to-week and detrended links are weak (mostly under 0.3), and the few joint spikes sit in the spring 2026 anomaly weeks. Divorce lawyer vs facelift is an artifact: card removed from the press sheet and Colleen's page.
+Tasks ending ae93225f6608, 332db374ec44, d9556e870b79, 86ece5b3513e, 6615299f62ef, 4b97df2fb74e, c9a2a92f9262, 45bf345f49d7, 933d73ba53e8.
