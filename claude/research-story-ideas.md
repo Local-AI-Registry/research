@@ -744,3 +744,10 @@ Limits: no race or ethnicity in search data (not inferred); demography is from D
 Page: https://proposals.localairegistry.com/lab/search-affinity/
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 17: Search vs. sales, and share of wallet (Nov 15, 2026)
+Added to https://proposals.localairegistry.com/lab/search-affinity/ (sections "Search vs. sales" and "Share of wallet"). Data in claude/round17.
+- "jeuveau" U.S. search vs. Evolus quarterly revenue (Q1 2023 to Q3 2026): year-over-year direction matches 10 of 11 quarters; levels r = 0.80 (mostly shared trend); YoY size r = -0.08. Miss: Q3 2026 (search -5%, revenue +13%).
+- "botox" search vs. AbbVie global Botox Cosmetic revenue: r = 0.13. 2025 search +10% to +16% YoY while sales -5% to -12%. "botox" works as a category word. Costco control was flat, so not a Google data shift.
+- "club pilates" search -11% (Q2 2026) and -17% (Q3 2026) YoY; Xponential same-store sales -6.8% and -7.5% (Club Pilates -5.6% in Q3). Generic "pilates" still +17% in Q2 2026. Brand search growth stalled mid-2025, before comps turned negative in Q3 2025.
+- Share of wallet: no free card-level data. Used NewBeauty 2025 cut list (dining 54%, clothing 43%, nails 42%, spa 40%, travel 31%, fitness 27%, aesthetics 24%), BLS CE 2024 personal care by age (45 to 54 highest, $1,226), LaserAway/Morning Consult 53%, Self Financial $6,052, Zenoti 41% credit cards. Next step for real transaction data: Placer.ai Favorite Places on a client location, or a card-spend panel (paid).
