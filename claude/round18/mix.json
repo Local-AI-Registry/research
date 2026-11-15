@@ -1,0 +1,366 @@
+{
+ "ladder": [
+  [
+   "brazilian wax",
+   32.7,
+   942,
+   37
+  ],
+  [
+   "lip filler",
+   33.1,
+   940,
+   38
+  ],
+  [
+   "chemical peel",
+   33.8,
+   957,
+   40
+  ],
+  [
+   "laser hair removal",
+   34.3,
+   944,
+   38
+  ],
+  [
+   "liposuction",
+   35.0,
+   981,
+   46
+  ],
+  [
+   "eyebrow threading",
+   36.0,
+   1034,
+   28
+  ],
+  [
+   "nose job",
+   37.3,
+   944,
+   46
+  ],
+  [
+   "hair salon",
+   37.8,
+   988,
+   33
+  ],
+  [
+   "facelift",
+   38.5,
+   1027,
+   46
+  ],
+  [
+   "tummy tuck",
+   39.6,
+   986,
+   31
+  ],
+  [
+   "microneedling",
+   40.0,
+   1013,
+   35
+  ],
+  [
+   "botox",
+   40.8,
+   1003,
+   33
+  ],
+  [
+   "lash extensions",
+   40.9,
+   1036,
+   28
+  ],
+  [
+   "spray tan",
+   41.2,
+   1006,
+   22
+  ],
+  [
+   "teeth whitening",
+   41.6,
+   994,
+   41
+  ],
+  [
+   "nail salon",
+   47.6,
+   1040,
+   28
+  ],
+  [
+   "breast augmentation",
+   50.3,
+   1005,
+   41
+  ]
+ ],
+ "base_center": 40.0,
+ "base_sw": 989,
+ "groups": {
+  "Fast food & treats": {
+   "botox": {
+    "place": 0.25,
+    "people": 0.86,
+    "passes": 0.67,
+    "best": "ice cream near me"
+   },
+   "all": {
+    "place": 0.24,
+    "people": 0.79,
+    "passes": 0.74,
+    "best": "sushi near me"
+   }
+  },
+  "Drinks": {
+   "botox": {
+    "place": 0.36,
+    "people": 0.84,
+    "passes": 0.86,
+    "best": "wine"
+   },
+   "all": {
+    "place": 0.11,
+    "people": 0.75,
+    "passes": 0.54,
+    "best": "wine"
+   }
+  },
+  "Fitness & active": {
+   "botox": {
+    "place": 0.28,
+    "people": 0.87,
+    "passes": 0.8,
+    "best": "pilates"
+   },
+   "all": {
+    "place": 0.12,
+    "people": 0.75,
+    "passes": 0.47,
+    "best": "pilates"
+   }
+  },
+  "Dating & weddings": {
+   "botox": {
+    "place": 0.23,
+    "people": 0.87,
+    "passes": 1.5,
+    "best": "wedding dress"
+   },
+   "all": {
+    "place": -0.01,
+    "people": 0.81,
+    "passes": 0.56,
+    "best": "wedding dress"
+   }
+  },
+  "Astrology & tarot": {
+   "botox": {
+    "place": 0.16,
+    "people": 0.81,
+    "passes": 0.75,
+    "best": "horoscope"
+   },
+   "all": {
+    "place": 0.07,
+    "people": 0.77,
+    "passes": 0.51,
+    "best": "tarot"
+   }
+  },
+  "Big-ticket buys": {
+   "botox": {
+    "place": 0.16,
+    "people": 0.84,
+    "passes": 0.5,
+    "best": "tesla"
+   },
+   "all": {
+    "place": 0.04,
+    "people": 0.75,
+    "passes": 0.62,
+    "best": "tesla"
+   }
+  },
+  "Screens & pop culture": {
+   "botox": {
+    "place": 0.17,
+    "people": 0.83,
+    "passes": 0.4,
+    "best": "love island"
+   },
+   "all": {
+    "place": 0.01,
+    "people": 0.77,
+    "passes": 0.35,
+    "best": "love island"
+   }
+  },
+  "Weight-loss drugs": {
+   "botox": {
+    "place": 0.08,
+    "people": 0.87,
+    "passes": 0,
+    "best": "ozempic"
+   },
+   "all": {
+    "place": 0.19,
+    "people": 0.78,
+    "passes": 0.18,
+    "best": "ozempic"
+   }
+  }
+ },
+ "states": {
+  "terms": [
+   "botox near me",
+   "lip filler",
+   "microneedling",
+   "hydrafacial",
+   "med spa near me",
+   "laser hair removal",
+   "chemical peel",
+   "dermaplaning"
+  ],
+  "top": [
+   [
+    "FL",
+    1.66
+   ],
+   [
+    "AZ",
+    1.61
+   ],
+   [
+    "CO",
+    1.19
+   ],
+   [
+    "UT",
+    0.98
+   ],
+   [
+    "CA",
+    0.94
+   ],
+   [
+    "NJ",
+    0.91
+   ],
+   [
+    "NY",
+    0.85
+   ],
+   [
+    "TX",
+    0.84
+   ],
+   [
+    "MA",
+    0.76
+   ],
+   [
+    "IL",
+    0.51
+   ]
+  ],
+  "bottom": [
+   [
+    "AK",
+    -0.91
+   ],
+   [
+    "WV",
+    -1.0
+   ],
+   [
+    "IA",
+    -1.05
+   ],
+   [
+    "SD",
+    -1.08
+   ],
+   [
+    "VT",
+    -1.37
+   ]
+  ],
+  "geo": [
+   [
+    "pilates",
+    0.81
+   ],
+   [
+    "facelift",
+    0.8
+   ],
+   [
+    "love island",
+    0.75
+   ],
+   [
+    "tesla",
+    0.75
+   ],
+   [
+    "rolex",
+    0.75
+   ],
+   [
+    "nose job",
+    0.74
+   ],
+   [
+    "uber eats",
+    0.74
+   ],
+   [
+    "sushi near me",
+    0.72
+   ],
+   [
+    "teeth whitening",
+    0.71
+   ],
+   [
+    "real housewives",
+    0.68
+   ]
+  ],
+  "geo_low": [
+   [
+    "hot tub",
+    -0.43
+   ],
+   [
+    "tinder",
+    -0.44
+   ],
+   [
+    "air fryer",
+    -0.5
+   ],
+   [
+    "puppy",
+    -0.51
+   ],
+   [
+    "crockpot",
+    -0.66
+   ],
+   [
+    "fishing license",
+    -0.66
+   ]
+  ]
+ }
+}

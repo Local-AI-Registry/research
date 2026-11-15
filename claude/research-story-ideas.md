@@ -751,3 +751,12 @@ Added to https://proposals.localairegistry.com/lab/search-affinity/ (sections "S
 - "botox" search vs. AbbVie global Botox Cosmetic revenue: r = 0.13. 2025 search +10% to +16% YoY while sales -5% to -12%. "botox" works as a category word. Costco control was flat, so not a Google data shift.
 - "club pilates" search -11% (Q2 2026) and -17% (Q3 2026) YoY; Xponential same-store sales -6.8% and -7.5% (Club Pilates -5.6% in Q3). Generic "pilates" still +17% in Q2 2026. Brand search growth stalled mid-2025, before comps turned negative in Q3 2025.
 - Share of wallet: no free card-level data. Used NewBeauty 2025 cut list (dining 54%, clothing 43%, nails 42%, spa 40%, travel 31%, fitness 27%, aesthetics 24%), BLS CE 2024 personal care by age (45 to 54 highest, $1,226), LaserAway/Morning Consult 53%, Self Financial $6,052, Zenoti 41% credit cards. Next step for real transaction data: Placer.ai Favorite Places on a client location, or a card-spend panel (paid).
+
+## Round 18: Everything combined (Nov 15, 2026)
+New top section "Six things the data says when you mix it" on https://proposals.localairegistry.com/lab/search-affinity/. Data in claude/round18.
+1. Med spa search index (8 treatment searches, z-scored by state) matches Pilates by state at 0.81; Tesla, Rolex, Love Island 0.75, Uber Eats 0.74. Opposite: fishing license, crockpot -0.66. Top FL, AZ, CO, UT, CA; bottom VT, SD, IA, WV. Likely urban/income confound.
+2. Men's share of searches: liposuction, facelift, nose job 46% (everyday median 44%); Botox 33%, nails and lashes 28%, spray tan 22%.
+3. Average searcher age: Brazilian wax, lip filler, chemical peel, laser about 33 to 34; Botox 41. BLS 2024 personal care per household: under 25 $647, 25-34 $863, 35-44 $1,202, 45-54 $1,226, 55-64 $1,023.
+4. Seasonality 2023-2025 (quarter vs year average): Botox search Q1 102, Botox Cosmetic sales Q1 92, Q2 105, Q4 106. Sales are to practices.
+5. Brand vs category search (from round 17).
+6. Co-promo ranking for "botox near me" by category: dating and weddings pass the most tests (1.5 of 3); drinks have the best state match (0.36); fitness 0.28 with 87% age overlap; weight-loss drugs 0.08 on states.
