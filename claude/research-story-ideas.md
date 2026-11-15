@@ -697,3 +697,17 @@ Day of week ("does he like me", daily Aug 15 to Nov 14): Mon 108, Tue 105, Wed 1
 Page: https://proposals.localairegistry.com/social/before-the-date/
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 13: Correlation, Not Causation (look-alike weekly curves), 2026-11-15
+
+Weekly Google Trends, US, Nov 2025 to Nov 2026, saved in `claude/round13/weekly.py`.
+
+Watch out: many unrelated terms (mattress, lawn mower, sunscreen, spray tan, teeth whitening, laser hair removal) all spike together in the weeks of Mar 29 to Apr 25, 2026. This looks like a Google data quirk. Pairs were scored with Mar 22 to May 2 left out, and a pair counts only if it beats the control searches (mattress, lawn mower).
+
+Used (weekly Pearson, all 53 weeks / with the spring weeks left out / best control): laser hair removal ~ kayak 0.96 / 0.97 / 0.87; Brazilian wax ~ ice cream near me 0.93 / 0.94 / 0.83; Brazilian wax ~ kayak 0.92 / 0.92 / 0.83; Botox near me ~ pickleball 0.71 / 0.71 / 0.65. Botox near me ~ pizza near me is only 0.56 overall, but both peak the same week (Jun 14 to 20, 2026) and both roughly doubled from November (Botox 9 to 16, pizza 37 to 76).
+Not used (failed controls): lash extensions ~ sunscreen or pickleball; spray tan ~ sunscreen.
+These are almost all just "both peak in summer," which is the point of the joke.
+
+Page: https://proposals.localairegistry.com/social/correlation-not-causation/
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
