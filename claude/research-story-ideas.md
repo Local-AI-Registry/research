@@ -760,3 +760,13 @@ New top section "Six things the data says when you mix it" on https://proposals.
 4. Seasonality 2023-2025 (quarter vs year average): Botox search Q1 102, Botox Cosmetic sales Q1 92, Q2 105, Q4 106. Sales are to practices.
 5. Brand vs category search (from round 17).
 6. Co-promo ranking for "botox near me" by category: dating and weddings pass the most tests (1.5 of 3); drinks have the best state match (0.36); fitness 0.28 with 87% age overlap; weight-loss drugs 0.08 on states.
+
+## Round 19: Forecasting Jeuveau with other brands' searches (Nov 15, 2026)
+Lead section of https://proposals.localairegistry.com/lab/search-affinity/. Data in claude/round19.
+- Screened 101 five-year weekly searches against Evolus quarterly revenue growth (YoY, Q1 2023 to Q3 2026, 15 quarters), same quarter and one quarter ahead. One-quarter-ahead never ranked; search is a same-quarter read.
+- Sephora: growth match 0.71; quarter-to-quarter change match 0.46. Jeuveau's own search: -0.08 on growth.
+- Equinox: -0.78 on levels but 0.02 on quarter-to-quarter changes, so trend only. Same for Planet Fitness, "botox near me".
+- Taylor Swift also scored 0.72 / 0.50: shows luck risk in a 101-term screen.
+- Model: Evolus YoY = f(last quarter YoY, Sephora search YoY). Leave-one-out average miss 6.6 pts vs 9.2 without Sephora; within 7% of revenue in 11 of 14 quarters.
+- Nowcast: Sephora searches Oct 4 to Nov 14, 2026 up 7.5% YoY, so Q4 2026 Evolus revenue about $107M (range about $101M to $113M). Guidance-implied Q4: $95M to $102M. Check against Evolus's early January preliminary release.
+- Volumes (Google Ads, Oct 2026): jeuveau 22,200; sephora 6.12M; equinox 301,000; botox 201,000.
