@@ -642,3 +642,28 @@ Round 8 add-on 2 (gift recipients):
 - Bachelorette party vs beauty: no link. "Is he cheating" vs divorce lawyer weekly 0.75 but only shared trend (week-to-week 0.10).
 - Relationship timing (divorce lawyer, couples therapy, engagement ring, wedding dress, Hinge, dating app vs facelift, breast augmentation, teeth whitening, lip filler, Botox, tummy tuck, lash extensions): level correlations 0.5-0.86, but control terms (printer ink, mattress, plumber near me, oil change) correlate with the same terms up to 0.85, because nearly everything stepped up in 2025-2026 (Google data change). Week-to-week and detrended links are weak (mostly under 0.3), and the few joint spikes sit in the spring 2026 anomaly weeks. Divorce lawyer vs facelift is an artifact: card removed from the press sheet and Colleen's page.
 Tasks ending ae93225f6608, 332db374ec44, d9556e870b79, 86ece5b3513e, 6615299f62ef, 4b97df2fb74e, c9a2a92f9262, 45bf345f49d7, 933d73ba53e8.
+
+## Round 10: Correlation Series (dating x beauty, state maps), 2026-11-14
+
+Pulled 15 new solo Google Trends state maps (past 12 months, US): divorce lawyer, tinder, hinge app, situationship, is he cheating, facelift, teeth whitening, lash extensions, breast augmentation, tummy tuck, engagement ring, first date ideas, breakup, couples therapy, bumble. Data in `claude/round10/`.
+
+Method note: combined (5-term) map rows sum to 100 per state, so they are shares, not interest. Using them makes fake negative and positive links. Only solo maps were used. Wyoming and DC left out (49 states). Spearman. 120 dating x beauty pairs tested, so a pair needs p < 0.00042 to count.
+
+Passed (used in the Instagram set):
+- Hinge app ~ facelift +0.76
+- Plan B pill ~ tummy tuck +0.69
+- Couples therapy ~ facelift +0.66
+- Condoms ~ tummy tuck +0.66 (condoms ~ liposuction +0.50)
+- Divorce lawyer ~ liposuction +0.60 (divorce lawyer ~ facelift +0.50)
+- Tinder ~ tummy tuck -0.58
+- Vasectomy ~ facelift -0.57
+- Is he cheating ~ tummy tuck +0.56
+- First date ideas ~ teeth whitening +0.52; Bumble ~ teeth whitening +0.52 (Kansas is a big teeth whitening outlier)
+- Bachelorette party ~ tummy tuck -0.51
+Also passed, not used: hinge ~ liposuction +0.61, hinge ~ botox near me +0.60, hinge ~ teeth whitening +0.58, bumble ~ facelift +0.49.
+
+Caveat: many of these likely track city size, income and region, not dating. Framed as "correlation, not causation" in every post.
+
+Asset: Design canvas "Correlation Series: Instagram posts for Flávia" (12 posts, 1080x1350, with captions), https://claude.ai/artifact/88VMgipAqEvh45kz76xDdS
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
