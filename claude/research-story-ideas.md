@@ -667,3 +667,19 @@ Caveat: many of these likely track city size, income and region, not dating. Fra
 Asset: Design canvas "Correlation Series: Instagram posts for Flávia" (12 posts, 1080x1350, with captions), https://claude.ai/artifact/88VMgipAqEvh45kz76xDdS
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 11: lifestyle x dating x beauty (state maps), 2026-11-14
+
+New solo maps (past 12 months): steakhouse near me, thong, beer, pokemon, nose job, lingerie, cologne, sushi near me, sports bar near me, fantasy football, brazilian wax, tanning salon, lululemon, crossfit, taylor swift, tesla, sugar daddy, rolex, match.com, boob job, louis vuitton, golf course near me, date night ideas, speed dating. "dating over 40" was too sparse (15 states blank) and was not used. Data in `claude/round11/`.
+
+644 pairs tested in the full grid, so a pair needs p < 0.00008.
+
+Steve's suggested pairs that did NOT hold up: steakhouse ~ botox (+0.33), thong ~ lip filler (+0.19), nose job ~ condoms (+0.06), beer ~ botox (−0.13), pokemon ~ botox (+0.04), boob job ~ tesla (−0.25), sugar daddy ~ med spa (+0.22). Pokemon ~ lash extensions (+0.52, p 0.0002) missed the bar.
+
+Passed and used (posts 13 to 28): cologne ~ plan b +0.85; tesla ~ facelift +0.83; rolex ~ facelift +0.82 (lipo +0.76); sushi near me ~ facelift +0.80; cologne ~ tinder −0.76; louis vuitton ~ liposuction +0.70; speed dating ~ nose job +0.69; sugar daddy ~ tummy tuck +0.69 (cologne +0.59, steakhouse +0.56); beer ~ tummy tuck −0.64; steakhouse ~ tinder −0.64; match.com ~ cologne −0.64; brazilian wax ~ tummy tuck +0.62; fantasy football ~ tummy tuck −0.62; boob job ~ vasectomy +0.58 (boob job ~ real housewives −0.62); taylor swift ~ plan b −0.58; thong ~ nose job +0.55.
+
+Pattern worth noting: two big axes explain most of it. A wealthy, coastal, urban axis (Tesla, Rolex, sushi, Louis Vuitton, Hinge, facelift, nose job) and a Southern axis (cologne, Plan B, sugar daddy, steakhouse, tummy tuck) against New England and the northern plains (Tinder, Match.com, beer, fantasy football). "Boob job" (slang) and "breast augmentation" (clinical) map to very different states.
+
+Download page with all 28 posts: https://claude.ai/artifact/JD8PpRSnzNAtb4FDN4aBRD
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
