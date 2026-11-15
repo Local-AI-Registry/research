@@ -11,6 +11,18 @@
   ],
   "studies": [
     {
+      "id": "LAIR-R-2026-003",
+      "title": "Med Spa Search Signals: what Google searches reveal about aesthetic clients and sales",
+      "short_title": "Med Spa Search Signals",
+      "url": "med-spa-search-signals/",
+      "date": "2026-11-15",
+      "type": "Study",
+      "summary": "Sephora search growth tracked sales growth at Jeuveau maker Evolus at 0.71 over 15 quarters while Jeuveau’s own searches scored −0.08, and med spa searches follow the Pilates state map at 0.81.",
+      "ai_assistants": ["Google AI Overviews", "ChatGPT"],
+      "topics": ["Med spas", "Search trends", "Consumer spending"],
+      "data_url": "med-spa-search-signals/data/med-spa-search-signals-data.csv"
+    },
+    {
       "id": "LAIR-R-2026-002",
       "title": "How Often AI Recommends Your Business: A Better Measure of Local Visibility",
       "short_title": "How Often AI Recommends Your Business",

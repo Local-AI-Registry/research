@@ -1,0 +1,2015 @@
+[
+ {
+  "slug": "monthly-google-searches-sephora-vs-jeuveau",
+  "title": "Sephora gets 338 times more Google searches than Jeuveau",
+  "alt": "Bar chart of average monthly U.S. Google searches: Sephora 6,120,000, Equinox 368,000, Botox 165,000, Jeuveau 18,100",
+  "caption": "Jeuveau averages about 18,100 U.S. searches a month. Sephora averages 6.1 million, so its search trend is far steadier to read.",
+  "table": [
+   [
+    "Search",
+    "Average monthly U.S. searches"
+   ],
+   [
+    "Sephora",
+    6120000
+   ],
+   [
+    "Equinox",
+    368000
+   ],
+   [
+    "Botox",
+    165000
+   ],
+   [
+    "Jeuveau",
+    18100
+   ]
+  ],
+  "section": "proxy",
+  "kind": "chart",
+  "width": 1000,
+  "height": 370
+ },
+ {
+  "slug": "sephora-search-growth-vs-jeuveau-evolus-revenue-growth",
+  "title": "Sephora search growth tracks Jeuveau sales growth at 0.71",
+  "alt": "Line chart of year-over-year growth by quarter, Q1 2023 to Q3 2026: Sephora searches and Evolus revenue move together, correlation 0.71",
+  "caption": "Across 15 quarters, Sephora search growth and Evolus revenue growth line up at 0.71. Both slowed through 2024 and both rose in Q2 2026.",
+  "table": [
+   [
+    "Quarter",
+    "Sephora searches vs. year before",
+    "Evolus revenue vs. year before"
+   ],
+   [
+    "Q1 ’23",
+    "+34.0%",
+    "+23.0%"
+   ],
+   [
+    "Q2 ’23",
+    "+39.6%",
+    "+32.8%"
+   ],
+   [
+    "Q3 ’23",
+    "+35.6%",
+    "+47.6%"
+   ],
+   [
+    "Q4 ’23",
+    "+32.9%",
+    "+39.7%"
+   ],
+   [
+    "Q1 ’24",
+    "+17.1%",
+    "+42.2%"
+   ],
+   [
+    "Q2 ’24",
+    "+3.0%",
+    "+35.6%"
+   ],
+   [
+    "Q3 ’24",
+    "-0.7%",
+    "+22.1%"
+   ],
+   [
+    "Q4 ’24",
+    "-3.5%",
+    "+29.4%"
+   ],
+   [
+    "Q1 ’25",
+    "-14.7%",
+    "+15.5%"
+   ],
+   [
+    "Q2 ’25",
+    "-6.9%",
+    "+3.7%"
+   ],
+   [
+    "Q3 ’25",
+    "-0.9%",
+    "+12.9%"
+   ],
+   [
+    "Q4 ’25",
+    "-6.6%",
+    "+14.4%"
+   ],
+   [
+    "Q1 ’26",
+    "-7.5%",
+    "+6.7%"
+   ],
+   [
+    "Q2 ’26",
+    "+16.6%",
+    "+21.2%"
+   ],
+   [
+    "Q3 ’26",
+    "-4.5%",
+    "+13.1%"
+   ]
+  ],
+  "section": "proxy",
+  "kind": "chart",
+  "width": 1000,
+  "height": 616
+ },
+ {
+  "slug": "which-searches-predict-jeuveau-sales-heatmap",
+  "title": "Only three searches match Jeuveau sales on both the trend and the changes",
+  "alt": "Heatmap of 12 searches scored on two tests against Evolus revenue growth; Sephora 0.71 and 0.46, Equinox -0.78 and 0.02",
+  "caption": "A useful stand-in has to pass both tests. Sephora, Taylor Swift and espresso martini pass both; Sephora is the only one that shares the beauty shopper.",
+  "table": [
+   [
+    "Search",
+    "Long-trend match",
+    "Quarter-to-quarter match",
+    "Error on the last 5 quarters (points)"
+   ],
+   [
+    "Sephora",
+    0.71,
+    0.46,
+    9.7
+   ],
+   [
+    "Espresso martini",
+    0.72,
+    0.48,
+    11.5
+   ],
+   [
+    "Taylor Swift",
+    0.72,
+    0.5,
+    9.5
+   ],
+   [
+    "Wingstop",
+    0.63,
+    0.04,
+    8.7
+   ],
+   [
+    "Skims",
+    0.46,
+    0.07,
+    14.4
+   ],
+   [
+    "Botox near me",
+    -0.51,
+    0.17,
+    8.1
+   ],
+   [
+    "Planet Fitness",
+    -0.46,
+    0.15,
+    9.8
+   ],
+   [
+    "Equinox",
+    -0.78,
+    0.02,
+    9.0
+   ],
+   [
+    "Pilates",
+    0.32,
+    0.06,
+    16.1
+   ],
+   [
+    "Ulta",
+    0.01,
+    -0.34,
+    16.6
+   ],
+   [
+    "Lululemon",
+    -0.01,
+    0.08,
+    18.1
+   ],
+   [
+    "Costco",
+    -0.04,
+    0.24,
+    15.5
+   ]
+  ],
+  "section": "proxy",
+  "kind": "chart",
+  "width": 1000,
+  "height": 915
+ },
+ {
+  "slug": "search-proxy-test-2x2-trend-vs-quarterly-match",
+  "title": "Of 94 searches, few track Jeuveau sales for real",
+  "alt": "Two by two scatter of 94 searches by long-trend match and quarter-to-quarter match with Evolus revenue; Sephora in the real signal corner, Equinox in trend only",
+  "caption": "Most searches fall near the middle. Equinox sits in the trend-only corner: strong over five years, no link quarter to quarter. Sephora sits in the real-signal corner.",
+  "table": [
+   [
+    "Search",
+    "Long-trend match",
+    "Quarter-to-quarter match"
+   ],
+   [
+    "taylor swift",
+    0.72,
+    0.5
+   ],
+   [
+    "espresso martini",
+    0.72,
+    0.48
+   ],
+   [
+    "sephora",
+    0.71,
+    0.46
+   ],
+   [
+    "wingstop",
+    0.63,
+    0.04
+   ],
+   [
+    "pickleball",
+    0.56,
+    0.32
+   ],
+   [
+    "dermaplaning",
+    0.55,
+    0.5
+   ],
+   [
+    "skims",
+    0.46,
+    0.07
+   ],
+   [
+    "trader joes",
+    0.45,
+    0.04
+   ],
+   [
+    "situationship",
+    0.44,
+    0.39
+   ],
+   [
+    "ozempic",
+    0.41,
+    -0.29
+   ],
+   [
+    "sourdough",
+    0.38,
+    0.18
+   ],
+   [
+    "aperol spritz",
+    0.38,
+    -0.45
+   ],
+   [
+    "bumble",
+    0.36,
+    0.53
+   ],
+   [
+    "lip filler",
+    0.34,
+    0.11
+   ],
+   [
+    "pilates",
+    0.32,
+    0.06
+   ],
+   [
+    "boba near me",
+    0.21,
+    -0.19
+   ],
+   [
+    "chick fil a",
+    0.11,
+    -0.13
+   ],
+   [
+    "orangetheory",
+    0.09,
+    -0.26
+   ],
+   [
+    "nose job",
+    0.08,
+    0.38
+   ],
+   [
+    "tequila",
+    0.07,
+    0.27
+   ],
+   [
+    "margarita",
+    0.06,
+    0.56
+   ],
+   [
+    "tesla",
+    0.02,
+    0.27
+   ],
+   [
+    "ulta",
+    0.01,
+    -0.34
+   ],
+   [
+    "lululemon",
+    -0.01,
+    0.08
+   ],
+   [
+    "wordle",
+    -0.04,
+    0.59
+   ],
+   [
+    "costco",
+    -0.04,
+    0.24
+   ],
+   [
+    "white claw",
+    -0.06,
+    0.25
+   ],
+   [
+    "charcuterie board",
+    -0.07,
+    -0.13
+   ],
+   [
+    "cheesecake factory",
+    -0.1,
+    0.02
+   ],
+   [
+    "med spa near me",
+    -0.12,
+    0.15
+   ],
+   [
+    "uber eats",
+    -0.15,
+    0.45
+   ],
+   [
+    "crockpot",
+    -0.16,
+    -0.02
+   ],
+   [
+    "horoscope",
+    -0.17,
+    -0.21
+   ],
+   [
+    "engagement ring",
+    -0.17,
+    0.46
+   ],
+   [
+    "hot dog",
+    -0.19,
+    0.53
+   ],
+   [
+    "protein powder",
+    -0.19,
+    0.46
+   ],
+   [
+    "tinder",
+    -0.19,
+    0.39
+   ],
+   [
+    "kayak",
+    -0.2,
+    0.3
+   ],
+   [
+    "printer ink",
+    -0.2,
+    0.37
+   ],
+   [
+    "mattress",
+    -0.2,
+    0.4
+   ],
+   [
+    "tarot",
+    -0.21,
+    0.35
+   ],
+   [
+    "laser hair removal",
+    -0.23,
+    0.4
+   ],
+   [
+    "true crime",
+    -0.24,
+    0.29
+   ],
+   [
+    "lash extensions",
+    -0.25,
+    0.3
+   ],
+   [
+    "taco bell",
+    -0.25,
+    0.69
+   ],
+   [
+    "chemical peel",
+    -0.25,
+    0.46
+   ],
+   [
+    "golf",
+    -0.26,
+    0.17
+   ],
+   [
+    "golden retriever",
+    -0.28,
+    -0.09
+   ],
+   [
+    "hot tub",
+    -0.3,
+    0.34
+   ],
+   [
+    "car wash near me",
+    -0.31,
+    0.29
+   ],
+   [
+    "hinge app",
+    -0.32,
+    0.15
+   ],
+   [
+    "beer",
+    -0.33,
+    0.26
+   ],
+   [
+    "fishing license",
+    -0.33,
+    0.34
+   ],
+   [
+    "fantasy football",
+    -0.36,
+    -0.0
+   ],
+   [
+    "starbucks",
+    -0.37,
+    0.18
+   ],
+   [
+    "tiktok",
+    -0.37,
+    0.3
+   ],
+   [
+    "hydrafacial",
+    -0.38,
+    0.26
+   ],
+   [
+    "real housewives",
+    -0.4,
+    0.03
+   ],
+   [
+    "love island",
+    -0.4,
+    -0.65
+   ],
+   [
+    "spray tan",
+    -0.41,
+    0.56
+   ],
+   [
+    "iced coffee",
+    -0.42,
+    0.3
+   ],
+   [
+    "ice cream near me",
+    -0.44,
+    -0.05
+   ],
+   [
+    "wine",
+    -0.44,
+    0.12
+   ],
+   [
+    "candles",
+    -0.44,
+    0.09
+   ],
+   [
+    "air fryer",
+    -0.44,
+    0.26
+   ],
+   [
+    "astrology",
+    -0.45,
+    0.32
+   ],
+   [
+    "rolex",
+    -0.46,
+    0.24
+   ],
+   [
+    "planet fitness",
+    -0.46,
+    0.15
+   ],
+   [
+    "monster energy",
+    -0.47,
+    0.29
+   ],
+   [
+    "pizza near me",
+    -0.49,
+    -0.09
+   ],
+   [
+    "sushi near me",
+    -0.49,
+    0.01
+   ],
+   [
+    "divorce lawyer",
+    -0.49,
+    0.33
+   ],
+   [
+    "microneedling",
+    -0.5,
+    0.27
+   ],
+   [
+    "botox near me",
+    -0.51,
+    0.17
+   ],
+   [
+    "puppy",
+    -0.51,
+    0.36
+   ],
+   [
+    "oil change near me",
+    -0.51,
+    0.27
+   ],
+   [
+    "crystals",
+    -0.53,
+    0.48
+   ],
+   [
+    "brazilian wax",
+    -0.54,
+    0.35
+   ],
+   [
+    "hair salon near me",
+    -0.54,
+    0.24
+   ],
+   [
+    "wedding dress",
+    -0.55,
+    0.15
+   ],
+   [
+    "matcha",
+    -0.56,
+    -0.26
+   ],
+   [
+    "teeth whitening",
+    -0.57,
+    0.16
+   ],
+   [
+    "bath bombs",
+    -0.59,
+    -0.33
+   ],
+   [
+    "energy drink",
+    -0.62,
+    0.11
+   ],
+   [
+    "therapist near me",
+    -0.62,
+    0.09
+   ],
+   [
+    "facelift",
+    -0.66,
+    -0.01
+   ],
+   [
+    "liposuction",
+    -0.68,
+    -0.27
+   ],
+   [
+    "peloton",
+    -0.71,
+    -0.45
+   ],
+   [
+    "breast augmentation",
+    -0.72,
+    0.01
+   ],
+   [
+    "eyebrow threading",
+    -0.72,
+    0.21
+   ],
+   [
+    "doordash",
+    -0.74,
+    -0.03
+   ],
+   [
+    "equinox",
+    -0.78,
+    0.02
+   ],
+   [
+    "tummy tuck",
+    -0.8,
+    -0.15
+   ],
+   [
+    "nail salon near me",
+    -0.81,
+    -0.08
+   ]
+  ],
+  "section": "proxy",
+  "kind": "chart",
+  "width": 1000,
+  "height": 786
+ },
+ {
+  "slug": "evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance",
+  "title": "Our search estimate puts Evolus Q4 2026 revenue at $107M, above guidance",
+  "alt": "Line chart of Evolus quarterly revenue and our leave-one-out estimate, Q1 2023 to Q3 2026, plus a Q4 2026 estimate of $107M against a guidance-implied range of $95M to $102M",
+  "caption": "Tested by hiding one quarter at a time, the estimate landed within 7% of actual revenue in 11 of 14 quarters. For Q4 2026 it points to about $107M; guidance implies $95M to $102M.",
+  "table": [
+   [
+    "Quarter",
+    "Actual revenue ($M)",
+    "Estimate ($M)"
+   ],
+   [
+    "Q1 ’23",
+    41.72,
+    ""
+   ],
+   [
+    "Q2 ’23",
+    49.35,
+    52.5
+   ],
+   [
+    "Q3 ’23",
+    50.02,
+    47.1
+   ],
+   [
+    "Q4 ’23",
+    61.0,
+    66.1
+   ],
+   [
+    "Q1 ’24",
+    59.33,
+    56.3
+   ],
+   [
+    "Q2 ’24",
+    66.91,
+    64.0
+   ],
+   [
+    "Q3 ’24",
+    61.09,
+    63.4
+   ],
+   [
+    "Q4 ’24",
+    78.95,
+    71.2
+   ],
+   [
+    "Q1 ’25",
+    68.52,
+    69.3
+   ],
+   [
+    "Q2 ’25",
+    69.39,
+    76.5
+   ],
+   [
+    "Q3 ’25",
+    68.97,
+    66.3
+   ],
+   [
+    "Q4 ’25",
+    90.3,
+    87.9
+   ],
+   [
+    "Q1 ’26",
+    73.14,
+    77.4
+   ],
+   [
+    "Q2 ’26",
+    84.1,
+    82.1
+   ],
+   [
+    "Q3 ’26",
+    78.0,
+    81.0
+   ],
+   [
+    "Q4 ’26",
+    "Not yet reported",
+    106.8
+   ]
+  ],
+  "section": "estimate",
+  "kind": "chart",
+  "width": 1000,
+  "height": 651
+ },
+ {
+  "slug": "adding-sephora-search-cuts-jeuveau-forecast-error",
+  "title": "Adding Sephora searches cut the average miss from 9.2 to 6.6 points",
+  "alt": "Bar chart of average forecast miss in points of growth: both inputs 6.6, Sephora only 8.6, last quarter only 9.2, same as last quarter 9.2",
+  "caption": "Each quarter was predicted with that quarter hidden. Using last quarter's growth plus Sephora searches missed by 6.6 points of growth on average, against 9.2 without Sephora.",
+  "table": [
+   [
+    "Method",
+    "Average miss (points of growth)"
+   ],
+   [
+    "Last quarter's growth plus Sephora searches",
+    6.6
+   ],
+   [
+    "Sephora searches only",
+    8.6
+   ],
+   [
+    "Last quarter's growth only",
+    9.2
+   ],
+   [
+    "Same growth as last quarter",
+    9.2
+   ]
+  ],
+  "section": "estimate",
+  "kind": "chart",
+  "width": 1000,
+  "height": 405
+ },
+ {
+  "slug": "jeuveau-revenue-estimate-accuracy-waffle",
+  "title": "The estimate landed within 7% of actual sales in 11 of 14 quarters",
+  "alt": "Waffle of 14 quarters: 11 estimates within 7% of Evolus revenue, 3 further off",
+  "caption": "In a hide-one-quarter test from Q2 2023 to Q3 2026, the estimate was within 7% of reported revenue in 11 of 14 quarters.",
+  "table": [
+   [
+    "Quarters tested",
+    "Within 7%",
+    "Further off"
+   ],
+   [
+    14,
+    11,
+    3
+   ]
+  ],
+  "section": "estimate",
+  "kind": "chart",
+  "width": 1000,
+  "height": 333
+ },
+ {
+  "slug": "botox-searches-vs-botox-cosmetic-sales",
+  "title": "“Botox” searches rose in 2025 while Botox Cosmetic sales fell",
+  "alt": "Line chart indexed to Q1 2023 = 100: botox searches rise in 2025 while AbbVie Botox Cosmetic sales fall; correlation 0.13",
+  "caption": "In 2025, “botox” searches ran 10% to 16% above the year before while global Botox Cosmetic sales ran 5% to 12% below. Over 15 quarters the two barely relate (0.13).",
+  "table": [
+   [
+    "Quarter",
+    "Botox search (avg weekly index)",
+    "Botox Cosmetic sales ($M)"
+   ],
+   [
+    "Q1 ’23",
+    67.6,
+    659
+   ],
+   [
+    "Q2 ’23",
+    67.1,
+    685
+   ],
+   [
+    "Q3 ’23",
+    63.5,
+    620
+   ],
+   [
+    "Q4 ’23",
+    67.0,
+    718
+   ],
+   [
+    "Q1 ’24",
+    68.8,
+    633
+   ],
+   [
+    "Q2 ’24",
+    68.6,
+    729
+   ],
+   [
+    "Q3 ’24",
+    64.0,
+    671
+   ],
+   [
+    "Q4 ’24",
+    66.9,
+    687
+   ],
+   [
+    "Q1 ’25",
+    75.5,
+    556
+   ],
+   [
+    "Q2 ’25",
+    75.8,
+    692
+   ],
+   [
+    "Q3 ’25",
+    74.5,
+    637
+   ],
+   [
+    "Q4 ’25",
+    76.2,
+    717
+   ],
+   [
+    "Q1 ’26",
+    88.6,
+    668
+   ],
+   [
+    "Q2 ’26",
+    88.1,
+    728
+   ],
+   [
+    "Q3 ’26",
+    74.7,
+    669
+   ]
+  ],
+  "section": "brand-vs-category",
+  "kind": "chart",
+  "width": 1000,
+  "height": 651
+ },
+ {
+  "slug": "brand-search-vs-sales-by-quarter-heatmap",
+  "title": "Jeuveau searches moved with Jeuveau sales in 10 of 11 quarters; “botox” did not",
+  "alt": "Heatmap of year-over-year change by quarter, 2024 to 2026: botox searches up while Botox sales fall in 2025; jeuveau searches and Evolus revenue rise together",
+  "caption": "Blue is growth and coral is decline against the same quarter a year before. The brand name Jeuveau matched its maker's sales direction in 10 of 11 quarters; the everyday word “botox” did not track the Botox brand.",
+  "table": [
+   [
+    "Quarter",
+    "botox searches",
+    "Botox Cosmetic sales",
+    "jeuveau searches",
+    "Evolus revenue"
+   ],
+   [
+    "Q1 ’24",
+    "+1.7%",
+    "-3.9%",
+    "+13.7%",
+    "+42.2%"
+   ],
+   [
+    "Q2 ’24",
+    "+2.3%",
+    "+6.4%",
+    "+21.1%",
+    "+35.6%"
+   ],
+   [
+    "Q3 ’24",
+    "+0.7%",
+    "+8.2%",
+    "+16.6%",
+    "+22.1%"
+   ],
+   [
+    "Q4 ’24",
+    "-0.1%",
+    "-4.3%",
+    "+13.7%",
+    "+29.4%"
+   ],
+   [
+    "Q1 ’25",
+    "+9.7%",
+    "-12.2%",
+    "+27.9%",
+    "+15.5%"
+   ],
+   [
+    "Q2 ’25",
+    "+10.5%",
+    "-5.1%",
+    "+23.4%",
+    "+3.7%"
+   ],
+   [
+    "Q3 ’25",
+    "+16.3%",
+    "-5.1%",
+    "+45.7%",
+    "+12.9%"
+   ],
+   [
+    "Q4 ’25",
+    "+13.9%",
+    "+4.4%",
+    "+11.4%",
+    "+14.4%"
+   ],
+   [
+    "Q1 ’26",
+    "+17.4%",
+    "+20.1%",
+    "+9.7%",
+    "+6.7%"
+   ],
+   [
+    "Q2 ’26",
+    "+16.1%",
+    "+5.2%",
+    "+12.8%",
+    "+21.2%"
+   ],
+   [
+    "Q3 ’26",
+    "+0.3%",
+    "+5.0%",
+    "-4.8%",
+    "+13.1%"
+   ]
+  ],
+  "section": "brand-vs-category",
+  "kind": "chart",
+  "width": 1000,
+  "height": 863
+ },
+ {
+  "slug": "club-pilates-brand-search-vs-pilates-category-search",
+  "title": "Club Pilates searches fell 17% while Pilates searches kept growing",
+  "alt": "Line chart indexed to Q1 2023 = 100: pilates searches keep rising into 2026 while club pilates searches fall after early 2025",
+  "caption": "Club Pilates brand searches were down 17% year over year in Q3 2026. That quarter Xponential reported same-store sales down 7.5% across its brands and 5.6% at Club Pilates. Plain “pilates” searches were still up 17% in Q2 2026.",
+  "table": [
+   [
+    "Quarter",
+    "pilates (index)",
+    "club pilates (index)"
+   ],
+   [
+    "Q1 ’23",
+    100.0,
+    100.0
+   ],
+   [
+    "Q2 ’23",
+    94.1,
+    94.8
+   ],
+   [
+    "Q3 ’23",
+    98.8,
+    99.3
+   ],
+   [
+    "Q4 ’23",
+    92.1,
+    96.8
+   ],
+   [
+    "Q1 ’24",
+    126.0,
+    129.5
+   ],
+   [
+    "Q2 ’24",
+    128.3,
+    136.5
+   ],
+   [
+    "Q3 ’24",
+    129.1,
+    135.9
+   ],
+   [
+    "Q4 ’24",
+    127.0,
+    119.8
+   ],
+   [
+    "Q1 ’25",
+    165.8,
+    148.1
+   ],
+   [
+    "Q2 ’25",
+    161.4,
+    138.5
+   ],
+   [
+    "Q3 ’25",
+    162.9,
+    135.2
+   ],
+   [
+    "Q4 ’25",
+    153.9,
+    126.8
+   ],
+   [
+    "Q1 ’26",
+    194.7,
+    137.5
+   ],
+   [
+    "Q2 ’26",
+    189.1,
+    123.8
+   ],
+   [
+    "Q3 ’26",
+    159.6,
+    112.5
+   ]
+  ],
+  "section": "brand-vs-category",
+  "kind": "chart",
+  "width": 1000,
+  "height": 651
+ },
+ {
+  "slug": "med-spa-search-vs-pilates-search-by-state-2x2",
+  "title": "States that search for med spas also search for Pilates (0.81)",
+  "alt": "Two by two scatter of 49 states: med spa search score against Pilates search interest, rank match 0.81; Florida, Arizona, Colorado, Utah and California top right",
+  "caption": "We combined eight treatment searches into one score per state. Its ranking matches Pilates at 0.81. Florida, Arizona, Colorado, Utah and California lead; Vermont, South Dakota, Iowa and West Virginia trail.",
+  "table": [
+   [
+    "State",
+    "Med spa search score",
+    "Pilates search interest"
+   ],
+   [
+    "FL",
+    1.66,
+    85
+   ],
+   [
+    "AZ",
+    1.61,
+    80
+   ],
+   [
+    "CO",
+    1.19,
+    80
+   ],
+   [
+    "UT",
+    0.98,
+    68
+   ],
+   [
+    "CA",
+    0.94,
+    94
+   ],
+   [
+    "NJ",
+    0.91,
+    87
+   ],
+   [
+    "NY",
+    0.85,
+    93
+   ],
+   [
+    "TX",
+    0.84,
+    71
+   ],
+   [
+    "MA",
+    0.76,
+    74
+   ],
+   [
+    "IL",
+    0.51,
+    67
+   ],
+   [
+    "NV",
+    0.48,
+    77
+   ],
+   [
+    "TN",
+    0.45,
+    56
+   ],
+   [
+    "GA",
+    0.43,
+    65
+   ],
+   [
+    "NH",
+    0.33,
+    60
+   ],
+   [
+    "RI",
+    0.33,
+    68
+   ],
+   [
+    "ID",
+    0.28,
+    55
+   ],
+   [
+    "WA",
+    0.2,
+    59
+   ],
+   [
+    "LA",
+    0.19,
+    55
+   ],
+   [
+    "HI",
+    0.14,
+    66
+   ],
+   [
+    "SC",
+    0.13,
+    58
+   ],
+   [
+    "NC",
+    0.08,
+    60
+   ],
+   [
+    "KY",
+    0.07,
+    46
+   ],
+   [
+    "VA",
+    0.05,
+    61
+   ],
+   [
+    "KS",
+    0.03,
+    55
+   ],
+   [
+    "MD",
+    -0.0,
+    66
+   ],
+   [
+    "CT",
+    -0.1,
+    73
+   ],
+   [
+    "NM",
+    -0.16,
+    50
+   ],
+   [
+    "MN",
+    -0.16,
+    58
+   ],
+   [
+    "MI",
+    -0.2,
+    58
+   ],
+   [
+    "PA",
+    -0.23,
+    56
+   ],
+   [
+    "OH",
+    -0.24,
+    53
+   ],
+   [
+    "MO",
+    -0.27,
+    49
+   ],
+   [
+    "NE",
+    -0.35,
+    45
+   ],
+   [
+    "OR",
+    -0.36,
+    56
+   ],
+   [
+    "DE",
+    -0.39,
+    66
+   ],
+   [
+    "ND",
+    -0.45,
+    36
+   ],
+   [
+    "AL",
+    -0.46,
+    46
+   ],
+   [
+    "OK",
+    -0.5,
+    40
+   ],
+   [
+    "AR",
+    -0.53,
+    41
+   ],
+   [
+    "WI",
+    -0.6,
+    46
+   ],
+   [
+    "MS",
+    -0.66,
+    43
+   ],
+   [
+    "MT",
+    -0.74,
+    55
+   ],
+   [
+    "IN",
+    -0.76,
+    42
+   ],
+   [
+    "ME",
+    -0.89,
+    53
+   ],
+   [
+    "AK",
+    -0.91,
+    45
+   ],
+   [
+    "WV",
+    -1.0,
+    28
+   ],
+   [
+    "IA",
+    -1.05,
+    41
+   ],
+   [
+    "SD",
+    -1.08,
+    42
+   ],
+   [
+    "VT",
+    -1.37,
+    64
+   ]
+  ],
+  "section": "geography",
+  "kind": "chart",
+  "width": 1000,
+  "height": 821
+ },
+ {
+  "slug": "everyday-searches-that-share-the-med-spa-state-map",
+  "title": "The med spa map looks like Pilates, Tesla and Rolex, not crockpots",
+  "alt": "Heatmap of state rank matches with the med spa search score: Pilates 0.81, Love Island, Tesla and Rolex 0.75, Uber Eats 0.74; crockpot and fishing license -0.66",
+  "caption": "Across 49 states, the med spa search map matches Pilates, Tesla, Rolex, Love Island and Uber Eats. It runs opposite to crockpots, fishing licenses, puppies and air fryers. Much of this is the map of city life and income.",
+  "table": [
+   [
+    "Search",
+    "State rank match with med spa score"
+   ],
+   [
+    "Pilates",
+    0.81
+   ],
+   [
+    "Love Island",
+    0.75
+   ],
+   [
+    "Tesla",
+    0.75
+   ],
+   [
+    "Rolex",
+    0.75
+   ],
+   [
+    "Uber Eats",
+    0.74
+   ],
+   [
+    "Sushi near me",
+    0.72
+   ],
+   [
+    "Real Housewives",
+    0.68
+   ],
+   [
+    "Hot tub",
+    -0.43
+   ],
+   [
+    "Tinder",
+    -0.44
+   ],
+   [
+    "Air fryer",
+    -0.5
+   ],
+   [
+    "Puppy",
+    -0.51
+   ],
+   [
+    "Crockpot",
+    -0.66
+   ],
+   [
+    "Fishing license",
+    -0.66
+   ]
+  ],
+  "section": "geography",
+  "kind": "chart",
+  "width": 1000,
+  "height": 937
+ },
+ {
+  "slug": "share-of-aesthetic-searches-by-men",
+  "title": "Men make up 46% of surgery searches but 22% to 33% of upkeep searches",
+  "alt": "Bar chart of men's share of searches: liposuction, facelift and nose job 46%, Botox 33%, nail salon and lash extensions 28%, spray tan 22%",
+  "caption": "Men's share of liposuction, facelift and nose job searches (46%) is close to their 44% median share of everyday searches. For upkeep it drops to 22% to 33%.",
+  "table": [
+   [
+    "Search",
+    "Men's share of searches"
+   ],
+   [
+    "Liposuction",
+    "46%"
+   ],
+   [
+    "Facelift",
+    "46%"
+   ],
+   [
+    "Nose job",
+    "46%"
+   ],
+   [
+    "Teeth whitening",
+    "41%"
+   ],
+   [
+    "Lip filler",
+    "38%"
+   ],
+   [
+    "Botox",
+    "33%"
+   ],
+   [
+    "Hair salon",
+    "33%"
+   ],
+   [
+    "Nail salon",
+    "28%"
+   ],
+   [
+    "Lash extensions",
+    "28%"
+   ],
+   [
+    "Spray tan",
+    "22%"
+   ]
+  ],
+  "section": "people",
+  "kind": "chart",
+  "width": 1000,
+  "height": 681
+ },
+ {
+  "slug": "who-searches-each-aesthetic-treatment-by-age-heatmap",
+  "title": "Lip filler searchers skew young; Botox and nail searches skew older",
+  "alt": "Heatmap of each treatment's searches by age band; lip filler and Brazilian wax heaviest at 18 to 34, Botox and nail salon heaviest at 55 to 64",
+  "caption": "Each row adds to 100%. The typical lip filler searcher is about 33 and the typical Botox searcher about 41. Age bands come from a search panel, so read them as relative, not exact.",
+  "table": [
+   [
+    "Search",
+    "18 to 24",
+    "25 to 34",
+    "35 to 44",
+    "45 to 54",
+    "55 to 64",
+    "Typical age"
+   ],
+   [
+    "Brazilian wax",
+    "28%",
+    "31%",
+    "25%",
+    "16%",
+    "0%",
+    33
+   ],
+   [
+    "Lip filler",
+    "31%",
+    "28%",
+    "20%",
+    "21%",
+    "0%",
+    33
+   ],
+   [
+    "Chemical peel",
+    "27%",
+    "29%",
+    "20%",
+    "23%",
+    "0%",
+    34
+   ],
+   [
+    "Laser hair removal",
+    "29%",
+    "26%",
+    "23%",
+    "16%",
+    "6%",
+    34
+   ],
+   [
+    "Liposuction",
+    "25%",
+    "27%",
+    "21%",
+    "28%",
+    "0%",
+    35
+   ],
+   [
+    "Nose job",
+    "26%",
+    "25%",
+    "16%",
+    "16%",
+    "18%",
+    37
+   ],
+   [
+    "Facelift",
+    "16%",
+    "23%",
+    "26%",
+    "27%",
+    "8%",
+    38
+   ],
+   [
+    "Microneedling",
+    "16%",
+    "22%",
+    "26%",
+    "19%",
+    "19%",
+    40
+   ],
+   [
+    "Botox",
+    "17%",
+    "20%",
+    "21%",
+    "18%",
+    "23%",
+    41
+   ],
+   [
+    "Teeth whitening",
+    "17%",
+    "20%",
+    "18%",
+    "17%",
+    "28%",
+    42
+   ],
+   [
+    "Nail salon",
+    "8%",
+    "12%",
+    "16%",
+    "19%",
+    "44%",
+    48
+   ]
+  ],
+  "section": "people",
+  "kind": "chart",
+  "width": 1000,
+  "height": 767
+ },
+ {
+  "slug": "personal-care-spending-by-age-2024",
+  "title": "Households aged 35 to 54 spend the most on personal care, about $1,200 a year",
+  "alt": "Bar chart of 2024 personal care spending per household by age: under 25 $647, 25 to 34 $863, 35 to 44 $1,202, 45 to 54 $1,226, 55 to 64 $1,023",
+  "caption": "The youngest treatment searchers sit in the households that spend least on personal care. Households under 35 spend $647 to $863 a year; households 35 to 54 spend about $1,200.",
+  "table": [
+   [
+    "Age of household head",
+    "Personal care spending, 2024"
+   ],
+   [
+    "Under 25",
+    647
+   ],
+   [
+    "25 to 34",
+    863
+   ],
+   [
+    "35 to 44",
+    1202
+   ],
+   [
+    "45 to 54",
+    1226
+   ],
+   [
+    "55 to 64",
+    1023
+   ],
+   [
+    "65 and over",
+    782
+   ],
+   [
+    "All households",
+    978
+   ]
+  ],
+  "section": "people",
+  "kind": "chart",
+  "width": 1000,
+  "height": 543
+ },
+ {
+  "slug": "botox-search-vs-sales-by-quarter-seasonality",
+  "title": "In January to March, Botox searches hold at 102 while sales to clinics drop to 92",
+  "alt": "Grouped bar chart of each quarter against the year's average, 2023 to 2025: searches 102, 101, 97, 101; Botox Cosmetic sales 92, 105, 96, 106",
+  "caption": "100 is the year's average. Searches barely change by season, but AbbVie's Botox sales to practices run 8% below average in Q1 and 5% to 6% above in Q2 and Q4.",
+  "table": [
+   [
+    "Quarter",
+    "Searches (year average = 100)",
+    "Botox Cosmetic sales (year average = 100)"
+   ],
+   [
+    "Q1",
+    102,
+    92
+   ],
+   [
+    "Q2",
+    101,
+    105
+   ],
+   [
+    "Q3",
+    97,
+    96
+   ],
+   [
+    "Q4",
+    101,
+    106
+   ]
+  ],
+  "section": "season",
+  "kind": "chart",
+  "width": 1000,
+  "height": 469
+ },
+ {
+  "slug": "what-aesthetic-clients-would-cut-first",
+  "title": "Aesthetic clients would cut dining out (54%) long before treatments (24%)",
+  "alt": "Bar chart of the share of aesthetic clients who would cut each category: dining 54%, clothing 43%, nail care 42%, spa or massage 40%, travel 31%, fitness 27%, aesthetic treatments 24%",
+  "caption": "Asked where they would cut spending, aesthetic clients put treatments last. The categories above it are where the same budget goes today.",
+  "table": [
+   [
+    "Category",
+    "Share who would cut it"
+   ],
+   [
+    "Dining out",
+    "54%"
+   ],
+   [
+    "Clothing",
+    "43%"
+   ],
+   [
+    "Nail care",
+    "42%"
+   ],
+   [
+    "Spa or massage",
+    "40%"
+   ],
+   [
+    "Travel",
+    "31%"
+   ],
+   [
+    "Fitness or gym",
+    "27%"
+   ],
+   [
+    "Aesthetic treatments",
+    "24%"
+   ]
+  ],
+  "section": "wallet",
+  "kind": "chart",
+  "width": 1000,
+  "height": 543
+ },
+ {
+  "slug": "botox-searchers-best-partner-categories-heatmap",
+  "title": "Wedding and dating searches share the most with Botox searchers",
+  "alt": "Heatmap of everyday search categories against botox near me: dating and weddings pass 1.5 of 3 tests on average, drinks have the best state match at 0.36, weight-loss drugs 0.08",
+  "caption": "For “botox near me”, we averaged each category's state match, age-mix overlap and tests passed. Dating and wedding searches pass the most tests; drinks match best on states; weight-loss drugs share the age mix but not the states.",
+  "table": [
+   [
+    "Category",
+    "State match",
+    "Age-mix overlap",
+    "Tests passed (of 3)",
+    "Best single search"
+   ],
+   [
+    "Dating & weddings",
+    "0.23",
+    "87%",
+    "1.5",
+    "wedding dress"
+   ],
+   [
+    "Drinks",
+    "0.36",
+    "84%",
+    "0.9",
+    "wine"
+   ],
+   [
+    "Fitness & active",
+    "0.28",
+    "87%",
+    "0.8",
+    "pilates"
+   ],
+   [
+    "Fast food & treats",
+    "0.25",
+    "86%",
+    "0.7",
+    "ice cream near me"
+   ],
+   [
+    "Astrology & tarot",
+    "0.16",
+    "81%",
+    "0.8",
+    "horoscope"
+   ],
+   [
+    "Big-ticket buys",
+    "0.16",
+    "84%",
+    "0.5",
+    "tesla"
+   ],
+   [
+    "Screens & pop culture",
+    "0.17",
+    "83%",
+    "0.4",
+    "love island"
+   ],
+   [
+    "Weight-loss drugs",
+    "0.08",
+    "87%",
+    "0.0",
+    "ozempic"
+   ]
+  ],
+  "section": "wallet",
+  "kind": "chart",
+  "width": 1000,
+  "height": 707
+ },
+ {
+  "slug": "med-spa-co-marketing-partner-priority-2x2",
+  "title": "Partner priority map: who shares Botox searchers' places and age",
+  "alt": "Two by two of everyday categories by state match and age-mix overlap with botox near me; dating and weddings, drinks and fitness in the partner-now corner, weight-loss drugs low on state match",
+  "caption": "Bubble size is tests passed. Dating and weddings, fitness and drinks sit in the partner-now corner. Fitness is also one of the last things clients cut (27%), while dining out is the first (54%).",
+  "table": [
+   [
+    "Category",
+    "State match",
+    "Age-mix overlap",
+    "Tests passed"
+   ],
+   [
+    "Dating & weddings",
+    "0.23",
+    "87%",
+    "1.5"
+   ],
+   [
+    "Drinks",
+    "0.36",
+    "84%",
+    "0.9"
+   ],
+   [
+    "Fitness & active",
+    "0.28",
+    "87%",
+    "0.8"
+   ],
+   [
+    "Fast food & treats",
+    "0.25",
+    "86%",
+    "0.7"
+   ],
+   [
+    "Astrology & tarot",
+    "0.16",
+    "81%",
+    "0.8"
+   ],
+   [
+    "Big-ticket buys",
+    "0.16",
+    "84%",
+    "0.5"
+   ],
+   [
+    "Screens & pop culture",
+    "0.17",
+    "83%",
+    "0.4"
+   ],
+   [
+    "Weight-loss drugs",
+    "0.08",
+    "87%",
+    "0.0"
+   ]
+  ],
+  "section": "wallet",
+  "kind": "chart",
+  "width": 1000,
+  "height": 821
+ },
+ {
+  "slug": "search-twins-that-pass-time-place-people-tests",
+  "title": "Only 2 of 680 search pairs passed all three tests",
+  "alt": "Bar chart of 680 beauty and everyday search pairs by tests passed: 2 passed all three, 49 passed two, 257 passed one, 372 passed none",
+  "caption": "We paired 17 beauty searches with 40 everyday searches and tested timing, states and age mix. Two pairs passed everything: nose job with tarot, and Botox with wedding dress.",
+  "table": [
+   [
+    "Tests passed",
+    "Pairs"
+   ],
+   [
+    "Passed all 3 tests",
+    2
+   ],
+   [
+    "Passed 2 tests",
+    49
+   ],
+   [
+    "Passed 1 test",
+    257
+   ],
+   [
+    "Passed none",
+    372
+   ]
+  ],
+  "section": "twins",
+  "kind": "chart",
+  "width": 1000,
+  "height": 370
+ },
+ {
+  "slug": "viral-search-correlations-that-hold-up-waffle",
+  "title": "Only 1 of our 14 viral search twins held up on all three tests",
+  "alt": "Waffle of 14 viral search pairs: 1 passed timing, state and age tests; 13 did not",
+  "caption": "All 14 pairs in our Correlation, Not Causation posts were picked because their five-year charts matched. On states and age mix, 13 of them fell apart.",
+  "table": [
+   [
+    "Viral pairs",
+    "Passed all three",
+    "Did not"
+   ],
+   [
+    14,
+    1,
+    13
+   ]
+  ],
+  "section": "twins",
+  "kind": "chart",
+  "width": 1000,
+  "height": 333
+ },
+ {
+  "slug": "borrow-a-bigger-search-signal-illustration",
+  "title": "Borrow the search signal of a bigger brand with the same shopper",
+  "alt": "Two panels: Jeuveau with 18,100 monthly searches and a noisy bar pattern; Sephora with 6.1 million searches and a steady rising pattern, arrow pointing to an estimate of Jeuveau sales",
+  "caption": "A niche brand's searches bounce too much to read. A big brand with the same shopper gives a steadier signal to estimate from.",
+  "table": null,
+  "section": "proxy",
+  "kind": "illustration",
+  "width": 1000,
+  "height": 651
+ },
+ {
+  "slug": "trend-match-vs-real-signal-illustration",
+  "title": "A real signal matches the ups and downs, not just the long trend",
+  "alt": "Two panels: left, two lines drifting in opposite directions labeled trend only (Equinox); right, two lines rising and falling together labeled real signal (Sephora)",
+  "caption": "Two series can look related over five years just because both drift. A real signal also matches the quarter-to-quarter changes.",
+  "table": null,
+  "section": "proxy",
+  "kind": "illustration",
+  "width": 1000,
+  "height": 591
+ },
+ {
+  "slug": "botox-category-word-vs-brand-names-illustration",
+  "title": "“Botox” works like Kleenex: one word for a whole category",
+  "alt": "Diagram: the search word botox sits above three toxin brands, Botox, Jeuveau and Dysport",
+  "caption": "People search “botox” for any neurotoxin treatment, so the word tracks demand for the whole category. Brand names like Jeuveau track the brand.",
+  "table": null,
+  "section": "brand-vs-category",
+  "kind": "illustration",
+  "width": 1000,
+  "height": 506
+ },
+ {
+  "slug": "three-tests-for-search-twins-illustration",
+  "title": "Three tests decide whether two searches share an audience",
+  "alt": "Three boxes: time, do searches rise and fall together; place, are they big in the same states; people, same age and gender mix",
+  "caption": "A five-year chart match is only the first test. Pairs that also match on states and on the age and gender of searchers point to the same people.",
+  "table": null,
+  "section": "twins",
+  "kind": "illustration",
+  "width": 1000,
+  "height": 476
+ },
+ {
+  "slug": "aesthetics-research-season-q1-illustration",
+  "title": "January to March is when clients research; spring is when they book",
+  "alt": "Timeline of four quarters: January to March searching, April to June booking, July to September quieter, October to December holiday push",
+  "caption": "Botox searches stay near their yearly average in Q1 while sales to practices run 8% below it, then rise in Q2.",
+  "table": null,
+  "section": "season",
+  "kind": "illustration",
+  "width": 1000,
+  "height": 481
+ }
+]
