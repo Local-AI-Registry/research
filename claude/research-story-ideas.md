@@ -683,3 +683,17 @@ Pattern worth noting: two big axes explain most of it. A wealthy, coastal, urban
 Download page with all 28 posts: https://claude.ai/artifact/JD8PpRSnzNAtb4FDN4aBRD
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 12: Before the Date (him vs her searches), 2026-11-14
+
+Google does not report gender, so the series compares searches about "him" with searches about "her."
+
+Watch out: Google Ads merges some he/she variants ("does he like me" and "does she like me" both show 9,900), so him/her ratios use Google Trends compares (past 12 months, pulled together) unless the Ads numbers clearly differ.
+
+Trends (avg interest, same pull): does he like me 63 vs does she like me 47 (1.3x); does he love me 21 vs 16; is he cheating 75 vs is she cheating 59 (1.3x); does he miss me 25 vs 20; is he the one 66 vs is she the one 45 (1.5x); how to tell if a girl likes you 42 vs a guy 30 (guys 1.4x more); first date outfit 55 vs first date outfit men about 0.
+Ads (avg monthly): first date outfit 4,400 vs men 1,000; red flags in a man 8,100 vs woman 1,900; how to get him to commit 260 vs her 10. Too small to use: texting after a first date, signs he/she is lying, first date safety tips. "is he married" is mostly celebrity lookups, not used.
+Day of week ("does he like me", daily Aug 15 to Nov 14): Mon 108, Tue 105, Wed 103, Thu 107, Fri 105, Sat 87, Sun 85 (100 = average). The yearly shape (dips in summer and holidays) suggests a lot of this is students.
+
+Page: https://proposals.localairegistry.com/social/before-the-date/
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
