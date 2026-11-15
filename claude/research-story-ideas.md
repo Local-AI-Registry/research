@@ -770,3 +770,9 @@ Lead section of https://proposals.localairegistry.com/lab/search-affinity/. Data
 - Model: Evolus YoY = f(last quarter YoY, Sephora search YoY). Leave-one-out average miss 6.6 pts vs 9.2 without Sephora; within 7% of revenue in 11 of 14 quarters.
 - Nowcast: Sephora searches Oct 4 to Nov 14, 2026 up 7.5% YoY, so Q4 2026 Evolus revenue about $107M (range about $101M to $113M). Guidance-implied Q4: $95M to $102M. Check against Evolus's early January preliminary release.
 - Volumes (Google Ads, Oct 2026): jeuveau 22,200; sephora 6.12M; equinox 301,000; botox 201,000.
+
+## Round 20: Study published + Flávia launch kit (Nov 15, 2026)
+- Study LAIR-R-2026-003 "Med Spa Search Signals" live at https://localairegistry.com/research/med-spa-search-signals (studies branch, check green). 26 figures, schema, CSV, index.md, share image.
+- Correction: 101 searches pulled, 94 had five full years and were tested. Lab page and post captions updated from 101 to 94.
+- YouTube package: research repo work/med-spa-search-signals/youtube.md (not committed; copy on the launch kit page).
+- Launch kit with 63-day Instagram calendar (Nov 16 to Jan 17, lab posts Mon/Wed to Dec 23, Before the Date on Fridays, Q4 call on Nov 30 held for Steve): https://proposals.localairegistry.com/social/launch-kit/
