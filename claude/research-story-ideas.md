@@ -723,3 +723,10 @@ Most of these are a shared rise since 2025 plus summer seasons. The series is a 
 Combined page (all 50 posts: these 14, the 28 dating correlations, the 8 Before the Date): https://proposals.localairegistry.com/social/correlation-not-causation/
 
 AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
+
+## Round 15: Before the Date v2 (five-year him vs her lines), 2026-11-15
+
+Five-year Google Trends, him and her phrases pulled together on the same scale, monthly averages Dec 2021 to Oct 2026 (`claude/round15/monthly.json`). Five-year ratios: does he like me 1.53x; does he love me 1.65x; is he cheating 1.41x; is he the one 1.44x (1.40 to 1.47 in every year 2022 to 2026); does he miss me 1.46x; how to tell if a girl likes you beats the guy version 1.17x (1.44x in the last 12 months); red flags in a man 2.2x (Trends) vs 4.3x (Ads). "First date outfit men" is near zero in Trends, so that post uses Google Ads volumes.
+Posts 1 to 3 use Google Ads monthly volumes (Nov 2025 to Oct 2026); posts 4 to 8 use five-year Trends lines; post 9 keeps the day-of-week bars.
+
+AI is changing every day. Local AI Registry's dedicated local AI research team keeps testing to find what works best.
