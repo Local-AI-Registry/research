@@ -30,7 +30,7 @@ Local AI Registry’s analysis of five years of Google searches shows that a big
 - **15** quarters of company sales
 - **49** states compared
 - **680** search pairs tested
-- **26** original charts and explainers
+- **38** charts, maps, motion explainers and 3D visuals
 
 ## Key findings
 
@@ -75,6 +75,10 @@ So we borrowed the signal. We looked for a much bigger search that shares Jeuvea
 ![Two panels: Jeuveau with 18,100 monthly searches and a noisy bar pattern; Sephora with 6.1 million searches and a steady rising pattern, arrow pointing to an estimate of Jeuveau sales](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-illustration.png)
 
 **Illustration 1. Borrow the search signal of a bigger brand with the same shopper.** A niche brand's searches bounce too much to read. A big brand with the same shopper gives a steadier signal to estimate from. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-illustration.png)
+
+![Animation: Jeuveau's few searches flicker up and down while Sephora's millions of searches rise steadily; an arrow carries the Sephora signal to an estimate of Jeuveau sales](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-motion.svg)
+
+**Motion explainer 1. Borrowing a bigger brand's search signal, in motion.** Jeuveau's searches are too few to read and jump around. Sephora's are steady and share the same shopper, so we estimate Jeuveau sales from them. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-motion.svg)
 
 ![Bar chart of average monthly U.S. Google searches: Sephora 6,120,000, Equinox 368,000, Botox 165,000, Jeuveau 18,100](https://localairegistry.com/research/med-spa-search-signals/images/monthly-google-searches-sephora-vs-jeuveau.png)
 
@@ -150,9 +154,17 @@ We tested 94 searches, from Sephora and Ulta to Equinox, Pilates, Wingstop and T
 
 **Figure 4. Of 94 searches, few track Jeuveau sales for real.** Most searches fall near the middle. Equinox sits in the trend-only corner: strong over five years, no link quarter to quarter. Sephora sits in the real-signal corner. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/search-proxy-test-2x2-trend-vs-quarterly-match.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/search-proxy-test-2x2-trend-vs-quarterly-match.png)
 
+![Interactive 3D orbit of 94 searches around a central Jeuveau sales node; closer means a better long-trend match and higher means a better quarter-to-quarter match; Sephora, Taylor Swift and espresso martini sit high and close in coral](https://localairegistry.com/research/med-spa-search-signals/images/jeuveau-proxy-search-orbit-3d-poster.png)
+
+**Interactive 2. Explore all 94 stand-in searches orbiting Jeuveau sales in 3D.** Distance from the center shows how well each search matches Jeuveau sales on the long trend; height shows how well it matches the quarter-to-quarter changes. Only the coral searches, linked to the center, pass both. Equinox and Planet Fitness sit in dark ink: trend only. Drag to turn, scroll to zoom, hover a ball for its numbers. [PNG](https://localairegistry.com/research/med-spa-search-signals/images/jeuveau-proxy-search-orbit-3d-poster.png) · [Data](https://localairegistry.com/research/med-spa-search-signals/data/med-spa-search-signals-data.csv)
+
 ![Two panels: left, two lines drifting in opposite directions labeled trend only (Equinox); right, two lines rising and falling together labeled real signal (Sephora)](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.png)
 
 **Illustration 2. A real signal matches the ups and downs, not just the long trend.** Two series can look related over five years just because both drift. A real signal also matches the quarter-to-quarter changes. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.png)
+
+![Animation: on the left, two lines drift apart over time with no shared ups and downs (Equinox); on the right, two lines rise and fall together (Sephora); a scanner line sweeps across both](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-motion.svg)
+
+**Motion explainer 2. A real signal moves with sales, not just in the same direction.** Equinox searches and Jeuveau sales only share a long drift. Sephora searches and Jeuveau sales share the quarter-to-quarter ups and downs, which is what an estimate needs. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-motion.svg)
 
 Equinox is the trap. Over five years its searches move opposite to Jeuveau sales (−0.78), which looks like a gym-versus-injectables budget fight. Quarter to quarter there is no link (0.02). The match came from two slow trends pointing different ways. “Equinox” is also a car and a season, which muddies its searches further.
 
@@ -175,6 +187,10 @@ They point above guidance. Our estimate for Evolus’s Q4 2026 revenue is about 
 ![Line chart of Evolus quarterly revenue and our leave-one-out estimate, Q1 2023 to Q3 2026, plus a Q4 2026 estimate of $107M against a guidance-implied range of $95M to $102M](https://localairegistry.com/research/med-spa-search-signals/images/evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance.png)
 
 **Figure 5. Our search estimate puts Evolus Q4 2026 revenue at $107M, above guidance.** Tested by hiding one quarter at a time, the estimate landed within 7% of actual revenue in 11 of 14 quarters. For Q4 2026 it points to about $107M; guidance implies $95M to $102M. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance.png)
+
+![Animation: six weekly Sephora search bars fill in, then a needle slides along a revenue scale and stops at about $107 million, to the right of the $95 to $102 million guidance band](https://localairegistry.com/research/med-spa-search-signals/images/how-the-jeuveau-q4-estimate-works-motion.svg)
+
+**Motion explainer 3. How six weeks of Sephora searches become a $107M estimate.** Sephora searches since October 4 are up 7.5% on last year. Combined with last quarter's growth, that points to about $107M in Q4 2026 revenue, above the range implied by guidance. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/how-the-jeuveau-q4-estimate-works-motion.svg)
 
 Sephora searches from October 4 to November 14, 2026, are up 7.5% on the same weeks of 2025. With last quarter’s growth of 13.1%, that points to Q4 revenue up about 18%, roughly $101 million to $113 million. Evolus guided to $330 million to $337 million for 2026 and has reported $235.2 million through Q3.
 
@@ -207,6 +223,10 @@ For brand names, yes. For category words, no. “botox” rose in 2025 while Bot
 ![Diagram: the search word botox sits above three toxin brands, Botox, Jeuveau and Dysport](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-vs-brand-names-illustration.png)
 
 **Illustration 3. “Botox” works like Kleenex: one word for a whole category.** People search “botox” for any neurotoxin treatment, so the word tracks demand for the whole category. Brand names like Jeuveau track the brand. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-vs-brand-names-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-vs-brand-names-illustration.png)
+
+![Animation: dots representing searches for the word botox fall from the top and land on three brand boxes, Botox by AbbVie, Jeuveau by Evolus and Dysport by Galderma](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-motion.svg)
+
+**Motion explainer 4. Searches for “botox” land on every brand.** People search “botox” for any wrinkle-relaxing injection, so the searches spread across brands. That is why “botox” rose in 2025 while Botox Cosmetic sales fell. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-motion.svg)
 
 ![Line chart indexed to Q1 2023 = 100: botox searches rise in 2025 while AbbVie Botox Cosmetic sales fall; correlation 0.13](https://localairegistry.com/research/med-spa-search-signals/images/botox-searches-vs-botox-cosmetic-sales.png)
 
@@ -246,7 +266,29 @@ In the same states that search for Pilates. Our combined med spa score matches P
 
 **Figure 12. The med spa map looks like Pilates, Tesla and Rolex, not crockpots.** Across 49 states, the med spa search map matches Pilates, Tesla, Rolex, Love Island and Uber Eats. It runs opposite to crockpots, fishing licenses, puppies and air fryers. Much of this is the map of city life and income. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/everyday-searches-that-share-the-med-spa-state-map.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/everyday-searches-that-share-the-med-spa-state-map.png)
 
+![Map of the United States with concentric rings over each state sized by its med spa search score; the largest rings sit over Florida, Arizona, Colorado, Utah and California](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-search-heat-map-concentric-rings-by-state.png)
+
+**Figure 13. Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California.** Each state's rings grow with its combined score across eight treatment searches (Botox near me, lip filler, microneedling, HydraFacial, med spa near me, laser hair removal, chemical peel, dermaplaning). [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-search-heat-map-concentric-rings-by-state.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-search-heat-map-concentric-rings-by-state.png)
+
+![Map with a coral dot for each state's med spa search score inside a blue ring for its Pilates search interest; big dots sit inside big rings, rank match 0.81](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-pilates-search-concentric-ring-map.png)
+
+**Figure 14. Med spa states are Pilates states (0.81 match).** Coral dots show med spa searches; blue rings show Pilates searches. Where one is big, the other usually is too: the state rankings match at 0.81. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-pilates-search-concentric-ring-map.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-pilates-search-concentric-ring-map.png)
+
+![Map with a coral dot for each state's med spa search score inside an ink ring for Sephora search interest; rank match 0.74](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-sephora-search-concentric-ring-map.png)
+
+**Figure 15. Med spa states are also Sephora states (0.74 match).** The same shopper shows up in place as well as in time. States that search most for med spa treatments also search most for Sephora (rank match 0.74). [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-sephora-search-concentric-ring-map.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-sephora-search-concentric-ring-map.png)
+
+![Map with a coral dot for each state's med spa search score inside a gray ring for Equinox search interest; big rings sit around small dots, rank match −0.54](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-equinox-search-concentric-ring-map.png)
+
+**Figure 16. Med spa states are not Equinox states (−0.54).** Equinox fails on place too. Its searches are biggest in different states from med spa searches (rank match −0.54). Equinox is also a car, which spreads its searches. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-equinox-search-concentric-ring-map.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-vs-equinox-search-concentric-ring-map.png)
+
+![Interactive 3D network of 52 searches arranged around a central med spa map node; treatments, Pilates, Tesla, Rolex and Sephora sit close in coral, while crockpot, fishing license and Monster Energy sit far out in dark ink](https://localairegistry.com/research/med-spa-search-signals/images/search-state-map-3d-network-poster.png)
+
+**Interactive 1. Explore 52 searches in 3D: the closer to the center, the more a search shares the med spa state map.** Each ball is a search. Its distance from the center shows how closely its state ranking matches the med spa map; coral is 0.6 or more, blue 0.3 to 0.6, gray and ink are weak or opposite. Lines join searches whose state maps match at 0.62 or more. Drag to turn, scroll to zoom, hover a ball for its number. [PNG](https://localairegistry.com/research/med-spa-search-signals/images/search-state-map-3d-network-poster.png) · [Data](https://localairegistry.com/research/med-spa-search-signals/data/med-spa-search-signals-data.csv)
+
 Florida, Arizona, Colorado, Utah and California lead the med spa score; Vermont, South Dakota, Iowa and West Virginia trail. The everyday searches that share the map (Pilates, Tesla, Rolex, Uber Eats, sushi) and the ones that oppose it (crockpots, fishing licenses, air fryers) suggest much of this is the map of city life and income. Treat it as a wallet signal, not a cause.
+
+The ring maps put two searches on one map. Med spa states are Pilates states (0.81) and Sephora states (0.74), but not Equinox states (−0.54). So Sephora passes on place as well as on time, and Equinox fails on both.
 
 AEO takeaway
 
@@ -266,15 +308,15 @@ Men search for surgery about as often as for anything else (46%) but rarely for 
 
 ![Bar chart of men's share of searches: liposuction, facelift and nose job 46%, Botox 33%, nail salon and lash extensions 28%, spray tan 22%](https://localairegistry.com/research/med-spa-search-signals/images/share-of-aesthetic-searches-by-men.png)
 
-**Figure 13. Men make up 46% of surgery searches but 22% to 33% of upkeep searches.** Men's share of liposuction, facelift and nose job searches (46%) is close to their 44% median share of everyday searches. For upkeep it drops to 22% to 33%. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/share-of-aesthetic-searches-by-men.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/share-of-aesthetic-searches-by-men.png)
+**Figure 17. Men make up 46% of surgery searches but 22% to 33% of upkeep searches.** Men's share of liposuction, facelift and nose job searches (46%) is close to their 44% median share of everyday searches. For upkeep it drops to 22% to 33%. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/share-of-aesthetic-searches-by-men.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/share-of-aesthetic-searches-by-men.png)
 
 ![Heatmap of each treatment's searches by age band; lip filler and Brazilian wax heaviest at 18 to 34, Botox and nail salon heaviest at 55 to 64](https://localairegistry.com/research/med-spa-search-signals/images/who-searches-each-aesthetic-treatment-by-age-heatmap.png)
 
-**Figure 14. Lip filler searchers skew young; Botox and nail searches skew older.** Each row adds to 100%. The typical lip filler searcher is about 33 and the typical Botox searcher about 41. Age bands come from a search panel, so read them as relative, not exact. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/who-searches-each-aesthetic-treatment-by-age-heatmap.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/who-searches-each-aesthetic-treatment-by-age-heatmap.png)
+**Figure 18. Lip filler searchers skew young; Botox and nail searches skew older.** Each row adds to 100%. The typical lip filler searcher is about 33 and the typical Botox searcher about 41. Age bands come from a search panel, so read them as relative, not exact. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/who-searches-each-aesthetic-treatment-by-age-heatmap.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/who-searches-each-aesthetic-treatment-by-age-heatmap.png)
 
 ![Bar chart of 2024 personal care spending per household by age: under 25 $647, 25 to 34 $863, 35 to 44 $1,202, 45 to 54 $1,226, 55 to 64 $1,023](https://localairegistry.com/research/med-spa-search-signals/images/personal-care-spending-by-age-2024.png)
 
-**Figure 15. Households aged 35 to 54 spend the most on personal care, about $1,200 a year.** The youngest treatment searchers sit in the households that spend least on personal care. Households under 35 spend $647 to $863 a year; households 35 to 54 spend about $1,200. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/personal-care-spending-by-age-2024.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/personal-care-spending-by-age-2024.png)
+**Figure 19. Households aged 35 to 54 spend the most on personal care, about $1,200 a year.** The youngest treatment searchers sit in the households that spend least on personal care. Households under 35 spend $647 to $863 a year; households 35 to 54 spend about $1,200. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/personal-care-spending-by-age-2024.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/personal-care-spending-by-age-2024.png)
 
 The youngest treatment searchers sit in the households that spend least on personal care: $647 a year under 25 and $863 at 25 to 34, against about $1,200 at 35 to 54. In a 2026 Zenoti survey, 26% of Gen Z had delayed medical or dental care to pay for beauty, against 11% of boomers. For younger treatments, payment plans and memberships matter most.
 
@@ -298,9 +340,13 @@ Clients research all year, including January to March. Botox searches hold at 10
 
 **Illustration 5. January to March is when clients research; spring is when they book.** Botox searches stay near their yearly average in Q1 while sales to practices run 8% below it, then rise in Q2. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-q1-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-q1-illustration.png)
 
+![Animation: a blue line for Botox searches stays near 100 across four quarters while coral bars for Botox sales rise from 92 in Q1 to 105 in Q2 and 106 in Q4](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-motion.svg)
+
+**Motion explainer 6. Searches hold steady in Q1 while sales to clinics dip.** Each value is the quarter against the year's average, 2023 to 2025. People keep searching in January to March; clinic orders catch up in Q2. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-motion.svg)
+
 ![Grouped bar chart of each quarter against the year's average, 2023 to 2025: searches 102, 101, 97, 101; Botox Cosmetic sales 92, 105, 96, 106](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.png)
 
-**Figure 16. In January to March, Botox searches hold at 102 while sales to clinics drop to 92.** 100 is the year's average. Searches barely change by season, but AbbVie's Botox sales to practices run 8% below average in Q1 and 5% to 6% above in Q2 and Q4. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.png)
+**Figure 20. In January to March, Botox searches hold at 102 while sales to clinics drop to 92.** 100 is the year's average. Searches barely change by season, but AbbVie's Botox sales to practices run 8% below average in Q1 and 5% to 6% above in Q2 and Q4. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.png)
 
 These are AbbVie’s sales to practices, not what patients pay, so clinics stocking up in Q4 explains part of the Q1 dip. Even so, searches do not take a break after the holidays.
 
@@ -322,15 +368,15 @@ Dining out, clothing, nails and spas, in that order of what they would cut first
 
 ![Bar chart of the share of aesthetic clients who would cut each category: dining 54%, clothing 43%, nail care 42%, spa or massage 40%, travel 31%, fitness 27%, aesthetic treatments 24%](https://localairegistry.com/research/med-spa-search-signals/images/what-aesthetic-clients-would-cut-first.png)
 
-**Figure 17. Aesthetic clients would cut dining out (54%) long before treatments (24%).** Asked where they would cut spending, aesthetic clients put treatments last. The categories above it are where the same budget goes today. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/what-aesthetic-clients-would-cut-first.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/what-aesthetic-clients-would-cut-first.png)
+**Figure 21. Aesthetic clients would cut dining out (54%) long before treatments (24%).** Asked where they would cut spending, aesthetic clients put treatments last. The categories above it are where the same budget goes today. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/what-aesthetic-clients-would-cut-first.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/what-aesthetic-clients-would-cut-first.png)
 
 ![Heatmap of everyday search categories against botox near me: dating and weddings pass 1.5 of 3 tests on average, drinks have the best state match at 0.36, weight-loss drugs 0.08](https://localairegistry.com/research/med-spa-search-signals/images/botox-searchers-best-partner-categories-heatmap.png)
 
-**Figure 18. Wedding and dating searches share the most with Botox searchers.** For “botox near me”, we averaged each category's state match, age-mix overlap and tests passed. Dating and wedding searches pass the most tests; drinks match best on states; weight-loss drugs share the age mix but not the states. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searchers-best-partner-categories-heatmap.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searchers-best-partner-categories-heatmap.png)
+**Figure 22. Wedding and dating searches share the most with Botox searchers.** For “botox near me”, we averaged each category's state match, age-mix overlap and tests passed. Dating and wedding searches pass the most tests; drinks match best on states; weight-loss drugs share the age mix but not the states. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searchers-best-partner-categories-heatmap.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searchers-best-partner-categories-heatmap.png)
 
 ![Two by two of everyday categories by state match and age-mix overlap with botox near me; dating and weddings, drinks and fitness in the partner-now corner, weight-loss drugs low on state match](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-co-marketing-partner-priority-2x2.png)
 
-**Figure 19. Partner priority map: who shares Botox searchers' places and age.** Bubble size is tests passed. Dating and weddings, fitness and drinks sit in the partner-now corner. Fitness is also one of the last things clients cut (27%), while dining out is the first (54%). [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-co-marketing-partner-priority-2x2.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-co-marketing-partner-priority-2x2.png)
+**Figure 23. Partner priority map: who shares Botox searchers' places and age.** Bubble size is tests passed. Dating and weddings, fitness and drinks sit in the partner-now corner. Fitness is also one of the last things clients cut (27%), while dining out is the first (54%). [SVG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-co-marketing-partner-priority-2x2.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-co-marketing-partner-priority-2x2.png)
 
 Card-level spending data on med spa clients is not public. These public sources point the same way: wedding, dating and fitness businesses share the most with Botox searchers. Wine matches best on states, but it falls under dining out, the first thing clients cut. Weight-loss drug searches share the age mix but not the states. In a 2026 Morning Consult survey for LaserAway, 53% of U.S. adults said they would give up everyday spending to afford non-surgical treatments.
 
@@ -354,13 +400,17 @@ Very few. Of 680 beauty and everyday search pairs, 2 matched on timing, states a
 
 **Illustration 4. Three tests decide whether two searches share an audience.** A five-year chart match is only the first test. Pairs that also match on states and on the age and gender of searchers point to the same people. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-illustration.png)
 
+![Animation: dots for 680 search pairs move through three gates labeled time, place and people; most drop out at each gate and two coral dots come out the far side](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-motion.svg)
+
+**Motion explainer 5. 680 search pairs in, 2 out: the three tests in motion.** A five-year chart match is only the first gate. Most pairs drop out on states or age mix; only nose job with tarot and Botox with wedding dress pass all three. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-motion.svg)
+
 ![Bar chart of 680 beauty and everyday search pairs by tests passed: 2 passed all three, 49 passed two, 257 passed one, 372 passed none](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.png)
 
-**Figure 20. Only 2 of 680 search pairs passed all three tests.** We paired 17 beauty searches with 40 everyday searches and tested timing, states and age mix. Two pairs passed everything: nose job with tarot, and Botox with wedding dress. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.png)
+**Figure 24. Only 2 of 680 search pairs passed all three tests.** We paired 17 beauty searches with 40 everyday searches and tested timing, states and age mix. Two pairs passed everything: nose job with tarot, and Botox with wedding dress. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.png)
 
 ![Waffle of 14 viral search pairs: 1 passed timing, state and age tests; 13 did not](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.png)
 
-**Figure 21. Only 1 of our 14 viral search twins held up on all three tests.** All 14 pairs in our Correlation, Not Causation posts were picked because their five-year charts matched. On states and age mix, 13 of them fell apart. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.png)
+**Figure 25. Only 1 of our 14 viral search twins held up on all three tests.** All 14 pairs in our Correlation, Not Causation posts were picked because their five-year charts matched. On states and age mix, 13 of them fell apart. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.png)
 
 The two pairs that passed everything were nose job with tarot, and Botox with wedding dress. A five-year chart match is easy to find; a shared audience is not.
 

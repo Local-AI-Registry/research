@@ -260,72 +260,272 @@ figure_number,figure_slug,figure_title,row,col_1,col_2,col_3,col_4,col_5,col_6,c
 12,everyday-searches-that-share-the-med-spa-state-map,"The med spa map looks like Pilates, Tesla and Rolex, not crockpots",,Puppy,-0.51
 12,everyday-searches-that-share-the-med-spa-state-map,"The med spa map looks like Pilates, Tesla and Rolex, not crockpots",,Crockpot,-0.66
 12,everyday-searches-that-share-the-med-spa-state-map,"The med spa map looks like Pilates, Tesla and Rolex, not crockpots",,Fishing license,-0.66
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Search,Men's share of searches
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Liposuction,46%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Facelift,46%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Nose job,46%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Teeth whitening,41%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Lip filler,38%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Botox,33%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Hair salon,33%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Nail salon,28%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Lash extensions,28%
-13,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Spray tan,22%
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Search,18 to 24,25 to 34,35 to 44,45 to 54,55 to 64,Typical age
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Brazilian wax,28%,31%,25%,16%,0%,33
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Lip filler,31%,28%,20%,21%,0%,33
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Chemical peel,27%,29%,20%,23%,0%,34
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Laser hair removal,29%,26%,23%,16%,6%,34
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Liposuction,25%,27%,21%,28%,0%,35
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Nose job,26%,25%,16%,16%,18%,37
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Facelift,16%,23%,26%,27%,8%,38
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Microneedling,16%,22%,26%,19%,19%,40
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Botox,17%,20%,21%,18%,23%,41
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Teeth whitening,17%,20%,18%,17%,28%,42
-14,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Nail salon,8%,12%,16%,19%,44%,48
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,Age of household head,"Personal care spending, 2024"
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,Under 25,647
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,25 to 34,863
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,35 to 44,1202
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,45 to 54,1226
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,55 to 64,1023
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,65 and over,782
-15,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,All households,978
-16,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Quarter,Searches (year average = 100),Botox Cosmetic sales (year average = 100)
-16,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q1,102,92
-16,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q2,101,105
-16,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q3,97,96
-16,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q4,101,106
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Category,Share who would cut it
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Dining out,54%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Clothing,43%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Nail care,42%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Spa or massage,40%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Travel,31%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Fitness or gym,27%
-17,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Aesthetic treatments,24%
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Category,State match,Age-mix overlap,Tests passed (of 3),Best single search
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Dating & weddings,0.23,87%,1.5,wedding dress
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Drinks,0.36,84%,0.9,wine
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Fitness & active,0.28,87%,0.8,pilates
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Fast food & treats,0.25,86%,0.7,ice cream near me
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Astrology & tarot,0.16,81%,0.8,horoscope
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Big-ticket buys,0.16,84%,0.5,tesla
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Screens & pop culture,0.17,83%,0.4,love island
-18,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Weight-loss drugs,0.08,87%,0.0,ozempic
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Category,State match,Age-mix overlap,Tests passed
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Dating & weddings,0.23,87%,1.5
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Drinks,0.36,84%,0.9
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Fitness & active,0.28,87%,0.8
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Fast food & treats,0.25,86%,0.7
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Astrology & tarot,0.16,81%,0.8
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Big-ticket buys,0.16,84%,0.5
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Screens & pop culture,0.17,83%,0.4
-19,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Weight-loss drugs,0.08,87%,0.0
-20,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Tests passed,Pairs
-20,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed all 3 tests,2
-20,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed 2 tests,49
-20,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed 1 test,257
-20,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed none,372
-21,viral-search-correlations-that-hold-up-waffle,Only 1 of our 14 viral search twins held up on all three tests,,Viral pairs,Passed all three,Did not
-21,viral-search-correlations-that-hold-up-waffle,Only 1 of our 14 viral search twins held up on all three tests,,14,1,13
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,State,Med spa search score
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,FL,1.66
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,AZ,1.61
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,CO,1.19
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,UT,0.98
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,CA,0.94
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NJ,0.91
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NY,0.85
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,TX,0.84
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MA,0.76
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,IL,0.51
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NV,0.48
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,TN,0.45
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,GA,0.43
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NH,0.33
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,RI,0.33
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,ID,0.28
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,WA,0.2
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,LA,0.19
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,HI,0.14
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,SC,0.13
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NC,0.08
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,KY,0.07
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,VA,0.05
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,KS,0.03
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MD,-0.0
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,CT,-0.1
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NM,-0.16
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MN,-0.16
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MI,-0.2
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,PA,-0.23
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,OH,-0.24
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MO,-0.27
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,NE,-0.35
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,OR,-0.36
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,DE,-0.39
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,ND,-0.45
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,AL,-0.46
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,OK,-0.5
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,AR,-0.53
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,WI,-0.6
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MS,-0.66
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,MT,-0.74
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,IN,-0.76
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,ME,-0.89
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,AK,-0.91
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,WV,-1.0
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,IA,-1.05
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,SD,-1.08
+13,med-spa-search-heat-map-concentric-rings-by-state,"Med spa searches run hottest in Florida, Arizona, Colorado, Utah and California",,VT,-1.37
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,State,Med spa search score,Pilates search interest
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,FL,1.66,85
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,AZ,1.61,80
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,CO,1.19,80
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,UT,0.98,68
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,CA,0.94,94
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NJ,0.91,87
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NY,0.85,93
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,TX,0.84,71
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MA,0.76,74
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,IL,0.51,67
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NV,0.48,77
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,TN,0.45,56
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,GA,0.43,65
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NH,0.33,60
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,RI,0.33,68
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,ID,0.28,55
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,WA,0.2,59
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,LA,0.19,55
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,HI,0.14,66
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,SC,0.13,58
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NC,0.08,60
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,KY,0.07,46
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,VA,0.05,61
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,KS,0.03,55
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MD,-0.0,66
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,CT,-0.1,73
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NM,-0.16,50
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MN,-0.16,58
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MI,-0.2,58
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,PA,-0.23,56
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,OH,-0.24,53
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MO,-0.27,49
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,NE,-0.35,45
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,OR,-0.36,56
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,DE,-0.39,66
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,ND,-0.45,36
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,AL,-0.46,46
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,OK,-0.5,40
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,AR,-0.53,41
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,WI,-0.6,46
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MS,-0.66,43
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,MT,-0.74,55
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,IN,-0.76,42
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,ME,-0.89,53
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,AK,-0.91,45
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,WV,-1.0,28
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,IA,-1.05,41
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,SD,-1.08,42
+14,med-spa-vs-pilates-search-concentric-ring-map,Med spa states are Pilates states (0.81 match),,VT,-1.37,64
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,State,Med spa search score,Sephora search interest
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,FL,1.66,72
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,AZ,1.61,65
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,CO,1.19,55
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,UT,0.98,53
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,CA,0.94,85
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NJ,0.91,83
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NY,0.85,100
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,TX,0.84,66
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MA,0.76,75
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,IL,0.51,75
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NV,0.48,76
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,TN,0.45,53
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,GA,0.43,61
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NH,0.33,49
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,RI,0.33,74
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,ID,0.28,42
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,WA,0.2,56
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,LA,0.19,50
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,HI,0.14,77
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,SC,0.13,43
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NC,0.08,52
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,KY,0.07,45
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,VA,0.05,59
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,KS,0.03,48
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MD,-0.0,65
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,CT,-0.1,69
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NM,-0.16,42
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MN,-0.16,53
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MI,-0.2,46
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,PA,-0.23,56
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,OH,-0.24,53
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MO,-0.27,47
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,NE,-0.35,54
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,OR,-0.36,52
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,DE,-0.39,53
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,ND,-0.45,49
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,AL,-0.46,45
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,OK,-0.5,40
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,AR,-0.53,40
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,WI,-0.6,48
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MS,-0.66,44
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,MT,-0.74,29
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,IN,-0.76,46
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,ME,-0.89,44
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,AK,-0.91,43
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,WV,-1.0,37
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,IA,-1.05,48
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,SD,-1.08,38
+15,med-spa-vs-sephora-search-concentric-ring-map,Med spa states are also Sephora states (0.74 match),,VT,-1.37,37
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,State,Med spa search score,Equinox search interest
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,FL,1.66,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,AZ,1.61,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,CO,1.19,41
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,UT,0.98,35
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,CA,0.94,50
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NJ,0.91,43
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NY,0.85,79
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,TX,0.84,45
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MA,0.76,51
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,IL,0.51,63
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NV,0.48,37
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,TN,0.45,44
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,GA,0.43,39
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NH,0.33,47
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,RI,0.33,39
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,ID,0.28,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,WA,0.2,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,LA,0.19,37
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,HI,0.14,23
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,SC,0.13,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NC,0.08,44
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,KY,0.07,69
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,VA,0.05,39
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,KS,0.03,56
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MD,-0.0,41
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,CT,-0.1,50
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NM,-0.16,40
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MN,-0.16,64
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MI,-0.2,100
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,PA,-0.23,49
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,OH,-0.24,64
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MO,-0.27,62
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,NE,-0.35,63
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,OR,-0.36,42
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,DE,-0.39,54
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,ND,-0.45,67
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,AL,-0.46,41
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,OK,-0.5,51
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,AR,-0.53,50
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,WI,-0.6,73
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MS,-0.66,50
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,MT,-0.74,52
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,IN,-0.76,74
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,ME,-0.89,50
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,AK,-0.91,61
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,WV,-1.0,70
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,IA,-1.05,78
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,SD,-1.08,74
+16,med-spa-vs-equinox-search-concentric-ring-map,Med spa states are not Equinox states (−0.54),,VT,-1.37,91
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Search,Men's share of searches
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Liposuction,46%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Facelift,46%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Nose job,46%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Teeth whitening,41%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Lip filler,38%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Botox,33%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Hair salon,33%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Nail salon,28%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Lash extensions,28%
+17,share-of-aesthetic-searches-by-men,Men make up 46% of surgery searches but 22% to 33% of upkeep searches,,Spray tan,22%
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Search,18 to 24,25 to 34,35 to 44,45 to 54,55 to 64,Typical age
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Brazilian wax,28%,31%,25%,16%,0%,33
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Lip filler,31%,28%,20%,21%,0%,33
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Chemical peel,27%,29%,20%,23%,0%,34
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Laser hair removal,29%,26%,23%,16%,6%,34
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Liposuction,25%,27%,21%,28%,0%,35
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Nose job,26%,25%,16%,16%,18%,37
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Facelift,16%,23%,26%,27%,8%,38
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Microneedling,16%,22%,26%,19%,19%,40
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Botox,17%,20%,21%,18%,23%,41
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Teeth whitening,17%,20%,18%,17%,28%,42
+18,who-searches-each-aesthetic-treatment-by-age-heatmap,Lip filler searchers skew young; Botox and nail searches skew older,,Nail salon,8%,12%,16%,19%,44%,48
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,Age of household head,"Personal care spending, 2024"
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,Under 25,647
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,25 to 34,863
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,35 to 44,1202
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,45 to 54,1226
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,55 to 64,1023
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,65 and over,782
+19,personal-care-spending-by-age-2024,"Households aged 35 to 54 spend the most on personal care, about $1,200 a year",,All households,978
+20,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Quarter,Searches (year average = 100),Botox Cosmetic sales (year average = 100)
+20,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q1,102,92
+20,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q2,101,105
+20,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q3,97,96
+20,botox-search-vs-sales-by-quarter-seasonality,"In January to March, Botox searches hold at 102 while sales to clinics drop to 92",,Q4,101,106
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Category,Share who would cut it
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Dining out,54%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Clothing,43%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Nail care,42%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Spa or massage,40%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Travel,31%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Fitness or gym,27%
+21,what-aesthetic-clients-would-cut-first,Aesthetic clients would cut dining out (54%) long before treatments (24%),,Aesthetic treatments,24%
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Category,State match,Age-mix overlap,Tests passed (of 3),Best single search
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Dating & weddings,0.23,87%,1.5,wedding dress
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Drinks,0.36,84%,0.9,wine
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Fitness & active,0.28,87%,0.8,pilates
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Fast food & treats,0.25,86%,0.7,ice cream near me
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Astrology & tarot,0.16,81%,0.8,horoscope
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Big-ticket buys,0.16,84%,0.5,tesla
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Screens & pop culture,0.17,83%,0.4,love island
+22,botox-searchers-best-partner-categories-heatmap,Wedding and dating searches share the most with Botox searchers,,Weight-loss drugs,0.08,87%,0.0,ozempic
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Category,State match,Age-mix overlap,Tests passed
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Dating & weddings,0.23,87%,1.5
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Drinks,0.36,84%,0.9
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Fitness & active,0.28,87%,0.8
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Fast food & treats,0.25,86%,0.7
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Astrology & tarot,0.16,81%,0.8
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Big-ticket buys,0.16,84%,0.5
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Screens & pop culture,0.17,83%,0.4
+23,med-spa-co-marketing-partner-priority-2x2,Partner priority map: who shares Botox searchers' places and age,,Weight-loss drugs,0.08,87%,0.0
+24,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Tests passed,Pairs
+24,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed all 3 tests,2
+24,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed 2 tests,49
+24,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed 1 test,257
+24,search-twins-that-pass-time-place-people-tests,Only 2 of 680 search pairs passed all three tests,,Passed none,372
+25,viral-search-correlations-that-hold-up-waffle,Only 1 of our 14 viral search twins held up on all three tests,,Viral pairs,Passed all three,Did not
+25,viral-search-correlations-that-hold-up-waffle,Only 1 of our 14 viral search twins held up on all three tests,,14,1,13
