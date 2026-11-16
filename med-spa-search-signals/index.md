@@ -30,7 +30,7 @@ Local AI Registry’s analysis of five years of Google searches shows that a big
 - **15** quarters of company sales
 - **49** states compared
 - **680** search pairs tested
-- **38** charts, maps, explainers and 3D visuals
+- **41** charts, maps, explainers and 3D visuals
 
 ## Key findings
 
@@ -394,7 +394,7 @@ Local AI Registry’s press releases and media service can announce joint offers
 
 ## Which search twins share a real audience?
 
-Very few. Of 680 beauty and everyday search pairs, 2 matched on timing, states and age mix; 1 of our 14 viral pairs held up.
+Very few. Of 680 beauty and everyday search pairs, 2 matched on timing, states and age mix: nose job with tarot, and Botox with wedding dress. Of our 14 viral pairs, only nose job and tarot held up.
 
 ![Three boxes: time, do searches rise and fall together; place, are they big in the same states; people, same age and gender mix](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-illustration.png)
 
@@ -412,7 +412,33 @@ Very few. Of 680 beauty and everyday search pairs, 2 matched on timing, states a
 
 **Figure 25. Only 1 of our 14 viral search twins held up on all three tests.** All 14 pairs in our Correlation, Not Causation posts were picked because their five-year charts matched. On states and age mix, 13 of them fell apart. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-correlations-that-hold-up-waffle.png)
 
-The two pairs that passed everything were nose job with tarot, and Botox with wedding dress. A five-year chart match is easy to find; a shared audience is not.
+![Heatmap of 14 viral beauty and everyday search pairs scored on time, place and people; blue cells pass and beige cells fail; only nose job plus tarot is blue in all three columns](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-twins-three-test-results-heatmap.png)
+
+**Figure 26. All 14 viral search twins, test by test: only nose job and tarot pass all three.** Blue means the pair passed that test: timing match of 0.50 or more, a state rank match of 0.35 or more that is unlikely to be chance, and age-mix overlap of 85% or more. Every pair passed on time, because that is how they were picked. Only nose job and tarot also passed on place and people. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-twins-three-test-results-heatmap.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/viral-search-twins-three-test-results-heatmap.png)
+
+The one viral pair that held up was nose job and tarot. Across all 680 pairs, only one other passed every test: Botox with wedding dress. Here are both, test by test.
+
+![Three small charts for Nose job and Tarot searches: five-year monthly lines that move together (0.60), a scatter of 49 states that slopes upward (+0.60), and age bars that look alike (86% overlap)](https://localairegistry.com/research/med-spa-search-signals/images/nose-job-and-tarot-search-twins-pass-all-three-tests.png)
+
+**Figure 27. Nose job and tarot: same timing, same states, same age mix.** Searches for nose jobs and tarot rise and fall together over five years (0.60), lead in the same states (0.60) and come from nearly the same age mix (86% overlap). It is the one viral pair that held up. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/nose-job-and-tarot-search-twins-pass-all-three-tests.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/nose-job-and-tarot-search-twins-pass-all-three-tests.png)
+
+![Three small charts for Botox and Wedding dress searches: five-year monthly lines that move together (0.70), a scatter of 49 states that slopes upward (+0.40), and age bars that look alike (86% overlap)](https://localairegistry.com/research/med-spa-search-signals/images/botox-and-wedding-dress-search-twins-pass-all-three-tests.png)
+
+**Figure 28. Botox and wedding dress: same timing, same states, same age mix.** Searches for Botox near me and wedding dresses move together (0.70), lead in the same states (0.40) and share an age mix (86% overlap). For med spas, it points to brides and bridal shops as a real audience. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-and-wedding-dress-search-twins-pass-all-three-tests.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-and-wedding-dress-search-twins-pass-all-three-tests.png)
+
+A five-year chart match is easy to find; a shared audience is not. For a med spa, the Botox and wedding dress result is the useful one: brides and bridal shops are a real audience, not a coincidence.
+
+Custom research
+
+Want this analysis for your brand or your market?
+
+### What we can run
+
+Which big searches track your sales, where your clients live, which businesses share your customers, and an early read on your quarter before you report it.
+
+### How to start
+
+[Contact the Local AI Registry research team](https://localairegistry.com/contact) with your brand, category and markets. We publish our method, so you can check every number.
 
 ## The search signal playbook, ranked by what the data supports
 

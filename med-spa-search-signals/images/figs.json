@@ -2956,6 +2956,197 @@
   "height": 333
  },
  {
+  "slug": "viral-search-twins-three-test-results-heatmap",
+  "title": "All 14 viral search twins, test by test: only nose job and tarot pass all three",
+  "alt": "Heatmap of 14 viral beauty and everyday search pairs scored on time, place and people; blue cells pass and beige cells fail; only nose job plus tarot is blue in all three columns",
+  "caption": "Blue means the pair passed that test: timing match of 0.50 or more, a state rank match of 0.35 or more that is unlikely to be chance, and age-mix overlap of 85% or more. Every pair passed on time, because that is how they were picked. Only nose job and tarot also passed on place and people.",
+  "table": [
+   [
+    "Pair",
+    "Timing match",
+    "State match",
+    "Age-mix overlap",
+    "Tests passed"
+   ],
+   [
+    "Lip filler + Pilates",
+    "0.94",
+    "+0.35",
+    "75%",
+    1
+   ],
+   [
+    "Microneedling + Monster Energy",
+    "0.92",
+    "-0.28",
+    "74%",
+    1
+   ],
+   [
+    "Nail salon + Boba",
+    "0.90",
+    "+0.19",
+    "60%",
+    1
+   ],
+   [
+    "Hair salon + Pizza",
+    "0.85",
+    "+0.39",
+    "83%",
+    2
+   ],
+   [
+    "Microneedling + Engagement ring",
+    "0.83",
+    "+0.04",
+    "93%",
+    2
+   ],
+   [
+    "Brazilian wax + Ice cream",
+    "0.81",
+    "+0.17",
+    "82%",
+    1
+   ],
+   [
+    "Breast augmentation + Wedding dress",
+    "0.76",
+    "-0.45",
+    "47%",
+    1
+   ],
+   [
+    "Brazilian wax + White Claw",
+    "0.76",
+    "-0.56",
+    "76%",
+    1
+   ],
+   [
+    "Liposuction + Boba",
+    "0.75",
+    "+0.51",
+    "73%",
+    2
+   ],
+   [
+    "Botox + Astrology",
+    "0.71",
+    "+0.24",
+    "81%",
+    1
+   ],
+   [
+    "Tummy tuck + Sushi",
+    "0.70",
+    "+0.39",
+    "93%",
+    2
+   ],
+   [
+    "Eyebrow threading + Chick-fil-A",
+    "0.69",
+    "+0.21",
+    "54%",
+    1
+   ],
+   [
+    "Liposuction + Bumble",
+    "0.64",
+    "+0.19",
+    "71%",
+    1
+   ],
+   [
+    "Nose job + Tarot",
+    "0.60",
+    "+0.60",
+    "86%",
+    3
+   ]
+  ],
+  "section": "twins",
+  "kind": "chart",
+  "width": 1000,
+  "height": 1019
+ },
+ {
+  "slug": "nose-job-and-tarot-search-twins-pass-all-three-tests",
+  "title": "Nose job and tarot: same timing, same states, same age mix",
+  "alt": "Three small charts for Nose job and Tarot searches: five-year monthly lines that move together (0.60), a scatter of 49 states that slopes upward (+0.60), and age bars that look alike (86% overlap)",
+  "caption": "Searches for nose jobs and tarot rise and fall together over five years (0.60), lead in the same states (0.60) and come from nearly the same age mix (86% overlap). It is the one viral pair that held up.",
+  "table": [
+   [
+    "Test",
+    "Result",
+    "Pass mark"
+   ],
+   [
+    "Time: monthly match",
+    "0.60 (0.54 after removing the long trend)",
+    "0.50 (0.40)"
+   ],
+   [
+    "Place: state rank match",
+    "+0.60",
+    "0.35"
+   ],
+   [
+    "People: age-mix overlap",
+    "86%",
+    "85%"
+   ],
+   [
+    "Women's share gap",
+    "1 points",
+    "10 points"
+   ]
+  ],
+  "section": "twins",
+  "kind": "chart",
+  "width": 1000,
+  "height": 530
+ },
+ {
+  "slug": "botox-and-wedding-dress-search-twins-pass-all-three-tests",
+  "title": "Botox and wedding dress: same timing, same states, same age mix",
+  "alt": "Three small charts for Botox and Wedding dress searches: five-year monthly lines that move together (0.70), a scatter of 49 states that slopes upward (+0.40), and age bars that look alike (86% overlap)",
+  "caption": "Searches for Botox near me and wedding dresses move together (0.70), lead in the same states (0.40) and share an age mix (86% overlap). For med spas, it points to brides and bridal shops as a real audience.",
+  "table": [
+   [
+    "Test",
+    "Result",
+    "Pass mark"
+   ],
+   [
+    "Time: monthly match",
+    "0.70 (0.46 after removing the long trend)",
+    "0.50 (0.40)"
+   ],
+   [
+    "Place: state rank match",
+    "+0.40",
+    "0.35"
+   ],
+   [
+    "People: age-mix overlap",
+    "86%",
+    "85%"
+   ],
+   [
+    "Women's share gap",
+    "3 points",
+    "10 points"
+   ]
+  ],
+  "section": "twins",
+  "kind": "chart",
+  "width": 1000,
+  "height": 565
+ },
+ {
   "slug": "borrow-a-bigger-search-signal-illustration",
   "title": "Borrow the search signal of a bigger brand with the same shopper",
   "alt": "Two panels: Jeuveau with 18,100 monthly searches and a noisy bar pattern; Sephora with 6.1 million searches and a steady rising pattern, arrow pointing to an estimate of Jeuveau sales",
