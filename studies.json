@@ -55,7 +55,14 @@
       "summary": "News outlets supplied 67.5% of the citations in Google’s AI answers about local businesses; businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store.",
       "ai_assistants": ["Google AI Overviews"],
       "topics": ["Local search", "Citations", "Retail chains"],
-      "data_url": "local-answer-gap/data/local-answer-gap-data.csv"
+      "data_url": "local-answer-gap/data/local-answer-gap-data.csv",
+      "video": {
+        "youtube": "https://youtu.be/-tpyYAFMMiQ",
+        "length": "1:56",
+        "uploaded": "2026-11-16",
+        "title": "Where Does Google's AI Get Its Answers About Local Businesses? | AEO Research",
+        "description": "Where does Google's AI get its answers about local businesses? Mostly from other people's pages. In 207 Google AI Overviews about local businesses, news outlets supplied 67.5% of the citations and the businesses' own websites supplied 6.5%."
+      }
     }
   ]
 }
