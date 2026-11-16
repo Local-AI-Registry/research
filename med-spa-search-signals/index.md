@@ -30,7 +30,7 @@ Local AI Registry’s analysis of five years of Google searches shows that a big
 - **15** quarters of company sales
 - **49** states compared
 - **680** search pairs tested
-- **38** charts, maps, motion explainers and 3D visuals
+- **38** charts, maps, explainers and 3D visuals
 
 ## Key findings
 
@@ -76,9 +76,9 @@ So we borrowed the signal. We looked for a much bigger search that shares Jeuvea
 
 **Illustration 1. Borrow the search signal of a bigger brand with the same shopper.** A niche brand's searches bounce too much to read. A big brand with the same shopper gives a steadier signal to estimate from. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-illustration.png)
 
-![Animation: Jeuveau's few searches flicker up and down while Sephora's millions of searches rise steadily; an arrow carries the Sephora signal to an estimate of Jeuveau sales](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-motion.svg)
+![Animation: two coin-flip lines draw across; with a handful of flips the share of heads jumps wildly, with thousands of flips it settles near 50 percent](https://localairegistry.com/research/med-spa-search-signals/images/why-more-searches-are-steadier-explainer.svg)
 
-**Motion explainer 1. Borrowing a bigger brand's search signal, in motion.** Jeuveau's searches are too few to read and jump around. Sephora's are steady and share the same shopper, so we estimate Jeuveau sales from them. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/borrow-a-bigger-search-signal-motion.svg)
+**Explainer 1. Why more searches give a steadier signal.** Flip a coin ten times and you might get seven heads. Flip it thousands of times and you get very close to half. Search data behaves the same way, which is why a brand with millions of searches is easier to read than one with thousands. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/why-more-searches-are-steadier-explainer.svg)
 
 ![Bar chart of average monthly U.S. Google searches: Sephora 6,120,000, Equinox 368,000, Botox 165,000, Jeuveau 18,100](https://localairegistry.com/research/med-spa-search-signals/images/monthly-google-searches-sephora-vs-jeuveau.png)
 
@@ -136,6 +136,10 @@ Those studies use searches for the product itself. We could not find published w
 - Search twins: 17 beauty searches against 40 everyday searches (680 pairs), tested on timing (monthly match of 0.50 or more, with and without long trends), states (rank match of 0.35 or more) and age mix (85% overlap or more).
 - All aggregated tables are in the [CSV download](https://localairegistry.com/research/med-spa-search-signals/data/med-spa-search-signals-data.csv).
 
+![Animation: two years of quarterly bars with a big holiday quarter; first a dashed coral arrow compares last year's holiday quarter with this January and wrongly suggests a drop, then a blue arrow compares January with last January and shows real growth](https://localairegistry.com/research/med-spa-search-signals/images/why-compare-same-time-last-year-explainer.svg)
+
+**Explainer 2. Why we compare with the same time last year.** Most businesses have busy and slow seasons. Comparing January with December makes any business look like it is shrinking. Comparing January with last January removes the season and shows real change. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/why-compare-same-time-last-year-explainer.svg)
+
 ## Can Sephora searches predict Jeuveau sales?
 
 Yes, better than Jeuveau’s own searches. Sephora search growth matched Evolus revenue growth at 0.71 over 15 quarters; Jeuveau searches scored −0.08.
@@ -143,6 +147,10 @@ Yes, better than Jeuveau’s own searches. Sephora search growth matched Evolus 
 ![Line chart of year-over-year growth by quarter, Q1 2023 to Q3 2026: Sephora searches and Evolus revenue move together, correlation 0.71](https://localairegistry.com/research/med-spa-search-signals/images/sephora-search-growth-vs-jeuveau-evolus-revenue-growth.png)
 
 **Figure 2. Sephora search growth tracks Jeuveau sales growth at 0.71.** Across 15 quarters, Sephora search growth and Evolus revenue growth line up at 0.71. Both slowed through 2024 and both rose in Q2 2026. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/sephora-search-growth-vs-jeuveau-evolus-revenue-growth.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/sephora-search-growth-vs-jeuveau-evolus-revenue-growth.png)
+
+![Animation: two lines; the second line changes from moving randomly (0, no link) to mostly following the first (0.7, a strong link) to matching it exactly (1.0, a perfect link)](https://localairegistry.com/research/med-spa-search-signals/images/what-a-match-number-means-explainer.svg)
+
+**Explainer 3. What does a “0.71 match” mean?** A match number (a correlation) runs from 0 to 1. Near 0, two things move separately; near 1, they rise and fall together. A minus sign means they move in opposite directions. It shows a link, not a cause. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/what-a-match-number-means-explainer.svg)
 
 We tested 94 searches, from Sephora and Ulta to Equinox, Pilates, Wingstop and Taylor Swift. Three passed both tests: Sephora, espresso martini and Taylor Swift. Testing this many searches means some will match by luck, so we only use a stand-in with a real link to the same shopper. Of the three, only Sephora has one.
 
@@ -161,10 +169,6 @@ We tested 94 searches, from Sephora and Ulta to Equinox, Pilates, Wingstop and T
 ![Two panels: left, two lines drifting in opposite directions labeled trend only (Equinox); right, two lines rising and falling together labeled real signal (Sephora)](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.png)
 
 **Illustration 2. A real signal matches the ups and downs, not just the long trend.** Two series can look related over five years just because both drift. A real signal also matches the quarter-to-quarter changes. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-illustration.png)
-
-![Animation: on the left, two lines drift apart over time with no shared ups and downs (Equinox); on the right, two lines rise and fall together (Sephora); a scanner line sweeps across both](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-motion.svg)
-
-**Motion explainer 2. A real signal moves with sales, not just in the same direction.** Equinox searches and Jeuveau sales only share a long drift. Sephora searches and Jeuveau sales share the quarter-to-quarter ups and downs, which is what an estimate needs. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/trend-match-vs-real-signal-motion.svg)
 
 Equinox is the trap. Over five years its searches move opposite to Jeuveau sales (−0.78), which looks like a gym-versus-injectables budget fight. Quarter to quarter there is no link (0.02). The match came from two slow trends pointing different ways. “Equinox” is also a car and a season, which muddies its searches further.
 
@@ -188,9 +192,9 @@ They point above guidance. Our estimate for Evolus’s Q4 2026 revenue is about 
 
 **Figure 5. Our search estimate puts Evolus Q4 2026 revenue at $107M, above guidance.** Tested by hiding one quarter at a time, the estimate landed within 7% of actual revenue in 11 of 14 quarters. For Q4 2026 it points to about $107M; guidance implies $95M to $102M. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/evolus-jeuveau-q4-2026-revenue-estimate-vs-guidance.png)
 
-![Animation: six weekly Sephora search bars fill in, then a needle slides along a revenue scale and stops at about $107 million, to the right of the $95 to $102 million guidance band](https://localairegistry.com/research/med-spa-search-signals/images/how-the-jeuveau-q4-estimate-works-motion.svg)
+![Animation: a timeline from October to February; weekly search dots appear through the October to December quarter, a coral marker for our early read appears in mid-November, and the company's report flag lights up in January](https://localairegistry.com/research/med-spa-search-signals/images/what-a-nowcast-is-explainer.svg)
 
-**Motion explainer 3. How six weeks of Sephora searches become a $107M estimate.** Sephora searches since October 4 are up 7.5% on last year. Combined with last quarter's growth, that points to about $107M in Q4 2026 revenue, above the range implied by guidance. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/how-the-jeuveau-q4-estimate-works-motion.svg)
+**Explainer 4. What is a “nowcast”?** Companies report a quarter weeks after it ends. Search data arrives every week, so it can give a read on the quarter while it is still happening. That early read is called a nowcast. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/what-a-nowcast-is-explainer.svg)
 
 Sephora searches from October 4 to November 14, 2026, are up 7.5% on the same weeks of 2025. With last quarter’s growth of 13.1%, that points to Q4 revenue up about 18%, roughly $101 million to $113 million. Evolus guided to $330 million to $337 million for 2026 and has reported $235.2 million through Q3.
 
@@ -224,10 +228,6 @@ For brand names, yes. For category words, no. “botox” rose in 2025 while Bot
 
 **Illustration 3. “Botox” works like Kleenex: one word for a whole category.** People search “botox” for any neurotoxin treatment, so the word tracks demand for the whole category. Brand names like Jeuveau track the brand. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-vs-brand-names-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-vs-brand-names-illustration.png)
 
-![Animation: dots representing searches for the word botox fall from the top and land on three brand boxes, Botox by AbbVie, Jeuveau by Evolus and Dysport by Galderma](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-motion.svg)
-
-**Motion explainer 4. Searches for “botox” land on every brand.** People search “botox” for any wrinkle-relaxing injection, so the searches spread across brands. That is why “botox” rose in 2025 while Botox Cosmetic sales fell. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-category-word-motion.svg)
-
 ![Line chart indexed to Q1 2023 = 100: botox searches rise in 2025 while AbbVie Botox Cosmetic sales fall; correlation 0.13](https://localairegistry.com/research/med-spa-search-signals/images/botox-searches-vs-botox-cosmetic-sales.png)
 
 **Figure 8. “Botox” searches rose in 2025 while Botox Cosmetic sales fell.** In 2025, “botox” searches ran 10% to 16% above the year before while global Botox Cosmetic sales ran 5% to 12% below. Over 15 quarters the two barely relate (0.13). [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searches-vs-botox-cosmetic-sales.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-searches-vs-botox-cosmetic-sales.png)
@@ -257,6 +257,10 @@ Local AI Registry’s AI visibility audit shows which competitors AI names for y
 ## Where do med spa clients live?
 
 In the same states that search for Pilates. Our combined med spa score matches Pilates search by state at 0.81.
+
+![Animation: eight states ranked by med spa searches on the left are joined by lines to the same states ranked by Pilates searches, with lines running mostly straight; then the right column switches to Equinox and the lines cross](https://localairegistry.com/research/med-spa-search-signals/images/how-a-state-by-state-match-works-explainer.svg)
+
+**Explainer 5. How a state-by-state match works.** Rank every state by one search, then by another, and connect each state. If the lines run straight across, the two searches are big in the same places. Shown here with eight of the 49 states. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/how-a-state-by-state-match-works-explainer.svg)
 
 ![Two by two scatter of 49 states: med spa search score against Pilates search interest, rank match 0.81; Florida, Arizona, Colorado, Utah and California top right](https://localairegistry.com/research/med-spa-search-signals/images/med-spa-search-vs-pilates-search-by-state-2x2.png)
 
@@ -340,10 +344,6 @@ Clients research all year, including January to March. Botox searches hold at 10
 
 **Illustration 5. January to March is when clients research; spring is when they book.** Botox searches stay near their yearly average in Q1 while sales to practices run 8% below it, then rise in Q2. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-q1-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-q1-illustration.png)
 
-![Animation: a blue line for Botox searches stays near 100 across four quarters while coral bars for Botox sales rise from 92 in Q1 to 105 in Q2 and 106 in Q4](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-motion.svg)
-
-**Motion explainer 6. Searches hold steady in Q1 while sales to clinics dip.** Each value is the quarter against the year's average, 2023 to 2025. People keep searching in January to March; clinic orders catch up in Q2. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/aesthetics-research-season-motion.svg)
-
 ![Grouped bar chart of each quarter against the year's average, 2023 to 2025: searches 102, 101, 97, 101; Botox Cosmetic sales 92, 105, 96, 106](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.png)
 
 **Figure 20. In January to March, Botox searches hold at 102 while sales to clinics drop to 92.** 100 is the year's average. Searches barely change by season, but AbbVie's Botox sales to practices run 8% below average in Q1 and 5% to 6% above in Q2 and Q4. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/botox-search-vs-sales-by-quarter-seasonality.png)
@@ -400,9 +400,9 @@ Very few. Of 680 beauty and everyday search pairs, 2 matched on timing, states a
 
 **Illustration 4. Three tests decide whether two searches share an audience.** A five-year chart match is only the first test. Pairs that also match on states and on the age and gender of searchers point to the same people. [SVG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-illustration.svg) · [PNG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-illustration.png)
 
-![Animation: dots for 680 search pairs move through three gates labeled time, place and people; most drop out at each gate and two coral dots come out the far side](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-motion.svg)
+![Animation: summer pushes up both ice cream sales and sunburns; below, city life and income push up both med spa searches and Tesla searches](https://localairegistry.com/research/med-spa-search-signals/images/hidden-third-factor-explainer.svg)
 
-**Motion explainer 5. 680 search pairs in, 2 out: the three tests in motion.** A five-year chart match is only the first gate. Most pairs drop out on states or age mix; only nose job with tarot and Botox with wedding dress pass all three. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/three-tests-for-search-twins-motion.svg)
+**Explainer 6. How a hidden third factor fakes a link.** Two things can rise together because something else drives both. Ice cream and sunburns both peak in summer. Med spa and Tesla searches both run high where city life and incomes are higher. A match is a clue, not proof. [Animated SVG](https://localairegistry.com/research/med-spa-search-signals/images/hidden-third-factor-explainer.svg)
 
 ![Bar chart of 680 beauty and everyday search pairs by tests passed: 2 passed all three, 49 passed two, 257 passed one, 372 passed none](https://localairegistry.com/research/med-spa-search-signals/images/search-twins-that-pass-time-place-people-tests.png)
 
