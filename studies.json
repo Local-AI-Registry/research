@@ -45,7 +45,33 @@
         "Search trends",
         "Consumer spending"
       ],
-      "data_url": "med-spa-search-signals/data/med-spa-search-signals-data.csv"
+      "data_url": "med-spa-search-signals/data/med-spa-search-signals-data.csv",
+      "video": {
+        "youtube": "https://youtu.be/Ng71RHlSVTA",
+        "length": "1:17",
+        "uploaded": "2026-11-19",
+        "title": "Sephora searches predict Jeuveau sales: what 94 Google searches show",
+        "description": "Growth in Google searches for Sephora tracked sales growth at Jeuveau maker Evolus at 0.71 over 15 quarters, while searches for Jeuveau itself scored −0.08.",
+        "chapters": [
+          {
+            "time": "0:00",
+            "name": "Can Sephora predict Jeuveau sales?"
+          },
+          {
+            "time": "0:29",
+            "name": "Why Equinox searches don't count"
+          },
+          {
+            "time": "0:45",
+            "name": "Our Q4 2026 estimate for Evolus"
+          },
+          {
+            "time": "0:55",
+            "name": "What should a business watch?"
+          }
+        ],
+        "transcript": "Can Sephora searches predict Jeuveau sales? Our data says yes: a 0.71 match.\n\nLocal AI Registry tested 94 Google searches against five years of sales at Evolus, the company that makes Jeuveau. Almost nobody searches for Jeuveau. Millions search for Sephora, and it is the same shopper. Sephora search growth matched Evolus sales growth at 0.71. Jeuveau's own searches scored minus 0.08.\n\nNot every match is real. Equinox gym searches looked like a mirror image over five years. Quarter to quarter, there was no link at all.\n\nAnd searches for \"botox\" went up in 2025 while Botox brand sales went down. People say botox for any wrinkle shot.\n\nUsing Sephora, we estimate Evolus's fourth quarter at about 107 million dollars, above its guidance. We will check in January.\n\nIf you run a business, watch searches for your own name next to your category.\n\nRead the full research at localairegistry.com/research. Want to start showing up in AI answers? Claim your free page on Local AI Registry."
+      }
     },
     {
       "id": "LAIR-R-2026-002",
