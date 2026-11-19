@@ -11,6 +11,24 @@
   ],
   "studies": [
     {
+      "id": "LAIR-R-2026-004",
+      "title": "LocalAITrends: what America searches before it books",
+      "url": "local-ai-trends/",
+      "date": "2026-11-19",
+      "type": "Brief",
+      "summary": "Botox search interest beat Thanksgiving week by 28% to 50% in the week before the holiday every year from 2021 to 2025, and 13 of 14 viral search twins fell apart when tested on states and age mix.",
+      "ai_assistants": [
+        "Google AI Overviews"
+      ],
+      "topics": [
+        "Local search",
+        "Med spas",
+        "Dispensaries",
+        "Seasonality"
+      ],
+      "data_url": "local-ai-trends/data/local-ai-trends-data.csv"
+    },
+    {
       "id": "LAIR-R-2026-003",
       "title": "Med Spa Search Signals: what Google searches reveal about aesthetic clients and sales",
       "short_title": "Med Spa Search Signals",
@@ -18,8 +36,15 @@
       "date": "2026-11-15",
       "type": "Study",
       "summary": "Sephora search growth tracked sales growth at Jeuveau maker Evolus at 0.71 over 15 quarters while Jeuveau’s own searches scored −0.08, and med spa searches follow the Pilates state map at 0.81.",
-      "ai_assistants": ["Google AI Overviews", "ChatGPT"],
-      "topics": ["Med spas", "Search trends", "Consumer spending"],
+      "ai_assistants": [
+        "Google AI Overviews",
+        "ChatGPT"
+      ],
+      "topics": [
+        "Med spas",
+        "Search trends",
+        "Consumer spending"
+      ],
       "data_url": "med-spa-search-signals/data/med-spa-search-signals-data.csv"
     },
     {
@@ -30,18 +55,41 @@
       "date": "2026-11-10",
       "type": "Brief",
       "summary": "Asked the same query twice, Gemini’s sources overlapped by only 0.46 and a median of 29% of the businesses ChatGPT named appeared in both answers, so AI visibility is best measured as how often a business is named across many answers.",
-      "ai_assistants": ["ChatGPT", "Gemini", "Claude", "Perplexity", "Google AI Overviews"],
-      "topics": ["AI visibility", "Accuracy", "Local search", "Healthcare"],
+      "ai_assistants": [
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "Perplexity",
+        "Google AI Overviews"
+      ],
+      "topics": [
+        "AI visibility",
+        "Accuracy",
+        "Local search",
+        "Healthcare"
+      ],
       "data_url": "how-often-ai-recommends-your-business/data/how-often-ai-recommends-your-business-data.csv",
       "video": {
         "youtube": "https://youtu.be/g0Q8h4WKVw8",
         "length": "1:04",
         "uploaded": "2026-11-12",
         "chapters": [
-          { "time": "0:00", "name": "Ask AI twice, get a different list" },
-          { "time": "0:17", "name": "What a 2026 study found" },
-          { "time": "0:29", "name": "How often are you recommended?" },
-          { "time": "0:43", "name": "Why a few answers can mislead" }
+          {
+            "time": "0:00",
+            "name": "Ask AI twice, get a different list"
+          },
+          {
+            "time": "0:17",
+            "name": "What a 2026 study found"
+          },
+          {
+            "time": "0:29",
+            "name": "How often are you recommended?"
+          },
+          {
+            "time": "0:43",
+            "name": "Why a few answers can mislead"
+          }
         ],
         "transcript": "Ask an AI assistant, “Who’s the best dentist near me?”, and you get a short list. Ask again later, from across town, or in other words, and the list can change. Each answer is written fresh. So one answer is a single observation, not a fixed ranking.\n\nIn one 2026 study, when ChatGPT got the same local question twice, about forty minutes apart, only around three in ten businesses appeared in both answers.\n\nSo the better question is: how often are you recommended? Ask the same questions across assistants, places and days, and a pattern appears. One business shows up in most answers. Another, only now and then.\n\nA handful of answers can still mislead. A clear picture takes many observations, gathered the same way over time. Recommendations matter. That’s why they deserve a better measure.\n\nLocal AI Registry. Be the name AI says."
       }
@@ -53,8 +101,14 @@
       "date": "2026-11-07",
       "type": "Study",
       "summary": "News outlets supplied 67.5% of the citations in Google’s AI answers about local businesses; businesses’ own websites supplied 6.5%, and 83.6% of answers told people to check with their local store.",
-      "ai_assistants": ["Google AI Overviews"],
-      "topics": ["Local search", "Citations", "Retail chains"],
+      "ai_assistants": [
+        "Google AI Overviews"
+      ],
+      "topics": [
+        "Local search",
+        "Citations",
+        "Retail chains"
+      ],
       "data_url": "local-answer-gap/data/local-answer-gap-data.csv",
       "video": {
         "youtube": "https://youtu.be/-tpyYAFMMiQ",
