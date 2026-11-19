@@ -97,6 +97,7 @@ We re-analyzed the raw records released with Measuring Google AI Overviews: Acti
 - **Local filter.** We tagged searches about a physical business’s hours, open status, closures or “near me,” then read every match by hand. That produced 271 local searches, 207 AI answers and 189 unique questions.
 - **Comparison group.** The other 7,376 AI answers in the dataset.
 - **Source groups.** Every cited domain was sorted into owner groups, including Gannett newspapers (31 domains) and TEGNA TV stations (13 domains), using their published lists of owned outlets.
+- **How we count.** A *brand question* names a specific chain (157 in total; the brand chart shows the 14 most asked). A *citation* is one source link in one answer; the 1,496 *cited pages read* are the saved pages we read in full, a separate count from the 1,497 local citations. An *unsupported claim* is one the fact-check marked ambiguous, incorrect or not in the cited sources.
 - **Replication check.** Our extraction found the same 7,583 AI Overviews the paper reports, and our overall unsupported-claim rate (11.03%) matches its published 11.0%.
 
 ![Bar chart of local business searches by collection day in March and April 2026, peaking at 185 on April 6](https://localairegistry.com/research/local-answer-gap/images/local-business-searches-by-day-easter-2026.png)
@@ -236,7 +237,7 @@ From the news, not the business. News outlets supplied 67.5% of citations in loc
 | newsweek.com | 17 | 8.2% | Other news |
 | providencejournal.com | 16 | 7.7% | Gannett newspapers |
 
-USA Today and its network of local papers (IndyStar, Delaware Online, North Jersey, El Paso Times and dozens more) publish “what’s open” roundups every holiday, and TEGNA’s local TV stations do the same. Google’s AI treats those roundups as the record. Directories barely register: Yelp, MapQuest and OpenTable together supplied 8 of 1,497 local citations.
+USA Today and its network of local papers (IndyStar, Delaware Online, North Jersey, El Paso Times and dozens more) publish “what’s open” roundups every holiday, and TEGNA’s local TV stations do the same. Google’s AI treats those roundups as the record. Directories barely register: Yelp, MapQuest and OpenTable together supplied 8 of 1,497 local citations (a citation is one source link in one answer, so the same page can be counted more than once).
 
 ![Bar chart of how over-represented each source type is in local answers: TEGNA 18x, portals 4.1x, Gannett 3.9x, other news 1.8x, own site 1.3x, social 0.7x](https://localairegistry.com/research/local-answer-gap/images/local-news-overrepresented-in-ai-local-answers.png)
 
@@ -307,7 +308,7 @@ No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI 
 
 ![Dumbbell chart per brand comparing how often its website ranked on page one versus was cited by the AI Overview](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
 
-**Figure 10. Ranked on page one, skipped by the AI: brand websites in local answers.** Brand websites appeared on page one in 147 of 157 brand questions but were cited in 70. Walmart ranked in 11 of 15 answers and was cited once. [SVG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
+**Figure 10. Ranked on page one, skipped by the AI: brand websites in local answers.** Across all 157 brand questions, brand websites appeared on page one in 147 and were cited in 70. The chart shows the 14 most-asked brands (96 of those questions); the table adds the rest. Walmart ranked in 11 of 15 answers and was cited once. [SVG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/brand-website-ranked-vs-cited-google-ai-overviews.png)
 
 **Data behind this chart:**
 
@@ -327,6 +328,8 @@ No. Brand websites ranked on page one in 147 of 157 brand questions, but the AI 
 | Chipotle | 4 | 4 | 0 |
 | Kroger | 4 | 4 | 4 |
 | Home Depot | 4 | 4 | 4 |
+| All other brands | 61 | 59 | 18 |
+| **All brand questions** | **157** | **147** | **70** |
 
 ![Two by two of brands by page-one ranking rate and AI citation rate; Walmart, Starbucks and Chipotle are ranked but ignored](https://localairegistry.com/research/local-answer-gap/images/brand-rank-vs-ai-citation-2x2.png)
 
@@ -460,7 +463,7 @@ Often not. When the AI said “the store locator says,” 51.6% of those claims 
 
 ![Bar chart: 51.6% of local claims quoting a store locator or app were unsupported, vs 6.7% of other local claims](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
 
-**Figure 17. When Google’s AI says “the store locator says,” half the time it can’t show it.** 16 of 31 local claims that cited a store locator, app or official site (51.6%) were not supported by any page the AI cited, against 6.7% of other local claims. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
+**Figure 17. When Google’s AI says “the store locator says,” half the time it can’t show it.** 16 of 31 local claims that cited a store locator, app or official site (51.6%) were not supported by any page the AI cited, against 6.7% of all other local claims (148 of 2,222). Counting every local claim together, the rate is 7.3% (164 of 2,253). [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-store-locator-claims-unsupported-rate.png)
 
 **Data behind this chart:**
 
@@ -542,7 +545,7 @@ The verdict does; the sources don’t. Different wording of the same question ch
 
 ![Heatmap of claim verdicts: 87.8% of local claims supported vs 84.5% of other claims](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
 
-**Figure 21. Local AI answers were more faithful to their sources than average.** 87.8% of 2,253 local claims were supported by the cited pages, versus 84.5% of 95,767 other claims. Faithful to sources is not the same as accurate for your location. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
+**Figure 21. Local AI answers were more faithful to their sources than average.** 87.8% of 2,253 local claims were supported by the cited pages, versus 84.5% of 95,767 other claims. Of the other 12.2% of local claims, 4.9% were vague and 7.3% were unsupported (ambiguous, incorrect or not in sources). Faithful to sources is not the same as accurate for your location. [SVG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.svg) · [PNG](https://localairegistry.com/research/local-answer-gap/images/ai-overview-claim-accuracy-local-vs-other-heatmap.png)
 
 **Data behind this chart:**
 
@@ -574,7 +577,7 @@ The verdict does; the sources don’t. Different wording of the same question ch
 | 14 | 0.5% | 1.3% |
 | 15 | 0.0% | 2.7% |
 
-Across the 46 chains asked about on Easter, the open-or-closed verdict never contradicted itself; every apparent conflict our tagger flagged turned out, when read by hand, to be phrasing like “Yes, it’s closed.” Local answers were also more faithful to their sources than average (7.3% unsupported claims vs 11.1%). But faithful to sources is not the same as accurate for your location, and the sources rotate.
+Across the 46 chains asked about on Easter, the open-or-closed verdict never contradicted itself; every apparent conflict our tagger flagged turned out, when read by hand, to be phrasing like “Yes, it’s closed.” Local answers were also more faithful to their sources than average: 7.3% of local claims were unsupported (ambiguous, incorrect or not found in the cited pages), against 11.1% of other claims. But faithful to sources is not the same as accurate for your location, and the sources rotate.
 
 ![Diagram of an owner-confirmed Local AI Registry record feeding the business website, Google Business Profile, directories and press, so AI answers match](https://localairegistry.com/research/local-answer-gap/images/single-source-of-truth-for-ai-local-aeo-illustration.png)
 

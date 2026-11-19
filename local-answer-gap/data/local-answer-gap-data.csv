@@ -106,6 +106,8 @@ figure_number,figure_slug,figure_title,row,col_1,col_2,col_3,col_4,col_5,col_6,c
 10,brand-website-ranked-vs-cited-google-ai-overviews,"Ranked on page one, skipped by the AI: brand websites in local answers",,Chipotle,4,4,0
 10,brand-website-ranked-vs-cited-google-ai-overviews,"Ranked on page one, skipped by the AI: brand websites in local answers",,Kroger,4,4,4
 10,brand-website-ranked-vs-cited-google-ai-overviews,"Ranked on page one, skipped by the AI: brand websites in local answers",,Home Depot,4,4,4
+10,brand-website-ranked-vs-cited-google-ai-overviews,"Ranked on page one, skipped by the AI: brand websites in local answers",,All other brands,61,59,18
+10,brand-website-ranked-vs-cited-google-ai-overviews,"Ranked on page one, skipped by the AI: brand websites in local answers",,All brand questions,157,147,70
 11,brand-rank-vs-ai-citation-2x2,Ranked and used vs ranked and ignored: a 2x2 of brand websites,,Brand,Page-one rate,Cited rate
 11,brand-rank-vs-ai-citation-2x2,Ranked and used vs ranked and ignored: a 2x2 of brand websites,,Walmart,73%,7%
 11,brand-rank-vs-ai-citation-2x2,Ranked and used vs ranked and ignored: a 2x2 of brand websites,,Target,67%,17%
