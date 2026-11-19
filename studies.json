@@ -115,7 +115,38 @@
         "length": "1:56",
         "uploaded": "2026-11-16",
         "title": "Where Does Google's AI Get Its Answers About Local Businesses? | AEO Research",
-        "description": "Where does Google's AI get its answers about local businesses? Mostly from other people's pages. In 207 Google AI Overviews about local businesses, news outlets supplied 67.5% of the citations and the businesses' own websites supplied 6.5%."
+        "description": "Where does Google's AI get its answers about local businesses? Mostly from other people's pages. In 207 Google AI Overviews about local businesses, news outlets supplied 67.5% of the citations and the businesses' own websites supplied 6.5%.",
+        "chapters": [
+          {
+            "time": "0:00",
+            "name": "207 Google AI answers about local businesses"
+          },
+          {
+            "time": "0:18",
+            "name": "For local questions, Google's AI usually answers first"
+          },
+          {
+            "time": "0:29",
+            "name": "Where Google's AI gets local business facts"
+          },
+          {
+            "time": "0:39",
+            "name": "Why AI says \"check with your local store\""
+          },
+          {
+            "time": "0:51",
+            "name": "Ranking on Google vs. being cited by AI"
+          },
+          {
+            "time": "1:04",
+            "name": "What local businesses can do (AEO)"
+          },
+          {
+            "time": "1:24",
+            "name": "Study limits and the full research"
+          }
+        ],
+        "transcript": "Google’s AI wrote 207 answers about local businesses. Only one gave a street address or phone number. They come from 7,583 Google AI Overviews, collected by researchers at Washington University and re-analyzed by Local AI Registry.\n\nFor local questions, that AI answer is usually the first thing people read. 76% of local searches showed one, compared with about 14% of all searches in the study.\n\nBut the answers were built mostly from other people’s pages. News outlets supplied two-thirds of the citations. Businesses’ own websites supplied 6.5%.\n\nSo the AI mostly described the chain, not the place. 173 of the 207 answers told people to check with their local store. That’s the local answer gap.\n\nRanking still matters. The AI rarely cited a business website outside Google’s first page. But brand websites ranked there for nine in ten brand questions, and were cited in fewer than half.\n\nThe opening is location-level facts. Publish your hours, holiday hours, address and services in plain text and structured data. Keep your Google Business Profile current, and make your facts match everywhere. No single step guarantees a mention. But clear, consistent facts give the AI something accurate to quote.\n\nThis study covers Google’s AI Overviews, mostly national chains around Easter. Other assistants, and independent businesses, may differ. Local AI Registry researches how AI answers local questions, and helps businesses make their information easier to find, verify and represent accurately. Read the full study, The Local Answer Gap, at LocalAIRegistry.com."
       }
     }
   ]
