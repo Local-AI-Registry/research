@@ -250,7 +250,7 @@ JS = r'''<script>
 </script>'''
 
 def build(fb, prev=False):
-    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1" if prev else "/research/simulations/quiktox-foot-traffic?embed=1"
+    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1&theme=modern&v=3" if prev else "/research/simulations/quiktox-foot-traffic?embed=1&theme=modern&v=3"
     fav = "" if prev else '<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -360,7 +360,7 @@ body{{background:#fff;color:var(--ink);font:400 17px/1.6 "Hanken Grotesk",system
 h1,h2,h3{{font-family:"Hanken Grotesk",system-ui,sans-serif!important;font-weight:400!important;letter-spacing:-.025em;color:var(--ink)}}
 .wrap{{max-width:1200px;padding:0 24px}}
 .k{{font:600 11.5px/1 "Bricolage Grotesque",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}}
-.hero-map{{height:max(560px,calc(100svh - 146px));background:#EEDDB8;border-bottom:0;border-radius:0 0 clamp(28px,4vw,56px) clamp(28px,4vw,56px)}}
+.hero-map{{height:max(560px,calc(100svh - 146px));background:#F7F5F0;border-bottom:0;border-radius:0 0 clamp(28px,4vw,56px) clamp(28px,4vw,56px)}}
 .hero-card{{background:#fff;border:0;border-radius:24px;padding:clamp(22px,2.6vw,36px);gap:0;max-width:560px;top:24px;box-shadow:0 30px 70px -40px rgba(11,26,46,.45),0 2px 10px rgba(11,26,46,.06)}}
 .hero-card .nx-eb{{margin-bottom:16px}}
 .hero-card h1{{font-size:clamp(34px,3.6vw,52px)!important;line-height:1.08!important}}
@@ -371,6 +371,7 @@ h1,h2,h3{{font-family:"Hanken Grotesk",system-ui,sans-serif!important;font-weigh
 .finder input{{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:999px;color:var(--ink);padding-left:40px;box-shadow:0 12px 30px -18px rgba(11,26,46,.45)}}
 .finder input::placeholder{{color:var(--soft)}} .finder input:focus{{background:#fff}} .finder svg{{color:var(--soft)!important;left:14px}}
 .finder ul{{border-color:var(--line);border-radius:16px}}
+@media (max-width:640px){{.hero-head{{background:#fff}} .mapbox{{background:#F7F5F0!important;border-color:#E6E3DC!important}}}}
 .nums{{margin:clamp(56px,7vw,96px) 0 0;background:var(--paper);border-radius:28px;padding:clamp(48px,6vw,88px) clamp(20px,4vw,56px);text-align:center;display:block}}
 .nums .nx-eb{{margin-left:auto;margin-right:auto;width:fit-content}}
 .nums h2{{font:400 clamp(32px,3.5vw,48px)/1.18 "Hanken Grotesk",sans-serif!important;margin:0 auto;max-width:18em}}
