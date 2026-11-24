@@ -86,7 +86,7 @@ def library(items):
     types = sorted({x["type"] for x in items}); engs = sorted({en for x in items for en in x["engines"]}); tops = sorted({t for x in items for t in x["topics"]})
     opt = lambda lst: "".join(f'<option value="{e(v)}">{e(v)}</option>' for v in lst)
     return f'''<section class="lib" id="library" aria-labelledby="libh">
-<div class="lib-head"><div><div class="k">Research library</div><h2 id="libh">Studies, indexes and datasets</h2></div>
+<div class="lib-head"><div><span class="nx-eb">Research library</span><h2 id="libh">Studies, indexes <span class="g">and&nbsp;datasets.</span></h2></div>
 <p class="lib-count" id="count" aria-live="polite">{len(items)} {"study" if len(items)==1 else "studies"}</p></div>
 {'<form class="lib-tools" role="search" onsubmit="return false">' if len(items) >= FILTERS_AT else '<form class="lib-tools" hidden onsubmit="return false">'}
 <label class="srch"><span class="sr">Search the research</span><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search studies, topics or AI assistants" autocomplete="off"></label>
@@ -353,7 +353,78 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 .team p{{max-width:780px;margin:0}} .fine{{font-size:13px;color:var(--muted)}}
 .note{{margin-top:48px;background:var(--tint);border-left:3px solid var(--blue);border-radius:4px;padding:18px 20px;display:grid;gap:8px;max-width:820px}}
 .note p{{margin:0}} .note .t{{font:600 23px/1.25 var(--f-display)}}
-{chrome.CSS}</style>
+{chrome.CSS}
+/* New UI (matches localairegistry.com) */
+:root{{--paper:#F4F1EA;--card:#FFFFFF;--deep:#F4F1EA;--ink:#0B1A2E;--muted:#5A647A;--soft:#8C94A3;--blue:#1F4FE0;--line:#E6E3DC;--tint:#EEF3FF}}
+body{{background:#fff;color:var(--ink);font:400 17px/1.6 "Hanken Grotesk",system-ui,sans-serif;-webkit-font-smoothing:antialiased}}
+h1,h2,h3{{font-family:"Hanken Grotesk",system-ui,sans-serif!important;font-weight:400!important;letter-spacing:-.025em;color:var(--ink)}}
+.wrap{{max-width:1200px;padding:0 24px}}
+.k{{font:600 11.5px/1 "Bricolage Grotesque",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}}
+.hero-map{{height:max(560px,calc(100svh - 146px));background:#EEDDB8;border-bottom:0;border-radius:0 0 clamp(28px,4vw,56px) clamp(28px,4vw,56px)}}
+.hero-card{{background:#fff;border:0;border-radius:24px;padding:clamp(22px,2.6vw,36px);gap:0;max-width:560px;top:24px;box-shadow:0 30px 70px -40px rgba(11,26,46,.45),0 2px 10px rgba(11,26,46,.06)}}
+.hero-card .nx-eb{{margin-bottom:16px}}
+.hero-card h1{{font-size:clamp(34px,3.6vw,52px)!important;line-height:1.08!important}}
+.hero-card h1 .g{{color:var(--soft)}}
+.hero-card p{{font-size:clamp(16px,1.3vw,18px);line-height:1.5;color:var(--muted);margin-top:16px}}
+.hero-card .cta{{margin-top:24px}}
+.hero-card .fine{{font-size:12.5px;margin-top:14px;color:var(--soft)}}
+.finder input{{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:999px;color:var(--ink);padding-left:40px;box-shadow:0 12px 30px -18px rgba(11,26,46,.45)}}
+.finder input::placeholder{{color:var(--soft)}} .finder input:focus{{background:#fff}} .finder svg{{color:var(--soft)!important;left:14px}}
+.finder ul{{border-color:var(--line);border-radius:16px}}
+.nums{{margin:clamp(56px,7vw,96px) 0 0;background:var(--paper);border-radius:28px;padding:clamp(48px,6vw,88px) clamp(20px,4vw,56px);text-align:center;display:block}}
+.nums .nx-eb{{margin-left:auto;margin-right:auto;width:fit-content}}
+.nums h2{{font:400 clamp(32px,3.5vw,48px)/1.18 "Hanken Grotesk",sans-serif!important;margin:0 auto;max-width:18em}}
+.nums h2 .g{{color:var(--soft)}}
+.nums ul{{margin-top:48px;padding-top:28px;border-top:1px solid #DCD6C8;gap:24px;text-align:left}}
+.nums li{{background:none;border:0;border-radius:0;padding:0;font-size:14px;color:var(--muted)}}
+.nums b{{font:400 clamp(30px,3vw,42px)/1.1 "Hanken Grotesk",sans-serif;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px}}
+.nums .src{{font-size:12px;color:var(--soft);text-decoration:none;padding-top:6px}} .nums .src:hover{{color:var(--ink)}}
+@media (max-width:760px){{.nums{{border-radius:20px;text-align:left}}.nums .nx-eb{{margin-left:0}}.nums ul{{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 14px}}}}
+.lib{{padding:clamp(72px,9vw,130px) 0 0;gap:0}}
+.lib-head{{align-items:flex-end;gap:32px;margin-bottom:clamp(32px,4vw,52px)}}
+.lib-head h2{{font:400 clamp(32px,3.5vw,48px)/1.18 "Hanken Grotesk",sans-serif!important}}
+.lib-head h2 .g{{color:var(--soft)}}
+.lib-count{{font-size:15px;color:var(--muted)}}
+.lib-tools{{margin-bottom:24px}}.lib-tools[hidden]{{display:none!important}}
+.lib-tools select,.lib-tools input{{background:#fff;border-color:var(--line);border-radius:999px;padding:10px 16px}}
+.srch input{{padding-left:40px}}
+.studies{{border-top:1px solid var(--line)}}
+.st{{display:grid;grid-template-columns:160px minmax(0,1fr);column-gap:32px;row-gap:8px;padding:28px 0;border-bottom:1px solid var(--line);transition:background .25s}}
+.st-meta{{grid-row:1/span 3;flex-direction:column;align-items:flex-start;gap:4px;font-size:12.5px;color:#646C7E}}
+.st-type{{font:600 10.5px/1 "Bricolage Grotesque",sans-serif;letter-spacing:.14em;color:var(--blue)}}
+.st h3{{font:500 22px/1.3 "Hanken Grotesk",sans-serif!important;letter-spacing:-.02em}}
+.st h3 a{{color:var(--ink)}} .st h3 a:hover{{color:var(--blue);text-decoration:none}}
+.st p{{font-size:15px;color:var(--muted);max-width:760px}}
+.st-foot{{font-size:13px;gap:8px 16px;margin-top:6px}}
+.st-eng{{color:var(--muted);font-weight:500}}
+.tags li{{background:var(--paper);color:var(--ink);padding:3px 10px}}
+.st-links{{gap:16px}}.st-links a{{color:var(--ink);text-decoration:none;font-weight:500;border-bottom:1px solid var(--line)}} .st-links a:hover{{border-color:var(--ink)}}
+@media (max-width:760px){{.st{{grid-template-columns:minmax(0,1fr)}}.st-meta{{grid-row:auto;flex-direction:row;flex-wrap:wrap;gap:4px 12px}}.st-links{{margin-left:0}}}}
+section.blk{{padding:clamp(72px,9vw,130px) 0 0;gap:18px}}
+section.blk h2{{font:400 clamp(32px,3.5vw,48px)/1.18 "Hanken Grotesk",sans-serif!important;margin-bottom:12px}}
+section.blk h2 .g{{color:var(--soft)}}
+section.blk p{{color:var(--muted)}}
+.grid4{{gap:16px}}
+.grid4 li{{background:var(--paper);border:0;border-radius:20px;padding:28px}}
+.grid4 h3{{font:500 19px/1.3 "Hanken Grotesk",sans-serif!important;letter-spacing:-.01em;margin-bottom:8px}}
+.grid4 p{{font-size:15px;color:var(--muted)}}
+.team p{{color:var(--muted)}} .team p a{{color:var(--ink)}}
+#faq{{gap:0}}
+.qa{{border-top:0;border-bottom:1px solid var(--line);padding:22px 0;max-width:none;gap:8px}}
+#faq .qa:first-of-type{{border-top:1px solid var(--line)}}
+.qa h3{{font:500 17px/1.4 "Hanken Grotesk",sans-serif!important;letter-spacing:-.01em}}
+.qa p{{font-size:15.5px;max-width:780px}}
+.note{{margin-top:clamp(56px,7vw,96px);background:none;border-left:2px solid var(--blue);border-radius:0;padding:4px 0 4px 18px;max-width:44em;gap:6px}}
+.note .k{{color:var(--blue)}} .note .t{{font:500 19px/1.35 "Hanken Grotesk",sans-serif;letter-spacing:-.01em}}
+.note p{{font-size:15px;color:var(--muted)}} .note p.t{{color:var(--ink)}}
+.btn{{border-radius:999px}}
+.btn.p{{background:var(--blue)}}
+.sw{{display:inline-block;white-space:nowrap}}
+.hubfx .fx .sc{{display:inline-block;opacity:0;filter:blur(10px);transform:translateY(14%)}}
+.hubfx .fx.on .sc{{animation:xrb .9s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i,0) * 16ms)}}
+@keyframes xrb{{100%{{opacity:1;filter:none;transform:none}}}}
+@media (prefers-reduced-motion:reduce){{.hubfx .fx .sc{{opacity:1;filter:none;transform:none;animation:none}}}}
+</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
 <body>{chrome.header("")}<div class="wrap">
 <main>
@@ -365,36 +436,37 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 <input id="gq" type="search" placeholder="Search a business or address" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="gopts" maxlength="120">
 <ul id="gopts" role="listbox" hidden></ul></div></div>
 <div class="hero-card"><div class="hero-head">
+<span class="nx-eb">Research</span>
 <h1 id="h1">How AI sends customers through the&nbsp;door</h1>
 <p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
-<div class="cta"><a class="btn p big" href="#library">Explore the research <span aria-hidden="true">↓</span></a></div>
+<div class="cta"><a class="nx-xb nx-b" href="#library">Explore the research<i aria-hidden="true">↓</i></a></div>
 <p class="fine" id="gstatus" aria-live="polite">Click the pin to see the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div>
 </div>
 </section>
 
-<section class="nums" aria-labelledby="numh"><h2 id="numh">Local discovery has moved to&nbsp;AI</h2><ul>
-<li><b>45%</b>of consumers ask AI for local business recommendations<a class="src" href="https://www.brightlocal.com/research/lcrs-ai-trust/">BrightLocal, 2026</a></li>
-<li><b>900M+</b>people use ChatGPT every&nbsp;week<a class="src" href="https://searchengineland.com/chatgpt-900-million-weekly-active-users-470492">OpenAI, 2026</a></li>
-<li><b>1B+</b>monthly users of Google AI Mode, with queries doubling every&nbsp;quarter<a class="src" href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Google, May 2026</a></li>
-<li><b>76.4%</b>of local business searches show an AI answer before any&nbsp;link<a class="src" href="local-answer-gap/">Local AI Registry, 2026</a></li></ul></section>
+<section class="nums" aria-labelledby="numh"><span class="nx-eb">Local discovery has moved to AI</span><h2 id="numh">People ask AI where&nbsp;to&nbsp;go.<br><span class="g">Here’s how&nbsp;often.</span></h2><ul>
+<li class="nx-rv"><b>45%</b>of consumers ask AI for local business recommendations<a class="src" href="https://www.brightlocal.com/research/lcrs-ai-trust/">BrightLocal, 2026</a></li>
+<li class="nx-rv" style="--d:.12s"><b>900M+</b>people use ChatGPT every&nbsp;week<a class="src" href="https://searchengineland.com/chatgpt-900-million-weekly-active-users-470492">OpenAI, 2026</a></li>
+<li class="nx-rv" style="--d:.24s"><b>1B+</b>monthly users of Google AI Mode, with queries doubling every&nbsp;quarter<a class="src" href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Google, May 2026</a></li>
+<li class="nx-rv" style="--d:.36s"><b>76.4%</b>of local business searches show an AI answer before any&nbsp;link<a class="src" href="local-answer-gap/">Local AI Registry, 2026</a></li></ul></section>
 
 {library(REAL + (PLACE if prev else []))}
 
-<section class="blk" aria-labelledby="study"><h2 id="study">What we study</h2>
+<section class="blk" aria-labelledby="study"><span class="nx-eb">Focus</span><h2 id="study">What we&nbsp;study</h2>
 <ul class="grid4">
-<li><h3>Where AI gets local facts</h3><p>Which sources AI assistants cite when they answer questions about local&nbsp;businesses.</p></li>
-<li><h3>What AI can read</h3><p>Which pages, listings and formats AI can actually read and verify.</p></li>
-<li><h3>How answers change</h3><p>How wording, timing and the assistant used change who gets&nbsp;recommended.</p></li>
-<li><h3>What owners can do</h3><p>Turning every finding into steps a local business can take, tested on real&nbsp;businesses.</p></li></ul></section>
+<li class="nx-rv"><h3>Where AI gets local facts</h3><p>Which sources AI assistants cite when they answer questions about local&nbsp;businesses.</p></li>
+<li class="nx-rv" style="--d:.12s"><h3>What AI can read</h3><p>Which pages, listings and formats AI can actually read and verify.</p></li>
+<li class="nx-rv" style="--d:.24s"><h3>How answers change</h3><p>How wording, timing and the assistant used change who gets&nbsp;recommended.</p></li>
+<li class="nx-rv" style="--d:.36s"><h3>What owners can do</h3><p>Turning every finding into steps a local business can take, tested on real&nbsp;businesses.</p></li></ul></section>
 
-<section class="blk team" id="research-team" aria-labelledby="t"><h2 id="t">About the Local AI Registry Research Team</h2>
+<section class="blk team" id="research-team" aria-labelledby="t"><span class="nx-eb">The team</span><h2 id="t">About the Local AI Registry <span class="g">Research&nbsp;Team</span></h2>
 {chr(10).join(paras).replace('href="https://localairegistry.com/research/local-answer-gap/#references"','href="local-answer-gap/#references"').replace('href="#references"','href="local-answer-gap/#references"')}
 <p>The team also turns its findings into plain-language explainers on the <a href="https://www.youtube.com/@localairegistry">Local AI Registry YouTube channel</a>.</p></section>
 
-<section class="blk" aria-labelledby="use"><h2 id="use">Use our research</h2>
+<section class="blk" aria-labelledby="use"><span class="nx-eb">Free to use</span><h2 id="use">Use our&nbsp;research</h2>
 <p style="margin:0;max-width:780px">All charts and findings are free to use with credit under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Every chart has a ready-made embed code, and the data behind each study is downloadable. Please credit “Local AI Registry” and link to the study.</p></section>
 
-<section class="blk" id="faq" aria-labelledby="faqh"><h2 id="faqh">Questions about our research</h2>
+<section class="blk" id="faq" aria-labelledby="faqh"><span class="nx-eb">FAQ</span><h2 id="faqh">Questions about our&nbsp;research</h2>
 {"".join(f'<div class="qa"><h3>{e(q)}</h3><p>{e(a).replace(" free at research.", " free at&nbsp;research.")}</p></div>' for q, a in FAQ)}</section>
 
 <aside class="note"><div class="k">One last thing</div><p class="t">AI is evolving every day. So is our&nbsp;research.</p>
@@ -403,6 +475,17 @@ section.blk{{padding:48px 0 0;display:grid;gap:14px}} section.blk h2{{font:800 c
 </div>{chrome.footer("")}<div>
 </div>
 {JS}
+<script>(function(){{
+if(matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window))return;
+document.documentElement.classList.add('hubfx');
+function split(el){{var i=0;(function walk(n){{[].slice.call(n.childNodes).forEach(function(c){{
+ if(c.nodeType===3){{var f=document.createDocumentFragment();c.nodeValue.split(/([  ])/).forEach(function(w){{if(w===''||w===' '){{if(w)f.appendChild(document.createTextNode(' '));return}}
+  if(w===' '){{var nb=document.createElement('span');nb.className='sc';nb.textContent=' ';nb.style.setProperty('--i',i++);f.appendChild(nb);return}}
+  var sw=document.createElement('span');sw.className='sw';w.split('').forEach(function(ch){{var sc=document.createElement('span');sc.className='sc';sc.textContent=ch;sc.style.setProperty('--i',i++);sw.appendChild(sc)}});f.appendChild(sw)}});c.parentNode.replaceChild(f,c)}}
+ else if(c.nodeType===1&&c.tagName!=='BR')walk(c)}})}})(el);el.classList.add('fx');el.setAttribute('aria-label',el.textContent.replace(/\\s+/g,' ').trim())}}
+var io=new IntersectionObserver(function(es){{es.forEach(function(e){{if(e.isIntersecting){{e.target.classList.add('on');io.unobserve(e.target)}}}})}},{{rootMargin:'0px 0px -8% 0px'}});
+[].forEach.call(document.querySelectorAll('main h1, main h2'),function(h){{split(h);io.observe(h)}});
+}})()</script>
 </body></html>'''
 out = build("/research/assets/fonts/")
 assert "\u2014" not in out and "\u2013" not in out
