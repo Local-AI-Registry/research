@@ -81,8 +81,8 @@ def footer(base=""):
         col("Resources", [("Customers", M("/results")), ("Free tools", M("/tools")), ("Compare", M("/compare")), ("News", M("/news")), ("Changelog", M("/changelog"))]),
         col("Company", [("About", M("/about")), ("Team", M("/about#team")), ("Careers", M("/about#careers")), ("Contact", M("/contact")), ("Log in", M("/login")), ("Sign up", M("/signup"))]),
     ])
-    return (f'<div class="nx-foot" role="contentinfo">'
-        f'<section class="nx-close"><div class="nx-in"><span class="nx-eb">The 90-day guarantee</span><h2 class="nx-h2">Put the research to work<br>for your&nbsp;business.</h2>'
+    return (f'<div class="nx-foot">'
+        f'<section class="nx-close"><div class="nx-in"><span class="nx-eb">The 90-day guarantee</span><h2 class="nx-h2">Put the research to work <br>for your&nbsp;business.</h2>'
         f'<p class="nx-subp">Named in AI in 90 days. If not, we keep working for free until&nbsp;it&nbsp;happens.</p>'
         f'<div class="nx-xbs"><a class="nx-xb nx-w" href="{M("/start")}">Get my free AI audit<i>›</i></a><a class="nx-xb nx-o" href="{M("/guarantee")}">How the guarantee works</a></div></div></section>'
         f'<footer class="nx-ft2"><div class="nx-in"><div class="nx-fcols">{cols}</div>'
@@ -94,6 +94,7 @@ CSS = """
 .nx-top,.nx-foot{--nx-ink:#0B1A2E;--nx-ink2:#5A647A;--nx-soft:#8C94A3;--nx-line:#E6E3DC;--nx-blue:#1F4FE0;--nx-paper:#F4F1EA;font:400 16px/1.6 "Hanken Grotesk",system-ui,sans-serif;color:var(--nx-ink);-webkit-font-smoothing:antialiased;text-align:left}
 .nx-top *,.nx-foot *{box-sizing:border-box}
 .nx-top{position:sticky;top:-40px;z-index:40}
+html{scroll-padding-top:120px}
 .nx-in{max-width:1200px;margin:0 auto;padding:0 24px}
 .nx-xa{background:var(--nx-ink);color:#fff;text-align:center;font-size:14px;line-height:20px;padding:10px 16px}
 .nx-xa a{color:#fff;text-decoration:none}
@@ -178,6 +179,8 @@ def apply_to_studies():
         folder = os.path.basename(os.path.dirname(path))
         if folder in ("simulations", "scripts", "assets"): continue
         s = open(path).read()
+        # one ID per entity across the site, matching localairegistry.com
+        s = s.replace("https://localairegistry.com/#steve-lee", "https://localairegistry.com/team/steve-lee#person")
         s = re.sub(r"<!--chrome-css-->.*?<!--/chrome-css-->", "", s, flags=re.S)
         s = s.replace("</style>", "</style><!--chrome-css--><style>" + CSS + "</style><!--/chrome-css-->", 1)
         s = re.sub(r"<!--chrome-head-->.*?<!--/chrome-head-->", "", s, flags=re.S)

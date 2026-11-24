@@ -97,6 +97,10 @@ html.modern .when small,html.modern .days{color:#8C94A3}
 html.modern .qkhour b{font-weight:500}
 html.modern .pin .tag span{font-weight:600;font-size:13px;letter-spacing:0}
 html.modern .credit a{color:#5A647A}
+html.modern .bottom{justify-content:center}
+@media (min-width:900px){html.modern .time{width:auto;flex:0 1 860px;max-width:860px} html.modern .bottom{justify-content:center;align-items:flex-end} html.modern .panel{order:2;flex:0 0 100%;justify-content:center;background:transparent;border:0;padding:2px 0 0}}
+@media (min-width:900px){html.modern.embed .bottom{padding-left:max(12px,calc(50% - 430px));padding-right:max(12px,calc(50% - 430px))}}
+
 </style>
 
 <div id="map" role="img" aria-label="Map of Costa Mesa Courtyards on Newport Boulevard, Costa Mesa, drawn as an old parchment map, with Quiktox marked and footsteps walking to nearby shops."></div>
@@ -299,6 +303,10 @@ html.modern .credit a{color:#5A647A}
   Promise.all([fetch('https://tiles.openfreemap.org/styles/liberty').then(function(r){return r.json();}),geocode()]).then(function(res){
     var style=(MODERN?modern:parchment)(res[0]), center=res[1];
     var map=MAP=new maplibregl.Map({container:'map',style:style,center:center,zoom:18.2,pitch:55,bearing:-35,maxPitch:65,maxZoom:20,minZoom:14,attributionControl:false});
+    /* In the hub's wide layout the headline card covers the left of the map, so the business sits in the open area to its right. */
+    function padForCard(){ var emb=document.documentElement.classList.contains('embed'); var w=innerWidth;
+      map.setPadding(emb&&w>=900?{left:Math.min(700,Math.round(w*.46)),right:0,top:60,bottom:140}:{left:0,right:0,top:0,bottom:0}); }
+    padForCard(); addEventListener('resize',padForCard);
     map.on('load',function(){ try{ map.setLight(MODERN?{anchor:'map',position:[1.4,210,35],color:'#FFFFFF',intensity:.2}:{anchor:'map',position:[1.4,210,35],color:'#FFF4DC',intensity:.45}); }catch(e){} });
     var view3d=true, tb=document.getElementById('view');
     tb.addEventListener('click',function(){view3d=!view3d; tb.textContent=view3d?'Flat map':'3D view';

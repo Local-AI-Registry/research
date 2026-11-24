@@ -26,7 +26,7 @@ DESC = "Original AEO research from Local AI Registry on how ChatGPT, Claude, Gem
 
 TYPES = ["Study", "Brief", "Index", "Dataset", "Experiment"]
 ENGINES = ["ChatGPT", "Claude", "Gemini", "Google AI Overviews", "Google AI Mode", "Perplexity", "Microsoft Copilot", "Meta AI"]
-FILTERS_AT = 10   # search and filters appear once there are this many studies
+FILTERS_AT = 1    # search and filters are always shown
 
 def load_studies():
     data = json.load(open(os.path.join(ROOT, "studies.json")))
@@ -44,18 +44,46 @@ def load_studies():
             type=x["type"], engines=x["ai_assistants"], topics=x["topics"], abstract=x["summary"], data=x.get("data_url") or None, vlen=(x.get("video") or {}).get("length"), real=True))
     return out
 REAL = load_studies()
+WIKI = {"Answer engine optimization": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "Generative engine optimization": "https://en.wikipedia.org/wiki/Generative_engine_optimization",
+        "Local search": "https://en.wikipedia.org/wiki/Local_search_(Internet)",
+        "ChatGPT": "https://en.wikipedia.org/wiki/ChatGPT", "Gemini": "https://en.wikipedia.org/wiki/Google_Gemini",
+        "Claude": "https://en.wikipedia.org/wiki/Claude_(language_model)", "Perplexity": "https://en.wikipedia.org/wiki/Perplexity_AI",
+        "Google AI Overviews": "https://en.wikipedia.org/wiki/AI_Overviews"}
+def thing(name, typ="Thing"):
+    return {"@type": typ, "name": name, "sameAs": WIKI[name]} if name in WIKI else {"@type": typ, "name": name}
+ORG = "https://localairegistry.com/#organization"
+used_engines = sorted({e for x in REAL for e in x["engines"]})
 ld = {"@context": "https://schema.org", "@graph": [
-  {"@type": "Organization", "@id": "https://localairegistry.com/#organization", "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com",
-   "logo": R + "images/local-ai-registry-logo.png", "sameAs": json.loads(SAMEAS),
+  {"@type": "Organization", "@id": ORG, "name": "Local AI Registry", "alternateName": ["LAIR", "localairegistry.com"], "url": "https://localairegistry.com/",
+   "logo": {"@type": "ImageObject", "url": "https://localairegistry.com/brand/logo-512.png", "width": 512, "height": 512},
+   "description": "Local AI Registry gets local businesses named when people ask ChatGPT, Gemini and Google's AI where to go.",
+   "email": "hello@localairegistry.com", "telephone": "+1-213-931-5633", "sameAs": json.loads(SAMEAS),
    "address": {"@type": "PostalAddress", "streetAddress": "9891 Irvine Center Dr", "addressLocality": "Irvine", "addressRegion": "CA", "postalCode": "92618", "addressCountry": "US"},
-   "telephone": "+1-213-931-5633", "subOrganization": {"@id": SITE + "#research-team"}},
-  {"@type": "ResearchOrganization", "@id": SITE + "#research-team", "name": "Local AI Registry Research Team", "url": SITE + "#research-team", "parentOrganization": {"@id": "https://localairegistry.com/#organization"},
-   "knowsAbout": ["Answer engine optimization", "Generative engine optimization", "Google AI Overviews", "AI search citations", "Local search"]},
-  {"@type": "WebSite", "@id": SITE + "#website", "url": SITE, "name": "Local AI Registry Research", "publisher": {"@id": "https://localairegistry.com/#organization"}, "inLanguage": "en-US"},
-  {"@type": "CollectionPage", "@id": SITE + "#page", "url": SITE, "name": "Local AI Registry Research", "description": DESC, "isPartOf": {"@id": SITE + "#website"},
-   "about": [{"@type": "Thing", "name": "Answer engine optimization"}, {"@type": "Thing", "name": "Local search"}],
+   "founder": {"@id": "https://localairegistry.com/team/steve-lee#person"},
+   "knowsAbout": [thing("Answer engine optimization"), thing("Local search"), thing("Google AI Overviews"), "AI search visibility", "Structured data"],
+   "subOrganization": {"@id": "https://localairegistry.com/research#research-team"}},
+  {"@type": "Person", "@id": "https://localairegistry.com/team/steve-lee#person", "name": "Steve Lee", "jobTitle": "Founder and CEO", "worksFor": {"@id": ORG}},
+  {"@type": "ResearchOrganization", "@id": "https://localairegistry.com/research#research-team", "name": "Local AI Registry Research Team", "url": "https://localairegistry.com/research#research-team",
+   "logo": "https://localairegistry.com/brand/logo-512.png", "parentOrganization": {"@id": ORG},
+   "description": "The team at Local AI Registry that studies how AI assistants find, describe and recommend local businesses, and publishes its data.",
+   "knowsAbout": [thing("Answer engine optimization"), thing("Generative engine optimization"), thing("Google AI Overviews"), thing("ChatGPT"), thing("Local search"), "AI search citations"]},
+  {"@type": "WebSite", "@id": "https://localairegistry.com/#website", "url": "https://localairegistry.com/", "name": "Local AI Registry", "publisher": {"@id": ORG}},
+  {"@type": "WebSite", "@id": "https://localairegistry.com/research#website", "url": SITE, "name": "Local AI Registry Research", "publisher": {"@id": ORG}, "isPartOf": {"@id": "https://localairegistry.com/#website"}, "inLanguage": "en-US"},
+  {"@type": "CollectionPage", "@id": SITE + "#page", "url": SITE, "name": TITLE if "TITLE" in globals() else "Local AI Registry Research", "description": DESC, "inLanguage": "en-US",
+   "isPartOf": {"@id": "https://localairegistry.com/research#website"}, "publisher": {"@id": ORG}, "author": {"@id": "https://localairegistry.com/research#research-team"},
+   "primaryImageOfPage": {"@type": "ImageObject", "url": SITE + "og/local-ai-registry-research.png", "width": 1200, "height": 630},
+   "about": [thing("Answer engine optimization"), thing("Local search")],
+   "mentions": [thing(e, "SoftwareApplication") for e in used_engines],
    "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Local AI Registry", "item": "https://localairegistry.com/"}, {"@type": "ListItem", "position": 2, "name": "Research", "item": SITE}]},
-   "mainEntity": {"@type": "ItemList", "numberOfItems": len(REAL), "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + x["url"], "name": x["title"]} for i, x in enumerate(REAL)]},
+   "mainEntity": {"@type": "ItemList", "numberOfItems": len(REAL), "itemListOrder": "https://schema.org/ItemListOrderDescending",
+     "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": SITE + x["url"], "name": x["title"],
+        "item": {"@type": "ScholarlyArticle" if x["type"] in ("Study", "Brief", "Experiment") else "Dataset" if x["type"] == "Dataset" else "Article",
+                 "@id": SITE + x["url"] + "#report", "url": SITE + x["url"], "headline": x["title"][:110], "name": x["title"], "description": x["abstract"],
+                 "identifier": x["id"], "datePublished": x["date"], "inLanguage": "en-US",
+                 "author": {"@id": "https://localairegistry.com/research#research-team"}, "publisher": {"@id": ORG},
+                 "about": [thing(t) for t in x["topics"]], "mentions": [thing(e, "SoftwareApplication") for e in x["engines"]],
+                 "isAccessibleForFree": True, "license": "https://creativecommons.org/licenses/by/4.0/"}} for i, x in enumerate(REAL)]},
    "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".hero-card h1", ".nums", "#faq"]}},
   {"@type": "FAQPage", "@id": SITE + "#faq", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]}]}
 PH = [("How ChatGPT picks a med spa near you","Study",["ChatGPT"],["Med spas"]),
@@ -250,7 +278,7 @@ JS = r'''<script>
 </script>'''
 
 def build(fb, prev=False):
-    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1&theme=modern&v=3" if prev else "/research/simulations/quiktox-foot-traffic?embed=1&theme=modern&v=3"
+    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1&theme=modern&v=5" if prev else "/research/simulations/quiktox-foot-traffic?embed=1&theme=modern&v=5"
     fav = "" if prev else '<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -445,7 +473,7 @@ section.blk p{{color:var(--muted)}}
 </div>
 </section>
 
-<section class="nums" aria-labelledby="numh"><span class="nx-eb">Local discovery has moved to AI</span><h2 id="numh">People ask AI where&nbsp;to&nbsp;go.<br><span class="g">Here’s how&nbsp;often.</span></h2><ul>
+<section class="nums" aria-labelledby="numh"><span class="nx-eb">Local discovery has moved to AI</span><h2 id="numh">People ask AI where&nbsp;to&nbsp;go. <br><span class="g">Here’s how&nbsp;often.</span></h2><ul>
 <li class="nx-rv"><b>45%</b>of consumers ask AI for local business recommendations<a class="src" href="https://www.brightlocal.com/research/lcrs-ai-trust/">BrightLocal, 2026</a></li>
 <li class="nx-rv" style="--d:.12s"><b>900M+</b>people use ChatGPT every&nbsp;week<a class="src" href="https://searchengineland.com/chatgpt-900-million-weekly-active-users-470492">OpenAI, 2026</a></li>
 <li class="nx-rv" style="--d:.24s"><b>1B+</b>monthly users of Google AI Mode, with queries doubling every&nbsp;quarter<a class="src" href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Google, May 2026</a></li>

@@ -68,7 +68,7 @@ You only ever edit one file: `studies.json`.
 4. Click "Commit changes". About a minute later the "Build research hub" automation rebuilds the hub page. If something is wrong (a missing field or a misspelled AI assistant name), the automation fails and the Actions tab says exactly which line to fix.
 5. Add the new page to `sitemap.xml` and `llms.txt`.
 
-Search and filters appear on the hub automatically once there are 10 studies.
+Search and filters always show on the hub, above the library.
 
 The hero map lives in `simulations/quiktox-foot-traffic/`. The hub shows it with `?embed=1`, which hides the map's own title card so the hub headline sits on top.
 
