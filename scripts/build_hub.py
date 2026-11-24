@@ -133,7 +133,7 @@ JS = r'''<script>
   var f=document.getElementById('sim');
   function load(){ if(f && !f.src) f.src=f.getAttribute('data-src'); }
   if(document.readyState==='complete') setTimeout(load,50); else addEventListener('load',function(){setTimeout(load,50);});
-  var GKEY=document.getElementById('finder').getAttribute('data-gkey'), CONTACT=document.getElementById('finder').getAttribute('data-contact'), tok=null;
+  var AUDIT='https://localairegistry.com/start', GKEY=document.getElementById('finder').getAttribute('data-gkey'), CONTACT=document.getElementById('finder').getAttribute('data-contact'), tok=null;
   var gq=document.getElementById('gq'), go=document.getElementById('gopts'), gs=document.getElementById('gstatus'), items=[], act=-1, timer=null, seq=0;
   function kindOf(p){ var k=(p.osm_key||'')+'='+(p.osm_value||''), n=(p.name||'').toLowerCase();
     if(/med ?spa|medspa|aesthetic|botox|injector|laser|skin clinic/.test(n)) return 'medspa';
@@ -149,13 +149,14 @@ JS = r'''<script>
   function show(){ go.innerHTML='';
     if(state==='busy'){ go.innerHTML='<li class="none">Searching\u2026</li>'; }
     else if(state==='down'){ go.innerHTML='<li class="none">Business search is busy right now. Try again in a moment.</li>'; }
-    else if(!items.length){ go.innerHTML='<li class="none">No match for that name.</li>'; }
+    else if(!items.length){ go.innerHTML='<li class="none">We couldn\u2019t find that business on the map.</li>'; }
     items.forEach(function(it,i){ var li=document.createElement('li'); li.id='go'+i; li.setAttribute('role','option'); li.setAttribute('aria-selected',i===act?'true':'false');
       var b=document.createElement('b'); b.textContent=it.name; var sp=document.createElement('span'); sp.textContent=it.area; li.appendChild(b); li.appendChild(sp);
       li.addEventListener('mousedown',function(e){e.preventDefault(); pickIt(i);}); go.appendChild(li); });
     if(state!=='busy'){ var cta=document.createElement('li'); cta.className='cta'+(act===items.length?' on':''); cta.setAttribute('role','option'); cta.id='go'+items.length; cta.setAttribute('aria-selected',act===items.length?'true':'false');
-      var a=document.createElement('a'); a.href=CONTACT; a.textContent='Don\u2019t see your business? Add it free \u2192'; cta.appendChild(a);
-      cta.addEventListener('mousedown',function(e){e.preventDefault(); location.href=CONTACT;}); go.appendChild(cta); }
+      var q=gq.value.trim(), au=AUDIT+(q?'?biz='+encodeURIComponent(q):'');
+      var a=document.createElement('a'); a.href=au; a.textContent=items.length?'Not listed? Get your free AI audit \u2192':'Can\u2019t find it? Get your free AI audit \u2192'; cta.appendChild(a);
+      cta.addEventListener('mousedown',function(e){e.preventDefault(); location.href=au;}); go.appendChild(cta); }
     if((GKEY||(REG&&google))&&items.length){ var at=document.createElement('li'); at.className='attr'; at.setAttribute('aria-hidden','true'); at.textContent='Results from Google'; go.appendChild(at); }
     go.hidden=false; gq.setAttribute('aria-expanded','true'); }
   function pickIt(i){ var it=items[i]; if(!it) return; gq.value=it.name; close();
@@ -249,7 +250,7 @@ JS = r'''<script>
   gq.addEventListener('keydown',function(e){ if(go.hidden) return;
     if(e.key==='ArrowDown'){act=Math.min(act+1,items.length);show();e.preventDefault();}
     else if(e.key==='ArrowUp'){act=Math.max(act-1,0);show();e.preventDefault();}
-    else if(e.key==='Enter'){ if(act===items.length){location.href=CONTACT;} else if(act>-1){pickIt(act);} e.preventDefault(); }
+    else if(e.key==='Enter'){ var q=gq.value.trim(), au=AUDIT+(q?'?biz='+encodeURIComponent(q):''); if(act===items.length||(!items.length&&state==='done')){location.href=au;} else if(act>-1){pickIt(act);} e.preventDefault(); }
     else if(e.key==='Escape'){close();} });
   gq.addEventListener('blur',function(){setTimeout(close,150);});
   var list=document.getElementById('studies'), rows=[].slice.call(list.children), q=document.getElementById('q'),
@@ -278,7 +279,7 @@ JS = r'''<script>
 </script>'''
 
 def build(fb, prev=False):
-    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1&theme=modern&v=5" if prev else "/research/simulations/quiktox-foot-traffic?embed=1&theme=modern&v=5"
+    MAPSRC = "simulations/quiktox-foot-traffic/index.html?embed=1&theme=modern&v=6" if prev else "/research/simulations/quiktox-foot-traffic?embed=1&theme=modern&v=6"
     fav = "" if prev else '<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -452,6 +453,21 @@ section.blk p{{color:var(--muted)}}
 .hubfx .fx .sc{{display:inline-block;opacity:0;filter:blur(10px);transform:translateY(14%)}}
 .hubfx .fx.on .sc{{animation:xrb .9s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i,0) * 16ms)}}
 @keyframes xrb{{100%{{opacity:1;filter:none;transform:none}}}}
+
+/* Hero: the text sits above the map, the map gets its own rounded panel */
+.hero-map{{height:auto!important;display:flex;flex-direction:column;background:none!important;overflow:visible;border:0;border-radius:0!important}}
+.hero-card{{display:contents}}
+.hero-head{{order:1;max-width:1200px;width:100%;margin:0 auto;padding:clamp(40px,6vw,88px) 24px clamp(28px,4vw,48px);display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:clamp(32px,5vw,80px);row-gap:0;align-items:end}}
+.hero-head .nx-eb{{grid-column:1/-1}}
+.hero-head h1{{margin:0;font-size:clamp(36px,4.4vw,60px)!important;line-height:1.08!important}}
+.hero-head h1 .g{{color:var(--soft)}}
+.hero-side{{display:grid;gap:24px;padding-bottom:6px}}
+.hero-side p{{margin:0;font-size:clamp(17px,1.4vw,20px);line-height:1.5;color:var(--muted)}}
+.hero-side .cta{{margin:0}}
+.mapbox{{order:2;position:relative!important;inset:auto!important;height:clamp(520px,74svh,820px);margin:0 clamp(8px,1.5vw,20px);border-radius:clamp(20px,2.6vw,36px);overflow:hidden;background:#F7F5F0;border:1px solid var(--line)}}
+.hero-map>.fine{{order:3;max-width:1200px;width:100%;margin:12px auto 0;padding:0 24px;font-size:12.5px;color:var(--soft)}}
+@media (max-width:860px){{.hero-head{{grid-template-columns:minmax(0,1fr);row-gap:20px;padding-top:32px}} .hero-head h1{{font-size:clamp(32px,8vw,44px)!important}}}}
+@media (max-width:640px){{.hero-head p{{display:block!important}} .mapbox{{height:min(560px,78svh);min-height:420px;margin:0 8px;border-radius:20px}} .hero-map{{min-height:0!important}}}}
 @media (prefers-reduced-motion:reduce){{.hubfx .fx .sc{{opacity:1;filter:none;transform:none;animation:none}}}}
 </style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head>
@@ -466,11 +482,11 @@ section.blk p{{color:var(--muted)}}
 <ul id="gopts" role="listbox" hidden></ul></div></div>
 <div class="hero-card"><div class="hero-head">
 <span class="nx-eb">Research</span>
-<h1 id="h1">How AI sends customers through the&nbsp;door</h1>
-<p>Every day people ask ChatGPT, Claude, Gemini and Google where to go. We study how those answers are made, and which local businesses they&nbsp;name.</p>
-<div class="cta"><a class="nx-xb nx-b" href="#library">Explore the research<i aria-hidden="true">↓</i></a></div>
-<p class="fine" id="gstatus" aria-live="polite">Click the pin to see the business on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p></div>
+<h1 id="h1">AI changes every day. <br><span class="g">Our research team keeps&nbsp;up.</span></h1>
+<div class="hero-side"><p>A dedicated team that studies how ChatGPT, Gemini, Claude and Google pick local businesses, and publishes what it finds, with the&nbsp;data.</p>
+<div class="cta"><a class="nx-xb nx-b" href="#library">Explore the research<i aria-hidden="true">↓</i></a></div></div></div>
 </div>
+<p class="fine" id="gstatus" aria-live="polite">Search any business, or click the pin to see it on Local AI Registry. Real streets; foot traffic is&nbsp;illustrative.</p>
 </section>
 
 <section class="nums" aria-labelledby="numh"><span class="nx-eb">Local discovery has moved to AI</span><h2 id="numh">People ask AI where&nbsp;to&nbsp;go. <br><span class="g">Here’s how&nbsp;often.</span></h2><ul>

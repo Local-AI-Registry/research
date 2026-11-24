@@ -305,7 +305,7 @@ html.modern .bottom{justify-content:center}
     var map=MAP=new maplibregl.Map({container:'map',style:style,center:center,zoom:18.2,pitch:55,bearing:-35,maxPitch:65,maxZoom:20,minZoom:14,attributionControl:false});
     /* In the hub's wide layout the headline card covers the left of the map, so the business sits in the open area to its right. */
     function padForCard(){ var emb=document.documentElement.classList.contains('embed'); var w=innerWidth;
-      map.setPadding(emb&&w>=900?{left:Math.min(700,Math.round(w*.46)),right:0,top:60,bottom:140}:{left:0,right:0,top:0,bottom:0}); }
+      map.setPadding(emb&&w>=900&&/[?&]card=left/.test(location.search)?{left:Math.min(700,Math.round(w*.46)),right:0,top:60,bottom:140}:{left:0,right:0,top:0,bottom:0}); }
     padForCard(); addEventListener('resize',padForCard);
     map.on('load',function(){ try{ map.setLight(MODERN?{anchor:'map',position:[1.4,210,35],color:'#FFFFFF',intensity:.2}:{anchor:'map',position:[1.4,210,35],color:'#FFF4DC',intensity:.45}); }catch(e){} });
     var view3d=true, tb=document.getElementById('view');
