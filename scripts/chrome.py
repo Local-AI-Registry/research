@@ -179,6 +179,8 @@ STUDY_CSS = """
 html{overflow-x:clip}
 body{margin:0!important;padding-bottom:0!important}
 .nx-top,.nx-foot{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.nx-foot .nx-close,.nx-foot .nx-ft2{max-width:none!important;width:auto!important;margin:0!important}
+.nx-foot{margin-bottom:0!important}
 """
 
 def apply_to_studies():
