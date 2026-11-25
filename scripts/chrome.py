@@ -122,6 +122,8 @@ html{scroll-padding-top:120px}
 .nx-menu span{display:block;width:18px;height:1.5px;background:var(--nx-ink);margin:4px auto}
 .nx-sub{border-top:1px solid var(--nx-line)}
 .nx-sub .nx-in{display:flex;align-items:center;gap:22px;height:42px;overflow-x:auto;scrollbar-width:none}
+.nx-sub .nx-in::-webkit-scrollbar{display:none}
+@media(max-width:760px){.nx-sub .nx-in{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 44px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 44px),transparent);padding-right:44px}.nx-sub .nx-in:after{content:"";flex:0 0 1px}}
 .nx-sub a{font-size:13.5px;color:var(--nx-ink2)!important;text-decoration:none;white-space:nowrap}.nx-sub a:hover{color:var(--nx-ink)!important}
 .nx-sub .nx-subh{font:600 11px/1 "Bricolage Grotesque",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--nx-blue)!important}
 .nx-xm{display:none;position:fixed;inset:0;z-index:60;background:#fff;padding:16px 24px 24px;flex-direction:column;overflow-y:auto}
