@@ -173,6 +173,14 @@ html{scroll-padding-top:120px}
 @media (prefers-reduced-motion:reduce){.nx-rv{opacity:1!important;filter:none!important;transform:none!important}}
 """
 
+# Study pages keep their own centered column (body padding), so the shared header and footer
+# break out of it to run edge to edge, the way they do on the hub and the main site.
+STUDY_CSS = """
+html{overflow-x:clip}
+body{margin:0!important;padding-bottom:0!important}
+.nx-top,.nx-foot{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+"""
+
 def apply_to_studies():
     """Insert the shared header and footer into every study page (folders with index.html, except the hub and simulations)."""
     for path in glob.glob(os.path.join(ROOT, "*", "index.html")):
@@ -182,7 +190,7 @@ def apply_to_studies():
         # one ID per entity across the site, matching localairegistry.com
         s = s.replace("https://localairegistry.com/#steve-lee", "https://localairegistry.com/team/steve-lee#person")
         s = re.sub(r"<!--chrome-css-->.*?<!--/chrome-css-->", "", s, flags=re.S)
-        s = s.replace("</style>", "</style><!--chrome-css--><style>" + CSS + "</style><!--/chrome-css-->", 1)
+        s = s.replace("</style>", "</style><!--chrome-css--><style>" + CSS + STUDY_CSS + "</style><!--/chrome-css-->", 1)
         s = re.sub(r"<!--chrome-head-->.*?<!--/chrome-head-->", "", s, flags=re.S)
         s = re.sub(r"(<body[^>]*>)", r"\1<!--chrome-head-->" + header("../").replace("\\", "\\\\") + "<!--/chrome-head-->", s, count=1)
         s = re.sub(r"<!--chrome-foot-->.*?<!--/chrome-foot-->", "", s, flags=re.S)
