@@ -11,6 +11,27 @@
   ],
   "studies": [
     {
+      "id": "LAIR-R-2026-005",
+      "title": "Why AI Chooses One Business Over Another: What Three Controlled Experiments Show",
+      "short_title": "Why AI Chooses One Business Over Another",
+      "url": "why-ai-chooses-one-business-over-another/",
+      "date": "2026-11-26",
+      "type": "Brief",
+      "summary": "In controlled experiments reviewed by Local AI Registry, a 4.7 rather than a 3.9 star rating raised the average probability that an AI model picked a hotel by 31.6 percentage points and a family doctor by 31.4 points, while none of the three experiments tested which businesses an assistant retrieves or mentions on its own.",
+      "ai_assistants": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "topics": [
+        "AI visibility",
+        "Reviews",
+        "Healthcare",
+        "Hotels"
+      ],
+      "data_url": "why-ai-chooses-one-business-over-another/data/why-ai-chooses-one-business-over-another-data.csv"
+    },
+    {
       "id": "LAIR-R-2026-004",
       "title": "LocalAITrends: what America searches before it books",
       "url": "local-ai-trends/",

@@ -1,0 +1,1254 @@
+<!doctype html>
+<html lang="en-US"><head><meta charset="utf-8"><meta name="color-scheme" content="light"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Why AI Chooses One Business Over Another | Local AI Registry</title>
+<meta name="description" content="Three controlled experiments reviewed by Local AI Registry: a 4.7 vs 3.9 rating moved AI hotel picks by 31.6 points. What they show, and what they do not.">
+<link rel="canonical" href="https://localairegistry.com/research/why-ai-chooses-one-business-over-another">
+<link rel="alternate" type="text/markdown" href="https://localairegistry.com/research/why-ai-chooses-one-business-over-another/index.md" title="Markdown version">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Local AI Registry Research Team">
+<meta property="og:type" content="article"><meta property="og:locale" content="en_US">
+<link rel="icon" href="/research/favicon.ico" sizes="any"><link rel="icon" href="/research/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/research/apple-touch-icon.png"><link rel="manifest" href="/research/site.webmanifest">
+<meta name="theme-color" content="#F4F1EA"><meta property="og:site_name" content="Local AI Registry Research">
+<meta property="og:title" content="Why AI chooses one business over another: three controlled experiments">
+<meta property="og:description" content="Three controlled experiments reviewed by Local AI Registry: a 4.7 vs 3.9 rating moved AI hotel picks by 31.6 points. What they show, and what they do not.">
+<meta property="og:url" content="https://localairegistry.com/research/why-ai-chooses-one-business-over-another">
+<meta property="og:image" content="https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/share.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="Hotels: a 4.7 rather than 3.9 rating raised AI picks by 31.6 points; a $249 rather than $129 price lowered them by 30.0 points">
+<meta property="article:published_time" content="2026-11-26"><meta property="article:author" content="Local AI Registry Research Team">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@LocalAIRegistry"><meta name="twitter:title" content="Why AI chooses one business over another: three controlled experiments">
+<meta name="twitter:description" content="Three controlled experiments reviewed by Local AI Registry: a 4.7 vs 3.9 rating moved AI hotel picks by 31.6 points. What they show, and what they do not."><meta name="twitter:image" content="https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/share.png"><meta name="twitter:image:alt" content="Hotels: a 4.7 rather than 3.9 rating raised AI picks by 31.6 points; a $249 rather than $129 price lowered them by 30.0 points">
+<link rel="preload" href="/research/assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/research/assets/fonts/cormorant.woff2" as="font" type="font/woff2" crossorigin><style>@font-face{font-family:'Hanken Grotesk';src:url(/research/assets/fonts/hanken-grotesk.woff2) format('woff2');font-weight:400 700;font-style:normal;font-display:swap}@font-face{font-family:'Bricolage Grotesque';src:url(/research/assets/fonts/bricolage-grotesque.woff2) format('woff2');font-weight:600 800;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/research/assets/fonts/cormorant.woff2) format('woff2');font-weight:500 600;font-style:normal;font-display:swap}@font-face{font-family:'Cormorant';src:url(/research/assets/fonts/cormorant-italic.woff2) format('woff2');font-weight:500 600;font-style:italic;font-display:swap}</style><!--chrome-css--><style>
+.sitehead{width:100%;margin:0;background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:30}
+.sh-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:20px}
+.sh-brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
+.sh-brand img{display:block;width:170px;height:auto}
+.sh-tag{font:800 11px/1 var(--f-head,system-ui);letter-spacing:.1em;text-transform:uppercase;color:var(--blue);border-left:1px solid var(--line);padding-left:10px}
+.sh-nav{display:flex;gap:18px;font-size:14px;font-weight:600}
+.sh-nav a,.sh-main{color:var(--ink);text-decoration:none} .sh-nav a:hover,.sh-main:hover{color:var(--blue)}
+.sh-right{margin-left:auto;display:flex;align-items:center;gap:16px;font-size:14px;font-weight:600}
+.sh-cta{background:var(--blue);color:#fff;text-decoration:none;padding:9px 14px;border-radius:8px;font-weight:700;white-space:nowrap}
+.sh-cta:hover{filter:brightness(1.08)}
+.sh-back{display:none}
+@media (max-width:860px){.sh-nav,.sh-main{display:none}.sh-back{display:block;background:var(--deep,#ECE6D8);border-bottom:1px solid var(--line);padding:7px 16px;font-size:13px;font-weight:600;color:var(--ink);text-decoration:none}.sh-back:hover{color:var(--blue)}}
+.sh-s{display:none}
+@media (max-width:560px){.sh-in{gap:12px}.sh-brand{gap:8px}.sh-brand img{width:132px}.sh-tag{padding-left:8px;font-size:10px}.sh-cta{padding:8px 11px;font-size:13px}.sh-l{display:none}.sh-s{display:inline}}
+@media (max-width:380px){.sh-tag{display:none}}
+.sitefoot{margin-top:64px;border-top:1px solid var(--line);background:var(--deep)}
+.sf-in{max-width:1180px;margin:0 auto;padding:36px 16px 24px;display:grid;grid-template-columns:minmax(0,1.6fr) repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:860px){.sf-in{grid-template-columns:repeat(2,minmax(0,1fr))}.sf-brand{grid-column:1/-1}}
+.sf-brand{display:grid;gap:10px;align-content:start} .sf-brand p{margin:0;font-size:14px;color:var(--muted);max-width:420px}
+.sf-col h2{font:800 13px/1.2 var(--f-head,system-ui);letter-spacing:.06em;text-transform:uppercase;margin:0 0 10px}
+.sf-col ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;font-size:14px} .sf-col a,.sf-legal a,.sf-addr a{color:var(--ink)}
+.sf-legal{max-width:1180px;margin:0 auto;padding:14px 16px 28px;font-size:13px;color:var(--muted);border-top:1px solid var(--line)}
+</style><!--/chrome-css-->
+<style>
+/* Layout: one reading column of findings; each finding = claim, chart, how-we-got-it. Charts sit in full-width bands. */
+:root{
+  --blue:#1F4FE0; --blue-ink:#1F4FE0; --coral:#FF5A3C; --ink:#0B1A2E; --ink-soft:#4a5a72;
+  --paper:#F4F1EA; --paper-deep:#ECE6D6; --card:#FBF9F4; --line:#d8d2c3; --tint:#E7EDFC; --good:#1f8a4c;
+  --bg:var(--paper); --fg:var(--ink); --muted:var(--ink-soft); --heat-txt:#ffffff;
+  --f-display:"Cormorant", Georgia, "Times New Roman", serif;
+  --f-head:"Bricolage Grotesque", "Hanken Grotesk", system-ui, sans-serif;
+  --f-body:"Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:17px;line-height:1.6;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:0 64px}
+.wrap{max-width:980px;margin:0 auto}
+.col{max-width:680px}
+p{margin:0;text-wrap:pretty}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:var(--blue-ink)}
+header{padding-block:28px 40px;border-bottom:1px solid var(--line);display:grid;gap:28px}
+.logo{color:var(--fg);width:200px;height:auto;display:block}
+.eyebrow{font-family:var(--f-head);font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue-ink)}
+h1{font-family:var(--f-display);font-weight:600;font-size:clamp(40px,7vw,72px);line-height:1.02;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--blue-ink)}
+.lede{font-size:19px;color:var(--muted);max-width:640px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:600}
+section{padding-block:56px 8px;display:grid;gap:22px}
+.fnum{font-family:var(--f-head);font-weight:800;font-size:13px;letter-spacing:.1em;color:var(--blue-ink);text-transform:uppercase}
+h2{font-family:var(--f-head);font-weight:700;font-size:clamp(26px,4vw,36px);line-height:1.15;letter-spacing:-.01em}
+h3{font-family:var(--f-head);font-weight:700;font-size:18px}
+.claim{font-family:var(--f-display);font-size:clamp(22px,3vw,27px);line-height:1.3;font-weight:500}
+.claim strong{font-weight:600;color:var(--blue-ink)}
+.body{display:grid;gap:14px;max-width:680px}
+.chart{align-content:start;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:20px;display:grid;gap:12px;min-width:0}
+.chart h3{font-size:16px}
+.chart .sub{font-size:14px;color:var(--muted)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.how{font-size:14px;color:var(--muted);border-left:2px solid var(--line);padding-left:14px;max-width:680px}
+.how b{color:var(--fg);font-weight:600}
+.two{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
+svg text{font-family:var(--f-body);fill:var(--fg)}
+svg .mut{fill:var(--muted)}
+svg .hd{font-family:var(--f-head);font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-head);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n{text-align:right;white-space:nowrap}
+.flag{color:var(--coral);font-weight:600}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;background:var(--tint);color:var(--blue-ink);white-space:nowrap}
+.pill.sell{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.big{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))}
+.big div{display:grid;gap:4px}
+.big b{font-family:var(--f-display);font-size:44px;line-height:1;font-weight:600;color:var(--blue-ink);font-variant-numeric:tabular-nums}
+.big span{font-size:14px;color:var(--muted)}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--paper);font-size:13px;line-height:1.35;padding:7px 10px;border-radius:4px;max-width:260px;z-index:20}
+ol.concl{margin:0;padding-left:22px;display:grid;gap:12px;max-width:680px}
+ol.concl li::marker{font-family:var(--f-head);font-weight:800;color:var(--blue-ink)}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:10px}
+footer ul{margin:0;padding-left:18px;display:grid;gap:4px}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media (max-width:520px){ body{font-size:16px} .chart{padding:14px} }
+
+.hero{padding-block:24px 36px;border-bottom:1px solid var(--line);display:grid;gap:18px}
+.logo-link img{display:block;width:200px;height:auto}
+.crumbs{font-size:13px;color:var(--muted)} .crumbs a{color:var(--muted)}
+.byline{color:var(--muted);font-size:15px}
+.tldr{background:var(--tint);border-left:3px solid var(--blue);padding:16px 20px;border-radius:4px;max-width:760px;display:grid;gap:8px}
+.tldr p{font-size:18px}
+ul.meta{list-style:none;padding:0;margin:0}
+h2{scroll-margin-top:16px}
+section{max-width:860px}
+section > p,section > ul,section > dl{max-width:700px}
+.kf{display:grid;gap:10px;max-width:760px;padding-left:22px;margin:0}
+.kf li{font-size:17px}
+.kf li::marker{font-family:var(--f-head);font-weight:800;color:var(--blue-ink)}
+.toc ol{columns:2;column-gap:28px;padding-left:20px;font-size:15px;margin:8px 0 0}
+.toc{border:1px solid var(--line);border-radius:6px;padding:16px 20px;margin-top:40px;background:var(--card)}
+.toc h2{font-size:18px}
+@media (max-width:600px){.toc ol{columns:1}}
+.fig{margin:8px 0;display:grid;grid-template-columns:minmax(0,1fr);gap:8px;max-width:860px}
+.fig > *{min-width:0} .scroll{overflow-x:auto;max-width:100%}
+.fig img{width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#FBF9F4}
+.fig figcaption{font-size:14.5px;color:var(--muted);line-height:1.5;max-width:760px}
+.fig figcaption b{color:var(--fg)}
+.dl{white-space:nowrap;margin-left:4px}
+details{font-size:14px} summary{cursor:pointer;color:var(--blue-ink);font-weight:600}
+details table{margin-top:8px}
+.terms{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:8px 18px;font-size:15px;border-top:1px solid var(--line);padding-top:14px}
+.terms dt{font-weight:700} .terms dd{margin:0;color:var(--muted)}
+@media (max-width:600px){.terms{grid-template-columns:1fr}.terms dd{margin-bottom:6px}}
+.aeo{background:var(--tint);border-left:3px solid var(--blue);border-radius:4px;padding:18px 20px;display:grid;gap:10px;max-width:820px}
+.aeo-k{font-family:var(--f-head);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-ink)}
+.aeo-t{font-family:var(--f-display);font-size:23px;line-height:1.25;font-weight:600;text-wrap:balance}
+.aeo-cols{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.aeo-cols h3{font-family:var(--f-head);font-size:13px;margin:0 0 4px}
+.aeo-cols p{font-size:15px}
+.closing{margin-top:56px}
+.qa{display:grid;gap:6px;max-width:720px;border-top:1px solid var(--line);padding-top:14px}
+.qa h3{font-size:18px}
+.svc{display:grid;gap:8px}
+section > *{min-width:0}
+pre.cite{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px;font-size:14px;max-width:760px}
+.author{border-top:1px solid var(--line);max-width:900px}
+.byline{text-wrap:pretty;max-width:680px}
+.lead{font-size:18px}
+.alumni{display:grid;gap:10px;border:1px solid var(--line);background:var(--card);border-radius:6px;padding:16px 18px}
+.alumni ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 22px}
+.alumni li{font-family:var(--f-head);font-weight:800;font-size:clamp(17px,2.4vw,22px);letter-spacing:-.01em;color:var(--fg)}
+.diff{display:grid;gap:10px;max-width:760px}
+.team{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))}
+.member{border:1px solid var(--line);border-radius:6px;padding:14px 16px;background:var(--card);display:grid;gap:4px;align-content:start}
+#steve-lee{grid-column:1/-1}
+#steve-lee p{max-width:680px}
+.m-n{font-family:var(--f-head);font-weight:800;font-size:18px}
+.m-t{font-size:13px;color:var(--blue-ink);font-weight:600}
+.member p{font-size:14.5px;color:var(--muted);margin-top:4px}
+.scholars{display:grid;gap:8px;font-size:15px;max-width:760px}
+.refs{display:grid;gap:8px;font-size:15px;max-width:760px;overflow-wrap:anywhere}
+.fine{font-size:13px;color:var(--muted)}
+details.embed summary{font-size:13px;color:var(--muted);font-weight:500}
+details.embed textarea{width:100%;font:12px/1.4 ui-monospace,monospace;margin-top:6px;border:1px solid var(--line);border-radius:4px;padding:8px;background:var(--card);color:var(--fg);resize:vertical}
+.quotes{border:1px solid var(--line);background:var(--card);border-radius:6px;padding:16px 18px;display:grid;gap:8px;max-width:760px}
+.quotes .src{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+p,li,figcaption,dd,.aeo-t{text-wrap:pretty}
+td,th{text-wrap:balance}
+.quotes ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:15px}
+table.play td{font-size:14px}
+.fig .fig-m{display:none}
+@media (max-width:640px){.fig .fig-d{display:none}.fig .fig-m{display:block}}
+.fig .pill{margin-right:4px;vertical-align:1px}
+.stats{max-width:860px;margin-top:4px}
+.stats b{font-size:clamp(36px,6vw,44px)}
+.stats span{font-size:14.5px;line-height:1.45}
+.stats div{border-top:2px solid var(--blue);padding-top:10px}
+table caption{caption-side:top;text-align:left;font-family:var(--f-head);font-weight:700;font-size:15px;color:var(--fg);padding:0 0 8px}
+table.data,table.play{background:var(--card);border:1px solid var(--line);border-radius:6px}
+table.data th[scope=row],table.play th[scope=row]{font-family:var(--f-body);font-size:14.5px;font-weight:600;letter-spacing:0;text-transform:none;color:var(--fg)}
+table.play th[scope=row] b{font-weight:700}
+th.n,td.n{text-align:right;white-space:nowrap}
+details table th[scope=row]{font-family:var(--f-body);font-size:14px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--fg)}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+a.cite-link{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:2px}
+a.cite-link:hover{color:var(--blue-ink);text-decoration-color:currentColor}
+.refs li{scroll-margin-top:16px}
+#references h3{margin-top:10px}
+ol.concl li{max-width:680px}
+@media (max-width:640px){
+ table.stack,table.stack tbody,table.stack tr,table.stack th[scope=row],table.stack td,table.stack caption{display:block;width:100%}
+ table.stack thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+ table.stack tr{border-bottom:1px solid var(--line);padding:10px 12px}
+ table.stack th[scope=row],table.stack td{border:0;padding:3px 0;text-align:left;white-space:normal}
+ table.stack th[scope=row]{font-size:15px;font-weight:700;padding-bottom:6px}
+ table.stack td::before{content:attr(data-label);display:block;font-family:var(--f-head);font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+ table.stack td.n{text-align:left}
+ table.stack caption{padding:0 0 8px}
+}
+</style>
+<script type="application/ld+json">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://localairegistry.com/#organization",
+   "name": "Local AI Registry",
+   "alternateName": [
+    "LAIR",
+    "localairegistry.com"
+   ],
+   "url": "https://localairegistry.com",
+   "sameAs": [
+    "https://www.linkedin.com/company/local-ai-registry",
+    "https://x.com/LocalAIRegistry",
+    "https://www.instagram.com/localairegistry/",
+    "https://www.facebook.com/profile.php?id=61591432116527",
+    "https://www.tiktok.com/@localairegistry",
+    "https://pinterest.com/localairegistry",
+    "https://www.trustpilot.com/review/localairegistry.com",
+    "https://www.youtube.com/@localairegistry",
+    "https://www.crunchbase.com/organization/local-ai-registry",
+    "https://www.saasworthy.com/product/local-ai-registry"
+   ],
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-213-931-5633",
+    "contactType": "sales",
+    "areaServed": "US",
+    "availableLanguage": [
+     "English"
+    ]
+   },
+   "subOrganization": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://localairegistry.com/research/med-spa-search-signals/images/local-ai-registry-logo.png"
+   },
+   "description": "Local AI Registry is an answer engine optimization (AEO) company for local businesses. It builds verified, owner-confirmed public records of local businesses and pushes those facts to the sources AI systems read.",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9891 Irvine Center Dr",
+    "addressLocality": "Irvine",
+    "addressRegion": "CA",
+    "postalCode": "92618",
+    "addressCountry": "US"
+   },
+   "telephone": "+1-213-931-5633",
+   "founder": {
+    "@id": "https://localairegistry.com/#steve-lee"
+   },
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "Search engine optimization",
+    "Local search",
+    "Google AI Overviews",
+    "Google Business Profile",
+    "LocalBusiness structured data",
+    "AI search visibility"
+   ],
+   "areaServed": "US",
+   "slogan": "Be the name AI says."
+  },
+  {
+   "@type": "ResearchOrganization",
+   "@id": "https://localairegistry.com/research#research-team",
+   "name": "Local AI Registry Research Team",
+   "url": "https://localairegistry.com/research/med-spa-search-signals#authors",
+   "parentOrganization": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "description": "Local AI Registry’s dedicated local AI research team, studying how AI systems find, read and describe local businesses.",
+   "member": [
+    {
+     "@id": "https://localairegistry.com/#steve-lee"
+    }
+   ],
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "Google AI Overviews",
+    "AI search citations",
+    "Local search",
+    "Local SEO"
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://localairegistry.com/#steve-lee",
+   "name": "Steve Lee",
+   "jobTitle": "Chief Executive Officer",
+   "worksFor": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "memberOf": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "url": "https://localairegistry.com",
+   "alumniOf": [
+    {
+     "@type": "Organization",
+     "name": "Google",
+     "sameAs": "https://en.wikipedia.org/wiki/Google"
+    },
+    {
+     "@type": "Organization",
+     "name": "Microsoft",
+     "sameAs": "https://en.wikipedia.org/wiki/Microsoft"
+    },
+    {
+     "@type": "Organization",
+     "name": "Spotify",
+     "sameAs": "https://en.wikipedia.org/wiki/Spotify"
+    },
+    {
+     "@type": "Organization",
+     "name": "JPMorgan Chase",
+     "sameAs": "https://en.wikipedia.org/wiki/JPMorgan_Chase"
+    },
+    {
+     "@type": "Organization",
+     "name": "Evolus",
+     "sameAs": "https://en.wikipedia.org/wiki/Evolus"
+    },
+    {
+     "@type": "Organization",
+     "name": "Revance",
+     "sameAs": "https://en.wikipedia.org/wiki/Revance_Therapeutics"
+    },
+    {
+     "@type": "Organization",
+     "name": "Razorfish",
+     "sameAs": "https://en.wikipedia.org/wiki/Razorfish"
+    }
+   ],
+   "description": "CEO of Local AI Registry; former Google executive in Search and former Microsoft executive with more than 20 years in digital.",
+   "knowsAbout": [
+    "Answer engine optimization",
+    "Local search",
+    "Google Search",
+    "AI search"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://localairegistry.com/research#website",
+   "url": "https://localairegistry.com/research",
+   "name": "Local AI Registry Research",
+   "publisher": {
+    "@id": "https://localairegistry.com/#organization"
+   }
+  },
+  {
+   "@type": "Service",
+   "@id": "https://localairegistry.com/#aeo-service",
+   "name": "Answer engine optimization (AEO) for local businesses",
+   "serviceType": "Answer engine optimization",
+   "provider": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+   },
+   "audience": {
+    "@type": "BusinessAudience",
+    "audienceType": "Local and brick-and-mortar businesses"
+   },
+   "description": "Local AEO and GEO services that get local businesses described accurately in AI answers from Google AI Overviews, ChatGPT, Claude, Gemini, Perplexity and Microsoft Copilot.",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Local AEO services",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Free business record"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "AI visibility audit"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Google Business Profile management"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Press releases and media"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "AEO content"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Technical AEO and schema"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Listing consistency"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#breadcrumbs",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Local AI Registry",
+     "item": "https://localairegistry.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Research",
+     "item": "https://localairegistry.com/research"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Why AI Chooses One Business Over Another",
+     "item": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#webpage",
+   "url": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another",
+   "name": "Why AI Chooses One Business Over Another",
+   "isPartOf": {
+    "@id": "https://localairegistry.com/research#website"
+   },
+   "breadcrumb": {
+    "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#breadcrumbs"
+   },
+   "mainEntity": {
+    "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#report"
+   },
+   "primaryImageOfPage": {
+    "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#hotel-ai-recommendation-rating-price-effects-confidence-intervals"
+   },
+   "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+     "#summary",
+     "#key-findings"
+    ]
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": [
+    "Article",
+    "Report"
+   ],
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#report",
+   "articleSection": "Research",
+   "genre": "Research brief",
+   "identifier": "LAIR-R-2026-005",
+   "datePublished": "2026-11-26",
+   "dateModified": "2026-11-26",
+   "headline": "Why AI Chooses One Business Over Another: What Three Controlled Experiments Show",
+   "abstract": "Research can explain part of how AI models choose among options that researchers put in front of them, and much less about which businesses AI assistants find or mention when they search on their own. In controlled hotel and doctor experiments reviewed by Local AI Registry, a 4.7 rather than a 3.9 star rating raised the average probability that an AI model picked a hotel by 31.6 percentage points and a family doctor by 31.4 points, while higher prices lowered it; among the attributes and levels tested, these were the largest effects. In a shopping experiment, list position and labels such as \"Overall Pick\" also had strong effects that differed between AI models, and none of the three experiments tested which businesses an assistant retrieves or mentions on its own.",
+   "description": "Three controlled experiments reviewed by Local AI Registry: a 4.7 vs 3.9 rating moved AI hotel picks by 31.6 points. What they show, and what they do not.",
+   "author": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "creditText": "Local AI Registry Research Team",
+   "publisher": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "inLanguage": "en-US",
+   "mainEntityOfPage": {
+    "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#webpage"
+   },
+   "image": [
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#ai-assistant-found-evaluated-chosen-working-model"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#hotel-ai-recommendation-rating-price-effects-confidence-intervals"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#doctor-ai-recommendation-rating-fee-effects-confidence-intervals"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#what-business-owners-can-influence-in-ai-recommendations"
+    }
+   ],
+   "keywords": [
+    "how AI chooses which business to recommend",
+    "AI recommendations",
+    "ChatGPT",
+    "Gemini",
+    "Claude",
+    "Perplexity",
+    "answer engine optimization",
+    "AEO",
+    "generative engine optimization",
+    "GEO",
+    "algorithm audit",
+    "star ratings",
+    "list position",
+    "review responses",
+    "Local AI Registry"
+   ],
+   "about": [
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-controlled-experiment"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-aeo"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-position-effect"
+    },
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-final-answer-mention"
+    }
+   ],
+   "mentions": [
+    {
+     "@type": "SoftwareApplication",
+     "name": "ChatGPT",
+     "sameAs": "https://en.wikipedia.org/wiki/ChatGPT"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Gemini",
+     "sameAs": "https://en.wikipedia.org/wiki/Gemini_(chatbot)"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Claude",
+     "sameAs": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "Perplexity",
+     "sameAs": "https://en.wikipedia.org/wiki/Perplexity_AI"
+    },
+    {
+     "@type": "Organization",
+     "name": "U.S. Federal Trade Commission",
+     "sameAs": "https://en.wikipedia.org/wiki/Federal_Trade_Commission"
+    }
+   ],
+   "citation": [
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection",
+     "url": "https://doi.org/10.1007/s40558-026-00417-8",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "M. S. A. Baig"
+      },
+      {
+       "@type": "Person",
+       "name": "S. A. Gillani"
+      },
+      {
+       "@type": "Person",
+       "name": "A. Ali IkramUllah"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Information Technology & Tourism"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Whose doctor does the AI recommend? An algorithm audit of reputation and name-based demographic signals in large language model-assisted physician choice",
+     "url": "https://doi.org/10.1016/j.ijmedinf.2026.106764",
+     "datePublished": "2027",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "S. A. Gillani"
+      },
+      {
+       "@type": "Person",
+       "name": "M. S. A. Baig"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "International Journal of Medical Informatics"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "What is your AI agent buying? Evaluation, biases, model dependence, & emerging implications of agentic e-commerce",
+     "url": "https://doi.org/10.1145/3774904.3792943",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "A. Allouah"
+      },
+      {
+       "@type": "Person",
+       "name": "O. Besbes"
+      },
+      {
+       "@type": "Person",
+       "name": "J. D. Figueroa"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Kanoria"
+      },
+      {
+       "@type": "Person",
+       "name": "A. Kumar"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Proceedings of the ACM Web Conference 2026"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Invisible to the machine: Auditing AI restaurant, café, and bar recommendation against a complete market census",
+     "url": "https://arxiv.org/abs/2608.07069",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "V. Pitenin"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Understanding AI provider recommendations in local service markets",
+     "url": "https://arxiv.org/abs/2609.18341",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "H. Ibrahim"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Zaki"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Controlling output rankings in LLM-based search via generative engine optimization",
+     "url": "https://arxiv.org/abs/2602.03608",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "H. Jin"
+      },
+      {
+       "@type": "Person",
+       "name": "H. Zeng"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Luo"
+      },
+      {
+       "@type": "Person",
+       "name": "H. Wang"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Does rank still matter? Position bias when AI agents shop on our behalf",
+     "url": "https://arxiv.org/abs/2608.22697",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "D. Wadi"
+      },
+      {
+       "@type": "Person",
+       "name": "Y. Ma"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "From prompt to recommendation: A fitted stage model of brand visibility in AI search",
+     "url": "https://arxiv.org/abs/2609.23162",
+     "datePublished": "2026",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "B. Tannenbaum"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "arXiv preprint"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "The power of rankings: Quantifying the effect of rankings on online consumer search and purchase decisions",
+     "url": "https://doi.org/10.1287/mksc.2017.1072",
+     "datePublished": "2018",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "R. M. Ursu"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Marketing Science"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "Online reputation management: Estimating the impact of management responses on consumer reviews",
+     "url": "https://doi.org/10.1287/mksc.2017.1043",
+     "datePublished": "2017",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "D. Proserpio"
+      },
+      {
+       "@type": "Person",
+       "name": "G. Zervas"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Marketing Science"
+     }
+    },
+    {
+     "@type": "ScholarlyArticle",
+     "name": "The business value of online consumer reviews and management response to hotel performance",
+     "url": "https://doi.org/10.1016/j.ijhm.2014.07.007",
+     "datePublished": "2014",
+     "author": [
+      {
+       "@type": "Person",
+       "name": "K. L. Xie"
+      },
+      {
+       "@type": "Person",
+       "name": "Z. Zhang"
+      },
+      {
+       "@type": "Person",
+       "name": "Z. Zhang"
+      }
+     ],
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "International Journal of Hospitality Management"
+     }
+    },
+    {
+     "@type": "Legislation",
+     "name": "Trade Regulation Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465",
+     "url": "https://www.federalregister.gov",
+     "datePublished": "2024",
+     "isPartOf": {
+      "@type": "Periodical",
+      "name": "Federal Register"
+     }
+    },
+    {
+     "@type": "Report",
+     "name": "How often AI recommends your business: A better measure of local visibility",
+     "url": "https://localairegistry.com/research/how-often-ai-recommends-your-business",
+     "datePublished": "2026"
+    },
+    {
+     "@type": "WebPage",
+     "name": "Methodology: How the AI Score is built",
+     "url": "https://localairegistry.com/methodology",
+     "datePublished": "2026"
+    }
+   ],
+   "isBasedOn": [
+    "https://doi.org/10.1007/s40558-026-00417-8",
+    "https://doi.org/10.1016/j.ijmedinf.2026.106764",
+    "https://doi.org/10.1145/3774904.3792943"
+   ],
+   "hasPart": [
+    {
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#dataset"
+    }
+   ]
+  },
+  {
+   "@type": "Dataset",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#dataset",
+   "name": "Why AI Chooses One Business Over Another: values behind Figures 2 and 3",
+   "description": "Average marginal component effects in percentage points, with published 95% confidence intervals, for the hotel experiment (Baig, Gillani and Ali IkramUllah, preprint Table 5) and the doctor experiment (Gillani and Baig, preprint), as shown in Figures 2 and 3 of Local AI Registry's research brief. Values are the original authors' estimates.",
+   "creator": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "isBasedOn": [
+    "https://doi.org/10.1007/s40558-026-00417-8",
+    "https://doi.org/10.1016/j.ijmedinf.2026.106764"
+   ],
+   "variableMeasured": [
+    "Average marginal component effect (percentage points)",
+    "95% confidence interval"
+   ],
+   "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/data/why-ai-chooses-one-business-over-another-data.csv"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How does ChatGPT decide which business to recommend?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No one outside OpenAI can see how ChatGPT works inside. Research reviewed by Local AI Registry shows that when AI models chose among options researchers supplied, star rating and price had the largest effects among the levels tested in hotel and doctor experiments. Which businesses an assistant retrieves and mentions when it searches on its own has not been tested in a controlled experiment that we found."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do star ratings affect whether AI recommends my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the hotel and doctor experiments, yes, among the levels tested. A 4.7 rather than a 3.9 rating raised the average probability that AI models picked a hotel by 31.6 percentage points and a family doctor by 31.4 points. In a census of venues in two Bali markets, a higher rating was associated with being named first among the venues mentioned, not with being mentioned at all."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does responding to reviews help my business get recommended by AI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "These studies do not establish whether the content of real owner replies improves AI recommendations. A flag indicating that a business responds had no measurable effect in the hotel experiment and a small positive effect in the doctor experiment (+2.1 percentage points, preprint estimate). Neither experiment tested the replies themselves. Separate research on human reviewers found that hotels that began responding gained 0.12 stars and 12% more reviews; whether that pathway subsequently changes AI recommendations has not been tested."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does being listed first help a business get picked by AI?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Often in these experiments, but not reliably. List position changed AI choices in all three experiments, but the size of the effect differed between AI models, and in the shopping study's extended preprint the pattern changed with newer models. Owners cannot control where an assistant lists them."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will lowering my prices make AI recommend my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The studies reviewed here do not show that. AI models chose cheaper options more often among options the researchers supplied, but none of these studies tested what a real price change does for a real business, and price is a business decision with many other effects."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do badges and certifications help with AI recommendations?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "In the experiments, some did. An eco-certification raised AI hotel picks by 11.6 points on average (preprint value), and an \"Overall Pick\" label raised AI shopping picks sharply. Labels that local businesses use, such as board certification or awards, were not tested in the studies reviewed here."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I ask ChatGPT why it did not recommend my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can, but the answer is weak evidence. In the hotel and doctor experiments, the reasons AI models gave matched what actually moved their choices only in part, and some real influences, such as list position, were almost never mentioned."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get my business recommended by ChatGPT, Gemini, Claude or Perplexity?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Start with what the studies found, and keep findings and advice apart. In the hotel and doctor experiments, rating and price had the largest effects among the levels tested, so a strong, genuine rating matters. From that, we recommend keeping your rating, review count, prices and other facts accurate and consistent wherever AI may look, and keeping an own website that states them clearly; consistency itself was not tested, and the website link comes from an observational study of two Bali markets. Then measure how often AI names you across many answers. Local AI Registry, a free AEO directory for local businesses, lets anyone look up a business and its AI Score at localairegistry.com/search."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is the AI Score the same as how often AI recommends my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. The Local AI Registry AI Score is a 0 to 100 diagnostic of how findable and recommendable a business is to AI assistants. How often a business is actually named is measured separately, by asking the assistants real questions and counting the answers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can AEO guarantee that AI will recommend my business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "None of the studies reviewed here shows an intervention that guarantees a recommendation. They show which details moved AI choices in controlled tests, not that a particular change will bring recommendations or customers to a particular business."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "DefinedTermSet",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms",
+   "name": "Terms used in this brief",
+   "hasDefinedTerm": [
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-controlled-experiment",
+     "name": "Controlled experiment (algorithm audit)",
+     "description": "A test where researchers show AI models a set of options whose details they vary at random, so a change in the models' picks can be traced to the detail that changed.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-amce",
+     "name": "Average effect (AMCE)",
+     "description": "The average difference in the probability that an option is chosen when one detail is at a given level rather than its reference level, with the other details varied at random. The hotel and doctor studies report it in percentage points.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-percentage-points",
+     "name": "Percentage points",
+     "description": "The difference between two percentages. Illustration only: if a probability rose from 40% to 50%, that is a rise of 10 percentage points, which is a 25% increase.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-found-evaluated-chosen",
+     "name": "Found, evaluated, chosen",
+     "description": "The three steps of our working model for organizing the evidence. It is not a description of how any assistant works inside.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-retrieval-presence",
+     "name": "Presence in retrieved sources or results",
+     "description": "A business appearing in the pages or listings an assistant pulls up while answering. Few studies can observe this.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-final-answer-mention",
+     "name": "Mention in the final answer",
+     "description": "A business being named in the text the assistant gives the user.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-first-position",
+     "name": "First position",
+     "description": "A business being the first named among those mentioned in an answer.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-position-effect",
+     "name": "Position effect",
+     "description": "A change in the AI's choice caused only by where an option appears in a list or on a page.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-endorsement-label",
+     "name": "Endorsement label",
+     "description": "A badge shown on a listing, such as \"Overall Pick\" or an eco-certification.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-aeo",
+     "name": "Answer engine optimization (AEO)",
+     "description": "Making a business's facts clear, consistent and machine-readable so AI assistants such as ChatGPT, Gemini, Claude and Perplexity can find and describe it accurately.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-geo",
+     "name": "Generative engine optimization (GEO)",
+     "description": "The academic term for optimizing content to be cited by generative AI search engines; used interchangeably with AEO.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    },
+    {
+     "@type": "DefinedTerm",
+     "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#term-preprint",
+     "name": "Preprint",
+     "description": "A research paper shared publicly before peer review. An extended preprint is a longer version whose added parts may not have been peer-reviewed.",
+     "inDefinedTermSet": {
+      "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#terms"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#ai-assistant-found-evaluated-chosen-working-model",
+   "contentUrl": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.png",
+   "url": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.png",
+   "name": "A working model, and what the studies can actually observe",
+   "caption": "Conceptual figure, Local AI Registry synthesis: a working model and four measures. It is a way to sort what studies measured, not a description of how any assistant works inside.",
+   "description": "Conceptual figure by Local AI Registry. Top row: a working model with three steps, 1. Found (which businesses reach the assistant's sources), 2. Evaluated (what it reads about each candidate) and 3. Chosen (which it names, and in what order). Bottom row: the four measures the studies in this brief used: presence in retrieved sources or results (rarely observed, e.g. a vendor preprint by Tannenbaum); mention in the final answer (Bali census of Canggu and Ubud; Ibrahim and Zaki); first position among names mentioned (Bali census); and picks from a set chosen by the researchers (three randomized experiments: hotels, doctors, products). The four measures are not equivalent.",
+   "width": 2000,
+   "height": 1394,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry (conceptual figure)",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#cite"
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#hotel-ai-recommendation-rating-price-effects-confidence-intervals",
+   "contentUrl": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.png",
+   "url": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.png",
+   "name": "Hotels: rating and price had the largest effects among the levels tested",
+   "caption": "Baig et al. (2026), arXiv v1 Table 5 (preprint values, published 95% CIs); the journal abstract confirms the top-rating and high-price effects. All 14 contrasts.",
+   "description": "Horizontal bar chart of 14 contrasts from the hotel experiment (Baig et al., preprint Table 5), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.65; $249 vs $129 per night: -30.03; $189 vs $129: -21.36; eco-certified: +11.61; rating 4.3 vs 3.9: +10.08; 2,100 vs 45 reviews: +8.31; 420 reviews: +2.25; recent review: +1.55; management responds note: +0.11; chain vs independent: -1.79; listed 2nd to 5th vs 1st: -2.07 to -3.68. The journal abstract reports +31.6 and -30.0.",
+   "width": 2000,
+   "height": 2050,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry; values from the original authors",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#cite"
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#doctor-ai-recommendation-rating-fee-effects-confidence-intervals",
+   "contentUrl": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.png",
+   "url": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.png",
+   "name": "Doctors: rating and fee had the largest effects among the levels tested",
+   "caption": "Gillani and Baig (2027), arXiv 2608.14399 v1 (preprint values, published 95% CIs); the journal abstract confirms the rating, fee and last-position effects. 8 non-name contrasts.",
+   "description": "Horizontal bar chart of 8 non-name contrasts from the doctor experiment (Gillani and Baig, preprint), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.38; $190 vs $90 new-patient fee: -20.02; 400 vs 12 reviews: +8.44; review 3 days old vs 11 months: +3.80; telehealth: +2.78; responds to patient feedback note: +2.09; university-hospital affiliation: +0.34; listed 5th vs 1st: -6.15. The journal abstract reports +31.4, -20.0 and -6.2.",
+   "width": 2000,
+   "height": 1570,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry; values from the original authors",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#cite"
+  },
+  {
+   "@type": "ImageObject",
+   "@id": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#what-business-owners-can-influence-in-ai-recommendations",
+   "contentUrl": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.png",
+   "url": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.png",
+   "name": "What owners can influence is only partly what has been tested",
+   "caption": "Conceptual figure, Local AI Registry synthesis: a 2x2 of control and evidence. Placement shows what was tested, not how large an effect is.",
+   "description": "Conceptual 2x2 figure by Local AI Registry. Columns: mostly outside your control, and you can influence. Rows: tested in the choice experiments, and not tested in these experiments. Tested and influenceable (strongest evidence, choice step only): star rating, review volume and recency, prices shown, certifications (eco label, hotels only), a note that you reply to reviews. Tested but outside your control: list position, AI model and version, chain or independent status, names shown on a profile. Not tested and outside your control: whether the assistant searches the web, which sources it retrieves, how the customer words the question, where the customer asks from. Not tested but influenceable: what replies say, facts that match across sources, own website, listed prices and web mentions (linked to final-answer mentions in two Bali markets), local badges, awards and best-of lists.",
+   "width": 2000,
+   "height": 1894,
+   "creator": {
+    "@id": "https://localairegistry.com/research#research-team"
+   },
+   "copyrightHolder": {
+    "@id": "https://localairegistry.com/#organization"
+   },
+   "creditText": "Local AI Registry (conceptual figure)",
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "acquireLicensePage": "https://localairegistry.com/research/why-ai-chooses-one-business-over-another#cite"
+  }
+ ]
+}</script>
+</head><body><!--chrome-head--><div class="sitehead" role="banner"><a class="sh-back" href="https://localairegistry.com"><span aria-hidden="true">←</span> Back to Local AI&nbsp;Registry</a><div class="sh-in">
+<a class="sh-brand" href="/research" aria-label="Local AI Registry Research home"><img src="/research/local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21"><span class="sh-tag">Research</span></a>
+<nav class="sh-nav" aria-label="Research"><a href="/research#library">Library</a><a href="/research/why-ai-chooses-one-business-over-another">Latest study</a><a href="/research#research-team">Team</a></nav>
+<div class="sh-right"><a class="sh-main" href="https://localairegistry.com">localairegistry.com&nbsp;<span aria-hidden="true">↗</span></a><a class="sh-cta" href="https://localairegistry.com/search"><span class="sh-l">Claim your free&nbsp;record</span><span class="sh-s">Claim free&nbsp;record</span></a></div>
+</div></div><!--/chrome-head--><main class="wrap"><article>
+<header class="hero">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="https://localairegistry.com">Local AI Registry</a> › <a href="https://localairegistry.com/research">Research</a> › Why AI Chooses One Business Over Another</nav>
+  <div class="eyebrow">Local AI Registry research brief · Published <time datetime="2026-11-26">November 26, 2026</time></div>
+  <h1>Why AI Chooses One Business Over Another: What Three Controlled Experiments Show</h1>
+  <p class="byline">By the <a href="#authors" rel="author">Local AI Registry Research&nbsp;Team</a></p>
+  <div class="tldr" id="summary"><div class="aeo-k">The short&nbsp;answer</div>
+  <p>Research can explain part of how AI models choose among options that researchers put in front of them, and much less about which businesses AI assistants find or mention when they search on their own. In controlled hotel and doctor experiments reviewed by Local AI Registry, a 4.7 rather than a 3.9 star rating raised the average probability that an AI model picked a hotel by 31.6 percentage points and a family doctor by 31.4 points, while higher prices lowered it; among the attributes and levels tested, these were the largest effects. In a shopping experiment, list position and labels such as "Overall Pick" also had strong effects that differed between AI models, and none of the three experiments tested which businesses an assistant retrieves or mentions on its&nbsp;own.</p></div>
+  <div class="big stats" aria-label="Headline statistics"><div><b>+31.6 points</b> <span>Top rating (4.7) vs 3.9 stars, hotel experiment, published abstract (<a class="cite-link" href="#ref-1">Baig et al.,&nbsp;2026</a>)</span></div><div><b>-30.0 points</b> <span>Highest ($249) vs lowest ($129) nightly price, same&nbsp;experiment</span></div><div><b>0 of 3</b> <span>Experiments reviewed here that tested which businesses an assistant retrieves or mentions on its&nbsp;own</span></div></div>
+</header>
+<section id="key-findings"><h2>Key findings</h2><ol class="kf"><li>In a controlled hotel experiment reviewed by Local AI Registry, a 4.7 rather than a 3.9 guest rating raised the average probability that an AI model recommended a hotel by 31.6 percentage points, and the highest of three nightly prices lowered it by 30.0 points compared with the lowest (<a class="cite-link" href="#ref-1">Baig et al., Information Technology &amp; Tourism, 2026</a>; published&nbsp;abstract).</li><li>In a companion experiment by the same research team, the same rating change raised the average probability that an AI model picked a family doctor by 31.4 percentage points, and a $190 rather than $90 new-patient fee lowered it by 20.0 points (<a class="cite-link" href="#ref-2">Gillani and Baig, International Journal of Medical Informatics, 2027</a>; published&nbsp;abstract).</li><li>In an AI shopping experiment published at the ACM Web Conference 2026, the authors' statistical model implies that an "Overall Pick" label would raise a product with an illustrative 10% chance of being bought to between 19.9% and 42.6%, depending on the AI model, and that a "Sponsored" label would lower it to between 7.9% and&nbsp;8.9%.</li><li>All three AI shopping agents in that experiment favored products in the top row of the page, but they disagreed about which column was best, so there was no single "top spot" (<a class="cite-link" href="#ref-3">Allouah et al.,&nbsp;2026</a>).</li><li>A one-line note that a business responds to reviews had no measurable effect on AI hotel picks (+0.11 points, statistically equivalent to zero; preprint value) and a small effect on AI doctor picks (+2.1 points; preprint value); neither experiment showed or tested what the replies&nbsp;said.</li><li>None of the three controlled experiments reviewed by Local AI Registry tested which businesses an AI assistant retrieves or mentions when it searches on its own; all three tested choices among options the researchers&nbsp;supplied.</li><li>In an observational census of 4,776 cafés, restaurants and bars in two Bali markets, Canggu and Ubud, being mentioned in four AI assistants' final answers was associated with having an own website, more reviews, listed prices and web mentions, while star rating was associated with being mentioned first, not with being mentioned at all (<a class="cite-link" href="#ref-4">Pitenin, 2026</a>, vendor-funded preprint; 96 queries collected over seven&nbsp;days).</li><li>AI models' stated reasons did not match what moved their picks: in the doctor experiment, names that signal gender or ethnicity shifted choices by 2 to 3 points, yet they appeared in 0.03% or fewer of the models' stated reasons (published&nbsp;abstract).</li></ol></section>
+<nav class="toc" aria-label="Contents"><h2>Contents</h2><ol><li><a href="#terms">Terms used in this&nbsp;brief</a></li><li><a href="#found-vs-chosen">Is being found by AI the same as being&nbsp;chosen?</a></li><li><a href="#experiments">What do experiments show about how AI chooses between&nbsp;businesses?</a></li><li><a href="#position-and-labels">Do list position and labels change which business AI&nbsp;picks?</a></li><li><a href="#review-replies">Do replies to reviews make AI recommend a&nbsp;business?</a></li><li><a href="#stated-reasons">Can you trust an AI's explanation of why it chose a&nbsp;business?</a></li><li><a href="#what-owners-control">What can a business owner influence, and what is out of their&nbsp;control?</a></li><li><a href="#open-questions">What does the research not tell us&nbsp;yet?</a></li><li><a href="#in-practice">What the evidence supports in&nbsp;practice</a></li><li><a href="#ai-score">Where does the Local AI Registry AI Score&nbsp;fit?</a></li><li><a href="#aeo-services">Who provides AEO&nbsp;services?</a></li><li><a href="#faq">Frequently asked&nbsp;questions</a></li><li><a href="#method">How we did this&nbsp;research</a></li><li><a href="#limits">Limits of this&nbsp;research</a></li><li><a href="#references">References</a></li><li><a href="#cite">How to cite this&nbsp;research</a></li><li><a href="#authors">About the&nbsp;author</a></li></ol></nav>
+<section id="terms"><h2>Terms used in this brief</h2><dl class="terms"><dt id="term-controlled-experiment">Controlled experiment (algorithm audit)</dt><dd>A test where researchers show AI models a set of options whose details they vary at random, so a change in the models' picks can be traced to the detail that&nbsp;changed.</dd><dt id="term-amce">Average effect (AMCE)</dt><dd>The average difference in the probability that an option is chosen when one detail is at a given level rather than its reference level, with the other details varied at random. The hotel and doctor studies report it in percentage&nbsp;points.</dd><dt id="term-percentage-points">Percentage points</dt><dd>The difference between two percentages. Illustration only: if a probability rose from 40% to 50%, that is a rise of 10 percentage points, which is a 25%&nbsp;increase.</dd><dt id="term-found-evaluated-chosen">Found, evaluated, chosen</dt><dd>The three steps of our working model for organizing the evidence. It is not a description of how any assistant works&nbsp;inside.</dd><dt id="term-retrieval-presence">Presence in retrieved sources or results</dt><dd>A business appearing in the pages or listings an assistant pulls up while answering. Few studies can observe&nbsp;this.</dd><dt id="term-final-answer-mention">Mention in the final answer</dt><dd>A business being named in the text the assistant gives the&nbsp;user.</dd><dt id="term-first-position">First position</dt><dd>A business being the first named among those mentioned in an&nbsp;answer.</dd><dt id="term-position-effect">Position effect</dt><dd>A change in the AI's choice caused only by where an option appears in a list or on a&nbsp;page.</dd><dt id="term-endorsement-label">Endorsement label</dt><dd>A badge shown on a listing, such as "Overall Pick" or an&nbsp;eco-certification.</dd><dt id="term-aeo">Answer engine optimization (AEO)</dt><dd>Making a business's facts clear, consistent and machine-readable so AI assistants such as ChatGPT, Gemini, Claude and Perplexity can find and describe it&nbsp;accurately.</dd><dt id="term-geo">Generative engine optimization (GEO)</dt><dd>The academic term for optimizing content to be cited by generative AI search engines; used interchangeably with&nbsp;AEO.</dd><dt id="term-preprint">Preprint</dt><dd>A research paper shared publicly before peer review. An extended preprint is a longer version whose added parts may not have been&nbsp;peer-reviewed.</dd></dl></section>
+<section id="found-vs-chosen"><h2>Is being found by AI the same as being&nbsp;chosen?</h2><p class="claim">Not necessarily. Appearing in what an assistant retrieves, being mentioned in its final answer and being named first are different outcomes, and the studies that exist measure different&nbsp;ones.</p>
+<p>When someone asks ChatGPT, Gemini, Claude or Perplexity for a dentist or a hotel, the assistant often searches, reads what it finds and then writes an answer that names some businesses in some order. To organize the evidence, this brief uses a working model with three steps: found, evaluated and chosen. It is a way to sort what studies measured, not a description of how any assistant works inside, and similar splits already appear in published research (<a class="cite-link" href="#ref-4">Pitenin, 2026</a>; <a class="cite-link" href="#ref-8">Tannenbaum,&nbsp;2026</a>).</p>
+<figure id="ai-assistant-found-evaluated-chosen-working-model" class="fig concept"><img src="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.png" class="fig-d" srcset="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model-1x.png 1000w, /research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.png 2000w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="1000" height="697" alt="Conceptual figure by Local AI Registry. Top row: a working model with three steps, 1. Found (which businesses reach the assistant&#x27;s sources), 2. Evaluated (what it reads about each candidate) and 3. Chosen (which it names, and in what order). Bottom row: the four measures the studies in this brief used: presence in retrieved sources or results (rarely observed, e.g. a vendor preprint by Tannenbaum); mention in the final answer (Bali census of Canggu and Ubud; Ibrahim and Zaki); first position among names mentioned (Bali census); and picks from a set chosen by the researchers (three randomized experiments: hotels, doctors, products). The four measures are not equivalent." loading="lazy" decoding="async"><img src="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model-mobile.png" class="fig-m" width="640" height="1461" alt="Conceptual figure by Local AI Registry. Top row: a working model with three steps, 1. Found (which businesses reach the assistant&#x27;s sources), 2. Evaluated (what it reads about each candidate) and 3. Chosen (which it names, and in what order). Bottom row: the four measures the studies in this brief used: presence in retrieved sources or results (rarely observed, e.g. a vendor preprint by Tannenbaum); mention in the final answer (Bali census of Canggu and Ubud; Ibrahim and Zaki); first position among names mentioned (Bali census); and picks from a set chosen by the researchers (three randomized experiments: hotels, doctors, products). The four measures are not equivalent." loading="lazy" decoding="async"><figcaption><span class="pill">Conceptual figure · Local AI Registry synthesis</span> <b>Figure 1. A working model, and what the studies can actually observe.</b> Conceptual figure, Local AI Registry synthesis: a working model and four measures. It is a way to sort what studies measured, not a description of how any assistant works&nbsp;inside. <span class="dl"><a href="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.svg">SVG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model.png">PNG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/ai-assistant-found-evaluated-chosen-working-model-mobile.svg">Phone SVG</a></span></figcaption></figure>
+<p>The studies measured several different things, and they should not be read as&nbsp;interchangeable.</p>
+<p><b>Presence in retrieved sources (rarely observed).</b> One preprint tracked whether a brand's own website appeared among the sources ChatGPT and Gemini drew on, and found brands were mentioned far more often when it did. This is an observational association, the study did not cover local businesses, and its author leads an AI-search measurement company (<a class="cite-link" href="#ref-8">Tannenbaum,&nbsp;2026</a>).</p><p><b>Mention in the final answer.</b> A census of 4,776 cafés, restaurants and bars in two Bali markets, Canggu and Ubud, put 96 queries to ChatGPT, Claude, Gemini and Perplexity over seven days. 85.6% of venues were never mentioned. Being mentioned was associated with an own website (odds ratio 1.92), review volume (1.64), listed prices (1.54) and web mentions (1.44); star rating was not associated with being mentioned. "Entry" in that study means appearing in the final answer: it does not show which venues the assistants retrieved and then left out (<a class="cite-link" href="#ref-4">Pitenin, 2026</a>, a preprint funded and conducted by the AI-visibility vendor Norly). These are associations in two markets, for those queries and that collection&nbsp;period.</p><p><b>Whether named providers were real.</b> In an audit across the 100 largest US metro areas, only 4% of doctors named by an open-weight model and 11% of those named by a proprietary model without web search matched a real clinician in the city asked about. With web search on, 64% to 71% of recommendations across the domains studied matched a real provider. The two figures use different denominators (<a class="cite-link" href="#ref-5">Ibrahim and Zaki, 2026</a>,&nbsp;preprint).</p><p><b>First position among names mentioned.</b> In the same Bali census, a higher star rating was associated with being named first among the venues mentioned (odds ratio 1.17 per standard&nbsp;deviation).</p><p><b>Choosing from a set the researchers supplied.</b> Three randomized experiments, covered in the next section. Two preprints also looked at reading and inspection: language models' final product recommendations largely followed the order of the search results they were handed (<a class="cite-link" href="#ref-6">Jin et al., 2026</a>), and AI shopping agents inspected lower-ranked listings less often (<a class="cite-link" href="#ref-7">Wadi and Ma,&nbsp;2026</a>).</p>
+<p>People show a similar split. In a field experiment at Expedia, the order of hotel rankings changed which hotels people looked at, but not what they booked once they had looked (<a class="cite-link" href="#ref-9">Ursu, 2018</a>). That is evidence about human shoppers, not&nbsp;AI.</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">Being mentioned at all and being named first are different&nbsp;outcomes.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Check both. First, does AI mention your business at all for the questions your customers ask? Second, when it does, how is the business described and where does it appear among the&nbsp;names?</p></div><div><h3>How Local AI Registry does it</h3><p>For businesses it monitors, Local AI Registry puts up to ten customer questions a month to ChatGPT, Perplexity and Gemini, anchored to the business's town, and records whether the business was named and which other businesses were named, in&nbsp;order.</p></div></div></aside>
+</section>
+<section id="experiments"><h2>What do experiments show about how AI chooses between&nbsp;businesses?</h2><p class="claim">When AI models were shown a set of options and asked to pick one, star rating and price had the largest effects among the attributes and levels tested in the hotel and doctor experiments. In the shopping experiment, position and endorsement labels also had strong effects. All three experiments describe choices among options the researchers supplied, not how those options were&nbsp;found.</p>
+<p>Each experiment varied the details of the options at random and asked AI models to choose, thousands of times, so a change in the models' picks can be traced to the detail that changed. The settings&nbsp;differed:</p>
+<p><b>Hotels.</b> AI travel assistants picked one of five synthetic hotel cards. The cards varied rating, review count, how recent the last review was, a note that management responds to reviews, chain or independent, nightly price, an eco-certification and list position. The panel mixed small open models with commercial models from OpenAI, Google and Anthropic (<a class="cite-link" href="#ref-1">Baig, Gillani and Ali IkramUllah, 2026</a>, peer-reviewed; detailed numbers from the&nbsp;preprint).</p><p><b>Doctors.</b> Seven AI models (six small open models and GPT-4o-mini) picked one of five synthetic family-doctor cards across 40,068 responses. The cards varied rating, reviews, recency, a note that the practice responds to patient feedback, hospital affiliation, fee, telehealth, years in practice, list position and names (<a class="cite-link" href="#ref-2">Gillani and Baig, 2027</a>, peer-reviewed). The same team ran both studies, so the second complements the first rather than independently confirming&nbsp;it.</p><p><b>Products.</b> AI shopping agents (Claude Sonnet 4, GPT-4.1 and Gemini 2.5 Flash, tested in August 2025) bought one of eight products in a simulated online store built from real product information taken from Amazon and shown to the agents as a page with product images. The researchers changed position, labels, price, rating and review count at random (<a class="cite-link" href="#ref-3">Allouah et al., 2026</a>, peer-reviewed short paper; store design described in the extended&nbsp;preprint).</p>
+<figure id="hotel-ai-recommendation-rating-price-effects-confidence-intervals" class="fig"><img src="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.png" class="fig-d" srcset="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals-1x.png 1000w, /research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.png 2000w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="1000" height="1025" alt="Horizontal bar chart of 14 contrasts from the hotel experiment (Baig et al., preprint Table 5), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.65; $249 vs $129 per night: -30.03; $189 vs $129: -21.36; eco-certified: +11.61; rating 4.3 vs 3.9: +10.08; 2,100 vs 45 reviews: +8.31; 420 reviews: +2.25; recent review: +1.55; management responds note: +0.11; chain vs independent: -1.79; listed 2nd to 5th vs 1st: -2.07 to -3.68. The journal abstract reports +31.6 and -30.0." loading="lazy" decoding="async"><img src="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals-mobile.png" class="fig-m" width="640" height="1753" alt="Horizontal bar chart of 14 contrasts from the hotel experiment (Baig et al., preprint Table 5), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.65; $249 vs $129 per night: -30.03; $189 vs $129: -21.36; eco-certified: +11.61; rating 4.3 vs 3.9: +10.08; 2,100 vs 45 reviews: +8.31; 420 reviews: +2.25; recent review: +1.55; management responds note: +0.11; chain vs independent: -1.79; listed 2nd to 5th vs 1st: -2.07 to -3.68. The journal abstract reports +31.6 and -30.0." loading="lazy" decoding="async"><figcaption><span class="pill">Preprint values · published 95% CIs</span> <b>Figure 2. Hotels: rating and price had the largest effects among the levels tested.</b> Baig et al. (2026), arXiv v1 Table 5 (preprint values, published 95% CIs); the journal abstract confirms the top-rating and high-price effects. All 14&nbsp;contrasts. <span class="dl"><a href="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.svg">SVG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals.png">PNG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/hotel-ai-recommendation-rating-price-effects-confidence-intervals-mobile.svg">Phone SVG</a></span></figcaption><details><summary>Data behind this chart</summary><div class="scroll"><table class="stack"><caption>Hotels: rating and price had the largest effects among the levels tested: estimates and published 95% confidence intervals, in percentage points</caption><thead><tr><th scope="col">Contrast (reference level in parentheses)</th><th scope="col">Estimate (percentage points)</th><th scope="col">95% CI, lower</th><th scope="col">95% CI, upper</th><th scope="col">Value</th></tr></thead><tbody><tr><th scope="row">Rating 4.3 (vs 3.9)</th><td class="n" data-label="Estimate (percentage points)">+10.08</td><td class="n" data-label="95% CI, lower">9.44</td><td class="n" data-label="95% CI, upper">10.71</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Rating 4.7 (vs 3.9)</th><td class="n" data-label="Estimate (percentage points)">+31.65</td><td class="n" data-label="95% CI, lower">30.94</td><td class="n" data-label="95% CI, upper">32.36</td><td data-label="Value">Preprint value; published abstract reports +31.6</td></tr><tr><th scope="row">420 reviews (vs 45)</th><td class="n" data-label="Estimate (percentage points)">+2.25</td><td class="n" data-label="95% CI, lower">1.51</td><td class="n" data-label="95% CI, upper">2.99</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">2,100 reviews (vs 45)</th><td class="n" data-label="Estimate (percentage points)">+8.31</td><td class="n" data-label="95% CI, lower">7.55</td><td class="n" data-label="95% CI, upper">9.07</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Recent review (vs 11 months old)</th><td class="n" data-label="Estimate (percentage points)">+1.55</td><td class="n" data-label="95% CI, lower">0.94</td><td class="n" data-label="95% CI, upper">2.16</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">“Management responds” note</th><td class="n" data-label="Estimate (percentage points)">+0.11</td><td class="n" data-label="95% CI, lower">-0.51</td><td class="n" data-label="95% CI, upper">0.73</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Chain (vs independent)</th><td class="n" data-label="Estimate (percentage points)">-1.79</td><td class="n" data-label="95% CI, lower">-2.42</td><td class="n" data-label="95% CI, upper">-1.16</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">$189 per night (vs $129)</th><td class="n" data-label="Estimate (percentage points)">-21.36</td><td class="n" data-label="95% CI, lower">-22.17</td><td class="n" data-label="95% CI, upper">-20.54</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">$249 per night (vs $129)</th><td class="n" data-label="Estimate (percentage points)">-30.03</td><td class="n" data-label="95% CI, lower">-30.75</td><td class="n" data-label="95% CI, upper">-29.32</td><td data-label="Value">Preprint value; published abstract reports -30.0</td></tr><tr><th scope="row">Eco-certified (Green Key)</th><td class="n" data-label="Estimate (percentage points)">+11.61</td><td class="n" data-label="95% CI, lower">11.04</td><td class="n" data-label="95% CI, upper">12.18</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Listed 2nd (vs 1st)</th><td class="n" data-label="Estimate (percentage points)">-2.07</td><td class="n" data-label="95% CI, lower">-3.06</td><td class="n" data-label="95% CI, upper">-1.08</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Listed 3rd (vs 1st)</th><td class="n" data-label="Estimate (percentage points)">-2.38</td><td class="n" data-label="95% CI, lower">-3.37</td><td class="n" data-label="95% CI, upper">-1.39</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Listed 4th (vs 1st)</th><td class="n" data-label="Estimate (percentage points)">-3.59</td><td class="n" data-label="95% CI, lower">-4.56</td><td class="n" data-label="95% CI, upper">-2.62</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Listed 5th (vs 1st)</th><td class="n" data-label="Estimate (percentage points)">-3.68</td><td class="n" data-label="95% CI, lower">-4.66</td><td class="n" data-label="95% CI, upper">-2.71</td><td data-label="Value">Preprint value</td></tr></tbody></table></div></details></figure>
+<p>In the hotel experiment, a 4.7 rather than a 3.9 rating raised the average probability of being picked by 31.6 percentage points, and a $249 rather than $129 price lowered it by 30.0 points, according to the published abstract. Review volume and an eco-certification also mattered (preprint values in <a href="#hotel-ai-recommendation-rating-price-effects-confidence-intervals">Figure 2</a>). According to the abstract, the certification ranked higher for the AI models than published studies of human travelers place it, and the expected premium for big hotel brands reversed, slightly favoring&nbsp;independents.</p>
+<figure id="doctor-ai-recommendation-rating-fee-effects-confidence-intervals" class="fig"><img src="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.png" class="fig-d" srcset="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals-1x.png 1000w, /research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.png 2000w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="1000" height="785" alt="Horizontal bar chart of 8 non-name contrasts from the doctor experiment (Gillani and Baig, preprint), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.38; $190 vs $90 new-patient fee: -20.02; 400 vs 12 reviews: +8.44; review 3 days old vs 11 months: +3.80; telehealth: +2.78; responds to patient feedback note: +2.09; university-hospital affiliation: +0.34; listed 5th vs 1st: -6.15. The journal abstract reports +31.4, -20.0 and -6.2." loading="lazy" decoding="async"><img src="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals-mobile.png" class="fig-m" width="640" height="1297" alt="Horizontal bar chart of 8 non-name contrasts from the doctor experiment (Gillani and Baig, preprint), each with its published 95% confidence interval, in percentage points relative to the reference level. Rating 4.7 vs 3.9: +31.38; $190 vs $90 new-patient fee: -20.02; 400 vs 12 reviews: +8.44; review 3 days old vs 11 months: +3.80; telehealth: +2.78; responds to patient feedback note: +2.09; university-hospital affiliation: +0.34; listed 5th vs 1st: -6.15. The journal abstract reports +31.4, -20.0 and -6.2." loading="lazy" decoding="async"><figcaption><span class="pill">Preprint values · published 95% CIs</span> <b>Figure 3. Doctors: rating and fee had the largest effects among the levels tested.</b> Gillani and Baig (2027), arXiv 2608.14399 v1 (preprint values, published 95% CIs); the journal abstract confirms the rating, fee and last-position effects. 8 non-name&nbsp;contrasts. <span class="dl"><a href="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.svg">SVG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals.png">PNG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/doctor-ai-recommendation-rating-fee-effects-confidence-intervals-mobile.svg">Phone SVG</a></span></figcaption><details><summary>Data behind this chart</summary><div class="scroll"><table class="stack"><caption>Doctors: rating and fee had the largest effects among the levels tested: estimates and published 95% confidence intervals, in percentage points</caption><thead><tr><th scope="col">Contrast (reference level in parentheses)</th><th scope="col">Estimate (percentage points)</th><th scope="col">95% CI, lower</th><th scope="col">95% CI, upper</th><th scope="col">Value</th></tr></thead><tbody><tr><th scope="row">Rating 4.7 (vs 3.9)</th><td class="n" data-label="Estimate (percentage points)">+31.38</td><td class="n" data-label="95% CI, lower">30.48</td><td class="n" data-label="95% CI, upper">32.29</td><td data-label="Value">Preprint value; published abstract reports +31.4</td></tr><tr><th scope="row">400 reviews (vs 12)</th><td class="n" data-label="Estimate (percentage points)">+8.44</td><td class="n" data-label="95% CI, lower">7.56</td><td class="n" data-label="95% CI, upper">9.31</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Review 3 days old (vs 11 months)</th><td class="n" data-label="Estimate (percentage points)">+3.80</td><td class="n" data-label="95% CI, lower">3.09</td><td class="n" data-label="95% CI, upper">4.51</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">“Responds to patient feedback” note</th><td class="n" data-label="Estimate (percentage points)">+2.09</td><td class="n" data-label="95% CI, lower">1.37</td><td class="n" data-label="95% CI, upper">2.80</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">University-hospital affiliation</th><td class="n" data-label="Estimate (percentage points)">+0.34</td><td class="n" data-label="95% CI, lower">-0.37</td><td class="n" data-label="95% CI, upper">1.04</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">$190 new-patient fee (vs $90)</th><td class="n" data-label="Estimate (percentage points)">-20.02</td><td class="n" data-label="95% CI, lower">-20.96</td><td class="n" data-label="95% CI, upper">-19.08</td><td data-label="Value">Preprint value; published abstract reports -20.0</td></tr><tr><th scope="row">Offers telehealth</th><td class="n" data-label="Estimate (percentage points)">+2.78</td><td class="n" data-label="95% CI, lower">2.08</td><td class="n" data-label="95% CI, upper">3.49</td><td data-label="Value">Preprint value</td></tr><tr><th scope="row">Listed 5th (vs 1st)</th><td class="n" data-label="Estimate (percentage points)">-6.15</td><td class="n" data-label="95% CI, lower">-7.26</td><td class="n" data-label="95% CI, upper">-5.04</td><td data-label="Value">Preprint value; published abstract reports -6.2 (listed last)</td></tr></tbody></table></div></details></figure>
+<p>The doctor experiment showed a similar pattern among the levels it tested. A 4.7 rather than a 3.9 rating raised the average probability of being picked by 31.4 points, and a $190 rather than $90 fee lowered it by 20.0 points (published abstract). Names that signal gender or ethnicity also shifted picks by 2 to 3 points, in ways that varied by&nbsp;model.</p>
+<p>In the shopping experiment, all three agents gave more weight to cheaper, better-rated and more-reviewed products, but how much varied between models; the table in the next section shows the authors' worked examples. That study reports logit coefficients for rating (per star), the logarithm of price, the logarithm of review count and each label. These are on different scales, so they cannot be ranked against each other by size or lined up against the hotel and doctor&nbsp;numbers.</p>
+<p>Three cautions apply to every number in this&nbsp;section:</p>
+<ol class="concl"><li><b>Percentage points are not percent.</b> The illustration in <a href="#terms">“Terms used in this brief”</a> shows the difference; it is not a study&nbsp;result.</li><li><b>The effects are average differences relative to a reference level.</b> +31.6 points means that 4.7-star hotel cards were chosen, on average, 31.6 points more often than otherwise comparable 3.9-star cards across the experiment's conditions. It is not a rise from a chance level, and it is not the probability that a real business is&nbsp;recommended.</li><li><b>The effects belong to the levels and settings tested.</b> A 3.9 versus 4.7 rating or a $129 versus $249 room is a design choice, and each experiment ran in a controlled environment with a set of options the researchers defined. Other ranges, live search results and conversations could give different&nbsp;numbers.</li></ol>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">In the hotel and doctor experiments, rating and price had the largest effects among the levels&nbsp;tested.</p><div class="aeo-cols"><div><h3>What the experiments show</h3><p>Rating and price moved AI choices among synthetic&nbsp;cards.</p></div><div><h3>What we recommend from that, which was not itself tested</h3><p>Earn genuine reviews steadily and keep your rating, review count and prices accurate wherever they appear. Consistency across sources was not manipulated in these experiments. This brief does not recommend cutting&nbsp;prices.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry keeps a public record of each business in which every fact carries a reference and a mark showing whether it was confirmed from a known source, submitted by a visitor or reported by an AI engine. A consistent record does not guarantee that every assistant will retrieve it or use it&nbsp;correctly.</p></div></div></aside>
+</section>
+<section id="position-and-labels"><h2>Do list position and labels change which business AI&nbsp;picks?</h2><p class="claim">Yes, in these experiments. List position changed AI choices in all three, and labels changed them in the two that tested labels, by amounts that differed sharply from one AI model to&nbsp;another.</p>
+<p><b>Position.</b> In the hotel experiment, being listed first was worth about $12 per night when results were pooled across models, but most models were close to position-neutral while one was affected an order of magnitude more than the others (published abstract). In the doctor experiment, the doctor listed last lost 6.2 points (published abstract). In the shopping experiment, all three agents favored the top row of the page, but GPT-4.1 favored the first column, Claude Sonnet 4 the two middle columns and Gemini 2.5 Flash the third and fourth. For Claude Sonnet 4, the authors calculate that moving a product from the bottom-right corner, where their model puts its selection rate at 4.5%, to the second or third column of the top row raises that rate about five times (peer-reviewed short&nbsp;paper).</p><p><b>Labels.</b> In the shopping experiment, labels were assigned at random, so their effects are causal within the test. The authors translate their estimates into worked&nbsp;examples:</p>
+<div class="scroll"><table class="data stack"><caption>Authors&#x27; worked example: a product with an illustrative 10% chance of being bought</caption><thead><tr><th scope="col"><span class="vh">Change</span></th><th scope="col" class="n">Claude Sonnet 4</th><th scope="col" class="n">GPT-4.1</th><th scope="col" class="n">Gemini 2.5 Flash</th></tr></thead><tbody><tr><th scope="row">...if given a &quot;Sponsored&quot; label</th><td class="n" data-label="Claude Sonnet 4">8.9%</td><td class="n" data-label="GPT-4.1">8.0%</td><td class="n" data-label="Gemini 2.5 Flash">7.9%</td></tr><tr><th scope="row">...if given an &quot;Overall Pick&quot; label</th><td class="n" data-label="Claude Sonnet 4">24.3%</td><td class="n" data-label="GPT-4.1">19.9%</td><td class="n" data-label="Gemini 2.5 Flash">42.6%</td></tr><tr><th scope="row">...if rated 0.1 stars higher</th><td class="n" data-label="Claude Sonnet 4">15.4%</td><td class="n" data-label="GPT-4.1">20.3%</td><td class="n" data-label="Gemini 2.5 Flash">16.0%</td></tr></tbody></table></div>
+<p class="fine">Source: <a class="cite-link" href="#ref-3">Allouah et al., 2026</a>, peer-reviewed short paper, models tested in August 2025. These probabilities are derived by the authors from their statistical model, starting from an illustrative 10% scenario. They are not rates observed before and after a change to a real&nbsp;product.</p>
+<p>In the hotel experiment, an eco-certification label raised the average probability of being picked by 11.6 points (preprint value). None of the three experiments tested labels that local businesses use, such as board certification, awards or "best of"&nbsp;lists.</p>
+<p><b>Model updates.</b> The same tests run with newer models in December 2025 gave different results: one fitness tracker's share of purchases rose from 45% with Claude Sonnet 4 to 77% with Claude Opus 4.5, and GPT-5.1 no longer favored the top row. These results are reported in the extended preprint; not verified in the published short paper (<a class="cite-link" href="#ref-3">Allouah et al., arXiv 2508.02630&nbsp;v3</a>).</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">In the shopping experiment there was no single top spot, and results shifted with newer&nbsp;models.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Be wary of anyone who promises a fixed position in ChatGPT, Gemini, Claude or Perplexity. Where your business has genuine third-party recognition, state it the same way everywhere, knowing that local badges were not tested in the studies reviewed&nbsp;here.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry records every business an AI answer names, in the order it names them, because the answer's own order is the only ranking an assistant&nbsp;gives.</p></div></div></aside>
+</section>
+<section id="review-replies"><h2>Do replies to reviews make AI recommend a&nbsp;business?</h2><p class="claim">The experiments cannot answer that yet. They tested only a one-line note saying that a business responds to reviews, not what the replies said, and the note made no measurable difference for hotels and a small one for&nbsp;doctors.</p>
+<div class="scroll"><table class="data stack"><caption>The one-line review-response note in the two experiments that tested it</caption><thead><tr><th scope="col">Experiment</th><th scope="col">What the AI saw</th><th scope="col">Effect on the chance of being picked</th><th scope="col">Status</th></tr></thead><tbody><tr><th scope="row">Hotels (<a class="cite-link" href="#ref-1">Baig et al., 2026</a>)</th><td data-label="What the AI saw">"Management responds to guest reviews" or nothing</td><td data-label="Effect on the chance of being picked">+0.11 points (95% interval -0.51 to +0.73); statistically equivalent to zero within ±1.5 points. The published abstract says management response "is ignored".</td><td data-label="Status">Peer-reviewed; the number is from the preprint</td></tr><tr><th scope="row">Doctors (<a class="cite-link" href="#ref-2">Gillani and Baig, 2027</a>)</th><td data-label="What the AI saw">"Practice responds to patient feedback" or nothing</td><td data-label="Effect on the chance of being picked">+2.09 points (95% interval +1.37 to +2.80)</td><td data-label="Status">Peer-reviewed; the number is from the preprint</td></tr></tbody></table></div>
+<p>Neither card showed review text or the reply itself, so neither experiment says anything about whether a careful, specific reply changes how an AI reads a&nbsp;complaint.</p>
+<p>There is good evidence that replies change what people do. When hotels started responding to TripAdvisor reviews, their ratings rose by 0.12 stars and they received 12% more reviews, in a study that compared the same hotels on platforms where they did and did not respond (<a class="cite-link" href="#ref-10">Proserpio and Zervas, 2017</a>). An earlier panel study of 843 hotels found the number of management responses associated with hotel performance (<a class="cite-link" href="#ref-11">Xie, Zhang and Zhang,&nbsp;2014</a>).</p>
+<p>Put together, a plausible chain is that replies lead to better and more reviews, and better and more reviews make AI more likely to pick a business. That chain is a hypothesis. None of the studies reviewed here, and none found in our documented search, tested it from start to finish with an AI&nbsp;assistant.</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">Keep responding for customers; a direct effect of reply content on AI recommendations remains untested in the studies reviewed&nbsp;here.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Keep replying to reviews, specifically and promptly, because people read the replies and the human-side evidence is solid. Treat any effect on AI recommendations as an open&nbsp;question.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry's AI Score counts review response cadence as one input of its Reviews &amp; response signal, alongside star average, review volume, review velocity and how specific the review language&nbsp;is.</p></div></div></aside>
+</section>
+<section id="stated-reasons"><h2>Can you trust an AI's explanation of why it chose a&nbsp;business?</h2><p class="claim">Only partly. In both the hotel and doctor experiments, the reasons AI models gave for a choice matched what actually moved their choices only in part, and some real influences were almost never&nbsp;mentioned.</p>
+<p><b>Hotels.</b> The ranking of factors the models cited agreed with the ranking of factors that moved their choices with correlations of +0.59 to +0.85, depending on the model. List position was cited in 0.7% of reasons or fewer, although it accounted for 4.1% of what moved choices by the study's measure. Brand was cited in up to 55% of one model's reasons while it accounted for 2.0% (preprint, section&nbsp;4.6).</p><p><b>Doctors.</b> Names that signal gender or ethnicity shifted picks, yet gender or ethnicity appeared in 0.03% of stated reasons or fewer, and the models' brief reasons did not mention list position either (published abstract and&nbsp;highlights).</p>
+<aside class="aeo"><div class="aeo-k">AEO&nbsp;takeaway</div><p class="aeo-t">Ask what AI does, not what it&nbsp;says.</p><div class="aeo-cols"><div><h3>What to do</h3><p>Do not treat an assistant's answer to "why did you recommend them?" as a diagnosis. Look at what it actually names, across many answers and several&nbsp;assistants.</p></div><div><h3>How Local AI Registry does it</h3><p>Local AI Registry keeps every captured answer, with a screenshot for ChatGPT and Perplexity, so owners can see what the assistants actually said, not a summary of&nbsp;it.</p></div></div></aside>
+</section>
+<section id="what-owners-control"><h2>What can a business owner influence, and what is out of their&nbsp;control?</h2><p class="claim">Owners can influence several of the signals that moved AI choices in the experiments, such as rating, review volume and how prices are shown, but not position, model updates or how an assistant&nbsp;searches.</p>
+<figure id="what-business-owners-can-influence-in-ai-recommendations" class="fig concept"><img src="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.png" class="fig-d" srcset="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations-1x.png 1000w, /research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.png 2000w" sizes="(max-width: 900px) calc(100vw - 32px), 860px" width="1000" height="947" alt="Conceptual 2x2 figure by Local AI Registry. Columns: mostly outside your control, and you can influence. Rows: tested in the choice experiments, and not tested in these experiments. Tested and influenceable (strongest evidence, choice step only): star rating, review volume and recency, prices shown, certifications (eco label, hotels only), a note that you reply to reviews. Tested but outside your control: list position, AI model and version, chain or independent status, names shown on a profile. Not tested and outside your control: whether the assistant searches the web, which sources it retrieves, how the customer words the question, where the customer asks from. Not tested but influenceable: what replies say, facts that match across sources, own website, listed prices and web mentions (linked to final-answer mentions in two Bali markets), local badges, awards and best-of lists." loading="lazy" decoding="async"><img src="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations-mobile.png" class="fig-m" width="640" height="1531" alt="Conceptual 2x2 figure by Local AI Registry. Columns: mostly outside your control, and you can influence. Rows: tested in the choice experiments, and not tested in these experiments. Tested and influenceable (strongest evidence, choice step only): star rating, review volume and recency, prices shown, certifications (eco label, hotels only), a note that you reply to reviews. Tested but outside your control: list position, AI model and version, chain or independent status, names shown on a profile. Not tested and outside your control: whether the assistant searches the web, which sources it retrieves, how the customer words the question, where the customer asks from. Not tested but influenceable: what replies say, facts that match across sources, own website, listed prices and web mentions (linked to final-answer mentions in two Bali markets), local badges, awards and best-of lists." loading="lazy" decoding="async"><figcaption><span class="pill">Conceptual figure · Local AI Registry synthesis</span> <b>Figure 4. What owners can influence is only partly what has been tested.</b> Conceptual figure, Local AI Registry synthesis: a 2x2 of control and evidence. Placement shows what was tested, not how large an effect&nbsp;is. <span class="dl"><a href="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.svg">SVG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations.png">PNG</a> · <a href="/research/why-ai-chooses-one-business-over-another/images/what-business-owners-can-influence-in-ai-recommendations-mobile.svg">Phone SVG</a></span></figcaption></figure>
+<p>Two points matter for reading this figure. First, the top-right box is the strongest evidence, but it covers only choices among options the researchers supplied, in controlled settings. Second, the bottom-right box holds many of the things owners are usually told to do. Some have observational support, such as the link between an own website, listed prices and being mentioned in AI answers in two Bali markets, but none was manipulated in the controlled experiments reviewed&nbsp;here.</p>
+<p>Ratings should be earned, not bought. Fake reviews and testimonials are prohibited under the US Federal Trade Commission's rule on consumer reviews, adopted in&nbsp;2024.</p>
+</section>
+<section id="open-questions"><h2>What does the research not tell us&nbsp;yet?</h2><p class="claim">The biggest open question for local businesses is which businesses an AI assistant retrieves and mentions when it searches on its own, and&nbsp;why.</p>
+<p>The controlled experiments reviewed here did not test it. Our documented search on 25 November 2026 found observational audits of final-answer mentions and industry studies, but no controlled experiment on local&nbsp;businesses.</p>
+<p>Other questions the studies reviewed here leave&nbsp;open:</p>
+<ol class="concl"><li><b>Does what a reply says matter?</b> Only a one-line note that a business replies was tested, in two&nbsp;experiments.</li><li><b>Do local labels matter?</b> Board certification, awards and "best of" lists were not&nbsp;tested.</li><li><b>Do the results hold in live assistants?</b> The experiments ran in controlled environments with option sets defined by the researchers: synthetic cards for hotels and doctors, and a simulated store for products. Live assistants search the web, read reviews and hold&nbsp;conversations.</li><li><b>Do they hold for other kinds of businesses?</b> The experiments covered hotels, family doctors and everyday products. Dentists, med spas, lawyers and contractors were not&nbsp;covered.</li><li><b>How long do the results last?</b> Results with newer models differed in the shopping study's extended preprint, and every study tested fixed model versions, which providers keep&nbsp;updating.</li></ol>
+</section>
+<section id="in-practice"><h2>What the evidence supports in&nbsp;practice</h2>
+<p>The experimental findings and the practical recommendations are listed separately, because several recommendations go beyond what was&nbsp;tested.</p>
+<div class="scroll"><table class="play stack"><caption>Findings and recommendations, with the type of evidence behind each</caption><thead><tr><th scope="col">Practice we recommend</th><th scope="col">What the studies found</th><th scope="col">Type of evidence behind the recommendation</th></tr></thead><tbody><tr><th scope="row"><b>Earn a strong, genuine rating through service and steady review requests</b></th><td data-label="What the studies found">Rating had the largest effects among the levels tested in the hotel and doctor experiments</td><td data-label="Type of evidence behind the recommendation">Direct AI evidence for the finding; recommending how to earn ratings is practical advice</td></tr><tr><th scope="row"><b>Keep your rating, review count and prices accurate and consistent wherever they appear</b></th><td data-label="What the studies found">Rating, reviews and price moved choices in the experiments; consistency across sources was not manipulated</td><td data-label="Type of evidence behind the recommendation">Practical recommendation derived from the findings; not itself tested</td></tr><tr><th scope="row"><b>Keep an own website and earn mentions elsewhere on the web</b></th><td data-label="What the studies found">Linked to final-answer mentions in two Bali markets</td><td data-label="Type of evidence behind the recommendation">Observational AI evidence (associations)</td></tr><tr><th scope="row"><b>Reply to reviews, specifically and promptly</b></th><td data-label="What the studies found">Replies changed later ratings and review volume for hotels</td><td data-label="Type of evidence behind the recommendation">Human evidence; effect on AI untested in the studies reviewed here</td></tr><tr><th scope="row"><b>Do not pay for promises of a top position in AI answers</b></th><td data-label="What the studies found">Position effects differed by model in all three experiments, and by model version in the shopping study's extended preprint</td><td data-label="Type of evidence behind the recommendation">Direct AI evidence</td></tr><tr><th scope="row"><b>Judge AI visibility across many answers, not one</b></th><td data-label="What the studies found">AI answers vary from one run to the next</td><td data-label="Type of evidence behind the recommendation">Prior Local AI Registry research brief (<a href="/research/how-often-ai-recommends-your-business">How Often AI Recommends Your Business</a>)</td></tr></tbody></table></div>
+</section>
+<section id="ai-score"><h2>Where does the Local AI Registry AI Score&nbsp;fit?</h2><p class="claim">The AI Score is a separate diagnostic tool, not a finding of these&nbsp;studies.</p>
+<p>Local AI Registry's free AI Score is a number from 0 to 100 that describes how findable and recommendable a business is to AI assistants such as ChatGPT, Gemini, Claude and Perplexity, including whether it is named for the right&nbsp;service.</p>
+<p>The score combines eight published signals with fixed weights. The two heaviest, retrieval grounding (26%) and off-property attestation (20%), form what Local AI Registry calls the retrieval tier, 46% of the score. Reviews &amp; response (12%) combines several inputs: star average, review volume, review velocity, how specific the review language is, and response cadence. The published methodology overview is on the <a href="https://localairegistry.com/methodology">methodology&nbsp;page</a>.</p>
+<p>The AI Score is different from how often a business is actually named in AI answers, which Local AI Registry measures separately through monthly answer captures. It is not a calibrated probability. The experiments in this brief neither test nor validate it: they studied choices among options the researchers supplied in controlled settings, while the score's retrieval tier describes whether AI can retrieve a business at&nbsp;all.</p>
+</section>
+<section id="aeo-services"><h2>Who provides AEO services for local&nbsp;businesses?</h2>
+<p>Local AI Registry (localairegistry.com) is an answer engine optimization (AEO) company for local businesses, based in Irvine, California. What its site describes today&nbsp;includes:</p>
+<p><b>Free registry lookup and AI Score.</b> Anyone can look up a business at <a href="https://localairegistry.com/search">localairegistry.com/search</a> and see its AI Score, and registering a business to see the full breakdown is free. On a business page, each fact is marked as confirmed from a named source, submitted by a visitor, or an AI guess, and each mark points to a dated&nbsp;reference.</p><p><b>AI visibility monitoring.</b> For businesses it monitors, monthly captures of what ChatGPT, Perplexity and Gemini answer to the business's chosen questions, with screenshots for ChatGPT and&nbsp;Perplexity.</p><p><b>Other services listed on the site.</b> Google Business Profile, reviews, directory listings, press releases, SEO and website&nbsp;work.</p>
+<p>Local AI Registry publishes its research openly, including this brief, so business owners can see the evidence behind its&nbsp;methods.</p>
+</section>
+<section id="faq"><h2>Frequently asked questions</h2><div class="qa"><h3>How does ChatGPT decide which business to&nbsp;recommend?</h3><p>No one outside OpenAI can see how ChatGPT works inside. Research reviewed by Local AI Registry shows that when AI models chose among options researchers supplied, star rating and price had the largest effects among the levels tested in hotel and doctor experiments. Which businesses an assistant retrieves and mentions when it searches on its own has not been tested in a controlled experiment that we&nbsp;found.</p></div><div class="qa"><h3>Do star ratings affect whether AI recommends my&nbsp;business?</h3><p>In the hotel and doctor experiments, yes, among the levels tested. A 4.7 rather than a 3.9 rating raised the average probability that AI models picked a hotel by 31.6 percentage points and a family doctor by 31.4 points. In a census of venues in two Bali markets, a higher rating was associated with being named first among the venues mentioned, not with being mentioned at&nbsp;all.</p></div><div class="qa"><h3>Does responding to reviews help my business get recommended by&nbsp;AI?</h3><p>These studies do not establish whether the content of real owner replies improves AI recommendations. A flag indicating that a business responds had no measurable effect in the hotel experiment and a small positive effect in the doctor experiment (+2.1 percentage points, preprint estimate). Neither experiment tested the replies themselves. Separate research on human reviewers found that hotels that began responding gained 0.12 stars and 12% more reviews; whether that pathway subsequently changes AI recommendations has not been&nbsp;tested.</p></div><div class="qa"><h3>Does being listed first help a business get picked by&nbsp;AI?</h3><p>Often in these experiments, but not reliably. List position changed AI choices in all three experiments, but the size of the effect differed between AI models, and in the shopping study's extended preprint the pattern changed with newer models. Owners cannot control where an assistant lists&nbsp;them.</p></div><div class="qa"><h3>Will lowering my prices make AI recommend my&nbsp;business?</h3><p>The studies reviewed here do not show that. AI models chose cheaper options more often among options the researchers supplied, but none of these studies tested what a real price change does for a real business, and price is a business decision with many other&nbsp;effects.</p></div><div class="qa"><h3>Do badges and certifications help with AI&nbsp;recommendations?</h3><p>In the experiments, some did. An eco-certification raised AI hotel picks by 11.6 points on average (preprint value), and an "Overall Pick" label raised AI shopping picks sharply. Labels that local businesses use, such as board certification or awards, were not tested in the studies reviewed&nbsp;here.</p></div><div class="qa"><h3>Can I ask ChatGPT why it did not recommend my&nbsp;business?</h3><p>You can, but the answer is weak evidence. In the hotel and doctor experiments, the reasons AI models gave matched what actually moved their choices only in part, and some real influences, such as list position, were almost never&nbsp;mentioned.</p></div><div class="qa"><h3>How do I get my business recommended by ChatGPT, Gemini, Claude or&nbsp;Perplexity?</h3><p>Start with what the studies found, and keep findings and advice apart. In the hotel and doctor experiments, rating and price had the largest effects among the levels tested, so a strong, genuine rating matters. From that, we recommend keeping your rating, review count, prices and other facts accurate and consistent wherever AI may look, and keeping an own website that states them clearly; consistency itself was not tested, and the website link comes from an observational study of two Bali markets. Then measure how often AI names you across many answers. Local AI Registry, a free AEO directory for local businesses, lets anyone look up a business and its AI Score&nbsp;at <a href="https://localairegistry.com/search">localairegistry.com/search</a>.</p></div><div class="qa"><h3>Is the AI Score the same as how often AI recommends my&nbsp;business?</h3><p>No. The Local AI Registry AI Score is a 0 to 100 diagnostic of how findable and recommendable a business is to AI assistants. How often a business is actually named is measured separately, by asking the assistants real questions and counting the&nbsp;answers.</p></div><div class="qa"><h3>Can AEO guarantee that AI will recommend my&nbsp;business?</h3><p>None of the studies reviewed here shows an intervention that guarantees a recommendation. They show which details moved AI choices in controlled tests, not that a particular change will bring recommendations or customers to a particular&nbsp;business.</p></div></section>
+<section id="method"><h2>How we did this research</h2><p>This brief is an editorial synthesis of published research. Local AI Registry did not collect any of the data, rerun any experiment or recalculate any result; every number belongs to the original&nbsp;authors.</p><p><b>Selection.</b> We screened recent research on how AI models choose between businesses and kept randomized experiments in which the details of competing options were varied at random, because random assignment allows causal estimates of the manipulated attributes within each experimental task. Three met that bar: a hotel experiment and a companion doctor experiment by the same team, both using synthetic cards, and an AI shopping experiment in a simulated store built from real product information taken from Amazon, with product images and experimentally altered attributes. Observational audits and studies of human shoppers are used as context and labelled as&nbsp;such.</p><p><b>Versions.</b> The hotel study was peer-reviewed and published in Information Technology &amp; Tourism on 23 October 2026, after a revision in September 2026. Its full text is behind a paywall, so numbers beyond the published abstract come from the June 2026 preprint and are marked as preprint values in the text, figures and FAQ. The same applies to the doctor study (International Journal of Medical Informatics). The shopping study's peer-reviewed four-page paper at the ACM Web Conference 2026 is free to read and was read in full; it reports models tested in August 2025. Results for models tested in December 2025 are reported in the extended preprint and were not verified in the published short&nbsp;paper.</p><p><b>Omissions.</b> The hotel preprint contains small inconsistencies we could not resolve without the journal text: the number of models in the panel differs between its text and tables, and one price-equivalent appears with two values. We therefore leave out the exact panel size and the study's dollar values, except the roughly $12 position value in the published&nbsp;abstract.</p><p><b>Disclosures.</b> Two of the three hotel-study authors, and one of the two doctor-study authors (according to its preprint), are affiliated with Fandaqah, a hospitality and technology company. Two of the five shopping-study authors, Amine Allouah and Josué D. Figueroa, are affiliated with MyCustomAI; the others are at Columbia Business School and Yale University. The Bali census was funded and conducted by Norly, an AI-visibility vendor, and the stage-model preprint by Tannenbaum comes from the founder of Aiso Boost, an AI-search measurement&nbsp;company.</p><p><b>Search.</b> Literature searches were run up to 25 November 2026, including a documented search for controlled studies of which local businesses AI assistants retrieve or&nbsp;mention.</p></section>
+<section id="limits"><h2>Limits of this research</h2><ul><li>The journal full texts of the hotel and doctor studies were not available to us (paywalled; not purchased). Numbers beyond their published abstracts come from the preprints, which predate peer review, and are labelled as preprint values. The final journal versions may&nbsp;differ.</li><li>Several preprint inconsistencies in the hotel study could not be resolved without the journal text, so the exact panel size and most dollar values are left&nbsp;out.</li><li>All three experiments ran in controlled environments with option sets defined by the researchers. The hotel and doctor studies used short synthetic cards without photos or review text; the shopping study used a simulated store page with real product information and images. Live assistants search the web, read review text and hold&nbsp;conversations.</li><li>The experiments covered hotels, family doctors and everyday products, with prices in US dollars. Other categories, languages and countries may behave&nbsp;differently.</li><li>Effect sizes are average differences relative to a reference level, and they depend on the levels each study chose, such as 3.9 versus 4.7 stars. They are not a business's real chance of being&nbsp;recommended.</li><li>The hotel and doctor studies share authors and design, so their agreement is not independent&nbsp;confirmation.</li><li>The shopping study reports logit coefficients, which cannot be compared in size with the percentage-point effects of the other two, or with each other across attributes. We compare only&nbsp;directions.</li><li>The Bali census measured mentions in final answers and first position among names, in two markets (Canggu and Ubud), for its queries and collection period. It shows associations, not causes, and it does not show which venues assistants retrieved&nbsp;internally.</li><li>Local AI Registry did not rerun any analysis, recompute any result or obtain the studies' data; this brief reports the authors' published&nbsp;estimates.</li><li>AI models change. Each study is a record of specific model versions at one point in&nbsp;time.</li><li>Which local businesses an assistant retrieves or mentions on its own remains untested in the controlled experiments reviewed&nbsp;here.</li></ul></section>
+<section id="references"><h2>References</h2><h3>Controlled experiments</h3><ol class="refs" start="1"><li id="ref-1">Baig, M. S. A., Gillani, S. A., &amp; Ali IkramUllah, A. (2026). Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection. <i>Information Technology &amp; Tourism</i>, 28, Article 77. <a href="https://doi.org/10.1007/s40558-026-00417-8">doi.org/10.1007/s40558-026-00417-8</a>. Peer-reviewed.&nbsp;Preprint: <a href="https://arxiv.org/abs/2606.16344">arXiv:2606.16344</a>.</li><li id="ref-2">Gillani, S. A., &amp; Baig, M. S. A. (2027). Whose doctor does the AI recommend? An algorithm audit of reputation and name-based demographic signals in large language model-assisted physician choice. <i>International Journal of Medical Informatics</i>, 223, 106764. <a href="https://doi.org/10.1016/j.ijmedinf.2026.106764">doi.org/10.1016/j.ijmedinf.2026.106764</a>. Peer-reviewed.&nbsp;Preprint: <a href="https://arxiv.org/abs/2608.14399">arXiv:2608.14399</a>.</li><li id="ref-3">Allouah, A., Besbes, O., Figueroa, J. D., Kanoria, Y., &amp; Kumar, A. (2026). What is your AI agent buying? Evaluation, biases, model dependence, &amp; emerging implications of agentic e-commerce. In <i>Proceedings of the ACM Web Conference 2026</i> (pp. 8697-8700). ACM. <a href="https://doi.org/10.1145/3774904.3792943">doi.org/10.1145/3774904.3792943</a>. Peer-reviewed short paper. Extended&nbsp;preprint: <a href="https://arxiv.org/abs/2508.02630">arXiv:2508.02630</a>.</li></ol><h3>Observational and related AI studies</h3><ol class="refs" start="4"><li id="ref-4">Pitenin, V. (2026). Invisible to the machine: Auditing AI restaurant, café, and bar recommendation against a complete market census. <a href="https://arxiv.org/abs/2608.07069">arXiv:2608.07069</a>. Preprint, not peer-reviewed; funded and conducted by&nbsp;Norly.</li><li id="ref-5">Ibrahim, H., &amp; Zaki, Y. (2026). Understanding AI provider recommendations in local service markets. <a href="https://arxiv.org/abs/2609.18341">arXiv:2609.18341</a>. Preprint, not&nbsp;peer-reviewed.</li><li id="ref-6">Jin, H., Zeng, H., Luo, Y., &amp; Wang, H. (2026). Controlling output rankings in LLM-based search via generative engine optimization. <a href="https://arxiv.org/abs/2602.03608">arXiv:2602.03608</a>. Preprint, not&nbsp;peer-reviewed.</li><li id="ref-7">Wadi, D., &amp; Ma, Y. (2026). Does rank still matter? Position bias when AI agents shop on our behalf. <a href="https://arxiv.org/abs/2608.22697">arXiv:2608.22697</a>. Preprint, not&nbsp;peer-reviewed.</li><li id="ref-8">Tannenbaum, B. (2026). From prompt to recommendation: A fitted stage model of brand visibility in AI search. <a href="https://arxiv.org/abs/2609.23162">arXiv:2609.23162</a>. Preprint, not peer-reviewed; the author leads Aiso Boost, an AI-search measurement&nbsp;company.</li></ol><h3>Studies of human consumers</h3><ol class="refs" start="9"><li id="ref-9">Ursu, R. M. (2018). The power of rankings: Quantifying the effect of rankings on online consumer search and purchase decisions. <i>Marketing Science</i>, 37(4),&nbsp;530-552. <a href="https://doi.org/10.1287/mksc.2017.1072">doi.org/10.1287/mksc.2017.1072</a>.</li><li id="ref-10">Proserpio, D., &amp; Zervas, G. (2017). Online reputation management: Estimating the impact of management responses on consumer reviews. <i>Marketing Science</i>, 36(5),&nbsp;645-665. <a href="https://doi.org/10.1287/mksc.2017.1043">doi.org/10.1287/mksc.2017.1043</a>.</li><li id="ref-11">Xie, K. L., Zhang, Z., &amp; Zhang, Z. (2014). The business value of online consumer reviews and management response to hotel performance. <i>International Journal of Hospitality Management</i>, 43,&nbsp;1-12. <a href="https://doi.org/10.1016/j.ijhm.2014.07.007">doi.org/10.1016/j.ijhm.2014.07.007</a>.</li></ol><h3>Regulation and Local AI Registry sources</h3><ol class="refs" start="12"><li id="ref-12">U.S. Federal Trade Commission. (2024). Trade Regulation Rule on the Use of Consumer Reviews and Testimonials, 16 CFR Part 465. <i>Federal Register</i>, 89, 68034 (22 August&nbsp;2024). <a href="https://www.federalregister.gov">federalregister.gov</a>.</li><li id="ref-13">Local AI Registry Research Team. (2026). How often AI recommends your business: A better measure of local&nbsp;visibility. <a href="/research/how-often-ai-recommends-your-business">localairegistry.com/research/how-often-ai-recommends-your-business</a>.</li><li id="ref-14">Local AI Registry. (2026). Methodology: How the AI Score is&nbsp;built. <a href="https://localairegistry.com/methodology">localairegistry.com/methodology</a>.</li></ol><p class="fine">The findings described in this brief belong to the original authors. Local AI Registry selected, grouped and explained them, and made the figures. Figures 1 and 4 are conceptual figures of our&nbsp;own.</p></section>
+<section id="cite"><h2>How to cite this research</h2><pre class="cite">Local AI Registry Research Team (2026). Why AI Chooses One Business Over Another: What Three Controlled Experiments Show (LAIR-R-2026-005). Local AI Registry. https://localairegistry.com/research/why-ai-chooses-one-business-over-another</pre><p>Figures 2 and 3 have a “Data behind this chart” table, and their values are available as a <a href="/research/why-ai-chooses-one-business-over-another/data/why-ai-chooses-one-business-over-another-data.csv">CSV download</a>. Every value is the original authors’ published&nbsp;estimate.</p></section>
+<section id="authors" class="author"><h2>About the author</h2><p>The Local AI Registry Research Team is the research group of Local AI Registry, an answer engine optimization company for local businesses based in Irvine, California. It publishes studies on how AI assistants such as ChatGPT, Gemini, Claude and Perplexity find and describe local&nbsp;businesses.</p></section>
+<aside class="aeo closing"><div class="aeo-k">One last&nbsp;thing</div><p class="aeo-t">AI is evolving every day. So is our&nbsp;playbook.</p>
+<p>The engines change how they find, read and cite local businesses constantly, and what worked last quarter may not work next quarter. At Local AI Registry, our dedicated local AI research team keeps testing what works, so the businesses we serve always get the current best&nbsp;approach.</p></aside>
+</article>
+
+</main><!--chrome-foot--><div class="sitefoot" role="contentinfo"><div class="sf-in">
+<div class="sf-brand"><img src="/research/local-answer-gap/images/local-ai-registry-logo.svg" alt="Local AI Registry" width="170" height="21" loading="lazy">
+<p>Local AI Registry helps local businesses get found and described accurately by AI. Its dedicated local AI research team publishes original research here, free to use with&nbsp;credit.</p>
+<p class="sf-addr">9891 Irvine Center Dr, Irvine, CA 92618 · <a href="tel:+12139315633">(213)&nbsp;931-5633</a></p></div>
+<nav class="sf-col" aria-label="Research"><h2>Research</h2><ul><li><a href="/research#library">Library</a></li><li><a href="/research/why-ai-chooses-one-business-over-another">Why AI Chooses One Business Over Another</a></li><li><a href="/research/local-ai-trends">LocalAITrends</a></li><li><a href="/research/med-spa-search-signals">Med Spa Search Signals</a></li><li><a href="/research/how-often-ai-recommends-your-business">How Often AI Recommends Your Business</a></li><li><a href="/research#research-team">Research team</a></li><li><a href="/research/why-ai-chooses-one-business-over-another#cite">How to cite</a></li><li><a href="/research/llms.txt">llms.txt</a></li></ul></nav>
+<nav class="sf-col" aria-label="Local AI Registry"><h2>Local AI Registry</h2><ul><li><a href="https://localairegistry.com">Home</a></li><li><a href="https://localairegistry.com/leaderboards">Leaderboards</a></li><li><a href="https://localairegistry.com/discover">Discover</a></li><li><a href="https://localairegistry.com/methodology">Methodology</a></li><li><a href="https://localairegistry.com/pricing">Pricing</a></li><li><a href="https://localairegistry.com/search">Find and claim your business</a></li><li><a href="https://localairegistry.com/help">Help</a></li><li><a href="https://localairegistry.com/contact">Contact</a></li></ul></nav>
+<nav class="sf-col" aria-label="Follow Local AI Registry"><h2>Follow</h2><ul><li><a href="https://www.linkedin.com/company/local-ai-registry">LinkedIn</a></li><li><a href="https://www.youtube.com/@localairegistry">YouTube</a></li><li><a href="https://x.com/LocalAIRegistry">X</a></li><li><a href="https://www.instagram.com/localairegistry/">Instagram</a></li><li><a href="https://www.facebook.com/profile.php?id=61591432116527">Facebook</a></li><li><a href="https://www.tiktok.com/@localairegistry">TikTok</a></li><li><a href="https://pinterest.com/localairegistry">Pinterest</a></li><li><a href="https://www.crunchbase.com/organization/local-ai-registry">Crunchbase</a></li><li><a href="https://www.trustpilot.com/review/localairegistry.com">Trustpilot</a></li></ul></nav>
+</div><div class="sf-legal">© 2026 Local AI Registry. Research licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div></div><!--/chrome-foot--></body></html>
